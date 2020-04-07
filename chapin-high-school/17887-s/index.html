@@ -1,0 +1,4044 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+      (function(){
+        window.beginTimeTrack = (new Date()).getTime();
+      })();
+    </script>
+<title>Chapin High School - Chapin, South Carolina | RateMyTeachers.com</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":625,"agentToken":null,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(15)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(15)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(15)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){g.push(t),h&&(b?b.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(15)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,y="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(y,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===y||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=o(l+e,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(p+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],15:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!l.aborted||i){t&&t(n,r,o);for(var a=e(o),c=h(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[w[n]];return d&&d.push([g,n,r,a]),a}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",w[n]=e,e in u||(u[e]=[])})}var y={},w={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(w,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){s("mark",["domContent",a()+x.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-x.offset}var c=(new Date).getTime(),s=t("handle"),f=t(12),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:c,now:a,origin:y,features:{},xhrWrappable:g};t(9),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),s("mark",["firstbyte",c],null,"api");var b=0,E=t(14)},{}]},{},["loader",2,7]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+<meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw"/>
+<meta name="description" content="Chapin High School is a High School in Chapin, SC. Search Chapin High School&#39;s ratings, statistics and reviews by students and parents."/>
+<meta property="twitter:image" content="http://www.ratemyteachers.com/images/logo_icon_60.png"/>
+<meta property="og:image" content="http://www.ratemyteachers.com/images/logo_icon_100.png"/>
+<meta property="og:title" content="Chapin High School - Chapin, South Carolina | RateMyTeachers.com"/>
+<meta property="og:type" content="rmt:school"/>
+<meta property="og:url" content="http://www.ratemyteachers.com/chapin-high-school/17887-s"/>
+<meta property="og:site_name" content="Chapin High School - Chapin, South Carolina | RateMyTeachers.com"/>
+<meta property="og:description" content="Chapin High School is a High School in Chapin, SC. Search Chapin High School's ratings, statistics and reviews by students and parents."/>
+<meta name="robots" content="noodp,noydir"/>
+<meta property="rmt:image" content="http://www.ratemyteachers.com/apple_touch_icon_196x196.png"/>
+
+<link rel="shortcut icon" sizes="64x64 48x48 32x32 16x16" type="image/x-icon" href="/favicon.ico"/>
+<link rel="apple-touch-icon" href="/apple_touch_icon_60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple_touch_icon_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple_touch_icon_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple_touch_icon_152x152.png">
+<link rel="apple-touch-icon-precomposed" href="/apple_touch_icon_196x196.png"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+<link href="/assets/application-8f34b7246c4006713b4fb0b0c5f281b6.css" media="all" rel="stylesheet"/>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+<script type="text/javascript">
+    var currentState = '';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:     true,
+    debugMode:           false,
+    asyncScripts:        true
+  };
+
+
+  function getWindowWidth() {
+    var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) === 'number' ) {
+      myWidth = window.innerWidth; myHeight = window.innerHeight;
+    } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+      myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+      myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+    }
+    return myWidth;
+  }
+
+  var isDesktopVariant = true;
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isExtraSmall = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false);
+  var isMobile = isExtraSmall || isMobileVariant;
+  var isMedium = (getWindowWidth() < 1200) || (screen ? screen.width < 1200 : false);
+
+
+  var isChrome = navigator.userAgent.indexOf('Chrome') > -1;
+  var isExplorer = navigator.userAgent.indexOf('MSIE') > -1;
+  var isFirefox = navigator.userAgent.indexOf('Firefox') > -1;
+  var isSafari = navigator.userAgent.indexOf("Safari") > -1;
+  var isOpera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
+  if ((isChrome)&&(isSafari)) {isSafari=false;}
+  if ((isChrome)&&(isOpera)) {isChrome=false;}
+
+  var enablePropel    = !isSafari && !isOpera && false;
+  var enableMediabong = !isSafari && !isOpera;
+  var enableBrightComedia = !isSafari && !isOpera;
+
+  var isMobileUpload = false;
+
+    var cseData = {
+      isCseSearch: true
+      ,paramFormat: '%{search_term}%{location}'
+      ,stateList: [{"name":"Alaska","shortname":"ak"},{"name":"Alabama","shortname":"al"},{"name":"Arkansas","shortname":"ar"},{"name":"Arizona","shortname":"az"},{"name":"California","shortname":"ca"},{"name":"Colorado","shortname":"co"},{"name":"Connecticut","shortname":"ct"},{"name":"Dc","shortname":"dc"},{"name":"Delaware","shortname":"de"},{"name":"Florida","shortname":"fl"},{"name":"Georgia","shortname":"ga"},{"name":"Hawaii","shortname":"hi"},{"name":"Iowa","shortname":"ia"},{"name":"Idaho","shortname":"id"},{"name":"Illinois","shortname":"il"},{"name":"Indiana","shortname":"in"},{"name":"Kansas","shortname":"ks"},{"name":"Kentucky","shortname":"ky"},{"name":"Louisiana","shortname":"la"},{"name":"Massachusetts","shortname":"ma"},{"name":"Maryland","shortname":"md"},{"name":"Maine","shortname":"me"},{"name":"Michigan","shortname":"mi"},{"name":"Minnesota","shortname":"mn"},{"name":"Missouri","shortname":"mo"},{"name":"Mississippi","shortname":"ms"},{"name":"Montana","shortname":"mt"},{"name":"North Carolina","shortname":"nc"},{"name":"North Dakota","shortname":"nd"},{"name":"Nebraska","shortname":"ne"},{"name":"New Hampshire","shortname":"nh"},{"name":"New Jersey","shortname":"nj"},{"name":"New Mexico","shortname":"nm"},{"name":"Nevada","shortname":"nv"},{"name":"New York","shortname":"ny"},{"name":"Ohio","shortname":"oh"},{"name":"Oklahoma","shortname":"ok"},{"name":"Oregon","shortname":"or"},{"name":"Pennsylvania","shortname":"pa"},{"name":"Puerto Rico","shortname":"pr"},{"name":"Rhode Island","shortname":"ri"},{"name":"South Carolina","shortname":"sc"},{"name":"South Dakota","shortname":"sd"},{"name":"Tennessee","shortname":"tn"},{"name":"Texas","shortname":"tx"},{"name":"Utah","shortname":"ut"},{"name":"Virginia","shortname":"va"},{"name":"Vermont","shortname":"vt"},{"name":"Washington","shortname":"wa"},{"name":"Wisconsin","shortname":"wi"},{"name":"West Virginia","shortname":"wv"},{"name":"Wyoming","shortname":"wy"}]
+    };
+
+
+  // Search autocomplete widget
+  var searchAutocompleteHTML = "<div class=\'desktop search_autocomplete_widget\'>\n<div class=\'autocomplete_teachers\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-user\'><\/i>\nTeachers and Professors\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_school_name\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nTeachers and Professors\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<div class=\'autocomplete_schools\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-university\'><\/i>\nSchools and Colleges\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_address\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nSchools and Colleges\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<\/div>\n";
+</script>
+<script type="text/javascript">
+  // Async functions variable
+  functionToLoad = [];
+  
+  // Fastest way to check if an object is an array
+  functionToLoad.isArrayObj = function(obj) {
+    return !!obj && obj.constructor === Array;
+  };
+  
+  // Extract data from an element
+  functionToLoad.extractElementData = function(elementData) {
+    var data = {
+      element: elementData
+      ,async: false
+      ,subElements: []
+    };
+    
+    // The element is an array, check for async option
+    if (this.isArrayObj(elementData) && elementData.length > 0) {
+      data.async = !!elementData[1];
+      data.element = elementData[0];
+      data.subElements = elementData[2] || [];
+    }
+    return data;
+  };
+  
+  // Wrap push functionality
+  functionToLoad.realPush = functionToLoad.push;
+  functionToLoad.executePush = function(args) {
+    var data = this.extractElementData(args);
+
+    // Inject script tag on inplace
+    if (typeof data.element === 'string') {
+      // Inject external file
+      document.write('<script type="text/javascript" src="' + data.element + '"><\/script>');
+    } else {
+      // Inject function
+      document.write('<script type="text/javascript">(');
+      document.write(data.element.toString());
+      document.write(')();<\/script>');
+    }
+    
+    // Execute child scripts
+    if (data.subElements.length > 0) {
+      this.executePush(data.subElements);
+    }
+  };
+  functionToLoad.push = function(args) {
+    if (siteConfig.asyncScripts) {
+      if (siteConfig.debugMode) { console.log('Async Script'); }
+      
+      // Async scripts so add it to array for later execution
+      this.realPush(args);
+      return;
+    }
+    if (siteConfig.debugMode) { console.log('Sync Script'); }
+    
+    // No async scripts, execute it right away
+    this.executePush(args);
+  };
+</script>
+<script type="text/javascript">_googlePush = function(a) {};</script>
+<script type="text/javascript">
+  functionToLoad.push('//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js');
+  functionToLoad.push('//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js');
+</script>
+<script>
+      functionToLoad.push(function() {
+        gaId = 'UA-4216499-1';
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', gaId, 'auto');
+        ga('require', 'displayfeatures');
+        //ga('require', 'ecommerce', 'ecommerce.js');
+      });
+    </script>
+<script type="text/javascript">
+  functionToLoad.push('/assets/rmt.analytics-833eb75f283313dde59926cd5939692a.js');
+</script>
+<script>
+  functionToLoad.push(function(){
+    pageType = "";
+    RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+    searchTerm = "";
+  });
+</script>
+<script type="text/javascript">
+    // Returns a function, that, as long as it continues to be invoked, will not
+    // be triggered. The function will be called after it stops being called for
+    // N milliseconds. If `immediate` is passed, trigger the function on the
+    // leading edge, instead of the trailing.
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+</script>
+<script type="text/javascript">
+    var _session = {};
+  </script>
+<link href="http://www.ratemyteachers.com/chapin-high-school/17887-s.rss" rel="alternate" type="application/rss+xml">
+<meta content="authenticity_token" name="csrf-param"/>
+<meta content="5IIVoZtcWRIOQMjKThCnc84yGCQymM8gkyv2EpSjBx8=" name="csrf-token"/>
+</head>
+
+<body class="inner_page school_page schools_v12_1
+">
+<div id="fb-root"></div>
+<div class="rate_my_teachers_international">
+<div class="container">
+<div class="row">
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+<div class="pull-right user_top_nav"></div>
+</div>
+</div>
+</div>
+<header>
+<div class="container">
+<div class="row">
+<form action="/search_page" class="tab-form search_form trigger_to_main_search" method="get">
+<a alt="Go to RateMyTeachers Home" href="/" id="rate_my_teachers_logo" title="Go to RateMyTeachers Home"></a>
+<input name="search" type="hidden" value="teachers">
+<div class="search_inputs">
+<div class="bg">
+<div class="padding">
+<input class="search_input" name="q" placeholder="Search: School Name, City" type="text">
+</div>
+<div class="location">
+<select class="state" id="state" name="state"><option value>Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class="search_button">
+<button class="btn-search fa fa-search fa-3x" title="Search RateMyTeachers" type="submit"></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+<div class="container-fluid main-content">
+<div class="row">
+<section class="breadcrumbs container-fluid">
+<div class="row">
+<div class="container">
+<div class="col-sm-12">
+<ul class="list-inline collapsible_nav collapsible_nav_collapsed">
+<li class="toggle">
+<a href="javascript:void(0);" rel="nofollow">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li class="collapse">
+<a href="/" title="Go to RateMyTeachers Home">United States</a>
+</li>
+<li class="always_show">
+<a alt="Go to Schools in South Carolina" href="/south-carolina" title="Go to Schools in South Carolina">South Carolina</a>
+</li>
+<li class="collapse">
+<a alt="Go to Schools in Chapin" href="/south-carolina/chapin" title="Go to Schools in Chapin">Chapin</a>
+</li>
+<li class="always_show">
+
+<a alt="View Chapin High School's Teachers" href="/chapin-high-school/17887-s" title="View Chapin High School's Teachers">Chapin High School</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_teacher_trigger" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=17887" data-school="Chapin High School" data-sender-name="School page breadcrumb" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher">Add My Teacher</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=17887" data-school="Chapin High School" data-sender-name="School page breadcrumb" data-target="#modal_rating" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Rate My School">Rate My School</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<div class="container flash_container">
+<div class="row">
+<div class="col-xs-12">
+<div class="alert alert-danger" id="flash-error" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-warning" id="flash-alert" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-success" id="flash-success" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-info" id="flash-notice" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+</div>
+</div>
+</div>
+<div id="content">
+<span class="dn" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/south-carolina" itemprop="url">
+<span itemprop="title">South Carolina</span>
+</a>
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/south-carolina/chapin" itemprop="url">
+<span itemprop="title">Chapin</span>
+</a>
+</span>
+</span>
+<div id="sortable_ad_trigger"></div>
+<div class="container" itemscope itemtype="http://schema.org/ProfilePage">
+<meta content="2017-08-28" itemprop="dateModified">
+
+<div class="dn" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+<meta content="333" itemprop="ratingCount">
+<meta content="333" itemprop="reviewCount">
+<meta content="4.12957" itemprop="ratingValue">
+<meta content="5" itemprop="bestRating">
+<meta content="0" itemprop="worstRating">
+</div>
+<div class="row">
+<section class="col-md-12 content" itemprop="about" itemscope itemtype="http://schema.org/School">
+<div class="row secondary_data">
+<div class="col-xs-12 col-lg-9 primary_column">
+<div class="row school_info">
+<div class="col-xs-12 col-sm-7 main_info">
+<div class="row">
+<div class="col-xs-12">
+<div class="school_name">
+<h1 title="Chapin High School">
+<span itemprop="name">
+Chapin High School
+</span>
+<div class="school_actions" data-name="Chapin High School" data-sid="17887" data-status="0" style="display:none;"></div>
+</h1>
+<a class="edit school_correction_trigger" data-backdrop="static" data-keyboard data-remote="/schools/correction?sid=17887" data-school="Chapin High School" data-sender-name="School page Main" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit a Correction">
+Edit
+</a>
+</div>
+<div class="score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 90.851px;"></div>
+</div>
+</div>
+Average
+4.13
+based on
+333
+teacher ratings
+</div>
+<div class="description">
+<strong>Chapin High School</strong>
+is a
+public
+high school located in
+Chapin, South Carolina and part of Lexington 05 School District.
+Chapin High School is ranked
+48
+in South Carolina.
+<a href="/chapin-high-school/17887-s/stats" target="_blank">
+Learn More
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 details">
+<div class="aux">
+<h2 class="detail_item rate_school">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=17887" data-sender-name="School page Main" data-target="#modal_rating" data-teacher="Chapin High School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Chapin High School">
+<i class="fa fa-institution"></i>
+<span class="value">Rate Chapin High School</span>
+</a>
+</h2>
+<div class="detail_item address">
+<a href="https://www.google.com/maps/search/300%20Columbia%20Ave%2C%20Chapin%2C%20South%20Carolina%2029036%2C%20Chapin%2C%20South%20Carolina%2C%2029036%2C%20United%20States" target="_blank" title="300 Columbia Ave, Chapin, South Carolina 29036">
+<i class="fa fa-map-marker"></i>
+<span class="value">300 Columbia Ave, Chapin, South Carolina 29036</span>
+</a>
+</div>
+<div class="detail_item phone">
+<a class="school_phone_trigger" data-phone="8035755400" href="javascript:void(0);">
+<i class="fa fa-phone"></i>
+<span itemprop="telephone">803-575-5400</span>
+</a>
+</div>
+<h2 class="detail_item district">
+<i class="fa fa-map"></i>
+Lexington 05 School District
+</h2>
+<div class="detail_item website">
+<a href="http://www.lex5.k12.sc.us/chs" rel="nofollow" target="_blank" title="http://www.lex5.k12.sc.us/chs">
+<i class="fa fa-globe"></i>
+<span itemprop="url">http://www.lex5.k12.sc.us/chs</span>
+</a>
+</div>
+<div class="enrollment">
+<div class="detail_item student">
+<i class="fa fa-graduation-cap"></i>
+1,217
+Students
+Enrolled
+</div>
+<div class="detail_item gender">
+<i class="fa fa-pie-chart"></i>
+617
+Male
+|
+600
+Female
+</div>
+</div>
+</div>
+<span class="dn" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">300 Columbia Ave</span>
+<span itemprop="addressLocality">Chapin</span>
+<span itemprop="addressRegion">SC</span>
+<span itemprop="postalCode">29036</span>
+</span>
+</div>
+</div>
+<div class="school_content">
+<div class="sticky_container_center">
+<div class="sticky_column">
+<div class="row">
+<div class="col-xs-12">
+<div class="filter_section">
+<div class="row subtitle">
+<div class="col-xs-6">
+<h2 class="active">
+<a href="http://www.ratemyteachers.com/chapin-high-school/17887-s" title="View Chapin High School's Teachers">
+Faculty:
+81
+Teachers
+</a>
+</h2>
+</div>
+<div class="col-xs-6">
+<h2 class>
+<a href="http://www.ratemyteachers.com/chapin-high-school/17887-s/school-reviews" title="View Chapin High School's Reviews">
+Chapin High School
+Reviews
+</a>
+</h2>
+</div>
+</div>
+<div class="row search_form_container">
+<div class="col-md-2 sort_options">
+<select id="sort_by" name="sort_by"><option value>Sort by</option><option value></option><option value>Latest Update</option>
+<option value="last_name">Last Name</option>
+<option value="first_name">First Name</option>
+<option value="avg_asc">Average Rating: Low to High</option>
+<option value="avg_desc">Average Rating: High to Low</option></select>
+</div>
+<form action="/chapin-high-school/17887-s" class="simple_form inline_form" id="school_search_by_teacher_form">
+<div class="col-md-9 text">
+<input name="q" placeholder="Search by Teacher" type="text">
+</div>
+<div class="col-md-1 options">
+<button class="btn fa fa-search fa-2x" name="commit" title="Search by Teacher" type="submit"></button>
+</div>
+</form>
+</div>
+<div class="row extra">
+<a class="col-xs-4 new_admin_request_trigger apply_admin" data-remote="/admin/new?sid=17887" data-school="Chapin High School" data-sender="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Become Chapin High School's Moderator">
+<i class="fa fa-user-plus"></i>
+<span>Become a Moderator!</span>
+</a>
+<a class="col-xs-4 new_school_rating_trigger school_review" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=17887" data-sender-name="School page Search bar" data-target="#modal_rating" data-teacher="Chapin High School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Chapin High School">
+<i class="fa fa-institution"></i>
+<span>Write a School Review</span>
+</a>
+<a class="col-xs-4 new_teacher_trigger add_teacher" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=17887" data-school="Chapin High School" data-sender-name="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher to Chapin High School">
+<i class="fa fa-user-plus"></i>
+<span>Add Teacher</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="teachers">
+<div class="ad_container AMP">
+<div id="amp_ads_bottom"></div>
+</div>
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Robin Newton's Ratings" class="name" href="/robin-newton/2036027-t" target="_blank" title="View Robin Newton's Ratings">
+Robin Newton
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/math" title="View Chapin High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Robin Newton" data-sid="17887" data-status="-2" data-tid="2036027" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 68.420px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She knows what's she is doing. But she is a little blunt or harsh sometimes
+</div>
+<div class="options">
+<a alt="View Robin Newton's Ratings" class="btn view_more" href="/robin-newton/2036027-t" title="View Robin Newton's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/robin-newton/2036027-t"></a>
+</div>
+<div class="ad_container taboola_video">
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Adam Speight's Ratings" class="name" href="/adam-speight/2519425-t" target="_blank" title="View Adam Speight's Ratings">
+Adam Speight
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/business" title="View Chapin High School&#39;s Business Teachers">Business</a>
+</div>
+<div class="teacher_actions" data-name="Adam Speight" data-sid="17887" data-status="-2" data-tid="2519425" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+One of my favorite teachers I've ever had. Smart and uses personal experience as a marketer to teach his students....
+</div>
+<div class="options">
+<a alt="View Adam Speight's Ratings" class="btn view_more" href="/adam-speight/2519425-t" title="View Adam Speight's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/adam-speight/2519425-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sarah Pellerin's Ratings" class="name" href="/sarah-pellerin/2203092-t" target="_blank" title="View Sarah Pellerin's Ratings">
+Sarah Pellerin
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Sarah Pellerin" data-sid="17887" data-status="-2" data-tid="2203092" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 98.560px;"></div>
+</div>
+</div>
+<div class="rating_count">11 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I love Kimberlin! She's smart and fun, very helpful, kind, understanding and teaches very well!
+</div>
+<div class="options">
+<a alt="View Sarah Pellerin's Ratings" class="btn view_more" href="/sarah-pellerin/2203092-t" title="View Sarah Pellerin's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sarah-pellerin/2203092-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Charles Cook's Ratings" class="name" href="/charles-cook/1934876-t" target="_blank" title="View Charles Cook's Ratings">
+Charles Cook
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/not-specified" title="View Chapin High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Charles Cook" data-sid="17887" data-status="12" data-tid="1934876" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 89.760px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+this man is the one that will go to the end and back with you he is a great man to know im blessed to know him......
+</div>
+<div class="options">
+<a alt="View Charles Cook's Ratings" class="btn view_more" href="/charles-cook/1934876-t" title="View Charles Cook's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/charles-cook/1934876-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View James michael Mewborne's Ratings" class="name" href="/james-michael-mewborne/2463221-t" target="_blank" title="View James michael Mewborne's Ratings">
+James michael Mewborne
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/history" title="View Chapin High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="James michael Mewborne" data-sid="17887" data-status="-2" data-tid="2463221" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Keeps class fun and interesting while still teaching good and meaningful lessons
+</div>
+<div class="options">
+<a alt="View James michael Mewborne's Ratings" class="btn view_more" href="/james-michael-mewborne/2463221-t" title="View James michael Mewborne's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/james-michael-mewborne/2463221-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Paula Weinspach's Ratings" class="name" href="/paula-weinspach/421341-t" target="_blank" title="View Paula Weinspach's Ratings">
+Paula Weinspach
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/science" title="View Chapin High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Paula Weinspach" data-sid="17887" data-status="-2" data-tid="421341" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 76.560px;"></div>
+</div>
+</div>
+<div class="rating_count">15 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I've been out of school for 10 years now and I loved science but she is the one teacher I remember hating. She picks...
+</div>
+<div class="options">
+<a alt="View Paula Weinspach's Ratings" class="btn view_more" href="/paula-weinspach/421341-t" title="View Paula Weinspach's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/paula-weinspach/421341-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lori Latham's Ratings" class="name" href="/lori-latham/2203094-t" target="_blank" title="View Lori Latham's Ratings">
+Lori Latham
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/science" title="View Chapin High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Lori Latham" data-sid="17887" data-status="-2" data-tid="2203094" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 60.500px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Latham does not do any instruction, or give any help whatsoever. If you want to pass, you must spend long hours doing...
+</div>
+<div class="options">
+<a alt="View Lori Latham's Ratings" class="btn view_more" href="/lori-latham/2203094-t" title="View Lori Latham's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lori-latham/2203094-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Dick Hiller's Ratings" class="name" href="/dick-hiller/1726562-t" target="_blank" title="View Dick Hiller's Ratings">
+Dick Hiller
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/history" title="View Chapin High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Dick Hiller" data-sid="17887" data-status="-2" data-tid="1726562" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 86.680px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Boss
+</div>
+<div class="options">
+<a alt="View Dick Hiller's Ratings" class="btn view_more" href="/dick-hiller/1726562-t" title="View Dick Hiller's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/dick-hiller/1726562-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kevin Hebert's Ratings" class="name" href="/kevin-hebert/3138849-t" target="_blank" title="View Kevin Hebert's Ratings">
+Kevin Hebert
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/band" title="View Chapin High School&#39;s Band Teachers">Band</a>
+</div>
+<div class="teacher_actions" data-name="Kevin Hebert" data-sid="17887" data-status="-2" data-tid="3138849" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.260px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+hands down the best teacher I have ever had. you have no idea how much you've help me grow not only as a musician but...
+</div>
+<div class="options">
+<a alt="View Kevin Hebert's Ratings" class="btn view_more" href="/kevin-hebert/3138849-t" title="View Kevin Hebert's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kevin-hebert/3138849-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lisa Maylath's Ratings" class="name" href="/lisa-maylath/3873619-t" target="_blank" title="View Lisa Maylath's Ratings">
+Lisa Maylath
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/not-specified" title="View Chapin High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Lisa Maylath" data-sid="17887" data-status="-2" data-tid="3873619" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 56.320px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Make up your mind woman!! She constantly changes guidelines and is extremely unclear on expectations and grades....
+</div>
+<div class="options">
+<a alt="View Lisa Maylath's Ratings" class="btn view_more" href="/lisa-maylath/3873619-t" title="View Lisa Maylath's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lisa-maylath/3873619-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jannette Conti's Ratings" class="name" href="/jannette-conti/2442066-t" target="_blank" title="View Jannette Conti's Ratings">
+Jannette Conti
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/accounting" title="View Chapin High School&#39;s Accounting Teachers">Accounting</a>
+</div>
+<div class="teacher_actions" data-name="Jannette Conti" data-sid="17887" data-status="-2" data-tid="2442066" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 62.260px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Conti gave an insane amount of work in IBA. If you missed a day you basically dropped a letter grade. She never...
+</div>
+<div class="options">
+<a alt="View Jannette Conti's Ratings" class="btn view_more" href="/jannette-conti/2442066-t" title="View Jannette Conti's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jannette-conti/2442066-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jody Haltiwanger's Ratings" class="name" href="/jody-haltiwanger/1726564-t" target="_blank" title="View Jody Haltiwanger's Ratings">
+Jody Haltiwanger
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/history" title="View Chapin High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Jody Haltiwanger" data-sid="17887" data-status="-2" data-tid="1726564" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Coach Halti was one of the best teachers I've had in Chapin High. He gives easy assignments and all tests except the...
+</div>
+<div class="options">
+<a alt="View Jody Haltiwanger's Ratings" class="btn view_more" href="/jody-haltiwanger/1726564-t" title="View Jody Haltiwanger's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jody-haltiwanger/1726564-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jennifer Henry's Ratings" class="name" href="/jennifer-henry/2241886-t" target="_blank" title="View Jennifer Henry's Ratings">
+Jennifer Henry
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Jennifer Henry" data-sid="17887" data-status="-2" data-tid="2241886" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is AH-mazing.
+</div>
+<div class="options">
+<a alt="View Jennifer Henry's Ratings" class="btn view_more" href="/jennifer-henry/2241886-t" title="View Jennifer Henry's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jennifer-henry/2241886-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Akil Ross' Ratings" class="name" href="/akil-ross/2442069-t" target="_blank" title="View Akil Ross' Ratings">
+Akil Ross
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/administration" title="View Chapin High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class="teacher_actions" data-name="Akil Ross" data-sid="17887" data-status="-2" data-tid="2442069" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 91.520px;"></div>
+</div>
+</div>
+<div class="rating_count">10 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Dr. Ross is an extremely involved principal. He listens to problems and is always supportive. He's never too busy...
+</div>
+<div class="options">
+<a alt="View Akil Ross' Ratings" class="btn view_more" href="/akil-ross/2442069-t" title="View Akil Ross' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/akil-ross/2442069-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Albert Knuckley's Ratings" class="name" href="/albert-knuckley/2442051-t" target="_blank" title="View Albert Knuckley's Ratings">
+Albert Knuckley
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Albert Knuckley" data-sid="17887" data-status="12" data-tid="2442051" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 66.000px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I truly mean it when I say Mr. Knuckley was the best teacher I've ever had and will have. He cared beyond just the...
+</div>
+<div class="options">
+<a alt="View Albert Knuckley's Ratings" class="btn view_more" href="/albert-knuckley/2442051-t" title="View Albert Knuckley's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/albert-knuckley/2442051-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Elizabeth Perla's Ratings" class="name" href="/elizabeth-perla/8036303-t" target="_blank" title="View Elizabeth Perla's Ratings">
+Elizabeth Perla
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/math" title="View Chapin High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Elizabeth Perla" data-sid="17887" data-status="0" data-tid="8036303" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 66.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Good teacher, but off track a lot, so much doesn't get done. Also, doesn't understand that life happens sometimes and...
+</div>
+<div class="options">
+<a alt="View Elizabeth Perla's Ratings" class="btn view_more" href="/elizabeth-perla/8036303-t" title="View Elizabeth Perla's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/elizabeth-perla/8036303-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Amy Carter's Ratings" class="name" href="/amy-carter/185126-t" target="_blank" title="View Amy Carter's Ratings">
+Amy Carter
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Amy Carter" data-sid="17887" data-status="-2" data-tid="185126" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.920px;"></div>
+</div>
+</div>
+<div class="rating_count">12 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Has to be the best teacher in existence at Chapin HS. Keeps the class excited and inspired, never allowing an dull...
+</div>
+<div class="options">
+<a alt="View Amy Carter's Ratings" class="btn view_more" href="/amy-carter/185126-t" title="View Amy Carter's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/amy-carter/185126-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Bob Taylor's Ratings" class="name" href="/bob-taylor/2497461-t" target="_blank" title="View Bob Taylor's Ratings">
+Bob Taylor
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/ib-program" title="View Chapin High School&#39;s Ib Program Teachers">Ib Program</a>
+</div>
+<div class="teacher_actions" data-name="Bob Taylor" data-sid="17887" data-status="-2" data-tid="2497461" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 63.580px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Never had class with coach taylor but he was a terrible girls soccer coach. He won state because of how good his...
+</div>
+<div class="options">
+<a alt="View Bob Taylor's Ratings" class="btn view_more" href="/bob-taylor/2497461-t" title="View Bob Taylor's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/bob-taylor/2497461-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Bill Summerville's Ratings" class="name" href="/bill-summerville/1442845-t" target="_blank" title="View Bill Summerville's Ratings">
+Bill Summerville
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/not-specified" title="View Chapin High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Bill Summerville" data-sid="17887" data-status="12" data-tid="1442845" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Definitely one of the greatest teachers to walk Chapin High Schools halls. A caring and compassionate man, always...
+</div>
+<div class="options">
+<a alt="View Bill Summerville's Ratings" class="btn view_more" href="/bill-summerville/1442845-t" title="View Bill Summerville's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/bill-summerville/1442845-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Scott Compton's Ratings" class="name" href="/scott-compton/1811617-t" target="_blank" title="View Scott Compton's Ratings">
+Scott Compton
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Scott Compton" data-sid="17887" data-status="-2" data-tid="1811617" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 100.320px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Compton is one of the best teachers ever and the greatest thing about him is that he will help you after you've gone...
+</div>
+<div class="options">
+<a alt="View Scott Compton's Ratings" class="btn view_more" href="/scott-compton/1811617-t" title="View Scott Compton's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/scott-compton/1811617-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sarah Bowers' Ratings" class="name" href="/sarah-bowers/7917481-t" target="_blank" title="View Sarah Bowers' Ratings">
+Sarah Bowers
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/history" title="View Chapin High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Sarah Bowers" data-sid="17887" data-status="-2" data-tid="7917481" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7917481" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Sarah Bowers" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Sarah Bowers">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7917481" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Sarah Bowers" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Sarah Bowers">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sarah-bowers/7917481-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Megan Watts' Ratings" class="name" href="/megan-watts/4007083-t" target="_blank" title="View Megan Watts' Ratings">
+Megan Watts
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/science" title="View Chapin High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Megan Watts" data-sid="17887" data-status="-2" data-tid="4007083" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=4007083" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Megan Watts" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Megan Watts">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=4007083" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Megan Watts" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Megan Watts">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/megan-watts/4007083-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Brantley Brinkley's Ratings" class="name" href="/brantley-brinkley/3873607-t" target="_blank" title="View Brantley Brinkley's Ratings">
+Brantley Brinkley
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/computer-science" title="View Chapin High School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class="teacher_actions" data-name="Brantley Brinkley" data-sid="17887" data-status="-2" data-tid="3873607" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=3873607" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Brantley Brinkley" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Brantley Brinkley">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=3873607" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Brantley Brinkley" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Brantley Brinkley">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/brantley-brinkley/3873607-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Laurie Taylor's Ratings" class="name" href="/laurie-taylor/3168004-t" target="_blank" title="View Laurie Taylor's Ratings">
+Laurie Taylor
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/science" title="View Chapin High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Laurie Taylor" data-sid="17887" data-status="-2" data-tid="3168004" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Dr. Taylor really knows what she is doing. She will give you the resources you need if you want to work. Difficult...
+</div>
+<div class="options">
+<a alt="View Laurie Taylor's Ratings" class="btn view_more" href="/laurie-taylor/3168004-t" title="View Laurie Taylor's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/laurie-taylor/3168004-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lisa Ruth's Ratings" class="name" href="/lisa-ruth/3165232-t" target="_blank" title="View Lisa Ruth's Ratings">
+Lisa Ruth
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/science" title="View Chapin High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Lisa Ruth" data-sid="17887" data-status="-2" data-tid="3165232" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=3165232" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Lisa Ruth" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Lisa Ruth">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=3165232" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Lisa Ruth" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Lisa Ruth">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lisa-ruth/3165232-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Megan Wolfe's Ratings" class="name" href="/megan-wolfe/3160911-t" target="_blank" title="View Megan Wolfe's Ratings">
+Megan Wolfe
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/math" title="View Chapin High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Megan Wolfe" data-sid="17887" data-status="-2" data-tid="3160911" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 29.260px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I had Ms. Wolfe this year unfortunately and she hugs and gropes her male students. I think something is going on but...
+</div>
+<div class="options">
+<a alt="View Megan Wolfe's Ratings" class="btn view_more" href="/megan-wolfe/3160911-t" title="View Megan Wolfe's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/megan-wolfe/3160911-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Alice White's Ratings" class="name" href="/alice-white/3159738-t" target="_blank" title="View Alice White's Ratings">
+Alice White
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/languages" title="View Chapin High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Alice White" data-sid="17887" data-status="-2" data-tid="3159738" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She could be one of the best teacher I had throughout my academic career! She won't just hand out an A but with any...
+</div>
+<div class="options">
+<a alt="View Alice White's Ratings" class="btn view_more" href="/alice-white/3159738-t" title="View Alice White's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/alice-white/3159738-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tim Anderson's Ratings" class="name" href="/tim-anderson/3156925-t" target="_blank" title="View Tim Anderson's Ratings">
+Tim Anderson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Tim Anderson" data-sid="17887" data-status="-2" data-tid="3156925" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Tim should have a ton of more reviews. He is definitely one of the best teachers at chapin high school. he doesn't...
+</div>
+<div class="options">
+<a alt="View Tim Anderson's Ratings" class="btn view_more" href="/tim-anderson/3156925-t" title="View Tim Anderson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tim-anderson/3156925-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Martha Melvin's Ratings" class="name" href="/martha-melvin/3138851-t" target="_blank" title="View Martha Melvin's Ratings">
+Martha Melvin
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/languages" title="View Chapin High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Martha Melvin" data-sid="17887" data-status="-2" data-tid="3138851" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+awesome teacher. only reason people dont like her is because shes kinda strict if you dont respect her. shes been...
+</div>
+<div class="options">
+<a alt="View Martha Melvin's Ratings" class="btn view_more" href="/martha-melvin/3138851-t" title="View Martha Melvin's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/martha-melvin/3138851-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Leah Scott's Ratings" class="name" href="/leah-scott/2522640-t" target="_blank" title="View Leah Scott's Ratings">
+Leah Scott
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/computer-science" title="View Chapin High School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class="teacher_actions" data-name="Leah Scott" data-sid="17887" data-status="-2" data-tid="2522640" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2522640" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Leah Scott" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Leah Scott">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2522640" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Leah Scott" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Leah Scott">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/leah-scott/2522640-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Michelle Flowers' Ratings" class="name" href="/michelle-flowers/2477087-t" target="_blank" title="View Michelle Flowers' Ratings">
+Michelle Flowers
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/science" title="View Chapin High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Michelle Flowers" data-sid="17887" data-status="-2" data-tid="2477087" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 96.580px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Had Flo for a couple of classes in high school. She is GREAT! Is always willing to help when you have questions and...
+</div>
+<div class="options">
+<a alt="View Michelle Flowers' Ratings" class="btn view_more" href="/michelle-flowers/2477087-t" title="View Michelle Flowers' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/michelle-flowers/2477087-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Dawn Weathersbee's Ratings" class="name" href="/dawn-weathersbee/2442053-t" target="_blank" title="View Dawn Weathersbee's Ratings">
+Dawn Weathersbee
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Dawn Weathersbee" data-sid="17887" data-status="-2" data-tid="2442053" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 103.840px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is a fantastic teacher. A great teacher and she knows what's up.
+</div>
+<div class="options">
+<a alt="View Dawn Weathersbee's Ratings" class="btn view_more" href="/dawn-weathersbee/2442053-t" title="View Dawn Weathersbee's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/dawn-weathersbee/2442053-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kim Gilbert's Ratings" class="name" href="/kim-gilbert/2406417-t" target="_blank" title="View Kim Gilbert's Ratings">
+Kim Gilbert
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/counselor" title="View Chapin High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="teacher_actions" data-name="Kim Gilbert" data-sid="17887" data-status="-2" data-tid="2406417" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Really the only decent guidance counselor in all of Chapin.
+</div>
+<div class="options">
+<a alt="View Kim Gilbert's Ratings" class="btn view_more" href="/kim-gilbert/2406417-t" title="View Kim Gilbert's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kim-gilbert/2406417-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View James Hyatt's Ratings" class="name" href="/james-hyatt/2331998-t" target="_blank" title="View James Hyatt's Ratings">
+James Hyatt
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="James Hyatt" data-sid="17887" data-status="-2" data-tid="2331998" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+An amazing man who is determined to see you succeed. Always up for a challange.
+</div>
+<div class="options">
+<a alt="View James Hyatt's Ratings" class="btn view_more" href="/james-hyatt/2331998-t" title="View James Hyatt's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/james-hyatt/2331998-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Brad Layton's Ratings" class="name" href="/brad-layton/2306030-t" target="_blank" title="View Brad Layton's Ratings">
+Brad Layton
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/band" title="View Chapin High School&#39;s Band Teachers">Band</a>
+</div>
+<div class="teacher_actions" data-name="Brad Layton" data-sid="17887" data-status="-2" data-tid="2306030" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2306030" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Brad Layton" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Brad Layton">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2306030" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Brad Layton" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Brad Layton">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/brad-layton/2306030-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Vincent Washington's Ratings" class="name" href="/vincent-washington/2287626-t" target="_blank" title="View Vincent Washington's Ratings">
+Vincent Washington
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/music" title="View Chapin High School&#39;s Music Teachers">Music</a>
+</div>
+<div class="teacher_actions" data-name="Vincent Washington" data-sid="17887" data-status="-2" data-tid="2287626" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Washington was an okay teacher. Nice selection of music! Don't get on his bad side because he does get moody!
+</div>
+<div class="options">
+<a alt="View Vincent Washington's Ratings" class="btn view_more" href="/vincent-washington/2287626-t" title="View Vincent Washington's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/vincent-washington/2287626-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Paula Bartholomew's Ratings" class="name" href="/paula-bartholomew/2274975-t" target="_blank" title="View Paula Bartholomew's Ratings">
+Paula Bartholomew
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/biology" title="View Chapin High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="teacher_actions" data-name="Paula Bartholomew" data-sid="17887" data-status="-2" data-tid="2274975" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs.Bartholomew is the best teacher I've ever had. She is very passionate about biology and is an inspiration.
+</div>
+<div class="options">
+<a alt="View Paula Bartholomew's Ratings" class="btn view_more" href="/paula-bartholomew/2274975-t" title="View Paula Bartholomew's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/paula-bartholomew/2274975-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mike Burge's Ratings" class="name" href="/mike-burge/2241887-t" target="_blank" title="View Mike Burge's Ratings">
+Mike Burge
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/physical-education" title="View Chapin High School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class="teacher_actions" data-name="Mike Burge" data-sid="17887" data-status="-2" data-tid="2241887" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Favorite!
+</div>
+<div class="options">
+<a alt="View Mike Burge's Ratings" class="btn view_more" href="/mike-burge/2241887-t" title="View Mike Burge's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mike-burge/2241887-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kathy Murphy's Ratings" class="name" href="/kathy-murphy/2204195-t" target="_blank" title="View Kathy Murphy's Ratings">
+Kathy Murphy
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/languages" title="View Chapin High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Kathy Murphy" data-sid="17887" data-status="-2" data-tid="2204195" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 22.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Thinks she is always right, even when she is wrong.
+</div>
+<div class="options">
+<a alt="View Kathy Murphy's Ratings" class="btn view_more" href="/kathy-murphy/2204195-t" title="View Kathy Murphy's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kathy-murphy/2204195-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Rhea Faris' Ratings" class="name" href="/rhea-faris/2203369-t" target="_blank" title="View Rhea Faris' Ratings">
+Rhea Faris
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/math" title="View Chapin High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Rhea Faris" data-sid="17887" data-status="-2" data-tid="2203369" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Coach Faris was one of the best teachers I've ever had. Not only does he have a ridiculous amount of knowledge on his...
+</div>
+<div class="options">
+<a alt="View Rhea Faris' Ratings" class="btn view_more" href="/rhea-faris/2203369-t" title="View Rhea Faris' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/rhea-faris/2203369-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Heather McGarry's Ratings" class="name" href="/heather-mcgarry/2203091-t" target="_blank" title="View Heather McGarry's Ratings">
+Heather McGarry
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/math" title="View Chapin High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Heather McGarry" data-sid="17887" data-status="-2" data-tid="2203091" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great teacher! The class was difficult, but she prepared me so well for the AP Calculus exam at the end of the year...
+</div>
+<div class="options">
+<a alt="View Heather McGarry's Ratings" class="btn view_more" href="/heather-mcgarry/2203091-t" title="View Heather McGarry's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/heather-mcgarry/2203091-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Betty Boone's Ratings" class="name" href="/betty-boone/2201308-t" target="_blank" title="View Betty Boone's Ratings">
+Betty Boone
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/sociology" title="View Chapin High School&#39;s Sociology Teachers">Sociology</a>
+</div>
+<div class="teacher_actions" data-name="Betty Boone" data-sid="17887" data-status="-2" data-tid="2201308" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 67.540px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I definitely think she is a tough grader but she's a phenomenal teacher, you just have to put in the effort. She...
+</div>
+<div class="options">
+<a alt="View Betty Boone's Ratings" class="btn view_more" href="/betty-boone/2201308-t" title="View Betty Boone's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/betty-boone/2201308-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Linsey Dooley's Ratings" class="name" href="/linsey-dooley/2102553-t" target="_blank" title="View Linsey Dooley's Ratings">
+Linsey Dooley
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/economics" title="View Chapin High School&#39;s Economics Teachers">Economics</a>
+</div>
+<div class="teacher_actions" data-name="Linsey Dooley" data-sid="17887" data-status="-2" data-tid="2102553" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Dooley is the best econ teacher I have ever met. she makes it understandable and i love her class
+</div>
+<div class="options">
+<a alt="View Linsey Dooley's Ratings" class="btn view_more" href="/linsey-dooley/2102553-t" title="View Linsey Dooley's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/linsey-dooley/2102553-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Adrian Maior's Ratings" class="name" href="/adrian-maior/2102557-t" target="_blank" title="View Adrian Maior's Ratings">
+Adrian Maior
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/math" title="View Chapin High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Adrian Maior" data-sid="17887" data-status="-2" data-tid="2102557" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 80.740px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+i love mistaaa maior!
+</div>
+<div class="options">
+<a alt="View Adrian Maior's Ratings" class="btn view_more" href="/adrian-maior/2102557-t" title="View Adrian Maior's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/adrian-maior/2102557-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Leslie Williams' Ratings" class="name" href="/leslie-williams/2042285-t" target="_blank" title="View Leslie Williams' Ratings">
+Leslie Williams
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Leslie Williams" data-sid="17887" data-status="-2" data-tid="2042285" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 107.140px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great
+</div>
+<div class="options">
+<a alt="View Leslie Williams' Ratings" class="btn view_more" href="/leslie-williams/2042285-t" title="View Leslie Williams' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/leslie-williams/2042285-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Michael Satterfield's Ratings" class="name" href="/michael-satterfield/1968962-t" target="_blank" title="View Michael Satterfield's Ratings">
+Michael Satterfield
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/principal" title="View Chapin High School&#39;s Principal Teachers">Principal</a>
+</div>
+<div class="teacher_actions" data-name="Michael Satterfield" data-sid="17887" data-status="-2" data-tid="1968962" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+worst principle ever.
+</div>
+<div class="options">
+<a alt="View Michael Satterfield's Ratings" class="btn view_more" href="/michael-satterfield/1968962-t" title="View Michael Satterfield's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/michael-satterfield/1968962-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Janis Morgan's Ratings" class="name" href="/janis-morgan/1934875-t" target="_blank" title="View Janis Morgan's Ratings">
+Janis Morgan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/languages" title="View Chapin High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Janis Morgan" data-sid="17887" data-status="-2" data-tid="1934875" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+BEST. TEACHER. EVER!!!!!!! :)
+</div>
+<div class="options">
+<a alt="View Janis Morgan's Ratings" class="btn view_more" href="/janis-morgan/1934875-t" title="View Janis Morgan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/janis-morgan/1934875-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Fred Williams' Ratings" class="name" href="/fred-williams/1902177-t" target="_blank" title="View Fred Williams' Ratings">
+Fred Williams
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/administration" title="View Chapin High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class="teacher_actions" data-name="Fred Williams" data-sid="17887" data-status="-2" data-tid="1902177" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 98.340px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+spent most of my high school career in pt with him. he is a GREAT man. Always wanted what was best for students and...
+</div>
+<div class="options">
+<a alt="View Fred Williams' Ratings" class="btn view_more" href="/fred-williams/1902177-t" title="View Fred Williams' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/fred-williams/1902177-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lynn Eargle's Ratings" class="name" href="/lynn-eargle/1844811-t" target="_blank" title="View Lynn Eargle's Ratings">
+Lynn Eargle
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/science" title="View Chapin High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Lynn Eargle" data-sid="17887" data-status="-2" data-tid="1844811" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 80.740px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Eargle is really really really weird but she is awesome.... a bad teacher but a cool person =)
+</div>
+<div class="options">
+<a alt="View Lynn Eargle's Ratings" class="btn view_more" href="/lynn-eargle/1844811-t" title="View Lynn Eargle's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lynn-eargle/1844811-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kendra Rivers' Ratings" class="name" href="/kendra-rivers/1726559-t" target="_blank" title="View Kendra Rivers' Ratings">
+Kendra Rivers
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Kendra Rivers" data-sid="17887" data-status="-2" data-tid="1726559" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+HER FAVORTIE STUDENT IS TJ!!!!!
+</div>
+<div class="options">
+<a alt="View Kendra Rivers' Ratings" class="btn view_more" href="/kendra-rivers/1726559-t" title="View Kendra Rivers' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kendra-rivers/1726559-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lee Brasche's Ratings" class="name" href="/lee-brasche/1671505-t" target="_blank" title="View Lee Brasche's Ratings">
+Lee Brasche
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/performing-arts" title="View Chapin High School&#39;s Performing Arts Teachers">Performing Arts</a>
+</div>
+<div class="teacher_actions" data-name="Lee Brasche" data-sid="17887" data-status="-2" data-tid="1671505" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 92.840px;"></div>
+</div>
+</div>
+<div class="rating_count">15 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+.........................
+</div>
+<div class="options">
+<a alt="View Lee Brasche's Ratings" class="btn view_more" href="/lee-brasche/1671505-t" title="View Lee Brasche's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lee-brasche/1671505-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Carlton Milton's Ratings" class="name" href="/carlton-milton/1642722-t" target="_blank" title="View Carlton Milton's Ratings">
+Carlton Milton
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/not-specified" title="View Chapin High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Carlton Milton" data-sid="17887" data-status="12" data-tid="1642722" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+mr. milton is amazing, the smartest man alive.
+</div>
+<div class="options">
+<a alt="View Carlton Milton's Ratings" class="btn view_more" href="/carlton-milton/1642722-t" title="View Carlton Milton's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/carlton-milton/1642722-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Meehan's Ratings" class="name" href="/meehan/1488472-t" target="_blank" title="View Meehan's Ratings">
+Meehan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/not-specified" title="View Chapin High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Meehan" data-sid="17887" data-status="12" data-tid="1488472" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1488472" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Meehan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Meehan">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1488472" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Meehan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Meehan">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/meehan/1488472-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kathleen France's Ratings" class="name" href="/kathleen-france/1465901-t" target="_blank" title="View Kathleen France's Ratings">
+Kathleen France
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Kathleen France" data-sid="17887" data-status="-2" data-tid="1465901" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 93.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+i like mrs. france she is pretty sweet and her class is very passable, except brad
+</div>
+<div class="options">
+<a alt="View Kathleen France's Ratings" class="btn view_more" href="/kathleen-france/1465901-t" title="View Kathleen France's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kathleen-france/1465901-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Cheryl Longshore's Ratings" class="name" href="/cheryl-longshore/1442841-t" target="_blank" title="View Cheryl Longshore's Ratings">
+Cheryl Longshore
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/not-specified" title="View Chapin High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Cheryl Longshore" data-sid="17887" data-status="-2" data-tid="1442841" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Coolest Media assistant alive!..she's the best!...i'm glad she came to chapin high
+</div>
+<div class="options">
+<a alt="View Cheryl Longshore's Ratings" class="btn view_more" href="/cheryl-longshore/1442841-t" title="View Cheryl Longshore's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/cheryl-longshore/1442841-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Phil McKracken's Ratings" class="name" href="/phil-mckracken/1381380-t" target="_blank" title="View Phil McKracken's Ratings">
+Phil McKracken
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/health" title="View Chapin High School&#39;s Health Teachers">Health</a>
+</div>
+<div class="teacher_actions" data-name="Phil McKracken" data-sid="17887" data-status="-2" data-tid="1381380" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 66.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1381380" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Phil McKracken" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Phil McKracken">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1381380" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Phil McKracken" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Phil McKracken">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/phil-mckracken/1381380-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Judith McCray's Ratings" class="name" href="/judith-mccray/1316504-t" target="_blank" title="View Judith McCray's Ratings">
+Judith McCray
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Judith McCray" data-sid="17887" data-status="-2" data-tid="1316504" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Im a soldier in the US Army. She was my teacher for 8th Grade English and was a very supportive teacher at Chapin...
+</div>
+<div class="options">
+<a alt="View Judith McCray's Ratings" class="btn view_more" href="/judith-mccray/1316504-t" title="View Judith McCray's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/judith-mccray/1316504-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Donna McGehee's Ratings" class="name" href="/donna-mcgehee/1126320-t" target="_blank" title="View Donna McGehee's Ratings">
+Donna McGehee
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/science" title="View Chapin High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Donna McGehee" data-sid="17887" data-status="-2" data-tid="1126320" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 101.860px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She's a nice teacher, and her class is hard for slackers, but she's always willing to help.
+</div>
+<div class="options">
+<a alt="View Donna McGehee's Ratings" class="btn view_more" href="/donna-mcgehee/1126320-t" title="View Donna McGehee's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/donna-mcgehee/1126320-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Ronnie Wessinger's Ratings" class="name" href="/ronnie-wessinger/806223-t" target="_blank" title="View Ronnie Wessinger's Ratings">
+Ronnie Wessinger
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/history" title="View Chapin High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Ronnie Wessinger" data-sid="17887" data-status="-2" data-tid="806223" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 90.860px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+he is probably my favorite teacher at the school!! Undefeated B TEAM SEASON 7-0!!!!! communism talks and bi-polar...
+</div>
+<div class="options">
+<a alt="View Ronnie Wessinger's Ratings" class="btn view_more" href="/ronnie-wessinger/806223-t" title="View Ronnie Wessinger's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/ronnie-wessinger/806223-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kathy Kearse's Ratings" class="name" href="/kathy-kearse/805293-t" target="_blank" title="View Kathy Kearse's Ratings">
+Kathy Kearse
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Kathy Kearse" data-sid="17887" data-status="-2" data-tid="805293" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I thought she was very thorough in her treatment of grammar, which most of us really needed. Tough but fair. Plus,...
+</div>
+<div class="options">
+<a alt="View Kathy Kearse's Ratings" class="btn view_more" href="/kathy-kearse/805293-t" title="View Kathy Kearse's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kathy-kearse/805293-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View James Sy's Ratings" class="name" href="/james-sy/753631-t" target="_blank" title="View James Sy's Ratings">
+James Sy
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/science" title="View Chapin High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="James Sy" data-sid="17887" data-status="-2" data-tid="753631" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=753631" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="James Sy" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  James Sy">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=753631" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="James Sy" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  James Sy">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/james-sy/753631-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Geri Wallace's Ratings" class="name" href="/geri-wallace/581278-t" target="_blank" title="View Geri Wallace's Ratings">
+Geri Wallace
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/librarian" title="View Chapin High School&#39;s Librarian Teachers">Librarian</a>
+</div>
+<div class="teacher_actions" data-name="Geri Wallace" data-sid="17887" data-status="-2" data-tid="581278" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Always nice to me, let me hang out in the library in free periods.
+</div>
+<div class="options">
+<a alt="View Geri Wallace's Ratings" class="btn view_more" href="/geri-wallace/581278-t" title="View Geri Wallace's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/geri-wallace/581278-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Millie See's Ratings" class="name" href="/millie-see/442045-t" target="_blank" title="View Millie See's Ratings">
+Millie See
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Millie See" data-sid="17887" data-status="-2" data-tid="442045" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 93.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She's GREAT!!!!! and will make us GREAT!!
+</div>
+<div class="options">
+<a alt="View Millie See's Ratings" class="btn view_more" href="/millie-see/442045-t" title="View Millie See's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/millie-see/442045-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mark Shelley's Ratings" class="name" href="/mark-shelley/431471-t" target="_blank" title="View Mark Shelley's Ratings">
+Mark Shelley
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/history" title="View Chapin High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Mark Shelley" data-sid="17887" data-status="-2" data-tid="431471" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.920px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+One of the greatest.
+</div>
+<div class="options">
+<a alt="View Mark Shelley's Ratings" class="btn view_more" href="/mark-shelley/431471-t" title="View Mark Shelley's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mark-shelley/431471-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lauren Frick's Ratings" class="name" href="/lauren-frick/427036-t" target="_blank" title="View Lauren Frick's Ratings">
+Lauren Frick
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Lauren Frick" data-sid="17887" data-status="-2" data-tid="427036" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 71.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She's difficult, but she's a very good teacher!
+</div>
+<div class="options">
+<a alt="View Lauren Frick's Ratings" class="btn view_more" href="/lauren-frick/427036-t" title="View Lauren Frick's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lauren-frick/427036-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Rob Schiferl's Ratings" class="name" href="/rob-schiferl/421382-t" target="_blank" title="View Rob Schiferl's Ratings">
+Rob Schiferl
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/physics" title="View Chapin High School&#39;s Physics Teachers">Physics</a>
+</div>
+<div class="teacher_actions" data-name="Rob Schiferl" data-sid="17887" data-status="-2" data-tid="421382" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He knows a lot but is terrible at explaining it and does not know how to communicate material with students. He is...
+</div>
+<div class="options">
+<a alt="View Rob Schiferl's Ratings" class="btn view_more" href="/rob-schiferl/421382-t" title="View Rob Schiferl's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/rob-schiferl/421382-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Louise Burkholder's Ratings" class="name" href="/louise-burkholder/421389-t" target="_blank" title="View Louise Burkholder's Ratings">
+Louise Burkholder
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/math" title="View Chapin High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Louise Burkholder" data-sid="17887" data-status="-2" data-tid="421389" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 63.800px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Burkholder is my favorite math teacher! She made the lessons fun and she never talked about politics or religion...
+</div>
+<div class="options">
+<a alt="View Louise Burkholder's Ratings" class="btn view_more" href="/louise-burkholder/421389-t" title="View Louise Burkholder's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/louise-burkholder/421389-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Phyllis Barton's Ratings" class="name" href="/phyllis-barton/421396-t" target="_blank" title="View Phyllis Barton's Ratings">
+Phyllis Barton
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/languages" title="View Chapin High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Phyllis Barton" data-sid="17887" data-status="-2" data-tid="421396" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 64.240px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+This lady is wacko. So glad Ross fired her. I had her for Spanish II and I knew less by the end of the year than I...
+</div>
+<div class="options">
+<a alt="View Phyllis Barton's Ratings" class="btn view_more" href="/phyllis-barton/421396-t" title="View Phyllis Barton's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/phyllis-barton/421396-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Judy Askins' Ratings" class="name" href="/judy-askins/421326-t" target="_blank" title="View Judy Askins' Ratings">
+Judy Askins
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Judy Askins" data-sid="17887" data-status="-2" data-tid="421326" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I had her 20 years ago. I'm still grateful to her for turning me into a better writer.
+</div>
+<div class="options">
+<a alt="View Judy Askins' Ratings" class="btn view_more" href="/judy-askins/421326-t" title="View Judy Askins' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/judy-askins/421326-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Scott McLeod's Ratings" class="name" href="/scott-mcleod/421336-t" target="_blank" title="View Scott McLeod's Ratings">
+Scott McLeod
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/history" title="View Chapin High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Scott McLeod" data-sid="17887" data-status="-2" data-tid="421336" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 101.860px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Coach McLeod is an amazing teacher! He is pretty easy, and makes every moment in his classroom enjoyable. Knows what...
+</div>
+<div class="options">
+<a alt="View Scott McLeod's Ratings" class="btn view_more" href="/scott-mcleod/421336-t" title="View Scott McLeod's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/scott-mcleod/421336-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Debbie Mayberry's Ratings" class="name" href="/debbie-mayberry/421352-t" target="_blank" title="View Debbie Mayberry's Ratings">
+Debbie Mayberry
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Debbie Mayberry" data-sid="17887" data-status="-2" data-tid="421352" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 69.740px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I don't know if shes still teaching but I gave her a nervous breakdown when I was in 11th grade.
+</div>
+<div class="options">
+<a alt="View Debbie Mayberry's Ratings" class="btn view_more" href="/debbie-mayberry/421352-t" title="View Debbie Mayberry's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/debbie-mayberry/421352-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Coach Sullivan's Ratings" class="name" href="/coach-sullivan/420519-t" target="_blank" title="View Coach Sullivan's Ratings">
+Coach Sullivan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/math" title="View Chapin High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Coach Sullivan" data-sid="17887" data-status="-2" data-tid="420519" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">14 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+great guy who just wants the best for his students.
+</div>
+<div class="options">
+<a alt="View Coach Sullivan's Ratings" class="btn view_more" href="/coach-sullivan/420519-t" title="View Coach Sullivan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/coach-sullivan/420519-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jack Legrand's Ratings" class="name" href="/jack-legrand/420088-t" target="_blank" title="View Jack Legrand's Ratings">
+Jack Legrand
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/social-studies" title="View Chapin High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Jack Legrand" data-sid="17887" data-status="-2" data-tid="420088" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">12 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great teacher, easy to understand and great sories.
+</div>
+<div class="options">
+<a alt="View Jack Legrand's Ratings" class="btn view_more" href="/jack-legrand/420088-t" title="View Jack Legrand's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jack-legrand/420088-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Brenda Shealy's Ratings" class="name" href="/brenda-shealy/420092-t" target="_blank" title="View Brenda Shealy's Ratings">
+Brenda Shealy
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/vice-principal" title="View Chapin High School&#39;s Vice Principal Teachers">Vice Principal</a>
+</div>
+<div class="teacher_actions" data-name="Brenda Shealy" data-sid="17887" data-status="-2" data-tid="420092" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Shealy was very helpful to me this year. She is a great leader. I love her!
+</div>
+<div class="options">
+<a alt="View Brenda Shealy's Ratings" class="btn view_more" href="/brenda-shealy/420092-t" title="View Brenda Shealy's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/brenda-shealy/420092-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View James Jordan's Ratings" class="name" href="/james-jordan/420061-t" target="_blank" title="View James Jordan's Ratings">
+James Jordan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/administration" title="View Chapin High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class="teacher_actions" data-name="James Jordan" data-sid="17887" data-status="-2" data-tid="420061" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 71.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I think the administration needs to stop changing things abour our school because our school was great before they...
+</div>
+<div class="options">
+<a alt="View James Jordan's Ratings" class="btn view_more" href="/james-jordan/420061-t" title="View James Jordan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/james-jordan/420061-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tom Painter's Ratings" class="name" href="/tom-painter/185129-t" target="_blank" title="View Tom Painter's Ratings">
+Tom Painter
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/economics" title="View Chapin High School&#39;s Economics Teachers">Economics</a>
+</div>
+<div class="teacher_actions" data-name="Tom Painter" data-sid="17887" data-status="-2" data-tid="185129" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 94.380px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+In Honors Economics, Painter used a slide show for the entire year. The slide show was one he found on the Internet,...
+</div>
+<div class="options">
+<a alt="View Tom Painter's Ratings" class="btn view_more" href="/tom-painter/185129-t" title="View Tom Painter's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tom-painter/185129-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Patrick Funk's Ratings" class="name" href="/patrick-funk/7957613-t" target="_blank" title="View Patrick Funk's Ratings">
+Patrick Funk
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/english" title="View Chapin High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Patrick Funk" data-sid="17887" data-status="-2" data-tid="7957613" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+One of the best teachers I have ever had in any subject. He really cares about his students and he knows how to...
+</div>
+<div class="options">
+<a alt="View Patrick Funk's Ratings" class="btn view_more" href="/patrick-funk/7957613-t" title="View Patrick Funk's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/patrick-funk/7957613-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Karen Walton's Ratings" class="name" href="/karen-walton/7984659-t" target="_blank" title="View Karen Walton's Ratings">
+Karen Walton
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/biology" title="View Chapin High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="teacher_actions" data-name="Karen Walton" data-sid="17887" data-status="-2" data-tid="7984659" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 22.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Oh, Karen. Where do I begin. Almost every day of class she would start with a pointless lecture about how important...
+</div>
+<div class="options">
+<a alt="View Karen Walton's Ratings" class="btn view_more" href="/karen-walton/7984659-t" title="View Karen Walton's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/karen-walton/7984659-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jennifer Borowiec's Ratings" class="name" href="/jennifer-borowiec/7901397-t" target="_blank" title="View Jennifer Borowiec's Ratings">
+Jennifer Borowiec
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/geography" title="View Chapin High School&#39;s Geography Teachers">Geography</a>
+</div>
+<div class="teacher_actions" data-name="Jennifer Borowiec" data-sid="17887" data-status="-2" data-tid="7901397" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Super amazing teacher. Borowiec is amazing at teaching the material, and as an AP teacher, has got to be the best I...
+</div>
+<div class="options">
+<a alt="View Jennifer Borowiec's Ratings" class="btn view_more" href="/jennifer-borowiec/7901397-t" title="View Jennifer Borowiec's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jennifer-borowiec/7901397-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jessica Connor's Ratings" class="name" href="/jessica-connor/7986133-t" target="_blank" title="View Jessica Connor's Ratings">
+Jessica Connor
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/math" title="View Chapin High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Jessica Connor" data-sid="17887" data-status="-2" data-tid="7986133" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Connor is one of the best math teachers that works at Chapin High School. She teaches in a way that is very easy...
+</div>
+<div class="options">
+<a alt="View Jessica Connor's Ratings" class="btn view_more" href="/jessica-connor/7986133-t" title="View Jessica Connor's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jessica-connor/7986133-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Cheryl Goble's Ratings" class="name" href="/cheryl-goble/7916673-t" target="_blank" title="View Cheryl Goble's Ratings">
+Cheryl Goble
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/chapin-high-school/17887-s/french" title="View Chapin High School&#39;s French Teachers">French</a>
+</div>
+<div class="teacher_actions" data-name="Cheryl Goble" data-sid="17887" data-status="-2" data-tid="7916673" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+If you're taking French then you must take it with Dr. Goble. She is intelligent and a wonderful woman. She has been...
+</div>
+<div class="options">
+<a alt="View Cheryl Goble's Ratings" class="btn view_more" href="/cheryl-goble/7916673-t" title="View Cheryl Goble's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/cheryl-goble/7916673-t"></a>
+</div>
+
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-lg-3 secondary_column">
+<div class="row block_container demographic_card">
+<div class="tab_horizontal_format">
+<div class="col-xs-12 tab_header">
+<ul class="nav nav-tabs nav-top collapsible_nav collapsible_nav_collapsed" id="enrollment_charts" role="tablist">
+<li>
+<a alt="Enrollment By Year" data-toggle="tab" data-type="by_year" href="#enrollment_by_year" role="tab">
+<span>Enrollment By Year</span>
+<span class="arrow_container">
+<i class="arrow fa fa-angle-right"></i>
+</span>
+</a>
+<a class="toggle" href="javascript:void(0);">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li>
+<a alt="Enrollment By Ethnicity" data-toggle="tab" data-type="by_ethnicity" href="#enrollment_by_ethnicity" role="tab">
+<span>Enrollment By Ethnicity</span>
+<span class="arrow_container">
+<i class="arrow fa fa-angle-right"></i>
+</span>
+</a>
+<a class="toggle" href="javascript:void(0);">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li>
+<a alt="Enrollment By Gender" data-toggle="tab" data-type="by_gender" href="#enrollment_by_gender" role="tab">
+<span>Enrollment By Gender</span>
+<span class="arrow_container">
+<i class="arrow fa fa-angle-right"></i>
+</span>
+</a>
+<a class="toggle" href="javascript:void(0);">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+</ul>
+</div>
+<a class="col-xs-12 tab_container tab-content enrollment" href="/chapin-high-school/17887-s/stats" title="Go to Chapin High School stats">
+<span class="tab-pane charts_container students_charts_container" id="enrollment_by_year">
+<span class="graph_info" id="students_charts" style="min-height: 200px;">Loading ...</span>
+</span>
+<span class="tab-pane charts_container ethnicity_chart_container" id="enrollment_by_ethnicity">
+<span class="graph_info" id="ethnicity_chart" style="min-height: 200px;">Loading ...</span>
+</span>
+<span class="tab-pane charts_container gender_container" id="enrollment_by_gender">
+<span class="row gender_info">
+<span class="col-xs-5">
+<span class="icon icon-male">
+<span class="aux"></span>
+</span>
+</span>
+<span class="col-xs-4 text">Male</span>
+<span class="col-xs-3 count">617</span>
+</span>
+<span class="row gender_info">
+<span class="col-xs-5">
+<span class="icon icon-female">
+<span class="aux"></span>
+</span>
+</span>
+<span class="col-xs-4 text">Female</span>
+<span class="col-xs-3 count">600</span>
+</span>
+</span>
+<span class="data_from">
+Data by NCES 2013
+</span>
+</a>
+</div>
+</div>
+<div class="sticky_container_right">
+<div class="sticky_column">
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="all_footer_wrapper" style="overflow:hidden;">
+<section class="container-fluid hidden-xs padding" id="states">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-sm-offset-0 footer_states_container">
+<h3>Locate Schools by State:</h3>
+<div class="states">
+<div class="state">
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class="state">
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class="state">
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class="state">
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class="state">
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class="state">
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class="state">
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class="state">
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class="state">
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class="state">
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class="state">
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class="state">
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class="state">
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class="state">
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class="state">
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class="state">
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class="state">
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class="state">
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class="state">
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class="state">
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class="state">
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class="state">
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class="state">
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class="state">
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class="state">
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class="state">
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class="state">
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class="state">
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class="state">
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class="state">
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class="state">
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class="state">
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class="state">
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class="state">
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class="state">
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class="state">
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class="state">
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class="state">
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class="state">
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class="state">
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class="state">
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class="state">
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class="state">
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class="state">
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class="state">
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class="state">
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class="state">
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class="state">
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer_directory">
+<div class="container">
+<div class="row">
+<div class="col-xs-6 hidden-xs">
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;W&quot;" href="/schools/directory/w" title="Schools beginning with &quot;W&quot;">w</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class="col-xs-6 hidden-xs">
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;W&quot;" href="/teachers/directory/w" title="Teachers beginning with &quot;W&quot;">w</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class="row footer_countries_list">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer">
+<div class="container">
+<div class="row footer_links">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+<h3 class="hidden-sm hidden-md hidden-lg">Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop="static" data-keyboard data-remote="/contact/new" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Contact RateMyTeachers">
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="row copyright">
+Copyright 2001-2017 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden="true" class="modal fade" id="modal" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div aria-hidden="true" class="modal fade" id="modal_rating" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div id="loading-indicator" style="display: none;">
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif"/>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    functionToLoad.push('//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js');
+  </script>
+<script type="text/javascript">
+    functionToLoad.push('/assets/application-54ea36510d376e4b53979f87d72bc002.js');
+    functionToLoad.push('/assets/users-8d86f10db3dd4d729784ef9748a4b44e.js');
+  </script>
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        // Facebook like
+        // (function(d, s, id) {
+        //   var js, fjs = d.getElementsByTagName(s)[0];
+        //   if (d.getElementById(id)) return;
+        //   js = d.createElement(s); js.id = id;
+        //   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=232453153516852&version=v2.0";
+        //   fjs.parentNode.insertBefore(js, fjs);
+        // }(document, 'script', 'facebook-jssdk'));
+
+        // Google Plus
+        // (function() {
+        //   var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        //   po.src = 'https://apis.google.com/js/platform.js';
+        //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        // })();
+
+        // Twitter Follow
+        // !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      
+      });
+    </script>
+<script type="text/javascript">
+  functionToLoad.push(["https://www.google.com/jsapi", true, [
+    function() {
+      enrollmentByEthnicity = {};
+        enrollmentByEthnicity = {"American Indiant/Alaskan (6)":6,"Asian (3)":3,"African American (52)":52,"Hispanic (30)":30,"White (1099)":1099,"Pacific (2)":2,"Two or More Races (25)":25};
+
+      totalStudentsHistory = {"2009":1298,"2010":1307,"2011":1343,"2012":1352,"2013":1217} ;
+      initSchoolStatsPage(true, true, true);
+
+      google.load("visualization", "1", {
+        packages:["corechart"],
+        callback: function(){
+          $('body').trigger('chart-ready');
+        }
+      });
+    }
+  ]]);
+</script>
+<script>
+  functionToLoad.push(function() {
+    $('#teachers_by_alphabet').change(function(e){
+      document.location.href = $('#teachers_by_alphabet').val()
+    });
+  });
+</script>
+<script>
+  functionToLoad.push(function() {
+    var schoolPagePath = '/chapin-high-school/17887-s';
+    var resultCount = 81;
+    var minStickyResultCount = 3;
+
+    if (!isMobile && !isMedium && resultCount > 0) {
+      var stickyColumnRight = $(".sticky_container_right .sticky_column");
+      var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+      var footerHeight = $('#all_footer_wrapper').outerHeight() + 50;
+      var stickyOptions = function(getWidthFrom) {
+        return {topSpacing:0, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+      }
+      stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+      // Make center column options sticky when min results quantity
+      if (resultCount > minStickyResultCount - 1) {
+        stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+      }
+    }
+  });
+</script>
+<script type="text/javascript">
+    function initializeMaps() {
+      var length = mapFunctionArray.length;
+      for (var i = 0; i < length; i++) {
+        mapFunctionArray[i]();
+      }
+    }
+
+    functionToLoad.push(function() {
+      // Don't load google maps when no pending maps
+      if (typeof(mapFunctionArray) === 'undefined' || mapFunctionArray.length < 1)
+        return;
+
+      var googleMapsId = "AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g";
+
+      var script_path = "http://maps.googleapis.com/maps/api/js?key=" + googleMapsId + "&sensor=false&callback=initializeMaps";
+      $.getScript(script_path);
+
+    });
+  </script>
+
+
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-bottom"};
+      });
+      functionToLoad.push("//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js");
+    </script>
+
+<script>
+    window.addEventListener('load', function(){
+      console.info("[PERF] DomContentLoaded: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+
+    window.addEventListener('load', function(){
+      console.info("[PERF] Load: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+  </script>
+
+<script type="text/javascript">
+    (function() {
+      // Load script from url
+      var loadScript = function(url, callback) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+
+        // Add on load callback event
+        if (callback !== null) {
+          if (script.readyState){ //IE
+            script.onreadystatechange = function(){
+              if (script.readyState == "loaded" || script.readyState == "complete"){
+                script.onreadystatechange = null;
+                callback();
+              }
+            };
+          } else { //Others
+            // Execute callback even when an error happen
+            script.onerror = function(e){
+              try {
+                console.error("An error happen when loading '" + err.target.src + "' script.");
+              } catch(err) {} finally {
+                callback();
+              }
+            };
+            script.onload = function(){ callback(); };
+          }
+        }
+
+        // Load the script
+        script.src = url;
+        document.body.appendChild(script);
+      };
+
+      // Load scripts in a sequence instead parallel
+      // to make sure frameworks load correctly
+      function sequence(index, max, source) {
+        if (index < max) {
+          var data = functionToLoad.extractElementData(source[index]);
+
+          if (typeof data.element === 'string') {
+            if (data.async) {
+              // Async script
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+              });
+              sequence(index + 1, max, source);
+            } else {
+              // Sync scripts
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+                sequence(index + 1, max, source);
+              });
+            }
+          } else {
+            // Execute callback even when an error happen on the function
+            try {
+              if (data.async) {
+                // Async script
+                setTimeout(function() { data.element(); }, 1);
+              } else {
+                // Sync script
+                data.element();
+              }
+            } catch(err) {
+              console.error(err);
+            } finally {
+              sequence(index + 1, max, source);
+            }
+          }
+        }
+      }
+
+      // Load all javascript in a sequence
+      var loadDeferredJs = function() {
+        sequence(0, functionToLoad.length, functionToLoad);
+      };
+
+      // Execute all lazy javascripts after DOM load
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredJs, 0); });
+      else window.addEventListener('load', loadDeferredJs);
+    })();
+  </script>
+
+</body>
+</html>

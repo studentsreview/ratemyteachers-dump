@@ -1,0 +1,3939 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+      (function(){
+        window.beginTimeTrack = (new Date()).getTime();
+      })();
+    </script>
+
+
+  <title>Hartselle High School - Hartselle, Alabama | RateMyTeachers.com</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":373,"agentToken":null,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(15)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(15)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(15)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){g.push(t),h&&(b?b.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(15)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,y="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(y,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===y||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=o(l+e,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(p+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],15:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!l.aborted||i){t&&t(n,r,o);for(var a=e(o),c=h(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[w[n]];return d&&d.push([g,n,r,a]),a}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",w[n]=e,e in u||(u[e]=[])})}var y={},w={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(w,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){s("mark",["domContent",a()+x.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-x.offset}var c=(new Date).getTime(),s=t("handle"),f=t(12),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:c,now:a,origin:y,features:{},xhrWrappable:g};t(9),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),s("mark",["firstbyte",c],null,"api");var b=0,E=t(14)},{}]},{},["loader",2,7]);</script>  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+  <meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw" />
+  
+
+
+<meta name="description" content="Hartselle High School is a High School in Hartselle, AL. Search Hartselle High School&#39;s ratings, statistics and reviews by students and parents." />
+
+
+<meta property="twitter:image" content="http://www.ratemyteachers.com/images/logo_icon_1000.png" />
+
+
+<meta property="og:image" content="http://www.ratemyteachers.com/images/logo_icon_1000.png" />
+<meta property="og:title" content="Hartselle High School - Hartselle, Alabama | RateMyTeachers.com" />
+  <meta property="og:type" content="rmt:school" />
+<meta property="og:url" content="http://www.ratemyteachers.com/hartselle-high-school/253-s" />
+<meta property="og:site_name" content="Hartselle High School - Hartselle, Alabama | RateMyTeachers.com" />
+<meta property="og:description" content="Hartselle High School is a High School in Hartselle, AL. Search Hartselle High School's ratings, statistics and reviews by students and parents." />
+
+
+
+
+
+  <meta name="robots" content="noodp,noydir" />
+  <meta property="rmt:image" content="http://www.ratemyteachers.com/apple_touch_icon_196x196.png" />
+  
+  <!-- Favicons -->
+  <link rel="shortcut icon" sizes="64x64 48x48 32x32 16x16" type="image/x-icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple_touch_icon_60x60.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple_touch_icon_76x76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple_touch_icon_120x120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple_touch_icon_152x152.png">
+  <link rel="apple-touch-icon-precomposed" href="/apple_touch_icon_196x196.png"/>
+  
+  
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="screen" rel="stylesheet" />
+
+<link href="/assets/application-8f34b7246c4006713b4fb0b0c5f281b6.css" media="all" rel="stylesheet" />
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+
+
+
+  
+  <script type="text/javascript">
+    var currentState = 'CA';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:     true,
+    debugMode:           false,
+    asyncScripts:        true
+  };
+
+
+  function getWindowWidth() {
+    var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) === 'number' ) {
+      myWidth = window.innerWidth; myHeight = window.innerHeight;
+    } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+      myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+      myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+    }
+    return myWidth;
+  }
+
+  var isDesktopVariant = true;
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isExtraSmall = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false);
+  var isMobile = isExtraSmall || isMobileVariant;
+  var isMedium = (getWindowWidth() < 1200) || (screen ? screen.width < 1200 : false);
+
+
+  var isChrome = navigator.userAgent.indexOf('Chrome') > -1;
+  var isExplorer = navigator.userAgent.indexOf('MSIE') > -1;
+  var isFirefox = navigator.userAgent.indexOf('Firefox') > -1;
+  var isSafari = navigator.userAgent.indexOf("Safari") > -1;
+  var isOpera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
+  if ((isChrome)&&(isSafari)) {isSafari=false;}
+  if ((isChrome)&&(isOpera)) {isChrome=false;}
+
+  var enablePropel    = !isSafari && !isOpera && false;
+  var enableMediabong = !isSafari && !isOpera;
+  var enableBrightComedia = !isSafari && !isOpera;
+
+  var isMobileUpload = false;
+
+    var cseData = {
+      isCseSearch: true
+      ,paramFormat: '%{search_term}%{location}'
+      ,stateList: [{"name":"Alaska","shortname":"ak"},{"name":"Alabama","shortname":"al"},{"name":"Arkansas","shortname":"ar"},{"name":"Arizona","shortname":"az"},{"name":"California","shortname":"ca"},{"name":"Colorado","shortname":"co"},{"name":"Connecticut","shortname":"ct"},{"name":"Dc","shortname":"dc"},{"name":"Delaware","shortname":"de"},{"name":"Florida","shortname":"fl"},{"name":"Georgia","shortname":"ga"},{"name":"Hawaii","shortname":"hi"},{"name":"Iowa","shortname":"ia"},{"name":"Idaho","shortname":"id"},{"name":"Illinois","shortname":"il"},{"name":"Indiana","shortname":"in"},{"name":"Kansas","shortname":"ks"},{"name":"Kentucky","shortname":"ky"},{"name":"Louisiana","shortname":"la"},{"name":"Massachusetts","shortname":"ma"},{"name":"Maryland","shortname":"md"},{"name":"Maine","shortname":"me"},{"name":"Michigan","shortname":"mi"},{"name":"Minnesota","shortname":"mn"},{"name":"Missouri","shortname":"mo"},{"name":"Mississippi","shortname":"ms"},{"name":"Montana","shortname":"mt"},{"name":"North Carolina","shortname":"nc"},{"name":"North Dakota","shortname":"nd"},{"name":"Nebraska","shortname":"ne"},{"name":"New Hampshire","shortname":"nh"},{"name":"New Jersey","shortname":"nj"},{"name":"New Mexico","shortname":"nm"},{"name":"Nevada","shortname":"nv"},{"name":"New York","shortname":"ny"},{"name":"Ohio","shortname":"oh"},{"name":"Oklahoma","shortname":"ok"},{"name":"Oregon","shortname":"or"},{"name":"Pennsylvania","shortname":"pa"},{"name":"Puerto Rico","shortname":"pr"},{"name":"Rhode Island","shortname":"ri"},{"name":"South Carolina","shortname":"sc"},{"name":"South Dakota","shortname":"sd"},{"name":"Tennessee","shortname":"tn"},{"name":"Texas","shortname":"tx"},{"name":"Utah","shortname":"ut"},{"name":"Virginia","shortname":"va"},{"name":"Vermont","shortname":"vt"},{"name":"Washington","shortname":"wa"},{"name":"Wisconsin","shortname":"wi"},{"name":"West Virginia","shortname":"wv"},{"name":"Wyoming","shortname":"wy"}]
+    };
+
+
+  // Search autocomplete widget
+  var searchAutocompleteHTML = "<div class=\'desktop search_autocomplete_widget\'>\n<div class=\'autocomplete_teachers\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-user\'><\/i>\nTeachers and Professors\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'amp_ads_autocomplete_widget\' id=\'amp_ads_autocomplete\'><\/div>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_school_name\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nTeachers and Professors\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<div class=\'autocomplete_schools\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-university\'><\/i>\nSchools and Colleges\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_address\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nSchools and Colleges\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<\/div>\n";
+</script>
+
+
+<script type="text/javascript">
+  // Async functions variable
+  functionToLoad = [];
+  
+  // Fastest way to check if an object is an array
+  functionToLoad.isArrayObj = function(obj) {
+    return !!obj && obj.constructor === Array;
+  };
+  
+  // Extract data from an element
+  functionToLoad.extractElementData = function(elementData) {
+    var data = {
+      element: elementData
+      ,async: false
+      ,subElements: []
+    };
+    
+    // The element is an array, check for async option
+    if (this.isArrayObj(elementData) && elementData.length > 0) {
+      data.async = !!elementData[1];
+      data.element = elementData[0];
+      data.subElements = elementData[2] || [];
+    }
+    return data;
+  };
+  
+  // Wrap push functionality
+  functionToLoad.realPush = functionToLoad.push;
+  functionToLoad.executePush = function(args) {
+    var data = this.extractElementData(args);
+
+    // Inject script tag on inplace
+    if (typeof data.element === 'string') {
+      // Inject external file
+      document.write('<script type="text/javascript" src="' + data.element + '"><\/script>');
+    } else {
+      // Inject function
+      document.write('<script type="text/javascript">(');
+      document.write(data.element.toString());
+      document.write(')();<\/script>');
+    }
+    
+    // Execute child scripts
+    if (data.subElements.length > 0) {
+      this.executePush(data.subElements);
+    }
+  };
+  functionToLoad.push = function(args) {
+    if (siteConfig.asyncScripts) {
+      if (siteConfig.debugMode) { console.log('Async Script'); }
+      
+      // Async scripts so add it to array for later execution
+      this.realPush(args);
+      return;
+    }
+    if (siteConfig.debugMode) { console.log('Sync Script'); }
+    
+    // No async scripts, execute it right away
+    this.executePush(args);
+  };
+</script>
+
+
+
+
+<script type="text/javascript">_googlePush = function(a) {};</script>
+
+<script type="text/javascript">
+  functionToLoad.push('//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js');
+  functionToLoad.push('//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js');
+</script>
+
+
+
+
+  
+    <script>
+      functionToLoad.push(function() {
+        gaId = 'UA-4216499-1';
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', gaId, 'auto');
+        ga('require', 'displayfeatures');
+        //ga('require', 'ecommerce', 'ecommerce.js');
+      });
+    </script>
+
+
+<script type="text/javascript">
+  functionToLoad.push('/assets/rmt.analytics-833eb75f283313dde59926cd5939692a.js');
+</script>
+
+<script>
+  functionToLoad.push(function(){
+    pageType = "";
+    RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+    searchTerm = "";
+  });
+</script>
+
+
+<script type="text/javascript">
+    // Returns a function, that, as long as it continues to be invoked, will not
+    // be triggered. The function will be called after it stops being called for
+    // N milliseconds. If `immediate` is passed, trigger the function on the
+    // leading edge, instead of the trailing.
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+</script>
+
+  <!--BEGIN FIRSTIMPRESSION TAG -->
+<script data-cfasync='false' type='text/javascript'>
+  functionToLoad.push([function() {
+    window.apd_options = { 'websiteId': 6292, 'runFromFrame': false };
+    (function() {
+      var w = window.apd_options.runFromFrame ? window.top : window;
+      if(window.apd_options.runFromFrame && w!=window.parent) w=window.parent;
+      if (w.location.hash.indexOf('apdAdmin') != -1){if(typeof(Storage) !== 'undefined') {w.localStorage.apdAdmin = 1;}}
+      var adminMode = ((typeof(Storage) == 'undefined') || (w.localStorage.apdAdmin == 1));
+      w.apd_options=window.apd_options;
+      var apd = w.document.createElement('script'); apd.type = 'text/javascript'; apd.async = true;
+      apd.src = '//' + (adminMode ? 'cdn' : 'ecdn') + '.firstimpression.io/' + (adminMode ? 'fi.js?id=' + window.apd_options.websiteId : 'fi_client.js') ;
+      var s = w.document.getElementsByTagName('head')[0]; s.appendChild(apd);
+    })();
+  }, true]);
+</script>
+<!-- END FIRSTIMPRESSION TAG -->
+
+
+
+
+    <!-- Google Custom Ads -->
+    <script type="text/javascript" charset="utf-8">
+      functionToLoad.push(function() {
+        (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+        arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+        O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+        e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+      });
+    </script>
+    <!-- AdSense -->
+    <script type="text/javascript">
+      functionToLoad.push('//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
+    </script>
+
+    <script type="text/javascript">
+      functionToLoad.push(function() {
+        window.deployads=[];
+        window.deployads.push=function(){
+          var b=document.querySelectorAll('script[type\x3d"text/x-ab-test"]:not([data-processed])');
+          if(b&&0<b.length){
+            var b=b[0];
+            var a=b.innerHTML.replace(/xscript/g,"script");
+            document.write(a);
+            b.setAttribute("data-processed","true");
+          }
+        }
+      });
+    </script>
+
+
+
+  <script type="text/javascript">
+    functionToLoad.push(function() {
+
+      var LazyAds = function(){
+        // this.elements = {};
+      };
+
+
+      LazyAds.init = function(delay){
+        this.elements = {};
+        var self = this;
+        if (typeof(delay) === 'undefined' || delay === null)
+          delay = 10000;
+        else
+          console.info('Set LazyAds delay to ' + delay + 'ms');
+
+
+        $(window).load(function() {
+          // self.domLoaded = true;
+          // console.log('LazyAds: window load');
+          setTimeout(function() {
+            self.domLoaded = true;
+            self.refresh();
+          }, delay);
+          // self.refresh();
+        });
+
+        var scrollHandler = debounce(function(e){
+          self.refresh();
+        }, 100);
+        jQuery(document).scroll(scrollHandler);
+      };
+
+      /* id:  can ben ID of en element, or a scroll offset */
+      LazyAds.register = function(id, callback, opts) {
+        // console.log('LazyAds: register ' + id);
+        this.elements[ id ] = { loaded: false, callback: callback };
+        this.refresh();
+      };
+
+
+      LazyAds.refresh = function() {
+        var el, isVisible;
+        var scrollY = window.scrollY;
+        // console.log("LazyAds: scrollY " + scrollY);
+        for(var id in this.elements) {
+          if (!this.elements.hasOwnProperty(id)) continue;
+          if(this.elements[id].loaded) continue;
+
+          isVisible = false || this.domLoaded;
+
+          if (!isVisible) {
+            // handle scroll position
+            if (/^\d+$/.test(id)) {
+              // console.log('id is an offset');
+              if( scrollY >= id ) {
+                isVisible = true;
+              }
+            } else if( this.isVisible(id) ) {
+              isVisible = true;
+            }
+          }
+
+          if (isVisible) {
+            this.elements[id].loaded = true;
+            console.info('LazyAds: execute callback for ' + id);
+            this.elements[id].callback();
+            delete this.elements[id];
+          }
+
+
+
+        }
+      };
+
+
+      LazyAds.isVisible = function(id) {
+        // https://github.com/customd/jquery-visible/blob/master/jquery.visible.js
+        var $t        = $('#' + id);
+
+        // if the id doesn't exist just bounce.
+        if( !$t[0] ) return false;
+
+        var $w        = $(window),  // todo refactor this
+            t         = $t.get(0),
+            vpWidth   = $w.width(),
+            vpHeight  = $w.height(),
+            direction = (direction) ? direction : 'both',
+            clientSize = t.offsetWidth * t.offsetHeight;
+            // clientSize = hidden === true ? t.offsetWidth * t.offsetHeight : true;
+
+        if (typeof t.getBoundingClientRect === 'function'){
+
+            // Use this native browser method, if available.
+            var rec = t.getBoundingClientRect(),
+                tViz = rec.top    >= 0 && rec.top    <  vpHeight,
+                bViz = rec.bottom >  0 && rec.bottom <= vpHeight,
+                lViz = rec.left   >= 0 && rec.left   <  vpWidth,
+                rViz = rec.right  >  0 && rec.right  <= vpWidth,
+                vVisible   = tViz || bViz,
+                hVisible   = lViz || rViz;
+
+            if(direction === 'both')
+                return clientSize && vVisible && hVisible;
+            else if(direction === 'vertical')
+                return clientSize && vVisible;
+            else if(direction === 'horizontal')
+                return clientSize && hVisible;
+        } else {
+
+            var viewTop         = $w.scrollTop(),
+                viewBottom      = viewTop + vpHeight,
+                viewLeft        = $w.scrollLeft(),
+                viewRight       = viewLeft + vpWidth,
+                offset          = $t.offset(),
+                _top            = offset.top,
+                _bottom         = _top + $t.height(),
+                _left           = offset.left,
+                _right          = _left + $t.width(),
+                compareTop      = _bottom,
+                compareBottom   = _top,
+                compareLeft     = _right,
+                compareRight    = _left;
+
+            if(direction === 'both')
+                return !!clientSize && ((compareBottom <= viewBottom) && (compareTop >= viewTop)) && ((compareRight <= viewRight) && (compareLeft >= viewLeft));
+            else if(direction === 'vertical')
+                return !!clientSize && ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+            else if(direction === 'horizontal')
+                return !!clientSize && ((compareRight <= viewRight) && (compareLeft >= viewLeft));
+        }
+      };
+
+
+
+      var delay = null;
+      LazyAds.init(delay);
+
+      // (function() {
+      //   var delay = null;
+      //   LazyAds.init();
+      // })();
+    });
+  </script>
+
+
+
+  <script type="text/javascript">
+    var _session = {};
+  </script>
+ 
+  
+        <script type="text/javascript">
+      functionToLoad.push(["//tags-cdn.deployads.com/a/ratemyteachers.com.js", true,[
+        function() {
+          (deployads = window.deployads || []).push({});
+        }
+      ]]);
+    </script>
+
+      <!-- Taboola -->
+      <script type="text/javascript">
+        functionToLoad.push([function() {
+          window._taboola = window._taboola || [];
+          _taboola.push({article:'auto'});
+          !function (e, f, u, i) {
+            if (!document.getElementById(i)){
+              e.async = 1;
+              e.src = u;
+              e.id = i;
+              f.parentNode.insertBefore(e, f);
+            }
+          }(document.createElement('script'),
+          document.getElementsByTagName('script')[0],
+          '//cdn.taboola.com/libtrc/ratemyteachers-network/loader.js',
+          'tb_loader_script');
+          if(window.performance && typeof window.performance.mark == 'function')
+            {window.performance.mark('tbl_ic');}
+        }, true]);
+      </script>
+ 
+  <link href='http://www.ratemyteachers.com/hartselle-high-school/253-s.rss' rel='alternate' type='application/rss+xml'>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="TwxQHeyx4W2J/MzhpZcv3ff6utzhT66kp0lwz3Z4F/s=" name="csrf-token" />
+
+
+
+</head>
+<!--
+
+██████╗ ███╗   ███╗████████╗
+██╔══██╗████╗ ████║╚══██╔══╝
+██████╔╝██╔████╔██║   ██║   
+██╔══██╗██║╚██╔╝██║   ██║   
+██║  ██║██║ ╚═╝ ██║   ██║   
+╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝
+
+If you see this we should talk!  We are pretty awesome!
+-->
+<body class="inner_page school_page schools_v12_1
+">
+  <div id="fb-root"></div>
+      <div class='rate_my_teachers_international'>
+<div class='container'>
+<div class='row'>
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+<div class='pull-right user_top_nav'></div>
+</div>
+</div>
+</div>
+<header>
+<div class='container'>
+<div class='row'>
+<form action='/search_page' class='tab-form search_form trigger_to_main_search' method='get'>
+<a alt='Go to RateMyTeachers Home' href='/' id='rate_my_teachers_logo' title='Go to RateMyTeachers Home'></a>
+<input name='search' type='hidden' value='teachers'>
+<div class='search_inputs'>
+<div class='bg'>
+<div class='padding'>
+<input class='search_input' name='q' placeholder='Search: School Name, City' type='text'>
+</div>
+<div class='location'>
+<select class="state" id="state" name="state"><option value="">Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class='search_button'>
+<button class='btn-search fa fa-search fa-3x' title='Search RateMyTeachers' type='submit'></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+
+
+
+  <div class="container-fluid main-content">
+    <div class="row">
+        <section class="breadcrumbs container-fluid">
+          <div class="row">
+            <div class="container">
+              <div class="col-sm-12">
+                <ul class='list-inline collapsible_nav collapsible_nav_collapsed'>
+<li class='toggle'>
+<a href='javascript:void(0);' rel='nofollow'>
+<i class='fa fa-bars'></i>
+</a>
+</li>
+<li class='collapse'>
+<a href='/' title='Go to RateMyTeachers Home'>United States</a>
+</li>
+<li class='always_show'>
+<a alt='Go to Schools in Alabama' href='/alabama' title='Go to Schools in Alabama'>Alabama</a>
+</li>
+<li class='collapse'>
+<a alt='Go to Schools in Hartselle' href='/alabama/hartselle' title='Go to Schools in Hartselle'>Hartselle</a>
+</li>
+<li class='always_show'>
+<!-- %span.last= @school.proper_name -->
+<a alt="View Hartselle High School's Teachers" href='/hartselle-high-school/253-s' title="View Hartselle High School's Teachers">Hartselle High School</a>
+</li>
+<li class='always_show extra_option'>
+<a class='new_teacher_trigger' data-backdrop='static' data-keyboard data-remote='/teachers/new?sid=253' data-school='Hartselle High School' data-sender-name='School page breadcrumb' data-target='#modal' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Add My Teacher'>Add My Teacher</a>
+</li>
+<li class='always_show extra_option'>
+<a class='new_school_rating_trigger' data-backdrop='static' data-keyboard data-remote='/school_ratings/new?sid=253' data-school='Hartselle High School' data-sender-name='School page breadcrumb' data-target='#modal_rating' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Rate My School'>Rate My School</a>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+      <div class="container flash_container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="alert alert-danger" id="flash-error" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-warning" id="flash-alert" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-success" id="flash-success" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-info"  id="flash-notice" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+
+      <div id="content">
+        
+<span class='dn' itemscope itemtype='http://data-vocabulary.org/Breadcrumb'>
+<a href='http://www.ratemyteachers.com/alabama' itemprop='url'>
+<span itemprop='title'>Alabama</span>
+</a>
+<span itemscope itemtype='http://data-vocabulary.org/Breadcrumb'>
+<a href='http://www.ratemyteachers.com/alabama/hartselle' itemprop='url'>
+<span itemprop='title'>Hartselle</span>
+</a>
+</span>
+</span>
+
+<div id='sortable_ad_trigger'></div>
+<div class='container' itemscope itemtype='http://schema.org/ProfilePage'>
+<meta content='2017-09-18' itemprop='dateModified'>
+<!-- .container{:itemscope => true, :itemtype => "http://schema.org/#{school.rs_school_type}"} -->
+<div class='dn' itemprop='aggregateRating' itemscope itemtype='http://schema.org/AggregateRating'>
+<meta content='164' itemprop='ratingCount'>
+<meta content='164' itemprop='reviewCount'>
+<meta content='4.31445' itemprop='ratingValue'>
+<meta content='5' itemprop='bestRating'>
+<meta content='0' itemprop='worstRating'>
+</div>
+<div class='row'>
+<section class='col-md-12 content' itemprop='about' itemscope itemtype='http://schema.org/School'>
+<div class='row secondary_data'>
+<div class='col-xs-12 col-lg-9 primary_column'>
+<div class='row school_info'>
+<div class='col-xs-12 col-sm-7 main_info'>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='school_name'>
+<h1 title='Hartselle High School'>
+<span itemprop='name'>
+Hartselle High School
+</span>
+<div class='school_actions' data-name='Hartselle High School' data-sid='253' data-status='0' style='display:none;'></div>
+</h1>
+<a class='edit school_correction_trigger' data-backdrop='static' data-keyboard data-remote='/schools/correction?sid=253' data-school='Hartselle High School' data-sender-name='School page Main' data-target='#modal' data-toggle='modal' href='javascript:void(0);' rel='nofollow' remote title='Submit a Correction'>
+Edit
+</a>
+</div>
+<div class='score'>
+<div class='rateit star-rating rateit-exclude' title='4.3 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 94.918px;'></div>
+</div>
+</div>
+
+Average
+4.31
+based on
+164
+teacher ratings
+</div>
+<div class='description'>
+<strong>Hartselle High School</strong>
+is a
+public
+high school located in
+Hartselle, Alabama and part of Hartselle City School District.
+Hartselle High School is ranked
+30
+in Alabama.
+
+<a href='/hartselle-high-school/253-s/stats' target='_blank'>
+Learn More
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='col-xs-12 col-sm-4 details'>
+<div class='aux'>
+<h2 class='detail_item rate_school'>
+<a class='new_school_rating_trigger' data-backdrop='static' data-keyboard data-remote='/school_ratings/new?sid=253' data-sender-name='School page Main' data-target='#modal_rating' data-teacher='Hartselle High School' data-toggle='modal' href='javascript:void(0);' rel='nofollow' remote title='Submit Rating for Hartselle High School'>
+<i class='fa fa-institution'></i>
+<span class='value'>Rate Hartselle High School</span>
+</a>
+</h2>
+<div class='detail_item address'>
+<a href='https://www.google.com/maps/search/904%20S%20Sparkman%20St%2C%20Hartselle%2C%20Alabama%2035640%2C%20Hartselle%2C%20Alabama%2C%2035640%2C%20United%20States' target='_blank' title='904 S Sparkman St, Hartselle, Alabama 35640'>
+<i class='fa fa-map-marker'></i>
+<span class='value'>904 S Sparkman St, Hartselle, Alabama 35640</span>
+</a>
+</div>
+<div class='detail_item phone'>
+<a class='school_phone_trigger' data-phone='2567735426' href='javascript:void(0);'>
+<i class='fa fa-phone'></i>
+<span itemprop='telephone'>256-773-5426</span>
+</a>
+</div>
+<h2 class='detail_item district'>
+<i class='fa fa-map'></i>
+Hartselle City School District
+</h2>
+<div class='detail_item website'>
+<a href='http://hartselletigers.org' rel='nofollow' target='_blank' title='http://hartselletigers.org'>
+<i class='fa fa-globe'></i>
+<span itemprop='url'>http://hartselletigers.org</span>
+</a>
+</div>
+<div class='enrollment'>
+<div class='detail_item student'>
+<i class='fa fa-graduation-cap'></i>
+962
+Students
+Enrolled
+</div>
+<div class='detail_item gender'>
+<i class='fa fa-pie-chart'></i>
+491
+Male
+|
+471
+Female
+</div>
+</div>
+</div>
+<span class='dn' itemprop='address' itemscope itemtype='http://schema.org/PostalAddress'>
+<span itemprop='streetAddress'>904 S Sparkman St</span>
+<span itemprop='addressLocality'>Hartselle</span>
+<span itemprop='addressRegion'>AL</span>
+<span itemprop='postalCode'>35640</span>
+</span>
+</div>
+</div>
+
+<div class='school_content'>
+<div class='sticky_container_center'>
+<div class='sticky_column'>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='filter_section'>
+<div class='row subtitle'>
+<div class='col-xs-6'>
+<h2 class='active'>
+<a href='http://www.ratemyteachers.com/hartselle-high-school/253-s' title="View Hartselle High School's Teachers">
+Faculty:
+56
+Teachers
+</a>
+</h2>
+</div>
+<div class='col-xs-6'>
+<h2 class=''>
+<a href='http://www.ratemyteachers.com/hartselle-high-school/253-s/school-reviews' title="View Hartselle High School's Reviews">
+Hartselle High School
+Reviews
+</a>
+</h2>
+</div>
+</div>
+<div class='row search_form_container'>
+<form action='/hartselle-high-school/253-s' class='simple_form inline_form' id='school_search_by_teacher_form'>
+<div class='col-md-2 sort_options'>
+<select id="sort_by" name="sort_by"><option value="">Sort by</option><option value=""></option><option value="">Latest Update</option>
+<option value="last_name">Last Name</option>
+<option value="first_name">First Name</option>
+<option value="avg_asc">Average Rating: Low to High</option>
+<option value="avg_desc">Average Rating: High to Low</option></select>
+</div>
+<div class='simple_form inline_form'>
+<div class='col-md-9 text'>
+<input name='q' placeholder='Search by Teacher' type='text'>
+</div>
+<div class='col-md-1 options'>
+<button class='btn fa fa-search fa-2x' name='commit' title='Search by Teacher' type='submit'></button>
+</div>
+</div>
+</form>
+</div>
+<div class='row extra'>
+<a class='col-xs-4 new_admin_request_trigger apply_admin' data-remote='/admin/new?sid=253' data-school='Hartselle High School' data-sender='School page Mobile Search Form' data-target='#modal' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title="Become Hartselle High School's Moderator">
+<i class='fa fa-user-plus'></i>
+<span>Become a Moderator!</span>
+</a>
+<a class='col-xs-4 new_school_rating_trigger school_review' data-backdrop='static' data-keyboard data-remote='/school_ratings/new?sid=253' data-sender-name='School page Search bar' data-target='#modal_rating' data-teacher='Hartselle High School' data-toggle='modal' href='javascript:void(0);' rel='nofollow' remote title='Submit Rating for Hartselle High School'>
+<i class='fa fa-institution'></i>
+<span>Write a School Review</span>
+</a>
+<a class='col-xs-4 new_teacher_trigger add_teacher' data-backdrop='static' data-keyboard data-remote='/teachers/new?sid=253' data-school='Hartselle High School' data-sender-name='School page Mobile Search Form' data-target='#modal' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Add My Teacher to Hartselle High School'>
+<i class='fa fa-user-plus'></i>
+<span>Add Teacher</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='teachers'>
+<div class='ad_container AMP'>
+<div id='amp_ads_bottom'></div>
+</div>
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Margaret Ann Praytor's Ratings" class='name' href='/margaret-ann-praytor/3916505-t' target='_blank' title="View Margaret Ann Praytor's Ratings">
+Margaret Ann Praytor
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/business" title="View Hartselle High School&#39;s Business Teachers">Business</a>
+</div>
+<div class='teacher_actions' data-name='Margaret Ann Praytor' data-sid='253' data-status='-2' data-tid='3916505' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='3.7 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 80.740px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>2 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+If you want to learn from a knowledgeable teacher then she is definitely intelligent but utterly sarcastic and quick...
+</div>
+<div class='options'>
+<a alt="View Margaret Ann Praytor's Ratings" class='btn view_more' href='/margaret-ann-praytor/3916505-t' title="View Margaret Ann Praytor's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/margaret-ann-praytor/3916505-t'></a>
+</div>
+
+<div class='ad_container taboola_video'>
+
+
+    <!-- Taboola -->
+      <div id="taboola-below-article-thumbnails"></div>
+      <script type="text/javascript">
+        functionToLoad.push(function() {
+          window._taboola = window._taboola || [];
+          _taboola.push({
+            mode: 'thumbnails-a',
+            container: 'taboola-below-article-thumbnails',
+            placement: 'Below Article Thumbnails',
+            target_type: 'mix'
+          });
+        });
+      </script>
+
+</div>
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Jerome Ward's Ratings" class='name' href='/jerome-ward/1217423-t' target='_blank' title="View Jerome Ward's Ratings">
+Jerome Ward
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/english" title="View Hartselle High School&#39;s English Teachers">English</a>
+</div>
+<div class='teacher_actions' data-name='Jerome Ward' data-sid='253' data-status='-2' data-tid='1217423' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.6 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 100.980px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>9 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Dr. Ward is the best English teacher I have ever had. The man is absolutely brilliant, but he also deeply cares about...
+</div>
+<div class='options'>
+<a alt="View Jerome Ward's Ratings" class='btn view_more' href='/jerome-ward/1217423-t' title="View Jerome Ward's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jerome-ward/1217423-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Lynne Shelton's Ratings" class='name' href='/lynne-shelton/8031219-t' target='_blank' title="View Lynne Shelton's Ratings">
+Lynne Shelton
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/health" title="View Hartselle High School&#39;s Health Teachers">Health</a>
+</div>
+<div class='teacher_actions' data-name='Lynne Shelton' data-sid='253' data-status='0' data-tid='8031219' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='3.7 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 80.740px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>2 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Not sure what the other student was whining about but I would like to offer the more accurate opinion. She is the...
+</div>
+<div class='options'>
+<a alt="View Lynne Shelton's Ratings" class='btn view_more' href='/lynne-shelton/8031219-t' title="View Lynne Shelton's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/lynne-shelton/8031219-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='ad_container ATF'>
+  <div id="School_ATF_Leaderboard" style="border: 0px solid blue; text-align: center;">
+
+    <!-- Sortable -->
+    <div id="lead_desktop" class="ad-tag" data-ad-name="lead_desktop" data-ad-size="728x90" ></div>
+
+  </div>
+
+</div>
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Donna Legg-Battles' Ratings" class='name' href='/donna-legg-battles/587497-t' target='_blank' title="View Donna Legg-Battles' Ratings">
+Donna Legg-Battles
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/math" title="View Hartselle High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='teacher_actions' data-name='Donna Legg-Battles' data-sid='253' data-status='-2' data-tid='587497' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='2.3 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 51.260px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>9 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+While Mrs. Legg- Battles may not be the clearest at all times she is a wonderful teacher, she cannot spoon- feed you...
+</div>
+<div class='options'>
+<a alt="View Donna Legg-Battles' Ratings" class='btn view_more' href='/donna-legg-battles/587497-t' title="View Donna Legg-Battles' Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/donna-legg-battles/587497-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Diedrah English's Ratings" class='name' href='/diedrah-english/529621-t' target='_blank' title="View Diedrah English's Ratings">
+Diedrah English
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/biology" title="View Hartselle High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class='teacher_actions' data-name='Diedrah English' data-sid='253' data-status='-2' data-tid='529621' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.3 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 95.260px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>13 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+She is the BEST! Actively engaged, innovative, and highly involved. She loves what she teaches and she cares about...
+</div>
+<div class='options'>
+<a alt="View Diedrah English's Ratings" class='btn view_more' href='/diedrah-english/529621-t' title="View Diedrah English's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/diedrah-english/529621-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Houston Blackwood's Ratings" class='name' href='/houston-blackwood/2516329-t' target='_blank' title="View Houston Blackwood's Ratings">
+Houston Blackwood
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/biology" title="View Hartselle High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class='teacher_actions' data-name='Houston Blackwood' data-sid='253' data-status='-2' data-tid='2516329' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.7 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 102.740px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>1 rating</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Great teacher for my child. He learned so much and actually enjoyed the class!
+</div>
+<div class='options'>
+<a alt="View Houston Blackwood's Ratings" class='btn view_more' href='/houston-blackwood/2516329-t' title="View Houston Blackwood's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/houston-blackwood/2516329-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Reagan Rhone's Ratings" class='name' href='/reagan-rhone/2516330-t' target='_blank' title="View Reagan Rhone's Ratings">
+Reagan Rhone
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/english" title="View Hartselle High School&#39;s English Teachers">English</a>
+</div>
+<div class='teacher_actions' data-name='Reagan Rhone' data-sid='253' data-status='-2' data-tid='2516330' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>2 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+He's an awesome teacher! Not afraid to get on the students level and joke about things and get a littler immature but...
+</div>
+<div class='options'>
+<a alt="View Reagan Rhone's Ratings" class='btn view_more' href='/reagan-rhone/2516330-t' title="View Reagan Rhone's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/reagan-rhone/2516330-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Wanda Thompson's Ratings" class='name' href='/wanda-thompson/2405527-t' target='_blank' title="View Wanda Thompson's Ratings">
+Wanda Thompson
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/fine-arts" title="View Hartselle High School&#39;s Fine Arts Teachers">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Wanda Thompson' data-sid='253' data-status='-2' data-tid='2405527' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2405527' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Wanda Thompson' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Wanda Thompson'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2405527' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Wanda Thompson' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Wanda Thompson'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/wanda-thompson/2405527-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Kenny Lopez's Ratings" class='name' href='/kenny-lopez/2272820-t' target='_blank' title="View Kenny Lopez's Ratings">
+Kenny Lopez
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/counselor" title="View Hartselle High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class='teacher_actions' data-name='Kenny Lopez' data-sid='253' data-status='-2' data-tid='2272820' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>1 rating</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+I absolutely love Mr. Lopez. He truly has a passion for helping students out. Especially seniors who need to learn...
+</div>
+<div class='options'>
+<a alt="View Kenny Lopez's Ratings" class='btn view_more' href='/kenny-lopez/2272820-t' title="View Kenny Lopez's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kenny-lopez/2272820-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Dyroma Burroughs' Ratings" class='name' href='/dyroma-burroughs/2260913-t' target='_blank' title="View Dyroma Burroughs' Ratings">
+Dyroma Burroughs
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/english" title="View Hartselle High School&#39;s English Teachers">English</a>
+</div>
+<div class='teacher_actions' data-name='Dyroma Burroughs' data-sid='253' data-status='-2' data-tid='2260913' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>1 rating</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+i love oma :D
+</div>
+<div class='options'>
+<a alt="View Dyroma Burroughs' Ratings" class='btn view_more' href='/dyroma-burroughs/2260913-t' title="View Dyroma Burroughs' Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/dyroma-burroughs/2260913-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Jeff Hyche's Ratings" class='name' href='/jeff-hyche/2260919-t' target='_blank' title="View Jeff Hyche's Ratings">
+Jeff Hyche
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/administration" title="View Hartselle High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class='teacher_actions' data-name='Jeff Hyche' data-sid='253' data-status='-2' data-tid='2260919' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>2 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+He's really interested in helping the students. SUCH a good principal :D
+</div>
+<div class='options'>
+<a alt="View Jeff Hyche's Ratings" class='btn view_more' href='/jeff-hyche/2260919-t' title="View Jeff Hyche's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jeff-hyche/2260919-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Seth Turner's Ratings" class='name' href='/seth-turner/2231278-t' target='_blank' title="View Seth Turner's Ratings">
+Seth Turner
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/visual-arts" title="View Hartselle High School&#39;s Visual Arts Teachers">Visual Arts</a>
+</div>
+<div class='teacher_actions' data-name='Seth Turner' data-sid='253' data-status='-2' data-tid='2231278' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>1 rating</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2231278' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Seth Turner' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Seth Turner'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2231278' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Seth Turner' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Seth Turner'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/seth-turner/2231278-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Regina Hudson's Ratings" class='name' href='/regina-hudson/2230893-t' target='_blank' title="View Regina Hudson's Ratings">
+Regina Hudson
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/english" title="View Hartselle High School&#39;s English Teachers">English</a>
+</div>
+<div class='teacher_actions' data-name='Regina Hudson' data-sid='253' data-status='-2' data-tid='2230893' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='1.5 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 33.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>1 rating</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2230893' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Regina Hudson' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Regina Hudson'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2230893' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Regina Hudson' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Regina Hudson'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/regina-hudson/2230893-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Peggy Durand's Ratings" class='name' href='/peggy-durand/2175274-t' target='_blank' title="View Peggy Durand's Ratings">
+Peggy Durand
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/substitute-teacher" title="View Hartselle High School&#39;s Substitute Teacher Teachers">Substitute Teacher</a>
+</div>
+<div class='teacher_actions' data-name='Peggy Durand' data-sid='253' data-status='-2' data-tid='2175274' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>1 rating</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+YAY! She's my granny! :D
+</div>
+<div class='options'>
+<a alt="View Peggy Durand's Ratings" class='btn view_more' href='/peggy-durand/2175274-t' title="View Peggy Durand's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/peggy-durand/2175274-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Meredith Curtis' Ratings" class='name' href='/meredith-curtis/2143815-t' target='_blank' title="View Meredith Curtis' Ratings">
+Meredith Curtis
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/not-specified" title="View Hartselle High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Meredith Curtis' data-sid='253' data-status='-2' data-tid='2143815' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2143815' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Meredith Curtis' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Meredith Curtis'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2143815' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Meredith Curtis' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Meredith Curtis'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/meredith-curtis/2143815-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Jean-Marie Davis' Ratings" class='name' href='/jean-marie-davis/2013211-t' target='_blank' title="View Jean-Marie Davis' Ratings">
+Jean-Marie Davis
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/not-specified" title="View Hartselle High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Jean-Marie Davis' data-sid='253' data-status='-2' data-tid='2013211' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>2 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+This lady is the nurse, but she is the nicest person at the high school.  She treats me like I am her own child (I...
+</div>
+<div class='options'>
+<a alt="View Jean-Marie Davis' Ratings" class='btn view_more' href='/jean-marie-davis/2013211-t' title="View Jean-Marie Davis' Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jean-marie-davis/2013211-t'></a>
+</div>
+
+<div class='placements' style='border: 1px solid transparent;'></div>
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Bob Young's Ratings" class='name' href='/bob-young/1982195-t' target='_blank' title="View Bob Young's Ratings">
+Bob Young
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/administration" title="View Hartselle High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class='teacher_actions' data-name='Bob Young' data-sid='253' data-status='-2' data-tid='1982195' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 88.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>3 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+You obviously don't know Coach Young--Mr. Weaver is the one sleeping.  Coach Young gets things done! He is great.
+</div>
+<div class='options'>
+<a alt="View Bob Young's Ratings" class='btn view_more' href='/bob-young/1982195-t' title="View Bob Young's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/bob-young/1982195-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Jan Garner's Ratings" class='name' href='/jan-garner/1903401-t' target='_blank' title="View Jan Garner's Ratings">
+Jan Garner
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/history" title="View Hartselle High School&#39;s History Teachers">History</a>
+</div>
+<div class='teacher_actions' data-name='Jan Garner' data-sid='253' data-status='-2' data-tid='1903401' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=1903401' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Jan Garner' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Jan Garner'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=1903401' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Jan Garner' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Jan Garner'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jan-garner/1903401-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Randal Key's Ratings" class='name' href='/randal-key/1903402-t' target='_blank' title="View Randal Key's Ratings">
+Randal Key
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/band" title="View Hartselle High School&#39;s Band Teachers">Band</a>
+</div>
+<div class='teacher_actions' data-name='Randal Key' data-sid='253' data-status='-2' data-tid='1903402' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.6 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 100.320px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>3 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Randall was one of the best teachers i have ever had. He treats every student with respect and as adults regardless...
+</div>
+<div class='options'>
+<a alt="View Randal Key's Ratings" class='btn view_more' href='/randal-key/1903402-t' title="View Randal Key's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/randal-key/1903402-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Annie Lemmons' Ratings" class='name' href='/annie-lemmons/1903398-t' target='_blank' title="View Annie Lemmons' Ratings">
+Annie Lemmons
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/english" title="View Hartselle High School&#39;s English Teachers">English</a>
+</div>
+<div class='teacher_actions' data-name='Annie Lemmons' data-sid='253' data-status='-2' data-tid='1903398' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='3.5 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 77.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>1 rating</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Actually, she does sort of stick to timelines, but she talks so fast you can't hear her when she gives out the changes!
+</div>
+<div class='options'>
+<a alt="View Annie Lemmons' Ratings" class='btn view_more' href='/annie-lemmons/1903398-t' title="View Annie Lemmons' Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/annie-lemmons/1903398-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Christy Radford's Ratings" class='name' href='/christy-radford/1903400-t' target='_blank' title="View Christy Radford's Ratings">
+Christy Radford
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/english" title="View Hartselle High School&#39;s English Teachers">English</a>
+</div>
+<div class='teacher_actions' data-name='Christy Radford' data-sid='253' data-status='-2' data-tid='1903400' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>2 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=1903400' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Christy Radford' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Christy Radford'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=1903400' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Christy Radford' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Christy Radford'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/christy-radford/1903400-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Long Beth's Ratings" class='name' href='/long-beth/1770135-t' target='_blank' title="View Long Beth's Ratings">
+Long Beth
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/math" title="View Hartselle High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='teacher_actions' data-name='Long Beth' data-sid='253' data-status='-2' data-tid='1770135' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>3 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+She is the best special ed teacher at HHS.  She is probably the reason I actually graduated.
+</div>
+<div class='options'>
+<a alt="View Long Beth's Ratings" class='btn view_more' href='/long-beth/1770135-t' title="View Long Beth's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/long-beth/1770135-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Dennis Willingham's Ratings" class='name' href='/dennis-willingham/1611769-t' target='_blank' title="View Dennis Willingham's Ratings">
+Dennis Willingham
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/languages" title="View Hartselle High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class='teacher_actions' data-name='Dennis Willingham' data-sid='253' data-status='-2' data-tid='1611769' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.3 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 93.500px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>6 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Great Spanish teacher. Kinda hard class but he makes it fun.
+</div>
+<div class='options'>
+<a alt="View Dennis Willingham's Ratings" class='btn view_more' href='/dennis-willingham/1611769-t' title="View Dennis Willingham's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/dennis-willingham/1611769-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Keith Wright's Ratings" class='name' href='/keith-wright/1469166-t' target='_blank' title="View Keith Wright's Ratings">
+Keith Wright
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/economics" title="View Hartselle High School&#39;s Economics Teachers">Economics</a>
+</div>
+<div class='teacher_actions' data-name='Keith Wright' data-sid='253' data-status='-2' data-tid='1469166' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='1.3 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 27.500px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>2 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=1469166' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Keith Wright' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Keith Wright'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=1469166' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Keith Wright' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Keith Wright'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/keith-wright/1469166-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Tiffant Peebles' Ratings" class='name' href='/tiffant-peebles/1422494-t' target='_blank' title="View Tiffant Peebles' Ratings">
+Tiffant Peebles
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/english" title="View Hartselle High School&#39;s English Teachers">English</a>
+</div>
+<div class='teacher_actions' data-name='Tiffant Peebles' data-sid='253' data-status='-2' data-tid='1422494' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='2.5 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 55.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>2 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Really nice and the class was easy.
+</div>
+<div class='options'>
+<a alt="View Tiffant Peebles' Ratings" class='btn view_more' href='/tiffant-peebles/1422494-t' title="View Tiffant Peebles' Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/tiffant-peebles/1422494-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Phil Jackson's Ratings" class='name' href='/phil-jackson/1330970-t' target='_blank' title="View Phil Jackson's Ratings">
+Phil Jackson
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/not-specified" title="View Hartselle High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Phil Jackson' data-sid='253' data-status='-2' data-tid='1330970' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=1330970' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Phil Jackson' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Phil Jackson'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=1330970' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Phil Jackson' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Phil Jackson'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/phil-jackson/1330970-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Dan Styles' Ratings" class='name' href='/dan-styles/1330585-t' target='_blank' title="View Dan Styles' Ratings">
+Dan Styles
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/history" title="View Hartselle High School&#39;s History Teachers">History</a>
+</div>
+<div class='teacher_actions' data-name='Dan Styles' data-sid='253' data-status='-2' data-tid='1330585' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.4 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 96.580px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>6 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Amazing and so freaking cute :) aaahhhh!!!love the way he teaches
+</div>
+<div class='options'>
+<a alt="View Dan Styles' Ratings" class='btn view_more' href='/dan-styles/1330585-t' title="View Dan Styles' Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/dan-styles/1330585-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Kelly Wade's Ratings" class='name' href='/kelly-wade/1330589-t' target='_blank' title="View Kelly Wade's Ratings">
+Kelly Wade
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/physics" title="View Hartselle High School&#39;s Physics Teachers">Physics</a>
+</div>
+<div class='teacher_actions' data-name='Kelly Wade' data-sid='253' data-status='-2' data-tid='1330589' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.5 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 99.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>6 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+BEST CHEMISTRY TEACHER! She takes an interest in her students and WANTS them to succeed. We had 17 out of 19 students...
+</div>
+<div class='options'>
+<a alt="View Kelly Wade's Ratings" class='btn view_more' href='/kelly-wade/1330589-t' title="View Kelly Wade's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kelly-wade/1330589-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='ad_container MID'>
+  <div id="School_MID_Leaderboard" class="sponsor">
+
+    <!-- Sortable -->
+    <div id="mrec_desktop" class="ad-tag" data-ad-name="mrec_desktop" data-ad-size="300x250" ></div>
+    
+  </div>
+
+</div>
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Mary Morrow's Ratings" class='name' href='/mary-morrow/1324168-t' target='_blank' title="View Mary Morrow's Ratings">
+Mary Morrow
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/english" title="View Hartselle High School&#39;s English Teachers">English</a>
+</div>
+<div class='teacher_actions' data-name='Mary Morrow' data-sid='253' data-status='-2' data-tid='1324168' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>5 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Mrs. Morrow was a legend. It's sad that she retired, but her class was one of the best I've ever taken.
+</div>
+<div class='options'>
+<a alt="View Mary Morrow's Ratings" class='btn view_more' href='/mary-morrow/1324168-t' title="View Mary Morrow's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mary-morrow/1324168-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Peggy Booth's Ratings" class='name' href='/peggy-booth/1255418-t' target='_blank' title="View Peggy Booth's Ratings">
+Peggy Booth
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/not-specified" title="View Hartselle High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Peggy Booth' data-sid='253' data-status='-2' data-tid='1255418' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=1255418' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Peggy Booth' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Peggy Booth'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=1255418' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Peggy Booth' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Peggy Booth'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/peggy-booth/1255418-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Johnson's Ratings" class='name' href='/johnson/1218364-t' target='_blank' title="View Johnson's Ratings">
+Johnson
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/physical-education" title="View Hartselle High School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class='teacher_actions' data-name='Johnson' data-sid='253' data-status='-2' data-tid='1218364' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 88.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>3 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+a very good pe teacher but has her moments. she will be nice then yell at you and then laugh about it. and ive only...
+</div>
+<div class='options'>
+<a alt="View Johnson's Ratings" class='btn view_more' href='/johnson/1218364-t' title="View Johnson's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/johnson/1218364-t'></a>
+</div>
+
+<div class='placements' style='border: 1px solid transparent;'></div>
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View K. Thompson's Ratings" class='name' href='/k-thompson/1218396-t' target='_blank' title="View K. Thompson's Ratings">
+K. Thompson
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/not-specified" title="View Hartselle High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='K. Thompson' data-sid='253' data-status='-2' data-tid='1218396' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>2 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+i loved her spanish class
+</div>
+<div class='options'>
+<a alt="View K. Thompson's Ratings" class='btn view_more' href='/k-thompson/1218396-t' title="View K. Thompson's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/k-thompson/1218396-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Jeff Hayes' Ratings" class='name' href='/jeff-hayes/1149513-t' target='_blank' title="View Jeff Hayes' Ratings">
+Jeff Hayes
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/social-studies" title="View Hartselle High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class='teacher_actions' data-name='Jeff Hayes' data-sid='253' data-status='-2' data-tid='1149513' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.8 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 105.380px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>8 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Great teacher who cares about everyone. Had him in American issues and 11th grade US History and learned more History...
+</div>
+<div class='options'>
+<a alt="View Jeff Hayes' Ratings" class='btn view_more' href='/jeff-hayes/1149513-t' title="View Jeff Hayes' Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jeff-hayes/1149513-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Anne Ledbetter's Ratings" class='name' href='/anne-ledbetter/1082121-t' target='_blank' title="View Anne Ledbetter's Ratings">
+Anne Ledbetter
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/english" title="View Hartselle High School&#39;s English Teachers">English</a>
+</div>
+<div class='teacher_actions' data-name='Anne Ledbetter' data-sid='253' data-status='-2' data-tid='1082121' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.4 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 96.360px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>4 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+She was more than a teacher to us; she was a friend and truly deserves to be called an educator.
+</div>
+<div class='options'>
+<a alt="View Anne Ledbetter's Ratings" class='btn view_more' href='/anne-ledbetter/1082121-t' title="View Anne Ledbetter's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/anne-ledbetter/1082121-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Coach Cochran's Ratings" class='name' href='/coach-cochran/810977-t' target='_blank' title="View Coach Cochran's Ratings">
+Coach Cochran
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/history" title="View Hartselle High School&#39;s History Teachers">History</a>
+</div>
+<div class='teacher_actions' data-name='Coach Cochran' data-sid='253' data-status='-2' data-tid='810977' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>3 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Great teacher; we would not have education issues if all teachers could get kids to buy into learning like he did...
+</div>
+<div class='options'>
+<a alt="View Coach Cochran's Ratings" class='btn view_more' href='/coach-cochran/810977-t' title="View Coach Cochran's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/coach-cochran/810977-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View William Booth's Ratings" class='name' href='/william-booth/683511-t' target='_blank' title="View William Booth's Ratings">
+William Booth
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/math" title="View Hartselle High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='teacher_actions' data-name='William Booth' data-sid='253' data-status='-2' data-tid='683511' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.1 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 89.540px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>9 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Coach Booth was my Calc 1 &amp; 2 teacher in high school. Highly recommend. 
+</div>
+<div class='options'>
+<a alt="View William Booth's Ratings" class='btn view_more' href='/william-booth/683511-t' title="View William Booth's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/william-booth/683511-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Martha Cooper's Ratings" class='name' href='/martha-cooper/587485-t' target='_blank' title="View Martha Cooper's Ratings">
+Martha Cooper
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/health" title="View Hartselle High School&#39;s Health Teachers">Health</a>
+</div>
+<div class='teacher_actions' data-name='Martha Cooper' data-sid='253' data-status='-2' data-tid='587485' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>4 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+She was extremely nice and very cheerful. While cheerfulness is sometimes not appreciated first thing in the morning,...
+</div>
+<div class='options'>
+<a alt="View Martha Cooper's Ratings" class='btn view_more' href='/martha-cooper/587485-t' title="View Martha Cooper's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/martha-cooper/587485-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Gary Orr's Ratings" class='name' href='/gary-orr/587493-t' target='_blank' title="View Gary Orr's Ratings">
+Gary Orr
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/not-specified" title="View Hartselle High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Gary Orr' data-sid='253' data-status='-2' data-tid='587493' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=587493' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Gary Orr' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Gary Orr'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=587493' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Gary Orr' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Gary Orr'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/gary-orr/587493-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Coach Napier's Ratings" class='name' href='/coach-napier/587462-t' target='_blank' title="View Coach Napier's Ratings">
+Coach Napier
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/computer-science" title="View Hartselle High School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class='teacher_actions' data-name='Coach Napier' data-sid='253' data-status='-2' data-tid='587462' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 88.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>1 rating</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+He is cool just a hard class.
+</div>
+<div class='options'>
+<a alt="View Coach Napier's Ratings" class='btn view_more' href='/coach-napier/587462-t' title="View Coach Napier's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/coach-napier/587462-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Lepage Williams' Ratings" class='name' href='/lepage-williams/587467-t' target='_blank' title="View Lepage Williams' Ratings">
+Lepage Williams
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/science" title="View Hartselle High School&#39;s Science Teachers">Science</a>
+</div>
+<div class='teacher_actions' data-name='Lepage Williams' data-sid='253' data-status='-2' data-tid='587467' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.5 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 99.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>1 rating</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+tests are kind of hard but she lets us strike up the fight songs so its all good.
+</div>
+<div class='options'>
+<a alt="View Lepage Williams' Ratings" class='btn view_more' href='/lepage-williams/587467-t' title="View Lepage Williams' Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/lepage-williams/587467-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Silvia Teague's Ratings" class='name' href='/silvia-teague/587473-t' target='_blank' title="View Silvia Teague's Ratings">
+Silvia Teague
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/math" title="View Hartselle High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='teacher_actions' data-name='Silvia Teague' data-sid='253' data-status='-2' data-tid='587473' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.9 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 107.140px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>5 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Very strict, but an extremely good teacher. Probably one of the most knowledgeable instructors I have ever had.
+</div>
+<div class='options'>
+<a alt="View Silvia Teague's Ratings" class='btn view_more' href='/silvia-teague/587473-t' title="View Silvia Teague's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/silvia-teague/587473-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Jeff Hanners' Ratings" class='name' href='/jeff-hanners/587429-t' target='_blank' title="View Jeff Hanners' Ratings">
+Jeff Hanners
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/history" title="View Hartselle High School&#39;s History Teachers">History</a>
+</div>
+<div class='teacher_actions' data-name='Jeff Hanners' data-sid='253' data-status='-2' data-tid='587429' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.3 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 94.600px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>5 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Good teacher!
+</div>
+<div class='options'>
+<a alt="View Jeff Hanners' Ratings" class='btn view_more' href='/jeff-hanners/587429-t' title="View Jeff Hanners' Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jeff-hanners/587429-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Donna Rushen's Ratings" class='name' href='/donna-rushen/587450-t' target='_blank' title="View Donna Rushen's Ratings">
+Donna Rushen
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/english" title="View Hartselle High School&#39;s English Teachers">English</a>
+</div>
+<div class='teacher_actions' data-name='Donna Rushen' data-sid='253' data-status='-2' data-tid='587450' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.5 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 99.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>2 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Easily one of the best teachers I ever had. She is one of the reasons I am a teacher now.
+</div>
+<div class='options'>
+<a alt="View Donna Rushen's Ratings" class='btn view_more' href='/donna-rushen/587450-t' title="View Donna Rushen's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/donna-rushen/587450-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Jenny McFee's Ratings" class='name' href='/jenny-mcfee/550009-t' target='_blank' title="View Jenny McFee's Ratings">
+Jenny McFee
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/not-specified" title="View Hartselle High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Jenny McFee' data-sid='253' data-status='-2' data-tid='550009' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>2 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+she really helped me a lot ... thanks
+</div>
+<div class='options'>
+<a alt="View Jenny McFee's Ratings" class='btn view_more' href='/jenny-mcfee/550009-t' title="View Jenny McFee's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jenny-mcfee/550009-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View K. Cheatham's Ratings" class='name' href='/k-cheatham/529652-t' target='_blank' title="View K. Cheatham's Ratings">
+K. Cheatham
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/fine-arts" title="View Hartselle High School&#39;s Fine Arts Teachers">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='K. Cheatham' data-sid='253' data-status='-2' data-tid='529652' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>3 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Great teacher!  The upper level classes are much more fun than Art I
+</div>
+<div class='options'>
+<a alt="View K. Cheatham's Ratings" class='btn view_more' href='/k-cheatham/529652-t' title="View K. Cheatham's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/k-cheatham/529652-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View L. Napier's Ratings" class='name' href='/l-napier/529657-t' target='_blank' title="View L. Napier's Ratings">
+L. Napier
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/biology" title="View Hartselle High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class='teacher_actions' data-name='L. Napier' data-sid='253' data-status='-2' data-tid='529657' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.8 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 106.260px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>2 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+I just loved her. I wish I was back in high school. College is hard, and I can't believe I'm almost done with my...
+</div>
+<div class='options'>
+<a alt="View L. Napier's Ratings" class='btn view_more' href='/l-napier/529657-t' title="View L. Napier's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/l-napier/529657-t'></a>
+</div>
+
+<div class='placements' style='border: 1px solid transparent;'></div>
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Ray Brown's Ratings" class='name' href='/ray-brown/529664-t' target='_blank' title="View Ray Brown's Ratings">
+Ray Brown
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/math" title="View Hartselle High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='teacher_actions' data-name='Ray Brown' data-sid='253' data-status='-2' data-tid='529664' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.3 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 95.260px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>3 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+he is the nicest teacher at HHS
+</div>
+<div class='options'>
+<a alt="View Ray Brown's Ratings" class='btn view_more' href='/ray-brown/529664-t' title="View Ray Brown's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/ray-brown/529664-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Tanya Lybarger's Ratings" class='name' href='/tanya-lybarger/529673-t' target='_blank' title="View Tanya Lybarger's Ratings">
+Tanya Lybarger
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/math" title="View Hartselle High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='teacher_actions' data-name='Tanya Lybarger' data-sid='253' data-status='-2' data-tid='529673' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.8 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 104.500px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>6 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+She has coached my daughter for 3 years and I think she is a great coach and good person as well.  She really cares...
+</div>
+<div class='options'>
+<a alt="View Tanya Lybarger's Ratings" class='btn view_more' href='/tanya-lybarger/529673-t' title="View Tanya Lybarger's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/tanya-lybarger/529673-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Joe Weaver's Ratings" class='name' href='/joe-weaver/529678-t' target='_blank' title="View Joe Weaver's Ratings">
+Joe Weaver
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/principal" title="View Hartselle High School&#39;s Principal Teachers">Principal</a>
+</div>
+<div class='teacher_actions' data-name='Joe Weaver' data-sid='253' data-status='-2' data-tid='529678' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='1.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 22.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>1 rating</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+The laziest man in the world
+</div>
+<div class='options'>
+<a alt="View Joe Weaver's Ratings" class='btn view_more' href='/joe-weaver/529678-t' title="View Joe Weaver's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/joe-weaver/529678-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Penny Dollar's Ratings" class='name' href='/penny-dollar/529692-t' target='_blank' title="View Penny Dollar's Ratings">
+Penny Dollar
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/english" title="View Hartselle High School&#39;s English Teachers">English</a>
+</div>
+<div class='teacher_actions' data-name='Penny Dollar' data-sid='253' data-status='-2' data-tid='529692' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=529692' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Penny Dollar' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Penny Dollar'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=529692' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Penny Dollar' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Penny Dollar'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/penny-dollar/529692-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Debbie Wade's Ratings" class='name' href='/debbie-wade/529610-t' target='_blank' title="View Debbie Wade's Ratings">
+Debbie Wade
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/not-specified" title="View Hartselle High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Debbie Wade' data-sid='253' data-status='-2' data-tid='529610' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>2 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+I love mrs wade! She is great teacher who relates to her students.
+</div>
+<div class='options'>
+<a alt="View Debbie Wade's Ratings" class='btn view_more' href='/debbie-wade/529610-t' title="View Debbie Wade's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/debbie-wade/529610-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Linda Roberts' Ratings" class='name' href='/linda-roberts/529636-t' target='_blank' title="View Linda Roberts' Ratings">
+Linda Roberts
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/business" title="View Hartselle High School&#39;s Business Teachers">Business</a>
+</div>
+<div class='teacher_actions' data-name='Linda Roberts' data-sid='253' data-status='-2' data-tid='529636' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 88.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>4 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Clear, kind, and gives assignments that are easy, but still give lots on business!
+</div>
+<div class='options'>
+<a alt="View Linda Roberts' Ratings" class='btn view_more' href='/linda-roberts/529636-t' title="View Linda Roberts' Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/linda-roberts/529636-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Guthry's Ratings" class='name' href='/guthry/217269-t' target='_blank' title="View Guthry's Ratings">
+Guthry
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/visual-arts" title="View Hartselle High School&#39;s Visual Arts Teachers">Visual Arts</a>
+</div>
+<div class='teacher_actions' data-name='Guthry' data-sid='253' data-status='-2' data-tid='217269' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>1 rating</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+I miss this guy
+</div>
+<div class='options'>
+<a alt="View Guthry's Ratings" class='btn view_more' href='/guthry/217269-t' title="View Guthry's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/guthry/217269-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Jerry Reeves' Ratings" class='name' href='/jerry-reeves/217264-t' target='_blank' title="View Jerry Reeves' Ratings">
+Jerry Reeves
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/administration" title="View Hartselle High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class='teacher_actions' data-name='Jerry Reeves' data-sid='253' data-status='-2' data-tid='217264' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='2.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 44.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>2 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=217264' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Jerry Reeves' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Jerry Reeves'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=217264' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Jerry Reeves' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Jerry Reeves'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jerry-reeves/217264-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Johnny Berry's Ratings" class='name' href='/johnny-berry/176997-t' target='_blank' title="View Johnny Berry's Ratings">
+Johnny Berry
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/physical-education" title="View Hartselle High School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class='teacher_actions' data-name='Johnny Berry' data-sid='253' data-status='-2' data-tid='176997' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.1 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 90.860px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>4 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Coach Berry is awesome.  Everytime I have a problem with something, Coach Berry is willing to help me.  He is awesome.
+</div>
+<div class='options'>
+<a alt="View Johnny Berry's Ratings" class='btn view_more' href='/johnny-berry/176997-t' title="View Johnny Berry's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/johnny-berry/176997-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Beth Chittam's Ratings" class='name' href='/beth-chittam/531-t' target='_blank' title="View Beth Chittam's Ratings">
+Beth Chittam
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/hartselle-high-school/253-s/languages" title="View Hartselle High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class='teacher_actions' data-name='Beth Chittam' data-sid='253' data-status='-2' data-tid='531' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='3.9 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 85.580px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>3 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Her Latin class wasn't really hard, but she did not make it very interesting at all. She is really nice and helpful -...
+</div>
+<div class='options'>
+<a alt="View Beth Chittam's Ratings" class='btn view_more' href='/beth-chittam/531-t' title="View Beth Chittam's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/beth-chittam/531-t'></a>
+</div>
+
+<!-- mrec_desktop 27 -->
+
+
+</div>
+
+</div>
+</div>
+<div class='col-xs-12 col-lg-3 secondary_column'>
+
+<div class='ad_container ATF_rectangle sponsor'>
+  <div id="School_ATF_Rectangle">
+    <!-- Sortable -->
+    <div class="ad-tag" data-ad-name="halfpage_Desktop_mrec" data-ad-size="300x250"></div>
+  </div>
+
+</div>
+<div class='row block_container demographic_card'>
+<div class='tab_horizontal_format'>
+<div class='col-xs-12 tab_header'>
+<ul class='nav nav-tabs nav-top collapsible_nav collapsible_nav_collapsed' id='enrollment_charts' role='tablist'>
+<li>
+<a alt='Enrollment By Year' data-toggle='tab' data-type='by_year' href='#enrollment_by_year' role='tab'>
+<span>Enrollment By Year</span>
+<span class='arrow_container'>
+<i class='arrow fa fa-angle-right'></i>
+</span>
+</a>
+<a class='toggle' href='javascript:void(0);'>
+<i class='fa fa-bars'></i>
+</a>
+</li>
+<li>
+<a alt='Enrollment By Ethnicity' data-toggle='tab' data-type='by_ethnicity' href='#enrollment_by_ethnicity' role='tab'>
+<span>Enrollment By Ethnicity</span>
+<span class='arrow_container'>
+<i class='arrow fa fa-angle-right'></i>
+</span>
+</a>
+<a class='toggle' href='javascript:void(0);'>
+<i class='fa fa-bars'></i>
+</a>
+</li>
+<li>
+<a alt='Enrollment By Gender' data-toggle='tab' data-type='by_gender' href='#enrollment_by_gender' role='tab'>
+<span>Enrollment By Gender</span>
+<span class='arrow_container'>
+<i class='arrow fa fa-angle-right'></i>
+</span>
+</a>
+<a class='toggle' href='javascript:void(0);'>
+<i class='fa fa-bars'></i>
+</a>
+</li>
+</ul>
+</div>
+<a class='col-xs-12 tab_container tab-content enrollment' href='/hartselle-high-school/253-s/stats' title='Go to Hartselle High School stats'>
+<span class='tab-pane charts_container students_charts_container' id='enrollment_by_year'>
+<span class='graph_info' id='students_charts' style='min-height: 200px;'>Loading ...</span>
+</span>
+<span class='tab-pane charts_container ethnicity_chart_container' id='enrollment_by_ethnicity'>
+<span class='graph_info' id='ethnicity_chart' style='min-height: 200px;'>Loading ...</span>
+</span>
+<span class='tab-pane charts_container gender_container' id='enrollment_by_gender'>
+<span class='row gender_info'>
+<span class='col-xs-5'>
+<span class='icon icon-male'>
+<span class='aux'></span>
+</span>
+</span>
+<span class='col-xs-4 text'>Male</span>
+<span class='col-xs-3 count'>491</span>
+</span>
+<span class='row gender_info'>
+<span class='col-xs-5'>
+<span class='icon icon-female'>
+<span class='aux'></span>
+</span>
+</span>
+<span class='col-xs-4 text'>Female</span>
+<span class='col-xs-3 count'>471</span>
+</span>
+</span>
+<span class='data_from'>
+Data by NCES 2013
+</span>
+</a>
+</div>
+</div>
+
+<div class='sticky_container_right'>
+<div class='sticky_column'>
+<div class='ad_container ATF_rectangle_2'>
+<div class='sponsor'>
+  <div style='min-height:250px; width:300px;'>
+    <!-- Sortable -->
+    <div id="mrec_desktop_2" class="ad-tag" data-ad-name="mrec_desktop_2" data-ad-size="300x250" ></div>
+  </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  
+    <div id="all_footer_wrapper" style="overflow:hidden;">
+      
+<section class='container-fluid hidden-xs padding' id='states'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12 col-sm-12 col-sm-offset-0 footer_states_container'>
+<h3>Locate Schools by State:</h3>
+<div class='states'>
+<div class='state'>
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class='state'>
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class='state'>
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class='state'>
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class='state'>
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class='state'>
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class='state'>
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class='state'>
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class='state'>
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class='state'>
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class='state'>
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class='state'>
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class='state'>
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class='state'>
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class='state'>
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class='state'>
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class='state'>
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class='state'>
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class='state'>
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class='state'>
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class='state'>
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class='state'>
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class='state'>
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class='state'>
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class='state'>
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class='state'>
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class='state'>
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class='state'>
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class='state'>
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class='state'>
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class='state'>
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class='state'>
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class='state'>
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class='state'>
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class='state'>
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class='state'>
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class='state'>
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class='state'>
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class='state'>
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class='state'>
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class='state'>
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class='state'>
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class='state'>
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class='state'>
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class='state'>
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class='state'>
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class='container-fluid' id='footer_directory'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-6 hidden-xs'>
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;W&quot;" href="/schools/directory/w" title="Schools beginning with &quot;W&quot;">w</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class='col-xs-6 hidden-xs'>
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;W&quot;" href="/teachers/directory/w" title="Teachers beginning with &quot;W&quot;">w</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class='row footer_countries_list'>
+<div class='col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0'>
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer'>
+<div class='container'>
+<div class='row footer_links'>
+<div class='col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0'>
+<h3 class='hidden-sm hidden-md hidden-lg'>Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop='static' data-keyboard data-remote='/contact/new' data-target='#modal' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Contact RateMyTeachers'>
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='row copyright'>
+Copyright 2001-2017 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden='true' class='modal fade' id='modal' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div aria-hidden='true' class='modal fade' id='modal_rating' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div id='loading-indicator' style='display: none;'>
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif" />
+</div>
+</div>
+<div class='amp_ad_unit amp_ad_unit_template' style='display: none;'>
+<a class='amp_clickurl amp_no_text' href='javascript:void(0);' rel='nofollow' target='_blank'>
+<span class='amp_title'></span>
+<span class='amp_extension_merchant_rating' style='display: none;'>
+<span class='amp_extension_merchant_rating_rating' data-star-width='18'>
+<div class='rateit star-rating rateit-exclude' title=''>
+<div class='rateit-range' style='width: 90px; height: 15px;'>
+<div class='rateit-preset rateit-selected' style='height: 15px; width: 0.000px;'></div>
+</div>
+</div>
+
+</span>
+</span>
+<span class='amp_description'></span>
+<span class='amp_displayurl'></span>
+<img class='amp_impressionurl' style='height: 1px; width: 1px;'>
+</a>
+<span class='row amp_extension_site_links'></span>
+<span class='arrow'>
+<span class='aux'></span>
+</span>
+<span class='amp_site_link_template' style='display: none;'>
+<a class='col-xs-6 amp_extension_site_links_link'>
+<span class='amp_extension_site_links_text'></span>
+</a>
+</span>
+</div>
+
+
+    </div>
+
+  <script type="text/javascript">
+    functionToLoad.push('//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js');
+  </script>
+
+
+
+  <script type="text/javascript">
+    functionToLoad.push('/assets/application-c1b6c34eeb878dd2184583d1b8569396.js');
+    functionToLoad.push('/assets/users-8d86f10db3dd4d729784ef9748a4b44e.js');
+  </script>
+
+
+  
+    <script type="text/javascript">
+      functionToLoad.push(function() {
+        // Facebook like
+        // (function(d, s, id) {
+        //   var js, fjs = d.getElementsByTagName(s)[0];
+        //   if (d.getElementById(id)) return;
+        //   js = d.createElement(s); js.id = id;
+        //   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=232453153516852&version=v2.0";
+        //   fjs.parentNode.insertBefore(js, fjs);
+        // }(document, 'script', 'facebook-jssdk'));
+
+        // Google Plus
+        // (function() {
+        //   var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        //   po.src = 'https://apis.google.com/js/platform.js';
+        //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        // })();
+
+        // Twitter Follow
+        // !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      
+      });
+    </script>
+
+  <script type="text/javascript">
+  functionToLoad.push(["https://www.google.com/jsapi", true, [
+    function() {
+      enrollmentByEthnicity = {};
+        enrollmentByEthnicity = {"American Indiant/Alaskan (6)":6,"Asian (4)":4,"African American (64)":64,"Hispanic (9)":9,"White (878)":878,"Pacific (1)":1};
+
+      totalStudentsHistory = {"2009":957,"2010":944,"2011":978,"2012":971,"2013":962} ;
+      initSchoolStatsPage(true, true, true);
+
+      google.load("visualization", "1", {
+        packages:["corechart"],
+        callback: function(){
+          $('body').trigger('chart-ready');
+        }
+      });
+    }
+  ]]);
+</script>
+
+<script>
+  functionToLoad.push(function() {
+    $('#teachers_by_alphabet').change(function(e){
+      document.location.href = $('#teachers_by_alphabet').val()
+    });
+  });
+</script>
+
+
+<script>
+  functionToLoad.push(function() {
+    var schoolPagePath = '/hartselle-high-school/253-s';
+    var resultCount = 56;
+    var minStickyResultCount = 3;
+
+    if (!isMobile && !isMedium && resultCount > 0) {
+      var stickyColumnRight = $(".sticky_container_right .sticky_column");
+      var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+      var footerHeight = $('#all_footer_wrapper').outerHeight() + 50;
+      var stickyOptions = function(getWidthFrom) {
+        return {topSpacing:0, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+      }
+      stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+      // Make center column options sticky when min results quantity
+      if (resultCount > minStickyResultCount - 1) {
+        stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+      }
+    }
+  });
+</script>
+
+
+      <script type="text/javascript">
+        // AMP_ADS Bottom
+        functionToLoad.push([function() {
+          var bottomUrl = 'http://ratemyteachers_contextual.ampfeed.com/xmlamp/feed?deco=1&extn=0%2C2&ip=207.241.231.147&partner=ratemyteachers_contextual&qt=%5B%22college+scholarship+in+Alabama%22%5D&results=4&rfr=http%3A%2F%2Fwww.ratemyteachers.com%2Fhartselle-high-school%2F253-s&sub1=Desktop&sub2=School&ua=Mozilla%2F5.0+%28compatible%3B+archive.org_bot+%2Bhttp%3A%2F%2Fwww.archive.org%2Fdetails%2Farchive.org_bot%29&v=5';
+          ampAdRegister('amp_ads_bottom', bottomUrl, "amp_ad_school_unit_template");
+        }, true]);
+      </script>
+
+    <div class='amp_ad_unit amp_ad_school_unit_template' style='display: none;'>
+<a class='amp_clickurl amp_no_text' href='javascript:void(0);' rel='nofollow' target='_blank'>
+<span class='amp_title'></span>
+<span class='amp_displayurl'></span>
+<span class='amp_extension_merchant_rating' style='display: none;'>
+<span class='amp_extension_merchant_rating_rating' data-star-width='18'>
+<div class='rateit star-rating rateit-exclude' title=''>
+<div class='rateit-range' style='width: 90px; height: 15px;'>
+<div class='rateit-preset rateit-selected' style='height: 15px; width: 0.000px;'></div>
+</div>
+</div>
+
+</span>
+</span>
+<span class='amp_description'></span>
+<img class='amp_impressionurl' style='height: 1px; width: 1px;'>
+</a>
+<span class='row amp_extension_site_links'></span>
+<span class='arrow'>
+<span class='aux'></span>
+</span>
+<span class='amp_site_link_template' style='display: none;'>
+<a class='col-xs-6 amp_extension_site_links_link'>
+<span class='amp_extension_site_links_text'></span>
+</a>
+</span>
+</div>
+
+
+
+
+      <!-- Taboola -->
+      <script type="text/javascript">
+        functionToLoad.push([function() {
+          window._taboola = window._taboola || [];
+          _taboola.push({flush: true});
+        }, true]);
+      </script>
+
+  
+    
+    <script type="text/javascript">
+    function initializeMaps() {
+      var length = mapFunctionArray.length;
+      for (var i = 0; i < length; i++) {
+        mapFunctionArray[i]();
+      }
+    }
+
+    functionToLoad.push(function() {
+      // Don't load google maps when no pending maps
+      if (typeof(mapFunctionArray) === 'undefined' || mapFunctionArray.length < 1)
+        return;
+
+      var googleMapsId = "AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g";
+
+      var script_path = "http://maps.googleapis.com/maps/api/js?key=" + googleMapsId + "&sensor=false&callback=initializeMaps";
+      $.getScript(script_path);
+
+    });
+  </script>
+
+  
+
+    <script type="text/javascript">
+      functionToLoad.push(function() {
+        $('.search_form input[name=q]').on("autocompleteopen", function(e) {
+          var input = $(e.target);
+          var url = 'http://ratemyteachers_contextual.ampfeed.com/xmlamp/feed?deco=1&extn=0%2C2&ip=207.241.231.147&partner=ratemyteachers_contextual&results=2&rfr=http%3A%2F%2Fwww.ratemyteachers.com%2Fhartselle-high-school%2F253-s&sub1=desktop&sub2=searchbox&ua=Mozilla%2F5.0+%28compatible%3B+archive.org_bot+%2Bhttp%3A%2F%2Fwww.archive.org%2Fdetails%2Farchive.org_bot%29&v=5';
+          var country = 'United States';
+          var location = '';
+          var keywords = 'online schools in ';
+          if ($('#state').val() !== '') {
+            location = $("#state option:selected").text();
+            location = location.split('-')[0];
+            //keywords = 'online colleges in ';
+          } else {
+            location = country;
+            //keywords = 'online colleges in ';
+          }
+          url += '&qt=["' + encodeURIComponent(keywords + location) + '"]';
+          ampAdRegister('amp_ads_autocomplete', url);
+        });
+      });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- [:desktop] 5a82b62@rails10 - 2017-09-11 17:03:10 -0400-->
+    
+  
+
+
+  <script>
+    window.addEventListener('load', function(){
+      console.info("[PERF] DomContentLoaded: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+
+    window.addEventListener('load', function(){
+      console.info("[PERF] Load: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+  </script>
+
+  <!-- Load Javascript async by Deferred method -->
+  <script type="text/javascript">
+    (function() {
+      // Load script from url
+      var loadScript = function(url, callback) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+
+        // Add on load callback event
+        if (callback !== null) {
+          if (script.readyState){ //IE
+            script.onreadystatechange = function(){
+              if (script.readyState == "loaded" || script.readyState == "complete"){
+                script.onreadystatechange = null;
+                callback();
+              }
+            };
+          } else { //Others
+            // Execute callback even when an error happen
+            script.onerror = function(e){
+              try {
+                console.error("An error happen when loading '" + err.target.src + "' script.");
+              } catch(err) {} finally {
+                callback();
+              }
+            };
+            script.onload = function(){ callback(); };
+          }
+        }
+
+        // Load the script
+        script.src = url;
+        document.body.appendChild(script);
+      };
+
+      // Load scripts in a sequence instead parallel
+      // to make sure frameworks load correctly
+      function sequence(index, max, source) {
+        if (index < max) {
+          var data = functionToLoad.extractElementData(source[index]);
+
+          if (typeof data.element === 'string') {
+            if (data.async) {
+              // Async script
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+              });
+              sequence(index + 1, max, source);
+            } else {
+              // Sync scripts
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+                sequence(index + 1, max, source);
+              });
+            }
+          } else {
+            // Execute callback even when an error happen on the function
+            try {
+              if (data.async) {
+                // Async script
+                setTimeout(function() { data.element(); }, 1);
+              } else {
+                // Sync script
+                data.element();
+              }
+            } catch(err) {
+              console.error(err);
+            } finally {
+              sequence(index + 1, max, source);
+            }
+          }
+        }
+      }
+
+      // Load all javascript in a sequence
+      var loadDeferredJs = function() {
+        sequence(0, functionToLoad.length, functionToLoad);
+      };
+
+      // Execute all lazy javascripts after DOM load
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredJs, 0); });
+      else window.addEventListener('load', loadDeferredJs);
+    })();
+  </script>
+  <!-- End Load Javascript async by Deferred method -->
+
+</body>
+</html>

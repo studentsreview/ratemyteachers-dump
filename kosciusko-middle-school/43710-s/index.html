@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kosciusko Middle School - Milwaukee, Wisconsin | RateMyTeachers.com</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":567,"agentToken":null,"agent":"js-agent.newrelic.com/nr-632.min.js","ttGuid":"ecaee4a36590a096"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),u=c.length,f=i(a,o,r),d=0;u>d;d++)c[d].apply(f,n);return f}function a(t,e){u[t]=s(t).concat(e)}function s(t){return u[t]||[]}function c(){return n(e)}var u={};return{on:a,emit:e,create:c,listeners:s,_events:u}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:20,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(u){try{r("ierr",[u,(new Date).getTime(),!0])}catch(f){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(3),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(4),t(5),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:8,3:3,4:7,5:6,6:21,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:21,2:22,ee:"QJf3ax",gos:"7eSDFh"}],6:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:22,2:21,ee:"QJf3ax"}],7:[function(t,e){function n(t,e,n){t[0]=o(t[0],"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:22,2:21,ee:"QJf3ax"}],8:[function(t,e){function n(){u.inPlace(this,p,"fn-")}function r(t,e){u.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),u=c(a),f=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),f.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,u.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:5,2:22,ee:"QJf3ax"}],9:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,u="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=n(u);if(f&&(r.rxSize=f),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,u=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var u=n(o);u&&(r.txSize=u)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var f=0;c>f;f++)e.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:10,3:8,4:5,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],10:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],11:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:20,2:21,handle:"D5DuLP"}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===f.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=u.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=(t(2),window),u=c.document,f=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},p=e.exports={offset:i(),origin:f,features:{}};u.addEventListener?(u.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(u.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:20,2:11,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],20:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],21:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],22:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,u;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){f([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return u=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,u],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,u(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,u="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,u?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){f([o,e,n,r])}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){f([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function f(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:21,ee:"QJf3ax"}]},{},["G9z0Bl",4,9]);</script>  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+  <meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw" />
+  
+  <meta name="keywords" content="Rate a teacher from school,read college professor ratings,rate a professor from university,university,rate my teacher,rate,teacher,college,school,high school,schools,elementary school,preschool,middle school,professor ratings,teacher ratings,ratemyteachers.com" />
+
+  <meta name="description" content="Rate Kosciusko Middle School in Milwaukee, Wisconsin on RateMyTeachers.com" />
+
+
+  <meta name="robots" content="noodp,noydir" />
+  <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+  <link href="/assets/application-933ef830772be7e95fd980b9e6016a28.css" media="all" rel="stylesheet" />
+  
+  <meta property="og:type" content="rmt:school" />
+<meta property="og:url" content="http://www.ratemyteachers.com/kosciusko-middle-school/43710-s" />
+<meta property="og:site_name" content="Kosciusko Middle School on RateMyTeachers.com" />
+<meta property="og:description" content="Rate Kosciusko Middle School in Milwaukee, Wisconsin on RateMyTeachers.com" />
+
+  <script type="text/javascript">
+    var currentState = 'CA';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:      true,
+    debugMode:            false
+  };
+
+
+  function getWindowWidth() {
+    var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) == 'number' ) {
+        myWidth = window.innerWidth; myHeight = window.innerHeight;
+    } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+        myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+        myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+    }
+    return myWidth;
+  }  
+
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isMobile = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false) || isMobileVariant;
+  var isMedium = (getWindowWidth() < 1200) || (screen ? screen.width < 1200 : false);
+</script>
+  <script>
+    var gaId = 'UA-4216499-1';
+    
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', gaId, 'auto');
+    ga('require', 'displayfeatures');
+    //ga('require', 'ecommerce', 'ecommerce.js');
+    
+  </script>
+
+<script src="/assets/rmt.analytics-30d6a1883f45b2944003cc26cdbb1ce1.js"></script>
+
+<script>
+  var pageType = "";
+  RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+  var searchTerm = "";
+</script>
+
+
+  <!-- Google Custom Ads -->
+  <script type="text/javascript" charset="utf-8">
+    (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+    arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+    O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+    e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+  </script>
+  <!-- AdSense -->
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  
+  
+
+
+  <script type='text/javascript'>
+  (function() {
+  var useSSL = 'https:' == document.location.protocol;
+  var src = (useSSL ? 'https:' : 'http:') +
+  '//www.googletagservices.com/tag/js/gpt.js';
+  document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+  })();
+  </script>
+ 
+  <script type='text/javascript'>
+googletag.defineSlot('/1058149/School1', [[320, 50], [728, 90]], 'div-gpt-ad-1426542666162-0').addService(googletag.pubads());
+googletag.defineSlot('/1058149/School2', [300, 250], 'div-gpt-ad-1426542666162-1').addService(googletag.pubads());
+// googletag.defineSlot('/1058149/School3', [[300, 250], [728, 90]], 'div-gpt-ad-1426542666162-2').addService(googletag.pubads());
+googletag.defineSlot('/1058149/School4', [728, 90], 'div-gpt-ad-1426542666162-3').addService(googletag.pubads());
+googletag.defineSlot('/1058149/School5', [728, 90], 'div-gpt-ad-1426542666162-4').addService(googletag.pubads());
+googletag.pubads().enableSyncRendering();
+googletag.enableServices();
+</script>
+
+
+
+
+ 
+  <link href='http://www.ratemyteachers.com/kosciusko-middle-school/43710-s.rss' rel='alternate' type='application/rss+xml'>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Njc41kY3FzPOxaaG+boZjn/wtQCe35Hl+NTt8NT5kYc=" name="csrf-token" />
+</head>
+<!--
+
+██████╗ ███╗   ███╗████████╗
+██╔══██╗████╗ ████║╚══██╔══╝
+██████╔╝██╔████╔██║   ██║   
+██╔══██╗██║╚██╔╝██║   ██║   
+██║  ██║██║ ╚═╝ ██║   ██║   
+╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝
+
+If you see this we should talk!  We are pretty awesome!
+-->
+<body class="inner_page school_page schools_v8
+">
+  <div id="fb-root"></div>
+      <div class='rate_my_teachers_international'>
+<div class='container'>
+<div class='row'>
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+<header>
+<div class='container'>
+<div class='row'>
+<form action='/search_page' class='tab-form search_form' method='get'>
+<a alt='Go to RateMyTeachers Home' href='/' id='rate_my_teachers_logo' title='Go to RateMyTeachers Home'></a>
+<input name='search' type='hidden' value='teachers'>
+<div class='search_inputs'>
+<div class='bg'>
+<div class='padding'>
+<input class='search_input' name='q' placeholder='Search: Professors, Teachers, High Schools, or Colleges' type='text'>
+</div>
+<div class='location'>
+<select class="state" id="state" name="state"><option value="">Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class='search_button'>
+<button class='btn-search fa fa-search fa-3x' title='Search RateMyTeachers' type='submit'></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+
+
+
+    <section class="breadcrumbs container-fluid">
+      <div class="row">
+        <div class="container">
+          <div class="col-sm-12">
+            <ul class='list-inline collapsible_nav collapsible_nav_collapsed'>
+<li class='toggle'>
+<a href='javascript:void(0);' rel='nofollow'>
+<i class='fa fa-bars'></i>
+</a>
+</li>
+<li class='collapse'>
+<a href='/' title='Go to RateMyTeachers Home'>United States</a>
+</li>
+<li class='always_show'>
+<a alt='Go to Schools in Wisconsin' href='/wisconsin' title='Go to Schools in Wisconsin'>Wisconsin</a>
+</li>
+<li class='collapse'>
+<a alt='Go to Schools in Milwaukee' href='/wisconsin/milwaukee' title='Go to Schools in Milwaukee'>Milwaukee</a>
+</li>
+<li class='always_show extra_option'>
+<span class='last'>Kosciusko Middle School</span>
+</li>
+<li class='always_show'>
+<a class='new_teacher_trigger' data-backdrop='static' data-keyboard data-school='Kosciusko Middle School' data-sender-name='School page breadcrumb' data-target='#modal' data-toggle='modal' href='/teachers/new?sid=43710' rel='nofollow' title='Add My Teacher'>Add My Teacher</a>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+  
+
+  <div class="container text-ad-unit">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="alert alert-info">
+          <span class="hidden-sm hidden-md hidden-lg">
+            Connect with us:
+          </span>
+          <span class="hidden-xs">
+            <span class="hidden-sm">
+              Rate My Teachers aims to provide a safe and meaningful user experience.
+            </span>
+            Connect with us
+            <span class="hidden-md">through Facebook and Twitter!</span>
+          </span>
+          <span class="options">
+            
+  <div class="fb-like" data-action="like" data-height="50px" data-href="https://www.facebook.com/RateMyTeacher" data-layout="button_count" data-share="false" data-show-faces="false" data-width="100px"></div>
+  <a class="twitter-follow-button" data-lang="en" data-show-count="false" data-show-screen-name="false" href="https://twitter.com/ratemyteachers">Follow</a>
+
+  <script type="text/javascript">
+    setTimeout(function() {
+      // Facebook like
+      (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=232453153516852&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+
+      // Google Plus
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/platform.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+
+      // Twitter Follow
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    }, 200);
+  </script>
+
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="alert alert-danger" id="flash-error" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-warning" id="flash-alert" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-success" id="flash-success" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-info"  id="flash-notice" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+  
+
+  <div id="content">
+    
+<span itemprop='aggregateRating' itemscope itemtype='http://data-vocabulary.org/Review-aggregate'>
+<meta content='Kosciusko Middle School' itemprop='itemreviewed'>
+<span itemprop='rating' itemscope itemtype='http://data-vocabulary.org/Rating'>
+<meta content='4.87037' itemprop='average'>
+<meta content='5' itemprop='best'>
+<meta content='0' itemprop='worst'>
+</span>
+<meta content='16' itemprop='votes'>
+</span>
+
+<div class='container'>
+<div class='row'>
+<section class='col-md-12 content'>
+<div class='row top_section'>
+<div class='ad_container ATF'>
+
+
+  <div id="School_ATF_Leaderboard">
+    <!-- School 1 -->
+    <div id='div-gpt-ad-1426542666162-0'>
+    <script type='text/javascript'>
+    googletag.display('div-gpt-ad-1426542666162-0');
+    </script>
+    </div>
+  </div>
+
+</div>
+<div class='connect'>
+<span class='text'>
+Connect with us:
+</span>
+<span class='options'>
+
+  <div class="fb-like" data-action="like" data-height="50px" data-href="https://www.facebook.com/RateMyTeacher" data-layout="button_count" data-share="false" data-show-faces="false" data-width="100px"></div>
+  <a class="twitter-follow-button" data-lang="en" data-show-count="false" data-show-screen-name="false" href="https://twitter.com/ratemyteachers">Follow</a>
+
+  <script type="text/javascript">
+    setTimeout(function() {
+      // Facebook like
+      (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=232453153516852&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+
+      // Google Plus
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/platform.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+
+      // Twitter Follow
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    }, 200);
+  </script>
+
+</span>
+</div>
+</div>
+<div class='school_info'>
+<div class='background map'>
+  
+  <div id="map_canvas" style="width: 1825px; height: 420px;"></div>
+
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g&sensor=false"></script>
+  <script type="text/javascript">
+  (function() {
+    var address = '865 N Monroe St, Milwaukee, Wisconsin , Milwaukee, Wisconsin, , United States';
+    var zoom = 15;
+    var geocoder = new google.maps.Geocoder();
+    var map = null;
+    geocoder.geocode( { 'address': address }, function(results, status) {
+      if (status === google.maps.GeocoderStatus.OK) {
+        if (map !== null) {
+          map.setCenter(results[0].geometry.location);
+        } else {
+          var mapOptions = {
+            zoom: zoom,
+            center: results[0].geometry.location,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+              ,scrollwheel: false
+              ,navigationControl: false
+              ,mapTypeControl: false
+              ,scaleControl: false
+              ,draggable: false
+          };
+          map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+        }
+        var marker = new google.maps.Marker({
+            map: map,
+            position: results[0].geometry.location
+        });
+      } else {
+        //alert("Geocode was not successful for the following reason: " + status);
+        
+      }
+    });
+  })();
+  </script>
+
+
+</div>
+<div class='info'>
+<div class='main'>
+<h1 class='school_name' itemprop='name'>
+Kosciusko Middle School
+
+</h1>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='18' data-rateit-starwidth='22' data-rateit-value='4.87037'></div>
+<div class='staff'>
+Based on
+13
+Teachers
+and
+16
+Ratings
+</div>
+</div>
+<div class='sector'>
+Middle School
+</div>
+<div class='row attributes'>
+<div class='attribute'>
+<div class='easy val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Easiness</div>
+</div>
+<div class='attribute'>
+<div class='helpful val5 value'>
+<span>5</span>
+</div>
+<div class='text'>Helpfulness</div>
+</div>
+<div class='attribute'>
+<div class='clarity val5 value'>
+<span>5</span>
+</div>
+<div class='text'>Clarity</div>
+</div>
+<div class='attribute'>
+<div class='knowledgeable val5 value'>
+<span>5</span>
+</div>
+<div class='text'>Knowledge</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-xs-7 options'>
+<div class='apply_school_administrator_new_theme '>
+<a class='btn new_admin_request_trigger' data-school='Kosciusko Middle School' data-sender='School page' data-target='#modal' data-toggle='modal' href='/admin/new?sid=43710' rel='nofollow' title="Become Kosciusko Middle School's Admin">
+Become Admin <i class="fa fa-angle-right"></i>
+</a>
+</div>
+
+<a class='btn edit flag_school_trigger' data-backdrop='static' data-keyboard data-school='Kosciusko Middle School' data-sender-name='School page Main' data-target='#modal' data-toggle='modal' href='/schools/43710/flag' rel='nofollow' remote title='Submit a Correction'>
+<span>
+<i class='fa fa-flag-o'></i>
+Flag
+</span>
+</a>
+<a class='btn edit school_correction_trigger' data-backdrop='static' data-keyboard data-school='Kosciusko Middle School' data-sender-name='School page Main' data-target='#modal' data-toggle='modal' href='/schools/correction?sid=43710' rel='nofollow' remote title='Submit a Correction'>
+<span>
+<i class='fa fa-edit'></i>
+Edit
+</span>
+</a>
+</div>
+</div>
+</div>
+<div class='row extra'>
+<div class='col-xs-5 stats address'>
+<i class='fa fa-map-marker'></i>
+<a href='https://www.google.com/maps/search/865%20N%20Monroe%20St%2C%20Milwaukee%2C%20Wisconsin%20%2C%20Milwaukee%2C%20Wisconsin%2C%20%2C%20United%20States' itemprop='address' target='_blank' title='865 N Monroe St, Milwaukee, Wisconsin '>
+865 N Monroe St, Milwaukee, Wisconsin 
+</a>
+</div>
+<div class='col-xs-3 stats phone'>
+<i class='fa fa-phone'></i>
+<a class='school_phone_trigger' data-phone='9204782696' href='javascript:void(0);' itemprop='telephone'>920-478-2696</a>
+</div>
+<div class='col-xs-4 add_teacher'>
+<div class='add_teacher_wrapper'>
+<a class='new_teacher_trigger' data-backdrop='static' data-keyboard data-school='Kosciusko Middle School' data-sender-name='School aside' data-target='#modal' data-toggle='modal' href='/teachers/new?sid=43710' rel='nofollow' title='Add My Teacher to Kosciusko Middle School'>
+<span>
+<span>
+Add Teacher
+</span>
+</span>
+</a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div class='row secondary_data'>
+<div class='col-xs-12 col-lg-9 primary_column'>
+<div class='school_teachers'>
+<div class='subtitle'>
+Showing
+13
+
+Teachers
+from
+<span class='highlight'>
+Kosciusko Middle School
+</span>
+</div>
+<div class='sticky_container_center'>
+<div class='sticky_column'>
+<div class='filter_section'>
+<div class='padding search'>
+<form action='/kosciusko-middle-school/43710-s' class='simple_form inline_form'>
+<div class='row'>
+<div class='col-md-7 col-lg-8 left'>
+<input name='q' placeholder='Search by Teacher' type='text'>
+</div>
+<div class='col-md-5 col-lg-4 right'>
+<select id="school_departments" name="school_departments"><option value="">Select a Department</option><option value=""></option><option value="/kosciusko-middle-school/43710-s/not-specified">Not Specified</option>
+<option value="/kosciusko-middle-school/43710-s/accounting">Accounting</option>
+<option value="/kosciusko-middle-school/43710-s/administration">Administration</option>
+<option value="/kosciusko-middle-school/43710-s/anthropology">Anthropology</option>
+<option value="/kosciusko-middle-school/43710-s/architecture">Architecture</option>
+<option value="/kosciusko-middle-school/43710-s/asl">ASL</option>
+<option value="/kosciusko-middle-school/43710-s/auto-tech">Auto Tech</option>
+<option value="/kosciusko-middle-school/43710-s/band">Band</option>
+<option value="/kosciusko-middle-school/43710-s/biology">Biology</option>
+<option value="/kosciusko-middle-school/43710-s/business">Business</option>
+<option value="/kosciusko-middle-school/43710-s/chemistry">Chemistry</option>
+<option value="/kosciusko-middle-school/43710-s/co-op">Co-op</option>
+<option value="/kosciusko-middle-school/43710-s/communications">Communications</option>
+<option value="/kosciusko-middle-school/43710-s/computer-science">Computer Science</option>
+<option value="/kosciusko-middle-school/43710-s/counselor">Counselor</option>
+<option value="/kosciusko-middle-school/43710-s/drafting">Drafting</option>
+<option value="/kosciusko-middle-school/43710-s/drivers-education">Drivers Education</option>
+<option value="/kosciusko-middle-school/43710-s/economics">Economics</option>
+<option value="/kosciusko-middle-school/43710-s/education">Education</option>
+<option value="/kosciusko-middle-school/43710-s/english">English</option>
+<option value="/kosciusko-middle-school/43710-s/esl">ESL</option>
+<option value="/kosciusko-middle-school/43710-s/family-consumer-sciences">Family & Consumer Sciences</option>
+<option value="/kosciusko-middle-school/43710-s/film">Film</option>
+<option value="/kosciusko-middle-school/43710-s/fine-arts">Fine Arts</option>
+<option value="/kosciusko-middle-school/43710-s/french">French</option>
+<option value="/kosciusko-middle-school/43710-s/geography">Geography</option>
+<option value="/kosciusko-middle-school/43710-s/grade-1">Grade 1</option>
+<option value="/kosciusko-middle-school/43710-s/grade-2">Grade 2</option>
+<option value="/kosciusko-middle-school/43710-s/grade-3">Grade 3</option>
+<option value="/kosciusko-middle-school/43710-s/grade-4">Grade 4</option>
+<option value="/kosciusko-middle-school/43710-s/grade-5">Grade 5</option>
+<option value="/kosciusko-middle-school/43710-s/grade-6">Grade 6</option>
+<option value="/kosciusko-middle-school/43710-s/grade-k">Grade K</option>
+<option value="/kosciusko-middle-school/43710-s/grammaire-composition">Grammaire/Composition</option>
+<option value="/kosciusko-middle-school/43710-s/headmaster">Headmaster</option>
+<option value="/kosciusko-middle-school/43710-s/health">Health</option>
+<option value="/kosciusko-middle-school/43710-s/history">History</option>
+<option value="/kosciusko-middle-school/43710-s/home-economics">Home Economics</option>
+<option value="/kosciusko-middle-school/43710-s/ib-program">IB Program</option>
+<option value="/kosciusko-middle-school/43710-s/independent-study">Independent Study</option>
+<option value="/kosciusko-middle-school/43710-s/industrial-education">Industrial Education</option>
+<option value="/kosciusko-middle-school/43710-s/journalism">Journalism</option>
+<option value="/kosciusko-middle-school/43710-s/languages">Languages</option>
+<option value="/kosciusko-middle-school/43710-s/law">Law</option>
+<option value="/kosciusko-middle-school/43710-s/librarian">Librarian</option>
+<option value="/kosciusko-middle-school/43710-s/math">Math</option>
+<option value="/kosciusko-middle-school/43710-s/media">Media</option>
+<option value="/kosciusko-middle-school/43710-s/multiple-subjects">Multiple Subjects</option>
+<option value="/kosciusko-middle-school/43710-s/music">Music</option>
+<option value="/kosciusko-middle-school/43710-s/nursing">Nursing</option>
+<option value="/kosciusko-middle-school/43710-s/performing-arts">Performing Arts</option>
+<option value="/kosciusko-middle-school/43710-s/philosophy">Philosophy</option>
+<option value="/kosciusko-middle-school/43710-s/photography">Photography</option>
+<option value="/kosciusko-middle-school/43710-s/physical-education">Physical Education</option>
+<option value="/kosciusko-middle-school/43710-s/physics">Physics</option>
+<option value="/kosciusko-middle-school/43710-s/principal">Principal</option>
+<option value="/kosciusko-middle-school/43710-s/psychology">Psychology</option>
+<option value="/kosciusko-middle-school/43710-s/reading">Reading</option>
+<option value="/kosciusko-middle-school/43710-s/religion">Religion</option>
+<option value="/kosciusko-middle-school/43710-s/resource">Resource</option>
+<option value="/kosciusko-middle-school/43710-s/rotc">ROTC</option>
+<option value="/kosciusko-middle-school/43710-s/science">Science</option>
+<option value="/kosciusko-middle-school/43710-s/social-studies">Social Studies</option>
+<option value="/kosciusko-middle-school/43710-s/sociology">Sociology</option>
+<option value="/kosciusko-middle-school/43710-s/speech">Speech</option>
+<option value="/kosciusko-middle-school/43710-s/study-skills">Study Skills</option>
+<option value="/kosciusko-middle-school/43710-s/substitute-teacher">Substitute Teacher</option>
+<option value="/kosciusko-middle-school/43710-s/technology">Technology</option>
+<option value="/kosciusko-middle-school/43710-s/vice-principal">Vice Principal</option>
+<option value="/kosciusko-middle-school/43710-s/visual-arts">Visual Arts</option>
+<option value="/kosciusko-middle-school/43710-s/writing">Writing</option>
+<option value="/kosciusko-middle-school/43710-s/art">Art</option>
+<option value="/kosciusko-middle-school/43710-s/special-education">Special Education</option>
+<option value="/kosciusko-middle-school/43710-s/classical-studies">Classical Studies</option></select>
+<button class='btn fa fa-search fa-2x' name='commit' title='Search by Teacher' type='submit'></button>
+</div>
+</div>
+</form>
+</div>
+<ul class='teachers_by_alphabet'>
+<li class='all'>
+<a alt='Teachers at Kosciusko Middle School' href='/kosciusko-middle-school/43710-s' rel='nofollow' title='Teachers at Kosciusko Middle School'>All</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with A' href='/kosciusko-middle-school/43710-s/a' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with A'>a</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with B' href='/kosciusko-middle-school/43710-s/b' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with B'>b</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with C' href='/kosciusko-middle-school/43710-s/c' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with C'>c</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with D' href='/kosciusko-middle-school/43710-s/d' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with D'>d</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with E' href='/kosciusko-middle-school/43710-s/e' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with E'>e</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with F' href='/kosciusko-middle-school/43710-s/f' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with F'>f</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with G' href='/kosciusko-middle-school/43710-s/g' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with G'>g</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with H' href='/kosciusko-middle-school/43710-s/h' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with H'>h</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with I' href='/kosciusko-middle-school/43710-s/i' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with I'>i</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with J' href='/kosciusko-middle-school/43710-s/j' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with J'>j</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with K' href='/kosciusko-middle-school/43710-s/k' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with K'>k</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with L' href='/kosciusko-middle-school/43710-s/l' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with L'>l</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with M' href='/kosciusko-middle-school/43710-s/m' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with M'>m</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with N' href='/kosciusko-middle-school/43710-s/n' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with N'>n</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with O' href='/kosciusko-middle-school/43710-s/o' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with O'>o</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with P' href='/kosciusko-middle-school/43710-s/p' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with P'>p</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with Q' href='/kosciusko-middle-school/43710-s/q' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with Q'>q</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with R' href='/kosciusko-middle-school/43710-s/r' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with R'>r</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with S' href='/kosciusko-middle-school/43710-s/s' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with S'>s</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with T' href='/kosciusko-middle-school/43710-s/t' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with T'>t</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with U' href='/kosciusko-middle-school/43710-s/u' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with U'>u</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with V' href='/kosciusko-middle-school/43710-s/v' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with V'>v</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with W' href='/kosciusko-middle-school/43710-s/w' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with W'>w</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with X' href='/kosciusko-middle-school/43710-s/x' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with X'>x</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with Y' href='/kosciusko-middle-school/43710-s/y' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with Y'>y</a>
+</li>
+<li>
+<a alt='Teachers at Kosciusko Middle School whose names begin with Z' href='/kosciusko-middle-school/43710-s/z' rel='nofollow' title='Teachers at Kosciusko Middle School whose names begin with Z'>z</a>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class='ad_container MID'>
+
+
+  <!-- School4 -->
+  <div id="School_MID_Leaderboard">
+    <div id='div-gpt-ad-1426542666162-3' style='width:728px; height:90px;'>
+    <script type='text/javascript'>
+    googletag.display('div-gpt-ad-1426542666162-3');
+    </script>
+    </div>
+  </div>
+
+</div>
+<div class='sort_options'>
+<select id="sort_by" name="sort_by"><option value="">Sort by</option><option value=""></option><option value="">Latest Update</option>
+<option value="last_name">Last Name</option>
+<option value="first_name">First Name</option>
+<option value="avg_asc">Average Rating: Low to High</option>
+<option value="avg_desc">Average Rating: High to Low</option></select>
+<select id="per_page" name="per_page"><option value="">Per Page</option><option value=""></option><option selected="selected" value="15">Show 15 per page</option>
+<option value="25">Show 25 per page</option>
+<option value="50">Show 50 per page</option></select>
+</div>
+<div class='wyzant'>
+<div id="WyzAntWidgetCnt"> <div id="WyzAntWidget" class="WyzTextAd"> <img id="WyzAntLoading" src="//data.wyzant.com/content/images/ajax-loader.gif" alt="Loading" /> <script src="//data.wyzant.com/WidgetLoader/?wyzwt=TextAd&wyzz=&wyzp=1459&wyzpc=642&wyzs=" type="text/javascript"></script> </div> <link rel="stylesheet" href="//data.wyzant.com/content/widgetbase.css" /> </div>
+</div>
+<div class='teachers'>
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Jeffrey Worzella&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/jeffrey-worzella/2074438-t" title="View Jeffrey Worzella&#39;s Ratings">Jeffrey Worzella</a>
+</h3>
+<div class='department'>
+Department
+<a href="/kosciusko-middle-school/43710-s/math" title="View Kosciusko Middle School&#39;s Math Teachers">Math</a>
+</div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='4.83'></div>
+<div class='rating_count'>4 ratings</div>
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>I am actually a Tosa student, but had Worzella for 5th grade.</div>
+<div class='options'>
+<a alt="View Jeffrey Worzella's Ratings" class='btn view_more' href='http://www.ratemyteachers.com/jeffrey-worzella/2074438-t' title="View Jeffrey Worzella's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jeffrey-worzella/2074438-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Oscar Carlon&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/oscar-carlon/2061575-t" title="View Oscar Carlon&#39;s Ratings">Oscar Carlon</a>
+</h3>
+<div class='department'>
+Department
+<a href="/kosciusko-middle-school/43710-s/grade-1" title="View Kosciusko Middle School&#39;s Grade 1 Teachers">Grade 1</a>
+</div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='0.0'></div>
+<div class='rating_count'>0 ratings</div>
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Oscar Carlon' data-toggle='modal' href='/ratings/new?tid=2061575' rel='nofollow' title='Submit Rating for  Oscar Carlon'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Oscar Carlon' data-toggle='modal' href='/ratings/new?tid=2061575' rel='nofollow' title='Submit Rating for  Oscar Carlon'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/oscar-carlon/2061575-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Andrew Wallus&#39; Ratings" class="name" href="http://www.ratemyteachers.com/andrew-wallus/2036971-t" title="View Andrew Wallus&#39; Ratings">Andrew Wallus</a>
+</h3>
+<div class='department'>
+Department
+<a href="/kosciusko-middle-school/43710-s/writing" title="View Kosciusko Middle School&#39;s Writing Teachers">Writing</a>
+</div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='0.0'></div>
+<div class='rating_count'>0 ratings</div>
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Andrew Wallus' data-toggle='modal' href='/ratings/new?tid=2036971' rel='nofollow' title='Submit Rating for  Andrew Wallus'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Andrew Wallus' data-toggle='modal' href='/ratings/new?tid=2036971' rel='nofollow' title='Submit Rating for  Andrew Wallus'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/andrew-wallus/2036971-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Barrera&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/barrera/2027878-t" title="View Barrera&#39;s Ratings">Barrera</a>
+</h3>
+<div class='department'>
+Department
+<a href="/kosciusko-middle-school/43710-s/not-specified" title="View Kosciusko Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='0.0'></div>
+<div class='rating_count'>0 ratings</div>
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Barrera' data-toggle='modal' href='/ratings/new?tid=2027878' rel='nofollow' title='Submit Rating for  Barrera'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Barrera' data-toggle='modal' href='/ratings/new?tid=2027878' rel='nofollow' title='Submit Rating for  Barrera'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/barrera/2027878-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Erica Hernandez&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/erica-hernandez/1913640-t" title="View Erica Hernandez&#39;s Ratings">Erica Hernandez</a>
+</h3>
+<div class='department'>
+Department
+<a href="/kosciusko-middle-school/43710-s/grade-6" title="View Kosciusko Middle School&#39;s Grade 6 Teachers">Grade 6</a>
+</div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='0.0'></div>
+<div class='rating_count'>0 ratings</div>
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Erica Hernandez' data-toggle='modal' href='/ratings/new?tid=1913640' rel='nofollow' title='Submit Rating for  Erica Hernandez'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Erica Hernandez' data-toggle='modal' href='/ratings/new?tid=1913640' rel='nofollow' title='Submit Rating for  Erica Hernandez'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/erica-hernandez/1913640-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Gail Hick&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/gail-hick/1904521-t" title="View Gail Hick&#39;s Ratings">Gail Hick</a>
+</h3>
+<div class='department'>
+Department
+<a href="/kosciusko-middle-school/43710-s/grade-6" title="View Kosciusko Middle School&#39;s Grade 6 Teachers">Grade 6</a>
+</div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='5.0'></div>
+<div class='rating_count'>1 rating</div>
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>She is a nice teacher</div>
+<div class='options'>
+<a alt="View Gail Hick's Ratings" class='btn view_more' href='http://www.ratemyteachers.com/gail-hick/1904521-t' title="View Gail Hick's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/gail-hick/1904521-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Judy Offenbacher&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/judy-offenbacher/1556069-t" title="View Judy Offenbacher&#39;s Ratings">Judy Offenbacher</a>
+</h3>
+<div class='department'>
+Department
+<a href="/kosciusko-middle-school/43710-s/not-specified" title="View Kosciusko Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='4.5'></div>
+<div class='rating_count'>3 ratings</div>
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>I think that she is really nice and a really good teacher and have good personality</div>
+<div class='options'>
+<a alt="View Judy Offenbacher's Ratings" class='btn view_more' href='http://www.ratemyteachers.com/judy-offenbacher/1556069-t' title="View Judy Offenbacher's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/judy-offenbacher/1556069-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Laura Barton&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/laura-barton/1497576-t" title="View Laura Barton&#39;s Ratings">Laura Barton</a>
+</h3>
+<div class='department'>
+Department
+<a href="/kosciusko-middle-school/43710-s/not-specified" title="View Kosciusko Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='5.0'></div>
+<div class='rating_count'>1 rating</div>
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>Hello there if you're reading this Ms. Barton.  I appreciate all you've taught me when I was in your 6th grade class....</div>
+<div class='options'>
+<a alt="View Laura Barton's Ratings" class='btn view_more' href='http://www.ratemyteachers.com/laura-barton/1497576-t' title="View Laura Barton's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/laura-barton/1497576-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Cheryl Clancy&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/cheryl-clancy/1259670-t" title="View Cheryl Clancy&#39;s Ratings">Cheryl Clancy</a>
+</h3>
+<div class='department'>
+Department
+<a href="/kosciusko-middle-school/43710-s/principal" title="View Kosciusko Middle School&#39;s Principal Teachers">Principal</a>
+</div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='5.0'></div>
+<div class='rating_count'>1 rating</div>
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>The best principal ever!!!!!!</div>
+<div class='options'>
+<a alt="View Cheryl Clancy's Ratings" class='btn view_more' href='http://www.ratemyteachers.com/cheryl-clancy/1259670-t' title="View Cheryl Clancy's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/cheryl-clancy/1259670-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Elisabeth Rivera&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/elisabeth-rivera/780082-t" title="View Elisabeth Rivera&#39;s Ratings">Elisabeth Rivera</a>
+</h3>
+<div class='department'>
+Department
+<a href="/kosciusko-middle-school/43710-s/history" title="View Kosciusko Middle School&#39;s History Teachers">History</a>
+</div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='5.0'></div>
+<div class='rating_count'>1 rating</div>
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>she is the best teachers in the intire world she is very very caring and extremely nice. she's the best teacher i...</div>
+<div class='options'>
+<a alt="View Elisabeth Rivera's Ratings" class='btn view_more' href='http://www.ratemyteachers.com/elisabeth-rivera/780082-t' title="View Elisabeth Rivera's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/elisabeth-rivera/780082-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Ingrid Nigaglioni&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/ingrid-nigaglioni/712601-t" title="View Ingrid Nigaglioni&#39;s Ratings">Ingrid Nigaglioni</a>
+</h3>
+<div class='department'>
+Department
+<a href="/kosciusko-middle-school/43710-s/science" title="View Kosciusko Middle School&#39;s Science Teachers">Science</a>
+</div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='5.0'></div>
+<div class='rating_count'>2 ratings</div>
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>She is agreat teacher! Thanks for being my teacher!</div>
+<div class='options'>
+<a alt="View Ingrid Nigaglioni's Ratings" class='btn view_more' href='http://www.ratemyteachers.com/ingrid-nigaglioni/712601-t' title="View Ingrid Nigaglioni's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/ingrid-nigaglioni/712601-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Ms. Stang&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/ms-stang/680042-t" title="View Ms. Stang&#39;s Ratings">Ms. Stang</a>
+</h3>
+<div class='department'>
+Department
+<a href="/kosciusko-middle-school/43710-s/not-specified" title="View Kosciusko Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='5.0'></div>
+<div class='rating_count'>2 ratings</div>
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>She used to bring me food in the morning when I didnt have breakfest and always listened to me. I heard she went to...</div>
+<div class='options'>
+<a alt="View Ms. Stang's Ratings" class='btn view_more' href='http://www.ratemyteachers.com/ms-stang/680042-t' title="View Ms. Stang's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/ms-stang/680042-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Ty Moselor&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/ty-moselor/561415-t" title="View Ty Moselor&#39;s Ratings">Ty Moselor</a>
+</h3>
+<div class='department'>
+Department
+<a href="/kosciusko-middle-school/43710-s/physical-education" title="View Kosciusko Middle School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='2.67'></div>
+<div class='rating_count'>1 rating</div>
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>im your new student</div>
+<div class='options'>
+<a alt="View Ty Moselor's Ratings" class='btn view_more' href='http://www.ratemyteachers.com/ty-moselor/561415-t' title="View Ty Moselor's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/ty-moselor/561415-t'></a>
+</div>
+
+</div>
+<div class='ad_container BTF'>
+
+
+  <div id="School_BTF_Leaderboard">
+    <!-- School5 -->
+    <div id='div-gpt-ad-1426542666162-4' style='width:728px; height:90px;'>
+    <script type='text/javascript'>
+    googletag.display('div-gpt-ad-1426542666162-4');
+    </script>
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+<div class='col-xs-12 col-lg-3 secondary_column'>
+
+<div class='ad_container ATF_rectangle'>
+
+
+
+  <div id="School_ATF_Rectangle">
+    <!-- School2 -->
+    <div id='div-gpt-ad-1426542666162-1' style='width:300px; height:250px;'>
+    <script type='text/javascript'>
+    googletag.display('div-gpt-ad-1426542666162-1');
+    </script>
+    </div>
+  </div>
+
+
+
+
+</div>
+<div class='sticky_container_right'>
+<div class='sticky_column'>
+<div class='row similar_schools'>
+<div class='col-xs-12 subtitle'>Nearby Schools</div>
+<div class='schools'>
+<div class='clickable_fix col-lg-12 col-xs-4 item-1 school'>
+<div class='map'>
+<a alt="View Hillel Academy's Teachers" href='/hillel-academy/52118-s' title="View Hillel Academy's Teachers"></a>
+</div>
+<div class='info'>
+<div class='school_name'>
+<a alt="View Hillel Academy's Teachers" href='/hillel-academy/52118-s' title="View Hillel Academy's Teachers">
+Hillel Academy
+</a>
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>7 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Milwaukee, Wisconsin</span>
+</div>
+<div class='property score'>
+<span class='value'>
+7
+Teachers
+with
+5
+Ratings
+</span>
+</div>
+</div>
+<a alt="View Hillel Academy's Teachers" class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='/hillel-academy/52118-s' title="View Hillel Academy's Teachers"></a>
+</div>
+
+<div class='clickable_fix col-lg-12 col-xs-4 item-1 school'>
+<div class='map'>
+<a alt="View Our Lady Of Good Hope School's Teachers" href='/our-lady-of-good-hope-school/54794-s' title="View Our Lady Of Good Hope School's Teachers"></a>
+</div>
+<div class='info'>
+<div class='school_name'>
+<a alt="View Our Lady Of Good Hope School's Teachers" href='/our-lady-of-good-hope-school/54794-s' title="View Our Lady Of Good Hope School's Teachers">
+Our Lady Of Good Hope School
+</a>
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>20 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Milwaukee, Wisconsin</span>
+</div>
+<div class='property score'>
+<span class='value'>
+20
+Teachers
+with
+25
+Ratings
+</span>
+</div>
+</div>
+<a alt="View Our Lady Of Good Hope School's Teachers" class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='/our-lady-of-good-hope-school/54794-s' title="View Our Lady Of Good Hope School's Teachers"></a>
+</div>
+
+<div class='clickable_fix col-lg-12 col-xs-4 item-1 school'>
+<div class='map'>
+<a alt="View Pulaski High School's Teachers" href='/pulaski-high-school/22248-s' title="View Pulaski High School's Teachers"></a>
+</div>
+<div class='info'>
+<div class='school_name'>
+<a alt="View Pulaski High School's Teachers" href='/pulaski-high-school/22248-s' title="View Pulaski High School's Teachers">
+Pulaski High School
+</a>
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>60 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Milwaukee, Wisconsin</span>
+</div>
+<div class='property score'>
+<span class='value'>
+60
+Teachers
+with
+149
+Ratings
+</span>
+</div>
+</div>
+<a alt="View Pulaski High School's Teachers" class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='/pulaski-high-school/22248-s' title="View Pulaski High School's Teachers"></a>
+</div>
+
+</div>
+</div>
+<div class='back_button_new_theme '>
+<a href='/wisconsin/milwaukee' title='View all schools in Milwaukee, Wisconsin'>Milwaukee, Wisconsin</a>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+
+
+  </div>
+
+  
+    <div id="all_footer_wrapper" style="overflow:hidden;">
+      <section class='container-fluid hidden-xs padding' id='states'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<h3>Find High Schools and Colleges by State</h3>
+<div class='states'>
+<div class='state'>
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class='state'>
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class='state'>
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class='state'>
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class='state'>
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class='state'>
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class='state'>
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class='state'>
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class='state'>
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class='state'>
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class='state'>
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class='state'>
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class='state'>
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class='state'>
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class='state'>
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class='state'>
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class='state'>
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class='state'>
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class='state'>
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class='state'>
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class='state'>
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class='state'>
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class='state'>
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class='state'>
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class='state'>
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class='state'>
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class='state'>
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class='state'>
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class='state'>
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class='state'>
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class='state'>
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class='state'>
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class='state'>
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class='state'>
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class='state'>
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class='state'>
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class='state'>
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class='state'>
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class='state'>
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class='state'>
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class='state'>
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class='state'>
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class='state'>
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class='state'>
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class='state'>
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class='state'>
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer_directory'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-6 hidden-xs'>
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class='col-xs-6 hidden-xs'>
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;W&quot;" href="/teachers/directory/w" title="Teachers beginning with &quot;W&quot;">w</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class='row footer_countries_list'>
+<div class='col-xs-12'>
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer'>
+<div class='container'>
+<div class='row footer_links'>
+<div class='col-xs-12'>
+<h3 class='hidden-sm hidden-md hidden-lg'>Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop='static' data-keyboard data-target='#modal' data-toggle='modal' href='/contact/new' rel='nofollow' title='Contact RateMyTeachers'>
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='row copyright'>
+Copyright 2001-2015 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden='true' class='modal fade' id='modal' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div aria-hidden='true' class='modal fade' id='modal_rating' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div id='loading-indicator' style='display: none;'>
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif" />
+</div>
+</div>
+
+    </div>
+
+  <!-- loading JS at the end to speed up page loading -->
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery || document.write(unescape('%3Cscript src="/assets/jquery-92f6843043abf957b96f7fad2afbc022.js">%3C/script>'))
+//]]>
+</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery.ui || document.write(unescape('%3Cscript src="/assets/jquery-ui-e3d1c2f8bca4b46c2d38af5aa36cbc30.js">%3C/script>'))
+//]]>
+</script>
+  <script src="/assets/application-f38a80db63c35c48dfd564a23a945e07.js"></script>
+  <script>
+  var schoolPagePath = '/kosciusko-middle-school/43710-s';
+  var resultCount = 13;
+  var minStickyResultCount = 2;
+
+  if (!isMobile && !isMedium && resultCount > 0) {
+    var stickyColumnRight = $(".sticky_container_right .sticky_column");
+    var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+    var footerHeight = $('#all_footer_wrapper').outerHeight() + 50;
+    var stickyOptions = function(getWidthFrom) {
+      return {topSpacing:0, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+    }
+    stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+    // Make center column options sticky when min results quantity
+    if (resultCount > minStickyResultCount - 1) {
+      stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+    }
+  }
+
+  $('#teachers_by_alphabet').change(function(e){
+    document.location.href = $('#teachers_by_alphabet').val()
+  });
+
+
+
+</script>
+
+
+  
+
+
+
+
+
+
+  <!-- [:desktop] f52eeb1@rails1 - 2015-04-15 18:42:15 -0400-->
+</body>
+</html>

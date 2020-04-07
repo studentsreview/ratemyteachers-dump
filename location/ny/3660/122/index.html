@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="description" content="Looking for your college or school in New York? Find your school, read ratings and reviews, then express your own opinion!">
+    <meta name="keywords" content="New York, Professor, Professors, Rate My Teacher, Professor Ratings, Professor Reviews, Teacher Ratings, Teacher Reviews, Professor Quality, Teacher Quality, School Quality, Ratings, University, College, High School, Middle School, Elementary School, Private School, Rankings, Academic, Academia, Department, Rating, Review, Classes, Courses, Grade.">
+        <title>Find Your School | RateMyTeachers.com</title>
+	<!--[if LT IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lte IE 8]><link href="/css/core/style_ie.css" rel="stylesheet" type="text/css" /><![endif]-->
+	<link rel="stylesheet" type="text/css" href="/css/core/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/mooRatings.css" />
+	<script type="text/javascript" src="/js/core/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/core/sort.js"></script>
+    
+	<script type="text/javascript" src="/js/core/mootools-core-1.4-full.js"></script>
+	<script type="text/javascript" src="/js/core/mootools-more-1.4-full.js"></script>
+    <script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'>
+</script>
+<script type='text/javascript'>
+GS_googleAddAdSenseService("ca-pub-8322864954623881");
+GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+GA_googleAddSlot("ca-pub-8322864954623881", "ATF_Leaderboard");
+GA_googleAddSlot("ca-pub-8322864954623881", "ATF_MediumRectangle");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_Leaderboard");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomCenter");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomLeft");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomRight");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_TopRight");
+GA_googleAddSlot("ca-pub-8322864954623881", "STF_WideSkyscraper_TopRight");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_Leaderboard_NoAdsense");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomRight_NoAdsense");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_TextAd");
+</script>
+<script type='text/javascript'>
+GA_googleFetchAds();
+</script>
+
+
+</head>
+<body>
+	<div id="wrapper">
+    	    <meta property="og:title" content="RateMyTeachers.com - Professor, Teacher Ratings and Reviews by Public and Private School Students Parents and Faculty."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://ratemyteachers.com"/>
+    <meta property="og:image" content="http://www.ratemyteachers.com/images/RMT-logo-icon.jpg"/>
+    <meta property="og:site_name" content="Rate My Teachers"/>    
+    <meta property="og:description" content="Over 2.1 million professors and teachers, with 20 million ratings, reviews, and opinions. Find your college, university, or high school on RateMyTeachers.com in the United States. Leave your mark and rate your professor, teacher, or school!"/>
+
+<script type="text/javascript">
+    window.addEvent('domready',function() {
+        /*** Begin Search Expand/Collapse */
+        var status = {
+            'true': 'open',
+            'false': 'close'
+        };
+        var myVerticalSlide = new Fx.Slide('vertical_slide').hide();
+        
+        if ($('search_link') != null) {
+            $('search_link').addEvent('click', function(event) {
+                if (status[myVerticalSlide.open] == "open") {
+                    $('vertical_slide').removeClass('search');
+                } else {
+                    $('vertical_slide').addClass('search');
+                }
+                event.stop();
+                myVerticalSlide.toggle();
+            });
+        }
+        
+        var rate_link = $$('.rate_link');
+        rate_link.each(rate_link_add_click_event);
+        
+        function rate_link_add_click_event (el) {
+            el.addEvent('click', function(event) {
+                if (status[myVerticalSlide.open] == "open") {
+                    $('vertical_slide').removeClass('search');
+                } else {
+                    $('vertical_slide').addClass('search');
+                }
+                event.stop();
+                myVerticalSlide.toggle();
+            });
+        }
+        
+        if ($('rate_link') != null) {
+            $('rate_link').addEvent('click', function(event) {
+                if (status[myVerticalSlide.open] == "open") {
+                    $('vertical_slide').removeClass('search');
+                } else {
+                    $('vertical_slide').addClass('search');
+                }
+                event.stop();
+                myVerticalSlide.toggle();
+            });
+        }
+        
+        if ($('school_link') != null) {
+            $('school_link').addEvent('click', function(event) {
+                if (status[myVerticalSlide.open] == "open") {
+                    $('vertical_slide').removeClass('search');
+                } else {
+                    $('vertical_slide').addClass('search');
+                }
+                event.stop();
+                myVerticalSlide.toggle();
+            });
+        }
+        
+        /*
+        $$('input[name=search_org]').addEvent('blur', function(event){
+			//alert('jona2');
+            event.stop();
+            myVerticalSlide.slideOut();
+        });
+        */
+		/*Added by jonathan 07/20/2012
+		$$('input[name=search_org]').addEvent('click', function(event){
+			//alert('jona3');
+            event.stop();
+            myVerticalSlide.slideOut();
+        });
+		*/
+       
+		$$('input[name=search_teacher]').addEvent('click', function(event){
+			//alert('jona3');
+            event.stop();
+            myVerticalSlide.slideOut();
+        });
+		/*end*/
+        myVerticalSlide.addEvent('complete', function() {
+            $('vertical_status').set('text', status[myVerticalSlide.open]);
+        });
+        /*** End Search Expand/Collapse */
+
+        /*** Begin Textbox Watermark */
+        var values = new Array();
+        var inputs = new Array();
+
+        function addWaterMark(el){
+            try {
+                values.push(el.value);
+                el.onfocus = function ()	{
+                    if (el.value == values[inputs.indexOf(el)]) {
+                        el.value = '';
+                        el.className = el.className.replace("watermarkOn", "");
+                    }
+                }
+                el.onblur = function () {
+                    if(el.value === ''){
+                        el.value = values[inputs.indexOf(el)];
+                        el.className += " watermarkOn";
+                    }
+                }
+            } catch(e) {dbug.log('addWaterMark: ', e)}
+        };
+
+        function addValue(el){
+            try {
+                //if (el.name == "search_org") el.value = "Search for School"
+                if (el.name == "search_teacher") el.value = "Search for Teacher"
+                if (el.id == "search_input_expand") el.value = "Search Here"
+            } catch(e) {dbug.log('addWaterMark: ', e)}
+        };
+
+        inputs = $$('input[name^=search],input[name=search_input_expand],input[name^=newsletter],input[class^=rating_fields_input]');
+        inputs.each(addValue);
+        inputs.each(addWaterMark);
+        /*** End Textbox Watermark */
+    });
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<link rel="stylesheet" type="text/css" href="/css/core/dd.css">
+<link rel="stylesheet" type="text/css" href="/css/fancybox/jquery.fancybox.css">
+<script type="text/javascript" src="/js/fancybox/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/js/jquery.dd.js"></script>
+<script type="text/javascript" src="/js/fancybox/jquery.fancybox.js"></script>
+<script type="text/javascript">
+	jQuery.noConflict();
+                (function($){
+        $(document).ready(function() {        
+	try {
+		oHandler = $("#country-select").msDropDown({mainCSS:'dd2'}).data("dd");
+		//alert($.msDropDown.version);
+		//$.msDropDown.create("body select");
+		$("#ver").html($.msDropDown.version);
+		} catch(e) {
+			alert("Error: "+e.message);
+		}
+                
+                $("a#suggestion-box").fancybox({closeBtn : false});
+                var frm = $('#suggest_school_form');
+                frm.submit(function () {
+                $.ajax({
+                        type: frm.attr('method'),
+                        url: frm.attr('action'),
+                        data: frm.serialize(),
+                        success: function (data) {
+                            console.log(data);                        
+                        }
+                    });
+
+                    return false;
+                });
+    
+                $('#imageSubmit').click(function() {
+                    $('#cse-search-box').submit();
+                  });
+                
+                $("select").change(function () {
+                    if ($("select#country-select").val() != "" ) {                                    
+                        switch ($("select#country-select").val())
+                            {
+                                case "United States":
+                                    //window.location = 'http://us.richard.ratemyteachers.com/';
+                                    $("input[name=cr]").val('countryUS');
+                                    break;
+                                case "Canada":
+                                    //window.location = 'http://ca.richard.ratemyteachers.com/';
+                                    $("input[name=cr]").val('countryCA');
+                                    break;
+                                case "United Kingdom":
+                                    //window.location = 'http://uk.richard.ratemyteachers.com/';
+                                    $("input[name=cr]").val('countryUK');
+                                    break;
+                                case "Australia":
+                                    //window.location = 'http://au.richard.ratemyteachers.com/';
+                                    $("input[name=cr]").val('countryAU');
+                                    break;
+                                case "Ireland":
+                                    //window.location = 'http://ie.richard.ratemyteachers.com/';
+                                    $("input[name=cr]").val('countryIE');
+                                    break;
+                                case "New Zealand":
+                                    //window.location = 'http://nz.richard.ratemyteachers.com/';
+                                    $("input[name=cr]").val('countryNZ');
+                                    break;    
+                                default: 
+                                   //window.location = 'http://us.richard.ratemyteachers.com/';
+                                   $("input[name=cr]").val('countryUS');
+                            }
+                    }
+                    
+                });
+                
+	})
+          })(jQuery);
+</script>
+ <style type="text/css">
+   @import url(http://www.google.com/cse/api/branding.css);
+ </style>
+<header>
+    <div style="display:none; color: #000000; width: 100%; height: 18px; margin: 0 auto 5px; font-size: 12px; position: fixed; top: 0px; text-align: center; line-height: 1.4; font-family: Verdana,Arial,Sans-serif; background-color: #FFFFAA; border-bottom: 2px solid #CCCC89; z-index: 9999;">
+        <a href="http://fs18.formsite.com/RateMyTeachers/form1/index.html" target="_blank">We have recently improved our web site platform. If you want to report any glitches, please use this link.</a>
+    </div>
+    <div id="pagelet">
+        <div id="pagelet_left" class="fltlft">
+            <a href="/" class="fltlft">RateMyTeachers.com</a><span class="fltlft">&nbsp;-</span>
+            <div class="pagelet_select_country fltlft">
+                <ul id="sort2">
+                    <li><a class="option selected" href="#" title="United States">United States</a></li>
+                                            <li><a class="option" href="http://ca.ratemyteachers.com" title="Canada">Canada</a></li>
+                                            <li><a class="option" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a></li>
+                                            <li><a class="option" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a></li>
+                                            <li><a class="option" href="http://au.ratemyteachers.com" title="Australia">Australia</a></li>
+                                            <li><a class="option" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a></li>
+                                    </ul>
+            </div>
+        </div>
+                <ul>
+            <li><a href="/schools.rss">RSS</a></li>
+                        <li style="display:none;"><a href="/register/location/ny/3660/122">Sign up</a></li>
+                                    <li><a href="#" class="rate_link">Rate</a></li>
+                        <li style="display:none;"><a href="#suggestion_box" id="suggestion-box" class="suggestionbox_link">Suggest a School</a></li>
+
+			<li>
+            	<div class="fb-like" data-href="http://www.facebook.com/pages/Rate-My-Teachers/172604876112259" data-send="false" data-layout="button_count" data-width="80" data-show-faces="true" style="margin-left:10px;"></div>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <!--end pagelet-->
+
+    <div id="header">
+    	<div id="head">
+        	<div id="head_blk">
+                <h1 class="fltlft"><a href="/"><img src="/images/RateMyTeacher_Logo.png" alt="Rate My Teachers" title="Rate My Teachers" /></a></h1>
+                <div id="header-search">			
+                    <div class="search-input">
+                       
+                          
+                          <div class="cse-branding-form">
+                            <form action="http://www.ratemyteachers.com/search_page" id="cse-search-box">
+                              <div>
+                                <input type="hidden" name="cx" value="002069359071098435579:lblk1g7-2ri" />
+                                 <input type="hidden" name="ie" value="ISO-8859-1" />
+                               <!--
+                                <input type="hidden" name="cx" value="partner-pub-8322864954623881:5925877767" />
+                                <input type="hidden" name="ie" value="UTF-8" /> -->
+                                <input type="hidden" name="cof" value="FORID:9" />
+                                
+                                                                                                  <input type="hidden" name="cr" value="countryUS" />
+                                                                
+                                <input type="text" name="q"  size="31" class="school watermarkOn" />                                
+                                <input type="submit" name="sa" value="Search" class="SearchSubmit" />
+                              </div>
+                            </form>
+                            <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+                            <script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+                            <script type="text/javascript" src="http://www.google.com/cse/t13n?form=cse-search-box&t13n_langs=en"></script>
+                          </div>
+                          
+                      
+                         
+                        
+                        
+                        
+                          
+                         
+                    </div>
+                    <div class="search-select">
+                        <form id="formSearchByCountry" action="" method ="get">
+                            <select name="websites2" id="country-select" style="width:278px !important; display:none;" tabindex="1">
+                                <option name="one" selectec="selected" value="United States"  title="images/icon-ok.gif" style="font-size: 7pt;">United States</option>    
+                                                                        <option  name="two" value="Canada"  title="images/icon-ok.gif" style="font-size: 7pt;">Canada</option>
+                                                                                <option value="United Kingdom"  title="images/icon-ok.gif" style="font-size: 7pt;">United Kingdom</option>
+                                                                                <option value="Ireland" title="images/icon-ok.gif" style="font-size: 7pt;">Ireland</option>
+                                                                                <option value="Australia"  title="images/icon-ok.gif" style="font-size: 7pt;">Australia</option>
+                                                                                <option value="New Zealand"  title="images/icon-ok.gif" style="font-size: 7pt;">New Zealand</option>
+                                                                                
+                            </select>
+                        </form>
+                    </div>
+                    <div class="search-input" style="display:none;">
+                        <form action="http://www.ratemyteachers.com/search/people" method="get" id="teacher_search">
+                            <input id="search_teacher" name="search_teacher" type="text" class="watermarkOn" />
+                            <input name="submit_search"  type="image" src="/images/search-btn1.png" class="SearchSubmit" alt="Search Teacher on Rate My Teachers" title="Search Teacher on Rate My Teachers" />
+                        </form>
+                    </div>
+                    <div>
+                        
+                        <input name="submit_search" id ="imageSubmit" type="image" src="/images/search-btn.png" alt="Search School &amp; Teacher on Rate My Teachers" title="Search School &amp; Teacher on Rate My Teachers" />
+                        
+                    </div>
+                </div>
+            <script type="text/javascript">
+                    window.addEvent('domready',function() {
+        
+                        $$('input[name=submit_search]').addEvent('click', function(event){
+                            event.stop(); // Stops the submission of the form.
+                            var keyword1 = $('search_org').get("value");
+                            var keyword2 = $('search_teacher').get("value");
+                            if (keyword1 != null && keyword1 != "Search for School") {
+                                if (has_common_words(keyword1)){ var box = new MooDialog.Alert('Please refine your search term'); }
+                                else { $('school_search').submit(); }
+                            } else if (keyword2 != null && keyword2 != "Search for Teacher") {
+                                $('teacher_search').submit();
+                            }
+                        });
+                        /*
+                        $('search_org').addEvent('keydown', function(event) {
+                            //alert('jona');
+                            if(event.key == "enter") {
+                                event.stop();
+                                var keyword = this.get('value');
+                                if (has_common_words(keyword)){ var box = new MooDialog.Alert('Please refine your search term'); }
+                                else { $('school_search').submit(); }
+                            }
+                        });
+                        */
+        
+        
+                        $('search_teacher').addEvent('keydown', function(event) {
+                            if(event.key == "enter") {
+                                event.stop();
+                                var keyword = this.get('value');
+                                $('teacher_search').submit();
+                            }
+                        });
+                        function has_common_words(keyword){
+                            var c_words = ['college', 'high', 'elementary', 'school'];
+                            var searchIndex = c_words.indexOf(keyword.toLowerCase());
+                            return searchIndex != -1;
+                        }
+                    });
+            </script>
+            <div class="clear"></div>
+        	</div>
+        </div>
+    </div>
+    <!--end header-->
+
+    <!-- suggestion box -->
+    <!--
+    <div><a href="#suggestion-box" class="suggestion-box"><img src="/images/quick-rating-btn.jpg" alt="" /></a></div>
+    -->
+    <div id="suggestion_box" class="fancysuggestionbox" style="display: none;">
+        <h2>Suggest a School</h2>
+        <p>Lorem Ipsum Dolor Sit Amit.</p>
+        <p style="margin-bottom:10px;"></p>
+        <div>
+            <form action="http://www.ratemyteachers.com/suggest_school" method="post" id="suggest_school_form">
+                <fieldset>
+                    <input type="text" name="school" value="Name of School" class="suggestion_box watermarkOn" />
+                </fieldset>
+                <fieldset>
+                    <input type="text" name="address" value="Address" class="suggestion_box watermarkOn" />
+                </fieldset>
+                <fieldset>
+                    <input type="text" name="URL" value="URL (optional)" class="suggestion_box watermarkOn" />
+                </fieldset>
+                <fieldset>
+                    <input type="image" name="submit_ratingPopup" onclick="return false;" src="/images/submit-btn.jpg" alt="Submit Suggestion" title="Submit Suggestion" />
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    
+    <!-- end suggestion box -->
+</header>
+        
+        <div id="content_container">
+            <div id="navi">
+                <ul>
+                    <li><a href="#" id="rate_link">Rate Now</a></li>
+                    <li><a href="#" id="search_link">Search</a></li>
+                </ul>
+            </div>
+            <!--end navi-->
+            <section>
+                <div id="content">
+                    <div class="ads">
+                        <div class="ATF_Leaderboard">
+                            <!-- ATF_Leaderboard -->
+                            <script type='text/javascript'>
+                                GA_googleFillSlot("ATF_Leaderboard");
+                            </script>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <!--end ads-->
+                    
+                    <div id="vertical_slide" style="display:none;">
+    
+        <form action="http://www.ratemyteachers.com/search_page" id="cse-search-box1">
+        <div>
+          <input type="hidden" name="cx" value="002069359071098435579:lblk1g7-2ri" />
+           <input type="hidden" name="ie" value="ISO-8859-1" />
+         <!--
+          <input type="hidden" name="cx" value="partner-pub-8322864954623881:5925877767" />
+          <input type="hidden" name="ie" value="UTF-8" /> -->
+          <input type="hidden" name="cof" value="FORID:10" />
+
+                                <input type="hidden" name="cr" value="countryUS" />
+                    <fieldset>
+            <div class="search-input-blk">
+                <input type="text" name="q" size="31" class="school watermarkOn" />
+                <input type="submit" name="sa" value="Search" class="SearchSubmit fltrgt" alt="Rate My Teachers Search" title="Rate My Teachers Search" />
+            </div>
+            <div>
+                <!-- <input id="search-button" name="search-org-submit" class="school-submit" type="submit" value="" alt="Rate My Teachers Search" title="Rate My Teachers Search" src="/images/search-btn.png" /> -->
+                <input id="search-button" name="sa" class="school-submit" type="submit" value="Search" alt="Rate My Teachers Search" title="Rate My Teachers Search" src="/images/search-btn.png" />
+            </div>
+          </fieldset>
+            
+            
+          
+        </div>
+      </form>
+     
+     <!--<input type="hidden" name="cx" value="partner-pub-8322864954623881:m59ex1d1spx" />-->
+    <!--
+    <form action="http://www.google.com/cse" id="cse-search-box">
+    <div>
+       
+        <input type="hidden" name="cx" value="002069359071098435579:lblk1g7-2ri" />
+        <input type="hidden" name="ie" value="ISO-8859-1" />
+                        <input type="hidden" name="cr" value="countryUS" />
+                <fieldset>
+            <div class="search-input-blk">
+                <input type="text" name="q" size="31" class="school watermarkOn" />
+                <input type="submit" name="sa" value="Search" class="SearchSubmit fltrgt" alt="Rate My Teachers Search" title="Rate My Teachers Search" />
+            </div>
+            <div>
+                <input id="search-button" name="search-org-submit" class="school-submit" type="submit" value="" alt="Rate My Teachers Search" title="Rate My Teachers Search" src="/images/search-btn.png" />
+            </div>
+        </fieldset>
+    </div>
+    </form>
+    <script type="text/javascript" src="/js/google-search/google.js"></script>
+    -->
+    <!--
+    <form action="#"  method="get" id="search_expand">
+        <fieldset>
+            <div class="search-input-blk">
+                <input id="search_input_expand" name="search_org" type="text" class="school watermarkOn" />
+                <input type="button" name="search-org-submit" class="SearchSubmit fltrgt" alt="Rate My Teachers Search" title="Rate My Teachers Search" />
+            </div>
+            <div>
+                <!--<input name="search_org" type="text" class="school" value="" />
+                <input id="search-button" name="search-org-submit" class="school-submit" type="submit" value="" alt="Rate My Teachers Search" title="Rate My Teachers Search" src="/images/search-btn.png" />
+            </div>
+        </fieldset>
+    </form>
+    -->
+    
+    <span id="vertical_status" style="display:none;">close</span>
+    <p>&nbsp;</p>
+</div>
+<script type="text/javascript" src="/js/core/check_results.js"></script>
+<script type="text/javascript">
+    window.addEvent('domready',function() {
+        if ($$('input[name=removed-search-org-submit]') != null) {
+            $$('input[name=search-org-submit]').addEvent('click', function(event){
+                event.stop(); // Stops the submission of the form.
+                var keyword = $('search_input_expand').get("value");
+                if (keyword != null && keyword != "Search Here") {
+                    if (has_common_words(keyword)){ new MooDialog.Alert('Please refine your search term'); }
+                    else { $('search_expand').submit(); }
+                }
+            });
+        }
+
+        if ($('removed_search_input_expand') != null) {
+            $('search_input_expand').addEvent('keydown', function(event) {
+                if(event.key == "enter") {
+                    event.stop();
+                    var keyword = this.get('value');
+                    if (has_common_words(keyword)){ new MooDialog.Alert('Please refine your search term'); }
+                    else { 
+
+                        var data = "search_org=" + keyword + "&is_ajax=true";
+                        var submit_url = {
+                                "school" : 'http://www.ratemyteachers.com/search/school',
+                                "teacher" : 'http://www.ratemyteachers.com/search/people'
+                            };
+                        var options = { 
+                            'url'           : 'http://www.ratemyteachers.com/search/get_results',
+                            'method'        : 'get',
+                            'data'          : data,
+                            'submit_url'    : submit_url,
+                            'keyword'       : keyword,
+                            'append_to'     : document.body
+                        }
+                        check_results = new Check_Results(options);
+                        check_results.submit();
+                    }
+                }
+            });
+        }
+        function has_common_words(keyword){
+            var c_words = ['college', 'high', 'elementary', 'school'];
+            var searchIndex = c_words.indexOf(keyword.toLowerCase());
+            return searchIndex != -1;
+        }
+    });
+</script>                    <!--end search-->
+                    
+                    <div id="heading" class="border-bottom">
+						<ul class="breadcrumbs fltlft">
+	<li><a href="/location">United States</a> &raquo;</li>
+
+	        <li><a href="/location/ny">New York</a> &raquo;</li>
+	
+	
+	</ul>
+
+                    <div class="clear"></div>
+                    </div>
+                    <!--end heading-->
+                    
+                    
+                    	                            							<!--New School Results-->
+                            <div id="school_search_result_blk1" class="fltlft">
+                                <ul class="school_search_result_heading">
+                                    <li class="name1" style="width: 500px;">School Name</li>
+                                    <!-- <li class="overall_quality">Overall Quality</li>--> <!-- comment by arvin -->
+                                </ul>
+                                <ul class="sort_list">
+                                   
+									 									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3660/4">Sahker J.r High School - Salem High School</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                   									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3668/4">Samoset Middle School - Sandcreek Middle School</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                   									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3676/4">Santapogue School - Sar Academy</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                   									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3684/4">Saranac Lake Senior High School - Satellite Acad High School</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                   									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3692/4">Sauquoit Valley Senior High School - Saxton Middle School</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                   									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3700/4">Scarsdale Senior High School - Schalmont Middle School</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                   									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3708/4">Schlegel Road  Elementary School - School - Arts</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                   									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3716/4">School 16 - School 19-dr Charles T Lunsford</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                   									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3724/4">School 30-general Elwell S Otis - School 37-lewis H Morgan</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                   									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3732/4">School 46-charles Carroll - School 8</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                   									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3740/4">School Of Business Finance & Entrepreneurship - School Of Nursing Of Saint Vincent Catholic Med.</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                   									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3748/4">Schreiber High School - Schuylerville Junior Senior High School</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                   									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3756/4">Scotia-glenville Middle School - Seaford Manor School</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                   									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3764/4">Secondary School For Law- Journalism And Research - Selden Middle School</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                   									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3772/4">Sequoya Middle School - Seton Catholic Cent High School</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                   									                                     <li>
+                                        <ul> 
+										<!-- rating control  -->   
+                                             <li class="name1" style="width: 500px;">
+												 <a class="black" href="/location/ny/3780/2">Seymour Smith  Elementary School - Shaarei Torah Of Rockland</a>
+												 
+												
+                                            </li>
+                                             
+                                        </ul>
+                                    </li> 
+                                                                                
+                                </ul>
+                            <div class="clear"></div>
+                            </div>
+                            <!--end School Results-->
+                            
+                            <div id="sidebar">
+                                <div id="home_box_ad">
+                                    <!-- ATF_MediumRectangle -->
+                                    <script type='text/javascript'>
+                                        GA_googleFillSlot("ATF_MediumRectangle");
+                                    </script>
+                                </div>                                
+                            </div>
+                            <!--end sidebar-->
+                         
+					
+                    <div class="clear"></div>
+                    <div class="sub_banner_728">
+                        <!-- BTF_Leaderboard -->
+                        <script type='text/javascript'>
+                            GA_googleFillSlot("BTF_Leaderboard");
+                        </script>
+                    </div>
+                    
+                                        <!--end top block-->
+                    
+                </div>
+                <!--end content-->
+            </section>
+			<!--end section-->
+        </div>
+        <!-- end container-->
+        
+        <footer>
+	<div id="footer">
+		<ul class="dictionary">
+			<li><a href="/school/ALL">School Directory</a>:</li>
+			<li><a href="/school/A">A</a></li>
+			<li><a href="/school/B">B</a></li>
+			<li><a href="/school/C">C</a></li>
+			<li><a href="/school/D">D</a></li>
+			<li><a href="/school/E">E</a></li>
+			<li><a href="/school/F">F</a></li>
+			<li><a href="/school/G">G</a></li>
+			<li><a href="/school/H">H</a></li>
+			<li><a href="/school/I">I</a></li>
+			<li><a href="/school/J">J</a></li>
+			<li><a href="/school/K">K</a></li>
+			<li><a href="/school/L">L</a></li>
+			<li><a href="/school/M">M</a></li>
+			<li><a href="/school/N">N</a></li>
+			<li><a href="/school/O">O</a></li>
+			<li><a href="/school/P">P</a></li>
+			<li><a href="/school/Q">Q</a></li>
+			<li><a href="/school/R">R</a></li>
+			<li><a href="/school/S">S</a></li>
+			<li><a href="/school/T">T</a></li>
+			<li><a href="/school/U">U</a></li>
+			<li><a href="/school/V">V</a></li>
+			<li><a href="/school/W">W</a></li>
+			<li><a href="/school/X">X</a></li>
+			<li><a href="/school/Y">Y</a></li>
+			<li><a href="/school/Z">Z</a></li>
+			<li>|</li>
+			<li><a href="/teacher/ALL">Teacher Directory</a>:</li>
+			<li><a href="/teacher/A">A</a></li>
+			<li><a href="/teacher/B">B</a></li>
+			<li><a href="/teacher/C">C</a></li>
+			<li><a href="/teacher/D">D</a></li>
+			<li><a href="/teacher/E">E</a></li>
+			<li><a href="/teacher/F">F</a></li>
+			<li><a href="/teacher/G">G</a></li>
+			<li><a href="/teacher/H">H</a></li>
+			<li><a href="/teacher/I">I</a></li>
+			<li><a href="/teacher/J">J</a></li>
+			<li><a href="/teacher/K">K</a></li>
+			<li><a href="/teacher/L">L</a></li>
+			<li><a href="/teacher/M">M</a></li>
+			<li><a href="/teacher/N">N</a></li>
+			<li><a href="/teacher/O">O</a></li>
+			<li><a href="/teacher/P">P</a></li>
+			<li><a href="/teacher/Q">Q</a></li>
+			<li><a href="/teacher/R">R</a></li>
+			<li><a href="/teacher/S">S</a></li>
+			<li><a href="/teacher/T">T</a></li>
+			<li><a href="/teacher/U">U</a></li>
+			<li><a href="/teacher/V">V</a></li>
+			<li><a href="/teacher/W">W</a></li>
+			<li><a href="/teacher/X">X</a></li>
+			<li><a href="/teacher/Y">Y</a></li>
+			<li><a href="/teacher/Z">Z</a></li>
+		</ul>
+		<div id="foot">
+			<ul>
+									<li><a href="/school">Schools</a><span>|</span></li>
+					<li><a href="/teacher">Teachers</a><span>|</span></li>
+									<li><a href="http://www.facebook.com/pages/Rate-My-Teachers/172604876112259" target="_blank">Forum</a><span>|</span></li>
+					<li><a href="/faq">FAQ</a><span>|</span></li>
+					<li><a href="/contact">Contact</a><span>|</span></li>
+					<li><a href="/info/Terms">Terms of Use</a><span>|</span></li>
+					<li><a href="/info/Privacy">Privacy Policy</a><span>|</span></li>
+					<li><a href="/info/RateRules">Site Guidelines</a><span>|</span></li>
+					<li><a href="/info/Copyright">Copyright Compliance</a><span>|</span></li>
+					<li><a href="/location">Site Map</a><span>|</span></li>
+					<li><a href="/refer_a_friend">Refer a Friend</a></li>
+			</ul>
+			<p>© 2012 RateMyTeachers.com All Rights Reserved. This site is dedicated to Nancy Lynn Davis 1945-2006 & Brian Timothy Davis 1981-2003</p>
+		</div>
+	</div>
+</footer>
+<div style="display:none">
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-4216499-1");
+		pageTracker._initData();
+				pageTracker._trackPageview();
+	</script> 
+
+	<script type="text/javascript">
+		_qoptions={
+			qacct:"p-6d6fzw6m9kY1M"
+		};
+	</script>
+
+	<!-- Start Quantcast tag -->
+	<script type="text/javascript">
+		_qoptions={
+		qacct:"p-6d6fzw6m9kY1M"
+		};
+	</script>
+	<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+	<noscript>
+		<img src="http://pixel.quantserve.com/pixel/p-6d6fzw6m9kY1M.gif" style="display: none;" border="0" height="1" width="1" alt=""/>
+	</noscript>
+	<!-- End Quantcast tag -->
+</div>        
+    </div>
+    <!--end wrapper-->
+	<script src="/js/moostarrating.js"></script>
+	<script type="text/javascript">
+	 window.addEvent('domready',function() {
+			rating_values = ['Hated', 'Disliked', 'Okay', 'Liked',  'Loved'];
+			count = 16;
+			MooStarRatingImages.defaultImageFolder = "/images";
+			
+			var basicRatings = new Array(count);
+			var rating_fields = new Array(count);
+
+			for(j=1;j<=count;j++) {
+				rating_fields[j] = "rating_fields"+j;
+			}
+
+			for(i=1;i<=count;i++) {
+
+				basicRatings[i] = new MooStarRating({
+					form: "simple"+ i,
+					tip : "[VALUE]",
+					tipTarget: $('simpleTip'+ i)
+				});
+			};
+
+			Array.each(basicRatings, function(obj, index) {
+				obj.addEvent('click', function (value) {
+					// we hide first the other textboxes
+					Array.each(rating_fields, function(obj, r_index) {
+						$$('#rating_fields1').set("class","hide");
+						$$('#'+rating_fields[r_index]).set("class","hide");
+					});
+					// show the currently selected rating control
+					$$('#'+rating_fields[index]).set("class","appear");
+					var rating_value = $('form'+index).getElements('input[name=rating_value]');
+					var rv = rating_values.indexOf(value) + 1;
+					rating_value.set("value", rv);
+				});
+				
+			});
+			
+			var is_one_word = null;
+			$$('input[name=description]').addEvent('blur', function() {
+				var tx_val = this.value;
+				var str = tx_val.split(' ');
+				var len = str.length;
+				is_one_word = len == 1;				
+			});
+			
+			/** Ajax Request calling rate_teacher() function from the controllers/person_rating_controller.php
+			 *  added by njbasan
+			 */
+			$$('input[name=submit_rating]').addEvent('click', function(event){
+				event.stop(); // Stops the submission of the form.
+				
+				if (is_one_word && is_one_word != null) {
+					var form_id 			= this.getParent().get("id");
+					var rating_field 		= $(form_id).getParent().get("id");
+					var post_url 			= 'http://www.ratemyteachers.com/rate_schoolnow';
+					var http_method 		= 'post';
+					
+					var rating_form 		= $(form_id);
+					var rating_value 		= rating_form.getElements('input[name=rating_value]').get('value');
+					var rating_description 	= rating_form.getElements('input[name=description]').get('value');
+					var school_id 			= rating_form.getElements('input[name=schoolID]').get('value');
+					var school_name			= rating_form.getElements('input[name=schoolName]').get('value');
+					var rating_id 			= rating_form.getElements('input[name=rating_id]').get('value');
+					var rating_url          = rating_form.getElements('input[name=url]').get('value');
+					var is_ajax				= false;	
+					
+					var post_string 		 = "rating_value=" + rating_value;
+					post_string				+= "&description=" + rating_description;
+					post_string 			+= "&school_id=" + school_id;
+					post_string 			+= "&schoolName=" + school_name;
+					post_string				+= "&rating_id=" + rating_id;
+					post_string             += "&url=" + rating_url;
+					post_string             += "&is_ajax=" + is_ajax;
+					
+	
+					
+					var ajax_options = { method		: http_method,
+										 url		: post_url,
+										 data		: post_string,
+										 onComplete	: function(resp) {
+											 //var obj = JSON.decode(resp);
+											 if (resp.contains('already')) alert(resp);	
+											 $(rating_field).set("class","hide");
+										 }
+									   };
+					var req = new Request(ajax_options).send(); //make the ajax call
+				} else {
+					alert('You are only allowed to input one word!');
+				}
+				
+			});                
+		});	
+	</script>
+</body>
+</html>

@@ -1,0 +1,2308 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>English,  Cherokee High School - Marlton, New Jersey | RateMyTeachers.com</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-4.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":2475,"agentToken":null,"agent":"js-agent.newrelic.com/nr-476.min.js","ttGuid":"452e3f4f46e36864"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),u=c.length,f=i(a,o,r),d=0;u>d;d++)c[d].apply(f,n);return f}function a(t,e){u[t]=s(t).concat(e)}function s(t){return u[t]||[]}function c(){return n(e)}var u={};return{on:a,emit:e,create:c,listeners:s,_events:u}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(u){try{r("ierr",[u,(new Date).getTime(),!0])}catch(f){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(4),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(u){"stack"in u&&(t(5),t(3),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:5,4:18,5:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:18,2:19,ee:"QJf3ax",gos:"7eSDFh"}],5:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:19,2:18,ee:"QJf3ax"}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:19,2:18,ee:"QJf3ax"}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t("ee").create(),a=t(1),s=t(2),c=s(i),u=s(a),f=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new f(t);try{i.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",[r])}catch(o){}}return e},window.XMLHttpRequest.prototype=f.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:19,ee:"QJf3ax"}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,u="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=e(u);if(f&&(r.rxSize=f),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,u=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var u=e(o);u&&(r.txSize=u)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",[e])}catch(r){}}};for(var f=0;c>f;f++)n.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:9,3:7,4:4,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){p.proto="https"===d.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=p.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,c=s.document,u="addEventListener",f="attachEvent",d=(""+location).split("?")[0],p=e.exports={offset:i(),origin:d,features:{}};c[u]?(c[u]("DOMContentLoaded",o,!1),s[u]("load",n,!1)):(c[f]("onreadystatechange",r),s[f]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],18:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],19:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,u;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){f([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return u=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,u],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,u(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,u="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,u?s+o:o,i,s,t))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){f([o,e,n,r])}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){f([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function f(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:18,ee:"QJf3ax"}]},{},["G9z0Bl",3,8]);</script>  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw" />
+  
+  <meta name="keywords" content="Rate a teacher from school,read college professor ratings,rate a professor from university,university,rate my teacher,rate,teacher,college,school,high school,schools,elementary school,preschool,middle school,professor ratings,teacher ratings,ratemyteachers.com" />
+
+  <meta name="description" content="English teachers at Cherokee High School in Marlton, New Jersey on RateMyTeachers.com" />
+
+<meta name="googlebot" content="noindex">
+
+  <meta name="robots" content="noodp,noydir" />
+  <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+  <link href="/assets/application-7f18320d7fb74c1b18987f7de3258d3c.css" media="all" rel="stylesheet" />
+  
+  <meta property="og:type" content="rmt:school" />
+<meta property="og:url" content="http://www.ratemyteachers.com/cherokee-high-school/12801-s" />
+<meta property="og:site_name" content="Cherokee High School on RateMyTeachers.com" />
+<meta property="og:description" content="English teachers at Cherokee High School in Marlton, New Jersey on RateMyTeachers.com" />
+
+  <script type="text/javascript">
+    var currentState = 'VA';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:      true,
+    debugMode:            false
+  }
+
+
+ function getWindowWidth() {
+   var myWidth = 0, myHeight = 0;
+     if( typeof( window.innerWidth ) == 'number' ) {
+         myWidth = window.innerWidth; myHeight = window.innerHeight;
+     } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+         myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+     } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+         myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+     }
+     return myWidth;
+ }  
+
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isMobile = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false) || isMobileVariant;
+</script>
+  <script>
+    var gaId = 'UA-4216499-1';
+    
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', gaId, 'auto');
+    ga('require', 'displayfeatures');
+    //ga('require', 'ecommerce', 'ecommerce.js');
+    
+  </script>
+
+<script src="/assets/rmt.analytics-defd401f8cfb44d689532ba3eda18a86.js"></script>
+
+<script>
+  var pageType = "";
+  RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+  var searchTerm = "";
+</script>
+
+
+  <!-- DFP -->
+
+  <!-- Google Custom Ads -->
+  <script type="text/javascript" charset="utf-8">
+    (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+    arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+    O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+    e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+  </script>
+
+
+  <!-- AdSense -->
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+  
+  <!-- WebSpectator -->
+  <script async type="text/javascript" src="//wfpscripts.webspectator.com/bootstrap/ws-8828A2DD.js"></script>
+
+  <script type="text/javascript">window._pt_lt = new Date().getTime();</script>
+ 
+   
+  <link href='http://www.ratemyteachers.com/cherokee-high-school/12801-s.rss' rel='alternate' type='application/rss+xml'>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="mpbLCRGtWPgPggUpKthIQw1FOGFjfXLQdSo4PxGPwL8=" name="csrf-token" />
+</head>
+<!--
+
+██████╗ ███╗   ███╗████████╗
+██╔══██╗████╗ ████║╚══██╔══╝
+██████╔╝██╔████╔██║   ██║   
+██╔══██╗██║╚██╔╝██║   ██║   
+██║  ██║██║ ╚═╝ ██║   ██║   
+╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝
+
+If you see this we should talk!  We are pretty awesome!
+-->
+<body class="inner_page school_page schools_v7_1
+">
+  <div id="fb-root"></div>
+      <div class='rate_my_teachers_international'>
+<div class='container'>
+<div class='row'>
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+<header>
+<div class='container'>
+<div class='row'>
+<form action='/search_page' class='tab-form search_form' method='get'>
+<a alt='Go to RateMyTeachers Home' href='/' id='rate_my_teachers_logo' title='Go to RateMyTeachers Home'></a>
+<input name='search' type='hidden' value='teachers'>
+<div class='search_inputs'>
+<div class='bg'>
+<div class='padding'>
+<input class='search_input' name='q' placeholder='Search: Professors, Teachers, High Schools, or Colleges' type='text'>
+</div>
+<div class='location'>
+<select class="state" id="state" name="state"><option value="">Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class='search_button'>
+<button class='btn-search fa fa-search fa-3x' title='Search RateMyTeachers' type='submit'></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+
+
+
+    <section class="breadcrumbs container-fluid">
+      <div class="row">
+        <div class="container">
+          <div class="col-sm-12">
+            <ul class='list-inline collapsible_nav collapsible_nav_collapsed'>
+<li class='toggle'>
+<a href='javascript:void(0);'>
+<i class='fa fa-bars'></i>
+</a>
+</li>
+<li class='collapse'>
+<a href='/' title='Go to RateMyTeachers Home'>United States</a>
+</li>
+<li class='always_show'>
+<a alt='Go to Schools in New Jersey' href='/new-jersey' title='Go to Schools in New Jersey'>New Jersey</a>
+</li>
+<li class='collapse'>
+<a alt='Go to Schools in Marlton' href='/new-jersey/marlton' title='Go to Schools in Marlton'>Marlton</a>
+</li>
+<li class='always_show extra_option'>
+<span class='last'>Cherokee High School</span>
+</li>
+<li class='always_show'>
+<a class='new_teacher_trigger' data-backdrop='static' data-keyboard data-school='Cherokee High School' data-sender-name='School page breadcrumb' data-target='#modal' data-toggle='modal' href='/teachers/new?sid=12801' title='Add My Teacher'>Add My Teacher</a>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+  
+
+  <div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="alert alert-danger" id="flash-error" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-warning" id="flash-alert" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-success" id="flash-success" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-info"  id="flash-notice" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+  
+
+  <div id="content">
+    <span itemprop='aggregateRating' itemscope itemtype='http://data-vocabulary.org/Review-aggregate'>
+<meta content='Cherokee High School' itemprop='itemreviewed'>
+<span itemprop='rating' itemscope itemtype='http://data-vocabulary.org/Rating'>
+<meta content='4.16284' itemprop='average'>
+<meta content='5' itemprop='best'>
+<meta content='0' itemprop='worst'>
+</span>
+<meta content='3703' itemprop='votes'>
+</span>
+
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+  <div id="School_ATF_Large_Leaderboard">
+    <!-- School_ATF_Large_Leaderboard -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:970px;height:90px"
+         data-ad-client="ca-pub-8322864954623881"
+         data-ad-slot="7130714482"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+</div>
+</div>
+<div class='row'>
+<div class='col-md-4 sticky_container_left'>
+<div class='sticky_column'>
+<section class='school_info' itemscope itemtype='http://schema.org/School'>
+<div class='callout'>
+This School profile is 95% complete. Help us
+<a href='javascript:void(0);'>add more information</a>
+</div>
+<div class='info row'>
+<div class='col-md-12'>
+<div class='info_box'>
+<div class='main_info'>
+<h1 class='title school_name' itemprop='name'>
+Cherokee High School
+
+</h1>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='18' data-rateit-starwidth='22' data-rateit-value='4.16284'></div>
+</div>
+<!-- /.location= school.state_and_city_full -->
+<div class='staff'>
+Based on
+38
+Teachers
+and
+3,640
+Ratings
+</div>
+<div class='row'>
+<div class='col-xs-12 attributes'>
+<div class='attribute'>
+<div class='easy val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Easiness</div>
+</div>
+<div class='attribute'>
+<div class='helpful val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Helpfulness</div>
+</div>
+<div class='attribute'>
+<div class='clarity val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Clarity</div>
+</div>
+<div class='attribute'>
+<div class='knowledgeable val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Knowledge</div>
+</div>
+<div class='attribute'>
+<div class='textbook_use val2 value'>
+<span>2</span>
+</div>
+<div class='text'>Textbook Use</div>
+</div>
+<div class='attribute'>
+<div class='exam_difficulty val3 value'>
+<span>3</span>
+</div>
+<div class='text'>Exam Difficulty</div>
+</div>
+</div>
+</div>
+</div>
+<div class='secondary_info'>
+<div class='col-md-12 stats phone'>
+<div class='title'>Telephone:</div>
+<span itemprop='telephone'>856-983-5140</span>
+</div>
+<div class='col-md-12 map'>
+  <iframe
+    width="100%"
+    height="200"
+    frameborder="0" style="border:0;"
+    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g&amp;q=120+TOMLINSON+MILL+ROAD+Marlton%2C+New+Jersey+United+States">
+  </iframe>
+
+</div>
+<div class='col-md-12 stats'>
+<div class='title strong'>Address:</div>
+<span itemprop='address'>120 Tomlinson Mill Road</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class='apply_school_administrator_wrapper secondary'>
+<a class='new_admin_request_trigger' data-school='Cherokee High School' data-sender='School page' data-target='#modal' data-toggle='modal' href='/admin/new?sid=12801' title="Become Cherokee High School's Admin">
+Become Cherokee High School's Admin
+</a>
+</div>
+
+</div>
+</div>
+<div class='col-md-4 middle'>
+<section class='school_teachers content'>
+<!-- - else -->
+<!-- .item -->
+<div class='sticky_container_center'>
+<div class='sticky_column' style='z-index:999; background-color:#fff;'>
+<div class='search padding hidden-xs'>
+<form action='/cherokee-high-school/12801-s' class='simple_form inline_form'>
+<div class='row'>
+<div class='col-xs-12 col-md-7 left'>
+<input name='q' placeholder='Search by Teacher' type='text'>
+<input class='btn btn-default' name='commit' type='submit' value='Search'>
+</div>
+<div class='col-xs-12 col-md-5 right'>
+<select id="school_departments" name="school_departments"><option value="">Select a Department</option><option value=""></option><option value="/cherokee-high-school/12801-s/not-specified">Not Specified</option>
+<option value="/cherokee-high-school/12801-s/accounting">Accounting</option>
+<option value="/cherokee-high-school/12801-s/administration">Administration</option>
+<option value="/cherokee-high-school/12801-s/anthropology">Anthropology</option>
+<option value="/cherokee-high-school/12801-s/architecture">Architecture</option>
+<option value="/cherokee-high-school/12801-s/asl">ASL</option>
+<option value="/cherokee-high-school/12801-s/auto-tech">Auto Tech</option>
+<option value="/cherokee-high-school/12801-s/band">Band</option>
+<option value="/cherokee-high-school/12801-s/biology">Biology</option>
+<option value="/cherokee-high-school/12801-s/business">Business</option>
+<option value="/cherokee-high-school/12801-s/chemistry">Chemistry</option>
+<option value="/cherokee-high-school/12801-s/co-op">Co-op</option>
+<option value="/cherokee-high-school/12801-s/communications">Communications</option>
+<option value="/cherokee-high-school/12801-s/computer-science">Computer Science</option>
+<option value="/cherokee-high-school/12801-s/counselor">Counselor</option>
+<option value="/cherokee-high-school/12801-s/drafting">Drafting</option>
+<option value="/cherokee-high-school/12801-s/drivers-education">Drivers Education</option>
+<option value="/cherokee-high-school/12801-s/economics">Economics</option>
+<option value="/cherokee-high-school/12801-s/education">Education</option>
+<option selected="selected" value="/cherokee-high-school/12801-s/english">English</option>
+<option value="/cherokee-high-school/12801-s/esl">ESL</option>
+<option value="/cherokee-high-school/12801-s/family-consumer-sciences">Family &amp; Consumer Sciences</option>
+<option value="/cherokee-high-school/12801-s/film">Film</option>
+<option value="/cherokee-high-school/12801-s/fine-arts">Fine Arts</option>
+<option value="/cherokee-high-school/12801-s/french">French</option>
+<option value="/cherokee-high-school/12801-s/geography">Geography</option>
+<option value="/cherokee-high-school/12801-s/grade-1">Grade 1</option>
+<option value="/cherokee-high-school/12801-s/grade-2">Grade 2</option>
+<option value="/cherokee-high-school/12801-s/grade-3">Grade 3</option>
+<option value="/cherokee-high-school/12801-s/grade-4">Grade 4</option>
+<option value="/cherokee-high-school/12801-s/grade-5">Grade 5</option>
+<option value="/cherokee-high-school/12801-s/grade-6">Grade 6</option>
+<option value="/cherokee-high-school/12801-s/grade-k">Grade K</option>
+<option value="/cherokee-high-school/12801-s/grammaire-composition">Grammaire/Composition</option>
+<option value="/cherokee-high-school/12801-s/headmaster">Headmaster</option>
+<option value="/cherokee-high-school/12801-s/health">Health</option>
+<option value="/cherokee-high-school/12801-s/history">History</option>
+<option value="/cherokee-high-school/12801-s/home-economics">Home Economics</option>
+<option value="/cherokee-high-school/12801-s/ib-program">IB Program</option>
+<option value="/cherokee-high-school/12801-s/independent-study">Independent Study</option>
+<option value="/cherokee-high-school/12801-s/industrial-education">Industrial Education</option>
+<option value="/cherokee-high-school/12801-s/journalism">Journalism</option>
+<option value="/cherokee-high-school/12801-s/languages">Languages</option>
+<option value="/cherokee-high-school/12801-s/law">Law</option>
+<option value="/cherokee-high-school/12801-s/librarian">Librarian</option>
+<option value="/cherokee-high-school/12801-s/math">Math</option>
+<option value="/cherokee-high-school/12801-s/media">Media</option>
+<option value="/cherokee-high-school/12801-s/multiple-subjects">Multiple Subjects</option>
+<option value="/cherokee-high-school/12801-s/music">Music</option>
+<option value="/cherokee-high-school/12801-s/nursing">Nursing</option>
+<option value="/cherokee-high-school/12801-s/performing-arts">Performing Arts</option>
+<option value="/cherokee-high-school/12801-s/philosophy">Philosophy</option>
+<option value="/cherokee-high-school/12801-s/photography">Photography</option>
+<option value="/cherokee-high-school/12801-s/physical-education">Physical Education</option>
+<option value="/cherokee-high-school/12801-s/physics">Physics</option>
+<option value="/cherokee-high-school/12801-s/principal">Principal</option>
+<option value="/cherokee-high-school/12801-s/psychology">Psychology</option>
+<option value="/cherokee-high-school/12801-s/reading">Reading</option>
+<option value="/cherokee-high-school/12801-s/religion">Religion</option>
+<option value="/cherokee-high-school/12801-s/resource">Resource</option>
+<option value="/cherokee-high-school/12801-s/rotc">ROTC</option>
+<option value="/cherokee-high-school/12801-s/science">Science</option>
+<option value="/cherokee-high-school/12801-s/social-studies">Social Studies</option>
+<option value="/cherokee-high-school/12801-s/sociology">Sociology</option>
+<option value="/cherokee-high-school/12801-s/speech">Speech</option>
+<option value="/cherokee-high-school/12801-s/study-skills">Study Skills</option>
+<option value="/cherokee-high-school/12801-s/substitute-teacher">Substitute Teacher</option>
+<option value="/cherokee-high-school/12801-s/technology">Technology</option>
+<option value="/cherokee-high-school/12801-s/vice-principal">Vice Principal</option>
+<option value="/cherokee-high-school/12801-s/visual-arts">Visual Arts</option>
+<option value="/cherokee-high-school/12801-s/writing">Writing</option></select>
+</div>
+</div>
+</form>
+</div>
+<ul class='teachers_by_alphabet'>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with A' href='/cherokee-high-school/12801-s/a' title='Teachers at Cherokee High School whose names begin with A'>a</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with B' href='/cherokee-high-school/12801-s/b' title='Teachers at Cherokee High School whose names begin with B'>b</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with C' href='/cherokee-high-school/12801-s/c' title='Teachers at Cherokee High School whose names begin with C'>c</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with D' href='/cherokee-high-school/12801-s/d' title='Teachers at Cherokee High School whose names begin with D'>d</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with E' href='/cherokee-high-school/12801-s/e' title='Teachers at Cherokee High School whose names begin with E'>e</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with F' href='/cherokee-high-school/12801-s/f' title='Teachers at Cherokee High School whose names begin with F'>f</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with G' href='/cherokee-high-school/12801-s/g' title='Teachers at Cherokee High School whose names begin with G'>g</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with H' href='/cherokee-high-school/12801-s/h' title='Teachers at Cherokee High School whose names begin with H'>h</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with I' href='/cherokee-high-school/12801-s/i' title='Teachers at Cherokee High School whose names begin with I'>i</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with J' href='/cherokee-high-school/12801-s/j' title='Teachers at Cherokee High School whose names begin with J'>j</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with K' href='/cherokee-high-school/12801-s/k' title='Teachers at Cherokee High School whose names begin with K'>k</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with L' href='/cherokee-high-school/12801-s/l' title='Teachers at Cherokee High School whose names begin with L'>l</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with M' href='/cherokee-high-school/12801-s/m' title='Teachers at Cherokee High School whose names begin with M'>m</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with N' href='/cherokee-high-school/12801-s/n' title='Teachers at Cherokee High School whose names begin with N'>n</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with O' href='/cherokee-high-school/12801-s/o' title='Teachers at Cherokee High School whose names begin with O'>o</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with P' href='/cherokee-high-school/12801-s/p' title='Teachers at Cherokee High School whose names begin with P'>p</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with Q' href='/cherokee-high-school/12801-s/q' title='Teachers at Cherokee High School whose names begin with Q'>q</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with R' href='/cherokee-high-school/12801-s/r' title='Teachers at Cherokee High School whose names begin with R'>r</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with S' href='/cherokee-high-school/12801-s/s' title='Teachers at Cherokee High School whose names begin with S'>s</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with T' href='/cherokee-high-school/12801-s/t' title='Teachers at Cherokee High School whose names begin with T'>t</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with U' href='/cherokee-high-school/12801-s/u' title='Teachers at Cherokee High School whose names begin with U'>u</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with V' href='/cherokee-high-school/12801-s/v' title='Teachers at Cherokee High School whose names begin with V'>v</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with X' href='/cherokee-high-school/12801-s/x' title='Teachers at Cherokee High School whose names begin with X'>x</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with Y' href='/cherokee-high-school/12801-s/y' title='Teachers at Cherokee High School whose names begin with Y'>y</a>
+</li>
+<li>
+<a alt='Teachers at Cherokee High School whose names begin with Z' href='/cherokee-high-school/12801-s/z' title='Teachers at Cherokee High School whose names begin with Z'>z</a>
+</li>
+</ul>
+
+</div>
+</div>
+<div class='header padding'>
+Showing
+38 Teachers
+<!-- and -->
+<!-- %span.colorized= pluralize ratings_count, 'Rating' -->
+from Cherokee High School
+</div>
+<div class='teachers padding'>
+
+
+
+  <div id="School_ATF_Leaderboard">
+    <!-- School_ATF_Leaderboard_web -->
+    <ins class="adsbygoogle"
+      style="display:inline-block;width:336px;height:280px"
+      data-ad-client="ca-pub-8322864954623881"
+      data-ad-slot="1367689285"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Michael Delguercio&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/michael-delguercio/2113489-t" title="View Michael Delguercio&#39;s Ratings">Michael Delguercio</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>4 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"great man, great class.  i love it"</span>
+<a alt="View Michael Delguercio&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/michael-delguercio/2113489-t" title="View Michael Delguercio&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/michael-delguercio/2113489-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Sara Linton&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/sara-linton/1625596-t" title="View Sara Linton&#39;s Ratings">Sara Linton</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>3 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Ms.Linton is my Favorite teacher.  Everyone that is in her class is VERY lucky.  Couldn&#39;t have a..."</span>
+<a alt="View Sara Linton&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/sara-linton/1625596-t" title="View Sara Linton&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/sara-linton/1625596-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Elaine Winder&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/elaine-winder/182036-t" title="View Elaine Winder&#39;s Ratings">Elaine Winder</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.93'></div>
+<span class='rating_count'>23 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"do the work and its an easy class. ap lit with her was awesome. funny, entertaining, helpful, I..."</span>
+<a alt="View Elaine Winder&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/elaine-winder/182036-t" title="View Elaine Winder&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/elaine-winder/182036-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Joseph Duffin&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/joseph-duffin/54720-t" title="View Joseph Duffin&#39;s Ratings">Joseph Duffin</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.93'></div>
+<span class='rating_count'>27 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He taught Science Fiction in &#39;92. Great teacher, great guy. He always made us think outside of..."</span>
+<a alt="View Joseph Duffin&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/joseph-duffin/54720-t" title="View Joseph Duffin&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/joseph-duffin/54720-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Lee Anne Lowden&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/lee-anne-lowden/204158-t" title="View Lee Anne Lowden&#39;s Ratings">Lee Anne Lowden</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.88'></div>
+<span class='rating_count'>8 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"ap english is the most amazing class everrr because of ms. lowden!"</span>
+<a alt="View Lee Anne Lowden&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/lee-anne-lowden/204158-t" title="View Lee Anne Lowden&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/lee-anne-lowden/204158-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Jen Strobl&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/jen-strobl/502830-t" title="View Jen Strobl&#39;s Ratings">Jen Strobl</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.88'></div>
+<span class='rating_count'>8 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"mrs. strobl is the best english teacher cherokee has to offer.  i hope i have her next yr for eng 2"</span>
+<a alt="View Jen Strobl&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/jen-strobl/502830-t" title="View Jen Strobl&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jen-strobl/502830-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Scott Revell&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/scott-revell/505226-t" title="View Scott Revell&#39;s Ratings">Scott Revell</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.8'></div>
+<span class='rating_count'>10 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mr. Revell is an awesome teacher. It was his first year teaching and my first year of high..."</span>
+<a alt="View Scott Revell&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/scott-revell/505226-t" title="View Scott Revell&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/scott-revell/505226-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Lea Chappell&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/lea-chappell/2005468-t" title="View Lea Chappell&#39;s Ratings">Lea Chappell</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.67'></div>
+<span class='rating_count'>3 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"I loved her.  She was very easy to talk to and get along with.  Her lessons were interesting and..."</span>
+<a alt="View Lea Chappell&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/lea-chappell/2005468-t" title="View Lea Chappell&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/lea-chappell/2005468-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Pulverentti&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/pulverentti/488358-t" title="View Pulverentti&#39;s Ratings">Pulverentti</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.55'></div>
+<span class='rating_count'>26 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"My favorite English teacher ever. I had her 13th period sophomore year and it was the perfect way..."</span>
+<a alt="View Pulverentti&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/pulverentti/488358-t" title="View Pulverentti&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/pulverentti/488358-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Justin Smith&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/justin-smith/200124-t" title="View Justin Smith&#39;s Ratings">Justin Smith</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.53'></div>
+<span class='rating_count'>19 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"As a Cherokee Alum, now 24 years old... I would like to say that Mr. Smith was..."</span>
+<a alt="View Justin Smith&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/justin-smith/200124-t" title="View Justin Smith&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/justin-smith/200124-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Joseph Watkins&#39; Ratings" class="name" href="http://www.ratemyteachers.com/joseph-watkins/190087-t" title="View Joseph Watkins&#39; Ratings">Joseph Watkins</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.52'></div>
+<span class='rating_count'>21 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Great teacher!"</span>
+<a alt="View Joseph Watkins&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/joseph-watkins/190087-t" title="View Joseph Watkins&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/joseph-watkins/190087-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Sarah Kates&#39; Ratings" class="name" href="http://www.ratemyteachers.com/sarah-kates/2203690-t" title="View Sarah Kates&#39; Ratings">Sarah Kates</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.5'></div>
+<span class='rating_count'>8 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"she was an amazing teacher I got all A&#39;s in her class freshman year and I was in honors she..."</span>
+<a alt="View Sarah Kates&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/sarah-kates/2203690-t" title="View Sarah Kates&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/sarah-kates/2203690-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Linda Sharon&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/linda-sharon/207914-t" title="View Linda Sharon&#39;s Ratings">Linda Sharon</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.43'></div>
+<span class='rating_count'>7 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She gave us a final in a semesterized class after promising us that there would be no final exam..."</span>
+<a alt="View Linda Sharon&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/linda-sharon/207914-t" title="View Linda Sharon&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/linda-sharon/207914-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Carol Smith&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/carol-smith/211155-t" title="View Carol Smith&#39;s Ratings">Carol Smith</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.43'></div>
+<span class='rating_count'>22 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Talks really fast. Is not personal with anyone. Does not choose favorites and does not know my..."</span>
+<a alt="View Carol Smith&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/carol-smith/211155-t" title="View Carol Smith&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/carol-smith/211155-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Emily Borrelli&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/emily-borrelli/3147594-t" title="View Emily Borrelli&#39;s Ratings">Emily Borrelli</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.33'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Had her sophmore year, loved the time I spent in her class. Easy A, great person. Super nice."</span>
+<a alt="View Emily Borrelli&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/emily-borrelli/3147594-t" title="View Emily Borrelli&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/emily-borrelli/3147594-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Deanna Innamorato&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/deanna-innamorato/150654-t" title="View Deanna Innamorato&#39;s Ratings">Deanna Innamorato</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.32'></div>
+<span class='rating_count'>41 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Don&#39;t understand why everyone is so high on her. Has clear favorites in class, disregards all the..."</span>
+<a alt="View Deanna Innamorato&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/deanna-innamorato/150654-t" title="View Deanna Innamorato&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/deanna-innamorato/150654-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Olga Polites&#39; Ratings" class="name" href="http://www.ratemyteachers.com/olga-polites/182568-t" title="View Olga Polites&#39; Ratings">Olga Polites</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.22'></div>
+<span class='rating_count'>36 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"one of the most unqualified teacher I have met."</span>
+<a alt="View Olga Polites&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/olga-polites/182568-t" title="View Olga Polites&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/olga-polites/182568-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Christian Scannel&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/christian-scannel/2144055-t" title="View Christian Scannel&#39;s Ratings">Christian Scannel</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.21'></div>
+<span class='rating_count'>8 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"mr scannell is the best teacher in the world.  i love him so much. i always tried to get him to..."</span>
+<a alt="View Christian Scannel&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/christian-scannel/2144055-t" title="View Christian Scannel&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/christian-scannel/2144055-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Rene Leimberg&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/rene-leimberg/200526-t" title="View Rene Leimberg&#39;s Ratings">Rene Leimberg</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.16'></div>
+<span class='rating_count'>17 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She isnt as good as everyone thinks she is.  She is HARD so everyone just assumes she is a good..."</span>
+<a alt="View Rene Leimberg&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/rene-leimberg/200526-t" title="View Rene Leimberg&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/rene-leimberg/200526-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Renee Delcampo&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/renee-delcampo/1414796-t" title="View Renee Delcampo&#39;s Ratings">Renee Delcampo</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.06'></div>
+<span class='rating_count'>8 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"I love her. I think she&#39;s a little bit too easy; but that might be because I&#39;m in her sophomore..."</span>
+<a alt="View Renee Delcampo&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/renee-delcampo/1414796-t" title="View Renee Delcampo&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/renee-delcampo/1414796-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Bruce Wilson&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/bruce-wilson/111170-t" title="View Bruce Wilson&#39;s Ratings">Bruce Wilson</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.0'></div>
+<span class='rating_count'>19 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mr. B Wilson is the best teacher I had at Cherokee High School.  I had him for my last two years...."</span>
+<a alt="View Bruce Wilson&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/bruce-wilson/111170-t" title="View Bruce Wilson&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/bruce-wilson/111170-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Dennis Benedetto&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/dennis-benedetto/203402-t" title="View Dennis Benedetto&#39;s Ratings">Dennis Benedetto</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.97'></div>
+<span class='rating_count'>15 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He&#39;s totally insane.  He tends to lecture way to much and bring up completly randomn things, like..."</span>
+<a alt="View Dennis Benedetto&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/dennis-benedetto/203402-t" title="View Dennis Benedetto&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/dennis-benedetto/203402-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Raymond Bodine&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/raymond-bodine/182182-t" title="View Raymond Bodine&#39;s Ratings">Raymond Bodine</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.94'></div>
+<span class='rating_count'>17 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"His class is painful after the first making period I can honestly say I have learned nothing ex..."</span>
+<a alt="View Raymond Bodine&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/raymond-bodine/182182-t" title="View Raymond Bodine&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/raymond-bodine/182182-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Kathleen Kuhlow&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/kathleen-kuhlow/221857-t" title="View Kathleen Kuhlow&#39;s Ratings">Kathleen Kuhlow</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.93'></div>
+<span class='rating_count'>10 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"I LOVE MRS KUHLOW!!!!! she was my chaperone for the disney trip.... she is awesome... you better..."</span>
+<a alt="View Kathleen Kuhlow&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/kathleen-kuhlow/221857-t" title="View Kathleen Kuhlow&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kathleen-kuhlow/221857-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Catherine Mayher&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/catherine-mayher/201880-t" title="View Catherine Mayher&#39;s Ratings">Catherine Mayher</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.86'></div>
+<span class='rating_count'>14 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"AAH...  She is a very hard teacher... even for honors.  I believe that she expects a little too..."</span>
+<a alt="View Catherine Mayher&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/catherine-mayher/201880-t" title="View Catherine Mayher&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/catherine-mayher/201880-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Suzanne Weatherby&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/suzanne-weatherby/1515650-t" title="View Suzanne Weatherby&#39;s Ratings">Suzanne Weatherby</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.75'></div>
+<span class='rating_count'>8 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"I like her. At first she seems like a bitch but then she turns to be nice. Sure her tests can be..."</span>
+<a alt="View Suzanne Weatherby&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/suzanne-weatherby/1515650-t" title="View Suzanne Weatherby&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/suzanne-weatherby/1515650-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Warren Gilbert&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/warren-gilbert/203411-t" title="View Warren Gilbert&#39;s Ratings">Warren Gilbert</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.67'></div>
+<span class='rating_count'>57 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Warren&#39;s the man, enjoyin retirement"</span>
+<a alt="View Warren Gilbert&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/warren-gilbert/203411-t" title="View Warren Gilbert&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/warren-gilbert/203411-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Mary Cordivari&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/mary-cordivari/2236804-t" title="View Mary Cordivari&#39;s Ratings">Mary Cordivari</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.5'></div>
+<span class='rating_count'>5 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She&#39;s really nice and makes class fun, especially if your a senior."</span>
+<a alt="View Mary Cordivari&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/mary-cordivari/2236804-t" title="View Mary Cordivari&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mary-cordivari/2236804-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Watkins&#39; Ratings" class="name" href="http://www.ratemyteachers.com/watkins/1357794-t" title="View Watkins&#39; Ratings">Watkins</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.29'></div>
+<span class='rating_count'>7 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"he&#39;s a nice guy, but very, um, strange.  he also expects you to have everything from the homework..."</span>
+<a alt="View Watkins&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/watkins/1357794-t" title="View Watkins&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/watkins/1357794-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Judy Cuyjet&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/judy-cuyjet/180495-t" title="View Judy Cuyjet&#39;s Ratings">Judy Cuyjet</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.29'></div>
+<span class='rating_count'>14 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"One of the best teachers I have ever had.  I am now a teacher myself thanks the Mrs. Cuyjet.  She..."</span>
+<a alt="View Judy Cuyjet&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/judy-cuyjet/180495-t" title="View Judy Cuyjet&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/judy-cuyjet/180495-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Gerard Earhart&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/gerard-earhart/200757-t" title="View Gerard Earhart&#39;s Ratings">Gerard Earhart</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.26'></div>
+<span class='rating_count'>84 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"i have him now and he is toughhhh and to harddd. this is his last year in cherokee too. just my..."</span>
+<a alt="View Gerard Earhart&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/gerard-earhart/200757-t" title="View Gerard Earhart&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/gerard-earhart/200757-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Colette McGarrity&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/colette-mcgarrity/215405-t" title="View Colette McGarrity&#39;s Ratings">Colette Mc Garrity</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.17'></div>
+<span class='rating_count'>34 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Very strange with grading, her essays are nearly impossible to pass, you know? She cries a lot..."</span>
+<a alt="View Colette McGarrity&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/colette-mcgarrity/215405-t" title="View Colette McGarrity&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/colette-mcgarrity/215405-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Steven Dolores&#39; Ratings" class="name" href="http://www.ratemyteachers.com/steven-dolores/186585-t" title="View Steven Dolores&#39; Ratings">Steven Dolores</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.93'></div>
+<span class='rating_count'>36 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Does not explain at all... escape asap."</span>
+<a alt="View Steven Dolores&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/steven-dolores/186585-t" title="View Steven Dolores&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/steven-dolores/186585-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Kerry Hasler-brooks&#39; Ratings" class="name" href="http://www.ratemyteachers.com/kerry-hasler-brooks/1713628-t" title="View Kerry Hasler-brooks&#39; Ratings">Kerry Hasler Brooks</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"One of my favorite teachers ever! She is always there to explain and help, and gets everyone so..."</span>
+<a alt="View Kerry Hasler-brooks&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/kerry-hasler-brooks/1713628-t" title="View Kerry Hasler-brooks&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kerry-hasler-brooks/1713628-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View D St. louis&#39; Ratings" class="name" href="http://www.ratemyteachers.com/d-st-louis/2168835-t" title="View D St. louis&#39; Ratings">D St. Louis</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='0.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Bye bye St. Louis..."</span>
+<a alt="View D St. louis&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/d-st-louis/2168835-t" title="View D St. louis&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/d-st-louis/2168835-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Genevieve Introcaso&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/genevieve-introcaso/1506157-t" title="View Genevieve Introcaso&#39;s Ratings">Genevieve Introcaso</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='0.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<!-- .no_comments -->
+<!-- Be the first to Rate #{teacher_title} #{teacher_name}! -->
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/genevieve-introcaso/1506157-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Don Gabriel&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/don-gabriel/1112951-t" title="View Don Gabriel&#39;s Ratings">Don Gabriel</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='0.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<!-- .no_comments -->
+<!-- Be the first to Rate #{teacher_title} #{teacher_name}! -->
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/don-gabriel/1112951-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Hertzig&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/hertzig/474969-t" title="View Hertzig&#39;s Ratings">Hertzig</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='0.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/cherokee-high-school/12801-s/english" title="View Cherokee High School&#39;s English Teachers">English</a>
+</div>
+<!-- .no_comments -->
+<!-- Be the first to Rate #{teacher_title} #{teacher_name}! -->
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/hertzig/474969-t'></a>
+</div>
+</div>
+</div>
+
+</div>
+<div class='padding'>
+  <!-- School_BTF_Leaderboard -->
+  <div id="School_BTF_Leaderboard">
+    <ins class="adsbygoogle"
+      style="display:inline-block;width:336px;height:280px"
+      data-ad-client="ca-pub-8322864954623881"
+      data-ad-slot="2844422481"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+
+</div>
+<div class='pagination_container'></div>
+</section>
+</div>
+<aside class='col-xs-12 col-sm-4 sticky_container_right'>
+<div class='sticky_column'>
+
+
+<div class='add_teacher_wrapper'>
+<a class='new_teacher_trigger' data-backdrop='static' data-keyboard data-school='Cherokee High School' data-sender-name='School aside' data-target='#modal' data-toggle='modal' href='/teachers/new?sid=12801' title='Add My Teacher to Cherokee High School'>
+<span>
+<span>
+Add My Teacher
+</span>
+</span>
+</a>
+</div>
+
+<section class='aside_content'>
+<div class='col-xs-12 schools'>
+<div class='school clickable_fix'>
+<div class='name'>
+<a alt="View Demasi Middle And Elementary School's Teachers" href='/demasi-middle-and-elementary-school/54247-s' title="View Demasi Middle And Elementary School's Teachers">
+Demasi Middle And Elementary School
+</a>
+</div>
+<div class='col-xs-12 details'>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.5463'></div>
+Middle School
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>30 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Marlton, New Jersey</span>
+</div>
+</div>
+<a alt="View Demasi Middle And Elementary School's Teachers" class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='/demasi-middle-and-elementary-school/54247-s' title="View Demasi Middle And Elementary School's Teachers"></a>
+</div>
+
+<div class='school clickable_fix'>
+<div class='name'>
+<a alt="View Marlton Middle School's Teachers" href='/marlton-middle-school/40110-s' title="View Marlton Middle School's Teachers">
+Marlton Middle School
+</a>
+</div>
+<div class='col-xs-12 details'>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.10031'></div>
+Middle School
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>134 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Marlton, New Jersey</span>
+</div>
+</div>
+<a alt="View Marlton Middle School's Teachers" class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='/marlton-middle-school/40110-s' title="View Marlton Middle School's Teachers"></a>
+</div>
+
+<div class='school clickable_fix'>
+<div class='name'>
+<a alt="View Robert B Jaggard School's Teachers" href='/robert-b-jaggard-school/91468-s' title="View Robert B Jaggard School's Teachers">
+Robert B Jaggard School
+</a>
+</div>
+<div class='col-xs-12 details'>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.53692'></div>
+Elementary
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>16 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Marlton, New Jersey</span>
+</div>
+</div>
+<a alt="View Robert B Jaggard School's Teachers" class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='/robert-b-jaggard-school/91468-s' title="View Robert B Jaggard School's Teachers"></a>
+</div>
+
+</div>
+</section>
+<div class='back_button_wrapper secondary'>
+<a href='/new-jersey/marlton' title='View all schools in Marlton, New Jersey'>Marlton, New Jersey</a>
+</div>
+
+</div>
+</aside>
+</div>
+</div>
+<div class='hidden' id='v'>school-web-6.3</div>
+
+
+  </div>
+
+  
+    <div id="all_footer_wrapper" style="overflow:hidden;">
+      <section class='container-fluid hidden-xs padding' id='states'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<h3>Find High Schools and Colleges by State</h3>
+<div class='states'>
+<div class='state'>
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class='state'>
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class='state'>
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class='state'>
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class='state'>
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class='state'>
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class='state'>
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class='state'>
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class='state'>
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class='state'>
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class='state'>
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class='state'>
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class='state'>
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class='state'>
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class='state'>
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class='state'>
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class='state'>
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class='state'>
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class='state'>
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class='state'>
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class='state'>
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class='state'>
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class='state'>
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class='state'>
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class='state'>
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class='state'>
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class='state'>
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class='state'>
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class='state'>
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class='state'>
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class='state'>
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class='state'>
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class='state'>
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class='state'>
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class='state'>
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class='state'>
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class='state'>
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class='state'>
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class='state'>
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class='state'>
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class='state'>
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class='state'>
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class='state'>
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class='state'>
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class='state'>
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class='state'>
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer_directory'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-6 hidden-xs'>
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class='col-xs-6 hidden-xs'>
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class='row footer_countries_list'>
+<div class='col-xs-12'>
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer'>
+<div class='container'>
+<div class='row footer_links'>
+<div class='col-xs-12'>
+<h3 class='hidden-sm hidden-md hidden-lg'>Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop='static' data-keyboard data-target='#modal' data-toggle='modal' href='/contact/new' title='Contact RateMyTeachers'>
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='row copyright'>
+Copyright 2001-2015 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden='true' class='modal fade' id='modal' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div aria-hidden='true' class='modal fade' id='modal_rating' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div id='loading-indicator' style='display: none;'>
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif" />
+</div>
+</div>
+
+    </div>
+
+  <!-- loading JS at the end to speed up page loading -->
+    <script type="text/javascript">
+  window._pt_sp_2 = [];
+  _pt_sp_2.push('setAccount,42a92f26');
+  var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+
+  (function()
+  { var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true; atag.src = _protocol + 'js.ptengine.com/pta.js'; var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true; stag.src = _protocol + 'js.ptengine.com/pts.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s); }
+
+  )();
+  </script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery || document.write(unescape('%3Cscript src="/assets/jquery-92f6843043abf957b96f7fad2afbc022.js">%3C/script>'))
+//]]>
+</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery.ui || document.write(unescape('%3Cscript src="/assets/jquery-ui-e3d1c2f8bca4b46c2d38af5aa36cbc30.js">%3C/script>'))
+//]]>
+</script>
+  <script src="/assets/application-3e9daf29cca8faed41f60d1e474dabf1.js"></script>
+  <script>
+  var resultCount = 38;
+  var minStickyResultCount = 20;
+  var schoolPagePath = '/cherokee-high-school/12801-s';
+  var stickyColumnLeft = $(".sticky_container_left .sticky_column");
+  var stickyColumnRight = $(".sticky_container_right .sticky_column");
+  var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+  var footerHeight = $('#all_footer_wrapper').outerHeight();
+  var stickyOptions = function(getWidthFrom, topSpacing) {
+    if (typeof(topSpacing) === 'undefined') {
+      topSpacing = 10;
+    }
+    return {topSpacing: topSpacing, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+  }
+  stickyColumnLeft.sticky(stickyOptions('.sticky_container_left'));
+  stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+  // Make center column options sticky when min results quantity
+  if (resultCount > minStickyResultCount - 1) {
+    stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+  }
+
+  // Beating Chrome bug
+  var fixEventStep1 = function() {
+    setTimeout(function() {
+      var secondaryInfo = $('.secondary_info');
+      secondaryInfo.css('min-height', secondaryInfo.height() + 'px');
+    }, 1);
+  };
+  var fixEventStep2 = function() {
+    $('.secondary_info').css('min-height', '');
+  };
+  stickyColumnLeft.on('sticky-start', fixEventStep1);
+  stickyColumnLeft.on('sticky-end', fixEventStep2);
+</script>
+
+
+  
+
+
+
+  <!-- [:desktop] 81dc7cd@rails1 - 2015-01-14 19:33:49 +0000-->
+</body>
+</html>

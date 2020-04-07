@@ -1,0 +1,3855 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+      (function(){
+        window.beginTimeTrack = (new Date()).getTime();
+      })();
+    </script>
+<title>Groveport Madison High School - Groveport, Ohio | RateMyTeachers.com</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":492,"agentToken":null,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(15)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(15)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(15)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){g.push(t),h&&(b?b.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(15)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,y="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(y,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===y||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=o(l+e,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(p+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],15:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!l.aborted||i){t&&t(n,r,o);for(var a=e(o),c=h(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[w[n]];return d&&d.push([g,n,r,a]),a}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",w[n]=e,e in u||(u[e]=[])})}var y={},w={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(w,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){s("mark",["domContent",a()+x.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-x.offset}var c=(new Date).getTime(),s=t("handle"),f=t(12),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:c,now:a,origin:y,features:{},xhrWrappable:g};t(9),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),s("mark",["firstbyte",c],null,"api");var b=0,E=t(14)},{}]},{},["loader",2,7]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+<meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw"/>
+<meta name="description" content="Groveport Madison High School is a High School in Groveport, OH. Search Groveport Madison High School&#39;s ratings, statistics and reviews by students and parents."/>
+<meta property="twitter:image" content="http://www.ratemyteachers.com/images/logo_icon_60.png"/>
+<meta property="og:image" content="http://www.ratemyteachers.com/images/logo_icon_100.png"/>
+<meta property="og:title" content="Groveport Madison High School - Groveport, Ohio | RateMyTeachers.com"/>
+<meta property="og:type" content="rmt:school"/>
+<meta property="og:url" content="http://www.ratemyteachers.com/groveport-madison-high-school/15178-s"/>
+<meta property="og:site_name" content="Groveport Madison High School - Groveport, Ohio | RateMyTeachers.com"/>
+<meta property="og:description" content="Groveport Madison High School is a High School in Groveport, OH. Search Groveport Madison High School's ratings, statistics and reviews by students and parents."/>
+<meta name="robots" content="noodp,noydir"/>
+<meta property="rmt:image" content="http://www.ratemyteachers.com/apple_touch_icon_196x196.png"/>
+
+<link rel="shortcut icon" sizes="64x64 48x48 32x32 16x16" type="image/x-icon" href="/favicon.ico"/>
+<link rel="apple-touch-icon" href="/apple_touch_icon_60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple_touch_icon_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple_touch_icon_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple_touch_icon_152x152.png">
+<link rel="apple-touch-icon-precomposed" href="/apple_touch_icon_196x196.png"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+<link href="/assets/application-8f34b7246c4006713b4fb0b0c5f281b6.css" media="all" rel="stylesheet"/>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+<script type="text/javascript">
+    var currentState = '';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:     true,
+    debugMode:           false,
+    asyncScripts:        true
+  };
+
+
+  function getWindowWidth() {
+    var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) === 'number' ) {
+      myWidth = window.innerWidth; myHeight = window.innerHeight;
+    } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+      myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+      myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+    }
+    return myWidth;
+  }
+
+  var isDesktopVariant = true;
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isExtraSmall = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false);
+  var isMobile = isExtraSmall || isMobileVariant;
+  var isMedium = (getWindowWidth() < 1200) || (screen ? screen.width < 1200 : false);
+
+
+  var isChrome = navigator.userAgent.indexOf('Chrome') > -1;
+  var isExplorer = navigator.userAgent.indexOf('MSIE') > -1;
+  var isFirefox = navigator.userAgent.indexOf('Firefox') > -1;
+  var isSafari = navigator.userAgent.indexOf("Safari") > -1;
+  var isOpera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
+  if ((isChrome)&&(isSafari)) {isSafari=false;}
+  if ((isChrome)&&(isOpera)) {isChrome=false;}
+
+  var enablePropel    = !isSafari && !isOpera && false;
+  var enableMediabong = !isSafari && !isOpera;
+  var enableBrightComedia = !isSafari && !isOpera;
+
+  var isMobileUpload = false;
+
+    var cseData = {
+      isCseSearch: true
+      ,paramFormat: '%{search_term}%{location}'
+      ,stateList: [{"name":"Alaska","shortname":"ak"},{"name":"Alabama","shortname":"al"},{"name":"Arkansas","shortname":"ar"},{"name":"Arizona","shortname":"az"},{"name":"California","shortname":"ca"},{"name":"Colorado","shortname":"co"},{"name":"Connecticut","shortname":"ct"},{"name":"Dc","shortname":"dc"},{"name":"Delaware","shortname":"de"},{"name":"Florida","shortname":"fl"},{"name":"Georgia","shortname":"ga"},{"name":"Hawaii","shortname":"hi"},{"name":"Iowa","shortname":"ia"},{"name":"Idaho","shortname":"id"},{"name":"Illinois","shortname":"il"},{"name":"Indiana","shortname":"in"},{"name":"Kansas","shortname":"ks"},{"name":"Kentucky","shortname":"ky"},{"name":"Louisiana","shortname":"la"},{"name":"Massachusetts","shortname":"ma"},{"name":"Maryland","shortname":"md"},{"name":"Maine","shortname":"me"},{"name":"Michigan","shortname":"mi"},{"name":"Minnesota","shortname":"mn"},{"name":"Missouri","shortname":"mo"},{"name":"Mississippi","shortname":"ms"},{"name":"Montana","shortname":"mt"},{"name":"North Carolina","shortname":"nc"},{"name":"North Dakota","shortname":"nd"},{"name":"Nebraska","shortname":"ne"},{"name":"New Hampshire","shortname":"nh"},{"name":"New Jersey","shortname":"nj"},{"name":"New Mexico","shortname":"nm"},{"name":"Nevada","shortname":"nv"},{"name":"New York","shortname":"ny"},{"name":"Ohio","shortname":"oh"},{"name":"Oklahoma","shortname":"ok"},{"name":"Oregon","shortname":"or"},{"name":"Pennsylvania","shortname":"pa"},{"name":"Puerto Rico","shortname":"pr"},{"name":"Rhode Island","shortname":"ri"},{"name":"South Carolina","shortname":"sc"},{"name":"South Dakota","shortname":"sd"},{"name":"Tennessee","shortname":"tn"},{"name":"Texas","shortname":"tx"},{"name":"Utah","shortname":"ut"},{"name":"Virginia","shortname":"va"},{"name":"Vermont","shortname":"vt"},{"name":"Washington","shortname":"wa"},{"name":"Wisconsin","shortname":"wi"},{"name":"West Virginia","shortname":"wv"},{"name":"Wyoming","shortname":"wy"}]
+    };
+
+
+  // Search autocomplete widget
+  var searchAutocompleteHTML = "<div class=\'desktop search_autocomplete_widget\'>\n<div class=\'autocomplete_teachers\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-user\'><\/i>\nTeachers and Professors\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_school_name\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nTeachers and Professors\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<div class=\'autocomplete_schools\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-university\'><\/i>\nSchools and Colleges\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_address\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nSchools and Colleges\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<\/div>\n";
+</script>
+<script type="text/javascript">
+  // Async functions variable
+  functionToLoad = [];
+  
+  // Fastest way to check if an object is an array
+  functionToLoad.isArrayObj = function(obj) {
+    return !!obj && obj.constructor === Array;
+  };
+  
+  // Extract data from an element
+  functionToLoad.extractElementData = function(elementData) {
+    var data = {
+      element: elementData
+      ,async: false
+      ,subElements: []
+    };
+    
+    // The element is an array, check for async option
+    if (this.isArrayObj(elementData) && elementData.length > 0) {
+      data.async = !!elementData[1];
+      data.element = elementData[0];
+      data.subElements = elementData[2] || [];
+    }
+    return data;
+  };
+  
+  // Wrap push functionality
+  functionToLoad.realPush = functionToLoad.push;
+  functionToLoad.executePush = function(args) {
+    var data = this.extractElementData(args);
+
+    // Inject script tag on inplace
+    if (typeof data.element === 'string') {
+      // Inject external file
+      document.write('<script type="text/javascript" src="' + data.element + '"><\/script>');
+    } else {
+      // Inject function
+      document.write('<script type="text/javascript">(');
+      document.write(data.element.toString());
+      document.write(')();<\/script>');
+    }
+    
+    // Execute child scripts
+    if (data.subElements.length > 0) {
+      this.executePush(data.subElements);
+    }
+  };
+  functionToLoad.push = function(args) {
+    if (siteConfig.asyncScripts) {
+      if (siteConfig.debugMode) { console.log('Async Script'); }
+      
+      // Async scripts so add it to array for later execution
+      this.realPush(args);
+      return;
+    }
+    if (siteConfig.debugMode) { console.log('Sync Script'); }
+    
+    // No async scripts, execute it right away
+    this.executePush(args);
+  };
+</script>
+<script type="text/javascript">_googlePush = function(a) {};</script>
+<script type="text/javascript">
+  functionToLoad.push('//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js');
+  functionToLoad.push('//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js');
+</script>
+<script>
+      functionToLoad.push(function() {
+        gaId = 'UA-4216499-1';
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', gaId, 'auto');
+        ga('require', 'displayfeatures');
+        //ga('require', 'ecommerce', 'ecommerce.js');
+      });
+    </script>
+<script type="text/javascript">
+  functionToLoad.push('/assets/rmt.analytics-833eb75f283313dde59926cd5939692a.js');
+</script>
+<script>
+  functionToLoad.push(function(){
+    pageType = "";
+    RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+    searchTerm = "";
+  });
+</script>
+<script type="text/javascript">
+    // Returns a function, that, as long as it continues to be invoked, will not
+    // be triggered. The function will be called after it stops being called for
+    // N milliseconds. If `immediate` is passed, trigger the function on the
+    // leading edge, instead of the trailing.
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+</script>
+<script type="text/javascript">
+    var _session = {};
+  </script>
+<link href="http://www.ratemyteachers.com/groveport-madison-high-school/15178-s.rss" rel="alternate" type="application/rss+xml">
+<meta content="authenticity_token" name="csrf-param"/>
+<meta content="5IIVoZtcWRIOQMjKThCnc84yGCQymM8gkyv2EpSjBx8=" name="csrf-token"/>
+</head>
+
+<body class="inner_page school_page schools_v12_1
+">
+<div id="fb-root"></div>
+<div class="rate_my_teachers_international">
+<div class="container">
+<div class="row">
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+<div class="pull-right user_top_nav"></div>
+</div>
+</div>
+</div>
+<header>
+<div class="container">
+<div class="row">
+<form action="/search_page" class="tab-form search_form trigger_to_main_search" method="get">
+<a alt="Go to RateMyTeachers Home" href="/" id="rate_my_teachers_logo" title="Go to RateMyTeachers Home"></a>
+<input name="search" type="hidden" value="teachers">
+<div class="search_inputs">
+<div class="bg">
+<div class="padding">
+<input class="search_input" name="q" placeholder="Search: School Name, City" type="text">
+</div>
+<div class="location">
+<select class="state" id="state" name="state"><option value>Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class="search_button">
+<button class="btn-search fa fa-search fa-3x" title="Search RateMyTeachers" type="submit"></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+<div class="container-fluid main-content">
+<div class="row">
+<section class="breadcrumbs container-fluid">
+<div class="row">
+<div class="container">
+<div class="col-sm-12">
+<ul class="list-inline collapsible_nav collapsible_nav_collapsed">
+<li class="toggle">
+<a href="javascript:void(0);" rel="nofollow">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li class="collapse">
+<a href="/" title="Go to RateMyTeachers Home">United States</a>
+</li>
+<li class="always_show">
+<a alt="Go to Schools in Ohio" href="/ohio" title="Go to Schools in Ohio">Ohio</a>
+</li>
+<li class="collapse">
+<a alt="Go to Schools in Groveport" href="/ohio/groveport" title="Go to Schools in Groveport">Groveport</a>
+</li>
+<li class="always_show">
+
+<a alt="View Groveport Madison High School's Teachers" href="/groveport-madison-high-school/15178-s" title="View Groveport Madison High School's Teachers">Groveport Madison High School</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_teacher_trigger" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=15178" data-school="Groveport Madison High School" data-sender-name="School page breadcrumb" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher">Add My Teacher</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=15178" data-school="Groveport Madison High School" data-sender-name="School page breadcrumb" data-target="#modal_rating" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Rate My School">Rate My School</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<div class="container flash_container">
+<div class="row">
+<div class="col-xs-12">
+<div class="alert alert-danger" id="flash-error" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-warning" id="flash-alert" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-success" id="flash-success" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-info" id="flash-notice" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+</div>
+</div>
+</div>
+<div id="content">
+<span class="dn" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/ohio" itemprop="url">
+<span itemprop="title">Ohio</span>
+</a>
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/ohio/groveport" itemprop="url">
+<span itemprop="title">Groveport</span>
+</a>
+</span>
+</span>
+<div id="sortable_ad_trigger"></div>
+<div class="container" itemscope itemtype="http://schema.org/ProfilePage">
+<meta content="2017-03-09" itemprop="dateModified">
+
+<div class="dn" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+<meta content="147" itemprop="ratingCount">
+<meta content="147" itemprop="reviewCount">
+<meta content="4.53088" itemprop="ratingValue">
+<meta content="5" itemprop="bestRating">
+<meta content="0" itemprop="worstRating">
+</div>
+<div class="row">
+<section class="col-md-12 content" itemprop="about" itemscope itemtype="http://schema.org/School">
+<div class="row secondary_data">
+<div class="col-xs-12 col-lg-9 primary_column">
+<div class="row school_info">
+<div class="col-xs-12 col-sm-7 main_info">
+<div class="row">
+<div class="col-xs-12">
+<div class="school_name">
+<h1 title="Groveport Madison High School">
+<span itemprop="name">
+Groveport Madison High School
+</span>
+<div class="school_actions" data-name="Groveport Madison High School" data-sid="15178" data-status="0" style="display:none;"></div>
+</h1>
+<a class="edit school_correction_trigger" data-backdrop="static" data-keyboard data-remote="/schools/correction?sid=15178" data-school="Groveport Madison High School" data-sender-name="School page Main" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit a Correction">
+Edit
+</a>
+</div>
+<div class="score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.679px;"></div>
+</div>
+</div>
+Average
+4.53
+based on
+147
+teacher ratings
+</div>
+<div class="description">
+<strong>Groveport Madison High School</strong>
+is a
+public
+high school located in
+Groveport, Ohio and part of Groveport Madison Local Schools.
+Groveport Madison High School is ranked
+197
+in Ohio.
+<a href="/groveport-madison-high-school/15178-s/stats" target="_blank">
+Learn More
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 details">
+<div class="aux">
+<h2 class="detail_item rate_school">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=15178" data-sender-name="School page Main" data-target="#modal_rating" data-teacher="Groveport Madison High School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Groveport Madison High School">
+<i class="fa fa-institution"></i>
+<span class="value">Rate Groveport Madison High School</span>
+</a>
+</h2>
+<div class="detail_item address">
+<a href="https://www.google.com/maps/search/4475%20S%20Hamilton%20Rd%2C%20Groveport%2C%20Ohio%2043125%2C%20Groveport%2C%20Ohio%2C%2043125%2C%20United%20States" target="_blank" title="4475 S Hamilton Rd, Groveport, Ohio 43125">
+<i class="fa fa-map-marker"></i>
+<span class="value">4475 S Hamilton Rd, Groveport, Ohio 43125</span>
+</a>
+</div>
+<div class="detail_item phone">
+<a class="school_phone_trigger" data-phone="6148364964" href="javascript:void(0);">
+<i class="fa fa-phone"></i>
+<span itemprop="telephone">614-836-4964</span>
+</a>
+</div>
+<h2 class="detail_item district">
+<i class="fa fa-map"></i>
+Groveport Madison Local Schools
+</h2>
+<div class="detail_item website">
+<a href="http://www.gocruisers.org/" rel="nofollow" target="_blank" title="http://www.gocruisers.org/">
+<i class="fa fa-globe"></i>
+<span itemprop="url">http://www.gocruisers.org/</span>
+</a>
+</div>
+<div class="enrollment">
+<div class="detail_item student">
+<i class="fa fa-graduation-cap"></i>
+1,303
+Students
+Enrolled
+</div>
+<div class="detail_item gender">
+<i class="fa fa-pie-chart"></i>
+681
+Male
+|
+622
+Female
+</div>
+</div>
+</div>
+<span class="dn" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">4475 S Hamilton Rd</span>
+<span itemprop="addressLocality">Groveport</span>
+<span itemprop="addressRegion">OH</span>
+<span itemprop="postalCode">43125</span>
+</span>
+</div>
+</div>
+<div class="school_content">
+<div class="sticky_container_center">
+<div class="sticky_column">
+<div class="row">
+<div class="col-xs-12">
+<div class="filter_section">
+<div class="row subtitle">
+<div class="col-xs-6">
+<h2 class="active">
+<a href="http://www.ratemyteachers.com/groveport-madison-high-school/15178-s" title="View Groveport Madison High School's Teachers">
+Faculty:
+71
+Teachers
+</a>
+</h2>
+</div>
+<div class="col-xs-6">
+<h2 class>
+<a href="http://www.ratemyteachers.com/groveport-madison-high-school/15178-s/school-reviews" title="View Groveport Madison High School's Reviews">
+Groveport Madison High School
+Reviews
+</a>
+</h2>
+</div>
+</div>
+<div class="row search_form_container">
+<div class="col-md-2 sort_options">
+<select id="sort_by" name="sort_by"><option value>Sort by</option><option value></option><option value>Latest Update</option>
+<option value="last_name">Last Name</option>
+<option value="first_name">First Name</option>
+<option value="avg_asc">Average Rating: Low to High</option>
+<option value="avg_desc">Average Rating: High to Low</option></select>
+</div>
+<form action="/groveport-madison-high-school/15178-s" class="simple_form inline_form" id="school_search_by_teacher_form">
+<div class="col-md-9 text">
+<input name="q" placeholder="Search by Teacher" type="text">
+</div>
+<div class="col-md-1 options">
+<button class="btn fa fa-search fa-2x" name="commit" title="Search by Teacher" type="submit"></button>
+</div>
+</form>
+</div>
+<div class="row extra">
+<a class="col-xs-4 new_admin_request_trigger apply_admin" data-remote="/admin/new?sid=15178" data-school="Groveport Madison High School" data-sender="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Become Groveport Madison High School's Moderator">
+<i class="fa fa-user-plus"></i>
+<span>Become a Moderator!</span>
+</a>
+<a class="col-xs-4 new_school_rating_trigger school_review" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=15178" data-sender-name="School page Search bar" data-target="#modal_rating" data-teacher="Groveport Madison High School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Groveport Madison High School">
+<i class="fa fa-institution"></i>
+<span>Write a School Review</span>
+</a>
+<a class="col-xs-4 new_teacher_trigger add_teacher" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=15178" data-school="Groveport Madison High School" data-sender-name="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher to Groveport Madison High School">
+<i class="fa fa-user-plus"></i>
+<span>Add Teacher</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="teachers">
+<div class="ad_container AMP">
+<div id="amp_ads_bottom"></div>
+</div>
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Diana Montgomery's Ratings" class="name" href="/diana-montgomery/7934025-t" target="_blank" title="View Diana Montgomery's Ratings">
+Diana Montgomery
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/counselor" title="View Groveport Madison High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="teacher_actions" data-name="Diana Montgomery" data-sid="15178" data-status="-2" data-tid="7934025" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She's an amazing guidance counselor.
+</div>
+<div class="options">
+<a alt="View Diana Montgomery's Ratings" class="btn view_more" href="/diana-montgomery/7934025-t" title="View Diana Montgomery's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/diana-montgomery/7934025-t"></a>
+</div>
+<div class="ad_container taboola_video">
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Bart Pickenpaugh's Ratings" class="name" href="/bart-pickenpaugh/7927629-t" target="_blank" title="View Bart Pickenpaugh's Ratings">
+Bart Pickenpaugh
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/band" title="View Groveport Madison High School&#39;s Band Teachers">Band</a>
+</div>
+<div class="teacher_actions" data-name="Bart Pickenpaugh" data-sid="15178" data-status="-2" data-tid="7927629" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7927629" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Bart Pickenpaugh" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Bart Pickenpaugh">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7927629" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Bart Pickenpaugh" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Bart Pickenpaugh">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/bart-pickenpaugh/7927629-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tom Gerke's Ratings" class="name" href="/tom-gerke/3900223-t" target="_blank" title="View Tom Gerke's Ratings">
+Tom Gerke
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/math" title="View Groveport Madison High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Tom Gerke" data-sid="15178" data-status="12" data-tid="3900223" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Good teacher.
+</div>
+<div class="options">
+<a alt="View Tom Gerke's Ratings" class="btn view_more" href="/tom-gerke/3900223-t" title="View Tom Gerke's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tom-gerke/3900223-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jan Sheets' Ratings" class="name" href="/jan-sheets/3900225-t" target="_blank" title="View Jan Sheets' Ratings">
+Jan Sheets
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/english" title="View Groveport Madison High School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Jan Sheets" data-sid="15178" data-status="12" data-tid="3900225" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=3900225" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Jan Sheets" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Jan Sheets">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=3900225" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Jan Sheets" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Jan Sheets">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jan-sheets/3900225-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jan Hatfield's Ratings" class="name" href="/jan-hatfield/3900227-t" target="_blank" title="View Jan Hatfield's Ratings">
+Jan Hatfield
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/science" title="View Groveport Madison High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Jan Hatfield" data-sid="15178" data-status="12" data-tid="3900227" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=3900227" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Jan Hatfield" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Jan Hatfield">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=3900227" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Jan Hatfield" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Jan Hatfield">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jan-hatfield/3900227-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John Branham's Ratings" class="name" href="/john-branham/3900229-t" target="_blank" title="View John Branham's Ratings">
+John Branham
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/not-specified" title="View Groveport Madison High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="John Branham" data-sid="15178" data-status="12" data-tid="3900229" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+a very bossy shot put coach.loves to make fun of people.always around to lend a hand
+</div>
+<div class="options">
+<a alt="View John Branham's Ratings" class="btn view_more" href="/john-branham/3900229-t" title="View John Branham's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-branham/3900229-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Curt Fulling's Ratings" class="name" href="/curt-fulling/3900231-t" target="_blank" title="View Curt Fulling's Ratings">
+Curt Fulling
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/history" title="View Groveport Madison High School&#39;s History Teachers">History</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Curt Fulling" data-sid="15178" data-status="12" data-tid="3900231" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I really like this teacher. He helps me when I really need it!
+</div>
+<div class="options">
+<a alt="View Curt Fulling's Ratings" class="btn view_more" href="/curt-fulling/3900231-t" title="View Curt Fulling's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/curt-fulling/3900231-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Laura Koch's Ratings" class="name" href="/laura-koch/3900233-t" target="_blank" title="View Laura Koch's Ratings">
+Laura Koch
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/science" title="View Groveport Madison High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Laura Koch" data-sid="15178" data-status="12" data-tid="3900233" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I love you Miss Koch!!
+</div>
+<div class="options">
+<a alt="View Laura Koch's Ratings" class="btn view_more" href="/laura-koch/3900233-t" title="View Laura Koch's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/laura-koch/3900233-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hannah McDonald's Ratings" class="name" href="/hannah-mcdonald/3900235-t" target="_blank" title="View Hannah McDonald's Ratings">
+Hannah McDonald
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/math" title="View Groveport Madison High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Hannah McDonald" data-sid="15178" data-status="12" data-tid="3900235" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 96.800px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+she is realllly nice , she helped me alot with math &amp; she understood me .
+</div>
+<div class="options">
+<a alt="View Hannah McDonald's Ratings" class="btn view_more" href="/hannah-mcdonald/3900235-t" title="View Hannah McDonald's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hannah-mcdonald/3900235-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Rita Rohr's Ratings" class="name" href="/rita-rohr/3900237-t" target="_blank" title="View Rita Rohr's Ratings">
+Rita Rohr
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/reading" title="View Groveport Madison High School&#39;s Reading Teachers">Reading</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Rita Rohr" data-sid="15178" data-status="12" data-tid="3900237" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Quite understanding. Can be very mean though!!!
+</div>
+<div class="options">
+<a alt="View Rita Rohr's Ratings" class="btn view_more" href="/rita-rohr/3900237-t" title="View Rita Rohr's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/rita-rohr/3900237-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jennifer Goldman's Ratings" class="name" href="/jennifer-goldman/3900239-t" target="_blank" title="View Jennifer Goldman's Ratings">
+Jennifer Goldman
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/english" title="View Groveport Madison High School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Jennifer Goldman" data-sid="15178" data-status="12" data-tid="3900239" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Understanding but can be mean! She is nice once you get on her good side.
+</div>
+<div class="options">
+<a alt="View Jennifer Goldman's Ratings" class="btn view_more" href="/jennifer-goldman/3900239-t" title="View Jennifer Goldman's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jennifer-goldman/3900239-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tracy Lupfer's Ratings" class="name" href="/tracy-lupfer/3900241-t" target="_blank" title="View Tracy Lupfer's Ratings">
+Tracy Lupfer
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/physical-education" title="View Groveport Madison High School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Tracy Lupfer" data-sid="15178" data-status="12" data-tid="3900241" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=3900241" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Tracy Lupfer" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Tracy Lupfer">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=3900241" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Tracy Lupfer" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Tracy Lupfer">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tracy-lupfer/3900241-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Henry's Ratings" class="name" href="/henry/3900243-t" target="_blank" title="View Henry's Ratings">
+Henry
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/science" title="View Groveport Madison High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Henry" data-sid="15178" data-status="12" data-tid="3900243" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+i also like this teacher alot
+</div>
+<div class="options">
+<a alt="View Henry's Ratings" class="btn view_more" href="/henry/3900243-t" title="View Henry's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/henry/3900243-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Amy Bisesi's Ratings" class="name" href="/amy-bisesi/3144783-t" target="_blank" title="View Amy Bisesi's Ratings">
+Amy Bisesi
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/math" title="View Groveport Madison High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Amy Bisesi" data-sid="15178" data-status="-2" data-tid="3144783" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is the nicest, funniest, and one of the most willing to help teachers EVER! I never understood math before her...
+</div>
+<div class="options">
+<a alt="View Amy Bisesi's Ratings" class="btn view_more" href="/amy-bisesi/3144783-t" title="View Amy Bisesi's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/amy-bisesi/3144783-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Dawn Lowe's Ratings" class="name" href="/dawn-lowe/3144785-t" target="_blank" title="View Dawn Lowe's Ratings">
+Dawn Lowe
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/english" title="View Groveport Madison High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Dawn Lowe" data-sid="15178" data-status="-2" data-tid="3144785" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is fun and easy! If you get Mrs.Lowe, you will have a BLAST in her class! :)
+</div>
+<div class="options">
+<a alt="View Dawn Lowe's Ratings" class="btn view_more" href="/dawn-lowe/3144785-t" title="View Dawn Lowe's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/dawn-lowe/3144785-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Grant Abbott's Ratings" class="name" href="/grant-abbott/2452147-t" target="_blank" title="View Grant Abbott's Ratings">
+Grant Abbott
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/not-specified" title="View Groveport Madison High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Grant Abbott" data-sid="15178" data-status="-2" data-tid="2452147" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Fun to be around!
+</div>
+<div class="options">
+<a alt="View Grant Abbott's Ratings" class="btn view_more" href="/grant-abbott/2452147-t" title="View Grant Abbott's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/grant-abbott/2452147-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Susie Fraser's Ratings" class="name" href="/susie-fraser/2211803-t" target="_blank" title="View Susie Fraser's Ratings">
+Susie Fraser
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/administration" title="View Groveport Madison High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class="teacher_actions" data-name="Susie Fraser" data-sid="15178" data-status="-2" data-tid="2211803" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2211803" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Susie Fraser" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Susie Fraser">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2211803" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Susie Fraser" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Susie Fraser">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/susie-fraser/2211803-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Maggie Wendell's Ratings" class="name" href="/maggie-wendell/2174547-t" target="_blank" title="View Maggie Wendell's Ratings">
+Maggie Wendell
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/not-specified" title="View Groveport Madison High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Maggie Wendell" data-sid="15178" data-status="12" data-tid="2174547" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2174547" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Maggie Wendell" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Maggie Wendell">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2174547" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Maggie Wendell" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Maggie Wendell">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/maggie-wendell/2174547-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Wendell's Ratings" class="name" href="/wendell/2174557-t" target="_blank" title="View Wendell's Ratings">
+Ms. Wendell
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/english" title="View Groveport Madison High School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Ms. Wendell" data-sid="15178" data-status="12" data-tid="2174557" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She's funny and so nice! But not THAT nice! I got a C in her class!!! =)
+</div>
+<div class="options">
+<a alt="View Wendell's Ratings" class="btn view_more" href="/wendell/2174557-t" title="View Wendell's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/wendell/2174557-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kelly O'Donnell's Ratings" class="name" href="/kelly-o-donnell/2130408-t" target="_blank" title="View Kelly O'Donnell's Ratings">
+Kelly O'Donnell
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/math" title="View Groveport Madison High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Kelly O'Donnell" data-sid="15178" data-status="-2" data-tid="2130408" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2130408" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Kelly O'Donnell" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Kelly O'Donnell">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2130408" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Kelly O'Donnell" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Kelly O'Donnell">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kelly-o-donnell/2130408-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Patrick O donnell's Ratings" class="name" href="/patrick-o-donnell/2069485-t" target="_blank" title="View Patrick O donnell's Ratings">
+Patrick O donnell
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/band" title="View Groveport Madison High School&#39;s Band Teachers">Band</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Patrick O donnell" data-sid="15178" data-status="12" data-tid="2069485" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.260px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. O'Donnell is a phenomenal teacher! He is an incredible music teacher who sincerely cares about his students and...
+</div>
+<div class="options">
+<a alt="View Patrick O donnell's Ratings" class="btn view_more" href="/patrick-o-donnell/2069485-t" title="View Patrick O donnell's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/patrick-o-donnell/2069485-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jayne Canaday's Ratings" class="name" href="/jayne-canaday/2069492-t" target="_blank" title="View Jayne Canaday's Ratings">
+Jayne Canaday
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/band" title="View Groveport Madison High School&#39;s Band Teachers">Band</a>
+</div>
+<div class="teacher_actions" data-name="Jayne Canaday" data-sid="15178" data-status="-2" data-tid="2069492" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 93.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Canaday is a very good, and nice person. She is there for you, and always helps students.
+</div>
+<div class="options">
+<a alt="View Jayne Canaday's Ratings" class="btn view_more" href="/jayne-canaday/2069492-t" title="View Jayne Canaday's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jayne-canaday/2069492-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kristen Cline's Ratings" class="name" href="/kristen-cline/2069125-t" target="_blank" title="View Kristen Cline's Ratings">
+Kristen Cline
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/administration" title="View Groveport Madison High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class="teacher_actions" data-name="Kristen Cline" data-sid="15178" data-status="-2" data-tid="2069125" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Cline is my FAVORITE TEACHER EVER! she has been great in welcoming me into her class late in the year, and we...
+</div>
+<div class="options">
+<a alt="View Kristen Cline's Ratings" class="btn view_more" href="/kristen-cline/2069125-t" title="View Kristen Cline's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kristen-cline/2069125-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Donis e. Toler's Ratings" class="name" href="/donis-e-toler/2069132-t" target="_blank" title="View Donis e. Toler's Ratings">
+Donis e. Toler
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/principal" title="View Groveport Madison High School&#39;s Principal Teachers">Principal</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Donis e. Toler" data-sid="15178" data-status="12" data-tid="2069132" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Toler has been the greatest principle. I truly feel safe at GMHS, and would love it for him to continue his role...
+</div>
+<div class="options">
+<a alt="View Donis e. Toler's Ratings" class="btn view_more" href="/donis-e-toler/2069132-t" title="View Donis e. Toler's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/donis-e-toler/2069132-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sacha Rammon-coffman's Ratings" class="name" href="/sacha-rammon-coffman/2069134-t" target="_blank" title="View Sacha Rammon-coffman's Ratings">
+Sacha Rammon-coffman
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/not-specified" title="View Groveport Madison High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Sacha Rammon-coffman" data-sid="15178" data-status="12" data-tid="2069134" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Perfecto, makes learning spanish FUN!
+</div>
+<div class="options">
+<a alt="View Sacha Rammon-coffman's Ratings" class="btn view_more" href="/sacha-rammon-coffman/2069134-t" title="View Sacha Rammon-coffman's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sacha-rammon-coffman/2069134-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Greg Torr's Ratings" class="name" href="/greg-torr/2069144-t" target="_blank" title="View Greg Torr's Ratings">
+Greg Torr
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/history" title="View Groveport Madison High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Greg Torr" data-sid="15178" data-status="-2" data-tid="2069144" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Torr is the best AP POD teacher ever. Good thing there is only one teacher for this. I can't wait to come back...
+</div>
+<div class="options">
+<a alt="View Greg Torr's Ratings" class="btn view_more" href="/greg-torr/2069144-t" title="View Greg Torr's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/greg-torr/2069144-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tina Villanueva's Ratings" class="name" href="/tina-villanueva/2068838-t" target="_blank" title="View Tina Villanueva's Ratings">
+Tina Villanueva
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/languages" title="View Groveport Madison High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Tina Villanueva" data-sid="15178" data-status="-2" data-tid="2068838" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She's so funny and always help people out.
+</div>
+<div class="options">
+<a alt="View Tina Villanueva's Ratings" class="btn view_more" href="/tina-villanueva/2068838-t" title="View Tina Villanueva's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tina-villanueva/2068838-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Alicia Henry's Ratings" class="name" href="/alicia-henry/2068840-t" target="_blank" title="View Alicia Henry's Ratings">
+Alicia Henry
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/english" title="View Groveport Madison High School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Alicia Henry" data-sid="15178" data-status="12" data-tid="2068840" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Henry is a very goog teacher in my opinion. She helps me and my fellow students and friends with our work by,...
+</div>
+<div class="options">
+<a alt="View Alicia Henry's Ratings" class="btn view_more" href="/alicia-henry/2068840-t" title="View Alicia Henry's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/alicia-henry/2068840-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Linda Yost's Ratings" class="name" href="/linda-yost/2068841-t" target="_blank" title="View Linda Yost's Ratings">
+Linda Yost
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/science" title="View Groveport Madison High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Linda Yost" data-sid="15178" data-status="12" data-tid="2068841" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Yost is the 2008 Groveport Madison High School Teacher of the Year. Congratulations!
+</div>
+<div class="options">
+<a alt="View Linda Yost's Ratings" class="btn view_more" href="/linda-yost/2068841-t" title="View Linda Yost's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/linda-yost/2068841-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mike Silliman's Ratings" class="name" href="/mike-silliman/2068871-t" target="_blank" title="View Mike Silliman's Ratings">
+Mike Silliman
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/history" title="View Groveport Madison High School&#39;s History Teachers">History</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mike Silliman" data-sid="15178" data-status="12" data-tid="2068871" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2068871" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mike Silliman" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mike Silliman">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2068871" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mike Silliman" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mike Silliman">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mike-silliman/2068871-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Heather Houseberg's Ratings" class="name" href="/heather-houseberg/2068783-t" target="_blank" title="View Heather Houseberg's Ratings">
+Heather Houseberg
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/math" title="View Groveport Madison High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Heather Houseberg" data-sid="15178" data-status="12" data-tid="2068783" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 75.680px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is no longer teaching at groveport. She was a good teacher though. I had her during freshman year and I hated...
+</div>
+<div class="options">
+<a alt="View Heather Houseberg's Ratings" class="btn view_more" href="/heather-houseberg/2068783-t" title="View Heather Houseberg's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/heather-houseberg/2068783-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Christina Drake's Ratings" class="name" href="/christina-drake/2034598-t" target="_blank" title="View Christina Drake's Ratings">
+Christina Drake
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/health" title="View Groveport Madison High School&#39;s Health Teachers">Health</a>
+</div>
+<div class="teacher_actions" data-name="Christina Drake" data-sid="15178" data-status="-2" data-tid="2034598" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2034598" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Christina Drake" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Christina Drake">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2034598" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Christina Drake" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Christina Drake">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/christina-drake/2034598-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Benoit's Ratings" class="name" href="/benoit/1998805-t" target="_blank" title="View Benoit's Ratings">
+Mr. Benoit
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/visual-arts" title="View Groveport Madison High School&#39;s Visual Arts Teachers">Visual Arts</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mr. Benoit" data-sid="15178" data-status="12" data-tid="1998805" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Benoit absolutely knows what he's doing! Glad to have known him these past four years.
+</div>
+<div class="options">
+<a alt="View Benoit's Ratings" class="btn view_more" href="/benoit/1998805-t" title="View Benoit's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/benoit/1998805-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Dobbins' Ratings" class="name" href="/dobbins/1998811-t" target="_blank" title="View Dobbins' Ratings">
+Mr. Dobbins
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/english" title="View Groveport Madison High School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mr. Dobbins" data-sid="15178" data-status="12" data-tid="1998811" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 91.740px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+he was really fun
+</div>
+<div class="options">
+<a alt="View Dobbins' Ratings" class="btn view_more" href="/dobbins/1998811-t" title="View Dobbins' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/dobbins/1998811-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Archie Walker's Ratings" class="name" href="/archie-walker/1673553-t" target="_blank" title="View Archie Walker's Ratings">
+Archie Walker
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/special-education" title="View Groveport Madison High School&#39;s Special Education Teachers">Special Education</a>
+</div>
+<div class="teacher_actions" data-name="Archie Walker" data-sid="15178" data-status="-2" data-tid="1673553" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1673553" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Archie Walker" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Archie Walker">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1673553" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Archie Walker" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Archie Walker">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/archie-walker/1673553-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Dave Scheffler's Ratings" class="name" href="/dave-scheffler/1120413-t" target="_blank" title="View Dave Scheffler's Ratings">
+Dave Scheffler
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/history" title="View Groveport Madison High School&#39;s History Teachers">History</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Dave Scheffler" data-sid="15178" data-status="12" data-tid="1120413" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+i really learned alot in his class.if you have a sense of hummor you will really enjoy his class. if youpayattention...
+</div>
+<div class="options">
+<a alt="View Dave Scheffler's Ratings" class="btn view_more" href="/dave-scheffler/1120413-t" title="View Dave Scheffler's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/dave-scheffler/1120413-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lynn Clark's Ratings" class="name" href="/lynn-clark/872737-t" target="_blank" title="View Lynn Clark's Ratings">
+Lynn Clark
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/math" title="View Groveport Madison High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Lynn Clark" data-sid="15178" data-status="12" data-tid="872737" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great teacher. Expects students to take responsibility and prepares them for college. Very fair to those who...
+</div>
+<div class="options">
+<a alt="View Lynn Clark's Ratings" class="btn view_more" href="/lynn-clark/872737-t" title="View Lynn Clark's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lynn-clark/872737-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lee Warner's Ratings" class="name" href="/lee-warner/872752-t" target="_blank" title="View Lee Warner's Ratings">
+Lee Warner
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/social-studies" title="View Groveport Madison High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Lee Warner" data-sid="15178" data-status="-2" data-tid="872752" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He is so fun and helpful; He has speakers come in and talk to the class, and he is just an all around a great teacher!
+</div>
+<div class="options">
+<a alt="View Lee Warner's Ratings" class="btn view_more" href="/lee-warner/872752-t" title="View Lee Warner's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lee-warner/872752-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Geni Habayeb's Ratings" class="name" href="/geni-habayeb/870438-t" target="_blank" title="View Geni Habayeb's Ratings">
+Geni Habayeb
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/languages" title="View Groveport Madison High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Geni Habayeb" data-sid="15178" data-status="12" data-tid="870438" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 71.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+she goes through things too fast and doesn't explain
+</div>
+<div class="options">
+<a alt="View Geni Habayeb's Ratings" class="btn view_more" href="/geni-habayeb/870438-t" title="View Geni Habayeb's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/geni-habayeb/870438-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Linda Miller's Ratings" class="name" href="/linda-miller/847456-t" target="_blank" title="View Linda Miller's Ratings">
+Linda Miller
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/computer-science-english" title="View Groveport Madison High School&#39;s Computer Science/English Teachers">Computer Science/English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Linda Miller" data-sid="15178" data-status="12" data-tid="847456" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+cool teacher
+</div>
+<div class="options">
+<a alt="View Linda Miller's Ratings" class="btn view_more" href="/linda-miller/847456-t" title="View Linda Miller's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/linda-miller/847456-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Darlene Depouw's Ratings" class="name" href="/darlene-depouw/847459-t" target="_blank" title="View Darlene Depouw's Ratings">
+Darlene Depouw
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/math" title="View Groveport Madison High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Darlene Depouw" data-sid="15178" data-status="12" data-tid="847459" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 93.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Depouw gave me confidence in my math skills...She is one of the teachers that inspired me to become a teacher....
+</div>
+<div class="options">
+<a alt="View Darlene Depouw's Ratings" class="btn view_more" href="/darlene-depouw/847459-t" title="View Darlene Depouw's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/darlene-depouw/847459-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Gregory Roberts' Ratings" class="name" href="/gregory-roberts/847462-t" target="_blank" title="View Gregory Roberts' Ratings">
+Gregory Roberts
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/social-studies" title="View Groveport Madison High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Gregory Roberts" data-sid="15178" data-status="-2" data-tid="847462" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 93.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+good teacher
+</div>
+<div class="options">
+<a alt="View Gregory Roberts' Ratings" class="btn view_more" href="/gregory-roberts/847462-t" title="View Gregory Roberts' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/gregory-roberts/847462-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sharon Hoskins' Ratings" class="name" href="/sharon-hoskins/847466-t" target="_blank" title="View Sharon Hoskins' Ratings">
+Sharon Hoskins
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/computer-science" title="View Groveport Madison High School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Sharon Hoskins" data-sid="15178" data-status="12" data-tid="847466" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.260px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Hoskins is such a pleasure to have as a teacher! If you are willing to do your work, then this class is an easy A!
+</div>
+<div class="options">
+<a alt="View Sharon Hoskins' Ratings" class="btn view_more" href="/sharon-hoskins/847466-t" title="View Sharon Hoskins' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sharon-hoskins/847466-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kaeri King's Ratings" class="name" href="/kaeri-king/847451-t" target="_blank" title="View Kaeri King's Ratings">
+Kaeri King
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/science" title="View Groveport Madison High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Kaeri King" data-sid="15178" data-status="-2" data-tid="847451" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Ms. king was a very good teacher. My absolute favorite. Tough, but fair and taught me a lot. I learned a lot about...
+</div>
+<div class="options">
+<a alt="View Kaeri King's Ratings" class="btn view_more" href="/kaeri-king/847451-t" title="View Kaeri King's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kaeri-king/847451-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Shade's Ratings" class="name" href="/shade/847148-t" target="_blank" title="View Shade's Ratings">
+Mrs. Shade
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/english" title="View Groveport Madison High School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mrs. Shade" data-sid="15178" data-status="12" data-tid="847148" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 66.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+shade is the man
+</div>
+<div class="options">
+<a alt="View Shade's Ratings" class="btn view_more" href="/shade/847148-t" title="View Shade's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/shade/847148-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Adam Davidoff's Ratings" class="name" href="/adam-davidoff/845585-t" target="_blank" title="View Adam Davidoff's Ratings">
+Adam Davidoff
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/counselor" title="View Groveport Madison High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="teacher_actions" data-name="Adam Davidoff" data-sid="15178" data-status="-2" data-tid="845585" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He is a really cool teacher.I had him as my teacher sophomore year of high school. I'm glad groveport has this teacher.
+</div>
+<div class="options">
+<a alt="View Adam Davidoff's Ratings" class="btn view_more" href="/adam-davidoff/845585-t" title="View Adam Davidoff's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/adam-davidoff/845585-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tom McSheffery's Ratings" class="name" href="/tom-mcsheffery/839359-t" target="_blank" title="View Tom McSheffery's Ratings">
+Tom McSheffery
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/biology" title="View Groveport Madison High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Tom McSheffery" data-sid="15178" data-status="12" data-tid="839359" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He's a great guy. But not really a good teacher. It's pretty much April and I've learned pretty much nothing in his...
+</div>
+<div class="options">
+<a alt="View Tom McSheffery's Ratings" class="btn view_more" href="/tom-mcsheffery/839359-t" title="View Tom McSheffery's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tom-mcsheffery/839359-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Brian Moore's Ratings" class="name" href="/brian-moore/827088-t" target="_blank" title="View Brian Moore's Ratings">
+Brian Moore
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/social-studies" title="View Groveport Madison High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Brian Moore" data-sid="15178" data-status="12" data-tid="827088" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best teacher I've encountered at the high school level. Truely cares about students and teaches them about life as...
+</div>
+<div class="options">
+<a alt="View Brian Moore's Ratings" class="btn view_more" href="/brian-moore/827088-t" title="View Brian Moore's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/brian-moore/827088-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View E Orabella's Ratings" class="name" href="/e-orabella/826879-t" target="_blank" title="View E Orabella's Ratings">
+E Orabella
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/visual-arts" title="View Groveport Madison High School&#39;s Visual Arts Teachers">Visual Arts</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="E Orabella" data-sid="15178" data-status="12" data-tid="826879" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I love her so much. Not only was she a great teacher but she was a great person to talk to too.
+</div>
+<div class="options">
+<a alt="View E Orabella's Ratings" class="btn view_more" href="/e-orabella/826879-t" title="View E Orabella's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/e-orabella/826879-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lippitt's Ratings" class="name" href="/lippitt/825411-t" target="_blank" title="View Lippitt's Ratings">
+Lippitt
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/history" title="View Groveport Madison High School&#39;s History Teachers">History</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Lippitt" data-sid="15178" data-status="12" data-tid="825411" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He's awesomely awesome!!!
+</div>
+<div class="options">
+<a alt="View Lippitt's Ratings" class="btn view_more" href="/lippitt/825411-t" title="View Lippitt's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lippitt/825411-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Schwendemen's Ratings" class="name" href="/schwendemen/825448-t" target="_blank" title="View Schwendemen's Ratings">
+Schwendemen
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/chemistry" title="View Groveport Madison High School&#39;s Chemistry Teachers">Chemistry</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Schwendemen" data-sid="15178" data-status="12" data-tid="825448" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 92.840px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Would not have graduated without Mr. Schwedenman's OGT help
+</div>
+<div class="options">
+<a alt="View Schwendemen's Ratings" class="btn view_more" href="/schwendemen/825448-t" title="View Schwendemen's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/schwendemen/825448-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hess' Ratings" class="name" href="/hess/825458-t" target="_blank" title="View Hess' Ratings">
+Hess
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/languages" title="View Groveport Madison High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Hess" data-sid="15178" data-status="12" data-tid="825458" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+great!
+</div>
+<div class="options">
+<a alt="View Hess' Ratings" class="btn view_more" href="/hess/825458-t" title="View Hess' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hess/825458-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Ew Hudgins' Ratings" class="name" href="/ew-hudgins/825280-t" target="_blank" title="View Ew Hudgins' Ratings">
+Ew Hudgins
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/performing-arts" title="View Groveport Madison High School&#39;s Performing Arts Teachers">Performing Arts</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Ew Hudgins" data-sid="15178" data-status="12" data-tid="825280" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Hudge is one of our best teachers. He is always willing to help if you ask.
+</div>
+<div class="options">
+<a alt="View Ew Hudgins' Ratings" class="btn view_more" href="/ew-hudgins/825280-t" title="View Ew Hudgins' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/ew-hudgins/825280-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Stacy Reed's Ratings" class="name" href="/stacy-reed/825181-t" target="_blank" title="View Stacy Reed's Ratings">
+Stacy Reed
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/math" title="View Groveport Madison High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Stacy Reed" data-sid="15178" data-status="-2" data-tid="825181" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 91.740px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+When I had her as a teacher my sophomore year; I almost hated her. Looking back on what she taught me has helped me....
+</div>
+<div class="options">
+<a alt="View Stacy Reed's Ratings" class="btn view_more" href="/stacy-reed/825181-t" title="View Stacy Reed's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/stacy-reed/825181-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Nebbergall's Ratings" class="name" href="/nebbergall/824869-t" target="_blank" title="View Nebbergall's Ratings">
+Mr. Nebbergall
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/health" title="View Groveport Madison High School&#39;s Health Teachers">Health</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mr. Nebbergall" data-sid="15178" data-status="12" data-tid="824869" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Overall, an amazing teacher. It doesn't get any better.
+</div>
+<div class="options">
+<a alt="View Nebbergall's Ratings" class="btn view_more" href="/nebbergall/824869-t" title="View Nebbergall's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/nebbergall/824869-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Paul Vitartis' Ratings" class="name" href="/paul-vitartis/824837-t" target="_blank" title="View Paul Vitartis' Ratings">
+Paul Vitartis
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/vice-principal" title="View Groveport Madison High School&#39;s Vice Principal Teachers">Vice Principal</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Paul Vitartis" data-sid="15178" data-status="12" data-tid="824837" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I love him, he is so helpful to me when i am having a bad day. i would go to him before i would go to the counsler....
+</div>
+<div class="options">
+<a alt="View Paul Vitartis' Ratings" class="btn view_more" href="/paul-vitartis/824837-t" title="View Paul Vitartis' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/paul-vitartis/824837-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Byers' Ratings" class="name" href="/byers/824666-t" target="_blank" title="View Byers' Ratings">
+Mr. Byers
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/history" title="View Groveport Madison High School&#39;s History Teachers">History</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mr. Byers" data-sid="15178" data-status="12" data-tid="824666" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He was awesome! Very knowledgable and caring!
+</div>
+<div class="options">
+<a alt="View Byers' Ratings" class="btn view_more" href="/byers/824666-t" title="View Byers' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/byers/824666-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jason Bates' Ratings" class="name" href="/jason-bates/804626-t" target="_blank" title="View Jason Bates' Ratings">
+Jason Bates
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/math" title="View Groveport Madison High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Jason Bates" data-sid="15178" data-status="12" data-tid="804626" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+he is the greatest teacher ever!!!
+</div>
+<div class="options">
+<a alt="View Jason Bates' Ratings" class="btn view_more" href="/jason-bates/804626-t" title="View Jason Bates' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jason-bates/804626-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Diana Bossie's Ratings" class="name" href="/diana-bossie/797069-t" target="_blank" title="View Diana Bossie's Ratings">
+Diana Bossie
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/math" title="View Groveport Madison High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Diana Bossie" data-sid="15178" data-status="12" data-tid="797069" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 93.500px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Excellent teacher!
+</div>
+<div class="options">
+<a alt="View Diana Bossie's Ratings" class="btn view_more" href="/diana-bossie/797069-t" title="View Diana Bossie's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/diana-bossie/797069-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Matthew White's Ratings" class="name" href="/matthew-white/797078-t" target="_blank" title="View Matthew White's Ratings">
+Matthew White
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/science" title="View Groveport Madison High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Matthew White" data-sid="15178" data-status="-2" data-tid="797078" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Had White freshman and sophmore year; hands down he's an awesome teacher!
+</div>
+<div class="options">
+<a alt="View Matthew White's Ratings" class="btn view_more" href="/matthew-white/797078-t" title="View Matthew White's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/matthew-white/797078-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kathleen McDermott's Ratings" class="name" href="/kathleen-mcdermott/766374-t" target="_blank" title="View Kathleen McDermott's Ratings">
+Kathleen McDermott
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/science" title="View Groveport Madison High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Kathleen McDermott" data-sid="15178" data-status="-2" data-tid="766374" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Funny, spunky, and almost ALWAYS cheerful! :)
+</div>
+<div class="options">
+<a alt="View Kathleen McDermott's Ratings" class="btn view_more" href="/kathleen-mcdermott/766374-t" title="View Kathleen McDermott's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kathleen-mcdermott/766374-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Laura Soltis' Ratings" class="name" href="/laura-soltis/753975-t" target="_blank" title="View Laura Soltis' Ratings">
+Laura Soltis
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/principal" title="View Groveport Madison High School&#39;s Principal Teachers">Principal</a>
+</div>
+<div class="teacher_actions" data-name="Laura Soltis" data-sid="15178" data-status="-2" data-tid="753975" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Has favorites and does not grade objectively.
+</div>
+<div class="options">
+<a alt="View Laura Soltis' Ratings" class="btn view_more" href="/laura-soltis/753975-t" title="View Laura Soltis' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/laura-soltis/753975-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Timothy MacKley's Ratings" class="name" href="/timothy-mackley/676428-t" target="_blank" title="View Timothy MacKley's Ratings">
+Timothy MacKley
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/administration" title="View Groveport Madison High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Timothy MacKley" data-sid="15178" data-status="12" data-tid="676428" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=676428" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Timothy MacKley" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Timothy MacKley">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=676428" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Timothy MacKley" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Timothy MacKley">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/timothy-mackley/676428-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View April Bray's Ratings" class="name" href="/april-bray/676424-t" target="_blank" title="View April Bray's Ratings">
+April Bray
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/not-specified" title="View Groveport Madison High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="April Bray" data-sid="15178" data-status="12" data-tid="676424" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Love her!!! My fav teacher!! I miss her :-(
+</div>
+<div class="options">
+<a alt="View April Bray's Ratings" class="btn view_more" href="/april-bray/676424-t" title="View April Bray's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/april-bray/676424-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Donna Clauder's Ratings" class="name" href="/donna-clauder/676427-t" target="_blank" title="View Donna Clauder's Ratings">
+Donna Clauder
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/languages" title="View Groveport Madison High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Donna Clauder" data-sid="15178" data-status="12" data-tid="676427" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 100.320px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Her class isn't easy, but she is always willing to help! She is so fun to have!
+</div>
+<div class="options">
+<a alt="View Donna Clauder's Ratings" class="btn view_more" href="/donna-clauder/676427-t" title="View Donna Clauder's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/donna-clauder/676427-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Brookes' Ratings" class="name" href="/brookes/671991-t" target="_blank" title="View Brookes' Ratings">
+Brookes
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/english" title="View Groveport Madison High School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Brookes" data-sid="15178" data-status="12" data-tid="671991" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She was mean to alot of people.. she liked me which was good.. but alot of the times she seemed to hate everyone and...
+</div>
+<div class="options">
+<a alt="View Brookes' Ratings" class="btn view_more" href="/brookes/671991-t" title="View Brookes' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/brookes/671991-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Myers' Ratings" class="name" href="/myers/573295-t" target="_blank" title="View Myers' Ratings">
+Ms. Myers
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/chemistry" title="View Groveport Madison High School&#39;s Chemistry Teachers">Chemistry</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Ms. Myers" data-sid="15178" data-status="12" data-tid="573295" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 73.260px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+This is one of the teachers you hate to have. She doesn't explain well, makes you feel dumb and expects you to come...
+</div>
+<div class="options">
+<a alt="View Myers' Ratings" class="btn view_more" href="/myers/573295-t" title="View Myers' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/myers/573295-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jack Wills' Ratings" class="name" href="/jack-wills/569769-t" target="_blank" title="View Jack Wills' Ratings">
+Jack Wills
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/languages" title="View Groveport Madison High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Jack Wills" data-sid="15178" data-status="12" data-tid="569769" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 93.500px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He was great! I really learned alot in his class!
+</div>
+<div class="options">
+<a alt="View Jack Wills' Ratings" class="btn view_more" href="/jack-wills/569769-t" title="View Jack Wills' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jack-wills/569769-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hayes' Ratings" class="name" href="/hayes/569774-t" target="_blank" title="View Hayes' Ratings">
+Ms. Hayes
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/visual-arts" title="View Groveport Madison High School&#39;s Visual Arts Teachers">Visual Arts</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Ms. Hayes" data-sid="15178" data-status="12" data-tid="569774" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is sooooo wonderful!!!!!
+</div>
+<div class="options">
+<a alt="View Hayes' Ratings" class="btn view_more" href="/hayes/569774-t" title="View Hayes' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hayes/569774-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sarah Brown's Ratings" class="name" href="/sarah-brown/99584-t" target="_blank" title="View Sarah Brown's Ratings">
+Sarah Brown
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/not-specified" title="View Groveport Madison High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Sarah Brown" data-sid="15178" data-status="12" data-tid="99584" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">12 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She cares about the band students. She can also be very condescending and self absorbed Sarah is extremely...
+</div>
+<div class="options">
+<a alt="View Sarah Brown's Ratings" class="btn view_more" href="/sarah-brown/99584-t" title="View Sarah Brown's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sarah-brown/99584-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Wills' Ratings" class="name" href="/wills/99587-t" target="_blank" title="View Wills' Ratings">
+Mr. Wills
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/groveport-madison-high-school/15178-s/health" title="View Groveport Madison High School&#39;s Health Teachers">Health</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mr. Wills" data-sid="15178" data-status="12" data-tid="99587" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+You might not always agree with his opinions but you learn a lot from him. He's a good teacher and a good person who...
+</div>
+<div class="options">
+<a alt="View Wills' Ratings" class="btn view_more" href="/wills/99587-t" title="View Wills' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/wills/99587-t"></a>
+</div>
+
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-lg-3 secondary_column">
+<div class="row block_container demographic_card">
+<div class="tab_horizontal_format">
+<div class="col-xs-12 tab_header">
+<ul class="nav nav-tabs nav-top collapsible_nav collapsible_nav_collapsed" id="enrollment_charts" role="tablist">
+<li>
+<a alt="Enrollment By Year" data-toggle="tab" data-type="by_year" href="#enrollment_by_year" role="tab">
+<span>Enrollment By Year</span>
+<span class="arrow_container">
+<i class="arrow fa fa-angle-right"></i>
+</span>
+</a>
+<a class="toggle" href="javascript:void(0);">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li>
+<a alt="Enrollment By Ethnicity" data-toggle="tab" data-type="by_ethnicity" href="#enrollment_by_ethnicity" role="tab">
+<span>Enrollment By Ethnicity</span>
+<span class="arrow_container">
+<i class="arrow fa fa-angle-right"></i>
+</span>
+</a>
+<a class="toggle" href="javascript:void(0);">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li>
+<a alt="Enrollment By Gender" data-toggle="tab" data-type="by_gender" href="#enrollment_by_gender" role="tab">
+<span>Enrollment By Gender</span>
+<span class="arrow_container">
+<i class="arrow fa fa-angle-right"></i>
+</span>
+</a>
+<a class="toggle" href="javascript:void(0);">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+</ul>
+</div>
+<a class="col-xs-12 tab_container tab-content enrollment" href="/groveport-madison-high-school/15178-s/stats" title="Go to Groveport Madison High School stats">
+<span class="tab-pane charts_container students_charts_container" id="enrollment_by_year">
+<span class="graph_info" id="students_charts" style="min-height: 200px;">Loading ...</span>
+</span>
+<span class="tab-pane charts_container ethnicity_chart_container" id="enrollment_by_ethnicity">
+<span class="graph_info" id="ethnicity_chart" style="min-height: 200px;">Loading ...</span>
+</span>
+<span class="tab-pane charts_container gender_container" id="enrollment_by_gender">
+<span class="row gender_info">
+<span class="col-xs-5">
+<span class="icon icon-male">
+<span class="aux"></span>
+</span>
+</span>
+<span class="col-xs-4 text">Male</span>
+<span class="col-xs-3 count">681</span>
+</span>
+<span class="row gender_info">
+<span class="col-xs-5">
+<span class="icon icon-female">
+<span class="aux"></span>
+</span>
+</span>
+<span class="col-xs-4 text">Female</span>
+<span class="col-xs-3 count">622</span>
+</span>
+</span>
+<span class="data_from">
+Data by NCES 2013
+</span>
+</a>
+</div>
+</div>
+<div class="sticky_container_right">
+<div class="sticky_column">
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="all_footer_wrapper" style="overflow:hidden;">
+<section class="container-fluid hidden-xs padding" id="states">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-sm-offset-0 footer_states_container">
+<h3>Locate Schools by State:</h3>
+<div class="states">
+<div class="state">
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class="state">
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class="state">
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class="state">
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class="state">
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class="state">
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class="state">
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class="state">
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class="state">
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class="state">
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class="state">
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class="state">
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class="state">
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class="state">
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class="state">
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class="state">
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class="state">
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class="state">
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class="state">
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class="state">
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class="state">
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class="state">
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class="state">
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class="state">
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class="state">
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class="state">
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class="state">
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class="state">
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class="state">
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class="state">
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class="state">
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class="state">
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class="state">
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class="state">
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class="state">
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class="state">
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class="state">
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class="state">
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class="state">
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class="state">
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class="state">
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class="state">
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class="state">
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class="state">
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class="state">
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class="state">
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class="state">
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class="state">
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer_directory">
+<div class="container">
+<div class="row">
+<div class="col-xs-6 hidden-xs">
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;W&quot;" href="/schools/directory/w" title="Schools beginning with &quot;W&quot;">w</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class="col-xs-6 hidden-xs">
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;W&quot;" href="/teachers/directory/w" title="Teachers beginning with &quot;W&quot;">w</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class="row footer_countries_list">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer">
+<div class="container">
+<div class="row footer_links">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+<h3 class="hidden-sm hidden-md hidden-lg">Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop="static" data-keyboard data-remote="/contact/new" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Contact RateMyTeachers">
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="row copyright">
+Copyright 2001-2017 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden="true" class="modal fade" id="modal" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div aria-hidden="true" class="modal fade" id="modal_rating" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div id="loading-indicator" style="display: none;">
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif"/>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    functionToLoad.push('//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js');
+  </script>
+<script type="text/javascript">
+    functionToLoad.push('/assets/application-54ea36510d376e4b53979f87d72bc002.js');
+    functionToLoad.push('/assets/users-8d86f10db3dd4d729784ef9748a4b44e.js');
+  </script>
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        // Facebook like
+        // (function(d, s, id) {
+        //   var js, fjs = d.getElementsByTagName(s)[0];
+        //   if (d.getElementById(id)) return;
+        //   js = d.createElement(s); js.id = id;
+        //   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=232453153516852&version=v2.0";
+        //   fjs.parentNode.insertBefore(js, fjs);
+        // }(document, 'script', 'facebook-jssdk'));
+
+        // Google Plus
+        // (function() {
+        //   var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        //   po.src = 'https://apis.google.com/js/platform.js';
+        //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        // })();
+
+        // Twitter Follow
+        // !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      
+      });
+    </script>
+<script type="text/javascript">
+  functionToLoad.push(["https://www.google.com/jsapi", true, [
+    function() {
+      enrollmentByEthnicity = {};
+        enrollmentByEthnicity = {"American Indiant/Alaskan (1)":1,"Asian (27)":27,"African American (574)":574,"Hispanic (38)":38,"White (636)":636,"Pacific (2)":2,"Two or More Races (25)":25};
+
+      totalStudentsHistory = {"2009":1647,"2010":1522,"2011":1494,"2012":1417,"2013":1303} ;
+      initSchoolStatsPage(true, true, true);
+
+      google.load("visualization", "1", {
+        packages:["corechart"],
+        callback: function(){
+          $('body').trigger('chart-ready');
+        }
+      });
+    }
+  ]]);
+</script>
+<script>
+  functionToLoad.push(function() {
+    $('#teachers_by_alphabet').change(function(e){
+      document.location.href = $('#teachers_by_alphabet').val()
+    });
+  });
+</script>
+<script>
+  functionToLoad.push(function() {
+    var schoolPagePath = '/groveport-madison-high-school/15178-s';
+    var resultCount = 71;
+    var minStickyResultCount = 3;
+
+    if (!isMobile && !isMedium && resultCount > 0) {
+      var stickyColumnRight = $(".sticky_container_right .sticky_column");
+      var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+      var footerHeight = $('#all_footer_wrapper').outerHeight() + 50;
+      var stickyOptions = function(getWidthFrom) {
+        return {topSpacing:0, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+      }
+      stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+      // Make center column options sticky when min results quantity
+      if (resultCount > minStickyResultCount - 1) {
+        stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+      }
+    }
+  });
+</script>
+<script type="text/javascript">
+    function initializeMaps() {
+      var length = mapFunctionArray.length;
+      for (var i = 0; i < length; i++) {
+        mapFunctionArray[i]();
+      }
+    }
+
+    functionToLoad.push(function() {
+      // Don't load google maps when no pending maps
+      if (typeof(mapFunctionArray) === 'undefined' || mapFunctionArray.length < 1)
+        return;
+
+      var googleMapsId = "AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g";
+
+      var script_path = "http://maps.googleapis.com/maps/api/js?key=" + googleMapsId + "&sensor=false&callback=initializeMaps";
+      $.getScript(script_path);
+
+    });
+  </script>
+
+
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-bottom"};
+      });
+      functionToLoad.push("//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js");
+    </script>
+
+<script>
+    window.addEventListener('load', function(){
+      console.info("[PERF] DomContentLoaded: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+
+    window.addEventListener('load', function(){
+      console.info("[PERF] Load: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+  </script>
+
+<script type="text/javascript">
+    (function() {
+      // Load script from url
+      var loadScript = function(url, callback) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+
+        // Add on load callback event
+        if (callback !== null) {
+          if (script.readyState){ //IE
+            script.onreadystatechange = function(){
+              if (script.readyState == "loaded" || script.readyState == "complete"){
+                script.onreadystatechange = null;
+                callback();
+              }
+            };
+          } else { //Others
+            // Execute callback even when an error happen
+            script.onerror = function(e){
+              try {
+                console.error("An error happen when loading '" + err.target.src + "' script.");
+              } catch(err) {} finally {
+                callback();
+              }
+            };
+            script.onload = function(){ callback(); };
+          }
+        }
+
+        // Load the script
+        script.src = url;
+        document.body.appendChild(script);
+      };
+
+      // Load scripts in a sequence instead parallel
+      // to make sure frameworks load correctly
+      function sequence(index, max, source) {
+        if (index < max) {
+          var data = functionToLoad.extractElementData(source[index]);
+
+          if (typeof data.element === 'string') {
+            if (data.async) {
+              // Async script
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+              });
+              sequence(index + 1, max, source);
+            } else {
+              // Sync scripts
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+                sequence(index + 1, max, source);
+              });
+            }
+          } else {
+            // Execute callback even when an error happen on the function
+            try {
+              if (data.async) {
+                // Async script
+                setTimeout(function() { data.element(); }, 1);
+              } else {
+                // Sync script
+                data.element();
+              }
+            } catch(err) {
+              console.error(err);
+            } finally {
+              sequence(index + 1, max, source);
+            }
+          }
+        }
+      }
+
+      // Load all javascript in a sequence
+      var loadDeferredJs = function() {
+        sequence(0, functionToLoad.length, functionToLoad);
+      };
+
+      // Execute all lazy javascripts after DOM load
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredJs, 0); });
+      else window.addEventListener('load', loadDeferredJs);
+    })();
+  </script>
+
+</body>
+</html>

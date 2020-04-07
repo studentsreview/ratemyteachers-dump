@@ -1,0 +1,4360 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+      (function(){
+        window.beginTimeTrack = (new Date()).getTime();
+      })();
+    </script>
+<title>Divine Child High School - Dearborn, Michigan | RateMyTeachers.com</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":1045,"agentToken":null,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(15)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(15)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(15)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){g.push(t),h&&(b?b.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(15)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,y="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(y,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===y||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=o(l+e,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(p+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],15:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!l.aborted||i){t&&t(n,r,o);for(var a=e(o),c=h(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[w[n]];return d&&d.push([g,n,r,a]),a}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",w[n]=e,e in u||(u[e]=[])})}var y={},w={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(w,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){s("mark",["domContent",a()+x.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-x.offset}var c=(new Date).getTime(),s=t("handle"),f=t(12),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:c,now:a,origin:y,features:{},xhrWrappable:g};t(9),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),s("mark",["firstbyte",c],null,"api");var b=0,E=t(14)},{}]},{},["loader",2,7]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+<meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw"/>
+<meta name="description" content="Divine Child High School is a High School in Dearborn, MI. Search Divine Child High School&#39;s ratings, statistics and reviews by students and parents."/>
+<meta property="twitter:image" content="http://www.ratemyteachers.com/images/logo_icon_60.png"/>
+<meta property="og:image" content="http://www.ratemyteachers.com/images/logo_icon_100.png"/>
+<meta property="og:title" content="Divine Child High School - Dearborn, Michigan | RateMyTeachers.com"/>
+<meta property="og:type" content="rmt:school"/>
+<meta property="og:url" content="http://www.ratemyteachers.com/divine-child-high-school/43142-s"/>
+<meta property="og:site_name" content="Divine Child High School - Dearborn, Michigan | RateMyTeachers.com"/>
+<meta property="og:description" content="Divine Child High School is a High School in Dearborn, MI. Search Divine Child High School's ratings, statistics and reviews by students and parents."/>
+<meta name="robots" content="noodp,noydir"/>
+<meta property="rmt:image" content="http://www.ratemyteachers.com/apple_touch_icon_196x196.png"/>
+
+<link rel="shortcut icon" sizes="64x64 48x48 32x32 16x16" type="image/x-icon" href="/favicon.ico"/>
+<link rel="apple-touch-icon" href="/apple_touch_icon_60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple_touch_icon_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple_touch_icon_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple_touch_icon_152x152.png">
+<link rel="apple-touch-icon-precomposed" href="/apple_touch_icon_196x196.png"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+<link href="/assets/application-8f34b7246c4006713b4fb0b0c5f281b6.css" media="all" rel="stylesheet"/>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+<script type="text/javascript">
+    var currentState = '';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:     true,
+    debugMode:           false,
+    asyncScripts:        true
+  };
+
+
+  function getWindowWidth() {
+    var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) === 'number' ) {
+      myWidth = window.innerWidth; myHeight = window.innerHeight;
+    } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+      myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+      myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+    }
+    return myWidth;
+  }
+
+  var isDesktopVariant = true;
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isExtraSmall = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false);
+  var isMobile = isExtraSmall || isMobileVariant;
+  var isMedium = (getWindowWidth() < 1200) || (screen ? screen.width < 1200 : false);
+
+
+  var isChrome = navigator.userAgent.indexOf('Chrome') > -1;
+  var isExplorer = navigator.userAgent.indexOf('MSIE') > -1;
+  var isFirefox = navigator.userAgent.indexOf('Firefox') > -1;
+  var isSafari = navigator.userAgent.indexOf("Safari") > -1;
+  var isOpera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
+  if ((isChrome)&&(isSafari)) {isSafari=false;}
+  if ((isChrome)&&(isOpera)) {isChrome=false;}
+
+  var enablePropel    = !isSafari && !isOpera && false;
+  var enableMediabong = !isSafari && !isOpera;
+  var enableBrightComedia = !isSafari && !isOpera;
+
+  var isMobileUpload = false;
+
+    var cseData = {
+      isCseSearch: true
+      ,paramFormat: '%{search_term}%{location}'
+      ,stateList: [{"name":"Alaska","shortname":"ak"},{"name":"Alabama","shortname":"al"},{"name":"Arkansas","shortname":"ar"},{"name":"Arizona","shortname":"az"},{"name":"California","shortname":"ca"},{"name":"Colorado","shortname":"co"},{"name":"Connecticut","shortname":"ct"},{"name":"Dc","shortname":"dc"},{"name":"Delaware","shortname":"de"},{"name":"Florida","shortname":"fl"},{"name":"Georgia","shortname":"ga"},{"name":"Hawaii","shortname":"hi"},{"name":"Iowa","shortname":"ia"},{"name":"Idaho","shortname":"id"},{"name":"Illinois","shortname":"il"},{"name":"Indiana","shortname":"in"},{"name":"Kansas","shortname":"ks"},{"name":"Kentucky","shortname":"ky"},{"name":"Louisiana","shortname":"la"},{"name":"Massachusetts","shortname":"ma"},{"name":"Maryland","shortname":"md"},{"name":"Maine","shortname":"me"},{"name":"Michigan","shortname":"mi"},{"name":"Minnesota","shortname":"mn"},{"name":"Missouri","shortname":"mo"},{"name":"Mississippi","shortname":"ms"},{"name":"Montana","shortname":"mt"},{"name":"North Carolina","shortname":"nc"},{"name":"North Dakota","shortname":"nd"},{"name":"Nebraska","shortname":"ne"},{"name":"New Hampshire","shortname":"nh"},{"name":"New Jersey","shortname":"nj"},{"name":"New Mexico","shortname":"nm"},{"name":"Nevada","shortname":"nv"},{"name":"New York","shortname":"ny"},{"name":"Ohio","shortname":"oh"},{"name":"Oklahoma","shortname":"ok"},{"name":"Oregon","shortname":"or"},{"name":"Pennsylvania","shortname":"pa"},{"name":"Puerto Rico","shortname":"pr"},{"name":"Rhode Island","shortname":"ri"},{"name":"South Carolina","shortname":"sc"},{"name":"South Dakota","shortname":"sd"},{"name":"Tennessee","shortname":"tn"},{"name":"Texas","shortname":"tx"},{"name":"Utah","shortname":"ut"},{"name":"Virginia","shortname":"va"},{"name":"Vermont","shortname":"vt"},{"name":"Washington","shortname":"wa"},{"name":"Wisconsin","shortname":"wi"},{"name":"West Virginia","shortname":"wv"},{"name":"Wyoming","shortname":"wy"}]
+    };
+
+
+  // Search autocomplete widget
+  var searchAutocompleteHTML = "<div class=\'desktop search_autocomplete_widget\'>\n<div class=\'autocomplete_teachers\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-user\'><\/i>\nTeachers and Professors\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_school_name\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nTeachers and Professors\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<div class=\'autocomplete_schools\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-university\'><\/i>\nSchools and Colleges\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_address\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nSchools and Colleges\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<\/div>\n";
+</script>
+<script type="text/javascript">
+  // Async functions variable
+  functionToLoad = [];
+  
+  // Fastest way to check if an object is an array
+  functionToLoad.isArrayObj = function(obj) {
+    return !!obj && obj.constructor === Array;
+  };
+  
+  // Extract data from an element
+  functionToLoad.extractElementData = function(elementData) {
+    var data = {
+      element: elementData
+      ,async: false
+      ,subElements: []
+    };
+    
+    // The element is an array, check for async option
+    if (this.isArrayObj(elementData) && elementData.length > 0) {
+      data.async = !!elementData[1];
+      data.element = elementData[0];
+      data.subElements = elementData[2] || [];
+    }
+    return data;
+  };
+  
+  // Wrap push functionality
+  functionToLoad.realPush = functionToLoad.push;
+  functionToLoad.executePush = function(args) {
+    var data = this.extractElementData(args);
+
+    // Inject script tag on inplace
+    if (typeof data.element === 'string') {
+      // Inject external file
+      document.write('<script type="text/javascript" src="' + data.element + '"><\/script>');
+    } else {
+      // Inject function
+      document.write('<script type="text/javascript">(');
+      document.write(data.element.toString());
+      document.write(')();<\/script>');
+    }
+    
+    // Execute child scripts
+    if (data.subElements.length > 0) {
+      this.executePush(data.subElements);
+    }
+  };
+  functionToLoad.push = function(args) {
+    if (siteConfig.asyncScripts) {
+      if (siteConfig.debugMode) { console.log('Async Script'); }
+      
+      // Async scripts so add it to array for later execution
+      this.realPush(args);
+      return;
+    }
+    if (siteConfig.debugMode) { console.log('Sync Script'); }
+    
+    // No async scripts, execute it right away
+    this.executePush(args);
+  };
+</script>
+<script type="text/javascript">_googlePush = function(a) {};</script>
+<script type="text/javascript">
+  functionToLoad.push('//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js');
+  functionToLoad.push('//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js');
+</script>
+<script>
+      functionToLoad.push(function() {
+        gaId = 'UA-4216499-1';
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', gaId, 'auto');
+        ga('require', 'displayfeatures');
+        //ga('require', 'ecommerce', 'ecommerce.js');
+      });
+    </script>
+<script type="text/javascript">
+  functionToLoad.push('/assets/rmt.analytics-833eb75f283313dde59926cd5939692a.js');
+</script>
+<script>
+  functionToLoad.push(function(){
+    pageType = "";
+    RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+    searchTerm = "";
+  });
+</script>
+<script type="text/javascript">
+    // Returns a function, that, as long as it continues to be invoked, will not
+    // be triggered. The function will be called after it stops being called for
+    // N milliseconds. If `immediate` is passed, trigger the function on the
+    // leading edge, instead of the trailing.
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+</script>
+<script type="text/javascript">
+    var _session = {};
+  </script>
+<link href="http://www.ratemyteachers.com/divine-child-high-school/43142-s.rss" rel="alternate" type="application/rss+xml">
+<meta content="authenticity_token" name="csrf-param"/>
+<meta content="5IIVoZtcWRIOQMjKThCnc84yGCQymM8gkyv2EpSjBx8=" name="csrf-token"/>
+</head>
+
+<body class="inner_page school_page schools_v12_1
+">
+<div id="fb-root"></div>
+<div class="rate_my_teachers_international">
+<div class="container">
+<div class="row">
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+<div class="pull-right user_top_nav"></div>
+</div>
+</div>
+</div>
+<header>
+<div class="container">
+<div class="row">
+<form action="/search_page" class="tab-form search_form trigger_to_main_search" method="get">
+<a alt="Go to RateMyTeachers Home" href="/" id="rate_my_teachers_logo" title="Go to RateMyTeachers Home"></a>
+<input name="search" type="hidden" value="teachers">
+<div class="search_inputs">
+<div class="bg">
+<div class="padding">
+<input class="search_input" name="q" placeholder="Search: School Name, City" type="text">
+</div>
+<div class="location">
+<select class="state" id="state" name="state"><option value>Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class="search_button">
+<button class="btn-search fa fa-search fa-3x" title="Search RateMyTeachers" type="submit"></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+<div class="container-fluid main-content">
+<div class="row">
+<section class="breadcrumbs container-fluid">
+<div class="row">
+<div class="container">
+<div class="col-sm-12">
+<ul class="list-inline collapsible_nav collapsible_nav_collapsed">
+<li class="toggle">
+<a href="javascript:void(0);" rel="nofollow">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li class="collapse">
+<a href="/" title="Go to RateMyTeachers Home">United States</a>
+</li>
+<li class="always_show">
+<a alt="Go to Schools in Michigan" href="/michigan" title="Go to Schools in Michigan">Michigan</a>
+</li>
+<li class="collapse">
+<a alt="Go to Schools in Dearborn" href="/michigan/dearborn" title="Go to Schools in Dearborn">Dearborn</a>
+</li>
+<li class="always_show">
+
+<a alt="View Divine Child High School's Teachers" href="/divine-child-high-school/43142-s" title="View Divine Child High School's Teachers">Divine Child High School</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_teacher_trigger" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=43142" data-school="Divine Child High School" data-sender-name="School page breadcrumb" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher">Add My Teacher</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=43142" data-school="Divine Child High School" data-sender-name="School page breadcrumb" data-target="#modal_rating" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Rate My School">Rate My School</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<div class="container flash_container">
+<div class="row">
+<div class="col-xs-12">
+<div class="alert alert-danger" id="flash-error" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-warning" id="flash-alert" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-success" id="flash-success" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-info" id="flash-notice" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+</div>
+</div>
+</div>
+<div id="content">
+<span class="dn" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/michigan" itemprop="url">
+<span itemprop="title">Michigan</span>
+</a>
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/michigan/dearborn" itemprop="url">
+<span itemprop="title">Dearborn</span>
+</a>
+</span>
+</span>
+<div id="sortable_ad_trigger"></div>
+<div class="container" itemscope itemtype="http://schema.org/ProfilePage">
+<meta content="2017-08-01" itemprop="dateModified">
+
+<div class="dn" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+<meta content="439" itemprop="ratingCount">
+<meta content="439" itemprop="reviewCount">
+<meta content="4.30709" itemprop="ratingValue">
+<meta content="5" itemprop="bestRating">
+<meta content="0" itemprop="worstRating">
+</div>
+<div class="row">
+<section class="col-md-12 content" itemprop="about" itemscope itemtype="http://schema.org/School">
+<div class="row secondary_data">
+<div class="col-xs-12 col-lg-9 primary_column">
+<div class="row school_info">
+<div class="col-xs-12 col-sm-7 main_info">
+<div class="row">
+<div class="col-xs-12">
+<div class="school_name">
+<h1 title="Divine Child High School">
+<span itemprop="name">
+Divine Child High School
+</span>
+<div class="school_actions" data-name="Divine Child High School" data-sid="43142" data-status="0" style="display:none;"></div>
+</h1>
+<a class="edit school_correction_trigger" data-backdrop="static" data-keyboard data-remote="/schools/correction?sid=43142" data-school="Divine Child High School" data-sender-name="School page Main" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit a Correction">
+Edit
+</a>
+</div>
+<div class="score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 94.756px;"></div>
+</div>
+</div>
+Average
+4.31
+based on
+439
+teacher ratings
+</div>
+<div class="description">
+<strong>Divine Child High School</strong>
+is located in Dearborn, Michigan
+with an average teacher rating of 4.31
+stars. When comparing
+Divine Child High School's teachers to other
+teachers in the state of
+Michigan, Divine Child High School's
+teachers are
+above
+the average of
+4.2
+stars.
+Divine Child High School ranks
+85
+amongst all High Schools
+in the state of Michigan.
+<a href="/divine-child-high-school/43142-s/stats" target="_blank">
+Learn More
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 details">
+<div class="aux">
+<h2 class="detail_item rate_school">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=43142" data-sender-name="School page Main" data-target="#modal_rating" data-teacher="Divine Child High School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Divine Child High School">
+<i class="fa fa-institution"></i>
+<span class="value">Rate Divine Child High School</span>
+</a>
+</h2>
+<div class="detail_item address">
+<a href="https://www.google.com/maps/search/1001%20N%20Silvery%20Ln%2C%20Dearborn%2C%20Michigan%2048128%2C%20Dearborn%2C%20Michigan%2C%2048128%2C%20United%20States" target="_blank" title="1001 N Silvery Ln, Dearborn, Michigan 48128">
+<i class="fa fa-map-marker"></i>
+<span class="value">1001 N Silvery Ln, Dearborn, Michigan 48128</span>
+</a>
+</div>
+<div class="detail_item phone">
+<a class="school_phone_trigger" data-phone="3135621990" href="javascript:void(0);">
+<i class="fa fa-phone"></i>
+<span itemprop="telephone">313-562-1990</span>
+</a>
+</div>
+<div class="detail_item website">
+<a href="http://www.divinechildhighschool.org/" rel="nofollow" target="_blank" title="http://www.divinechildhighschool.org/">
+<i class="fa fa-globe"></i>
+<span itemprop="url">http://www.divinechildhighschool.org/</span>
+</a>
+</div>
+</div>
+<span class="dn" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">1001 N Silvery Ln</span>
+<span itemprop="addressLocality">Dearborn</span>
+<span itemprop="addressRegion">MI</span>
+<span itemprop="postalCode">48128</span>
+</span>
+</div>
+</div>
+<div class="school_content">
+<div class="sticky_container_center">
+<div class="sticky_column">
+<div class="row">
+<div class="col-xs-12">
+<div class="filter_section">
+<div class="row subtitle">
+<div class="col-xs-6">
+<h2 class="active">
+<a href="http://www.ratemyteachers.com/divine-child-high-school/43142-s" title="View Divine Child High School's Teachers">
+Faculty:
+86
+Teachers
+</a>
+</h2>
+</div>
+<div class="col-xs-6">
+<h2 class>
+<a href="http://www.ratemyteachers.com/divine-child-high-school/43142-s/school-reviews" title="View Divine Child High School's Reviews">
+Divine Child High School
+Reviews
+</a>
+</h2>
+</div>
+</div>
+<div class="row search_form_container">
+<div class="col-md-2 sort_options">
+<select id="sort_by" name="sort_by"><option value>Sort by</option><option value></option><option value>Latest Update</option>
+<option value="last_name">Last Name</option>
+<option value="first_name">First Name</option>
+<option value="avg_asc">Average Rating: Low to High</option>
+<option value="avg_desc">Average Rating: High to Low</option></select>
+</div>
+<form action="/divine-child-high-school/43142-s" class="simple_form inline_form" id="school_search_by_teacher_form">
+<div class="col-md-9 text">
+<input name="q" placeholder="Search by Teacher" type="text">
+</div>
+<div class="col-md-1 options">
+<button class="btn fa fa-search fa-2x" name="commit" title="Search by Teacher" type="submit"></button>
+</div>
+</form>
+</div>
+<div class="row extra">
+<a class="col-xs-4 new_admin_request_trigger apply_admin" data-remote="/admin/new?sid=43142" data-school="Divine Child High School" data-sender="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Become Divine Child High School's Moderator">
+<i class="fa fa-user-plus"></i>
+<span>Become a Moderator!</span>
+</a>
+<a class="col-xs-4 new_school_rating_trigger school_review" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=43142" data-sender-name="School page Search bar" data-target="#modal_rating" data-teacher="Divine Child High School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Divine Child High School">
+<i class="fa fa-institution"></i>
+<span>Write a School Review</span>
+</a>
+<a class="col-xs-4 new_teacher_trigger add_teacher" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=43142" data-school="Divine Child High School" data-sender-name="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher to Divine Child High School">
+<i class="fa fa-user-plus"></i>
+<span>Add Teacher</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="teachers">
+<div class="ad_container AMP">
+<div id="amp_ads_bottom"></div>
+</div>
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Rosalind Astourian's Ratings" class="name" href="/rosalind-astourian/1341242-t" target="_blank" title="View Rosalind Astourian's Ratings">
+Rosalind Astourian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/economics" title="View Divine Child High School&#39;s Economics Teachers">Economics</a>
+</div>
+<div class="teacher_actions" data-name="Rosalind Astourian" data-sid="43142" data-status="-2" data-tid="1341242" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 84.260px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She was perhaps the worst teacher I have ever had. I took her class this past semester and though she seems to be a...
+</div>
+<div class="options">
+<a alt="View Rosalind Astourian's Ratings" class="btn view_more" href="/rosalind-astourian/1341242-t" title="View Rosalind Astourian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/rosalind-astourian/1341242-t"></a>
+</div>
+<div class="ad_container taboola_video">
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Rhonda Sovine's Ratings" class="name" href="/rhonda-sovine/931085-t" target="_blank" title="View Rhonda Sovine's Ratings">
+Rhonda Sovine
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/fine-arts" title="View Divine Child High School&#39;s Fine Arts Teachers">Fine Arts</a>
+</div>
+<div class="teacher_actions" data-name="Rhonda Sovine" data-sid="43142" data-status="-2" data-tid="931085" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 26.180px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+her classes r boring and i would rather stand outside in the cold instead of going to her class
+</div>
+<div class="options">
+<a alt="View Rhonda Sovine's Ratings" class="btn view_more" href="/rhonda-sovine/931085-t" title="View Rhonda Sovine's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/rhonda-sovine/931085-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kaye Campagnoli's Ratings" class="name" href="/kaye-campagnoli/1521470-t" target="_blank" title="View Kaye Campagnoli's Ratings">
+Kaye Campagnoli
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/english" title="View Divine Child High School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Kaye Campagnoli" data-sid="43142" data-status="12" data-tid="1521470" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.720px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs Campagnoli is the best English teacher at DC. I got a 4 on the ap test thanks to her.
+</div>
+<div class="options">
+<a alt="View Kaye Campagnoli's Ratings" class="btn view_more" href="/kaye-campagnoli/1521470-t" title="View Kaye Campagnoli's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kaye-campagnoli/1521470-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Patricia Pauline's Ratings" class="name" href="/patricia-pauline/1364431-t" target="_blank" title="View Patricia Pauline's Ratings">
+Patricia Pauline
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/math" title="View Divine Child High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Patricia Pauline" data-sid="43142" data-status="-2" data-tid="1364431" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">13 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Only math teacher that hasn't made me want to kill myself. She's funny, helpful, and her lessons actually make sense
+</div>
+<div class="options">
+<a alt="View Patricia Pauline's Ratings" class="btn view_more" href="/patricia-pauline/1364431-t" title="View Patricia Pauline's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/patricia-pauline/1364431-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Thomas Carollo's Ratings" class="name" href="/thomas-carollo/444658-t" target="_blank" title="View Thomas Carollo's Ratings">
+Thomas Carollo
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/health" title="View Divine Child High School&#39;s Health Teachers">Health</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Thomas Carollo" data-sid="43142" data-status="12" data-tid="444658" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 98.120px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Nice, funny, and helpful!
+</div>
+<div class="options">
+<a alt="View Thomas Carollo's Ratings" class="btn view_more" href="/thomas-carollo/444658-t" title="View Thomas Carollo's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/thomas-carollo/444658-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Steve Dickie's Ratings" class="name" href="/steve-dickie/1574441-t" target="_blank" title="View Steve Dickie's Ratings">
+Steve Dickie
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/technology" title="View Divine Child High School&#39;s Technology Teachers">Technology</a>
+</div>
+<div class="teacher_actions" data-name="Steve Dickie" data-sid="43142" data-status="-2" data-tid="1574441" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 81.840px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Really cool guy who knows his stuff.
+</div>
+<div class="options">
+<a alt="View Steve Dickie's Ratings" class="btn view_more" href="/steve-dickie/1574441-t" title="View Steve Dickie's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/steve-dickie/1574441-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Patrick Murphy's Ratings" class="name" href="/patrick-murphy/958889-t" target="_blank" title="View Patrick Murphy's Ratings">
+Patrick Murphy
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/math" title="View Divine Child High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Patrick Murphy" data-sid="43142" data-status="-2" data-tid="958889" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">12 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I was very disappointed because Mr. Murphy never wore his cow costume like he promised he would
+</div>
+<div class="options">
+<a alt="View Patrick Murphy's Ratings" class="btn view_more" href="/patrick-murphy/958889-t" title="View Patrick Murphy's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/patrick-murphy/958889-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Walter Grysko's Ratings" class="name" href="/walter-grysko/3158709-t" target="_blank" title="View Walter Grysko's Ratings">
+Walter Grysko
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/fine-arts" title="View Divine Child High School&#39;s Fine Arts Teachers">Fine Arts</a>
+</div>
+<div class="teacher_actions" data-name="Walter Grysko" data-sid="43142" data-status="-2" data-tid="3158709" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 96.800px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+The ultimate savage. I have a mental list of some of my favorite Grysko roasts. Every time I hear him throwing shade...
+</div>
+<div class="options">
+<a alt="View Walter Grysko's Ratings" class="btn view_more" href="/walter-grysko/3158709-t" title="View Walter Grysko's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/walter-grysko/3158709-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Cheryl Nelson's Ratings" class="name" href="/cheryl-nelson/1756159-t" target="_blank" title="View Cheryl Nelson's Ratings">
+Cheryl Nelson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/math" title="View Divine Child High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Cheryl Nelson" data-sid="43142" data-status="12" data-tid="1756159" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 74.580px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Her teaching style is &quot;write down what I'm doing, and hopefully you understand&quot;. She never really explained anything,...
+</div>
+<div class="options">
+<a alt="View Cheryl Nelson's Ratings" class="btn view_more" href="/cheryl-nelson/1756159-t" title="View Cheryl Nelson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/cheryl-nelson/1756159-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jason Wohlfarth's Ratings" class="name" href="/jason-wohlfarth/8023949-t" target="_blank" title="View Jason Wohlfarth's Ratings">
+Jason Wohlfarth
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/chemistry" title="View Divine Child High School&#39;s Chemistry Teachers">Chemistry</a>
+</div>
+<div class="teacher_actions" data-name="Jason Wohlfarth" data-sid="43142" data-status="0" data-tid="8023949" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 22.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Terrible. Awful. I learned nothing. Worst class of my life. Every time you ask a question he avoids it and does not...
+</div>
+<div class="options">
+<a alt="View Jason Wohlfarth's Ratings" class="btn view_more" href="/jason-wohlfarth/8023949-t" title="View Jason Wohlfarth's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jason-wohlfarth/8023949-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jason Wohlfarth's Ratings" class="name" href="/jason-wohlfarth/8024589-t" target="_blank" title="View Jason Wohlfarth's Ratings">
+Jason Wohlfarth
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/chemistry" title="View Divine Child High School&#39;s Chemistry Teachers">Chemistry</a>
+</div>
+<div class="teacher_actions" data-name="Jason Wohlfarth" data-sid="43142" data-status="0" data-tid="8024589" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=8024589" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Jason Wohlfarth" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Jason Wohlfarth">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=8024589" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Jason Wohlfarth" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Jason Wohlfarth">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jason-wohlfarth/8024589-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Eppler's Ratings" class="name" href="/eppler/7988863-t" target="_blank" title="View Eppler's Ratings">
+Mr. Eppler
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/social-studies" title="View Divine Child High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Eppler" data-sid="43142" data-status="-2" data-tid="7988863" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I loved Mr. Eppler! He's a great teacher who is passionate about what he teaches and makes you excited about what...
+</div>
+<div class="options">
+<a alt="View Eppler's Ratings" class="btn view_more" href="/eppler/7988863-t" title="View Eppler's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/eppler/7988863-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mary Patricia O'Malley's Ratings" class="name" href="/mary-patricia-o-malley/7969965-t" target="_blank" title="View Mary Patricia O'Malley's Ratings">
+Mary Patricia O'Malley
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/religion" title="View Divine Child High School&#39;s Religion Teachers">Religion</a>
+</div>
+<div class="teacher_actions" data-name="Mary Patricia O'Malley" data-sid="43142" data-status="-2" data-tid="7969965" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mary pat O'Malley is an actual Saint. She is so nice, funny, smart, helpful, and just an all around amazing teacher...
+</div>
+<div class="options">
+<a alt="View Mary Patricia O'Malley's Ratings" class="btn view_more" href="/mary-patricia-o-malley/7969965-t" title="View Mary Patricia O'Malley's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mary-patricia-o-malley/7969965-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Gina Delgado's Ratings" class="name" href="/gina-delgado/6140423-t" target="_blank" title="View Gina Delgado's Ratings">
+Gina Delgado
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/languages" title="View Divine Child High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Gina Delgado" data-sid="43142" data-status="-2" data-tid="6140423" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+The best Spanish teacher ever
+</div>
+<div class="options">
+<a alt="View Gina Delgado's Ratings" class="btn view_more" href="/gina-delgado/6140423-t" title="View Gina Delgado's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/gina-delgado/6140423-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Chris Boileau's Ratings" class="name" href="/chris-boileau/3926793-t" target="_blank" title="View Chris Boileau's Ratings">
+Chris Boileau
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/religion" title="View Divine Child High School&#39;s Religion Teachers">Religion</a>
+</div>
+<div class="teacher_actions" data-name="Chris Boileau" data-sid="43142" data-status="-2" data-tid="3926793" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+St Thomas Aquinas....&quot;WOOOOH!!!&quot;
+</div>
+<div class="options">
+<a alt="View Chris Boileau's Ratings" class="btn view_more" href="/chris-boileau/3926793-t" title="View Chris Boileau's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/chris-boileau/3926793-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Elizabeth Johnson's Ratings" class="name" href="/elizabeth-johnson/3853747-t" target="_blank" title="View Elizabeth Johnson's Ratings">
+Elizabeth Johnson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/math" title="View Divine Child High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Elizabeth Johnson" data-sid="43142" data-status="-2" data-tid="3853747" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=3853747" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Elizabeth Johnson" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Elizabeth Johnson">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=3853747" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Elizabeth Johnson" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Elizabeth Johnson">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/elizabeth-johnson/3853747-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Troy Dudas' Ratings" class="name" href="/troy-dudas/3148522-t" target="_blank" title="View Troy Dudas' Ratings">
+Troy Dudas
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/science" title="View Divine Child High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Troy Dudas" data-sid="43142" data-status="-2" data-tid="3148522" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 107.140px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He is an awesome teacher and a really kind person. He is always looking out for the underdog.
+</div>
+<div class="options">
+<a alt="View Troy Dudas' Ratings" class="btn view_more" href="/troy-dudas/3148522-t" title="View Troy Dudas' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/troy-dudas/3148522-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jessica McVettie's Ratings" class="name" href="/jessica-mcvettie/3139178-t" target="_blank" title="View Jessica McVettie's Ratings">
+Jessica McVettie
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/administration" title="View Divine Child High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class="teacher_actions" data-name="Jessica McVettie" data-sid="43142" data-status="-2" data-tid="3139178" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 55.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She cares only about herself and has no interest in her students. Very disorganized
+</div>
+<div class="options">
+<a alt="View Jessica McVettie's Ratings" class="btn view_more" href="/jessica-mcvettie/3139178-t" title="View Jessica McVettie's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jessica-mcvettie/3139178-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Elisa Noeske's Ratings" class="name" href="/elisa-noeske/2515555-t" target="_blank" title="View Elisa Noeske's Ratings">
+Elisa Noeske
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/fine-arts" title="View Divine Child High School&#39;s Fine Arts Teachers">Fine Arts</a>
+</div>
+<div class="teacher_actions" data-name="Elisa Noeske" data-sid="43142" data-status="-2" data-tid="2515555" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 39.160px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Not a good teacher. Into herself not her students. Only cares about getting attention. Very unpleasant! I can't...
+</div>
+<div class="options">
+<a alt="View Elisa Noeske's Ratings" class="btn view_more" href="/elisa-noeske/2515555-t" title="View Elisa Noeske's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/elisa-noeske/2515555-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Emily Owen's Ratings" class="name" href="/emily-owen/2515557-t" target="_blank" title="View Emily Owen's Ratings">
+Emily Owen
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/computer-science" title="View Divine Child High School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Emily Owen" data-sid="43142" data-status="12" data-tid="2515557" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2515557" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Emily Owen" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Emily Owen">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2515557" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Emily Owen" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Emily Owen">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/emily-owen/2515557-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John Breen's Ratings" class="name" href="/john-breen/2509498-t" target="_blank" title="View John Breen's Ratings">
+John Breen
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/languages" title="View Divine Child High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="John Breen" data-sid="43142" data-status="-2" data-tid="2509498" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 85.580px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great teacher! Actually cares for the students, unlike a lot of other teachers at the school (Faletti).
+</div>
+<div class="options">
+<a alt="View John Breen's Ratings" class="btn view_more" href="/john-breen/2509498-t" title="View John Breen's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-breen/2509498-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mohamed Hammoud's Ratings" class="name" href="/mohamed-hammoud/2498976-t" target="_blank" title="View Mohamed Hammoud's Ratings">
+Mohamed Hammoud
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/headmaster" title="View Divine Child High School&#39;s Headmaster Teachers">Headmaster</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mohamed Hammoud" data-sid="43142" data-status="10" data-tid="2498976" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+so cool and good at basketball and funny toooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+</div>
+<div class="options">
+<a alt="View Mohamed Hammoud's Ratings" class="btn view_more" href="/mohamed-hammoud/2498976-t" title="View Mohamed Hammoud's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mohamed-hammoud/2498976-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Andy Dold's Ratings" class="name" href="/andy-dold/2468838-t" target="_blank" title="View Andy Dold's Ratings">
+Andy Dold
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/computer-science" title="View Divine Child High School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Andy Dold" data-sid="43142" data-status="12" data-tid="2468838" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 80.740px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Dold isn't the worst teacher I've seen...
+</div>
+<div class="options">
+<a alt="View Andy Dold's Ratings" class="btn view_more" href="/andy-dold/2468838-t" title="View Andy Dold's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/andy-dold/2468838-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Christopher Urbiel's Ratings" class="name" href="/christopher-urbiel/2329097-t" target="_blank" title="View Christopher Urbiel's Ratings">
+Christopher Urbiel
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/music" title="View Divine Child High School&#39;s Music Teachers">Music</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Christopher Urbiel" data-sid="43142" data-status="12" data-tid="2329097" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+:D Dr. Urbiel is extremely talented, kind, and a good teacher/ choir director.
+</div>
+<div class="options">
+<a alt="View Christopher Urbiel's Ratings" class="btn view_more" href="/christopher-urbiel/2329097-t" title="View Christopher Urbiel's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/christopher-urbiel/2329097-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John Lupinacci's Ratings" class="name" href="/john-lupinacci/2293609-t" target="_blank" title="View John Lupinacci's Ratings">
+John Lupinacci
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/multiple-subjects" title="View Divine Child High School&#39;s Multiple Subjects Teachers">Multiple Subjects</a>
+</div>
+<div class="teacher_actions" data-name="John Lupinacci" data-sid="43142" data-status="-2" data-tid="2293609" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+he's amazing
+</div>
+<div class="options">
+<a alt="View John Lupinacci's Ratings" class="btn view_more" href="/john-lupinacci/2293609-t" title="View John Lupinacci's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-lupinacci/2293609-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Serge danielson Franswa's Ratings" class="name" href="/serge-danielson-franswa/2284693-t" target="_blank" title="View Serge danielson Franswa's Ratings">
+Serge danielson Franswa
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/journalism" title="View Divine Child High School&#39;s Journalism Teachers">Journalism</a>
+</div>
+<div class="teacher_actions" data-name="Serge danielson Franswa" data-sid="43142" data-status="-2" data-tid="2284693" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+One word: genius. Such a genuine guy. Love him.
+</div>
+<div class="options">
+<a alt="View Serge danielson Franswa's Ratings" class="btn view_more" href="/serge-danielson-franswa/2284693-t" title="View Serge danielson Franswa's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/serge-danielson-franswa/2284693-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jannine Hayse's Ratings" class="name" href="/jannine-hayse/2284678-t" target="_blank" title="View Jannine Hayse's Ratings">
+Jannine Hayse
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/social-studies" title="View Divine Child High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Jannine Hayse" data-sid="43142" data-status="-2" data-tid="2284678" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+really cares about her stupids
+</div>
+<div class="options">
+<a alt="View Jannine Hayse's Ratings" class="btn view_more" href="/jannine-hayse/2284678-t" title="View Jannine Hayse's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jannine-hayse/2284678-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View David Swenson's Ratings" class="name" href="/david-swenson/2284679-t" target="_blank" title="View David Swenson's Ratings">
+David Swenson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/math" title="View Divine Child High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="David Swenson" data-sid="43142" data-status="-2" data-tid="2284679" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 100.320px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+love the flipped classroom setting, lets me do work in class so i can ask about the process during class instead of...
+</div>
+<div class="options">
+<a alt="View David Swenson's Ratings" class="btn view_more" href="/david-swenson/2284679-t" title="View David Swenson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/david-swenson/2284679-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sr. Orlanda Leyba's Ratings" class="name" href="/sr-orlanda-leyba/2174191-t" target="_blank" title="View Sr. Orlanda Leyba's Ratings">
+Sr. Orlanda Leyba
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/religion" title="View Divine Child High School&#39;s Religion Teachers">Religion</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Sr. Orlanda Leyba" data-sid="43142" data-status="12" data-tid="2174191" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2174191" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Sr. Orlanda Leyba" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Sr. Orlanda Leyba">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2174191" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Sr. Orlanda Leyba" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Sr. Orlanda Leyba">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sr-orlanda-leyba/2174191-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Heflin's Ratings" class="name" href="/heflin/2108718-t" target="_blank" title="View Heflin's Ratings">
+Heflin
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/not-specified" title="View Divine Child High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Heflin" data-sid="43142" data-status="12" data-tid="2108718" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2108718" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Heflin" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Heflin">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2108718" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Heflin" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Heflin">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/heflin/2108718-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kathleen Gedert's Ratings" class="name" href="/kathleen-gedert/1962425-t" target="_blank" title="View Kathleen Gedert's Ratings">
+Kathleen Gedert
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/home-economics" title="View Divine Child High School&#39;s Home Economics Teachers">Home Economics</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Kathleen Gedert" data-sid="43142" data-status="12" data-tid="1962425" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great teacher! Very fun and can have good convos with her. One of my fave teachers at Dc.
+</div>
+<div class="options">
+<a alt="View Kathleen Gedert's Ratings" class="btn view_more" href="/kathleen-gedert/1962425-t" title="View Kathleen Gedert's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kathleen-gedert/1962425-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View David Swan's Ratings" class="name" href="/david-swan/1905785-t" target="_blank" title="View David Swan's Ratings">
+David Swan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/drafting" title="View Divine Child High School&#39;s Drafting Teachers">Drafting</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="David Swan" data-sid="43142" data-status="12" data-tid="1905785" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1905785" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="David Swan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  David Swan">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1905785" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="David Swan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  David Swan">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/david-swan/1905785-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Deb Coyne's Ratings" class="name" href="/deb-coyne/1905786-t" target="_blank" title="View Deb Coyne's Ratings">
+Deb Coyne
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/administration" title="View Divine Child High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Deb Coyne" data-sid="43142" data-status="12" data-tid="1905786" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 73.260px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+she definetly has her favorites.
+</div>
+<div class="options">
+<a alt="View Deb Coyne's Ratings" class="btn view_more" href="/deb-coyne/1905786-t" title="View Deb Coyne's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/deb-coyne/1905786-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Amanda Abraham's Ratings" class="name" href="/amanda-abraham/1904112-t" target="_blank" title="View Amanda Abraham's Ratings">
+Amanda Abraham
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/math" title="View Divine Child High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Amanda Abraham" data-sid="43142" data-status="12" data-tid="1904112" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1904112" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Amanda Abraham" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Amanda Abraham">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1904112" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Amanda Abraham" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Amanda Abraham">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/amanda-abraham/1904112-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Connie Hansen's Ratings" class="name" href="/connie-hansen/1904116-t" target="_blank" title="View Connie Hansen's Ratings">
+Connie Hansen
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/computer-science" title="View Divine Child High School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Connie Hansen" data-sid="43142" data-status="12" data-tid="1904116" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Hansen is the coolest teacher ever! I loved intro. to computer!!!
+</div>
+<div class="options">
+<a alt="View Connie Hansen's Ratings" class="btn view_more" href="/connie-hansen/1904116-t" title="View Connie Hansen's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/connie-hansen/1904116-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Annette Sharp's Ratings" class="name" href="/annette-sharp/1904093-t" target="_blank" title="View Annette Sharp's Ratings">
+Annette Sharp
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/math" title="View Divine Child High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Annette Sharp" data-sid="43142" data-status="-2" data-tid="1904093" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 80.740px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Sharp is my favorite math teacher so far. Her class and the people in it are so fun. We even spent a day making...
+</div>
+<div class="options">
+<a alt="View Annette Sharp's Ratings" class="btn view_more" href="/annette-sharp/1904093-t" title="View Annette Sharp's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/annette-sharp/1904093-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tom Shurtleff's Ratings" class="name" href="/tom-shurtleff/1904097-t" target="_blank" title="View Tom Shurtleff's Ratings">
+Tom Shurtleff
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/religion" title="View Divine Child High School&#39;s Religion Teachers">Religion</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Tom Shurtleff" data-sid="43142" data-status="12" data-tid="1904097" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I think that he is a very nice man who definately knows his religion. He is very easy to talk to and and is always...
+</div>
+<div class="options">
+<a alt="View Tom Shurtleff's Ratings" class="btn view_more" href="/tom-shurtleff/1904097-t" title="View Tom Shurtleff's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tom-shurtleff/1904097-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Liz Giza's Ratings" class="name" href="/liz-giza/1888708-t" target="_blank" title="View Liz Giza's Ratings">
+Liz Giza
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/not-specified" title="View Divine Child High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Liz Giza" data-sid="43142" data-status="12" data-tid="1888708" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Bloomfield is a really nice person, but I sometimes find her teaching methods difficult to understand. She...
+</div>
+<div class="options">
+<a alt="View Liz Giza's Ratings" class="btn view_more" href="/liz-giza/1888708-t" title="View Liz Giza's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/liz-giza/1888708-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View J. michael Courage's Ratings" class="name" href="/j-michael-courage/1888709-t" target="_blank" title="View J. michael Courage's Ratings">
+J. michael Courage
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/administration" title="View Divine Child High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class="teacher_actions" data-name="J. michael Courage" data-sid="43142" data-status="-2" data-tid="1888709" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 100.980px;"></div>
+</div>
+</div>
+<div class="rating_count">13 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best teacher I've ever had and an amazing person too. Shows expertise and works hard to help his students succeed.
+</div>
+<div class="options">
+<a alt="View J. michael Courage's Ratings" class="btn view_more" href="/j-michael-courage/1888709-t" title="View J. michael Courage's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/j-michael-courage/1888709-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mark Sieloff's Ratings" class="name" href="/mark-sieloff/1888702-t" target="_blank" title="View Mark Sieloff's Ratings">
+Mark Sieloff
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/religion" title="View Divine Child High School&#39;s Religion Teachers">Religion</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mark Sieloff" data-sid="43142" data-status="12" data-tid="1888702" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+So boring, but a decent teacher and a very, VERY nice guy.
+</div>
+<div class="options">
+<a alt="View Mark Sieloff's Ratings" class="btn view_more" href="/mark-sieloff/1888702-t" title="View Mark Sieloff's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mark-sieloff/1888702-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lynn Lapshan's Ratings" class="name" href="/lynn-lapshan/1888706-t" target="_blank" title="View Lynn Lapshan's Ratings">
+Lynn Lapshan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/math" title="View Divine Child High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Lynn Lapshan" data-sid="43142" data-status="12" data-tid="1888706" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Ms. Lapshan is one of the best math teachers I have ever had. I pretty much understand all the concepts she presents...
+</div>
+<div class="options">
+<a alt="View Lynn Lapshan's Ratings" class="btn view_more" href="/lynn-lapshan/1888706-t" title="View Lynn Lapshan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lynn-lapshan/1888706-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Patricia Poirier's Ratings" class="name" href="/patricia-poirier/1841040-t" target="_blank" title="View Patricia Poirier's Ratings">
+Patricia Poirier
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/physical-education" title="View Divine Child High School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Patricia Poirier" data-sid="43142" data-status="12" data-tid="1841040" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+A very nice and very sensitive teacher. I really liked her, and highly recommend her. She really tried to be very fair.
+</div>
+<div class="options">
+<a alt="View Patricia Poirier's Ratings" class="btn view_more" href="/patricia-poirier/1841040-t" title="View Patricia Poirier's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/patricia-poirier/1841040-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mary Melonio's Ratings" class="name" href="/mary-melonio/1729030-t" target="_blank" title="View Mary Melonio's Ratings">
+Mary Melonio
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/music" title="View Divine Child High School&#39;s Music Teachers">Music</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mary Melonio" data-sid="43142" data-status="12" data-tid="1729030" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1729030" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mary Melonio" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mary Melonio">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1729030" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mary Melonio" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mary Melonio">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mary-melonio/1729030-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lyndal Last's Ratings" class="name" href="/lyndal-last/1725550-t" target="_blank" title="View Lyndal Last's Ratings">
+Lyndal Last
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/fine-arts" title="View Divine Child High School&#39;s Fine Arts Teachers">Fine Arts</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Lyndal Last" data-sid="43142" data-status="12" data-tid="1725550" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.260px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Ms. Last was by far the greatest teacher to bless the community at Divine Child High School. She will be forever...
+</div>
+<div class="options">
+<a alt="View Lyndal Last's Ratings" class="btn view_more" href="/lyndal-last/1725550-t" title="View Lyndal Last's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lyndal-last/1725550-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jane Faletti's Ratings" class="name" href="/jane-faletti/1713617-t" target="_blank" title="View Jane Faletti's Ratings">
+Jane Faletti
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/english" title="View Divine Child High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Jane Faletti" data-sid="43142" data-status="-2" data-tid="1713617" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 75.240px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I feel like her grading was based on if she liked you or not :/
+</div>
+<div class="options">
+<a alt="View Jane Faletti's Ratings" class="btn view_more" href="/jane-faletti/1713617-t" title="View Jane Faletti's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jane-faletti/1713617-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Erin Harker's Ratings" class="name" href="/erin-harker/1650376-t" target="_blank" title="View Erin Harker's Ratings">
+Erin Harker
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/counselor" title="View Divine Child High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Erin Harker" data-sid="43142" data-status="12" data-tid="1650376" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+mrs. harker is awesome :) she is helpful and she is a great listener!
+</div>
+<div class="options">
+<a alt="View Erin Harker's Ratings" class="btn view_more" href="/erin-harker/1650376-t" title="View Erin Harker's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/erin-harker/1650376-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sister Olivette's Ratings" class="name" href="/sister-olivette/1650383-t" target="_blank" title="View Sister Olivette's Ratings">
+Sister Olivette
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/substitute-teacher" title="View Divine Child High School&#39;s Substitute Teacher Teachers">Substitute Teacher</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Sister Olivette" data-sid="43142" data-status="12" data-tid="1650383" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 100.320px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+May Sister Olivette rest in peace. She was an exceptionally kind and insightful woman who always had a kind word to say.
+</div>
+<div class="options">
+<a alt="View Sister Olivette's Ratings" class="btn view_more" href="/sister-olivette/1650383-t" title="View Sister Olivette's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sister-olivette/1650383-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kathy Tar's Ratings" class="name" href="/kathy-tar/1643294-t" target="_blank" title="View Kathy Tar's Ratings">
+Kathy Tar
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/speech" title="View Divine Child High School&#39;s Speech Teachers">Speech</a>
+</div>
+<div class="teacher_actions" data-name="Kathy Tar" data-sid="43142" data-status="-2" data-tid="1643294" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+:)
+</div>
+<div class="options">
+<a alt="View Kathy Tar's Ratings" class="btn view_more" href="/kathy-tar/1643294-t" title="View Kathy Tar's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kathy-tar/1643294-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Felix Kalinowski's Ratings" class="name" href="/felix-kalinowski/1599973-t" target="_blank" title="View Felix Kalinowski's Ratings">
+Felix Kalinowski
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/religion" title="View Divine Child High School&#39;s Religion Teachers">Religion</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Felix Kalinowski" data-sid="43142" data-status="12" data-tid="1599973" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 107.360px;"></div>
+</div>
+</div>
+<div class="rating_count">11 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+At the time, I probably would have rated Mr. Kalinowski as a B. I didn't agree with much of what he said, but the...
+</div>
+<div class="options">
+<a alt="View Felix Kalinowski's Ratings" class="btn view_more" href="/felix-kalinowski/1599973-t" title="View Felix Kalinowski's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/felix-kalinowski/1599973-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Ed Desforges' Ratings" class="name" href="/ed-desforges/1552400-t" target="_blank" title="View Ed Desforges' Ratings">
+Ed Desforges
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/religion" title="View Divine Child High School&#39;s Religion Teachers">Religion</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Ed Desforges" data-sid="43142" data-status="12" data-tid="1552400" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+One of the Best, tells nothing but the truth.
+</div>
+<div class="options">
+<a alt="View Ed Desforges' Ratings" class="btn view_more" href="/ed-desforges/1552400-t" title="View Ed Desforges' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/ed-desforges/1552400-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sally Kilcullen's Ratings" class="name" href="/sally-kilcullen/1546956-t" target="_blank" title="View Sally Kilcullen's Ratings">
+Sally Kilcullen
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/languages" title="View Divine Child High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Sally Kilcullen" data-sid="43142" data-status="12" data-tid="1546956" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 78.760px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Really good language teacher. Understands language well and explains it really well. Really makes sure we can speak,...
+</div>
+<div class="options">
+<a alt="View Sally Kilcullen's Ratings" class="btn view_more" href="/sally-kilcullen/1546956-t" title="View Sally Kilcullen's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sally-kilcullen/1546956-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Karen Pritchard's Ratings" class="name" href="/karen-pritchard/1545441-t" target="_blank" title="View Karen Pritchard's Ratings">
+Karen Pritchard
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/speech" title="View Divine Child High School&#39;s Speech Teachers">Speech</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Karen Pritchard" data-sid="43142" data-status="12" data-tid="1545441" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 72.380px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+You are required at divine child highschool to take speech, well if you have her as a teacher your better off not...
+</div>
+<div class="options">
+<a alt="View Karen Pritchard's Ratings" class="btn view_more" href="/karen-pritchard/1545441-t" title="View Karen Pritchard's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/karen-pritchard/1545441-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Gregory Nichols' Ratings" class="name" href="/gregory-nichols/1540094-t" target="_blank" title="View Gregory Nichols' Ratings">
+Gregory Nichols
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/history" title="View Divine Child High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Gregory Nichols" data-sid="43142" data-status="-2" data-tid="1540094" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 85.360px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Hilarious. Let you know exactly what you need to know in the chapter. Lectures where to the point factually, and he...
+</div>
+<div class="options">
+<a alt="View Gregory Nichols' Ratings" class="btn view_more" href="/gregory-nichols/1540094-t" title="View Gregory Nichols' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/gregory-nichols/1540094-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lynn Newberry's Ratings" class="name" href="/lynn-newberry/1535758-t" target="_blank" title="View Lynn Newberry's Ratings">
+Lynn Newberry
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/math" title="View Divine Child High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Lynn Newberry" data-sid="43142" data-status="12" data-tid="1535758" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 86.240px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+you learn alot in her class and she is really really helpfull when you go one on one with her
+</div>
+<div class="options">
+<a alt="View Lynn Newberry's Ratings" class="btn view_more" href="/lynn-newberry/1535758-t" title="View Lynn Newberry's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lynn-newberry/1535758-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sister Aquila's Ratings" class="name" href="/sister-aquila/1532111-t" target="_blank" title="View Sister Aquila's Ratings">
+Sister Aquila
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/librarian" title="View Divine Child High School&#39;s Librarian Teachers">Librarian</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Sister Aquila" data-sid="43142" data-status="11" data-tid="1532111" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Very Kind.
+</div>
+<div class="options">
+<a alt="View Sister Aquila's Ratings" class="btn view_more" href="/sister-aquila/1532111-t" title="View Sister Aquila's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sister-aquila/1532111-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lawrence Rivard's Ratings" class="name" href="/lawrence-rivard/1532025-t" target="_blank" title="View Lawrence Rivard's Ratings">
+Lawrence Rivard
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/history" title="View Divine Child High School&#39;s History Teachers">History</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Lawrence Rivard" data-sid="43142" data-status="12" data-tid="1532025" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+legend
+</div>
+<div class="options">
+<a alt="View Lawrence Rivard's Ratings" class="btn view_more" href="/lawrence-rivard/1532025-t" title="View Lawrence Rivard's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lawrence-rivard/1532025-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Pam Romanelli's Ratings" class="name" href="/pam-romanelli/1532042-t" target="_blank" title="View Pam Romanelli's Ratings">
+Pam Romanelli
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/counselor" title="View Divine Child High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Pam Romanelli" data-sid="43142" data-status="12" data-tid="1532042" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 90.420px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Ms. Romanelli was my counselor and was always there for me - she took the time to meet with me when I needed, she...
+</div>
+<div class="options">
+<a alt="View Pam Romanelli's Ratings" class="btn view_more" href="/pam-romanelli/1532042-t" title="View Pam Romanelli's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/pam-romanelli/1532042-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View P. Micheal Foye's Ratings" class="name" href="/p-micheal-foye/1532054-t" target="_blank" title="View P. Micheal Foye's Ratings">
+P. Micheal Foye
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/visual-arts" title="View Divine Child High School&#39;s Visual Arts Teachers">Visual Arts</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="P. Micheal Foye" data-sid="43142" data-status="12" data-tid="1532054" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 105.600px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I took his AP Art History class and I learned more from his personal stories of art pieces than the book could ever...
+</div>
+<div class="options">
+<a alt="View P. Micheal Foye's Ratings" class="btn view_more" href="/p-micheal-foye/1532054-t" title="View P. Micheal Foye's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/p-micheal-foye/1532054-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sandra Taylor's Ratings" class="name" href="/sandra-taylor/1532078-t" target="_blank" title="View Sandra Taylor's Ratings">
+Sandra Taylor
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/english" title="View Divine Child High School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Sandra Taylor" data-sid="43142" data-status="12" data-tid="1532078" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is great. I have had hear for three different classes. Maybe even four. She is nice and entertaining and has a...
+</div>
+<div class="options">
+<a alt="View Sandra Taylor's Ratings" class="btn view_more" href="/sandra-taylor/1532078-t" title="View Sandra Taylor's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sandra-taylor/1532078-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Marketa Harvey's Ratings" class="name" href="/marketa-harvey/1522563-t" target="_blank" title="View Marketa Harvey's Ratings">
+Marketa Harvey
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/science" title="View Divine Child High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Marketa Harvey" data-sid="43142" data-status="12" data-tid="1522563" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 72.820px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+im not feelin this class at allllll
+</div>
+<div class="options">
+<a alt="View Marketa Harvey's Ratings" class="btn view_more" href="/marketa-harvey/1522563-t" title="View Marketa Harvey's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/marketa-harvey/1522563-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Robert Bush's Ratings" class="name" href="/robert-bush/1521461-t" target="_blank" title="View Robert Bush's Ratings">
+Robert Bush
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/multiple-subjects" title="View Divine Child High School&#39;s Multiple Subjects Teachers">Multiple Subjects</a>
+</div>
+<div class="teacher_actions" data-name="Robert Bush" data-sid="43142" data-status="-2" data-tid="1521461" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.080px;"></div>
+</div>
+</div>
+<div class="rating_count">11 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He is a great person for all reasons!He is a great person for all reasons!He is a great person for all reasons!
+</div>
+<div class="options">
+<a alt="View Robert Bush's Ratings" class="btn view_more" href="/robert-bush/1521461-t" title="View Robert Bush's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/robert-bush/1521461-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Gary Lesnau's Ratings" class="name" href="/gary-lesnau/1521051-t" target="_blank" title="View Gary Lesnau's Ratings">
+Gary Lesnau
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/history" title="View Divine Child High School&#39;s History Teachers">History</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Gary Lesnau" data-sid="43142" data-status="12" data-tid="1521051" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 98.560px;"></div>
+</div>
+</div>
+<div class="rating_count">16 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+My fav teacher in all of highschool. His class was HARD, but grow up, he will teach you a lot and prepare you for...
+</div>
+<div class="options">
+<a alt="View Gary Lesnau's Ratings" class="btn view_more" href="/gary-lesnau/1521051-t" title="View Gary Lesnau's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/gary-lesnau/1521051-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Angela Cowan's Ratings" class="name" href="/angela-cowan/1521052-t" target="_blank" title="View Angela Cowan's Ratings">
+Angela Cowan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/english" title="View Divine Child High School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Angela Cowan" data-sid="43142" data-status="12" data-tid="1521052" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 100.100px;"></div>
+</div>
+</div>
+<div class="rating_count">10 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is a very good teacher. She understands students and actually teaches the subject. Also, her tests/quizzes are on...
+</div>
+<div class="options">
+<a alt="View Angela Cowan's Ratings" class="btn view_more" href="/angela-cowan/1521052-t" title="View Angela Cowan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/angela-cowan/1521052-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Marco Monea's Ratings" class="name" href="/marco-monea/1498188-t" target="_blank" title="View Marco Monea's Ratings">
+Marco Monea
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/substitute-teacher" title="View Divine Child High School&#39;s Substitute Teacher Teachers">Substitute Teacher</a>
+</div>
+<div class="teacher_actions" data-name="Marco Monea" data-sid="43142" data-status="-2" data-tid="1498188" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.700px;"></div>
+</div>
+</div>
+<div class="rating_count">10 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+most of the time when a teacher is so chill and funny it pretty much means you won't learn anything. That's untrue....
+</div>
+<div class="options">
+<a alt="View Marco Monea's Ratings" class="btn view_more" href="/marco-monea/1498188-t" title="View Marco Monea's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/marco-monea/1498188-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Michele Kostyshak's Ratings" class="name" href="/michele-kostyshak/1484189-t" target="_blank" title="View Michele Kostyshak's Ratings">
+Michele Kostyshak
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/french" title="View Divine Child High School&#39;s French Teachers">French</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Michele Kostyshak" data-sid="43142" data-status="12" data-tid="1484189" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+great teacher
+</div>
+<div class="options">
+<a alt="View Michele Kostyshak's Ratings" class="btn view_more" href="/michele-kostyshak/1484189-t" title="View Michele Kostyshak's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/michele-kostyshak/1484189-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jennifer Heskett's Ratings" class="name" href="/jennifer-heskett/1449364-t" target="_blank" title="View Jennifer Heskett's Ratings">
+Jennifer Heskett
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/science" title="View Divine Child High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Jennifer Heskett" data-sid="43142" data-status="-2" data-tid="1449364" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 90.420px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great teacher, a little disorganized but I learned a lot.
+</div>
+<div class="options">
+<a alt="View Jennifer Heskett's Ratings" class="btn view_more" href="/jennifer-heskett/1449364-t" title="View Jennifer Heskett's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jennifer-heskett/1449364-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tom Dawson's Ratings" class="name" href="/tom-dawson/1403649-t" target="_blank" title="View Tom Dawson's Ratings">
+Tom Dawson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/math" title="View Divine Child High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Tom Dawson" data-sid="43142" data-status="12" data-tid="1403649" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Amazingly smart teacher. Bast math teacher at DC ever.
+</div>
+<div class="options">
+<a alt="View Tom Dawson's Ratings" class="btn view_more" href="/tom-dawson/1403649-t" title="View Tom Dawson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tom-dawson/1403649-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Damian Hermann's Ratings" class="name" href="/damian-hermann/1389097-t" target="_blank" title="View Damian Hermann's Ratings">
+Damian Hermann
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/languages" title="View Divine Child High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Damian Hermann" data-sid="43142" data-status="12" data-tid="1389097" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 90.860px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+only freshman think mr. hermann is cool. hes decent as a teacher but terrible as the dean. Herr Young is the best...
+</div>
+<div class="options">
+<a alt="View Damian Hermann's Ratings" class="btn view_more" href="/damian-hermann/1389097-t" title="View Damian Hermann's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/damian-hermann/1389097-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Doug Strayer's Ratings" class="name" href="/doug-strayer/1364429-t" target="_blank" title="View Doug Strayer's Ratings">
+Doug Strayer
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/english" title="View Divine Child High School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Doug Strayer" data-sid="43142" data-status="12" data-tid="1364429" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 36.740px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Not a good teacher. Never passes anything back. Looses papers. Teaches bad. I dont know, I was not to fond of him at...
+</div>
+<div class="options">
+<a alt="View Doug Strayer's Ratings" class="btn view_more" href="/doug-strayer/1364429-t" title="View Doug Strayer's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/doug-strayer/1364429-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Diane Rivard's Ratings" class="name" href="/diane-rivard/1364439-t" target="_blank" title="View Diane Rivard's Ratings">
+Diane Rivard
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/counselor" title="View Divine Child High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Diane Rivard" data-sid="43142" data-status="12" data-tid="1364439" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 90.860px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Very nice, and wants to help you.
+</div>
+<div class="options">
+<a alt="View Diane Rivard's Ratings" class="btn view_more" href="/diane-rivard/1364439-t" title="View Diane Rivard's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/diane-rivard/1364439-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mary kay Polo's Ratings" class="name" href="/mary-kay-polo/1362535-t" target="_blank" title="View Mary kay Polo's Ratings">
+Mary kay Polo
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/languages" title="View Divine Child High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mary kay Polo" data-sid="43142" data-status="12" data-tid="1362535" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 75.680px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She was a great teacher and spent a lot of time outside the classroom with us. She tried to really generate our...
+</div>
+<div class="options">
+<a alt="View Mary kay Polo's Ratings" class="btn view_more" href="/mary-kay-polo/1362535-t" title="View Mary kay Polo's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mary-kay-polo/1362535-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Roberta Shortt's Ratings" class="name" href="/roberta-shortt/1226366-t" target="_blank" title="View Roberta Shortt's Ratings">
+Roberta Shortt
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/not-specified" title="View Divine Child High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Roberta Shortt" data-sid="43142" data-status="12" data-tid="1226366" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She made me enjoy english and literature more than before!
+</div>
+<div class="options">
+<a alt="View Roberta Shortt's Ratings" class="btn view_more" href="/roberta-shortt/1226366-t" title="View Roberta Shortt's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/roberta-shortt/1226366-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Debby Romanelli's Ratings" class="name" href="/debby-romanelli/1191479-t" target="_blank" title="View Debby Romanelli's Ratings">
+Debby Romanelli
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/not-specified" title="View Divine Child High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Debby Romanelli" data-sid="43142" data-status="12" data-tid="1191479" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.260px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+vey nice teacher and she cares alot about her students.and she is very fashionable. she can easly brighten your day!!!!!
+</div>
+<div class="options">
+<a alt="View Debby Romanelli's Ratings" class="btn view_more" href="/debby-romanelli/1191479-t" title="View Debby Romanelli's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/debby-romanelli/1191479-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Matt Zemba's Ratings" class="name" href="/matt-zemba/1180411-t" target="_blank" title="View Matt Zemba's Ratings">
+Matt Zemba
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/visual-arts" title="View Divine Child High School&#39;s Visual Arts Teachers">Visual Arts</a>
+</div>
+<div class="teacher_actions" data-name="Matt Zemba" data-sid="43142" data-status="-2" data-tid="1180411" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 108.240px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+hes the coolest teacher ever
+</div>
+<div class="options">
+<a alt="View Matt Zemba's Ratings" class="btn view_more" href="/matt-zemba/1180411-t" title="View Matt Zemba's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/matt-zemba/1180411-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Peggy Knuth's Ratings" class="name" href="/peggy-knuth/1069655-t" target="_blank" title="View Peggy Knuth's Ratings">
+Peggy Knuth
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/health" title="View Divine Child High School&#39;s Health Teachers">Health</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Peggy Knuth" data-sid="43142" data-status="12" data-tid="1069655" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.220px;"></div>
+</div>
+</div>
+<div class="rating_count">19 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I think Mrs. Knuth was the best principal ever. My family is sadden by the fact she retired. I have 2 more children...
+</div>
+<div class="options">
+<a alt="View Peggy Knuth's Ratings" class="btn view_more" href="/peggy-knuth/1069655-t" title="View Peggy Knuth's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/peggy-knuth/1069655-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mary Dryer's Ratings" class="name" href="/mary-dryer/942611-t" target="_blank" title="View Mary Dryer's Ratings">
+Mary Dryer
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/languages" title="View Divine Child High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mary Dryer" data-sid="43142" data-status="12" data-tid="942611" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 96.360px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I enjoyed the class, but I wish more focus was put on learning the language and being able to speak, rather than...
+</div>
+<div class="options">
+<a alt="View Mary Dryer's Ratings" class="btn view_more" href="/mary-dryer/942611-t" title="View Mary Dryer's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mary-dryer/942611-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Marcia Reetz's Ratings" class="name" href="/marcia-reetz/931088-t" target="_blank" title="View Marcia Reetz's Ratings">
+Marcia Reetz
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/science" title="View Divine Child High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Marcia Reetz" data-sid="43142" data-status="-2" data-tid="931088" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 96.800px;"></div>
+</div>
+</div>
+<div class="rating_count">10 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I grad. from DC 11 years ago and this woman was by far the best teacher I ever had.Was she tough? Yes. Did she have...
+</div>
+<div class="options">
+<a alt="View Marcia Reetz's Ratings" class="btn view_more" href="/marcia-reetz/931088-t" title="View Marcia Reetz's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/marcia-reetz/931088-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Vicky Okon's Ratings" class="name" href="/vicky-okon/930593-t" target="_blank" title="View Vicky Okon's Ratings">
+Vicky Okon
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/english" title="View Divine Child High School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Vicky Okon" data-sid="43142" data-status="12" data-tid="930593" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 91.300px;"></div>
+</div>
+</div>
+<div class="rating_count">10 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Such a hard teacher! SO GLAD SHE WAS. She wanted quality. Lots of homework, lots of stress, and lots of people who...
+</div>
+<div class="options">
+<a alt="View Vicky Okon's Ratings" class="btn view_more" href="/vicky-okon/930593-t" title="View Vicky Okon's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/vicky-okon/930593-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mayra Jares' Ratings" class="name" href="/mayra-jares/930596-t" target="_blank" title="View Mayra Jares' Ratings">
+Mayra Jares
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/languages" title="View Divine Child High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mayra Jares" data-sid="43142" data-status="12" data-tid="930596" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 97.240px;"></div>
+</div>
+</div>
+<div class="rating_count">11 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I love Mrs. Jares so very much! Although taking the class is really hard, she really makes you understand it, and...
+</div>
+<div class="options">
+<a alt="View Mayra Jares' Ratings" class="btn view_more" href="/mayra-jares/930596-t" title="View Mayra Jares' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mayra-jares/930596-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Robert Camaiani's Ratings" class="name" href="/robert-camaiani/759163-t" target="_blank" title="View Robert Camaiani's Ratings">
+Robert Camaiani
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/counselor" title="View Divine Child High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Robert Camaiani" data-sid="43142" data-status="12" data-tid="759163" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I LOVE MR.C!!!!! HE'S AMAZING
+</div>
+<div class="options">
+<a alt="View Robert Camaiani's Ratings" class="btn view_more" href="/robert-camaiani/759163-t" title="View Robert Camaiani's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/robert-camaiani/759163-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Judy Altesleben's Ratings" class="name" href="/judy-altesleben/759169-t" target="_blank" title="View Judy Altesleben's Ratings">
+Judy Altesleben
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/home-economics" title="View Divine Child High School&#39;s Home Economics Teachers">Home Economics</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Judy Altesleben" data-sid="43142" data-status="12" data-tid="759169" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 101.420px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+she is a great teacher
+</div>
+<div class="options">
+<a alt="View Judy Altesleben's Ratings" class="btn view_more" href="/judy-altesleben/759169-t" title="View Judy Altesleben's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/judy-altesleben/759169-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Thomas Young's Ratings" class="name" href="/thomas-young/444652-t" target="_blank" title="View Thomas Young's Ratings">
+Thomas Young
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/languages" title="View Divine Child High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Thomas Young" data-sid="43142" data-status="-2" data-tid="444652" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 107.580px;"></div>
+</div>
+</div>
+<div class="rating_count">12 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Herr Young is very fair and easy- what language teachers should be like. Some language teachers are fail, but some...
+</div>
+<div class="options">
+<a alt="View Thomas Young's Ratings" class="btn view_more" href="/thomas-young/444652-t" title="View Thomas Young's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/thomas-young/444652-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Katherine Higgins- Luthman's Ratings" class="name" href="/katherine-higgins-luthman/444661-t" target="_blank" title="View Katherine Higgins- Luthman's Ratings">
+Katherine Higgins- Luthman
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/science" title="View Divine Child High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Katherine Higgins- Luthman" data-sid="43142" data-status="12" data-tid="444661" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.440px;"></div>
+</div>
+</div>
+<div class="rating_count">15 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Higgins-Luthman was wonderful and very accommodating to student needs. I was extremely ill during the year I...
+</div>
+<div class="options">
+<a alt="View Katherine Higgins- Luthman's Ratings" class="btn view_more" href="/katherine-higgins-luthman/444661-t" title="View Katherine Higgins- Luthman's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/katherine-higgins-luthman/444661-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Cooley's Ratings" class="name" href="/cooley/8007593-t" target="_blank" title="View Cooley's Ratings">
+Mrs. Cooley
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/history" title="View Divine Child High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Cooley" data-sid="43142" data-status="-2" data-tid="8007593" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+amazing teacher to have soph year
+</div>
+<div class="options">
+<a alt="View Cooley's Ratings" class="btn view_more" href="/cooley/8007593-t" title="View Cooley's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/cooley/8007593-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Heiden's Ratings" class="name" href="/heiden/8007591-t" target="_blank" title="View Heiden's Ratings">
+Mr. Heiden
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/languages" title="View Divine Child High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Heiden" data-sid="43142" data-status="-2" data-tid="8007591" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=8007591" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mr. Heiden" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Heiden">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=8007591" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mr. Heiden" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Heiden">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/heiden/8007591-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Amanda Naoum's Ratings" class="name" href="/amanda-naoum/7997501-t" target="_blank" title="View Amanda Naoum's Ratings">
+Amanda Naoum
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/divine-child-high-school/43142-s/counselor" title="View Divine Child High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="teacher_actions" data-name="Amanda Naoum" data-sid="43142" data-status="-2" data-tid="7997501" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7997501" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Amanda Naoum" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Amanda Naoum">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7997501" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Amanda Naoum" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Amanda Naoum">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/amanda-naoum/7997501-t"></a>
+</div>
+
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-lg-3 secondary_column">
+<a class="rating_histogram_widget_link_container" href="/divine-child-high-school/43142-s/stats" title="Go to Divine Child High School stats">
+<div class="row block_container school_rating_histogram_card">
+<div class="col-xs-12">
+<h2 class="school_name" title="Learn more about Divine Child High School">
+<span>
+Divine Child High School Rating Histogram
+</span>
+</h2>
+<div class="score_line_container">
+<div class="score_label">5-star</div>
+<div class="score_percentage">76%</div>
+<div class="score_line">
+<div class="aux" style="width: 76.27%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">4-star</div>
+<div class="score_percentage">9%</div>
+<div class="score_line">
+<div class="aux" style="width: 9.04%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">3-star</div>
+<div class="score_percentage">5%</div>
+<div class="score_line">
+<div class="aux" style="width: 5.08%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">2-star</div>
+<div class="score_percentage">3%</div>
+<div class="score_line">
+<div class="aux" style="width: 3.95%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">1-star</div>
+<div class="score_percentage">5%</div>
+<div class="score_line">
+<div class="aux" style="width: 5.65%;"></div>
+</div>
+</div>
+<div class="score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 90px; height: 15px;">
+<div class="rateit-preset rateit-selected" style="height: 15px; width: 77.528px;"></div>
+</div>
+</div>
+<span class="rating-summary">
+Based on
+439
+Ratings
+</span>
+</div>
+</div>
+</div>
+</a>
+<div class="sticky_container_right">
+<div class="sticky_column">
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="all_footer_wrapper" style="overflow:hidden;">
+<section class="container-fluid hidden-xs padding" id="states">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-sm-offset-0 footer_states_container">
+<h3>Locate Schools by State:</h3>
+<div class="states">
+<div class="state">
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class="state">
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class="state">
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class="state">
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class="state">
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class="state">
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class="state">
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class="state">
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class="state">
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class="state">
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class="state">
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class="state">
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class="state">
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class="state">
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class="state">
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class="state">
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class="state">
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class="state">
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class="state">
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class="state">
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class="state">
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class="state">
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class="state">
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class="state">
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class="state">
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class="state">
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class="state">
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class="state">
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class="state">
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class="state">
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class="state">
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class="state">
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class="state">
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class="state">
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class="state">
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class="state">
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class="state">
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class="state">
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class="state">
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class="state">
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class="state">
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class="state">
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class="state">
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class="state">
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class="state">
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class="state">
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class="state">
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class="state">
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer_directory">
+<div class="container">
+<div class="row">
+<div class="col-xs-6 hidden-xs">
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;W&quot;" href="/schools/directory/w" title="Schools beginning with &quot;W&quot;">w</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class="col-xs-6 hidden-xs">
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;W&quot;" href="/teachers/directory/w" title="Teachers beginning with &quot;W&quot;">w</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class="row footer_countries_list">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer">
+<div class="container">
+<div class="row footer_links">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+<h3 class="hidden-sm hidden-md hidden-lg">Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop="static" data-keyboard data-remote="/contact/new" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Contact RateMyTeachers">
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="row copyright">
+Copyright 2001-2017 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden="true" class="modal fade" id="modal" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div aria-hidden="true" class="modal fade" id="modal_rating" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div id="loading-indicator" style="display: none;">
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif"/>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    functionToLoad.push('//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js');
+  </script>
+<script type="text/javascript">
+    functionToLoad.push('/assets/application-54ea36510d376e4b53979f87d72bc002.js');
+    functionToLoad.push('/assets/users-8d86f10db3dd4d729784ef9748a4b44e.js');
+  </script>
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        // Facebook like
+        // (function(d, s, id) {
+        //   var js, fjs = d.getElementsByTagName(s)[0];
+        //   if (d.getElementById(id)) return;
+        //   js = d.createElement(s); js.id = id;
+        //   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=232453153516852&version=v2.0";
+        //   fjs.parentNode.insertBefore(js, fjs);
+        // }(document, 'script', 'facebook-jssdk'));
+
+        // Google Plus
+        // (function() {
+        //   var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        //   po.src = 'https://apis.google.com/js/platform.js';
+        //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        // })();
+
+        // Twitter Follow
+        // !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      
+      });
+    </script>
+<script>
+  functionToLoad.push(function() {
+    $('#teachers_by_alphabet').change(function(e){
+      document.location.href = $('#teachers_by_alphabet').val()
+    });
+  });
+</script>
+<script>
+  functionToLoad.push(function() {
+    var schoolPagePath = '/divine-child-high-school/43142-s';
+    var resultCount = 86;
+    var minStickyResultCount = 3;
+
+    if (!isMobile && !isMedium && resultCount > 0) {
+      var stickyColumnRight = $(".sticky_container_right .sticky_column");
+      var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+      var footerHeight = $('#all_footer_wrapper').outerHeight() + 50;
+      var stickyOptions = function(getWidthFrom) {
+        return {topSpacing:0, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+      }
+      stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+      // Make center column options sticky when min results quantity
+      if (resultCount > minStickyResultCount - 1) {
+        stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+      }
+    }
+  });
+</script>
+<script type="text/javascript">
+    function initializeMaps() {
+      var length = mapFunctionArray.length;
+      for (var i = 0; i < length; i++) {
+        mapFunctionArray[i]();
+      }
+    }
+
+    functionToLoad.push(function() {
+      // Don't load google maps when no pending maps
+      if (typeof(mapFunctionArray) === 'undefined' || mapFunctionArray.length < 1)
+        return;
+
+      var googleMapsId = "AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g";
+
+      var script_path = "http://maps.googleapis.com/maps/api/js?key=" + googleMapsId + "&sensor=false&callback=initializeMaps";
+      $.getScript(script_path);
+
+    });
+  </script>
+
+
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-bottom"};
+      });
+      functionToLoad.push("//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js");
+    </script>
+
+<script>
+    window.addEventListener('load', function(){
+      console.info("[PERF] DomContentLoaded: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+
+    window.addEventListener('load', function(){
+      console.info("[PERF] Load: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+  </script>
+
+<script type="text/javascript">
+    (function() {
+      // Load script from url
+      var loadScript = function(url, callback) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+
+        // Add on load callback event
+        if (callback !== null) {
+          if (script.readyState){ //IE
+            script.onreadystatechange = function(){
+              if (script.readyState == "loaded" || script.readyState == "complete"){
+                script.onreadystatechange = null;
+                callback();
+              }
+            };
+          } else { //Others
+            // Execute callback even when an error happen
+            script.onerror = function(e){
+              try {
+                console.error("An error happen when loading '" + err.target.src + "' script.");
+              } catch(err) {} finally {
+                callback();
+              }
+            };
+            script.onload = function(){ callback(); };
+          }
+        }
+
+        // Load the script
+        script.src = url;
+        document.body.appendChild(script);
+      };
+
+      // Load scripts in a sequence instead parallel
+      // to make sure frameworks load correctly
+      function sequence(index, max, source) {
+        if (index < max) {
+          var data = functionToLoad.extractElementData(source[index]);
+
+          if (typeof data.element === 'string') {
+            if (data.async) {
+              // Async script
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+              });
+              sequence(index + 1, max, source);
+            } else {
+              // Sync scripts
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+                sequence(index + 1, max, source);
+              });
+            }
+          } else {
+            // Execute callback even when an error happen on the function
+            try {
+              if (data.async) {
+                // Async script
+                setTimeout(function() { data.element(); }, 1);
+              } else {
+                // Sync script
+                data.element();
+              }
+            } catch(err) {
+              console.error(err);
+            } finally {
+              sequence(index + 1, max, source);
+            }
+          }
+        }
+      }
+
+      // Load all javascript in a sequence
+      var loadDeferredJs = function() {
+        sequence(0, functionToLoad.length, functionToLoad);
+      };
+
+      // Execute all lazy javascripts after DOM load
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredJs, 0); });
+      else window.addEventListener('load', loadDeferredJs);
+    })();
+  </script>
+
+</body>
+</html>

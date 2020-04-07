@@ -1,0 +1,4185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+      (function(){
+        window.beginTimeTrack = (new Date()).getTime();
+      })();
+    </script>
+<title>Annapolis High School - Annapolis, Maryland | RateMyTeachers.com</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":532,"agentToken":null,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(15)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(15)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(15)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){g.push(t),h&&(b?b.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(15)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,y="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(y,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===y||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=o(l+e,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(p+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],15:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!l.aborted||i){t&&t(n,r,o);for(var a=e(o),c=h(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[w[n]];return d&&d.push([g,n,r,a]),a}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",w[n]=e,e in u||(u[e]=[])})}var y={},w={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(w,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){s("mark",["domContent",a()+x.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-x.offset}var c=(new Date).getTime(),s=t("handle"),f=t(12),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:c,now:a,origin:y,features:{},xhrWrappable:g};t(9),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),s("mark",["firstbyte",c],null,"api");var b=0,E=t(14)},{}]},{},["loader",2,7]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+<meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw"/>
+<meta name="description" content="Annapolis High School is a High School in Annapolis, MD. Search Annapolis High School&#39;s ratings, statistics and reviews by students and parents."/>
+<meta property="twitter:image" content="http://www.ratemyteachers.com/images/logo_icon_60.png"/>
+<meta property="og:image" content="http://www.ratemyteachers.com/images/logo_icon_100.png"/>
+<meta property="og:title" content="Annapolis High School - Annapolis, Maryland | RateMyTeachers.com"/>
+<meta property="og:type" content="rmt:school"/>
+<meta property="og:url" content="http://www.ratemyteachers.com/annapolis-high-school/9471-s"/>
+<meta property="og:site_name" content="Annapolis High School - Annapolis, Maryland | RateMyTeachers.com"/>
+<meta property="og:description" content="Annapolis High School is a High School in Annapolis, MD. Search Annapolis High School's ratings, statistics and reviews by students and parents."/>
+<meta name="robots" content="noodp,noydir"/>
+<meta property="rmt:image" content="http://www.ratemyteachers.com/apple_touch_icon_196x196.png"/>
+
+<link rel="shortcut icon" sizes="64x64 48x48 32x32 16x16" type="image/x-icon" href="/favicon.ico"/>
+<link rel="apple-touch-icon" href="/apple_touch_icon_60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple_touch_icon_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple_touch_icon_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple_touch_icon_152x152.png">
+<link rel="apple-touch-icon-precomposed" href="/apple_touch_icon_196x196.png"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+<link href="/assets/application-8f34b7246c4006713b4fb0b0c5f281b6.css" media="all" rel="stylesheet"/>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+<script type="text/javascript">
+    var currentState = '';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:     true,
+    debugMode:           false,
+    asyncScripts:        true
+  };
+
+
+  function getWindowWidth() {
+    var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) === 'number' ) {
+      myWidth = window.innerWidth; myHeight = window.innerHeight;
+    } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+      myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+      myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+    }
+    return myWidth;
+  }
+
+  var isDesktopVariant = true;
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isExtraSmall = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false);
+  var isMobile = isExtraSmall || isMobileVariant;
+  var isMedium = (getWindowWidth() < 1200) || (screen ? screen.width < 1200 : false);
+
+
+  var isChrome = navigator.userAgent.indexOf('Chrome') > -1;
+  var isExplorer = navigator.userAgent.indexOf('MSIE') > -1;
+  var isFirefox = navigator.userAgent.indexOf('Firefox') > -1;
+  var isSafari = navigator.userAgent.indexOf("Safari") > -1;
+  var isOpera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
+  if ((isChrome)&&(isSafari)) {isSafari=false;}
+  if ((isChrome)&&(isOpera)) {isChrome=false;}
+
+  var enablePropel    = !isSafari && !isOpera && false;
+  var enableMediabong = !isSafari && !isOpera;
+  var enableBrightComedia = !isSafari && !isOpera;
+
+  var isMobileUpload = false;
+
+    var cseData = {
+      isCseSearch: true
+      ,paramFormat: '%{search_term}%{location}'
+      ,stateList: [{"name":"Alaska","shortname":"ak"},{"name":"Alabama","shortname":"al"},{"name":"Arkansas","shortname":"ar"},{"name":"Arizona","shortname":"az"},{"name":"California","shortname":"ca"},{"name":"Colorado","shortname":"co"},{"name":"Connecticut","shortname":"ct"},{"name":"Dc","shortname":"dc"},{"name":"Delaware","shortname":"de"},{"name":"Florida","shortname":"fl"},{"name":"Georgia","shortname":"ga"},{"name":"Hawaii","shortname":"hi"},{"name":"Iowa","shortname":"ia"},{"name":"Idaho","shortname":"id"},{"name":"Illinois","shortname":"il"},{"name":"Indiana","shortname":"in"},{"name":"Kansas","shortname":"ks"},{"name":"Kentucky","shortname":"ky"},{"name":"Louisiana","shortname":"la"},{"name":"Massachusetts","shortname":"ma"},{"name":"Maryland","shortname":"md"},{"name":"Maine","shortname":"me"},{"name":"Michigan","shortname":"mi"},{"name":"Minnesota","shortname":"mn"},{"name":"Missouri","shortname":"mo"},{"name":"Mississippi","shortname":"ms"},{"name":"Montana","shortname":"mt"},{"name":"North Carolina","shortname":"nc"},{"name":"North Dakota","shortname":"nd"},{"name":"Nebraska","shortname":"ne"},{"name":"New Hampshire","shortname":"nh"},{"name":"New Jersey","shortname":"nj"},{"name":"New Mexico","shortname":"nm"},{"name":"Nevada","shortname":"nv"},{"name":"New York","shortname":"ny"},{"name":"Ohio","shortname":"oh"},{"name":"Oklahoma","shortname":"ok"},{"name":"Oregon","shortname":"or"},{"name":"Pennsylvania","shortname":"pa"},{"name":"Puerto Rico","shortname":"pr"},{"name":"Rhode Island","shortname":"ri"},{"name":"South Carolina","shortname":"sc"},{"name":"South Dakota","shortname":"sd"},{"name":"Tennessee","shortname":"tn"},{"name":"Texas","shortname":"tx"},{"name":"Utah","shortname":"ut"},{"name":"Virginia","shortname":"va"},{"name":"Vermont","shortname":"vt"},{"name":"Washington","shortname":"wa"},{"name":"Wisconsin","shortname":"wi"},{"name":"West Virginia","shortname":"wv"},{"name":"Wyoming","shortname":"wy"}]
+    };
+
+
+  // Search autocomplete widget
+  var searchAutocompleteHTML = "<div class=\'desktop search_autocomplete_widget\'>\n<div class=\'autocomplete_teachers\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-user\'><\/i>\nTeachers and Professors\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_school_name\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nTeachers and Professors\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<div class=\'autocomplete_schools\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-university\'><\/i>\nSchools and Colleges\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_address\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nSchools and Colleges\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<\/div>\n";
+</script>
+<script type="text/javascript">
+  // Async functions variable
+  functionToLoad = [];
+  
+  // Fastest way to check if an object is an array
+  functionToLoad.isArrayObj = function(obj) {
+    return !!obj && obj.constructor === Array;
+  };
+  
+  // Extract data from an element
+  functionToLoad.extractElementData = function(elementData) {
+    var data = {
+      element: elementData
+      ,async: false
+      ,subElements: []
+    };
+    
+    // The element is an array, check for async option
+    if (this.isArrayObj(elementData) && elementData.length > 0) {
+      data.async = !!elementData[1];
+      data.element = elementData[0];
+      data.subElements = elementData[2] || [];
+    }
+    return data;
+  };
+  
+  // Wrap push functionality
+  functionToLoad.realPush = functionToLoad.push;
+  functionToLoad.executePush = function(args) {
+    var data = this.extractElementData(args);
+
+    // Inject script tag on inplace
+    if (typeof data.element === 'string') {
+      // Inject external file
+      document.write('<script type="text/javascript" src="' + data.element + '"><\/script>');
+    } else {
+      // Inject function
+      document.write('<script type="text/javascript">(');
+      document.write(data.element.toString());
+      document.write(')();<\/script>');
+    }
+    
+    // Execute child scripts
+    if (data.subElements.length > 0) {
+      this.executePush(data.subElements);
+    }
+  };
+  functionToLoad.push = function(args) {
+    if (siteConfig.asyncScripts) {
+      if (siteConfig.debugMode) { console.log('Async Script'); }
+      
+      // Async scripts so add it to array for later execution
+      this.realPush(args);
+      return;
+    }
+    if (siteConfig.debugMode) { console.log('Sync Script'); }
+    
+    // No async scripts, execute it right away
+    this.executePush(args);
+  };
+</script>
+<script type="text/javascript">_googlePush = function(a) {};</script>
+<script type="text/javascript">
+  functionToLoad.push('//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js');
+  functionToLoad.push('//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js');
+</script>
+<script>
+      functionToLoad.push(function() {
+        gaId = 'UA-4216499-1';
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', gaId, 'auto');
+        ga('require', 'displayfeatures');
+        //ga('require', 'ecommerce', 'ecommerce.js');
+      });
+    </script>
+<script type="text/javascript">
+  functionToLoad.push('/assets/rmt.analytics-833eb75f283313dde59926cd5939692a.js');
+</script>
+<script>
+  functionToLoad.push(function(){
+    pageType = "";
+    RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+    searchTerm = "";
+  });
+</script>
+<script type="text/javascript">
+    // Returns a function, that, as long as it continues to be invoked, will not
+    // be triggered. The function will be called after it stops being called for
+    // N milliseconds. If `immediate` is passed, trigger the function on the
+    // leading edge, instead of the trailing.
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+</script>
+<script type="text/javascript">
+    var _session = {};
+  </script>
+<link href="http://www.ratemyteachers.com/annapolis-high-school/9471-s.rss" rel="alternate" type="application/rss+xml">
+<meta content="authenticity_token" name="csrf-param"/>
+<meta content="5IIVoZtcWRIOQMjKThCnc84yGCQymM8gkyv2EpSjBx8=" name="csrf-token"/>
+</head>
+
+<body class="inner_page school_page schools_v12_1
+">
+<div id="fb-root"></div>
+<div class="rate_my_teachers_international">
+<div class="container">
+<div class="row">
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+<div class="pull-right user_top_nav"></div>
+</div>
+</div>
+</div>
+<header>
+<div class="container">
+<div class="row">
+<form action="/search_page" class="tab-form search_form trigger_to_main_search" method="get">
+<a alt="Go to RateMyTeachers Home" href="/" id="rate_my_teachers_logo" title="Go to RateMyTeachers Home"></a>
+<input name="search" type="hidden" value="teachers">
+<div class="search_inputs">
+<div class="bg">
+<div class="padding">
+<input class="search_input" name="q" placeholder="Search: School Name, City" type="text">
+</div>
+<div class="location">
+<select class="state" id="state" name="state"><option value>Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class="search_button">
+<button class="btn-search fa fa-search fa-3x" title="Search RateMyTeachers" type="submit"></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+<div class="container-fluid main-content">
+<div class="row">
+<section class="breadcrumbs container-fluid">
+<div class="row">
+<div class="container">
+<div class="col-sm-12">
+<ul class="list-inline collapsible_nav collapsible_nav_collapsed">
+<li class="toggle">
+<a href="javascript:void(0);" rel="nofollow">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li class="collapse">
+<a href="/" title="Go to RateMyTeachers Home">United States</a>
+</li>
+<li class="always_show">
+<a alt="Go to Schools in Maryland" href="/maryland" title="Go to Schools in Maryland">Maryland</a>
+</li>
+<li class="collapse">
+<a alt="Go to Schools in Annapolis" href="/maryland/annapolis" title="Go to Schools in Annapolis">Annapolis</a>
+</li>
+<li class="always_show">
+
+<a alt="View Annapolis High School's Teachers" href="/annapolis-high-school/9471-s" title="View Annapolis High School's Teachers">Annapolis High School</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_teacher_trigger" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=9471" data-school="Annapolis High School" data-sender-name="School page breadcrumb" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher">Add My Teacher</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=9471" data-school="Annapolis High School" data-sender-name="School page breadcrumb" data-target="#modal_rating" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Rate My School">Rate My School</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<div class="container flash_container">
+<div class="row">
+<div class="col-xs-12">
+<div class="alert alert-danger" id="flash-error" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-warning" id="flash-alert" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-success" id="flash-success" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-info" id="flash-notice" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+</div>
+</div>
+</div>
+<div id="content">
+<span class="dn" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/maryland" itemprop="url">
+<span itemprop="title">Maryland</span>
+</a>
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/maryland/annapolis" itemprop="url">
+<span itemprop="title">Annapolis</span>
+</a>
+</span>
+</span>
+<div id="sortable_ad_trigger"></div>
+<div class="container" itemscope itemtype="http://schema.org/ProfilePage">
+<meta content="2017-07-10" itemprop="dateModified">
+
+<div class="dn" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+<meta content="213" itemprop="ratingCount">
+<meta content="213" itemprop="reviewCount">
+<meta content="4.22217" itemprop="ratingValue">
+<meta content="5" itemprop="bestRating">
+<meta content="0" itemprop="worstRating">
+</div>
+<div class="row">
+<section class="col-md-12 content" itemprop="about" itemscope itemtype="http://schema.org/School">
+<div class="row secondary_data">
+<div class="col-xs-12 col-lg-9 primary_column">
+<div class="row school_info">
+<div class="col-xs-12 col-sm-7 main_info">
+<div class="row">
+<div class="col-xs-12">
+<div class="school_name">
+<h1 title="Annapolis High School">
+<span itemprop="name">
+Annapolis High School
+</span>
+<div class="school_actions" data-name="Annapolis High School" data-sid="9471" data-status="0" style="display:none;"></div>
+</h1>
+<a class="edit school_correction_trigger" data-backdrop="static" data-keyboard data-remote="/schools/correction?sid=9471" data-school="Annapolis High School" data-sender-name="School page Main" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit a Correction">
+Edit
+</a>
+</div>
+<div class="score">
+<div class="rateit star-rating rateit-exclude" title="4.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 92.888px;"></div>
+</div>
+</div>
+Average
+4.22
+based on
+213
+teacher ratings
+</div>
+<div class="description">
+<strong>Annapolis High School</strong>
+is a
+public
+high school located in
+Annapolis, Maryland and part of Anne Arundel County Public Schools.
+Annapolis High School is ranked
+92
+in Maryland.
+<a href="/annapolis-high-school/9471-s/stats" target="_blank">
+Learn More
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 details">
+<div class="aux">
+<h2 class="detail_item rate_school">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=9471" data-sender-name="School page Main" data-target="#modal_rating" data-teacher="Annapolis High School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Annapolis High School">
+<i class="fa fa-institution"></i>
+<span class="value">Rate Annapolis High School</span>
+</a>
+</h2>
+<div class="detail_item address">
+<a href="https://www.google.com/maps/search/2700%20Riva%20Rd%2C%20Annapolis%2C%20Maryland%2021401%2C%20Annapolis%2C%20Maryland%2C%2021401%2C%20United%20States" target="_blank" title="2700 Riva Rd, Annapolis, Maryland 21401">
+<i class="fa fa-map-marker"></i>
+<span class="value">2700 Riva Rd, Annapolis, Maryland 21401</span>
+</a>
+</div>
+<div class="detail_item phone">
+<a class="school_phone_trigger" data-phone="4102665240" href="javascript:void(0);">
+<i class="fa fa-phone"></i>
+<span itemprop="telephone">410-266-5240</span>
+</a>
+</div>
+<h2 class="detail_item district">
+<i class="fa fa-map"></i>
+Anne Arundel County Public Schools
+</h2>
+<div class="enrollment">
+<div class="detail_item student">
+<i class="fa fa-graduation-cap"></i>
+1,703
+Students
+Enrolled
+</div>
+<div class="detail_item gender">
+<i class="fa fa-pie-chart"></i>
+854
+Male
+|
+849
+Female
+</div>
+</div>
+</div>
+<span class="dn" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">2700 Riva Rd</span>
+<span itemprop="addressLocality">Annapolis</span>
+<span itemprop="addressRegion">MD</span>
+<span itemprop="postalCode">21401</span>
+</span>
+</div>
+</div>
+<div class="school_content">
+<div class="sticky_container_center">
+<div class="sticky_column">
+<div class="row">
+<div class="col-xs-12">
+<div class="filter_section">
+<div class="row subtitle">
+<div class="col-xs-6">
+<h2 class="active">
+<a href="http://www.ratemyteachers.com/annapolis-high-school/9471-s" title="View Annapolis High School's Teachers">
+Faculty:
+87
+Teachers
+</a>
+</h2>
+</div>
+<div class="col-xs-6">
+<h2 class>
+<a href="http://www.ratemyteachers.com/annapolis-high-school/9471-s/school-reviews" title="View Annapolis High School's Reviews">
+Annapolis High School
+Reviews
+</a>
+</h2>
+</div>
+</div>
+<div class="row search_form_container">
+<div class="col-md-2 sort_options">
+<select id="sort_by" name="sort_by"><option value>Sort by</option><option value></option><option value>Latest Update</option>
+<option value="last_name">Last Name</option>
+<option value="first_name">First Name</option>
+<option value="avg_asc">Average Rating: Low to High</option>
+<option value="avg_desc">Average Rating: High to Low</option></select>
+</div>
+<form action="/annapolis-high-school/9471-s" class="simple_form inline_form" id="school_search_by_teacher_form">
+<div class="col-md-9 text">
+<input name="q" placeholder="Search by Teacher" type="text">
+</div>
+<div class="col-md-1 options">
+<button class="btn fa fa-search fa-2x" name="commit" title="Search by Teacher" type="submit"></button>
+</div>
+</form>
+</div>
+<div class="row extra">
+<a class="col-xs-4 new_admin_request_trigger apply_admin" data-remote="/admin/new?sid=9471" data-school="Annapolis High School" data-sender="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Become Annapolis High School's Moderator">
+<i class="fa fa-user-plus"></i>
+<span>Become a Moderator!</span>
+</a>
+<a class="col-xs-4 new_school_rating_trigger school_review" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=9471" data-sender-name="School page Search bar" data-target="#modal_rating" data-teacher="Annapolis High School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Annapolis High School">
+<i class="fa fa-institution"></i>
+<span>Write a School Review</span>
+</a>
+<a class="col-xs-4 new_teacher_trigger add_teacher" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=9471" data-school="Annapolis High School" data-sender-name="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher to Annapolis High School">
+<i class="fa fa-user-plus"></i>
+<span>Add Teacher</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="teachers">
+<div class="ad_container AMP">
+<div id="amp_ads_bottom"></div>
+</div>
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Rankin's Ratings" class="name" href="/rankin/2409219-t" target="_blank" title="View Rankin's Ratings">
+Mr. Rankin
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/technology" title="View Annapolis High School&#39;s Technology Teachers">Technology</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Rankin" data-sid="9471" data-status="-2" data-tid="2409219" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr.Rankin is one of the most wonderful teachers at Annapolis . You can count on him with everything in how he can...
+</div>
+<div class="options">
+<a alt="View Rankin's Ratings" class="btn view_more" href="/rankin/2409219-t" title="View Rankin's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/rankin/2409219-t"></a>
+</div>
+<div class="ad_container taboola_video">
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Noga's Ratings" class="name" href="/noga/2409211-t" target="_blank" title="View Noga's Ratings">
+Mr. Noga
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/french" title="View Annapolis High School&#39;s French Teachers">French</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Noga" data-sid="9471" data-status="-2" data-tid="2409211" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 97.240px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Noga is an awesome teacher! He made my years here at Annapolis amazing so far!
+</div>
+<div class="options">
+<a alt="View Noga's Ratings" class="btn view_more" href="/noga/2409211-t" title="View Noga's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/noga/2409211-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Leo Hylan's Ratings" class="name" href="/leo-hylan/3966563-t" target="_blank" title="View Leo Hylan's Ratings">
+Leo Hylan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/visual-arts" title="View Annapolis High School&#39;s Visual Arts Teachers">Visual Arts</a>
+</div>
+<div class="teacher_actions" data-name="Leo Hylan" data-sid="9471" data-status="-2" data-tid="3966563" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He's excellent! Simply marvellous! Stupendous even! Challenging us to do our work and pursue a higher goal. Peace and...
+</div>
+<div class="options">
+<a alt="View Leo Hylan's Ratings" class="btn view_more" href="/leo-hylan/3966563-t" title="View Leo Hylan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/leo-hylan/3966563-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Angela Carpida's Ratings" class="name" href="/angela-carpida/2502931-t" target="_blank" title="View Angela Carpida's Ratings">
+Angela Carpida
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/science" title="View Annapolis High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Angela Carpida" data-sid="9471" data-status="-2" data-tid="2502931" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2502931" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Angela Carpida" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Angela Carpida">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2502931" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Angela Carpida" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Angela Carpida">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/angela-carpida/2502931-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Damian Scott's Ratings" class="name" href="/damian-scott/2502932-t" target="_blank" title="View Damian Scott's Ratings">
+Damian Scott
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Damian Scott" data-sid="9471" data-status="-2" data-tid="2502932" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great teacher, and great person. Will give anything and everything to help his students succeed. He challenges his...
+</div>
+<div class="options">
+<a alt="View Damian Scott's Ratings" class="btn view_more" href="/damian-scott/2502932-t" title="View Damian Scott's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/damian-scott/2502932-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Chris Hinsvark's Ratings" class="name" href="/chris-hinsvark/2502936-t" target="_blank" title="View Chris Hinsvark's Ratings">
+Chris Hinsvark
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/economics" title="View Annapolis High School&#39;s Economics Teachers">Economics</a>
+</div>
+<div class="teacher_actions" data-name="Chris Hinsvark" data-sid="9471" data-status="-2" data-tid="2502936" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Hinsvark is tied as my favorite teacher along with Mr. Milchovich. He teaches AP Macroeconomics and AP...
+</div>
+<div class="options">
+<a alt="View Chris Hinsvark's Ratings" class="btn view_more" href="/chris-hinsvark/2502936-t" title="View Chris Hinsvark's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/chris-hinsvark/2502936-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jorge Cordoba's Ratings" class="name" href="/jorge-cordoba/2474917-t" target="_blank" title="View Jorge Cordoba's Ratings">
+Jorge Cordoba
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/languages" title="View Annapolis High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Jorge Cordoba" data-sid="9471" data-status="-2" data-tid="2474917" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 55.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Be afraid of the brown man but he gives great motavational speeches!
+</div>
+<div class="options">
+<a alt="View Jorge Cordoba's Ratings" class="btn view_more" href="/jorge-cordoba/2474917-t" title="View Jorge Cordoba's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jorge-cordoba/2474917-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Arthur Murphy's Ratings" class="name" href="/arthur-murphy/2432739-t" target="_blank" title="View Arthur Murphy's Ratings">
+Arthur Murphy
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/not-specified" title="View Annapolis High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Arthur Murphy" data-sid="9471" data-status="-2" data-tid="2432739" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+let the war begin!!
+</div>
+<div class="options">
+<a alt="View Arthur Murphy's Ratings" class="btn view_more" href="/arthur-murphy/2432739-t" title="View Arthur Murphy's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/arthur-murphy/2432739-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Walden's Ratings" class="name" href="/walden/2409204-t" target="_blank" title="View Walden's Ratings">
+Mrs. Walden
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Walden" data-sid="9471" data-status="-2" data-tid="2409204" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 80.740px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Class is decent. I do not believe she likes teenagers all that much, or teaching...
+</div>
+<div class="options">
+<a alt="View Walden's Ratings" class="btn view_more" href="/walden/2409204-t" title="View Walden's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/walden/2409204-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View . Graff's Ratings" class="name" href="/graff/2409207-t" target="_blank" title="View . Graff's Ratings">
+. Graff
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/biology" title="View Annapolis High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="teacher_actions" data-name=". Graff" data-sid="9471" data-status="-2" data-tid="2409207" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 53.680px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Her class has gotten better, and her intern is really helpful. However, knowing what's needed to be turned in and...
+</div>
+<div class="options">
+<a alt="View . Graff's Ratings" class="btn view_more" href="/graff/2409207-t" title="View . Graff's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/graff/2409207-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mathews' Ratings" class="name" href="/mathews/2409209-t" target="_blank" title="View Mathews' Ratings">
+Mrs. Mathews
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/counselor" title="View Annapolis High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Mathews" data-sid="9471" data-status="-2" data-tid="2409209" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She's always there when I need her and she wrote me all my recommendation letters the day I asked to to which was...
+</div>
+<div class="options">
+<a alt="View Mathews' Ratings" class="btn view_more" href="/mathews/2409209-t" title="View Mathews' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mathews/2409209-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lilly's Ratings" class="name" href="/lilly/2409210-t" target="_blank" title="View Lilly's Ratings">
+Mr. Lilly
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/principal" title="View Annapolis High School&#39;s Principal Teachers">Principal</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Lilly" data-sid="9471" data-status="-2" data-tid="2409210" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 44.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He doesn't impress me. I don't think he really cares, if he does, he needs to prove it.
+</div>
+<div class="options">
+<a alt="View Lilly's Ratings" class="btn view_more" href="/lilly/2409210-t" title="View Lilly's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lilly/2409210-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Chiang's Ratings" class="name" href="/chiang/2409213-t" target="_blank" title="View Chiang's Ratings">
+Mrs. Chiang
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/social-studies" title="View Annapolis High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Chiang" data-sid="9471" data-status="-2" data-tid="2409213" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2409213" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mrs. Chiang" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Chiang">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2409213" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mrs. Chiang" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Chiang">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/chiang/2409213-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hero's Ratings" class="name" href="/hero/2409214-t" target="_blank" title="View Hero's Ratings">
+Mrs. Hero
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/social-studies" title="View Annapolis High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Hero" data-sid="9471" data-status="-2" data-tid="2409214" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+story time. w00t.
+</div>
+<div class="options">
+<a alt="View Hero's Ratings" class="btn view_more" href="/hero/2409214-t" title="View Hero's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hero/2409214-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kovacik's Ratings" class="name" href="/kovacik/2387973-t" target="_blank" title="View Kovacik's Ratings">
+Ms. Kovacik
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/biology" title="View Annapolis High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="teacher_actions" data-name="Ms. Kovacik" data-sid="9471" data-status="-2" data-tid="2387973" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She was a permanent sub for mrs. ross. She was helpful, nice, and attractive!
+</div>
+<div class="options">
+<a alt="View Kovacik's Ratings" class="btn view_more" href="/kovacik/2387973-t" title="View Kovacik's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kovacik/2387973-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Michael Melton's Ratings" class="name" href="/michael-melton/2331633-t" target="_blank" title="View Michael Melton's Ratings">
+Michael Melton
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/esl" title="View Annapolis High School&#39;s Esl Teachers">Esl</a>
+</div>
+<div class="teacher_actions" data-name="Michael Melton" data-sid="9471" data-status="-2" data-tid="2331633" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 55.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2331633" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Michael Melton" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Michael Melton">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2331633" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Michael Melton" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Michael Melton">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/michael-melton/2331633-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Anna Harding's Ratings" class="name" href="/anna-harding/2331572-t" target="_blank" title="View Anna Harding's Ratings">
+Anna Harding
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/math" title="View Annapolis High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Anna Harding" data-sid="9471" data-status="-2" data-tid="2331572" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2331572" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Anna Harding" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Anna Harding">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2331572" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Anna Harding" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Anna Harding">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/anna-harding/2331572-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kim Riley's Ratings" class="name" href="/kim-riley/2331554-t" target="_blank" title="View Kim Riley's Ratings">
+Kim Riley
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/languages" title="View Annapolis High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Kim Riley" data-sid="9471" data-status="-2" data-tid="2331554" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 44.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2331554" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Kim Riley" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Kim Riley">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2331554" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Kim Riley" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Kim Riley">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kim-riley/2331554-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Michael Venn's Ratings" class="name" href="/michael-venn/2331564-t" target="_blank" title="View Michael Venn's Ratings">
+Michael Venn
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/math" title="View Annapolis High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Michael Venn" data-sid="9471" data-status="-2" data-tid="2331564" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+mr venn is gayy!!
+</div>
+<div class="options">
+<a alt="View Michael Venn's Ratings" class="btn view_more" href="/michael-venn/2331564-t" title="View Michael Venn's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/michael-venn/2331564-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Angela Ross' Ratings" class="name" href="/angela-ross/2312291-t" target="_blank" title="View Angela Ross' Ratings">
+Angela Ross
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/biology" title="View Annapolis High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="teacher_actions" data-name="Angela Ross" data-sid="9471" data-status="-2" data-tid="2312291" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Ross is one of the best teachers I had last year. She was always in a working mood, and had no time to play...
+</div>
+<div class="options">
+<a alt="View Angela Ross' Ratings" class="btn view_more" href="/angela-ross/2312291-t" title="View Angela Ross' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/angela-ross/2312291-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Erik Westlund's Ratings" class="name" href="/erik-westlund/2275573-t" target="_blank" title="View Erik Westlund's Ratings">
+Erik Westlund
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/multiple-subjects" title="View Annapolis High School&#39;s Multiple Subjects Teachers">Multiple Subjects</a>
+</div>
+<div class="teacher_actions" data-name="Erik Westlund" data-sid="9471" data-status="-2" data-tid="2275573" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 80.080px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I'm in love with him. Not kidding.
+</div>
+<div class="options">
+<a alt="View Erik Westlund's Ratings" class="btn view_more" href="/erik-westlund/2275573-t" title="View Erik Westlund's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/erik-westlund/2275573-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Juan Carlos Maldonado's Ratings" class="name" href="/juan-carlos-maldonado/2253857-t" target="_blank" title="View Juan Carlos Maldonado's Ratings">
+Juan Carlos Maldonado
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/languages" title="View Annapolis High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Juan Carlos Maldonado" data-sid="9471" data-status="-2" data-tid="2253857" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 82.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+hilarious best teacher ever
+</div>
+<div class="options">
+<a alt="View Juan Carlos Maldonado's Ratings" class="btn view_more" href="/juan-carlos-maldonado/2253857-t" title="View Juan Carlos Maldonado's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/juan-carlos-maldonado/2253857-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Edric Chiang's Ratings" class="name" href="/edric-chiang/2247194-t" target="_blank" title="View Edric Chiang's Ratings">
+Edric Chiang
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/math" title="View Annapolis High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Edric Chiang" data-sid="9471" data-status="-2" data-tid="2247194" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.260px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+he is the best math teacher i have ever had.........if you are taking pre-calc at Annapolis High School..... MAKE...
+</div>
+<div class="options">
+<a alt="View Edric Chiang's Ratings" class="btn view_more" href="/edric-chiang/2247194-t" title="View Edric Chiang's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/edric-chiang/2247194-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Shererhi Bhalla's Ratings" class="name" href="/shererhi-bhalla/2187298-t" target="_blank" title="View Shererhi Bhalla's Ratings">
+Shererhi Bhalla
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/chemistry" title="View Annapolis High School&#39;s Chemistry Teachers">Chemistry</a>
+</div>
+<div class="teacher_actions" data-name="Shererhi Bhalla" data-sid="9471" data-status="-2" data-tid="2187298" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 55.000px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I love Shalini, she ius my absolutely favorite teacher of all times!!!!!
+</div>
+<div class="options">
+<a alt="View Shererhi Bhalla's Ratings" class="btn view_more" href="/shererhi-bhalla/2187298-t" title="View Shererhi Bhalla's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/shererhi-bhalla/2187298-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Flangan's Ratings" class="name" href="/flangan/2127738-t" target="_blank" title="View Flangan's Ratings">
+Flangan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/not-specified" title="View Annapolis High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Flangan" data-sid="9471" data-status="-2" data-tid="2127738" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2127738" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Flangan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Flangan">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2127738" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Flangan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Flangan">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/flangan/2127738-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Clarissa Burns' Ratings" class="name" href="/clarissa-burns/2118501-t" target="_blank" title="View Clarissa Burns' Ratings">
+Clarissa Burns
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/chemistry" title="View Annapolis High School&#39;s Chemistry Teachers">Chemistry</a>
+</div>
+<div class="teacher_actions" data-name="Clarissa Burns" data-sid="9471" data-status="-2" data-tid="2118501" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.060px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best teacher i've ever had. I was so sad, and still am, when I heard she was leaving.
+She's really chill and really...
+</div>
+<div class="options">
+<a alt="View Clarissa Burns' Ratings" class="btn view_more" href="/clarissa-burns/2118501-t" title="View Clarissa Burns' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/clarissa-burns/2118501-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Baker's Ratings" class="name" href="/baker/2042164-t" target="_blank" title="View Baker's Ratings">
+Baker
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/not-specified" title="View Annapolis High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Baker" data-sid="9471" data-status="-2" data-tid="2042164" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2042164" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Baker" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Baker">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2042164" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Baker" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Baker">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/baker/2042164-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Andrew Adams' Ratings" class="name" href="/andrew-adams/1980123-t" target="_blank" title="View Andrew Adams' Ratings">
+Andrew Adams
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/not-specified" title="View Annapolis High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Andrew Adams" data-sid="9471" data-status="-2" data-tid="1980123" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1980123" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Andrew Adams" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Andrew Adams">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1980123" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Andrew Adams" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Andrew Adams">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/andrew-adams/1980123-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Beth Hufnagel's Ratings" class="name" href="/beth-hufnagel/1950811-t" target="_blank" title="View Beth Hufnagel's Ratings">
+Beth Hufnagel
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/physics" title="View Annapolis High School&#39;s Physics Teachers">Physics</a>
+</div>
+<div class="teacher_actions" data-name="Beth Hufnagel" data-sid="9471" data-status="-2" data-tid="1950811" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1950811" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Beth Hufnagel" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Beth Hufnagel">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1950811" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Beth Hufnagel" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Beth Hufnagel">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/beth-hufnagel/1950811-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Meck's Ratings" class="name" href="/meck/1748344-t" target="_blank" title="View Meck's Ratings">
+Meck
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/math" title="View Annapolis High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Meck" data-sid="9471" data-status="-2" data-tid="1748344" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 33.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Ms Meck, is a teacher that is devoted but does not care for all of the students. In my opinion she is predjudice.
+</div>
+<div class="options">
+<a alt="View Meck's Ratings" class="btn view_more" href="/meck/1748344-t" title="View Meck's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/meck/1748344-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jones' Ratings" class="name" href="/jones/1651642-t" target="_blank" title="View Jones' Ratings">
+Mr. Jones
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/administration" title="View Annapolis High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Jones" data-sid="9471" data-status="-2" data-tid="1651642" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I love mr jones
+</div>
+<div class="options">
+<a alt="View Jones' Ratings" class="btn view_more" href="/jones/1651642-t" title="View Jones' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jones/1651642-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jeff Hunter's Ratings" class="name" href="/jeff-hunter/1599590-t" target="_blank" title="View Jeff Hunter's Ratings">
+Jeff Hunter
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/librarian" title="View Annapolis High School&#39;s Librarian Teachers">Librarian</a>
+</div>
+<div class="teacher_actions" data-name="Jeff Hunter" data-sid="9471" data-status="-2" data-tid="1599590" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1599590" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Jeff Hunter" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Jeff Hunter">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1599590" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Jeff Hunter" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Jeff Hunter">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jeff-hunter/1599590-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View David Russell's Ratings" class="name" href="/david-russell/1599606-t" target="_blank" title="View David Russell's Ratings">
+David Russell
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/counselor" title="View Annapolis High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="teacher_actions" data-name="David Russell" data-sid="9471" data-status="-2" data-tid="1599606" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1599606" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="David Russell" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  David Russell">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1599606" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="David Russell" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  David Russell">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/david-russell/1599606-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View William James' Ratings" class="name" href="/william-james/1599639-t" target="_blank" title="View William James' Ratings">
+William James
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/history" title="View Annapolis High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="William James" data-sid="9471" data-status="-2" data-tid="1599639" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He is so fun, the civil war was soooo cooool thanks to him one of the best guys in Maryland and America
+</div>
+<div class="options">
+<a alt="View William James' Ratings" class="btn view_more" href="/william-james/1599639-t" title="View William James' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/william-james/1599639-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Allan Stevenson's Ratings" class="name" href="/allan-stevenson/1536847-t" target="_blank" title="View Allan Stevenson's Ratings">
+Allan Stevenson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/psychology" title="View Annapolis High School&#39;s Psychology Teachers">Psychology</a>
+</div>
+<div class="teacher_actions" data-name="Allan Stevenson" data-sid="9471" data-status="-2" data-tid="1536847" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1536847" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Allan Stevenson" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Allan Stevenson">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1536847" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Allan Stevenson" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Allan Stevenson">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/allan-stevenson/1536847-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Michael Davis' Ratings" class="name" href="/michael-davis/1533363-t" target="_blank" title="View Michael Davis' Ratings">
+Michael Davis
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Michael Davis" data-sid="9471" data-status="-2" data-tid="1533363" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 38.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+i think mr davis is really dreamy; he and i share a passion for bird watching. i love semi-colons almost as i love...
+</div>
+<div class="options">
+<a alt="View Michael Davis' Ratings" class="btn view_more" href="/michael-davis/1533363-t" title="View Michael Davis' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/michael-davis/1533363-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Karona's Ratings" class="name" href="/karona/1347641-t" target="_blank" title="View Karona's Ratings">
+Karona
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Karona" data-sid="9471" data-status="-2" data-tid="1347641" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 67.760px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I think it's *Korona.*
+She always needs to be right. She wants you to have intelligent discussions but her way is the...
+</div>
+<div class="options">
+<a alt="View Karona's Ratings" class="btn view_more" href="/karona/1347641-t" title="View Karona's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/karona/1347641-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Erin Scruggs' Ratings" class="name" href="/erin-scruggs/1347644-t" target="_blank" title="View Erin Scruggs' Ratings">
+Erin Scruggs
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Erin Scruggs" data-sid="9471" data-status="-2" data-tid="1347644" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Awesome! one of the nicest and coolest teachers ever!
+</div>
+<div class="options">
+<a alt="View Erin Scruggs' Ratings" class="btn view_more" href="/erin-scruggs/1347644-t" title="View Erin Scruggs' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/erin-scruggs/1347644-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Cancel's Ratings" class="name" href="/cancel/1347649-t" target="_blank" title="View Cancel's Ratings">
+Cancel
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/languages" title="View Annapolis High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Cancel" data-sid="9471" data-status="-2" data-tid="1347649" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 22.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+very odd. not very helpful either...
+</div>
+<div class="options">
+<a alt="View Cancel's Ratings" class="btn view_more" href="/cancel/1347649-t" title="View Cancel's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/cancel/1347649-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kareem Said's Ratings" class="name" href="/kareem-said/1202049-t" target="_blank" title="View Kareem Said's Ratings">
+Kareem Said
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/math" title="View Annapolis High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Kareem Said" data-sid="9471" data-status="-2" data-tid="1202049" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1202049" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Kareem Said" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Kareem Said">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1202049" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Kareem Said" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Kareem Said">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kareem-said/1202049-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Michele Schaffer's Ratings" class="name" href="/michele-schaffer/957941-t" target="_blank" title="View Michele Schaffer's Ratings">
+Michele Schaffer
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/not-specified" title="View Annapolis High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Michele Schaffer" data-sid="9471" data-status="-2" data-tid="957941" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Very enthusiastic and lively teacher - makes the material intersesting and easy to learn. Class can be lots of fun,...
+</div>
+<div class="options">
+<a alt="View Michele Schaffer's Ratings" class="btn view_more" href="/michele-schaffer/957941-t" title="View Michele Schaffer's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/michele-schaffer/957941-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Betsy Kraning's Ratings" class="name" href="/betsy-kraning/957949-t" target="_blank" title="View Betsy Kraning's Ratings">
+Betsy Kraning
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/not-specified" title="View Annapolis High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Betsy Kraning" data-sid="9471" data-status="-2" data-tid="957949" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+bipolar. prone to yelling and then praising in very quick succession. nice outside of class though. has favorites...
+</div>
+<div class="options">
+<a alt="View Betsy Kraning's Ratings" class="btn view_more" href="/betsy-kraning/957949-t" title="View Betsy Kraning's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/betsy-kraning/957949-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Bill Goumas' Ratings" class="name" href="/bill-goumas/957954-t" target="_blank" title="View Bill Goumas' Ratings">
+Bill Goumas
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/social-studies" title="View Annapolis High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Bill Goumas" data-sid="9471" data-status="-2" data-tid="957954" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 107.360px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He's a pretty good teacher. He does tell a lot of corny jokes though, which aren't funny. He also answers his cell...
+</div>
+<div class="options">
+<a alt="View Bill Goumas' Ratings" class="btn view_more" href="/bill-goumas/957954-t" title="View Bill Goumas' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/bill-goumas/957954-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lynn Kolarik's Ratings" class="name" href="/lynn-kolarik/879351-t" target="_blank" title="View Lynn Kolarik's Ratings">
+Lynn Kolarik
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/languages" title="View Annapolis High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Lynn Kolarik" data-sid="9471" data-status="-2" data-tid="879351" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.260px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great spanish teacher...she is very funny, organized, and keeps the material interesting. Great Class!
+</div>
+<div class="options">
+<a alt="View Lynn Kolarik's Ratings" class="btn view_more" href="/lynn-kolarik/879351-t" title="View Lynn Kolarik's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lynn-kolarik/879351-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Shirley Little's Ratings" class="name" href="/shirley-little/842019-t" target="_blank" title="View Shirley Little's Ratings">
+Shirley Little
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Shirley Little" data-sid="9471" data-status="-2" data-tid="842019" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=842019" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Shirley Little" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Shirley Little">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=842019" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Shirley Little" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Shirley Little">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/shirley-little/842019-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Phil Greenfield's Ratings" class="name" href="/phil-greenfield/788440-t" target="_blank" title="View Phil Greenfield's Ratings">
+Phil Greenfield
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/social-studies" title="View Annapolis High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Phil Greenfield" data-sid="9471" data-status="-2" data-tid="788440" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Greenfield was honestly one of the best teachers I have ever had. In a school where bullying, disruption, and...
+</div>
+<div class="options">
+<a alt="View Phil Greenfield's Ratings" class="btn view_more" href="/phil-greenfield/788440-t" title="View Phil Greenfield's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/phil-greenfield/788440-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Cathy Hammond's Ratings" class="name" href="/cathy-hammond/787913-t" target="_blank" title="View Cathy Hammond's Ratings">
+Cathy Hammond
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/social-studies" title="View Annapolis High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Cathy Hammond" data-sid="9471" data-status="-2" data-tid="787913" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She doesn't have any power so she resorts to bossing the students around and teking it out on them.
+</div>
+<div class="options">
+<a alt="View Cathy Hammond's Ratings" class="btn view_more" href="/cathy-hammond/787913-t" title="View Cathy Hammond's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/cathy-hammond/787913-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Coach Powell's Ratings" class="name" href="/coach-powell/787915-t" target="_blank" title="View Coach Powell's Ratings">
+Coach Powell
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/health" title="View Annapolis High School&#39;s Health Teachers">Health</a>
+</div>
+<div class="teacher_actions" data-name="Coach Powell" data-sid="9471" data-status="-2" data-tid="787915" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+really easy.
+</div>
+<div class="options">
+<a alt="View Coach Powell's Ratings" class="btn view_more" href="/coach-powell/787915-t" title="View Coach Powell's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/coach-powell/787915-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Peckham's Ratings" class="name" href="/peckham/787917-t" target="_blank" title="View Peckham's Ratings">
+Peckham
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Peckham" data-sid="9471" data-status="-2" data-tid="787917" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Peckham is BY FAR the best teacher I have ever had. I have &quot;Follow Your Bliss&quot; etched on every journal I've used.
+</div>
+<div class="options">
+<a alt="View Peckham's Ratings" class="btn view_more" href="/peckham/787917-t" title="View Peckham's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/peckham/787917-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Fegan's Ratings" class="name" href="/fegan/787735-t" target="_blank" title="View Fegan's Ratings">
+Fegan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Fegan" data-sid="9471" data-status="-2" data-tid="787735" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 22.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Fegan is totally unclear and unhelpful. For the majority of the semester she was not even presant in class.
+</div>
+<div class="options">
+<a alt="View Fegan's Ratings" class="btn view_more" href="/fegan/787735-t" title="View Fegan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/fegan/787735-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Dirscherl's Ratings" class="name" href="/dirscherl/787746-t" target="_blank" title="View Dirscherl's Ratings">
+Dirscherl
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/languages" title="View Annapolis High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Dirscherl" data-sid="9471" data-status="-2" data-tid="787746" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Dude, youse is da homedog, ammmmazing class, I loved the low homework level. yea mista D you rock
+</div>
+<div class="options">
+<a alt="View Dirscherl's Ratings" class="btn view_more" href="/dirscherl/787746-t" title="View Dirscherl's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/dirscherl/787746-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Monica Cobble's Ratings" class="name" href="/monica-cobble/604028-t" target="_blank" title="View Monica Cobble's Ratings">
+Monica Cobble
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/not-specified" title="View Annapolis High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Monica Cobble" data-sid="9471" data-status="-2" data-tid="604028" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=604028" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Monica Cobble" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Monica Cobble">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=604028" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Monica Cobble" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Monica Cobble">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/monica-cobble/604028-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hersman Sue's Ratings" class="name" href="/hersman-sue/583960-t" target="_blank" title="View Hersman Sue's Ratings">
+Hersman Sue
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Hersman Sue" data-sid="9471" data-status="-2" data-tid="583960" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Knew her since elementary school, both personally and as a student of hers. She is a good person in all ways.
+</div>
+<div class="options">
+<a alt="View Hersman Sue's Ratings" class="btn view_more" href="/hersman-sue/583960-t" title="View Hersman Sue's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hersman-sue/583960-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jon P. Shank's Ratings" class="name" href="/jon-p-shank/556141-t" target="_blank" title="View Jon P. Shank's Ratings">
+Jon P. Shank
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Jon P. Shank" data-sid="9471" data-status="-2" data-tid="556141" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 66.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I dont like him at all, he was one of the reasons why i left that school!!!
+</div>
+<div class="options">
+<a alt="View Jon P. Shank's Ratings" class="btn view_more" href="/jon-p-shank/556141-t" title="View Jon P. Shank's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jon-p-shank/556141-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Day's Ratings" class="name" href="/day/556165-t" target="_blank" title="View Day's Ratings">
+Day
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/physical-education" title="View Annapolis High School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class="teacher_actions" data-name="Day" data-sid="9471" data-status="-2" data-tid="556165" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=556165" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Day" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Day">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=556165" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Day" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Day">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/day/556165-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View D. H. Willliams' Ratings" class="name" href="/d-h-willliams/535913-t" target="_blank" title="View D. H. Willliams' Ratings">
+D. H. Willliams
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/administration" title="View Annapolis High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class="teacher_actions" data-name="D. H. Willliams" data-sid="9471" data-status="-2" data-tid="535913" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=535913" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="D. H. Willliams" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  D. H. Willliams">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=535913" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="D. H. Willliams" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  D. H. Willliams">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/d-h-willliams/535913-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lydia Smithers' Ratings" class="name" href="/lydia-smithers/513332-t" target="_blank" title="View Lydia Smithers' Ratings">
+Lydia Smithers
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Lydia Smithers" data-sid="9471" data-status="-2" data-tid="513332" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She was my teacher many years ago... only thing I can say... is she made a huge inpact on my life... for the...
+</div>
+<div class="options">
+<a alt="View Lydia Smithers' Ratings" class="btn view_more" href="/lydia-smithers/513332-t" title="View Lydia Smithers' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lydia-smithers/513332-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Angela Walton's Ratings" class="name" href="/angela-walton/513334-t" target="_blank" title="View Angela Walton's Ratings">
+Angela Walton
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/science" title="View Annapolis High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Angela Walton" data-sid="9471" data-status="-2" data-tid="513334" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 96.360px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+she is so nice and i wish her much luck
+</div>
+<div class="options">
+<a alt="View Angela Walton's Ratings" class="btn view_more" href="/angela-walton/513334-t" title="View Angela Walton's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/angela-walton/513334-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Adam Campbell's Ratings" class="name" href="/adam-campbell/513335-t" target="_blank" title="View Adam Campbell's Ratings">
+Adam Campbell
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/business-physical-education" title="View Annapolis High School&#39;s Business/Physical Education Teachers">Business/Physical Education</a>
+</div>
+<div class="teacher_actions" data-name="Adam Campbell" data-sid="9471" data-status="-2" data-tid="513335" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+hes such a good teacher keep up the work
+</div>
+<div class="options">
+<a alt="View Adam Campbell's Ratings" class="btn view_more" href="/adam-campbell/513335-t" title="View Adam Campbell's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/adam-campbell/513335-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Ellen Alexander's Ratings" class="name" href="/ellen-alexander/424673-t" target="_blank" title="View Ellen Alexander's Ratings">
+Ellen Alexander
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Ellen Alexander" data-sid="9471" data-status="-2" data-tid="424673" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I like Mrs. Alexander, she has a no b.s get to the point attitude and she's a good teacher.
+</div>
+<div class="options">
+<a alt="View Ellen Alexander's Ratings" class="btn view_more" href="/ellen-alexander/424673-t" title="View Ellen Alexander's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/ellen-alexander/424673-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John Kirby's Ratings" class="name" href="/john-kirby/343036-t" target="_blank" title="View John Kirby's Ratings">
+John Kirby
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/social-studies" title="View Annapolis High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="John Kirby" data-sid="9471" data-status="-2" data-tid="343036" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 93.500px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Kirby is such an intelligent man who you can really learn a lot from...but be ware is clase is extremly hard!
+</div>
+<div class="options">
+<a alt="View John Kirby's Ratings" class="btn view_more" href="/john-kirby/343036-t" title="View John Kirby's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-kirby/343036-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Marlene Ramey's Ratings" class="name" href="/marlene-ramey/343043-t" target="_blank" title="View Marlene Ramey's Ratings">
+Marlene Ramey
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/languages" title="View Annapolis High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Marlene Ramey" data-sid="9471" data-status="-2" data-tid="343043" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 94.160px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+fantastic teacher. Nice, very helpful, likes to engage her students. I've taken 3 of her classes
+</div>
+<div class="options">
+<a alt="View Marlene Ramey's Ratings" class="btn view_more" href="/marlene-ramey/343043-t" title="View Marlene Ramey's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/marlene-ramey/343043-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Maureen Baggett's Ratings" class="name" href="/maureen-baggett/343051-t" target="_blank" title="View Maureen Baggett's Ratings">
+Maureen Baggett
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/languages" title="View Annapolis High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Maureen Baggett" data-sid="9471" data-status="-2" data-tid="343051" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 67.320px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Worst teacher eveR. Rude, attitude , problem, bases your grade off of the best person in the class who was from...
+</div>
+<div class="options">
+<a alt="View Maureen Baggett's Ratings" class="btn view_more" href="/maureen-baggett/343051-t" title="View Maureen Baggett's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/maureen-baggett/343051-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Scott Manbeck's Ratings" class="name" href="/scott-manbeck/343054-t" target="_blank" title="View Scott Manbeck's Ratings">
+Scott Manbeck
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/math" title="View Annapolis High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Scott Manbeck" data-sid="9471" data-status="-2" data-tid="343054" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He was an awesome math teacher! My favorite!
+</div>
+<div class="options">
+<a alt="View Scott Manbeck's Ratings" class="btn view_more" href="/scott-manbeck/343054-t" title="View Scott Manbeck's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/scott-manbeck/343054-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Daniel Pogonowski's Ratings" class="name" href="/daniel-pogonowski/343062-t" target="_blank" title="View Daniel Pogonowski's Ratings">
+Daniel Pogonowski
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/science" title="View Annapolis High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Daniel Pogonowski" data-sid="9471" data-status="-2" data-tid="343062" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.700px;"></div>
+</div>
+</div>
+<div class="rating_count">13 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+tough but fair and very willing to help
+</div>
+<div class="options">
+<a alt="View Daniel Pogonowski's Ratings" class="btn view_more" href="/daniel-pogonowski/343062-t" title="View Daniel Pogonowski's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/daniel-pogonowski/343062-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Robert Walleck's Ratings" class="name" href="/robert-walleck/337432-t" target="_blank" title="View Robert Walleck's Ratings">
+Robert Walleck
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/math" title="View Annapolis High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Robert Walleck" data-sid="9471" data-status="-2" data-tid="337432" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 82.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+thanks to mr walleck, i didn't understand a full semesters worth of algebra. thanks to mr walleck, i got a d on my...
+</div>
+<div class="options">
+<a alt="View Robert Walleck's Ratings" class="btn view_more" href="/robert-walleck/337432-t" title="View Robert Walleck's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/robert-walleck/337432-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Royal Connell's Ratings" class="name" href="/royal-connell/337437-t" target="_blank" title="View Royal Connell's Ratings">
+Royal Connell
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/rotc" title="View Annapolis High School&#39;s Rotc Teachers">Rotc</a>
+</div>
+<div class="teacher_actions" data-name="Royal Connell" data-sid="9471" data-status="-2" data-tid="337437" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+is an amazing teacher and is always willing to help
+</div>
+<div class="options">
+<a alt="View Royal Connell's Ratings" class="btn view_more" href="/royal-connell/337437-t" title="View Royal Connell's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/royal-connell/337437-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Morton's Ratings" class="name" href="/morton/295691-t" target="_blank" title="View Morton's Ratings">
+Morton
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/physics" title="View Annapolis High School&#39;s Physics Teachers">Physics</a>
+</div>
+<div class="teacher_actions" data-name="Morton" data-sid="9471" data-status="-2" data-tid="295691" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 55.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I feel that Mr. Morton is too biased towards female students.
+</div>
+<div class="options">
+<a alt="View Morton's Ratings" class="btn view_more" href="/morton/295691-t" title="View Morton's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/morton/295691-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Wallace's Ratings" class="name" href="/wallace/295705-t" target="_blank" title="View Wallace's Ratings">
+Wallace
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/math" title="View Annapolis High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Wallace" data-sid="9471" data-status="-2" data-tid="295705" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 33.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+His teaching style is outdated and his stories makes him sound like he should be in Crownsville.
+</div>
+<div class="options">
+<a alt="View Wallace's Ratings" class="btn view_more" href="/wallace/295705-t" title="View Wallace's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/wallace/295705-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Laura Hack's Ratings" class="name" href="/laura-hack/27023-t" target="_blank" title="View Laura Hack's Ratings">
+Laura Hack
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/science" title="View Annapolis High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Laura Hack" data-sid="9471" data-status="-2" data-tid="27023" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 107.580px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Had extraordinary positive impact on my education and interest in science.
+</div>
+<div class="options">
+<a alt="View Laura Hack's Ratings" class="btn view_more" href="/laura-hack/27023-t" title="View Laura Hack's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/laura-hack/27023-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Allison Felton's Ratings" class="name" href="/allison-felton/7955001-t" target="_blank" title="View Allison Felton's Ratings">
+Allison Felton
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/math" title="View Annapolis High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Allison Felton" data-sid="9471" data-status="-2" data-tid="7955001" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best teacher at Annapolis High School.
+</div>
+<div class="options">
+<a alt="View Allison Felton's Ratings" class="btn view_more" href="/allison-felton/7955001-t" title="View Allison Felton's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/allison-felton/7955001-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Giuseppe Luciani's Ratings" class="name" href="/giuseppe-luciani/7973559-t" target="_blank" title="View Giuseppe Luciani's Ratings">
+Giuseppe Luciani
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/art" title="View Annapolis High School&#39;s Art Teachers">Art</a>
+</div>
+<div class="teacher_actions" data-name="Giuseppe Luciani" data-sid="9471" data-status="-2" data-tid="7973559" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7973559" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Giuseppe Luciani" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Giuseppe Luciani">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7973559" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Giuseppe Luciani" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Giuseppe Luciani">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/giuseppe-luciani/7973559-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Eric Elston's Ratings" class="name" href="/eric-elston/27020-t" target="_blank" title="View Eric Elston's Ratings">
+Eric Elston
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Eric Elston" data-sid="9471" data-status="-2" data-tid="27020" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=27020" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Eric Elston" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Eric Elston">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=27020" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Eric Elston" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Eric Elston">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/eric-elston/27020-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Laura Hackett's Ratings" class="name" href="/laura-hackett/7993631-t" target="_blank" title="View Laura Hackett's Ratings">
+Laura Hackett
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Laura Hackett" data-sid="9471" data-status="-2" data-tid="7993631" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7993631" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Laura Hackett" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Laura Hackett">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7993631" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Laura Hackett" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Laura Hackett">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/laura-hackett/7993631-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Christopher Culig's Ratings" class="name" href="/christopher-culig/7955009-t" target="_blank" title="View Christopher Culig's Ratings">
+Christopher Culig
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/history" title="View Annapolis High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Christopher Culig" data-sid="9471" data-status="-2" data-tid="7955009" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr.Culig is a really good teacher. It is apparent that he enjoys his job quite a lot. He can frequently get off task...
+</div>
+<div class="options">
+<a alt="View Christopher Culig's Ratings" class="btn view_more" href="/christopher-culig/7955009-t" title="View Christopher Culig's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/christopher-culig/7955009-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Samantha Shaiman's Ratings" class="name" href="/samantha-shaiman/7984151-t" target="_blank" title="View Samantha Shaiman's Ratings">
+Samantha Shaiman
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/languages" title="View Annapolis High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Samantha Shaiman" data-sid="9471" data-status="-2" data-tid="7984151" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7984151" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Samantha Shaiman" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Samantha Shaiman">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7984151" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Samantha Shaiman" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Samantha Shaiman">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/samantha-shaiman/7984151-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Brea Ewing's Ratings" class="name" href="/brea-ewing/7984149-t" target="_blank" title="View Brea Ewing's Ratings">
+Brea Ewing
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Brea Ewing" data-sid="9471" data-status="-2" data-tid="7984149" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7984149" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Brea Ewing" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Brea Ewing">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7984149" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Brea Ewing" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Brea Ewing">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/brea-ewing/7984149-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Joy Eskuchen's Ratings" class="name" href="/joy-eskuchen/27018-t" target="_blank" title="View Joy Eskuchen's Ratings">
+Joy Eskuchen
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/math" title="View Annapolis High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Joy Eskuchen" data-sid="9471" data-status="-2" data-tid="27018" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 101.200px;"></div>
+</div>
+</div>
+<div class="rating_count">10 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I LOVE MS E. SHES AMAZING !
+SHES HELPED ME ALOT IN MATH AND MADE EVERYTHING EASIER TO UNDERSTAND. NOW THAT IM...
+</div>
+<div class="options">
+<a alt="View Joy Eskuchen's Ratings" class="btn view_more" href="/joy-eskuchen/27018-t" title="View Joy Eskuchen's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/joy-eskuchen/27018-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Leslie Gershon's Ratings" class="name" href="/leslie-gershon/27019-t" target="_blank" title="View Leslie Gershon's Ratings">
+Leslie Gershon
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/english" title="View Annapolis High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Leslie Gershon" data-sid="9471" data-status="-2" data-tid="27019" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+doesnt really know much about english...
+</div>
+<div class="options">
+<a alt="View Leslie Gershon's Ratings" class="btn view_more" href="/leslie-gershon/27019-t" title="View Leslie Gershon's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/leslie-gershon/27019-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Gail Tucker's Ratings" class="name" href="/gail-tucker/27024-t" target="_blank" title="View Gail Tucker's Ratings">
+Gail Tucker
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/science" title="View Annapolis High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Gail Tucker" data-sid="9471" data-status="-2" data-tid="27024" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 58.740px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+We have a substitute today for her class, and Tucker wrote a note to him saying we aren't allowed to use the restroom...
+</div>
+<div class="options">
+<a alt="View Gail Tucker's Ratings" class="btn view_more" href="/gail-tucker/27024-t" title="View Gail Tucker's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/gail-tucker/27024-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Robert Carter's Ratings" class="name" href="/robert-carter/27025-t" target="_blank" title="View Robert Carter's Ratings">
+Robert Carter
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/social-studies" title="View Annapolis High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Robert Carter" data-sid="9471" data-status="-2" data-tid="27025" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 66.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Boring.. but i learned a lot!
+</div>
+<div class="options">
+<a alt="View Robert Carter's Ratings" class="btn view_more" href="/robert-carter/27025-t" title="View Robert Carter's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/robert-carter/27025-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Dale Chambers' Ratings" class="name" href="/dale-chambers/27026-t" target="_blank" title="View Dale Chambers' Ratings">
+Dale Chambers
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/social-studies" title="View Annapolis High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Dale Chambers" data-sid="9471" data-status="-2" data-tid="27026" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Uncle dale as i know him is not only a great teacher but also a great uncle and person in general. He inspires...
+</div>
+<div class="options">
+<a alt="View Dale Chambers' Ratings" class="btn view_more" href="/dale-chambers/27026-t" title="View Dale Chambers' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/dale-chambers/27026-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Josh Jacoby's Ratings" class="name" href="/josh-jacoby/6023973-t" target="_blank" title="View Josh Jacoby's Ratings">
+Josh Jacoby
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/math" title="View Annapolis High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Josh Jacoby" data-sid="9471" data-status="-2" data-tid="6023973" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Love him... he's the best!
+</div>
+<div class="options">
+<a alt="View Josh Jacoby's Ratings" class="btn view_more" href="/josh-jacoby/6023973-t" title="View Josh Jacoby's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/josh-jacoby/6023973-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View William Farrington's Ratings" class="name" href="/william-farrington/3823335-t" target="_blank" title="View William Farrington's Ratings">
+William Farrington
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/social-studies" title="View Annapolis High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="William Farrington" data-sid="9471" data-status="-1" data-tid="3823335" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+The best teacher ever - Julio Meneses
+</div>
+<div class="options">
+<a alt="View William Farrington's Ratings" class="btn view_more" href="/william-farrington/3823335-t" title="View William Farrington's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/william-farrington/3823335-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Della Hanna's Ratings" class="name" href="/della-hanna/27015-t" target="_blank" title="View Della Hanna's Ratings">
+Della Hanna
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/math" title="View Annapolis High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Della Hanna" data-sid="9471" data-status="-2" data-tid="27015" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+very nice but not the best geometry teacher
+</div>
+<div class="options">
+<a alt="View Della Hanna's Ratings" class="btn view_more" href="/della-hanna/27015-t" title="View Della Hanna's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/della-hanna/27015-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mike Ballard's Ratings" class="name" href="/mike-ballard/27016-t" target="_blank" title="View Mike Ballard's Ratings">
+Mike Ballard
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/math" title="View Annapolis High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Mike Ballard" data-sid="9471" data-status="-2" data-tid="27016" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Hehehe..Mr. Ballard is a good teacher and neat little guy...STATis preeetty boring, but he manages to keep you awake...
+</div>
+<div class="options">
+<a alt="View Mike Ballard's Ratings" class="btn view_more" href="/mike-ballard/27016-t" title="View Mike Ballard's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mike-ballard/27016-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sandy Crosier's Ratings" class="name" href="/sandy-crosier/27017-t" target="_blank" title="View Sandy Crosier's Ratings">
+Sandy Crosier
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/annapolis-high-school/9471-s/math" title="View Annapolis High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Sandy Crosier" data-sid="9471" data-status="-2" data-tid="27017" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+SO NICE! REALLY HELPS YOU DO GOD AND WANTS YOU TO DO GOOD!
+</div>
+<div class="options">
+<a alt="View Sandy Crosier's Ratings" class="btn view_more" href="/sandy-crosier/27017-t" title="View Sandy Crosier's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sandy-crosier/27017-t"></a>
+</div>
+
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-lg-3 secondary_column">
+<div class="row block_container demographic_card">
+<div class="tab_horizontal_format">
+<div class="col-xs-12 tab_header">
+<ul class="nav nav-tabs nav-top collapsible_nav collapsible_nav_collapsed" id="enrollment_charts" role="tablist">
+<li>
+<a alt="Enrollment By Year" data-toggle="tab" data-type="by_year" href="#enrollment_by_year" role="tab">
+<span>Enrollment By Year</span>
+<span class="arrow_container">
+<i class="arrow fa fa-angle-right"></i>
+</span>
+</a>
+<a class="toggle" href="javascript:void(0);">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li>
+<a alt="Enrollment By Ethnicity" data-toggle="tab" data-type="by_ethnicity" href="#enrollment_by_ethnicity" role="tab">
+<span>Enrollment By Ethnicity</span>
+<span class="arrow_container">
+<i class="arrow fa fa-angle-right"></i>
+</span>
+</a>
+<a class="toggle" href="javascript:void(0);">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li>
+<a alt="Enrollment By Gender" data-toggle="tab" data-type="by_gender" href="#enrollment_by_gender" role="tab">
+<span>Enrollment By Gender</span>
+<span class="arrow_container">
+<i class="arrow fa fa-angle-right"></i>
+</span>
+</a>
+<a class="toggle" href="javascript:void(0);">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+</ul>
+</div>
+<a class="col-xs-12 tab_container tab-content enrollment" href="/annapolis-high-school/9471-s/stats" title="Go to Annapolis High School stats">
+<span class="tab-pane charts_container students_charts_container" id="enrollment_by_year">
+<span class="graph_info" id="students_charts" style="min-height: 200px;">Loading ...</span>
+</span>
+<span class="tab-pane charts_container ethnicity_chart_container" id="enrollment_by_ethnicity">
+<span class="graph_info" id="ethnicity_chart" style="min-height: 200px;">Loading ...</span>
+</span>
+<span class="tab-pane charts_container gender_container" id="enrollment_by_gender">
+<span class="row gender_info">
+<span class="col-xs-5">
+<span class="icon icon-male">
+<span class="aux"></span>
+</span>
+</span>
+<span class="col-xs-4 text">Male</span>
+<span class="col-xs-3 count">854</span>
+</span>
+<span class="row gender_info">
+<span class="col-xs-5">
+<span class="icon icon-female">
+<span class="aux"></span>
+</span>
+</span>
+<span class="col-xs-4 text">Female</span>
+<span class="col-xs-3 count">849</span>
+</span>
+</span>
+<span class="data_from">
+Data by NCES 2013
+</span>
+</a>
+</div>
+</div>
+<div class="sticky_container_right">
+<div class="sticky_column">
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="all_footer_wrapper" style="overflow:hidden;">
+<section class="container-fluid hidden-xs padding" id="states">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-sm-offset-0 footer_states_container">
+<h3>Locate Schools by State:</h3>
+<div class="states">
+<div class="state">
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class="state">
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class="state">
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class="state">
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class="state">
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class="state">
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class="state">
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class="state">
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class="state">
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class="state">
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class="state">
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class="state">
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class="state">
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class="state">
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class="state">
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class="state">
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class="state">
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class="state">
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class="state">
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class="state">
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class="state">
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class="state">
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class="state">
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class="state">
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class="state">
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class="state">
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class="state">
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class="state">
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class="state">
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class="state">
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class="state">
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class="state">
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class="state">
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class="state">
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class="state">
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class="state">
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class="state">
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class="state">
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class="state">
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class="state">
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class="state">
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class="state">
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class="state">
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class="state">
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class="state">
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class="state">
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class="state">
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class="state">
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer_directory">
+<div class="container">
+<div class="row">
+<div class="col-xs-6 hidden-xs">
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;W&quot;" href="/schools/directory/w" title="Schools beginning with &quot;W&quot;">w</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class="col-xs-6 hidden-xs">
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;W&quot;" href="/teachers/directory/w" title="Teachers beginning with &quot;W&quot;">w</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class="row footer_countries_list">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer">
+<div class="container">
+<div class="row footer_links">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+<h3 class="hidden-sm hidden-md hidden-lg">Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop="static" data-keyboard data-remote="/contact/new" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Contact RateMyTeachers">
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="row copyright">
+Copyright 2001-2017 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden="true" class="modal fade" id="modal" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div aria-hidden="true" class="modal fade" id="modal_rating" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div id="loading-indicator" style="display: none;">
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif"/>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    functionToLoad.push('//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js');
+  </script>
+<script type="text/javascript">
+    functionToLoad.push('/assets/application-54ea36510d376e4b53979f87d72bc002.js');
+    functionToLoad.push('/assets/users-8d86f10db3dd4d729784ef9748a4b44e.js');
+  </script>
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        // Facebook like
+        // (function(d, s, id) {
+        //   var js, fjs = d.getElementsByTagName(s)[0];
+        //   if (d.getElementById(id)) return;
+        //   js = d.createElement(s); js.id = id;
+        //   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=232453153516852&version=v2.0";
+        //   fjs.parentNode.insertBefore(js, fjs);
+        // }(document, 'script', 'facebook-jssdk'));
+
+        // Google Plus
+        // (function() {
+        //   var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        //   po.src = 'https://apis.google.com/js/platform.js';
+        //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        // })();
+
+        // Twitter Follow
+        // !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      
+      });
+    </script>
+<script type="text/javascript">
+  functionToLoad.push(["https://www.google.com/jsapi", true, [
+    function() {
+      enrollmentByEthnicity = {};
+        enrollmentByEthnicity = {"American Indiant/Alaskan (2)":2,"Asian (54)":54,"African American (554)":554,"Hispanic (450)":450,"White (589)":589,"Pacific (2)":2,"Two or More Races (52)":52};
+
+      totalStudentsHistory = {"2009":1632,"2010":1544,"2011":1507,"2012":1608,"2013":1703} ;
+      initSchoolStatsPage(true, true, true);
+
+      google.load("visualization", "1", {
+        packages:["corechart"],
+        callback: function(){
+          $('body').trigger('chart-ready');
+        }
+      });
+    }
+  ]]);
+</script>
+<script>
+  functionToLoad.push(function() {
+    $('#teachers_by_alphabet').change(function(e){
+      document.location.href = $('#teachers_by_alphabet').val()
+    });
+  });
+</script>
+<script>
+  functionToLoad.push(function() {
+    var schoolPagePath = '/annapolis-high-school/9471-s';
+    var resultCount = 87;
+    var minStickyResultCount = 3;
+
+    if (!isMobile && !isMedium && resultCount > 0) {
+      var stickyColumnRight = $(".sticky_container_right .sticky_column");
+      var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+      var footerHeight = $('#all_footer_wrapper').outerHeight() + 50;
+      var stickyOptions = function(getWidthFrom) {
+        return {topSpacing:0, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+      }
+      stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+      // Make center column options sticky when min results quantity
+      if (resultCount > minStickyResultCount - 1) {
+        stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+      }
+    }
+  });
+</script>
+<script type="text/javascript">
+    function initializeMaps() {
+      var length = mapFunctionArray.length;
+      for (var i = 0; i < length; i++) {
+        mapFunctionArray[i]();
+      }
+    }
+
+    functionToLoad.push(function() {
+      // Don't load google maps when no pending maps
+      if (typeof(mapFunctionArray) === 'undefined' || mapFunctionArray.length < 1)
+        return;
+
+      var googleMapsId = "AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g";
+
+      var script_path = "http://maps.googleapis.com/maps/api/js?key=" + googleMapsId + "&sensor=false&callback=initializeMaps";
+      $.getScript(script_path);
+
+    });
+  </script>
+
+
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-bottom"};
+      });
+      functionToLoad.push("//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js");
+    </script>
+
+<script>
+    window.addEventListener('load', function(){
+      console.info("[PERF] DomContentLoaded: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+
+    window.addEventListener('load', function(){
+      console.info("[PERF] Load: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+  </script>
+
+<script type="text/javascript">
+    (function() {
+      // Load script from url
+      var loadScript = function(url, callback) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+
+        // Add on load callback event
+        if (callback !== null) {
+          if (script.readyState){ //IE
+            script.onreadystatechange = function(){
+              if (script.readyState == "loaded" || script.readyState == "complete"){
+                script.onreadystatechange = null;
+                callback();
+              }
+            };
+          } else { //Others
+            // Execute callback even when an error happen
+            script.onerror = function(e){
+              try {
+                console.error("An error happen when loading '" + err.target.src + "' script.");
+              } catch(err) {} finally {
+                callback();
+              }
+            };
+            script.onload = function(){ callback(); };
+          }
+        }
+
+        // Load the script
+        script.src = url;
+        document.body.appendChild(script);
+      };
+
+      // Load scripts in a sequence instead parallel
+      // to make sure frameworks load correctly
+      function sequence(index, max, source) {
+        if (index < max) {
+          var data = functionToLoad.extractElementData(source[index]);
+
+          if (typeof data.element === 'string') {
+            if (data.async) {
+              // Async script
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+              });
+              sequence(index + 1, max, source);
+            } else {
+              // Sync scripts
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+                sequence(index + 1, max, source);
+              });
+            }
+          } else {
+            // Execute callback even when an error happen on the function
+            try {
+              if (data.async) {
+                // Async script
+                setTimeout(function() { data.element(); }, 1);
+              } else {
+                // Sync script
+                data.element();
+              }
+            } catch(err) {
+              console.error(err);
+            } finally {
+              sequence(index + 1, max, source);
+            }
+          }
+        }
+      }
+
+      // Load all javascript in a sequence
+      var loadDeferredJs = function() {
+        sequence(0, functionToLoad.length, functionToLoad);
+      };
+
+      // Execute all lazy javascripts after DOM load
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredJs, 0); });
+      else window.addEventListener('load', loadDeferredJs);
+    })();
+  </script>
+
+</body>
+</html>

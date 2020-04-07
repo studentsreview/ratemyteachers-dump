@@ -1,0 +1,2739 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hillsborough Community College - Tampa, Florida | RateMyTeachers.com</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-4.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":1385,"agentToken":null,"agent":"js-agent.newrelic.com/nr-476.min.js","ttGuid":"bcf15636220518ff"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),u=c.length,f=i(a,o,r),d=0;u>d;d++)c[d].apply(f,n);return f}function a(t,e){u[t]=s(t).concat(e)}function s(t){return u[t]||[]}function c(){return n(e)}var u={};return{on:a,emit:e,create:c,listeners:s,_events:u}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(u){try{r("ierr",[u,(new Date).getTime(),!0])}catch(f){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(4),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(u){"stack"in u&&(t(5),t(3),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:5,4:18,5:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:18,2:19,ee:"QJf3ax",gos:"7eSDFh"}],5:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:19,2:18,ee:"QJf3ax"}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:19,2:18,ee:"QJf3ax"}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t("ee").create(),a=t(1),s=t(2),c=s(i),u=s(a),f=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new f(t);try{i.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",[r])}catch(o){}}return e},window.XMLHttpRequest.prototype=f.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:19,ee:"QJf3ax"}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,u="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=e(u);if(f&&(r.rxSize=f),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,u=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var u=e(o);u&&(r.txSize=u)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",[e])}catch(r){}}};for(var f=0;c>f;f++)n.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:9,3:7,4:4,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){p.proto="https"===d.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=p.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,c=s.document,u="addEventListener",f="attachEvent",d=(""+location).split("?")[0],p=e.exports={offset:i(),origin:d,features:{}};c[u]?(c[u]("DOMContentLoaded",o,!1),s[u]("load",n,!1)):(c[f]("onreadystatechange",r),s[f]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],18:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],19:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,u;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){f([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return u=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,u],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,u(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,u="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,u?s+o:o,i,s,t))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){f([o,e,n,r])}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){f([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function f(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:18,ee:"QJf3ax"}]},{},["G9z0Bl",3,8]);</script>  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw" />
+  
+  <meta name="keywords" content="Rate a teacher from school,read college professor ratings,rate a professor from university,university,rate my teacher,rate,teacher,college,school,high school,schools,elementary school,preschool,middle school,professor ratings,teacher ratings,ratemyteachers.com" />
+
+  <meta name="description" content="Rate Hillsborough Community College in Tampa, Florida on RateMyTeachers.com" />
+
+
+  <meta name="robots" content="noodp,noydir" />
+  <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+  <link href="/assets/application-7f18320d7fb74c1b18987f7de3258d3c.css" media="all" rel="stylesheet" />
+  
+  <meta property="og:type" content="rmt:school" />
+<meta property="og:url" content="http://www.ratemyteachers.com/hillsborough-community-college/114529-s" />
+<meta property="og:site_name" content="Hillsborough Community College on RateMyTeachers.com" />
+<meta property="og:description" content="Rate Hillsborough Community College in Tampa, Florida on RateMyTeachers.com" />
+
+  <script type="text/javascript">
+    var currentState = 'VA';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:      true,
+    debugMode:            false
+  }
+
+
+ function getWindowWidth() {
+   var myWidth = 0, myHeight = 0;
+     if( typeof( window.innerWidth ) == 'number' ) {
+         myWidth = window.innerWidth; myHeight = window.innerHeight;
+     } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+         myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+     } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+         myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+     }
+     return myWidth;
+ }  
+
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isMobile = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false) || isMobileVariant;
+</script>
+  <script>
+    var gaId = 'UA-4216499-1';
+    
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', gaId, 'auto');
+    ga('require', 'displayfeatures');
+    //ga('require', 'ecommerce', 'ecommerce.js');
+    
+  </script>
+
+<script src="/assets/rmt.analytics-defd401f8cfb44d689532ba3eda18a86.js"></script>
+
+<script>
+  var pageType = "";
+  RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+  var searchTerm = "";
+</script>
+
+
+  <!-- DFP -->
+
+  <!-- Google Custom Ads -->
+  <script type="text/javascript" charset="utf-8">
+    (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+    arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+    O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+    e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+  </script>
+
+
+  <!-- AdSense -->
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+  
+  <!-- WebSpectator -->
+  <script async type="text/javascript" src="//wfpscripts.webspectator.com/bootstrap/ws-8828A2DD.js"></script>
+
+  <script type="text/javascript">window._pt_lt = new Date().getTime();</script>
+ 
+   
+  <link href='http://www.ratemyteachers.com/hillsborough-community-college/114529-s.rss' rel='alternate' type='application/rss+xml'>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="8Mw4q/8umxrqUK71AIDo4qL4IIudGnlyNJBc4v4GUU0=" name="csrf-token" />
+</head>
+<!--
+
+██████╗ ███╗   ███╗████████╗
+██╔══██╗████╗ ████║╚══██╔══╝
+██████╔╝██╔████╔██║   ██║   
+██╔══██╗██║╚██╔╝██║   ██║   
+██║  ██║██║ ╚═╝ ██║   ██║   
+╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝
+
+If you see this we should talk!  We are pretty awesome!
+-->
+<body class="inner_page school_page schools_v7_1
+">
+  <div id="fb-root"></div>
+      <div class='rate_my_teachers_international'>
+<div class='container'>
+<div class='row'>
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+<header>
+<div class='container'>
+<div class='row'>
+<form action='/search_page' class='tab-form search_form' method='get'>
+<a alt='Go to RateMyTeachers Home' href='/' id='rate_my_teachers_logo' title='Go to RateMyTeachers Home'></a>
+<input name='search' type='hidden' value='teachers'>
+<div class='search_inputs'>
+<div class='bg'>
+<div class='padding'>
+<input class='search_input' name='q' placeholder='Search: Professors, Teachers, High Schools, or Colleges' type='text'>
+</div>
+<div class='location'>
+<select class="state" id="state" name="state"><option value="">Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class='search_button'>
+<button class='btn-search fa fa-search fa-3x' title='Search RateMyTeachers' type='submit'></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+
+
+
+    <section class="breadcrumbs container-fluid">
+      <div class="row">
+        <div class="container">
+          <div class="col-sm-12">
+            <ul class='list-inline collapsible_nav collapsible_nav_collapsed'>
+<li class='toggle'>
+<a href='javascript:void(0);'>
+<i class='fa fa-bars'></i>
+</a>
+</li>
+<li class='collapse'>
+<a href='/' title='Go to RateMyTeachers Home'>United States</a>
+</li>
+<li class='always_show'>
+<a alt='Go to Schools in Florida' href='/florida' title='Go to Schools in Florida'>Florida</a>
+</li>
+<li class='collapse'>
+<a alt='Go to Schools in Tampa' href='/florida/tampa' title='Go to Schools in Tampa'>Tampa</a>
+</li>
+<li class='always_show extra_option'>
+<span class='last'>Hillsborough Community College</span>
+</li>
+<li class='always_show'>
+<a class='new_teacher_trigger' data-backdrop='static' data-keyboard data-school='Hillsborough Community College' data-sender-name='School page breadcrumb' data-target='#modal' data-toggle='modal' href='/teachers/new?sid=114529' title='Add My Professor'>Add My Professor</a>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+  
+
+  <div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="alert alert-danger" id="flash-error" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-warning" id="flash-alert" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-success" id="flash-success" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-info"  id="flash-notice" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+  
+
+  <div id="content">
+    <span itemprop='aggregateRating' itemscope itemtype='http://data-vocabulary.org/Review-aggregate'>
+<meta content='Hillsborough Community College' itemprop='itemreviewed'>
+<span itemprop='rating' itemscope itemtype='http://data-vocabulary.org/Rating'>
+<meta content='3.88536' itemprop='average'>
+<meta content='5' itemprop='best'>
+<meta content='0' itemprop='worst'>
+</span>
+<meta content='195' itemprop='votes'>
+</span>
+
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+  <div id="School_ATF_Large_Leaderboard">
+    <!-- School_ATF_Large_Leaderboard -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:970px;height:90px"
+         data-ad-client="ca-pub-8322864954623881"
+         data-ad-slot="7130714482"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+</div>
+</div>
+<div class='row'>
+<div class='col-md-4 sticky_container_left'>
+<div class='sticky_column'>
+<section class='school_info' itemscope itemtype='http://schema.org/CollegeOrUniversity'>
+<div class='callout'>
+This School profile is 17% complete. Help us
+<a href='javascript:void(0);'>add more information</a>
+</div>
+<div class='info row'>
+<div class='col-md-12'>
+<div class='info_box'>
+<div class='main_info'>
+<h1 class='title school_name' itemprop='name'>
+Hillsborough Community College
+
+</h1>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='18' data-rateit-starwidth='22' data-rateit-value='3.88536'></div>
+</div>
+<!-- /.location= school.state_and_city_full -->
+<div class='staff'>
+Based on
+268
+Professors
+and
+155
+Ratings
+</div>
+<div class='row'>
+<div class='col-xs-12 attributes'>
+<div class='attribute'>
+<div class='easy val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Easiness</div>
+</div>
+<div class='attribute'>
+<div class='helpful val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Helpfulness</div>
+</div>
+<div class='attribute'>
+<div class='clarity val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Clarity</div>
+</div>
+<div class='attribute'>
+<div class='knowledgeable val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Knowledge</div>
+</div>
+<div class='attribute'>
+<div class='textbook_use val3 value'>
+<span>3</span>
+</div>
+<div class='text'>Textbook Use</div>
+</div>
+<div class='attribute'>
+<div class='exam_difficulty val3 value'>
+<span>3</span>
+</div>
+<div class='text'>Exam Difficulty</div>
+</div>
+</div>
+</div>
+</div>
+<div class='secondary_info'>
+<div class='col-md-12 stats phone'>
+<div class='title'>Telephone:</div>
+<span itemprop='telephone'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class='apply_school_administrator_wrapper secondary'>
+<a class='new_admin_request_trigger' data-school='Hillsborough Community College' data-sender='School page' data-target='#modal' data-toggle='modal' href='/admin/new?sid=114529' title="Become Hillsborough Community College's Admin">
+Become Hillsborough Community College's Admin
+</a>
+</div>
+
+</div>
+</div>
+<div class='col-md-4 middle'>
+<section class='school_teachers content'>
+<!-- - else -->
+<!-- .item -->
+<div class='sticky_container_center'>
+<div class='sticky_column' style='z-index:999; background-color:#fff;'>
+<div class='search padding hidden-xs'>
+<form action='/hillsborough-community-college/114529-s' class='simple_form inline_form'>
+<div class='row'>
+<div class='col-xs-12 col-md-7 left'>
+<input name='q' placeholder='Search by Teacher' type='text'>
+<input class='btn btn-default' name='commit' type='submit' value='Search'>
+</div>
+<div class='col-xs-12 col-md-5 right'>
+<select id="school_departments" name="school_departments"><option value="">Select a Department</option><option value=""></option><option value="/hillsborough-community-college/114529-s/not-specified">Not Specified</option>
+<option value="/hillsborough-community-college/114529-s/accounting">Accounting</option>
+<option value="/hillsborough-community-college/114529-s/administration">Administration</option>
+<option value="/hillsborough-community-college/114529-s/anthropology">Anthropology</option>
+<option value="/hillsborough-community-college/114529-s/architecture">Architecture</option>
+<option value="/hillsborough-community-college/114529-s/asl">ASL</option>
+<option value="/hillsborough-community-college/114529-s/auto-tech">Auto Tech</option>
+<option value="/hillsborough-community-college/114529-s/band">Band</option>
+<option value="/hillsborough-community-college/114529-s/biology">Biology</option>
+<option value="/hillsborough-community-college/114529-s/business">Business</option>
+<option value="/hillsborough-community-college/114529-s/chemistry">Chemistry</option>
+<option value="/hillsborough-community-college/114529-s/co-op">Co-op</option>
+<option value="/hillsborough-community-college/114529-s/communications">Communications</option>
+<option value="/hillsborough-community-college/114529-s/computer-science">Computer Science</option>
+<option value="/hillsborough-community-college/114529-s/counselor">Counselor</option>
+<option value="/hillsborough-community-college/114529-s/drafting">Drafting</option>
+<option value="/hillsborough-community-college/114529-s/drivers-education">Drivers Education</option>
+<option value="/hillsborough-community-college/114529-s/economics">Economics</option>
+<option value="/hillsborough-community-college/114529-s/education">Education</option>
+<option value="/hillsborough-community-college/114529-s/english">English</option>
+<option value="/hillsborough-community-college/114529-s/esl">ESL</option>
+<option value="/hillsborough-community-college/114529-s/family-consumer-sciences">Family &amp; Consumer Sciences</option>
+<option value="/hillsborough-community-college/114529-s/film">Film</option>
+<option value="/hillsborough-community-college/114529-s/fine-arts">Fine Arts</option>
+<option value="/hillsborough-community-college/114529-s/french">French</option>
+<option value="/hillsborough-community-college/114529-s/geography">Geography</option>
+<option value="/hillsborough-community-college/114529-s/grade-1">Grade 1</option>
+<option value="/hillsborough-community-college/114529-s/grade-2">Grade 2</option>
+<option value="/hillsborough-community-college/114529-s/grade-3">Grade 3</option>
+<option value="/hillsborough-community-college/114529-s/grade-4">Grade 4</option>
+<option value="/hillsborough-community-college/114529-s/grade-5">Grade 5</option>
+<option value="/hillsborough-community-college/114529-s/grade-6">Grade 6</option>
+<option value="/hillsborough-community-college/114529-s/grade-k">Grade K</option>
+<option value="/hillsborough-community-college/114529-s/grammaire-composition">Grammaire/Composition</option>
+<option value="/hillsborough-community-college/114529-s/headmaster">Headmaster</option>
+<option value="/hillsborough-community-college/114529-s/health">Health</option>
+<option value="/hillsborough-community-college/114529-s/history">History</option>
+<option value="/hillsborough-community-college/114529-s/home-economics">Home Economics</option>
+<option value="/hillsborough-community-college/114529-s/ib-program">IB Program</option>
+<option value="/hillsborough-community-college/114529-s/independent-study">Independent Study</option>
+<option value="/hillsborough-community-college/114529-s/industrial-education">Industrial Education</option>
+<option value="/hillsborough-community-college/114529-s/journalism">Journalism</option>
+<option value="/hillsborough-community-college/114529-s/languages">Languages</option>
+<option value="/hillsborough-community-college/114529-s/law">Law</option>
+<option value="/hillsborough-community-college/114529-s/librarian">Librarian</option>
+<option value="/hillsborough-community-college/114529-s/math">Math</option>
+<option value="/hillsborough-community-college/114529-s/media">Media</option>
+<option value="/hillsborough-community-college/114529-s/multiple-subjects">Multiple Subjects</option>
+<option value="/hillsborough-community-college/114529-s/music">Music</option>
+<option value="/hillsborough-community-college/114529-s/nursing">Nursing</option>
+<option value="/hillsborough-community-college/114529-s/performing-arts">Performing Arts</option>
+<option value="/hillsborough-community-college/114529-s/philosophy">Philosophy</option>
+<option value="/hillsborough-community-college/114529-s/photography">Photography</option>
+<option value="/hillsborough-community-college/114529-s/physical-education">Physical Education</option>
+<option value="/hillsborough-community-college/114529-s/physics">Physics</option>
+<option value="/hillsborough-community-college/114529-s/principal">Principal</option>
+<option value="/hillsborough-community-college/114529-s/psychology">Psychology</option>
+<option value="/hillsborough-community-college/114529-s/reading">Reading</option>
+<option value="/hillsborough-community-college/114529-s/religion">Religion</option>
+<option value="/hillsborough-community-college/114529-s/resource">Resource</option>
+<option value="/hillsborough-community-college/114529-s/rotc">ROTC</option>
+<option value="/hillsborough-community-college/114529-s/science">Science</option>
+<option value="/hillsborough-community-college/114529-s/social-studies">Social Studies</option>
+<option value="/hillsborough-community-college/114529-s/sociology">Sociology</option>
+<option value="/hillsborough-community-college/114529-s/speech">Speech</option>
+<option value="/hillsborough-community-college/114529-s/study-skills">Study Skills</option>
+<option value="/hillsborough-community-college/114529-s/substitute-teacher">Substitute Teacher</option>
+<option value="/hillsborough-community-college/114529-s/technology">Technology</option>
+<option value="/hillsborough-community-college/114529-s/vice-principal">Vice Principal</option>
+<option value="/hillsborough-community-college/114529-s/visual-arts">Visual Arts</option>
+<option value="/hillsborough-community-college/114529-s/writing">Writing</option></select>
+</div>
+</div>
+</form>
+</div>
+<ul class='teachers_by_alphabet'>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with A' href='/hillsborough-community-college/114529-s/a' title='Professors at Hillsborough Community College whose names begin with A'>a</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with B' href='/hillsborough-community-college/114529-s/b' title='Professors at Hillsborough Community College whose names begin with B'>b</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with C' href='/hillsborough-community-college/114529-s/c' title='Professors at Hillsborough Community College whose names begin with C'>c</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with D' href='/hillsborough-community-college/114529-s/d' title='Professors at Hillsborough Community College whose names begin with D'>d</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with E' href='/hillsborough-community-college/114529-s/e' title='Professors at Hillsborough Community College whose names begin with E'>e</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with F' href='/hillsborough-community-college/114529-s/f' title='Professors at Hillsborough Community College whose names begin with F'>f</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with G' href='/hillsborough-community-college/114529-s/g' title='Professors at Hillsborough Community College whose names begin with G'>g</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with H' href='/hillsborough-community-college/114529-s/h' title='Professors at Hillsborough Community College whose names begin with H'>h</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with I' href='/hillsborough-community-college/114529-s/i' title='Professors at Hillsborough Community College whose names begin with I'>i</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with J' href='/hillsborough-community-college/114529-s/j' title='Professors at Hillsborough Community College whose names begin with J'>j</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with K' href='/hillsborough-community-college/114529-s/k' title='Professors at Hillsborough Community College whose names begin with K'>k</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with L' href='/hillsborough-community-college/114529-s/l' title='Professors at Hillsborough Community College whose names begin with L'>l</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with M' href='/hillsborough-community-college/114529-s/m' title='Professors at Hillsborough Community College whose names begin with M'>m</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with N' href='/hillsborough-community-college/114529-s/n' title='Professors at Hillsborough Community College whose names begin with N'>n</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with O' href='/hillsborough-community-college/114529-s/o' title='Professors at Hillsborough Community College whose names begin with O'>o</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with P' href='/hillsborough-community-college/114529-s/p' title='Professors at Hillsborough Community College whose names begin with P'>p</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with Q' href='/hillsborough-community-college/114529-s/q' title='Professors at Hillsborough Community College whose names begin with Q'>q</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with R' href='/hillsborough-community-college/114529-s/r' title='Professors at Hillsborough Community College whose names begin with R'>r</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with S' href='/hillsborough-community-college/114529-s/s' title='Professors at Hillsborough Community College whose names begin with S'>s</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with T' href='/hillsborough-community-college/114529-s/t' title='Professors at Hillsborough Community College whose names begin with T'>t</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with U' href='/hillsborough-community-college/114529-s/u' title='Professors at Hillsborough Community College whose names begin with U'>u</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with V' href='/hillsborough-community-college/114529-s/v' title='Professors at Hillsborough Community College whose names begin with V'>v</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with X' href='/hillsborough-community-college/114529-s/x' title='Professors at Hillsborough Community College whose names begin with X'>x</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with Y' href='/hillsborough-community-college/114529-s/y' title='Professors at Hillsborough Community College whose names begin with Y'>y</a>
+</li>
+<li>
+<a alt='Professors at Hillsborough Community College whose names begin with Z' href='/hillsborough-community-college/114529-s/z' title='Professors at Hillsborough Community College whose names begin with Z'>z</a>
+</li>
+</ul>
+
+</div>
+</div>
+<div class='header padding'>
+Showing
+268 Professors
+<!-- and -->
+<!-- %span.colorized= pluralize ratings_count, 'Rating' -->
+from Hillsborough Community College
+</div>
+<div class='teachers padding'>
+
+
+
+  <div id="School_ATF_Leaderboard">
+    <!-- School_ATF_Leaderboard_web -->
+    <ins class="adsbygoogle"
+      style="display:inline-block;width:336px;height:280px"
+      data-ad-client="ca-pub-8322864954623881"
+      data-ad-slot="1367689285"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Beth Burns&#39; Ratings" class="name" href="http://www.ratemyteachers.com/beth-burns/2141715-t" title="View Professor Beth Burns&#39; Ratings">Beth Burns</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/writing" title="View Hillsborough Community College&#39;s Writing Professors">Writing</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Great instructor overall!!!"</span>
+<a alt="View Professor Beth Burns&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/beth-burns/2141715-t" title="View Professor Beth Burns&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/beth-burns/2141715-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Noelle Knight&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/noelle-knight/2440678-t" title="View Professor Noelle Knight&#39;s Ratings">Noelle Knight</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/multiple-subjects" title="View Hillsborough Community College&#39;s Multiple Subjects Professors">Multiple Subjects</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"This professor teaches at Dale Mabry campus. Very enthusiastic and helpful teacher that works..."</span>
+<a alt="View Professor Noelle Knight&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/noelle-knight/2440678-t" title="View Professor Noelle Knight&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/noelle-knight/2440678-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Ramesh Usman&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/ramesh-usman/2467035-t" title="View Professor Ramesh Usman&#39;s Ratings">Ramesh Usman</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/health" title="View Hillsborough Community College&#39;s Health Professors">Health</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He is a great Human A"</span>
+<a alt="View Professor Ramesh Usman&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/ramesh-usman/2467035-t" title="View Professor Ramesh Usman&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/ramesh-usman/2467035-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Dobbies&#39; Ratings" class="name" href="http://www.ratemyteachers.com/dobbies/2467043-t" title="View Professor Dobbies&#39; Ratings">Dobbies</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"wieght training easy"</span>
+<a alt="View Professor Dobbies&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/dobbies/2467043-t" title="View Professor Dobbies&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/dobbies/2467043-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Jorge Romero&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/jorge-romero/2016588-t" title="View Professor Jorge Romero&#39;s Ratings">Jorge Romero</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/english" title="View Hillsborough Community College&#39;s English Professors">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"GREAT MATH TEACHER BUT GIVES A LOT OF HW"</span>
+<a alt="View Professor Jorge Romero&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/jorge-romero/2016588-t" title="View Professor Jorge Romero&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jorge-romero/2016588-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Harvey&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/harvey/2103147-t" title="View Professor Harvey&#39;s Ratings">Harvey</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Great professor."</span>
+<a alt="View Professor Harvey&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/harvey/2103147-t" title="View Professor Harvey&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/harvey/2103147-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Barry Silber&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/barry-silber/2103146-t" title="View Professor Barry Silber&#39;s Ratings">Barry Silber</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/psychology" title="View Hillsborough Community College&#39;s Psychology Professors">Psychology</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Barry Silber was my psychology teacher three and a half years ago.  He is wonderful and I learned..."</span>
+<a alt="View Professor Barry Silber&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/barry-silber/2103146-t" title="View Professor Barry Silber&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/barry-silber/2103146-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Blannie Whelan&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/blannie-whelan/3150102-t" title="View Professor Blannie Whelan&#39;s Ratings">Blannie Whelan</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/nursing" title="View Hillsborough Community College&#39;s Nursing Professors">Nursing</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Cares about each student . Is fair, but expects a lot from you.  Very helpful."</span>
+<a alt="View Professor Blannie Whelan&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/blannie-whelan/3150102-t" title="View Professor Blannie Whelan&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/blannie-whelan/3150102-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Elisa Molano-Cook&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/elisa-molano-cook/3159029-t" title="View Professor Elisa Molano-Cook&#39;s Ratings">Elisa Molano Cook</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/languages" title="View Hillsborough Community College&#39;s Languages Professors">Languages</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Great teacher! Made learning Spanish a pleasure. She explained the difficult context in a way..."</span>
+<a alt="View Professor Elisa Molano-Cook&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/elisa-molano-cook/3159029-t" title="View Professor Elisa Molano-Cook&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/elisa-molano-cook/3159029-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Janet Stevenson&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/janet-stevenson/2110641-t" title="View Professor Janet Stevenson&#39;s Ratings">Janet Stevenson</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"mrs. stevenson is an awesome teacher. i took her for college algebra and got an A in her class...."</span>
+<a alt="View Professor Janet Stevenson&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/janet-stevenson/2110641-t" title="View Professor Janet Stevenson&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/janet-stevenson/2110641-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Athena Smith&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/athena-smith/2110868-t" title="View Professor Athena Smith&#39;s Ratings">Athena Smith</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"her class is very easy and intresting just make sure you come to class and take good notes her..."</span>
+<a alt="View Professor Athena Smith&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/athena-smith/2110868-t" title="View Professor Athena Smith&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/athena-smith/2110868-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Ma thelma Wharton&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/ma-thelma-wharton/2431981-t" title="View Professor Ma thelma Wharton&#39;s Ratings">Ma Thelma Wharton</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/math" title="View Hillsborough Community College&#39;s Math Professors">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Very nice teacher, very helpful, she has an accent but it isn&#39;t bad. I tried to register for her..."</span>
+<a alt="View Professor Ma thelma Wharton&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/ma-thelma-wharton/2431981-t" title="View Professor Ma thelma Wharton&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/ma-thelma-wharton/2431981-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Rochelle Morris&#39; Ratings" class="name" href="http://www.ratemyteachers.com/rochelle-morris/2359406-t" title="View Professor Rochelle Morris&#39; Ratings">Rochelle Morris</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/psychology" title="View Hillsborough Community College&#39;s Psychology Professors">Psychology</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Personal psych. Great class, great teacher!"</span>
+<a alt="View Professor Rochelle Morris&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/rochelle-morris/2359406-t" title="View Professor Rochelle Morris&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/rochelle-morris/2359406-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Cavedo&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/cavedo/2359409-t" title="View Professor Cavedo&#39;s Ratings">Cavedo</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/film" title="View Hillsborough Community College&#39;s Film Professors">Film</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Into to film. Great class. Great guy. Fair. Good humor."</span>
+<a alt="View Professor Cavedo&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/cavedo/2359409-t" title="View Professor Cavedo&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/cavedo/2359409-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Beth Kerly&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/beth-kerly/2370476-t" title="View Professor Beth Kerly&#39;s Ratings">Beth Kerly</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/multiple-subjects" title="View Hillsborough Community College&#39;s Multiple Subjects Professors">Multiple Subjects</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Beth Kerly is strict, but it&#39;s because she cares about her students. She is a great teacher as..."</span>
+<a alt="View Professor Beth Kerly&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/beth-kerly/2370476-t" title="View Professor Beth Kerly&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/beth-kerly/2370476-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor David Carson&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/david-carson/2129757-t" title="View Professor David Carson&#39;s Ratings">David Carson</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mr. Carson is awesome ! He cares about his student and is always willing to help. He teaches math..."</span>
+<a alt="View Professor David Carson&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/david-carson/2129757-t" title="View Professor David Carson&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/david-carson/2129757-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Rivera&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/rivera/2398560-t" title="View Professor Rivera&#39;s Ratings">Rivera</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/psychology" title="View Hillsborough Community College&#39;s Psychology Professors">Psychology</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He is an great teacher and makes his class very intresting There are no test in his class but..."</span>
+<a alt="View Professor Rivera&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/rivera/2398560-t" title="View Professor Rivera&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/rivera/2398560-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor John Reffue&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/john-reffue/2405897-t" title="View Professor John Reffue&#39;s Ratings">John Reffue</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/communications" title="View Hillsborough Community College&#39;s Communications Professors">Communications</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"This teacher was amazing to have for public speaking. He gives everyone of his students great..."</span>
+<a alt="View Professor John Reffue&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/john-reffue/2405897-t" title="View Professor John Reffue&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/john-reffue/2405897-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Tavares&#39; Ratings" class="name" href="http://www.ratemyteachers.com/tavares/2127962-t" title="View Professor Tavares&#39; Ratings">Tavares</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He doesn&#39;t just give you answer, but he doesn&#39;t ask impossible questions :)"</span>
+<a alt="View Professor Tavares&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/tavares/2127962-t" title="View Professor Tavares&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/tavares/2127962-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Kelly&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/kelly/2411971-t" title="View Professor Kelly&#39;s Ratings">Kelly</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She is easy to follow, patient and always in a good mood."</span>
+<a alt="View Professor Kelly&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/kelly/2411971-t" title="View Professor Kelly&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kelly/2411971-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Tyanne Campbell&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/tyanne-campbell/3163874-t" title="View Professor Tyanne Campbell&#39;s Ratings">Tyanne Campbell</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/math" title="View Hillsborough Community College&#39;s Math Professors">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She is a wonderful teacher. I recommened taking her class"</span>
+<a alt="View Professor Tyanne Campbell&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/tyanne-campbell/3163874-t" title="View Professor Tyanne Campbell&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/tyanne-campbell/3163874-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Hervey&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/hervey/1921823-t" title="View Professor Hervey&#39;s Ratings">Hervey</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/math" title="View Hillsborough Community College&#39;s Math Professors">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"excellent teacher"</span>
+<a alt="View Professor Hervey&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/hervey/1921823-t" title="View Professor Hervey&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/hervey/1921823-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Pedersen&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/pedersen/1970253-t" title="View Professor Pedersen&#39;s Ratings">Pedersen</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/math" title="View Hillsborough Community College&#39;s Math Professors">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She actually cares about her students and goes above and beyond to help. I would recommend her to..."</span>
+<a alt="View Professor Pedersen&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/pedersen/1970253-t" title="View Professor Pedersen&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/pedersen/1970253-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Stephen Lambert&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/stephen-lambert/1970483-t" title="View Professor Stephen Lambert&#39;s Ratings">Stephen Lambert</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Fun guy, great sense of humor, very helpful."</span>
+<a alt="View Professor Stephen Lambert&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/stephen-lambert/1970483-t" title="View Professor Stephen Lambert&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/stephen-lambert/1970483-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Felicity Talbot&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/felicity-talbot/1984756-t" title="View Professor Felicity Talbot&#39;s Ratings">Felicity Talbot</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/science" title="View Hillsborough Community College&#39;s Science Professors">Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She is a great Teacher. She is very helpful and is always available when needed. Explains things..."</span>
+<a alt="View Professor Felicity Talbot&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/felicity-talbot/1984756-t" title="View Professor Felicity Talbot&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/felicity-talbot/1984756-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Deborah Lasalvia&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/deborah-lasalvia/1985380-t" title="View Professor Deborah Lasalvia&#39;s Ratings">Deborah Lasalvia</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She is very good at explaining Radiation Therapy!  She makes it seem easy and also her high Level..."</span>
+<a alt="View Professor Deborah Lasalvia&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/deborah-lasalvia/1985380-t" title="View Professor Deborah Lasalvia&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/deborah-lasalvia/1985380-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Amanda Meyer&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/amanda-meyer/1990994-t" title="View Professor Amanda Meyer&#39;s Ratings">Amanda Meyer</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/speech" title="View Hillsborough Community College&#39;s Speech Professors">Speech</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"very very helpful- very clear on whats to be presented and for whats on exam! very cool lady!"</span>
+<a alt="View Professor Amanda Meyer&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/amanda-meyer/1990994-t" title="View Professor Amanda Meyer&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/amanda-meyer/1990994-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor K Torregiante&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/k-torregiante/2054751-t" title="View Professor K Torregiante&#39;s Ratings">K Torregiante</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/psychology" title="View Hillsborough Community College&#39;s Psychology Professors">Psychology</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Extremely clear and helpful! Keeps powerpoints online and is always there for extra help if you..."</span>
+<a alt="View Professor K Torregiante&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/k-torregiante/2054751-t" title="View Professor K Torregiante&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/k-torregiante/2054751-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor James Miller&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/james-miller/2045888-t" title="View Professor James Miller&#39;s Ratings">James Miller</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>3 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"my fav teacher EVER!!!!!!"</span>
+<a alt="View Professor James Miller&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/james-miller/2045888-t" title="View Professor James Miller&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/james-miller/2045888-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Hawkins&#39; Ratings" class="name" href="http://www.ratemyteachers.com/hawkins/2043586-t" title="View Professor Hawkins&#39; Ratings">Hawkins</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"really nice lady...if u do your notes in class that she gives you u&#39;ll pass...no tests only..."</span>
+<a alt="View Professor Hawkins&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/hawkins/2043586-t" title="View Professor Hawkins&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/hawkins/2043586-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Christine Seiler&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/christine-seiler/1964058-t" title="View Professor Christine Seiler&#39;s Ratings">Christine Seiler</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Real Nice Teacher"</span>
+<a alt="View Professor Christine Seiler&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/christine-seiler/1964058-t" title="View Professor Christine Seiler&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/christine-seiler/1964058-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Mathew Williamson&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/mathew-williamson/2062196-t" title="View Professor Mathew Williamson&#39;s Ratings">Mathew Williamson</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Great teacher. Really easy to understand. He had a sub for 1 week and boy were we happy to have..."</span>
+<a alt="View Professor Mathew Williamson&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/mathew-williamson/2062196-t" title="View Professor Mathew Williamson&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mathew-williamson/2062196-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Ian Gibbons&#39; Ratings" class="name" href="http://www.ratemyteachers.com/ian-gibbons/1958827-t" title="View Professor Ian Gibbons&#39; Ratings">Ian Gibbons</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/computer-science" title="View Hillsborough Community College&#39;s Computer Science Professors">Computer Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Very funny and good teacher!"</span>
+<a alt="View Professor Ian Gibbons&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/ian-gibbons/1958827-t" title="View Professor Ian Gibbons&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/ian-gibbons/1958827-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor John Ball&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/john-ball/2092832-t" title="View Professor John Ball&#39;s Ratings">John Ball</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"super great teacher, had him for EUH-1000, he doesn&#39;t care about the dates as much as what..."</span>
+<a alt="View Professor John Ball&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/john-ball/2092832-t" title="View Professor John Ball&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/john-ball/2092832-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Ottaman&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/ottaman/2079530-t" title="View Professor Ottaman&#39;s Ratings">Ottaman</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"he is funny and really teaches you. :D"</span>
+<a alt="View Professor Ottaman&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/ottaman/2079530-t" title="View Professor Ottaman&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/ottaman/2079530-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Rock&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/rock/2073112-t" title="View Professor Rock&#39;s Ratings">Rock</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/english" title="View Hillsborough Community College&#39;s English Professors">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Great concerned guy"</span>
+<a alt="View Professor Rock&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/rock/2073112-t" title="View Professor Rock&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/rock/2073112-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Janet Sibol&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/janet-sibol/1946531-t" title="View Professor Janet Sibol&#39;s Ratings">Janet Sibol</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>3 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"she&#39;s the best she took me a straight f student in math and helped me get an A"</span>
+<a alt="View Professor Janet Sibol&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/janet-sibol/1946531-t" title="View Professor Janet Sibol&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/janet-sibol/1946531-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Frank Elmendorf&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/frank-elmendorf/1948000-t" title="View Professor Frank Elmendorf&#39;s Ratings">Frank Elmendorf</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/esl" title="View Hillsborough Community College&#39;s Esl Professors">Esl</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He is very kind, a great person.  Always, helps his students and try to make their studies..."</span>
+<a alt="View Professor Frank Elmendorf&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/frank-elmendorf/1948000-t" title="View Professor Frank Elmendorf&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/frank-elmendorf/1948000-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Diederich&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/diederich/1949271-t" title="View Professor Diederich&#39;s Ratings">Diederich</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"he&#39;s a decent teacher but very very easy, and you can get away with a lot in his class. but out..."</span>
+<a alt="View Professor Diederich&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/diederich/1949271-t" title="View Professor Diederich&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/diederich/1949271-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Leake&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/leake/1949318-t" title="View Professor Leake&#39;s Ratings">Leake</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Awesome teacher. So nice!"</span>
+<a alt="View Professor Leake&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/leake/1949318-t" title="View Professor Leake&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/leake/1949318-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor John Withlock&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/john-withlock/1955467-t" title="View Professor John Withlock&#39;s Ratings">John Withlock</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"great teacher! i took him for bio found. and loved the class and the easiness of it!! he was also..."</span>
+<a alt="View Professor John Withlock&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/john-withlock/1955467-t" title="View Professor John Withlock&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/john-withlock/1955467-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Wyatt Deleon&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/wyatt-deleon/2034413-t" title="View Professor Wyatt Deleon&#39;s Ratings">Wyatt Deleon</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/psychology" title="View Hillsborough Community College&#39;s Psychology Professors">Psychology</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Awewome. You wil love her class."</span>
+<a alt="View Professor Wyatt Deleon&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/wyatt-deleon/2034413-t" title="View Professor Wyatt Deleon&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/wyatt-deleon/2034413-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Craig&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/craig/2102067-t" title="View Professor Craig&#39;s Ratings">Craig</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She will do her best to make sure that you get it and work with you until you get. I wish she was..."</span>
+<a alt="View Professor Craig&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/craig/2102067-t" title="View Professor Craig&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/craig/2102067-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Remmington&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/remmington/2226529-t" title="View Professor Remmington&#39;s Ratings">Remmington</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/english" title="View Hillsborough Community College&#39;s English Professors">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Great teacher, funny and easy going! Hold on,...*coughs* Prof. Remmington is an exceptional..."</span>
+<a alt="View Professor Remmington&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/remmington/2226529-t" title="View Professor Remmington&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/remmington/2226529-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor R. Rubini&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/r-rubini/2485456-t" title="View Professor R. Rubini&#39;s Ratings">R. Rubini</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/chemistry" title="View Hillsborough Community College&#39;s Chemistry Professors">Chemistry</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Great Teacher! Best Chemistry teacher I have ever had ! You learn a lot in his class. His..."</span>
+<a alt="View Professor R. Rubini&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/r-rubini/2485456-t" title="View Professor R. Rubini&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/r-rubini/2485456-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Joann Kakascik&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/joann-kakascik/2245739-t" title="View Professor Joann Kakascik&#39;s Ratings">Joann Kakascik</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/math" title="View Hillsborough Community College&#39;s Math Professors">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Was born to teach, excellent communication skills.  Keeps learning interesting, goes above and..."</span>
+<a alt="View Professor Joann Kakascik&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/joann-kakascik/2245739-t" title="View Professor Joann Kakascik&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/joann-kakascik/2245739-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Fatherree&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/fatherree/2226523-t" title="View Professor Fatherree&#39;s Ratings">Fatherree</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/not-specified" title="View Hillsborough Community College&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He is an awesome teacher! If you come to class and make flash cards you will do good. If you have..."</span>
+<a alt="View Professor Fatherree&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/fatherree/2226523-t" title="View Professor Fatherree&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/fatherree/2226523-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Desi Saludes&#39; Ratings" class="name" href="http://www.ratemyteachers.com/desi-saludes/2335124-t" title="View Professor Desi Saludes&#39; Ratings">Desi Saludes</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/physics" title="View Hillsborough Community College&#39;s Physics Professors">Physics</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Great teacher, but not for the lazy. He is the man if you plan to study engineering!"</span>
+<a alt="View Professor Desi Saludes&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/desi-saludes/2335124-t" title="View Professor Desi Saludes&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/desi-saludes/2335124-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Patrick Cureton&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/patrick-cureton/2486314-t" title="View Professor Patrick Cureton&#39;s Ratings">Patrick Cureton</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/math" title="View Hillsborough Community College&#39;s Math Professors">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Excellent Teacher, Its Math what is so easy about it anyways. Professor Cureton does take the..."</span>
+<a alt="View Professor Patrick Cureton&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/patrick-cureton/2486314-t" title="View Professor Patrick Cureton&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/patrick-cureton/2486314-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Professor Christina Bryant&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/christina-bryant/2284494-t" title="View Professor Christina Bryant&#39;s Ratings">Christina Bryant</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>3 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/hillsborough-community-college/114529-s/math" title="View Hillsborough Community College&#39;s Math Professors">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Awesome teacher"</span>
+<a alt="View Professor Christina Bryant&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/christina-bryant/2284494-t" title="View Professor Christina Bryant&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/christina-bryant/2284494-t'></a>
+</div>
+</div>
+</div>
+
+</div>
+<div class='padding'>
+  <!-- School_BTF_Leaderboard -->
+  <div id="School_BTF_Leaderboard">
+    <ins class="adsbygoogle"
+      style="display:inline-block;width:336px;height:280px"
+      data-ad-client="ca-pub-8322864954623881"
+      data-ad-slot="2844422481"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+
+</div>
+<div class='pagination_container'>  <ul class="pagination">
+    
+    
+        <li class="page active">
+  <a href="/hillsborough-community-college/114529-s">1</a>
+</li>
+
+        <li class="page">
+  <a href="/hillsborough-community-college/114529-s/2" rel="next">2</a>
+</li>
+
+        <li class="page">
+  <a href="/hillsborough-community-college/114529-s/3">3</a>
+</li>
+
+        <li class="page">
+  <a href="/hillsborough-community-college/114529-s/4">4</a>
+</li>
+
+        <li class="page">
+  <a href="/hillsborough-community-college/114529-s/5">5</a>
+</li>
+
+        <li class="page gap disabled"><a href="#" onclick="return false;">&hellip;</a></li>
+    <li class="next_page">
+  <a href="/hillsborough-community-college/114529-s/2" rel="next">
+    <span class="hidden-sm hidden-md hidden-lg">&rsaquo;</span>
+    <span class="hidden-xs">Next &rsaquo;</span>
+  </a>
+</li>
+
+    <li class="last next">
+  <a href="/hillsborough-community-college/114529-s/6">
+    <span class="hidden-sm hidden-md hidden-lg">&raquo;</span>
+    <span class="hidden-xs">Last &raquo;</span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</section>
+</div>
+<aside class='col-xs-12 col-sm-4 sticky_container_right'>
+<div class='sticky_column'>
+
+
+<div class='add_teacher_wrapper'>
+<a class='new_teacher_trigger' data-backdrop='static' data-keyboard data-school='Hillsborough Community College' data-sender-name='School aside' data-target='#modal' data-toggle='modal' href='/teachers/new?sid=114529' title='Add My Professor to Hillsborough Community College'>
+<span>
+<span>
+Add My Professor
+</span>
+</span>
+</a>
+</div>
+
+<section class='aside_content'>
+<div class='col-xs-12 schools'>
+<div class='school clickable_fix'>
+<div class='name'>
+<a alt="View Incarnation Catholic School's Teachers" href='/incarnation-catholic-school/47936-s' title="View Incarnation Catholic School's Teachers">
+Incarnation Catholic School
+</a>
+</div>
+<div class='col-xs-12 details'>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.33167'></div>
+Middle School
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>16 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Tampa, Florida</span>
+</div>
+</div>
+<a alt="View Incarnation Catholic School's Teachers" class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='/incarnation-catholic-school/47936-s' title="View Incarnation Catholic School's Teachers"></a>
+</div>
+
+<div class='school clickable_fix'>
+<div class='name'>
+<a alt="View Wharton High School's Teachers" href='/wharton-high-school/5175-s' title="View Wharton High School's Teachers">
+Wharton High School
+</a>
+</div>
+<div class='col-xs-12 details'>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.93939'></div>
+Highschool
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>135 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Tampa, Florida</span>
+</div>
+</div>
+<a alt="View Wharton High School's Teachers" class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='/wharton-high-school/5175-s' title="View Wharton High School's Teachers"></a>
+</div>
+
+<div class='school clickable_fix'>
+<div class='name'>
+<a alt="View Sligh Middle School's Teachers" href='/sligh-middle-school/58014-s' title="View Sligh Middle School's Teachers">
+Sligh Middle School
+</a>
+</div>
+<div class='col-xs-12 details'>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.82062'></div>
+Middle School
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>85 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Tampa, Florida</span>
+</div>
+</div>
+<a alt="View Sligh Middle School's Teachers" class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='/sligh-middle-school/58014-s' title="View Sligh Middle School's Teachers"></a>
+</div>
+
+</div>
+</section>
+<div class='back_button_wrapper secondary'>
+<a href='/florida/tampa' title='View all schools in Tampa, Florida'>Tampa, Florida</a>
+</div>
+
+</div>
+</aside>
+</div>
+</div>
+<div class='hidden' id='v'>school-web-6.3</div>
+
+
+  </div>
+
+  
+    <div id="all_footer_wrapper" style="overflow:hidden;">
+      <section class='container-fluid hidden-xs padding' id='states'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<h3>Find High Schools and Colleges by State</h3>
+<div class='states'>
+<div class='state'>
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class='state'>
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class='state'>
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class='state'>
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class='state'>
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class='state'>
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class='state'>
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class='state'>
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class='state'>
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class='state'>
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class='state'>
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class='state'>
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class='state'>
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class='state'>
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class='state'>
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class='state'>
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class='state'>
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class='state'>
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class='state'>
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class='state'>
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class='state'>
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class='state'>
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class='state'>
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class='state'>
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class='state'>
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class='state'>
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class='state'>
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class='state'>
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class='state'>
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class='state'>
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class='state'>
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class='state'>
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class='state'>
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class='state'>
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class='state'>
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class='state'>
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class='state'>
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class='state'>
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class='state'>
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class='state'>
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class='state'>
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class='state'>
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class='state'>
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class='state'>
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class='state'>
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class='state'>
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer_directory'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-6 hidden-xs'>
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class='col-xs-6 hidden-xs'>
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class='row footer_countries_list'>
+<div class='col-xs-12'>
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer'>
+<div class='container'>
+<div class='row footer_links'>
+<div class='col-xs-12'>
+<h3 class='hidden-sm hidden-md hidden-lg'>Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop='static' data-keyboard data-target='#modal' data-toggle='modal' href='/contact/new' title='Contact RateMyTeachers'>
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='row copyright'>
+Copyright 2001-2015 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden='true' class='modal fade' id='modal' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div aria-hidden='true' class='modal fade' id='modal_rating' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div id='loading-indicator' style='display: none;'>
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif" />
+</div>
+</div>
+
+    </div>
+
+  <!-- loading JS at the end to speed up page loading -->
+    <script type="text/javascript">
+  window._pt_sp_2 = [];
+  _pt_sp_2.push('setAccount,42a92f26');
+  var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+
+  (function()
+  { var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true; atag.src = _protocol + 'js.ptengine.com/pta.js'; var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true; stag.src = _protocol + 'js.ptengine.com/pts.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s); }
+
+  )();
+  </script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery || document.write(unescape('%3Cscript src="/assets/jquery-92f6843043abf957b96f7fad2afbc022.js">%3C/script>'))
+//]]>
+</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery.ui || document.write(unescape('%3Cscript src="/assets/jquery-ui-e3d1c2f8bca4b46c2d38af5aa36cbc30.js">%3C/script>'))
+//]]>
+</script>
+  <script src="/assets/application-3e9daf29cca8faed41f60d1e474dabf1.js"></script>
+  <script>
+  var resultCount = 50;
+  var minStickyResultCount = 20;
+  var schoolPagePath = '/hillsborough-community-college/114529-s';
+  var stickyColumnLeft = $(".sticky_container_left .sticky_column");
+  var stickyColumnRight = $(".sticky_container_right .sticky_column");
+  var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+  var footerHeight = $('#all_footer_wrapper').outerHeight();
+  var stickyOptions = function(getWidthFrom, topSpacing) {
+    if (typeof(topSpacing) === 'undefined') {
+      topSpacing = 10;
+    }
+    return {topSpacing: topSpacing, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+  }
+  stickyColumnLeft.sticky(stickyOptions('.sticky_container_left'));
+  stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+  // Make center column options sticky when min results quantity
+  if (resultCount > minStickyResultCount - 1) {
+    stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+  }
+
+  // Beating Chrome bug
+  var fixEventStep1 = function() {
+    setTimeout(function() {
+      var secondaryInfo = $('.secondary_info');
+      secondaryInfo.css('min-height', secondaryInfo.height() + 'px');
+    }, 1);
+  };
+  var fixEventStep2 = function() {
+    $('.secondary_info').css('min-height', '');
+  };
+  stickyColumnLeft.on('sticky-start', fixEventStep1);
+  stickyColumnLeft.on('sticky-end', fixEventStep2);
+</script>
+
+
+  
+
+
+
+  <!-- [:desktop] 81dc7cd@rails1 - 2015-01-14 19:33:49 +0000-->
+</body>
+</html>

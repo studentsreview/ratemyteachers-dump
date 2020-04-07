@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script><title>Cities in Michigan page 3 | RateMyTeachers.com</title>
+	<meta name="description" content="Looking for your college or school in Michigan, United States? Find your school, read ratings and reviews, then express your own opinion about your teachers or professors! Find schools in the major cities in Michigan, United States find your teachers and professors and rate them in RateMyTeachers.com. Displaying page 3 showing cities from 81 to 120 of 491 total cities in Michigan." />
+	<meta name="keywords" content="elementary schools,Harrison Township,elementary school,middle schools,middle school,united states,Comstock Park,New Baltimore,Benton Harbor,Harper Woods,high schools,high school,Center Line,Fowlerville,South Lyon,Lake Orion,Farmington,White Lake,Bridgeport,professors,Marquette,Hillsdale,professor,Allendale,Rochester,Ishpeming,Hamtramck,Highland,Portland,Pinckney,michigan,Petoskey,teachers,colleges,Lakeview,rankings,Ferndale,Paw Paw,Sturgis,Hancock,Inkster,reviews,Fremont,college,schools,teacher,Gladwin,ratings,Zeeland,Okemos,Owosso,school,cities,Dewitt,Fraser,states,Armada,Lapeer,Romeo,Niles,state,Grant,city" />
+	<script type="text/javascript">
+		if(typeof String.prototype.trim !== 'function') {String.prototype.trim = function() {return this.replace(/^\s+|\s+$/g, '');}}
+</script>
+
+<link rel="stylesheet" type="text/css" href="http://css.ratemyteachers.com/reset.min.css?v=0.60.147">
+<link rel="stylesheet" type="text/css" href="http://css.ratemyteachers.com/global.min.css?v=0.60.147">
+<link rel="stylesheet" type="text/css" href="http://css.ratemyteachers.com/images.min.css?v=0.60.147">
+<link rel="stylesheet" type="text/css" href="http://css.ratemyteachers.com/temp.min.css?v=0.60.147">
+<link rel="stylesheet" type="text/css" href="http://css.ratemyteachers.com/jquery.fancybox.min.css?v=0.60.147">
+<link rel="shortcut icon" href="http://www.ratemyteachers.com/images/rmt/favicon.ico" />
+<script type="text/javascript">
+// Load the SDK asynchronously
+(function(d, s, id){
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) {return;}
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/all.js";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<script type="text/javascript" src="/js/core/mootools-core-1.4-full.js"></script>
+<script type="text/javascript" src="/js/core/mootools-more-1.4-full.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="/js/jquery.dd.js"></script>
+<script type="text/javascript" src="/js/fancybox/jquery.fancybox.js"></script>
+<script type="text/javascript" src="/js/core/fbl.js"></script>
+<script type="text/javascript" src="/js/core/sort.js"></script>
+<script type="text/javascript" src="/js/validation/jquery.validationEngine-en.js"></script>
+<script type="text/javascript" src="/js/validation/jquery.validationEngine.js"></script>
+
+<script type="text/javascript">
+	window.addEvent('domready',function() {
+		/*** Begin Textbox Watermark */
+		var values = new Array();
+		var inputs = new Array();
+
+		function addWaterMark(el){
+			try {
+				values.push(el.value);
+				el.onfocus = function ()	{
+					if (el.value == values[inputs.indexOf(el)]) {
+						el.value = '';
+						el.className = el.className.replace("watermarkOn", "");
+					}
+				}
+				el.onblur = function () {
+					if(el.value === ''){
+						el.value = values[inputs.indexOf(el)];
+						el.className += " watermarkOn";
+					}
+				}
+			} catch(e) {dbug.log('addWaterMark: ', e)}
+		};
+
+
+		function addValue(el){
+
+			try {
+				//if (el.name == "search_org") el.value = "Search for School"
+				if (el.name == "search_teacher") el.value = "Search for Teacher"
+				if (el.id == "search_input_expand") el.value = "Search Here"
+			} catch(e) {dbug.log('addWaterMark: ', e)}
+		};
+
+		inputs = $$('input[name^=search],input[name=search_input_expand],input[name^=newsletter],input[class^=rating_fields_input]');
+		inputs.each(addValue);
+		inputs.each(addWaterMark);
+		/*** End Textbox Watermark */
+
+	});
+
+</script>
+
+
+
+<script type="text/javascript">
+	var oHandlerL;
+	jQuery.noConflict();
+	(function($){
+		$('body').prepend('<div id="fb-root"></div>');
+		$(document).ready(function() {
+			try {
+				oHandler = $("#country-select").msDropDown({mainCSS:'dd2'}).data("dd");
+				//alert($.msDropDown.version);
+				//$.msDropDown.create("body select");
+				$("#ver").html($.msDropDown.version);
+			} catch(e) {
+				alert("Error: "+e.message);
+			}
+
+			try {
+				oHandler = $("#type-select").msDropDown({mainCSS:'dd2'}).data("dd");
+				//alert($.msDropDown.version);
+				//$.msDropDown.create("body select");
+				$("#ver").html($.msDropDown.version);
+
+			} catch(e) {
+				alert("Error: "+e.message);
+			}
+
+
+			$("a#suggestion-box").fancybox({closeBtn : false});
+			var frm = $('#suggest_school_form');
+			frm.submit(function () {
+			$.ajax({
+					type: frm.attr('method'),
+					url: frm.attr('action'),
+					data: frm.serialize(),
+					success: function (data) {
+						console.log(data);
+					}
+				});
+
+				return false;
+			});
+
+
+			$('#imageSubmit').click(function() {
+				$('#cse-search-box').submit();
+			});
+
+
+			try {
+				oHandlerL = $("#search_box_l").msDropDown({mainCSS:'dd2'}).data("dd");
+				//alert($.msDropDown.version);
+				//$.msDropDown.create("body select");
+				$("#ver").html($.msDropDown.version);
+			} catch(e) {
+				alert("Error: "+e.message);
+			}
+
+			try {
+				oHandler = $("#search_box_t").msDropDown({mainCSS:'dd2'}).data("dd");
+				//alert($.msDropDown.version);
+				//$.msDropDown.create("body select");
+				$("#ver").html($.msDropDown.version);
+
+			} catch(e) {
+				alert("Error: "+e.message);
+			}
+		})
+
+
+
+
+
+
+$(document).ready(function(){
+//SUBSCRIBE BOTTOM RIBBON
+	$("#footbar-close,#footbar-open").click(function () {
+		$("#arrow-bar").slideToggle("normal");
+		$("#foot-bar").slideToggle("normal");
+	});
+$("#captureEmailForm").validationEngine('attach', {promptPosition : "inline", scroll: false, binded:false, autoHidePrompt: true, autoHideDelay: 5000});
+	$("#captureEmailButton").click(function(){
+		if ($("#captureEmailForm").validationEngine('validate')) {
+			jQuery.fancybox({href:'#showReCaptcha'});
+		}
+		else {
+			jQuery('#captureEmailForm > .formError').hide();
+			setTimeout(function(){
+				var offset = jQuery('[name=email]').offset();
+				jQuery('#captureEmailForm > .formError').css({left:offset.left+'px', top:offset.top+'px'});
+				jQuery('#captureEmailForm > .formError').show();
+			}, 400);
+		}
+		return false;
+	});
+window.saveEmail = function() {
+		if ($("#captureEmailForm").validationEngine('validate')) {
+			$.ajax({
+				type:'POST',
+				url: 'http://www.ratemyteachers.com/newsletter_subscribe',
+				data: jQuery.merge(jQuery('#recaptchaForEmail').serializeArray(), jQuery('#captureEmailForm').serializeArray()),
+				success: function(resp) {
+					if ( ! resp.success && resp.msg == -1) {
+						$('#reCaptchaMsg').text('Incorrect reCaptcha code. Please try again.');
+					} else {
+						Recaptcha.reload();
+						jQuery.fancybox.close();
+						jQuery('[name=email]').val('');
+						alert(resp.msg);
+					}
+				},
+				dataType: 'json'
+			});
+		}
+		else {
+			jQuery.fancybox.close();
+			jQuery('#captureEmailForm > .formError').hide();
+			setTimeout(function(){
+				var offset = jQuery('[name=email]').offset();
+				jQuery('#captureEmailForm > .formError').css({left:offset.left+'px', top:offset.top+'px'});
+				jQuery('#captureEmailForm > .formError').show();
+			}, 400);
+		}
+	};
+//END SUBSCRIBE BOTTOM RIBBON	
+	
+	
+	$("#arrow-down").css("display","none");
+	$("#home-popular-cities").css("display","none");
+
+	$("#arrow-up,#arrow-down").click(function () {
+		$("#home-popular-cities").slideToggle("normal");
+
+		if($("#arrow-up").css("display") == "block")
+		{
+			$("#arrow-up").css("display","none");
+			$("#arrow-down").css("display","block");
+		}
+		else
+		{
+			$("#arrow-up").css("display","block");
+			$("#arrow-down").css("display","none");
+		}
+	});
+});
+
+
+
+
+
+var currentTab = 0;
+function openTab(clickedTab) {
+	var thisTab = $(".tabbed-box .tabs a").index(clickedTab);
+	$(".tabbed-box .tabs li a").removeClass("active");
+	$(".tabbed-box .tabs li a:eq("+thisTab+")").addClass("active");
+	$(".tabbed-box .tabbed-content").hide();
+	$(".tabbed-box .tabbed-content:eq("+thisTab+")").show();
+	currentTab = thisTab;
+}
+
+$(document).ready(function() {
+//	$(".tabs li:eq(0) a").css("border-left", "none");
+	$(".tabbed-box .tabs li a").click(function() {
+		openTab($(this)); return false;
+	});
+	$(".tabbed-box .tabs li a:eq("+currentTab+")").click()
+});
+
+
+
+
+
+
+	})(jQuery);
+</script>
+
+<script language="javascript">
+	function set_location(id,name)
+	{
+		var location = document.getElementById("search_box_l");
+		var found=false;
+		var i=0;
+		for(i=0;i<location.options.length;i++)
+		{
+			if(location.options[i].value==id)
+			{
+				found=true;
+				break;
+			}
+		}
+		if(!found)
+		{
+			oHandlerL.add(new Option(name, id));
+			oHandlerL.set("selectedIndex",location.options.length-1);
+		}
+		else
+		{
+			oHandlerL.set("selectedIndex",i);
+		}
+		if(jQuery("#home-popular-cities"))
+		{
+			jQuery("#home-popular-cities").slideToggle("normal");
+			if(jQuery("#arrow-up"))
+			{
+				if(jQuery("#arrow-up").css("display") == "block")
+				{
+					jQuery("#arrow-up").css("display","none");
+					jQuery("#arrow-down").css("display","block");
+				}
+				else
+				{
+					jQuery("#arrow-up").css("display","block");
+					jQuery("#arrow-down").css("display","none");
+				}
+			}
+		}
+		jQuery("#search_box_q").focus();
+		jQuery.fancybox.close();
+	}
+	function search_box_submit()
+	{
+		var location = document.getElementById("search_box_l");
+		var query = document.getElementById("search_box_q");
+		if(location.value=="")
+		{
+			alert("Please choose a valid location to perform your search.");
+			return false;
+		}
+		else
+		{
+			if((query.value=="")||(query.value=="Teacher / School Name"))
+			{
+				alert("Please enter a valid term to perform your search.");
+				return false;
+			}
+			else
+			{
+				document.cookie = 'sb=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+				document.cookie = 'p=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+				document.cookie = 'd=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+				document.cookie = 'u=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+				document.cookie = 'h=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+				document.cookie = 'm=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+				document.cookie = 'e=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+				document.cookie = 'n=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+				document.cookie = 'o=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+				document.forms["search_box"].submit();
+			}
+		}
+	}
+</script>
+
+
+<style type="text/css">
+@import url(http://www.google.com/cse/api/branding.css);
+</style>	<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'></script><script type='text/javascript'>GS_googleAddAdSenseService("ca-pub-8322864954623881");GS_googleEnableAllServices();</script><script type='text/javascript'>
+	GA_googleAddSlot("ca-pub-8322864954623881", "ATF_HalfPage_Directory_web_AB");	
+	GA_googleAddSlot("ca-pub-8322864954623881", "BTF_Leaderboard_Directory_web_AB");	</script><script type='text/javascript'>GA_googleFetchAds();</script>	<script type="text/javascript">
+		jQuery.noConflict();
+		(function($){
+			$(document).ready(function() {
+				$('.fancybox').fancybox({closeBtn : false});
+				$('#showTutorial').click(function(){
+					$.fancybox({type:'iframe', href:'/tutorial', width:750, autoSize:false});
+					return false;
+				});
+			});
+		})(jQuery);
+	</script>
+	</head>
+<body>
+<!--INFOLINKS_OFF-->
+<div id="top-ribbon">
+	<div class="inside">
+		<div class="mod-select-country"><a href="/">RateMyTeachers.com</a><span>-</span>
+			<div class="dropdown">
+				<ul id="sort2">
+					<li><a class="option selected" href="#" title="United States">United States</a></li>
+										<li><a class="option" href="http://ca.ratemyteachers.com" title="Canada">Canada</a></li>
+										<li><a class="option" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a></li>
+										<li><a class="option" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a></li>
+										<li><a class="option" href="http://au.ratemyteachers.com" title="Australia">Australia</a></li>
+										<li><a class="option" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="mod-login">
+			<ul>
+								<li><a href="#" class="loginBtn">Login</a></a></li>
+			</ul>
+		</div>
+	</div>
+</div><div id="arrow-bar"> 
+	<a href="#" id="footbar-open">Subscribe!</a> 
+</div>
+<div id="foot-bar">
+	<a href="#" id="footbar-close"><span>X</span></a> 
+	<div class="content">
+		<div class="title">
+			<h3>Subscribe!</h3>
+		</div>
+		<form id="captureEmailForm" action="#">
+			<div class="body">
+				<!--<strong>New and improved features </strong> are coming soon to RateMyTeachers.com. Don't be the last to find out.-->
+				Sign up for our newsletter to get the latest updates direct to your inbox. <strong>NO SPAM, we promise!</strong>
+			</div> 
+			<div class="mail-form">
+				<input type="text" onfocus="if (this.value == 'Enter your email') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter your email';}" value="Enter your email" class="email validate[required,custom[email]]" size="30" name="email">
+				<input class="signup" type="submit" id="captureEmailButton" value="Sign up Now!"  />
+			</div> 
+		</form>
+	</div>
+</div>
+<div id="showReCaptcha" class="specialForm" style="display:none">
+	<form action="#" id="recaptchaForEmail">
+	<script type="text/javascript" src="http://api.recaptcha.net/challenge?k=6LcxdgcAAAAAAM04UQcAylN9OeRX4Qrv4fEC3s8b"></script>
+
+	<noscript>
+  		<iframe src="http://api.recaptcha.net/noscript?k=6LcxdgcAAAAAAM04UQcAylN9OeRX4Qrv4fEC3s8b" height="300" width="500" frameborder="0"></iframe><br/>
+  		<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+  		<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+	</noscript>	</form>
+	<br />
+	<div id="reCaptchaMsg" class="error"></div>
+	<input type="image" name="submitCaptureEmail" onclick="window.saveEmail();" src="/images/submit-btn.jpg" alt="Submit email" title="Submit email" />
+</div>
+<div id="page">
+	<div id="page-paper">
+		<div id="page-header"><!--START HEADER-->
+			   <div class="shell">
+				  <h2 id="logo"><a href="/" class="notext">Rate My Teachers</a></h2>
+			   </div>
+		</div><!--END HEADER-->
+		<div id="page-content">
+			<div id="header-nav">
+				<ul class="nav-primary">
+					<li><a href="/college">College</a></li>
+					<li><a href="/high-school">High School</a></li>
+					<li><a href="/middle-school">Middle School</a></li>
+					<li><a href="/elementary-school">Elementary School</a></li>
+					<li><a href="/pre-school">Preschool</a></li>
+					<li class="last"><a href="/blog">Blog</a></li>
+				</ul>
+				<ul class="nav-external">
+					<li class="first">
+												<a href="#" class="signupBtn">Sign up</a>
+											</li>
+					<li class="last"><a href="#" id="showTutorial" >How to rate</a></li>
+				</ul>
+			</div><!--INFOLINKS_ON--><div id="region-wrap-first"> </div>
+<div id="region-wrap-second">
+<div class="breadcrumbs">
+	<ul>
+		<li><span>Cities in</span><a href="/location">United States</a> </li>
+		<li><span>&raquo; Michigan</span></li>
+	</ul>
+</div>
+	<div id="content">
+		<div class="page-title">
+				<h1>Cities in Michigan, United States</h1>
+		</div>
+		<div class="module mod-primary">
+			<div class="inside">
+				<div class="title">
+					<h2 class="locations">Michigan</h2>
+				</div>
+				<div class="cities">
+					<ul class="sort_list2">
+												<li> <a class="item" href="/location/mi/farmington">Farmington</a> </li>
+												<li> <a class="item" href="/location/mi/ferndale">Ferndale</a> </li>
+												<li> <a class="item" href="/location/mi/fraser">Fraser</a> </li>
+												<li> <a class="item" href="/location/mi/fremont">Fremont</a> </li>
+												<li> <a class="item" href="/location/mi/gladwin">Gladwin</a> </li>
+												<li> <a class="item" href="/location/mi/harper-woods">Harper Woods</a> </li>
+												<li> <a class="item" href="/location/mi/highland">Highland</a> </li>
+												<li> <a class="item" href="/location/mi/hillsdale">Hillsdale</a> </li>
+												<li> <a class="item" href="/location/mi/inkster">Inkster</a> </li>
+												<li> <a class="item" href="/location/mi/lake-orion">Lake Orion</a> </li>
+												<li> <a class="item" href="/location/mi/okemos">Okemos</a> </li>
+												<li> <a class="item" href="/location/mi/portland">Portland</a> </li>
+												<li> <a class="item" href="/location/mi/south-lyon">South Lyon</a> </li>
+												<li> <a class="item" href="/location/mi/white-lake">White Lake</a> </li>
+												<li> <a class="item" href="/location/mi/zeeland">Zeeland</a> </li>
+												<li> <a class="item" href="/location/mi/allendale">Allendale</a> </li>
+												<li> <a class="item" href="/location/mi/armada">Armada</a> </li>
+												<li> <a class="item" href="/location/mi/benton-harbor">Benton Harbor</a> </li>
+												<li> <a class="item" href="/location/mi/bridgeport">Bridgeport</a> </li>
+												<li> <a class="item" href="/location/mi/center-line">Center Line</a> </li>
+												<li> <a class="item" href="/location/mi/comstock-park">Comstock Park</a> </li>
+												<li> <a class="item" href="/location/mi/dewitt">Dewitt</a> </li>
+												<li> <a class="item" href="/location/mi/fowlerville">Fowlerville</a> </li>
+												<li> <a class="item" href="/location/mi/grant">Grant</a> </li>
+												<li> <a class="item" href="/location/mi/hamtramck">Hamtramck</a> </li>
+												<li> <a class="item" href="/location/mi/hancock">Hancock</a> </li>
+												<li> <a class="item" href="/location/mi/harrison-township">Harrison Township</a> </li>
+												<li> <a class="item" href="/location/mi/ishpeming">Ishpeming</a> </li>
+												<li> <a class="item" href="/location/mi/lakeview">Lakeview</a> </li>
+												<li> <a class="item" href="/location/mi/lapeer">Lapeer</a> </li>
+												<li> <a class="item" href="/location/mi/marquette">Marquette</a> </li>
+												<li> <a class="item" href="/location/mi/new-baltimore">New Baltimore</a> </li>
+												<li> <a class="item" href="/location/mi/niles">Niles</a> </li>
+												<li> <a class="item" href="/location/mi/owosso">Owosso</a> </li>
+												<li> <a class="item" href="/location/mi/paw-paw">Paw Paw</a> </li>
+												<li> <a class="item" href="/location/mi/petoskey">Petoskey</a> </li>
+												<li> <a class="item" href="/location/mi/pinckney">Pinckney</a> </li>
+												<li> <a class="item" href="/location/mi/rochester">Rochester</a> </li>
+												<li> <a class="item" href="/location/mi/romeo">Romeo</a> </li>
+												<li> <a class="item" href="/location/mi/sturgis">Sturgis</a> </li>
+											</ul>
+						<div class="pagination">		<ul>
+				<li>
+						<a href="/location/mi"><<</a>
+					</li>
+				<li>
+						<a href="/location/mi">1</a>
+					</li>
+				<li>
+						<a href="/location/mi/2">2</a>
+					</li>
+				<li>
+						<span class="selected">3</span>
+					</li>
+				<li>
+						<a href="/location/mi/4">4</a>
+					</li>
+				<li>
+						<a href="/location/mi/5">5</a>
+					</li>
+				<li>
+						<a href="/location/mi/6">6</a>
+					</li>
+				<li>
+						<a href="/location/mi/7">7</a>
+					</li>
+				<li>
+						<a href="/location/mi/8">8</a>
+					</li>
+				<li>
+						<a href="/location/mi/9">9</a>
+					</li>
+				<li>
+						<a href="/location/mi/13">>></a>
+					</li>
+				</ul>
+		</div>
+				</div>
+			</div>
+		</div>
+		<div class="module mod-primary">
+			<div class="inside">
+				<div class="title"><h2>Top schools and teachers in Michigan</h2></div>
+				
+					<div id="top_blk" class="top-listed-bystate">
+	<div class="inside">
+		<h3 class="school">Top Colleges</h3>
+		<ul>
+						<li><a class="item" href="/washtenaw-community-college/112758-s">Washtenaw Community College</a></li>
+						<li><a class="item" href="/grand-rapids-community-college/139138-s">Grand Rapids Community College</a></li>
+						<li><a class="item" href="/moisd-math-science-technology-center/107782-s">Moisd Math Science Technology Center</a></li>
+						<li><a class="item" href="/henry-ford-community-college/139143-s">Henry Ford Community College</a></li>
+						<li><a class="item" href="/lansing-community-college/139164-s">Lansing Community College</a></li>
+						<li><a class="item" href="/university-of-michigan-dearborn/114700-s">University Of Michigan-dearborn</a></li>
+						<li><a class="item" href="/macomb-community-college-all-campuses-/139169-s">Macomb Community College (all Campuses)</a></li>
+						<li><a class="item" href="/eastern-michigan-university/139130-s">Eastern Michigan University</a></li>
+						<li><a class="item" href="/western-wayne-skill-center/58590-s">Western Wayne Skill Center</a></li>
+						<li><a class="item" href="/oakland-community-college-auburn-hills/139192-s">Oakland Community College - Auburn Hills</a></li>
+					</ul>
+		<!--<a class="item" href="#">More</a>--> 
+	</div>
+</div>
+<div class="top-listed-bystate">
+	<div class="inside">
+		<h3 class="teacher">Top Professors</h3>
+		<ul>
+						<li><a class="item" href="/tracy-bialk/2330609-t">Tracy Bialk</a></li>
+						<li><a class="item" href="/zachary-macomber/2801902-t">Zachary Macomber</a></li>
+						<li><a class="item" href="/carolyn-hodge-west/3156584-t">Carolyn Hodge West</a></li>
+						<li><a class="item" href="/bertha-byrd/2812291-t">Bertha Byrd</a></li>
+						<li><a class="item" href="/john-wooten/2801221-t">John Wooten</a></li>
+						<li><a class="item" href="/richard-neville/3137022-t">Richard Neville</a></li>
+						<li><a class="item" href="/david-fitzpatric/1927446-t">David Fitzpatric</a></li>
+						<li><a class="item" href="/william-james/1878130-t">William James</a></li>
+						<li><a class="item" href="/harriette-jemison/1778222-t">Harriette Jemison</a></li>
+						<li><a class="item" href="/batell/1731245-t">Batell</a></li>
+					</ul>
+		<!--<a class="item" href="#">More</a>--> 
+	</div>
+</div>
+
+<div class="clear"></div>
+
+<div class="top-listed-bystate">
+	<div class="inside">
+		<h3 class="school">Top High Schools</h3>
+		<ul>
+						<li><a class="item" href="/northville-high-school/10625-s">Northville High School</a></li>
+						<li><a class="item" href="/pioneer-high-school/10129-s">Pioneer High School</a></li>
+						<li><a class="item" href="/troy-high-school/10777-s">Troy High School</a></li>
+						<li><a class="item" href="/dakota-high-school/10240-s">Dakota High School</a></li>
+						<li><a class="item" href="/grand-blanc-community-high-school/10396-s">Grand Blanc Community High School</a></li>
+						<li><a class="item" href="/grosse-pointe-south-high-school/10619-s">Grosse Pointe South High School</a></li>
+						<li><a class="item" href="/okemos-high-school/10632-s">Okemos High School</a></li>
+						<li><a class="item" href="/catholic-central-high-school/23745-s">Catholic Central High School</a></li>
+						<li><a class="item" href="/brighton-high-school/30990-s">Brighton High School</a></li>
+						<li><a class="item" href="/henry-ford-ii-high-school/10786-s">Henry Ford Ii High School</a></li>
+					</ul>
+		<!--<a class="item" href="#">More</a> --> 
+	</div>
+</div>
+<div class="top-listed-bystate">
+	<div class="inside">
+		<h3 class="teacher">Top Teachers</h3>
+		<ul>
+						<li><a class="item" href="/jeffrey-baker/739637-t">Jeffrey Baker</a></li>
+						<li><a class="item" href="/ted-younglas/664272-t">Ted Younglas</a></li>
+						<li><a class="item" href="/michele-mikonczyk/732571-t">Michele Mikonczyk</a></li>
+						<li><a class="item" href="/sergio-garcia/586048-t">Sergio Garcia</a></li>
+						<li><a class="item" href="/erick-senkmajer/1417522-t">Erick Senkmajer</a></li>
+						<li><a class="item" href="/andrew-frye/672774-t">Andrew Frye</a></li>
+						<li><a class="item" href="/mike-vasich/202256-t">Mike Vasich</a></li>
+						<li><a class="item" href="/adam-demorest/107740-t">Adam Demorest</a></li>
+						<li><a class="item" href="/rachael-freeman/179049-t">Rachael Freeman</a></li>
+						<li><a class="item" href="/bryan-battaglia/585095-t">Bryan Battaglia</a></li>
+					</ul>
+		<!-- <a class="item" href="#">More</a> --> 
+	</div>
+</div>
+				
+			</div>		
+		</div>
+	</div>
+	<div id="sidebar">
+		<div class="ad300">
+			<div class="banner300x600 wsz" data-pid="2512">	<!-- ATF_HalfPage_Directory_web_AB --> 	<script type='text/javascript'>		GA_googleFillSlot("ATF_HalfPage_Directory_web_AB");	</script></div>		</div>
+	</div>
+</div>
+<div id="region-wrap_third">
+	<div class="ad728">
+		<div class="banner728x90 wsz" data-pid="2324">	<!-- BTF_Leaderboard_Directory_web_AB --> 	<script type='text/javascript'>		GA_googleFillSlot("BTF_Leaderboard_Directory_web_AB");	</script></div>	</div>
+</div>
+</div>
+<!--INFOLINKS_OFF-->
+<div id="page-footer">
+					<div id="footer-nav">
+						<ul>
+							<li><a href="/school/A">Schools</a></li>
+							<li><a href="/teacher/A">Teachers</a></li>
+							<li><a href="http://www.facebook.com/pages/Rate-My-Teachers/172604876112259" target="_blank">Forum</a></li>
+							<li><a href="/faq">FAQ</a></li>
+							<li><a href="/contact">Contact</a></li>
+							<li><a href="/info/Terms">Terms of Use</a></li>
+							<li><a href="/info/Privacy">Privacy Policy</a></li>
+							<li><a href="/info/RateRules">Site Guidelines</a></li>
+							<li><a href="/info/Copyright">Copyright Compliance</a></li>
+							<li><a class="last" href="/location">Site Map</a></li>
+						</ul>
+					</div><!-- footer-nav-->
+					<div id="social">
+						<div class="follow-us">
+							<h3>Follow us on:</h3>
+							<ul class="nav_socialMedia">
+								<!-- li class="btn_soc_twitter"><a target="_blank" href="#">Twitter</a></li -->
+								<li class="btn_soc_facebook"><a target="_blank" href="https://www.facebook.com/pages/Rate-My-Teachers/172604876112259">Facebook</a></li>
+								<!-- li class="btn_soc_youtube"><a target="_blank" href="">Youtube</a></li -->
+							</ul>
+							<div class="clear"></div>
+						</div>
+						<div class="like">
+							<ul>
+								<li><a href="/schools.rss" class="rss-btn">RSS</a></li>
+								<li>
+									<div style="margin-left:10px;" data-show-faces="true" data-width="80" data-layout="button_count" data-send="false" data-href="http://www.facebook.com/pages/Rate-My-Teachers/172604876112259" class="fb-like fb_edge_widget_with_comment fb_iframe_widget" fb-xfbml-state="rendered">
+										<span style="height: 20px; width: 80px;">
+											<iframe scrolling="no" id="f1c9843466f8268" name="ff1fd44b40389a" style="border: medium none; overflow: hidden; height: 20px; width: 80px;" title="Like this content on Facebook." class="fb_ltr" src="https://www.facebook.com/plugins/like.php?api_key=228246920612336&amp;locale=en_US&amp;sdk=joey&amp;channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D24%23cb%3Df3b2088b5ac2522%26origin%3Dhttp%253A%252F%252Fwww.ratemyteachers.com%252Ff196c084fee8bb6%26domain%3Dwww.ratemyteachers.com%26relation%3Dparent.parent&amp;href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FRate-My-Teachers%2F172604876112259&amp;node_type=link&amp;width=90&amp;layout=button_count&amp;colorscheme=light&amp;show_faces=false&amp;send=false&amp;extended_social_context=false"></iframe>
+										</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div><!-- social-->
+					<div class="dictionary">
+						<div class="letters schools">
+							<h3>School Directory:</h3>
+							<ul>
+								<li><a href="/school/A">A</a></li>
+								<li><a href="/school/B">B</a></li>
+								<li><a href="/school/C">C</a></li>
+								<li><a href="/school/D">D</a></li>
+								<li><a href="/school/E">E</a></li>
+								<li><a href="/school/F">F</a></li>
+								<li><a href="/school/G">G</a></li>
+								<li><a href="/school/H">H</a></li>
+								<li><a href="/school/I">I</a></li>
+								<li><a href="/school/J">J</a></li>
+								<li><a href="/school/K">K</a></li>
+								<li><a href="/school/L">L</a></li>
+								<li><a href="/school/M">M</a></li>
+								<li><a href="/school/N">N</a></li>
+								<li><a href="/school/O">O</a></li>
+								<li><a href="/school/P">P</a></li>
+								<li><a href="/school/Q">Q</a></li>
+								<li><a href="/school/R">R</a></li>
+								<li><a href="/school/S">S</a></li>
+								<li><a href="/school/T">T</a></li>
+								<li><a href="/school/U">U</a></li>
+								<li><a href="/school/V">V</a></li>
+								<li><a href="/school/W">W</a></li>
+								<li><a href="/school/X">X</a></li>
+								<li><a href="/school/Y">Y</a></li>
+								<li><a href="/school/Z">Z</a></li>
+							</ul>
+						</div>
+						<div class="letters teachers">
+							<h3>Teacher Directory:</h3>
+							<ul>
+								<li><a href="/teacher/A">A</a></li>
+								<li><a href="/teacher/B">B</a></li>
+								<li><a href="/teacher/C">C</a></li>
+								<li><a href="/teacher/D">D</a></li>
+								<li><a href="/teacher/E">E</a></li>
+								<li><a href="/teacher/F">F</a></li>
+								<li><a href="/teacher/G">G</a></li>
+								<li><a href="/teacher/H">H</a></li>
+								<li><a href="/teacher/I">I</a></li>
+								<li><a href="/teacher/J">J</a></li>
+								<li><a href="/teacher/K">K</a></li>
+								<li><a href="/teacher/L">L</a></li>
+								<li><a href="/teacher/M">M</a></li>
+								<li><a href="/teacher/N">N</a></li>
+								<li><a href="/teacher/O">O</a></li>
+								<li><a href="/teacher/P">P</a></li>
+								<li><a href="/teacher/Q">Q</a></li>
+								<li><a href="/teacher/R">R</a></li>
+								<li><a href="/teacher/S">S</a></li>
+								<li><a href="/teacher/T">T</a></li>
+								<li><a href="/teacher/U">U</a></li>
+								<li><a href="/teacher/V">V</a></li>
+								<li><a href="/teacher/W">W</a></li>
+								<li><a href="/teacher/X">X</a></li>
+								<li><a href="/teacher/Y">Y</a></li>
+								<li><a href="/teacher/Z">Z</a></li>
+							</ul>
+						</div>
+					</div><!-- dictionary-->
+					<div id="footer-locations">
+						<h3>Locations:</h3>
+						<ul class="top-locations">
+															<li><a href="/delaware">Delaware</a></li>
+																<li><a href="/new-jersey">New Jersey</a></li>
+																<li><a href="/maryland">Maryland</a></li>
+																<li><a href="/massachusetts">Massachusetts</a></li>
+																<li><a href="/arizona">Arizona</a></li>
+																<li><a href="/maine">Maine</a></li>
+																<li><a href="/utah">Utah</a></li>
+																<li><a href="/new-hampshire">New Hampshire</a></li>
+																<li><a href="/california">California</a></li>
+																<li><a href="/washington">Washington</a></li>
+																<li><a href="/georgia">Georgia</a></li>
+																<li><a href="/wisconsin">Wisconsin</a></li>
+																<li><a href="/tennessee">Tennessee</a></li>
+																<li><a href="/rhode-island">Rhode Island</a></li>
+																<li><a href="/michigan">Michigan</a></li>
+																<li><a href="/vermont">Vermont</a></li>
+																<li><a href="/montana">Montana</a></li>
+																<li><a href="/connecticut">Connecticut</a></li>
+																<li><a href="/west-virginia">West Virginia</a></li>
+																<li><a href="/louisiana">Louisiana</a></li>
+																<li><a href="/mississippi">Mississippi</a></li>
+																<li><a href="/new-york">New York</a></li>
+																<li><a href="/nevada">Nevada</a></li>
+																<li><a href="/missouri">Missouri</a></li>
+																<li><a href="/hawaii">Hawaii</a></li>
+															<li><a class="last" href="/location">More Cities<span>»</span></a></li>
+						</ul>
+						<ul class="inter-locations">
+							<li>International Locations:</li>
+							<li><a href="http://ca.ratemyteachers.com">Canada</a></li>
+							<li><a href="http://uk.ratemyteachers.com">United Kingdom</a></li>
+							<li><a href="http://au.ratemyteachers.com">Australia</a></li>
+							<li><a href="http://nz.ratemyteachers.com">New Zealand</a></li>
+							<li><a href="http://ie.ratemyteachers.com">Ireland</a></li>
+						</ul>
+					</div><!-- footer-locations -->
+				</div><!-- page-footer -->
+				<div id="page-copyright">
+					<p>© 2012 RateMyTeachers.com All Rights Reserved. This site is dedicated to Nancy Lynn Davis 1945-2006 & Brian Timothy Davis 1981-2003</p>
+				</div>
+				<div style="display:none">
+					<script type="text/javascript">
+						var gaJsHost = (("http:" == document.location.protocol) ? "http://www." : "http://ssl.");
+						document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+					</script>
+					<script type="text/javascript">
+						var pageTracker = _gat._getTracker("UA-4216499-1");
+						pageTracker._initData();
+												pageTracker._trackPageview();
+					</script>
+					<script type="text/javascript">
+						_qoptions={
+						qacct:"p-6d6fzw6m9kY1M"
+						};
+					</script>
+					<!-- Start Quantcast tag -->
+					<script type="text/javascript">
+						_qoptions={
+						qacct:"p-6d6fzw6m9kY1M"
+						};
+					</script>
+					<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+					<noscript>
+						<img src="http://pixel.quantserve.com/pixel/p-6d6fzw6m9kY1M.gif" style="display: none;" border="0" height="1" width="1" alt=""/>
+					</noscript>
+					<!-- End Quantcast tag -->
+					<!-- Start Webspectator tag -->
+					<script type="text/javascript">
+						(function() {
+							/*Website unique identifier*/
+							var wid = 'WS-57FFA';
+							function async_load(){
+								var s = document.createElement('script');
+								s.type = 'text/javascript';
+								s.async = true;
+								s.src = 'http://services.webspectator.com/init/' + wid + '/' + (+new Date);
+								var x = document.getElementsByTagName('script')[0];
+								x.parentNode.insertBefore(s, x);
+							}
+							if (window.attachEvent) {
+								window.attachEvent('onload', async_load);
+							}
+							else {
+								window.addEventListener('load', async_load, false);
+							}
+						})();
+					</script>
+					<!-- End Webspectator tag -->
+					<!-- MentAd Code for Visit Notification -->
+					<script type="text/javascript">
+						var mentad_website_id = "A036Ux2Fz7_2o";
+						(function(){
+							var js = document.createElement('script'); js.type = "text/javascript"; js.async = true;
+							js.src = "//mentad.com/static/js/mentad-visit-notification.js";
+							var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(js, s);
+						})();
+					</script>
+					<!-- End MentAd -->
+					<script type="text/javascript">
+						jQuery(function($){
+							
+							if ($('div.mod-login').length) {
+								if ($('a.logoutBtn').length) {
+									$('a.logoutBtn').click(function(){
+										window.login.on('logout', function() {
+											window.location.reload();
+										});
+										window.login.logout();
+										return false;
+									});
+								}
+								else {
+									$('a.loginBtn').click(function(){
+										if (window.login) {
+											var newLogin = new window.rmtLogin();
+											window.globalLoginAttempt('all', newLogin);
+											newLogin.on('login',function(){
+												window.location.reload();
+											});
+											newLogin.showLoginForm();
+										}
+										return false;
+									});
+								}
+							}
+							if ($('a.signupBtn').length) {
+								$('a.signupBtn').click(function(){
+									window.login.showLoginForm('signup');
+									return false;
+								});
+							}
+						});
+					</script>
+				</div>
+				<!-- 10.182.26.232 -->
+				<!-- application_redesign -->
+</div>
+</div>
+<!-- Start Webspectator tag -->
+	<script type="text/javascript">
+	(function() {
+	/*Website unique identifier*/
+	var wid = 'WS-57FFA';
+	function async_load(){
+	var s = document.createElement('script');
+	s.type = 'text/javascript';
+	s.async = true;
+	s.src = 'http://services.webspectator.com/init/' + wid + '/' + (+new Date);
+	var x = document.getElementsByTagName('script')[0];
+	x.parentNode.insertBefore(s, x);
+	}
+	if (window.attachEvent) {
+	window.attachEvent('onload', async_load);
+	}
+	else {
+	window.addEventListener('load', async_load, false);
+	}
+	})();
+	</script>
+<!-- End Webspectator tag -->
+
+<script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-2.newrelic.com","f46052bf0f","1909278","Z1NTN0sDXEtVB0dcDl4ZcABNC11WGyhcVgBEX14NZiFdVkAWXFkNVUQeEE0DRl0=",0,177,new Date().getTime(),"","","","",""]);</script></body>
+</html>

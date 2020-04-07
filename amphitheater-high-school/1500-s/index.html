@@ -1,0 +1,3862 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+      (function(){
+        window.beginTimeTrack = (new Date()).getTime();
+      })();
+    </script>
+<title>Amphitheater High School - Tucson, Arizona | RateMyTeachers.com</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":538,"agentToken":null,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(15)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(15)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(15)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){g.push(t),h&&(b?b.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(15)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,y="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(y,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===y||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=o(l+e,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(p+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],15:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!l.aborted||i){t&&t(n,r,o);for(var a=e(o),c=h(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[w[n]];return d&&d.push([g,n,r,a]),a}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",w[n]=e,e in u||(u[e]=[])})}var y={},w={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(w,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){s("mark",["domContent",a()+x.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-x.offset}var c=(new Date).getTime(),s=t("handle"),f=t(12),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:c,now:a,origin:y,features:{},xhrWrappable:g};t(9),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),s("mark",["firstbyte",c],null,"api");var b=0,E=t(14)},{}]},{},["loader",2,7]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+<meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw"/>
+<meta name="description" content="Amphitheater High School is a High School in Tucson, AZ. Search Amphitheater High School&#39;s ratings, statistics and reviews by students and parents."/>
+<meta property="twitter:image" content="http://www.ratemyteachers.com/images/logo_icon_60.png"/>
+<meta property="og:image" content="http://www.ratemyteachers.com/images/logo_icon_100.png"/>
+<meta property="og:title" content="Amphitheater High School - Tucson, Arizona | RateMyTeachers.com"/>
+<meta property="og:type" content="rmt:school"/>
+<meta property="og:url" content="http://www.ratemyteachers.com/amphitheater-high-school/1500-s"/>
+<meta property="og:site_name" content="Amphitheater High School - Tucson, Arizona | RateMyTeachers.com"/>
+<meta property="og:description" content="Amphitheater High School is a High School in Tucson, AZ. Search Amphitheater High School's ratings, statistics and reviews by students and parents."/>
+<meta name="robots" content="noodp,noydir"/>
+<meta property="rmt:image" content="http://www.ratemyteachers.com/apple_touch_icon_196x196.png"/>
+
+<link rel="shortcut icon" sizes="64x64 48x48 32x32 16x16" type="image/x-icon" href="/favicon.ico"/>
+<link rel="apple-touch-icon" href="/apple_touch_icon_60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple_touch_icon_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple_touch_icon_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple_touch_icon_152x152.png">
+<link rel="apple-touch-icon-precomposed" href="/apple_touch_icon_196x196.png"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+<link href="/assets/application-8f34b7246c4006713b4fb0b0c5f281b6.css" media="all" rel="stylesheet"/>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+<script type="text/javascript">
+    var currentState = '';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:     true,
+    debugMode:           false,
+    asyncScripts:        true
+  };
+
+
+  function getWindowWidth() {
+    var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) === 'number' ) {
+      myWidth = window.innerWidth; myHeight = window.innerHeight;
+    } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+      myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+      myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+    }
+    return myWidth;
+  }
+
+  var isDesktopVariant = true;
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isExtraSmall = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false);
+  var isMobile = isExtraSmall || isMobileVariant;
+  var isMedium = (getWindowWidth() < 1200) || (screen ? screen.width < 1200 : false);
+
+
+  var isChrome = navigator.userAgent.indexOf('Chrome') > -1;
+  var isExplorer = navigator.userAgent.indexOf('MSIE') > -1;
+  var isFirefox = navigator.userAgent.indexOf('Firefox') > -1;
+  var isSafari = navigator.userAgent.indexOf("Safari") > -1;
+  var isOpera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
+  if ((isChrome)&&(isSafari)) {isSafari=false;}
+  if ((isChrome)&&(isOpera)) {isChrome=false;}
+
+  var enablePropel    = !isSafari && !isOpera && false;
+  var enableMediabong = !isSafari && !isOpera;
+  var enableBrightComedia = !isSafari && !isOpera;
+
+  var isMobileUpload = false;
+
+    var cseData = {
+      isCseSearch: true
+      ,paramFormat: '%{search_term}%{location}'
+      ,stateList: [{"name":"Alaska","shortname":"ak"},{"name":"Alabama","shortname":"al"},{"name":"Arkansas","shortname":"ar"},{"name":"Arizona","shortname":"az"},{"name":"California","shortname":"ca"},{"name":"Colorado","shortname":"co"},{"name":"Connecticut","shortname":"ct"},{"name":"Dc","shortname":"dc"},{"name":"Delaware","shortname":"de"},{"name":"Florida","shortname":"fl"},{"name":"Georgia","shortname":"ga"},{"name":"Hawaii","shortname":"hi"},{"name":"Iowa","shortname":"ia"},{"name":"Idaho","shortname":"id"},{"name":"Illinois","shortname":"il"},{"name":"Indiana","shortname":"in"},{"name":"Kansas","shortname":"ks"},{"name":"Kentucky","shortname":"ky"},{"name":"Louisiana","shortname":"la"},{"name":"Massachusetts","shortname":"ma"},{"name":"Maryland","shortname":"md"},{"name":"Maine","shortname":"me"},{"name":"Michigan","shortname":"mi"},{"name":"Minnesota","shortname":"mn"},{"name":"Missouri","shortname":"mo"},{"name":"Mississippi","shortname":"ms"},{"name":"Montana","shortname":"mt"},{"name":"North Carolina","shortname":"nc"},{"name":"North Dakota","shortname":"nd"},{"name":"Nebraska","shortname":"ne"},{"name":"New Hampshire","shortname":"nh"},{"name":"New Jersey","shortname":"nj"},{"name":"New Mexico","shortname":"nm"},{"name":"Nevada","shortname":"nv"},{"name":"New York","shortname":"ny"},{"name":"Ohio","shortname":"oh"},{"name":"Oklahoma","shortname":"ok"},{"name":"Oregon","shortname":"or"},{"name":"Pennsylvania","shortname":"pa"},{"name":"Puerto Rico","shortname":"pr"},{"name":"Rhode Island","shortname":"ri"},{"name":"South Carolina","shortname":"sc"},{"name":"South Dakota","shortname":"sd"},{"name":"Tennessee","shortname":"tn"},{"name":"Texas","shortname":"tx"},{"name":"Utah","shortname":"ut"},{"name":"Virginia","shortname":"va"},{"name":"Vermont","shortname":"vt"},{"name":"Washington","shortname":"wa"},{"name":"Wisconsin","shortname":"wi"},{"name":"West Virginia","shortname":"wv"},{"name":"Wyoming","shortname":"wy"}]
+    };
+
+
+  // Search autocomplete widget
+  var searchAutocompleteHTML = "<div class=\'desktop search_autocomplete_widget\'>\n<div class=\'autocomplete_teachers\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-user\'><\/i>\nTeachers and Professors\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_school_name\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nTeachers and Professors\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<div class=\'autocomplete_schools\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-university\'><\/i>\nSchools and Colleges\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_address\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nSchools and Colleges\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<\/div>\n";
+</script>
+<script type="text/javascript">
+  // Async functions variable
+  functionToLoad = [];
+  
+  // Fastest way to check if an object is an array
+  functionToLoad.isArrayObj = function(obj) {
+    return !!obj && obj.constructor === Array;
+  };
+  
+  // Extract data from an element
+  functionToLoad.extractElementData = function(elementData) {
+    var data = {
+      element: elementData
+      ,async: false
+      ,subElements: []
+    };
+    
+    // The element is an array, check for async option
+    if (this.isArrayObj(elementData) && elementData.length > 0) {
+      data.async = !!elementData[1];
+      data.element = elementData[0];
+      data.subElements = elementData[2] || [];
+    }
+    return data;
+  };
+  
+  // Wrap push functionality
+  functionToLoad.realPush = functionToLoad.push;
+  functionToLoad.executePush = function(args) {
+    var data = this.extractElementData(args);
+
+    // Inject script tag on inplace
+    if (typeof data.element === 'string') {
+      // Inject external file
+      document.write('<script type="text/javascript" src="' + data.element + '"><\/script>');
+    } else {
+      // Inject function
+      document.write('<script type="text/javascript">(');
+      document.write(data.element.toString());
+      document.write(')();<\/script>');
+    }
+    
+    // Execute child scripts
+    if (data.subElements.length > 0) {
+      this.executePush(data.subElements);
+    }
+  };
+  functionToLoad.push = function(args) {
+    if (siteConfig.asyncScripts) {
+      if (siteConfig.debugMode) { console.log('Async Script'); }
+      
+      // Async scripts so add it to array for later execution
+      this.realPush(args);
+      return;
+    }
+    if (siteConfig.debugMode) { console.log('Sync Script'); }
+    
+    // No async scripts, execute it right away
+    this.executePush(args);
+  };
+</script>
+<script type="text/javascript">_googlePush = function(a) {};</script>
+<script type="text/javascript">
+  functionToLoad.push('//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js');
+  functionToLoad.push('//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js');
+</script>
+<script>
+      functionToLoad.push(function() {
+        gaId = 'UA-4216499-1';
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', gaId, 'auto');
+        ga('require', 'displayfeatures');
+        //ga('require', 'ecommerce', 'ecommerce.js');
+      });
+    </script>
+<script type="text/javascript">
+  functionToLoad.push('/assets/rmt.analytics-833eb75f283313dde59926cd5939692a.js');
+</script>
+<script>
+  functionToLoad.push(function(){
+    pageType = "";
+    RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+    searchTerm = "";
+  });
+</script>
+<script type="text/javascript">
+    // Returns a function, that, as long as it continues to be invoked, will not
+    // be triggered. The function will be called after it stops being called for
+    // N milliseconds. If `immediate` is passed, trigger the function on the
+    // leading edge, instead of the trailing.
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+</script>
+<script type="text/javascript">
+    var _session = {};
+  </script>
+<link href="http://www.ratemyteachers.com/amphitheater-high-school/1500-s.rss" rel="alternate" type="application/rss+xml">
+<meta content="authenticity_token" name="csrf-param"/>
+<meta content="5IIVoZtcWRIOQMjKThCnc84yGCQymM8gkyv2EpSjBx8=" name="csrf-token"/>
+</head>
+
+<body class="inner_page school_page schools_v12_1
+">
+<div id="fb-root"></div>
+<div class="rate_my_teachers_international">
+<div class="container">
+<div class="row">
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+<div class="pull-right user_top_nav"></div>
+</div>
+</div>
+</div>
+<header>
+<div class="container">
+<div class="row">
+<form action="/search_page" class="tab-form search_form trigger_to_main_search" method="get">
+<a alt="Go to RateMyTeachers Home" href="/" id="rate_my_teachers_logo" title="Go to RateMyTeachers Home"></a>
+<input name="search" type="hidden" value="teachers">
+<div class="search_inputs">
+<div class="bg">
+<div class="padding">
+<input class="search_input" name="q" placeholder="Search: School Name, City" type="text">
+</div>
+<div class="location">
+<select class="state" id="state" name="state"><option value>Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class="search_button">
+<button class="btn-search fa fa-search fa-3x" title="Search RateMyTeachers" type="submit"></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+<div class="container-fluid main-content">
+<div class="row">
+<section class="breadcrumbs container-fluid">
+<div class="row">
+<div class="container">
+<div class="col-sm-12">
+<ul class="list-inline collapsible_nav collapsible_nav_collapsed">
+<li class="toggle">
+<a href="javascript:void(0);" rel="nofollow">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li class="collapse">
+<a href="/" title="Go to RateMyTeachers Home">United States</a>
+</li>
+<li class="always_show">
+<a alt="Go to Schools in Arizona" href="/arizona" title="Go to Schools in Arizona">Arizona</a>
+</li>
+<li class="collapse">
+<a alt="Go to Schools in Tucson" href="/arizona/tucson" title="Go to Schools in Tucson">Tucson</a>
+</li>
+<li class="always_show">
+
+<a alt="View Amphitheater High School's Teachers" href="/amphitheater-high-school/1500-s" title="View Amphitheater High School's Teachers">Amphitheater High School</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_teacher_trigger" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=1500" data-school="Amphitheater High School" data-sender-name="School page breadcrumb" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher">Add My Teacher</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=1500" data-school="Amphitheater High School" data-sender-name="School page breadcrumb" data-target="#modal_rating" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Rate My School">Rate My School</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<div class="container flash_container">
+<div class="row">
+<div class="col-xs-12">
+<div class="alert alert-danger" id="flash-error" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-warning" id="flash-alert" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-success" id="flash-success" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-info" id="flash-notice" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+</div>
+</div>
+</div>
+<div id="content">
+<span class="dn" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/arizona" itemprop="url">
+<span itemprop="title">Arizona</span>
+</a>
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/arizona/tucson" itemprop="url">
+<span itemprop="title">Tucson</span>
+</a>
+</span>
+</span>
+<div id="sortable_ad_trigger"></div>
+<div class="container" itemscope itemtype="http://schema.org/ProfilePage">
+<meta content="2017-07-12" itemprop="dateModified">
+
+<div class="dn" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+<meta content="94" itemprop="ratingCount">
+<meta content="94" itemprop="reviewCount">
+<meta content="4.42077" itemprop="ratingValue">
+<meta content="5" itemprop="bestRating">
+<meta content="0" itemprop="worstRating">
+</div>
+<div class="row">
+<section class="col-md-12 content" itemprop="about" itemscope itemtype="http://schema.org/School">
+<div class="row secondary_data">
+<div class="col-xs-12 col-lg-9 primary_column">
+<div class="row school_info">
+<div class="col-xs-12 col-sm-7 main_info">
+<div class="row">
+<div class="col-xs-12">
+<div class="school_name">
+<h1 title="Amphitheater High School">
+<span itemprop="name">
+Amphitheater High School
+</span>
+<div class="school_actions" data-name="Amphitheater High School" data-sid="1500" data-status="0" style="display:none;"></div>
+</h1>
+<a class="edit school_correction_trigger" data-backdrop="static" data-keyboard data-remote="/schools/correction?sid=1500" data-school="Amphitheater High School" data-sender-name="School page Main" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit a Correction">
+Edit
+</a>
+</div>
+<div class="score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 97.257px;"></div>
+</div>
+</div>
+Average
+4.42
+based on
+94
+teacher ratings
+</div>
+<div class="description">
+<strong>Amphitheater High School</strong>
+is a
+public
+high school located in
+Tucson, Arizona and part of Amphitheater Unified District.
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 details">
+<div class="aux">
+<h2 class="detail_item rate_school">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=1500" data-sender-name="School page Main" data-target="#modal_rating" data-teacher="Amphitheater High School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Amphitheater High School">
+<i class="fa fa-institution"></i>
+<span class="value">Rate Amphitheater High School</span>
+</a>
+</h2>
+<div class="detail_item address">
+<a href="https://www.google.com/maps/search/125%20W%20Yavapai%20Rd%2C%20Tucson%2C%20Arizona%2085705%2C%20Tucson%2C%20Arizona%2C%2085705%2C%20United%20States" target="_blank" title="125 W Yavapai Rd, Tucson, Arizona 85705">
+<i class="fa fa-map-marker"></i>
+<span class="value">125 W Yavapai Rd, Tucson, Arizona 85705</span>
+</a>
+</div>
+<div class="detail_item phone">
+<a class="school_phone_trigger" data-phone="5206965000" href="javascript:void(0);">
+<i class="fa fa-phone"></i>
+<span itemprop="telephone">520-696-5000</span>
+</a>
+</div>
+<h2 class="detail_item district">
+<i class="fa fa-map"></i>
+Amphitheater Unified District
+</h2>
+<div class="detail_item website">
+<a href="http://www.amphi.com" rel="nofollow" target="_blank" title="http://www.amphi.com">
+<i class="fa fa-globe"></i>
+<span itemprop="url">http://www.amphi.com</span>
+</a>
+</div>
+<div class="enrollment">
+<div class="detail_item student">
+<i class="fa fa-graduation-cap"></i>
+1,171
+Students
+Enrolled
+</div>
+<div class="detail_item gender">
+<i class="fa fa-pie-chart"></i>
+665
+Male
+|
+506
+Female
+</div>
+</div>
+</div>
+<span class="dn" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">125 W Yavapai Rd</span>
+<span itemprop="addressLocality">Tucson</span>
+<span itemprop="addressRegion">AZ</span>
+<span itemprop="postalCode">85705</span>
+</span>
+</div>
+</div>
+<div class="school_content">
+<div class="sticky_container_center">
+<div class="sticky_column">
+<div class="row">
+<div class="col-xs-12">
+<div class="filter_section">
+<div class="row subtitle">
+<div class="col-xs-6">
+<h2 class="active">
+<a href="http://www.ratemyteachers.com/amphitheater-high-school/1500-s" title="View Amphitheater High School's Teachers">
+Faculty:
+81
+Teachers
+</a>
+</h2>
+</div>
+<div class="col-xs-6">
+<h2 class>
+<a href="http://www.ratemyteachers.com/amphitheater-high-school/1500-s/school-reviews" title="View Amphitheater High School's Reviews">
+Amphitheater High School
+Reviews
+</a>
+</h2>
+</div>
+</div>
+<div class="row search_form_container">
+<div class="col-md-2 sort_options">
+<select id="sort_by" name="sort_by"><option value>Sort by</option><option value></option><option value>Latest Update</option>
+<option value="last_name">Last Name</option>
+<option value="first_name">First Name</option>
+<option value="avg_asc">Average Rating: Low to High</option>
+<option value="avg_desc">Average Rating: High to Low</option></select>
+</div>
+<form action="/amphitheater-high-school/1500-s" class="simple_form inline_form" id="school_search_by_teacher_form">
+<div class="col-md-9 text">
+<input name="q" placeholder="Search by Teacher" type="text">
+</div>
+<div class="col-md-1 options">
+<button class="btn fa fa-search fa-2x" name="commit" title="Search by Teacher" type="submit"></button>
+</div>
+</form>
+</div>
+<div class="row extra">
+<a class="col-xs-4 new_admin_request_trigger apply_admin" data-remote="/admin/new?sid=1500" data-school="Amphitheater High School" data-sender="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Become Amphitheater High School's Moderator">
+<i class="fa fa-user-plus"></i>
+<span>Become a Moderator!</span>
+</a>
+<a class="col-xs-4 new_school_rating_trigger school_review" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=1500" data-sender-name="School page Search bar" data-target="#modal_rating" data-teacher="Amphitheater High School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Amphitheater High School">
+<i class="fa fa-institution"></i>
+<span>Write a School Review</span>
+</a>
+<a class="col-xs-4 new_teacher_trigger add_teacher" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=1500" data-school="Amphitheater High School" data-sender-name="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher to Amphitheater High School">
+<i class="fa fa-user-plus"></i>
+<span>Add Teacher</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="teachers">
+<div class="ad_container AMP">
+<div id="amp_ads_bottom"></div>
+</div>
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View David Rogers' Ratings" class="name" href="/david-rogers/1026900-t" target="_blank" title="View David Rogers' Ratings">
+David Rogers
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/music" title="View Amphitheater High School&#39;s Music Teachers">Music</a>
+</div>
+<div class="teacher_actions" data-name="David Rogers" data-sid="1500" data-status="-2" data-tid="1026900" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 78.980px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Before I took any of his classes, I had never in my life worked hard to earn the respect of my teachers, it's always...
+</div>
+<div class="options">
+<a alt="View David Rogers' Ratings" class="btn view_more" href="/david-rogers/1026900-t" title="View David Rogers' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/david-rogers/1026900-t"></a>
+</div>
+<div class="ad_container taboola_video">
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Zelov's Ratings" class="name" href="/zelov/2249562-t" target="_blank" title="View Zelov's Ratings">
+Mr. Zelov
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/math" title="View Amphitheater High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Zelov" data-sid="1500" data-status="-2" data-tid="2249562" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 29.260px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+worst math teacher ever
+</div>
+<div class="options">
+<a alt="View Zelov's Ratings" class="btn view_more" href="/zelov/2249562-t" title="View Zelov's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/zelov/2249562-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View David Raine's Ratings" class="name" href="/david-raine/2469768-t" target="_blank" title="View David Raine's Ratings">
+David Raine
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/history" title="View Amphitheater High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="David Raine" data-sid="1500" data-status="-2" data-tid="2469768" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best history teacher I've ever had.
+</div>
+<div class="options">
+<a alt="View David Raine's Ratings" class="btn view_more" href="/david-raine/2469768-t" title="View David Raine's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/david-raine/2469768-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View David Humphreys' Ratings" class="name" href="/david-humphreys/2469769-t" target="_blank" title="View David Humphreys' Ratings">
+David Humphreys
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/history" title="View Amphitheater High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="David Humphreys" data-sid="1500" data-status="-2" data-tid="2469769" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Nice teacher. Helped me a lot in class and in life. I will remember him. Try to get him because you won't regret it...
+</div>
+<div class="options">
+<a alt="View David Humphreys' Ratings" class="btn view_more" href="/david-humphreys/2469769-t" title="View David Humphreys' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/david-humphreys/2469769-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Berry's Ratings" class="name" href="/berry/2371364-t" target="_blank" title="View Berry's Ratings">
+Berry
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/accounting" title="View Amphitheater High School&#39;s Accounting Teachers">Accounting</a>
+</div>
+<div class="teacher_actions" data-name="Berry" data-sid="1500" data-status="-2" data-tid="2371364" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2371364" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Berry" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Berry">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2371364" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Berry" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Berry">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/berry/2371364-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Carla Garcia's Ratings" class="name" href="/carla-garcia/2249529-t" target="_blank" title="View Carla Garcia's Ratings">
+Carla Garcia
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/esl" title="View Amphitheater High School&#39;s Esl Teachers">Esl</a>
+</div>
+<div class="teacher_actions" data-name="Carla Garcia" data-sid="1500" data-status="-2" data-tid="2249529" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+World's best teacher!
+</div>
+<div class="options">
+<a alt="View Carla Garcia's Ratings" class="btn view_more" href="/carla-garcia/2249529-t" title="View Carla Garcia's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/carla-garcia/2249529-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hansen's Ratings" class="name" href="/hansen/2249530-t" target="_blank" title="View Hansen's Ratings">
+Mr. Hansen
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/english" title="View Amphitheater High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Hansen" data-sid="1500" data-status="-2" data-tid="2249530" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249530" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mr. Hansen" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Hansen">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249530" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mr. Hansen" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Hansen">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hansen/2249530-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Haverty's Ratings" class="name" href="/haverty/2249531-t" target="_blank" title="View Haverty's Ratings">
+Mr. Haverty
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/science" title="View Amphitheater High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Haverty" data-sid="1500" data-status="-2" data-tid="2249531" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249531" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mr. Haverty" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Haverty">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249531" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mr. Haverty" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Haverty">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/haverty/2249531-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hollman's Ratings" class="name" href="/hollman/2249532-t" target="_blank" title="View Hollman's Ratings">
+Mrs. Hollman
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/biology" title="View Amphitheater High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Hollman" data-sid="1500" data-status="-2" data-tid="2249532" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249532" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mrs. Hollman" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Hollman">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249532" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mrs. Hollman" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Hollman">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hollman/2249532-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Don Holp's Ratings" class="name" href="/don-holp/2249533-t" target="_blank" title="View Don Holp's Ratings">
+Don Holp
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/multiple-subjects" title="View Amphitheater High School&#39;s Multiple Subjects Teachers">Multiple Subjects</a>
+</div>
+<div class="teacher_actions" data-name="Don Holp" data-sid="1500" data-status="-2" data-tid="2249533" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+very good teacher and coach. very knowledgeable and patient. has very high standards and sticks to them. very fair.
+</div>
+<div class="options">
+<a alt="View Don Holp's Ratings" class="btn view_more" href="/don-holp/2249533-t" title="View Don Holp's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/don-holp/2249533-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Huseby's Ratings" class="name" href="/huseby/2249534-t" target="_blank" title="View Huseby's Ratings">
+Mrs. Huseby
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/esl" title="View Amphitheater High School&#39;s Esl Teachers">Esl</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Huseby" data-sid="1500" data-status="-2" data-tid="2249534" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249534" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mrs. Huseby" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Huseby">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249534" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mrs. Huseby" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Huseby">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/huseby/2249534-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jones' Ratings" class="name" href="/jones/2249535-t" target="_blank" title="View Jones' Ratings">
+Ms. Jones
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/not-specified" title="View Amphitheater High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Ms. Jones" data-sid="1500" data-status="-2" data-tid="2249535" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249535" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Ms. Jones" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Jones">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249535" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Ms. Jones" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Jones">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jones/2249535-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kelley's Ratings" class="name" href="/kelley/2249536-t" target="_blank" title="View Kelley's Ratings">
+Ms. Kelley
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/math" title="View Amphitheater High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Ms. Kelley" data-sid="1500" data-status="-2" data-tid="2249536" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249536" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Ms. Kelley" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Kelley">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249536" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Ms. Kelley" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Kelley">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kelley/2249536-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Theresa Lee's Ratings" class="name" href="/theresa-lee/2249537-t" target="_blank" title="View Theresa Lee's Ratings">
+Theresa Lee
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/biology" title="View Amphitheater High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="teacher_actions" data-name="Theresa Lee" data-sid="1500" data-status="-2" data-tid="2249537" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249537" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Theresa Lee" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Theresa Lee">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249537" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Theresa Lee" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Theresa Lee">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/theresa-lee/2249537-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Casonti McClure's Ratings" class="name" href="/casonti-mcclure/2249538-t" target="_blank" title="View Casonti McClure's Ratings">
+Casonti McClure
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/performing-arts" title="View Amphitheater High School&#39;s Performing Arts Teachers">Performing Arts</a>
+</div>
+<div class="teacher_actions" data-name="Casonti McClure" data-sid="1500" data-status="-2" data-tid="2249538" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249538" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Casonti McClure" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Casonti McClure">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249538" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Casonti McClure" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Casonti McClure">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/casonti-mcclure/2249538-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Melendez's Ratings" class="name" href="/melendez/2249539-t" target="_blank" title="View Melendez's Ratings">
+Mr. Melendez
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/science" title="View Amphitheater High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Melendez" data-sid="1500" data-status="-2" data-tid="2249539" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249539" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mr. Melendez" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Melendez">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249539" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mr. Melendez" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Melendez">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/melendez/2249539-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Menaugh's Ratings" class="name" href="/menaugh/2249540-t" target="_blank" title="View Menaugh's Ratings">
+Mr. Menaugh
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/english" title="View Amphitheater High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Menaugh" data-sid="1500" data-status="-2" data-tid="2249540" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+One of the best English teachers you could ever have. Plus just look at his beard.
+</div>
+<div class="options">
+<a alt="View Menaugh's Ratings" class="btn view_more" href="/menaugh/2249540-t" title="View Menaugh's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/menaugh/2249540-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Patricia Merha's Ratings" class="name" href="/patricia-merha/2249541-t" target="_blank" title="View Patricia Merha's Ratings">
+Patricia Merha
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/chemistry" title="View Amphitheater High School&#39;s Chemistry Teachers">Chemistry</a>
+</div>
+<div class="teacher_actions" data-name="Patricia Merha" data-sid="1500" data-status="-2" data-tid="2249541" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.260px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best AP chem teacher ever! She is the reason I teach science!
+</div>
+<div class="options">
+<a alt="View Patricia Merha's Ratings" class="btn view_more" href="/patricia-merha/2249541-t" title="View Patricia Merha's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/patricia-merha/2249541-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Quinn's Ratings" class="name" href="/quinn/2249542-t" target="_blank" title="View Quinn's Ratings">
+Mr. Quinn
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/not-specified" title="View Amphitheater High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Quinn" data-sid="1500" data-status="-2" data-tid="2249542" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249542" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mr. Quinn" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Quinn">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249542" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mr. Quinn" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Quinn">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/quinn/2249542-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Reynolds' Ratings" class="name" href="/reynolds/2249543-t" target="_blank" title="View Reynolds' Ratings">
+Mrs. Reynolds
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/history" title="View Amphitheater High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Reynolds" data-sid="1500" data-status="-2" data-tid="2249543" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249543" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mrs. Reynolds" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Reynolds">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249543" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mrs. Reynolds" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Reynolds">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/reynolds/2249543-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Robbeloth's Ratings" class="name" href="/robbeloth/2249544-t" target="_blank" title="View Robbeloth's Ratings">
+Ms. Robbeloth
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/english" title="View Amphitheater High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Ms. Robbeloth" data-sid="1500" data-status="-2" data-tid="2249544" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249544" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Ms. Robbeloth" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Robbeloth">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249544" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Ms. Robbeloth" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Robbeloth">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/robbeloth/2249544-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Debra Romancho's Ratings" class="name" href="/debra-romancho/2249545-t" target="_blank" title="View Debra Romancho's Ratings">
+Debra Romancho
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/not-specified" title="View Amphitheater High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Debra Romancho" data-sid="1500" data-status="-2" data-tid="2249545" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249545" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Debra Romancho" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Debra Romancho">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249545" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Debra Romancho" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Debra Romancho">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/debra-romancho/2249545-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Roth's Ratings" class="name" href="/roth/2249546-t" target="_blank" title="View Roth's Ratings">
+Mr. Roth
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/not-specified" title="View Amphitheater High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Roth" data-sid="1500" data-status="-2" data-tid="2249546" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249546" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mr. Roth" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Roth">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249546" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mr. Roth" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Roth">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/roth/2249546-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Scheel's Ratings" class="name" href="/scheel/2249547-t" target="_blank" title="View Scheel's Ratings">
+Ms. Scheel
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/english-math" title="View Amphitheater High School&#39;s English/Math Teachers">English/Math</a>
+</div>
+<div class="teacher_actions" data-name="Ms. Scheel" data-sid="1500" data-status="-2" data-tid="2249547" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249547" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Ms. Scheel" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Scheel">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249547" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Ms. Scheel" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Scheel">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/scheel/2249547-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Emili Schultz's Ratings" class="name" href="/emili-schultz/2249549-t" target="_blank" title="View Emili Schultz's Ratings">
+Emili Schultz
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/math" title="View Amphitheater High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Emili Schultz" data-sid="1500" data-status="-2" data-tid="2249549" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249549" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Emili Schultz" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Emili Schultz">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249549" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Emili Schultz" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Emili Schultz">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/emili-schultz/2249549-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Shorrock's Ratings" class="name" href="/shorrock/2249551-t" target="_blank" title="View Shorrock's Ratings">
+Mr. Shorrock
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/photography" title="View Amphitheater High School&#39;s Photography Teachers">Photography</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Shorrock" data-sid="1500" data-status="-2" data-tid="2249551" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249551" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mr. Shorrock" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Shorrock">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249551" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mr. Shorrock" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Shorrock">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/shorrock/2249551-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Joan Sinema's Ratings" class="name" href="/joan-sinema/2249552-t" target="_blank" title="View Joan Sinema's Ratings">
+Joan Sinema
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/english" title="View Amphitheater High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Joan Sinema" data-sid="1500" data-status="-2" data-tid="2249552" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249552" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Joan Sinema" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Joan Sinema">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249552" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Joan Sinema" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Joan Sinema">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/joan-sinema/2249552-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Smorra's Ratings" class="name" href="/smorra/2249553-t" target="_blank" title="View Smorra's Ratings">
+Ms. Smorra
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/math" title="View Amphitheater High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Ms. Smorra" data-sid="1500" data-status="-2" data-tid="2249553" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249553" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Ms. Smorra" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Smorra">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249553" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Ms. Smorra" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Smorra">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/smorra/2249553-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Steiner's Ratings" class="name" href="/steiner/2249554-t" target="_blank" title="View Steiner's Ratings">
+Mr. Steiner
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/social-studies" title="View Amphitheater High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Steiner" data-sid="1500" data-status="-2" data-tid="2249554" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Steiner is one of the best teachers I have ever had. He made sure that every student understood what he was...
+</div>
+<div class="options">
+<a alt="View Steiner's Ratings" class="btn view_more" href="/steiner/2249554-t" title="View Steiner's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/steiner/2249554-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Christen Stuetze's Ratings" class="name" href="/christen-stuetze/2249555-t" target="_blank" title="View Christen Stuetze's Ratings">
+Christen Stuetze
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/science" title="View Amphitheater High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Christen Stuetze" data-sid="1500" data-status="-2" data-tid="2249555" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249555" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Christen Stuetze" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Christen Stuetze">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249555" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Christen Stuetze" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Christen Stuetze">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/christen-stuetze/2249555-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Subiti's Ratings" class="name" href="/subiti/2249556-t" target="_blank" title="View Subiti's Ratings">
+Mr. Subiti
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/not-specified" title="View Amphitheater High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Subiti" data-sid="1500" data-status="-2" data-tid="2249556" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He was by far one of the greatest teachers I have ever had.
+</div>
+<div class="options">
+<a alt="View Subiti's Ratings" class="btn view_more" href="/subiti/2249556-t" title="View Subiti's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/subiti/2249556-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View . Thamarus' Ratings" class="name" href="/thamarus/2249557-t" target="_blank" title="View . Thamarus' Ratings">
+. Thamarus
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/biology" title="View Amphitheater High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="teacher_actions" data-name=". Thamarus" data-sid="1500" data-status="-2" data-tid="2249557" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249557" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher=". Thamarus" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  . Thamarus">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249557" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher=". Thamarus" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  . Thamarus">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/thamarus/2249557-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Debbie Vansice's Ratings" class="name" href="/debbie-vansice/2249558-t" target="_blank" title="View Debbie Vansice's Ratings">
+Debbie Vansice
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/history" title="View Amphitheater High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Debbie Vansice" data-sid="1500" data-status="-2" data-tid="2249558" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Vansizzle has been teaching for over twenty years and jovially. Her passion for teaching is evident despite her...
+</div>
+<div class="options">
+<a alt="View Debbie Vansice's Ratings" class="btn view_more" href="/debbie-vansice/2249558-t" title="View Debbie Vansice's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/debbie-vansice/2249558-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Walker's Ratings" class="name" href="/walker/2249559-t" target="_blank" title="View Walker's Ratings">
+Mrs. Walker
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/english" title="View Amphitheater High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Walker" data-sid="1500" data-status="-2" data-tid="2249559" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249559" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mrs. Walker" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Walker">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249559" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mrs. Walker" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Walker">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/walker/2249559-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Webber's Ratings" class="name" href="/webber/2249560-t" target="_blank" title="View Webber's Ratings">
+Mrs. Webber
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/english" title="View Amphitheater High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Webber" data-sid="1500" data-status="-2" data-tid="2249560" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249560" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mrs. Webber" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Webber">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249560" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mrs. Webber" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Webber">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/webber/2249560-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Westover's Ratings" class="name" href="/westover/2249561-t" target="_blank" title="View Westover's Ratings">
+Mrs. Westover
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/not-specified" title="View Amphitheater High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Westover" data-sid="1500" data-status="-2" data-tid="2249561" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249561" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mrs. Westover" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Westover">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249561" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mrs. Westover" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Westover">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/westover/2249561-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Diaz-Peterson's Ratings" class="name" href="/diaz-peterson/2249245-t" target="_blank" title="View Diaz-Peterson's Ratings">
+Mrs. Diaz-Peterson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/languages" title="View Amphitheater High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Diaz-Peterson" data-sid="1500" data-status="-2" data-tid="2249245" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249245" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mrs. Diaz-Peterson" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Diaz-Peterson">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249245" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mrs. Diaz-Peterson" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Diaz-Peterson">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/diaz-peterson/2249245-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Easterday's Ratings" class="name" href="/easterday/2249247-t" target="_blank" title="View Easterday's Ratings">
+Mr. Easterday
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/physical-education" title="View Amphitheater High School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Easterday" data-sid="1500" data-status="-2" data-tid="2249247" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249247" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mr. Easterday" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Easterday">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249247" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mr. Easterday" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Easterday">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/easterday/2249247-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Katherine Engel's Ratings" class="name" href="/katherine-engel/2249249-t" target="_blank" title="View Katherine Engel's Ratings">
+Katherine Engel
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/esl" title="View Amphitheater High School&#39;s Esl Teachers">Esl</a>
+</div>
+<div class="teacher_actions" data-name="Katherine Engel" data-sid="1500" data-status="-2" data-tid="2249249" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249249" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Katherine Engel" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Katherine Engel">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249249" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Katherine Engel" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Katherine Engel">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/katherine-engel/2249249-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Farrar's Ratings" class="name" href="/farrar/2249250-t" target="_blank" title="View Farrar's Ratings">
+Ms. Farrar
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/visual-arts" title="View Amphitheater High School&#39;s Visual Arts Teachers">Visual Arts</a>
+</div>
+<div class="teacher_actions" data-name="Ms. Farrar" data-sid="1500" data-status="-2" data-tid="2249250" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249250" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Ms. Farrar" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Farrar">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249250" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Ms. Farrar" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Farrar">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/farrar/2249250-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Faulkner's Ratings" class="name" href="/faulkner/2249251-t" target="_blank" title="View Faulkner's Ratings">
+Ms. Faulkner
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/math" title="View Amphitheater High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Ms. Faulkner" data-sid="1500" data-status="-2" data-tid="2249251" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249251" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Ms. Faulkner" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Faulkner">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249251" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Ms. Faulkner" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Faulkner">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/faulkner/2249251-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Fierro's Ratings" class="name" href="/fierro/2249253-t" target="_blank" title="View Fierro's Ratings">
+Mrs. Fierro
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/multiple-subjects" title="View Amphitheater High School&#39;s Multiple Subjects Teachers">Multiple Subjects</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Fierro" data-sid="1500" data-status="-2" data-tid="2249253" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249253" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mrs. Fierro" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Fierro">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249253" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mrs. Fierro" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Fierro">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/fierro/2249253-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Bettcher's Ratings" class="name" href="/bettcher/2249183-t" target="_blank" title="View Bettcher's Ratings">
+Ms. Bettcher
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/esl" title="View Amphitheater High School&#39;s Esl Teachers">Esl</a>
+</div>
+<div class="teacher_actions" data-name="Ms. Bettcher" data-sid="1500" data-status="-2" data-tid="2249183" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249183" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Ms. Bettcher" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Bettcher">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249183" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Ms. Bettcher" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Bettcher">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/bettcher/2249183-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Bigelow's Ratings" class="name" href="/bigelow/2249184-t" target="_blank" title="View Bigelow's Ratings">
+Mrs. Bigelow
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/music" title="View Amphitheater High School&#39;s Music Teachers">Music</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Bigelow" data-sid="1500" data-status="-2" data-tid="2249184" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249184" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mrs. Bigelow" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Bigelow">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249184" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mrs. Bigelow" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Bigelow">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/bigelow/2249184-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Broussard's Ratings" class="name" href="/broussard/2249185-t" target="_blank" title="View Broussard's Ratings">
+Mrs. Broussard
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/multiple-subjects" title="View Amphitheater High School&#39;s Multiple Subjects Teachers">Multiple Subjects</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Broussard" data-sid="1500" data-status="-2" data-tid="2249185" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249185" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mrs. Broussard" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Broussard">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249185" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mrs. Broussard" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Broussard">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/broussard/2249185-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Burbank's Ratings" class="name" href="/burbank/2249186-t" target="_blank" title="View Burbank's Ratings">
+Ms. Burbank
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/not-specified" title="View Amphitheater High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Ms. Burbank" data-sid="1500" data-status="-2" data-tid="2249186" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249186" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Ms. Burbank" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Burbank">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249186" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Ms. Burbank" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Burbank">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/burbank/2249186-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Andras' Ratings" class="name" href="/andras/2249187-t" target="_blank" title="View Andras' Ratings">
+Mr. Andras
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/biology" title="View Amphitheater High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Andras" data-sid="1500" data-status="-2" data-tid="2249187" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249187" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mr. Andras" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Andras">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249187" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mr. Andras" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Andras">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/andras/2249187-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Cornell's Ratings" class="name" href="/cornell/2249188-t" target="_blank" title="View Cornell's Ratings">
+Mr. Cornell
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/not-specified" title="View Amphitheater High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Cornell" data-sid="1500" data-status="-2" data-tid="2249188" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249188" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mr. Cornell" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Cornell">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249188" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mr. Cornell" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Cornell">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/cornell/2249188-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Corrigan's Ratings" class="name" href="/corrigan/2249190-t" target="_blank" title="View Corrigan's Ratings">
+Mrs. Corrigan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/not-specified" title="View Amphitheater High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Corrigan" data-sid="1500" data-status="-2" data-tid="2249190" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249190" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mrs. Corrigan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Corrigan">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249190" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mrs. Corrigan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Corrigan">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/corrigan/2249190-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Daniel's Ratings" class="name" href="/daniel/2249191-t" target="_blank" title="View Daniel's Ratings">
+Ms. Daniel
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/not-specified" title="View Amphitheater High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Ms. Daniel" data-sid="1500" data-status="-2" data-tid="2249191" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249191" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Ms. Daniel" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Daniel">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249191" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Ms. Daniel" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Daniel">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/daniel/2249191-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Darling's Ratings" class="name" href="/darling/2249192-t" target="_blank" title="View Darling's Ratings">
+Mr. Darling
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/not-specified" title="View Amphitheater High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Mr. Darling" data-sid="1500" data-status="-2" data-tid="2249192" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249192" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mr. Darling" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Darling">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2249192" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mr. Darling" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mr. Darling">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/darling/2249192-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Patricia Harris' Ratings" class="name" href="/patricia-harris/2248960-t" target="_blank" title="View Patricia Harris' Ratings">
+Patricia Harris
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/principal" title="View Amphitheater High School&#39;s Principal Teachers">Principal</a>
+</div>
+<div class="teacher_actions" data-name="Patricia Harris" data-sid="1500" data-status="-2" data-tid="2248960" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2248960" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Patricia Harris" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Patricia Harris">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2248960" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Patricia Harris" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Patricia Harris">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/patricia-harris/2248960-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Gina Beca's Ratings" class="name" href="/gina-beca/2248961-t" target="_blank" title="View Gina Beca's Ratings">
+Gina Beca
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/multiple-subjects" title="View Amphitheater High School&#39;s Multiple Subjects Teachers">Multiple Subjects</a>
+</div>
+<div class="teacher_actions" data-name="Gina Beca" data-sid="1500" data-status="-2" data-tid="2248961" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best teacher this school has. She deserves to keep her job!
+</div>
+<div class="options">
+<a alt="View Gina Beca's Ratings" class="btn view_more" href="/gina-beca/2248961-t" title="View Gina Beca's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/gina-beca/2248961-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Debra Scott's Ratings" class="name" href="/debra-scott/2228692-t" target="_blank" title="View Debra Scott's Ratings">
+Debra Scott
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/math" title="View Amphitheater High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Debra Scott" data-sid="1500" data-status="-2" data-tid="2228692" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2228692" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Debra Scott" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Debra Scott">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2228692" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Debra Scott" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Debra Scott">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/debra-scott/2228692-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John Willis' Ratings" class="name" href="/john-willis/2149063-t" target="_blank" title="View John Willis' Ratings">
+John Willis
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/history" title="View Amphitheater High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="John Willis" data-sid="1500" data-status="-2" data-tid="2149063" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I think Mr.willis is a caring person and a very cool person to hang out with.
+</div>
+<div class="options">
+<a alt="View John Willis' Ratings" class="btn view_more" href="/john-willis/2149063-t" title="View John Willis' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-willis/2149063-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Matthew Chandler's Ratings" class="name" href="/matthew-chandler/2061941-t" target="_blank" title="View Matthew Chandler's Ratings">
+Matthew Chandler
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/not-specified" title="View Amphitheater High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Matthew Chandler" data-sid="1500" data-status="-2" data-tid="2061941" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2061941" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Matthew Chandler" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Matthew Chandler">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2061941" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Matthew Chandler" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Matthew Chandler">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/matthew-chandler/2061941-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View William Pike's Ratings" class="name" href="/william-pike/2049649-t" target="_blank" title="View William Pike's Ratings">
+William Pike
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/math" title="View Amphitheater High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="William Pike" data-sid="1500" data-status="-2" data-tid="2049649" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Awesome teacher! Knows everything and genuinely cares about his work and his students. He enjoys what he teaches,...
+</div>
+<div class="options">
+<a alt="View William Pike's Ratings" class="btn view_more" href="/william-pike/2049649-t" title="View William Pike's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/william-pike/2049649-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Andrew Bevington's Ratings" class="name" href="/andrew-bevington/2021250-t" target="_blank" title="View Andrew Bevington's Ratings">
+Andrew Bevington
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/photography" title="View Amphitheater High School&#39;s Photography Teachers">Photography</a>
+</div>
+<div class="teacher_actions" data-name="Andrew Bevington" data-sid="1500" data-status="-2" data-tid="2021250" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.440px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Bevington was always such a fun, knowledgeable teacher. He had the students' best interest at heart. He was one...
+</div>
+<div class="options">
+<a alt="View Andrew Bevington's Ratings" class="btn view_more" href="/andrew-bevington/2021250-t" title="View Andrew Bevington's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/andrew-bevington/2021250-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John Keepers' Ratings" class="name" href="/john-keepers/2017324-t" target="_blank" title="View John Keepers' Ratings">
+John Keepers
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/history" title="View Amphitheater High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="John Keepers" data-sid="1500" data-status="-2" data-tid="2017324" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+HE'S A GOOD TEACHER. HE KEEPS THE KID IN ORDER AND DOESN'T TAKE ANY TROUBLE FROM THE STUDIENTS
+</div>
+<div class="options">
+<a alt="View John Keepers' Ratings" class="btn view_more" href="/john-keepers/2017324-t" title="View John Keepers' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-keepers/2017324-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tabitha Burrus' Ratings" class="name" href="/tabitha-burrus/2015185-t" target="_blank" title="View Tabitha Burrus' Ratings">
+Tabitha Burrus
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/history" title="View Amphitheater High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Tabitha Burrus" data-sid="1500" data-status="-2" data-tid="2015185" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I like her a lot. She's funny and she makes class more interesting.
+</div>
+<div class="options">
+<a alt="View Tabitha Burrus' Ratings" class="btn view_more" href="/tabitha-burrus/2015185-t" title="View Tabitha Burrus' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tabitha-burrus/2015185-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Araceli Acosta's Ratings" class="name" href="/araceli-acosta/2014707-t" target="_blank" title="View Araceli Acosta's Ratings">
+Araceli Acosta
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/languages" title="View Amphitheater High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Araceli Acosta" data-sid="1500" data-status="-2" data-tid="2014707" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+The best Spanish teacher! Sweetheart!! Awesome!! Fantastic!
+</div>
+<div class="options">
+<a alt="View Araceli Acosta's Ratings" class="btn view_more" href="/araceli-acosta/2014707-t" title="View Araceli Acosta's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/araceli-acosta/2014707-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kim Burrow's Ratings" class="name" href="/kim-burrow/2014710-t" target="_blank" title="View Kim Burrow's Ratings">
+Kim Burrow
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/history" title="View Amphitheater High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Kim Burrow" data-sid="1500" data-status="-2" data-tid="2014710" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.700px;"></div>
+</div>
+</div>
+<div class="rating_count">10 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Ok Here is the truth!!!! She is a very intelligent teacher with awesome teaching skills! She is an amazing teacher!
+</div>
+<div class="options">
+<a alt="View Kim Burrow's Ratings" class="btn view_more" href="/kim-burrow/2014710-t" title="View Kim Burrow's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kim-burrow/2014710-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Roy Stewart's Ratings" class="name" href="/roy-stewart/1933023-t" target="_blank" title="View Roy Stewart's Ratings">
+Roy Stewart
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/physical-education" title="View Amphitheater High School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class="teacher_actions" data-name="Roy Stewart" data-sid="1500" data-status="-2" data-tid="1933023" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+cool class look forward to going to work out
+</div>
+<div class="options">
+<a alt="View Roy Stewart's Ratings" class="btn view_more" href="/roy-stewart/1933023-t" title="View Roy Stewart's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/roy-stewart/1933023-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jenifer Demello's Ratings" class="name" href="/jenifer-demello/1765267-t" target="_blank" title="View Jenifer Demello's Ratings">
+Jenifer Demello
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/psychology" title="View Amphitheater High School&#39;s Psychology Teachers">Psychology</a>
+</div>
+<div class="teacher_actions" data-name="Jenifer Demello" data-sid="1500" data-status="-2" data-tid="1765267" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 105.600px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Its been almost a decade since I've had her as a teacher and she was such amazing teacher. You can tell she loves her...
+</div>
+<div class="options">
+<a alt="View Jenifer Demello's Ratings" class="btn view_more" href="/jenifer-demello/1765267-t" title="View Jenifer Demello's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jenifer-demello/1765267-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Chris Lambert's Ratings" class="name" href="/chris-lambert/1715980-t" target="_blank" title="View Chris Lambert's Ratings">
+Chris Lambert
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/not-specified" title="View Amphitheater High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Chris Lambert" data-sid="1500" data-status="-2" data-tid="1715980" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1715980" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Chris Lambert" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Chris Lambert">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1715980" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Chris Lambert" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Chris Lambert">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/chris-lambert/1715980-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Heather Griffith's Ratings" class="name" href="/heather-griffith/1645778-t" target="_blank" title="View Heather Griffith's Ratings">
+Heather Griffith
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/english" title="View Amphitheater High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Heather Griffith" data-sid="1500" data-status="-2" data-tid="1645778" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Her bright smile and positive attitude is a great way to start off your day when you have this teacher. She is caring...
+</div>
+<div class="options">
+<a alt="View Heather Griffith's Ratings" class="btn view_more" href="/heather-griffith/1645778-t" title="View Heather Griffith's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/heather-griffith/1645778-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Julie Rigoli's Ratings" class="name" href="/julie-rigoli/1642788-t" target="_blank" title="View Julie Rigoli's Ratings">
+Julie Rigoli
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/social-studies" title="View Amphitheater High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Julie Rigoli" data-sid="1500" data-status="-2" data-tid="1642788" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 74.360px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Horrible. Clarity was good because you knew exactly what side of the issues she was on. Did not tolerate any view...
+</div>
+<div class="options">
+<a alt="View Julie Rigoli's Ratings" class="btn view_more" href="/julie-rigoli/1642788-t" title="View Julie Rigoli's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/julie-rigoli/1642788-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jennifer Wright's Ratings" class="name" href="/jennifer-wright/1639819-t" target="_blank" title="View Jennifer Wright's Ratings">
+Jennifer Wright
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/biology" title="View Amphitheater High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="teacher_actions" data-name="Jennifer Wright" data-sid="1500" data-status="-2" data-tid="1639819" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Wright is awesome. She has difficult content, but a great way of teaching. She needs a raise.
+</div>
+<div class="options">
+<a alt="View Jennifer Wright's Ratings" class="btn view_more" href="/jennifer-wright/1639819-t" title="View Jennifer Wright's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jennifer-wright/1639819-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Ben Hurley's Ratings" class="name" href="/ben-hurley/1631489-t" target="_blank" title="View Ben Hurley's Ratings">
+Ben Hurley
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/not-specified" title="View Amphitheater High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Ben Hurley" data-sid="1500" data-status="-2" data-tid="1631489" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1631489" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Ben Hurley" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ben Hurley">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1631489" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Ben Hurley" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ben Hurley">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/ben-hurley/1631489-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Rachel Sharp's Ratings" class="name" href="/rachel-sharp/1575587-t" target="_blank" title="View Rachel Sharp's Ratings">
+Rachel Sharp
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/not-specified" title="View Amphitheater High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Rachel Sharp" data-sid="1500" data-status="-2" data-tid="1575587" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs sharp is the most caring teacher i know at amphi middle
+</div>
+<div class="options">
+<a alt="View Rachel Sharp's Ratings" class="btn view_more" href="/rachel-sharp/1575587-t" title="View Rachel Sharp's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/rachel-sharp/1575587-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John Parham's Ratings" class="name" href="/john-parham/1458709-t" target="_blank" title="View John Parham's Ratings">
+John Parham
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/film" title="View Amphitheater High School&#39;s Film Teachers">Film</a>
+</div>
+<div class="teacher_actions" data-name="John Parham" data-sid="1500" data-status="-2" data-tid="1458709" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 101.200px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Parham is a pretty chill bro. I am a fan of his class.
+</div>
+<div class="options">
+<a alt="View John Parham's Ratings" class="btn view_more" href="/john-parham/1458709-t" title="View John Parham's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-parham/1458709-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Stephanie Duisberg's Ratings" class="name" href="/stephanie-duisberg/1261374-t" target="_blank" title="View Stephanie Duisberg's Ratings">
+Stephanie Duisberg
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/languages" title="View Amphitheater High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Stephanie Duisberg" data-sid="1500" data-status="-2" data-tid="1261374" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 90.200px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+May not of had her for long but was agreat teacher.
+</div>
+<div class="options">
+<a alt="View Stephanie Duisberg's Ratings" class="btn view_more" href="/stephanie-duisberg/1261374-t" title="View Stephanie Duisberg's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/stephanie-duisberg/1261374-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Nicole Sheldon's Ratings" class="name" href="/nicole-sheldon/1249576-t" target="_blank" title="View Nicole Sheldon's Ratings">
+Nicole Sheldon
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/chemistry" title="View Amphitheater High School&#39;s Chemistry Teachers">Chemistry</a>
+</div>
+<div class="teacher_actions" data-name="Nicole Sheldon" data-sid="1500" data-status="-2" data-tid="1249576" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+flowing wells is better
+</div>
+<div class="options">
+<a alt="View Nicole Sheldon's Ratings" class="btn view_more" href="/nicole-sheldon/1249576-t" title="View Nicole Sheldon's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/nicole-sheldon/1249576-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Steve Hammel's Ratings" class="name" href="/steve-hammel/1199937-t" target="_blank" title="View Steve Hammel's Ratings">
+Steve Hammel
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/journalism" title="View Amphitheater High School&#39;s Journalism Teachers">Journalism</a>
+</div>
+<div class="teacher_actions" data-name="Steve Hammel" data-sid="1500" data-status="-2" data-tid="1199937" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+he was the best teacher i've ever had. he inspired me to become a teacher myself.
+</div>
+<div class="options">
+<a alt="View Steve Hammel's Ratings" class="btn view_more" href="/steve-hammel/1199937-t" title="View Steve Hammel's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/steve-hammel/1199937-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jose Bernal's Ratings" class="name" href="/jose-bernal/1199940-t" target="_blank" title="View Jose Bernal's Ratings">
+Jose Bernal
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/science" title="View Amphitheater High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Jose Bernal" data-sid="1500" data-status="-2" data-tid="1199940" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+im class of 94. Mr. Bernal is the best teacher i ever have. tnx for all u did for all of us. Aldo Fenech.
+</div>
+<div class="options">
+<a alt="View Jose Bernal's Ratings" class="btn view_more" href="/jose-bernal/1199940-t" title="View Jose Bernal's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jose-bernal/1199940-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jim Vinal's Ratings" class="name" href="/jim-vinal/1033842-t" target="_blank" title="View Jim Vinal's Ratings">
+Jim Vinal
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/english" title="View Amphitheater High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Jim Vinal" data-sid="1500" data-status="-2" data-tid="1033842" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 93.500px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I love Mr. Vinal!
+</div>
+<div class="options">
+<a alt="View Jim Vinal's Ratings" class="btn view_more" href="/jim-vinal/1033842-t" title="View Jim Vinal's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jim-vinal/1033842-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Carrie Bejarano's Ratings" class="name" href="/carrie-bejarano/862598-t" target="_blank" title="View Carrie Bejarano's Ratings">
+Carrie Bejarano
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/science" title="View Amphitheater High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Carrie Bejarano" data-sid="1500" data-status="-2" data-tid="862598" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best Oceanography teacher ever!
+</div>
+<div class="options">
+<a alt="View Carrie Bejarano's Ratings" class="btn view_more" href="/carrie-bejarano/862598-t" title="View Carrie Bejarano's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/carrie-bejarano/862598-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Larry Ruhf's Ratings" class="name" href="/larry-ruhf/309632-t" target="_blank" title="View Larry Ruhf's Ratings">
+Larry Ruhf
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/science" title="View Amphitheater High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Larry Ruhf" data-sid="1500" data-status="-2" data-tid="309632" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=309632" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Larry Ruhf" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Larry Ruhf">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=309632" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Larry Ruhf" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Larry Ruhf">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/larry-ruhf/309632-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Shawn Jones' Ratings" class="name" href="/shawn-jones/8008901-t" target="_blank" title="View Shawn Jones' Ratings">
+Shawn Jones
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/auto-tech" title="View Amphitheater High School&#39;s Auto Tech Teachers">Auto Tech</a>
+</div>
+<div class="teacher_actions" data-name="Shawn Jones" data-sid="1500" data-status="-2" data-tid="8008901" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=8008901" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Shawn Jones" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Shawn Jones">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=8008901" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Shawn Jones" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Shawn Jones">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/shawn-jones/8008901-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Brain Valencia's Ratings" class="name" href="/brain-valencia/7911141-t" target="_blank" title="View Brain Valencia's Ratings">
+Brain Valencia
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/photography" title="View Amphitheater High School&#39;s Photography Teachers">Photography</a>
+</div>
+<div class="teacher_actions" data-name="Brain Valencia" data-sid="1500" data-status="-2" data-tid="7911141" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 22.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7911141" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Brain Valencia" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Brain Valencia">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7911141" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Brain Valencia" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Brain Valencia">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/brain-valencia/7911141-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Simon Wickens' Ratings" class="name" href="/simon-wickens/4266027-t" target="_blank" title="View Simon Wickens' Ratings">
+Simon Wickens
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/amphitheater-high-school/1500-s/special-education" title="View Amphitheater High School&#39;s Special Education Teachers">Special Education</a>
+</div>
+<div class="teacher_actions" data-name="Simon Wickens" data-sid="1500" data-status="-2" data-tid="4266027" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Wickens is a GREAT teacher. Don't know where they found him but he is SMART off the charts! He makes math fun...
+</div>
+<div class="options">
+<a alt="View Simon Wickens' Ratings" class="btn view_more" href="/simon-wickens/4266027-t" title="View Simon Wickens' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/simon-wickens/4266027-t"></a>
+</div>
+
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-lg-3 secondary_column">
+<div class="row block_container demographic_card">
+<div class="tab_horizontal_format">
+<div class="col-xs-12 tab_header">
+<ul class="nav nav-tabs nav-top collapsible_nav collapsible_nav_collapsed" id="enrollment_charts" role="tablist">
+<li>
+<a alt="Enrollment By Year" data-toggle="tab" data-type="by_year" href="#enrollment_by_year" role="tab">
+<span>Enrollment By Year</span>
+<span class="arrow_container">
+<i class="arrow fa fa-angle-right"></i>
+</span>
+</a>
+<a class="toggle" href="javascript:void(0);">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li>
+<a alt="Enrollment By Ethnicity" data-toggle="tab" data-type="by_ethnicity" href="#enrollment_by_ethnicity" role="tab">
+<span>Enrollment By Ethnicity</span>
+<span class="arrow_container">
+<i class="arrow fa fa-angle-right"></i>
+</span>
+</a>
+<a class="toggle" href="javascript:void(0);">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li>
+<a alt="Enrollment By Gender" data-toggle="tab" data-type="by_gender" href="#enrollment_by_gender" role="tab">
+<span>Enrollment By Gender</span>
+<span class="arrow_container">
+<i class="arrow fa fa-angle-right"></i>
+</span>
+</a>
+<a class="toggle" href="javascript:void(0);">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+</ul>
+</div>
+<a class="col-xs-12 tab_container tab-content enrollment" href="/amphitheater-high-school/1500-s" title="View Amphitheater High School's Teachers">
+<span class="tab-pane charts_container students_charts_container" id="enrollment_by_year">
+<span class="graph_info" id="students_charts" style="min-height: 200px;">Loading ...</span>
+</span>
+<span class="tab-pane charts_container ethnicity_chart_container" id="enrollment_by_ethnicity">
+<span class="graph_info" id="ethnicity_chart" style="min-height: 200px;">Loading ...</span>
+</span>
+<span class="tab-pane charts_container gender_container" id="enrollment_by_gender">
+<span class="row gender_info">
+<span class="col-xs-5">
+<span class="icon icon-male">
+<span class="aux"></span>
+</span>
+</span>
+<span class="col-xs-4 text">Male</span>
+<span class="col-xs-3 count">665</span>
+</span>
+<span class="row gender_info">
+<span class="col-xs-5">
+<span class="icon icon-female">
+<span class="aux"></span>
+</span>
+</span>
+<span class="col-xs-4 text">Female</span>
+<span class="col-xs-3 count">506</span>
+</span>
+</span>
+<span class="data_from">
+Data by NCES 2013
+</span>
+</a>
+</div>
+</div>
+<div class="sticky_container_right">
+<div class="sticky_column">
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="all_footer_wrapper" style="overflow:hidden;">
+<section class="container-fluid hidden-xs padding" id="states">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-sm-offset-0 footer_states_container">
+<h3>Locate Schools by State:</h3>
+<div class="states">
+<div class="state">
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class="state">
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class="state">
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class="state">
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class="state">
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class="state">
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class="state">
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class="state">
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class="state">
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class="state">
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class="state">
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class="state">
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class="state">
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class="state">
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class="state">
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class="state">
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class="state">
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class="state">
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class="state">
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class="state">
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class="state">
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class="state">
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class="state">
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class="state">
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class="state">
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class="state">
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class="state">
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class="state">
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class="state">
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class="state">
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class="state">
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class="state">
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class="state">
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class="state">
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class="state">
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class="state">
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class="state">
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class="state">
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class="state">
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class="state">
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class="state">
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class="state">
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class="state">
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class="state">
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class="state">
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class="state">
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class="state">
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class="state">
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer_directory">
+<div class="container">
+<div class="row">
+<div class="col-xs-6 hidden-xs">
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;W&quot;" href="/schools/directory/w" title="Schools beginning with &quot;W&quot;">w</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class="col-xs-6 hidden-xs">
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;W&quot;" href="/teachers/directory/w" title="Teachers beginning with &quot;W&quot;">w</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class="row footer_countries_list">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer">
+<div class="container">
+<div class="row footer_links">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+<h3 class="hidden-sm hidden-md hidden-lg">Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop="static" data-keyboard data-remote="/contact/new" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Contact RateMyTeachers">
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="row copyright">
+Copyright 2001-2017 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden="true" class="modal fade" id="modal" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div aria-hidden="true" class="modal fade" id="modal_rating" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div id="loading-indicator" style="display: none;">
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif"/>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    functionToLoad.push('//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js');
+  </script>
+<script type="text/javascript">
+    functionToLoad.push('/assets/application-54ea36510d376e4b53979f87d72bc002.js');
+    functionToLoad.push('/assets/users-8d86f10db3dd4d729784ef9748a4b44e.js');
+  </script>
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        // Facebook like
+        // (function(d, s, id) {
+        //   var js, fjs = d.getElementsByTagName(s)[0];
+        //   if (d.getElementById(id)) return;
+        //   js = d.createElement(s); js.id = id;
+        //   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=232453153516852&version=v2.0";
+        //   fjs.parentNode.insertBefore(js, fjs);
+        // }(document, 'script', 'facebook-jssdk'));
+
+        // Google Plus
+        // (function() {
+        //   var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        //   po.src = 'https://apis.google.com/js/platform.js';
+        //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        // })();
+
+        // Twitter Follow
+        // !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      
+      });
+    </script>
+<script type="text/javascript">
+  functionToLoad.push(["https://www.google.com/jsapi", true, [
+    function() {
+      enrollmentByEthnicity = {};
+        enrollmentByEthnicity = {"American Indiant/Alaskan (25)":25,"Asian (56)":56,"African American (96)":96,"Hispanic (780)":780,"White (183)":183,"Pacific (6)":6,"Two or More Races (25)":25};
+
+      totalStudentsHistory = {"2009":1380,"2010":1292,"2011":1249,"2012":1168,"2013":1171} ;
+      initSchoolStatsPage(true, true, true);
+
+      google.load("visualization", "1", {
+        packages:["corechart"],
+        callback: function(){
+          $('body').trigger('chart-ready');
+        }
+      });
+    }
+  ]]);
+</script>
+<script>
+  functionToLoad.push(function() {
+    $('#teachers_by_alphabet').change(function(e){
+      document.location.href = $('#teachers_by_alphabet').val()
+    });
+  });
+</script>
+<script>
+  functionToLoad.push(function() {
+    var schoolPagePath = '/amphitheater-high-school/1500-s';
+    var resultCount = 81;
+    var minStickyResultCount = 3;
+
+    if (!isMobile && !isMedium && resultCount > 0) {
+      var stickyColumnRight = $(".sticky_container_right .sticky_column");
+      var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+      var footerHeight = $('#all_footer_wrapper').outerHeight() + 50;
+      var stickyOptions = function(getWidthFrom) {
+        return {topSpacing:0, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+      }
+      stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+      // Make center column options sticky when min results quantity
+      if (resultCount > minStickyResultCount - 1) {
+        stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+      }
+    }
+  });
+</script>
+<script type="text/javascript">
+    function initializeMaps() {
+      var length = mapFunctionArray.length;
+      for (var i = 0; i < length; i++) {
+        mapFunctionArray[i]();
+      }
+    }
+
+    functionToLoad.push(function() {
+      // Don't load google maps when no pending maps
+      if (typeof(mapFunctionArray) === 'undefined' || mapFunctionArray.length < 1)
+        return;
+
+      var googleMapsId = "AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g";
+
+      var script_path = "http://maps.googleapis.com/maps/api/js?key=" + googleMapsId + "&sensor=false&callback=initializeMaps";
+      $.getScript(script_path);
+
+    });
+  </script>
+
+
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-bottom"};
+      });
+      functionToLoad.push("//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js");
+    </script>
+
+<script>
+    window.addEventListener('load', function(){
+      console.info("[PERF] DomContentLoaded: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+
+    window.addEventListener('load', function(){
+      console.info("[PERF] Load: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+  </script>
+
+<script type="text/javascript">
+    (function() {
+      // Load script from url
+      var loadScript = function(url, callback) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+
+        // Add on load callback event
+        if (callback !== null) {
+          if (script.readyState){ //IE
+            script.onreadystatechange = function(){
+              if (script.readyState == "loaded" || script.readyState == "complete"){
+                script.onreadystatechange = null;
+                callback();
+              }
+            };
+          } else { //Others
+            // Execute callback even when an error happen
+            script.onerror = function(e){
+              try {
+                console.error("An error happen when loading '" + err.target.src + "' script.");
+              } catch(err) {} finally {
+                callback();
+              }
+            };
+            script.onload = function(){ callback(); };
+          }
+        }
+
+        // Load the script
+        script.src = url;
+        document.body.appendChild(script);
+      };
+
+      // Load scripts in a sequence instead parallel
+      // to make sure frameworks load correctly
+      function sequence(index, max, source) {
+        if (index < max) {
+          var data = functionToLoad.extractElementData(source[index]);
+
+          if (typeof data.element === 'string') {
+            if (data.async) {
+              // Async script
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+              });
+              sequence(index + 1, max, source);
+            } else {
+              // Sync scripts
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+                sequence(index + 1, max, source);
+              });
+            }
+          } else {
+            // Execute callback even when an error happen on the function
+            try {
+              if (data.async) {
+                // Async script
+                setTimeout(function() { data.element(); }, 1);
+              } else {
+                // Sync script
+                data.element();
+              }
+            } catch(err) {
+              console.error(err);
+            } finally {
+              sequence(index + 1, max, source);
+            }
+          }
+        }
+      }
+
+      // Load all javascript in a sequence
+      var loadDeferredJs = function() {
+        sequence(0, functionToLoad.length, functionToLoad);
+      };
+
+      // Execute all lazy javascripts after DOM load
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredJs, 0); });
+      else window.addEventListener('load', loadDeferredJs);
+    })();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,3845 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+      (function(){
+        window.beginTimeTrack = (new Date()).getTime();
+      })();
+    </script>
+
+
+  <title>Clovis Grove Elementary School - Menasha, Wisconsin | RateMyTeachers.com</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":737,"agentToken":null,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(14)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(14)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(14)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,v,"fn-",c)}function i(t){y.push(t),h&&(w=-w,b.data=w)}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(14)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,g),g.prototype=p.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var w=1,b=document.createTextNode(w);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[g[n]];return f&&f.push([w,n,r,i]),i}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",g[n]=e,e in u||(u[e]=[])})}var y={},g={},w={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return w}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=w.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(y,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(12),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(9);var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},g=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),w=e.exports={offset:a(),origin:v,features:{},xhrWrappable:g};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,7]);</script>  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+  <meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw" />
+  
+
+
+<meta name="description" content="Clovis Grove Elementary School is a Elementary School in Menasha, WI. Search Clovis Grove Elementary School&#39;s ratings, statistics and reviews by students and parents." />
+
+
+<meta property="twitter:image" content="http://www.ratemyteachers.com/images/logo_icon_60.png" />
+
+
+<meta property="og:image" content="http://www.ratemyteachers.com/images/logo_icon_100.png" />
+<meta property="og:title" content="Clovis Grove Elementary School - Menasha, Wisconsin | RateMyTeachers.com" />
+  <meta property="og:type" content="rmt:school" />
+<meta property="og:url" content="http://www.ratemyteachers.com/clovis-grove-elementary-school/122666-s" />
+<meta property="og:site_name" content="Clovis Grove Elementary School - Menasha, Wisconsin | RateMyTeachers.com" />
+<meta property="og:description" content="Clovis Grove Elementary School is a Elementary School in Menasha, WI. Search Clovis Grove Elementary School's ratings, statistics and reviews by students and parents." />
+
+
+
+
+  <meta name="robots" content="noodp,noydir" />
+  <meta property="rmt:image" content="http://www.ratemyteachers.com/apple_touch_icon_196x196.png" />
+  
+  <!-- Favicons -->
+  <link rel="shortcut icon" sizes="64x64 48x48 32x32 16x16" type="image/x-icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple_touch_icon_60x60.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple_touch_icon_76x76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple_touch_icon_120x120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple_touch_icon_152x152.png">
+  <link rel="apple-touch-icon-precomposed" href="/apple_touch_icon_196x196.png"/>
+  
+  <link rel="dns-prefetch" href="cdn0.ratemyteachers.com" />
+  <link rel="dns-prefetch" href="cdn1.ratemyteachers.com" />
+  <link rel="dns-prefetch" href="cdn2.ratemyteachers.com" />
+  <link rel="dns-prefetch" href="cdn3.ratemyteachers.com" />
+  
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="screen" rel="stylesheet" />
+
+<link href="//cdn3.ratemyteachers.com/assets/application-f82dff62095c50a06763f467e474ed83.css" media="all" rel="stylesheet" />
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+
+
+
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery || document.write(unescape('%3Cscript src="//cdn3.ratemyteachers.com/assets/jquery-58d33bff957b1f23315aac9c615a03c1.js">%3C/script>'))
+//]]>
+</script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script>
+//<![CDATA[
+typeof $().modal == 'function' || document.write(unescape('%3Cscript src="//cdn0.ratemyteachers.com/javascripts/bootstrap-3.1.1.min.js">%3C/script>'))
+//]]>
+</script>
+
+<script type="text/javascript">
+    var currentState = 'DE';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:      true,
+    debugMode:            false
+  };
+
+
+  function getWindowWidth() {
+    var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth; myHeight = window.innerHeight;
+    } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+      myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+      myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+    }
+    return myWidth;
+  }
+
+  var isDesktopVariant = true;
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isExtraSmall = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false)
+  var isMobile = isExtraSmall || isMobileVariant;
+  var isMedium = (getWindowWidth() < 1200) || (screen ? screen.width < 1200 : false);
+
+
+  var isChrome = navigator.userAgent.indexOf('Chrome') > -1;
+  var isExplorer = navigator.userAgent.indexOf('MSIE') > -1;
+  var isFirefox = navigator.userAgent.indexOf('Firefox') > -1;
+  var isSafari = navigator.userAgent.indexOf("Safari") > -1;
+  var isOpera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
+  if ((isChrome)&&(isSafari)) {isSafari=false;}
+  if ((isChrome)&&(isOpera)) {isChrome=false;}
+
+  var enablePropel    = !isSafari && !isOpera && false;
+  var enableMediabong = !isSafari && !isOpera;
+  var enableBrightComedia = !isSafari && !isOpera;
+
+  var isMobileUpload = false;
+
+    var cseData = {
+      isCseSearch: true
+      ,paramFormat: '%{search_term}%{location}'
+      ,stateList: [{"name":"Alaska","shortname":"ak"},{"name":"Alabama","shortname":"al"},{"name":"Arkansas","shortname":"ar"},{"name":"Arizona","shortname":"az"},{"name":"California","shortname":"ca"},{"name":"Colorado","shortname":"co"},{"name":"Connecticut","shortname":"ct"},{"name":"Dc","shortname":"dc"},{"name":"Delaware","shortname":"de"},{"name":"Florida","shortname":"fl"},{"name":"Georgia","shortname":"ga"},{"name":"Hawaii","shortname":"hi"},{"name":"Iowa","shortname":"ia"},{"name":"Idaho","shortname":"id"},{"name":"Illinois","shortname":"il"},{"name":"Indiana","shortname":"in"},{"name":"Kansas","shortname":"ks"},{"name":"Kentucky","shortname":"ky"},{"name":"Louisiana","shortname":"la"},{"name":"Massachusetts","shortname":"ma"},{"name":"Maryland","shortname":"md"},{"name":"Maine","shortname":"me"},{"name":"Michigan","shortname":"mi"},{"name":"Minnesota","shortname":"mn"},{"name":"Missouri","shortname":"mo"},{"name":"Mississippi","shortname":"ms"},{"name":"Montana","shortname":"mt"},{"name":"North Carolina","shortname":"nc"},{"name":"North Dakota","shortname":"nd"},{"name":"Nebraska","shortname":"ne"},{"name":"New Hampshire","shortname":"nh"},{"name":"New Jersey","shortname":"nj"},{"name":"New Mexico","shortname":"nm"},{"name":"Nevada","shortname":"nv"},{"name":"New York","shortname":"ny"},{"name":"Ohio","shortname":"oh"},{"name":"Oklahoma","shortname":"ok"},{"name":"Oregon","shortname":"or"},{"name":"Pennsylvania","shortname":"pa"},{"name":"Puerto Rico","shortname":"pr"},{"name":"Rhode Island","shortname":"ri"},{"name":"South Carolina","shortname":"sc"},{"name":"South Dakota","shortname":"sd"},{"name":"Tennessee","shortname":"tn"},{"name":"Texas","shortname":"tx"},{"name":"Utah","shortname":"ut"},{"name":"Virginia","shortname":"va"},{"name":"Vermont","shortname":"vt"},{"name":"Washington","shortname":"wa"},{"name":"Wisconsin","shortname":"wi"},{"name":"West Virginia","shortname":"wv"},{"name":"Wyoming","shortname":"wy"}]
+    };
+
+
+  // Search autocomplete widget
+  var searchAutocompleteHTML = "<div class=\'desktop search_autocomplete_widget\'>\n<div class=\'autocomplete_teachers\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-user\'><\/i>\nTeachers and Professors\n<\/div>\n<div class=\'autocomplete_container\'>\n<style>#ypaAdWrapper_ratemyteachers_autocomplete iframe{width:100%}<\/style>\n<div id=\'ypaAdWrapper_ratemyteachers_autocomplete\'><\/div>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_school_name\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nTeachers and Professors\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<div class=\'autocomplete_schools\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-university\'><\/i>\nSchools and Colleges\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_address\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nSchools and Colleges\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<\/div>\n";
+</script>
+
+
+
+  <script>
+    var gaId = 'UA-4216499-1';
+    
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', gaId, 'auto');
+    ga('require', 'displayfeatures');
+    //ga('require', 'ecommerce', 'ecommerce.js');
+    
+  </script>
+
+
+<script src="//cdn2.ratemyteachers.com/assets/rmt.analytics-47babc79c47e11fa3bc4afadf1b83ad7.js"></script>
+
+
+<script>
+    // Returns a function, that, as long as it continues to be invoked, will not
+    // be triggered. The function will be called after it stops being called for
+    // N milliseconds. If `immediate` is passed, trigger the function on the
+    // leading edge, instead of the trailing.
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+</script>
+
+<!--BEGIN FIRSTIMPRESSION TAG -->
+<script data-cfasync='false' type='text/javascript'>
+	window.apd_options = { 'websiteId': 6292, 'runFromFrame': false };
+	(function() {
+		var w = window.apd_options.runFromFrame ? window.top : window;
+		if(window.apd_options.runFromFrame && w!=window.parent) w=window.parent;
+		if (w.location.hash.indexOf('apdAdmin') != -1){if(typeof(Storage) !== 'undefined') {w.localStorage.apdAdmin = 1;}}
+		var adminMode = ((typeof(Storage) == 'undefined') || (w.localStorage.apdAdmin == 1));
+		w.apd_options=window.apd_options;
+		var apd = w.document.createElement('script'); apd.type = 'text/javascript'; apd.async = true;
+		apd.src = '//' + (adminMode ? 'cdn' : 'ecdn') + '.firstimpression.io/' + (adminMode ? 'fi.js?id=' + window.apd_options.websiteId : 'fi_client.js') ;
+		var s = w.document.getElementsByTagName('head')[0]; s.appendChild(apd);
+	})();</script>
+<!-- END FIRSTIMPRESSION TAG -->
+
+
+<script>
+  var pageType = "";
+  RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+  var searchTerm = "";
+</script>
+
+
+<!-- Sortable adblocker tracker -->
+<script src="//d1stmqa67kozr6.cloudfront.net/a/detector.js?site=ratemyteachers.com" async></script>
+
+
+
+
+    <!-- Google Custom Ads -->
+    <script type="text/javascript" charset="utf-8">
+      (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+      arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+      O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+      e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+    </script>
+    <!-- AdSense -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+<script type="text/javascript">
+  // fallback to use google ads when no sortable ads
+  window.__ssrt_ab_is_them = true;
+</script>
+    <script type="text/javascript">
+      (function(){
+        window.__ssrt_ab_our_pct=100;
+        var a=window.__ssrt_ab_our_pct,a=Math.random()>a/100,c=location.search.match(/[?&]ssrt-ab-is-them=([^&]+)/);c&&2===c.length&&(a="true"===c[1]);a&&(window.deployads=[],window.deployads.push=function(){var b=document.querySelectorAll('script[type\x3d"text/x-ab-test"]:not([data-processed])');if(b&&0<b.length){var b=b[0],a=b.innerHTML.replace(/xscript/g,"script");document.write(a);b.setAttribute("data-processed","true")}});window.__ssrt_ab_is_them=a}
+      )();
+    </script>
+
+
+
+
+
+
+
+      <script type='text/javascript'>
+        if (window.__ssrt_ab_is_them) {
+          // Google tag init
+          var asyncAds  = true;
+          var googletag = googletag || {};
+          googletag.cmd = googletag.cmd || [];
+
+          // Google services tag script
+          (function() {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') +
+              '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+          })();
+        }
+      </script>
+
+
+
+
+  <script>
+
+
+    var LazyAds = function(){
+      // this.elements = {};
+    };
+
+
+    LazyAds.init = function(delay){
+      this.elements = {};
+      var self = this;
+      if (typeof(delay) === 'undefined' || delay === null)
+        delay = 10000;
+      else
+        console.info('Set LazyAds delay to ' + delay + 'ms');
+
+
+      $(window).load(function() {
+        // self.domLoaded = true;
+        // console.log('LazyAds: window load');
+        setTimeout(function() {
+          self.domLoaded = true;
+          self.refresh();
+        }, delay);
+        // self.refresh();
+      });
+
+      var scrollHandler = debounce(function(e){
+        self.refresh();
+      }, 100);
+      jQuery(document).scroll(scrollHandler);
+    }
+
+    /* id:  can ben ID of en element, or a scroll offset */
+    LazyAds.register = function(id, callback, opts) {
+      // console.log('LazyAds: register ' + id);
+      this.elements[ id ] = { loaded: false, callback: callback };
+      this.refresh();
+    };
+
+
+    LazyAds.refresh = function() {
+      var el, isVisible;
+      var scrollY = window.scrollY;
+      // console.log("LazyAds: scrollY " + scrollY);
+      for(var id in this.elements) {
+        if (!this.elements.hasOwnProperty(id)) continue;
+        if(this.elements[id].loaded) continue;
+
+        isVisible = false || this.domLoaded;
+
+        if (!isVisible) {
+          // handle scroll position
+          if (/^\d+$/.test(id)) {
+            // console.log('id is an offset');
+            if( scrollY >= id ) {
+              isVisible = true;
+            }
+          } else if( this.isVisible(id) ) {
+            isVisible = true;
+          }
+        }
+
+        if (isVisible) {
+          this.elements[id].loaded = true;
+          console.info('LazyAds: execute callback for ' + id);
+          this.elements[id].callback();
+          delete this.elements[id];
+        }
+
+
+
+      }
+    };
+
+
+    LazyAds.isVisible = function(id) {
+      // https://github.com/customd/jquery-visible/blob/master/jquery.visible.js
+      var $t        = $('#' + id);
+
+      // if the id doesn't exist just bounce.
+      if( !$t[0] ) return false;
+
+      var $w        = $(window),  // todo refactor this
+          t         = $t.get(0),
+          vpWidth   = $w.width(),
+          vpHeight  = $w.height(),
+          direction = (direction) ? direction : 'both',
+          clientSize = t.offsetWidth * t.offsetHeight;
+          // clientSize = hidden === true ? t.offsetWidth * t.offsetHeight : true;
+
+      if (typeof t.getBoundingClientRect === 'function'){
+
+          // Use this native browser method, if available.
+          var rec = t.getBoundingClientRect(),
+              tViz = rec.top    >= 0 && rec.top    <  vpHeight,
+              bViz = rec.bottom >  0 && rec.bottom <= vpHeight,
+              lViz = rec.left   >= 0 && rec.left   <  vpWidth,
+              rViz = rec.right  >  0 && rec.right  <= vpWidth,
+              vVisible   = tViz || bViz,
+              hVisible   = lViz || rViz;
+
+          if(direction === 'both')
+              return clientSize && vVisible && hVisible;
+          else if(direction === 'vertical')
+              return clientSize && vVisible;
+          else if(direction === 'horizontal')
+              return clientSize && hVisible;
+      } else {
+
+          var viewTop         = $w.scrollTop(),
+              viewBottom      = viewTop + vpHeight,
+              viewLeft        = $w.scrollLeft(),
+              viewRight       = viewLeft + vpWidth,
+              offset          = $t.offset(),
+              _top            = offset.top,
+              _bottom         = _top + $t.height(),
+              _left           = offset.left,
+              _right          = _left + $t.width(),
+              compareTop      = _bottom,
+              compareBottom   = _top,
+              compareLeft     = _right,
+              compareRight    = _left;
+
+          if(direction === 'both')
+              return !!clientSize && ((compareBottom <= viewBottom) && (compareTop >= viewTop)) && ((compareRight <= viewRight) && (compareLeft >= viewLeft));
+          else if(direction === 'vertical')
+              return !!clientSize && ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+          else if(direction === 'horizontal')
+              return !!clientSize && ((compareRight <= viewRight) && (compareLeft >= viewLeft));
+      }
+    }
+
+
+
+    var delay = null;
+    LazyAds.init(delay);
+
+    // (function() {
+    //   var delay = null;
+    //   LazyAds.init();
+    // })();
+  </script>
+
+
+  <script>
+    if (window.__ssrt_ab_is_them) {
+      // handling async/sync load of ads
+      var _googlePush = function(func, lazyLoadId) {
+        // if it's sync, just call
+        if(!asyncAds) {
+          func();
+        } else { // Async
+          // console.log('Async Ad: Push To Queue:' + func.toString());
+          if (!lazyLoadId) {
+            googletag.cmd.push(func);
+          } else {
+            // console.log('Registering ' + lazyLoadId);
+            LazyAds.register(lazyLoadId, function() {
+              // console.log('LazyAds executing googletag.cmd.push func for ' + lazyLoadId);
+              // func();
+              googletag.cmd.push(func);
+            });
+
+          }
+
+        }
+      };
+    } else {
+      // Fallback when sortable ads
+      var _googlePush = function(func, lazyLoadId) { }
+    }
+  </script>
+
+
+
+
+
+
+  <script>
+    var _session = {}
+  </script>
+ 
+  
+    <script type='text/javascript'>
+  if (window.__ssrt_ab_is_them) {
+    document.write('<script type="text/javascript" src="http://mtrx.go.sonobi.com/morpheus.ratemyteachers.js">\x3c/script>')
+  }
+</script>
+
+
+
+
+
+<script type='text/javascript'>
+_googlePush(function(){
+  // Sonobi
+  //ratemyteachers_ROS_ATF 728x90
+  sbi_morpheus.register('div-gpt-ad-1426542666162-0', '0f683c0370bd52948c36');
+    //ratemyteachers_ROS_MID 728x90
+    sbi_morpheus.register('div-gpt-ad-1426542666162-3', 'abfd4fcf08d45bbd2837');
+    //ratemyteachers_ROS_BTF 728x90
+    sbi_morpheus.register('div-gpt-ad-1426542666162-4', 'bd09c7836a815353969d');
+  //ratemyteachers_ROS_ATF_2 300x250
+  sbi_morpheus.register('div-gpt-ad-1426542666162-1', 'f694b9a4907fd3e44745');
+  //ratemyteachers_ROS_BTF_2 300x250
+  sbi_morpheus.register('div-gpt-ad-1434463970400-0', 'cbf8939b552ed43f3180');
+  //ratemyteachers_ROS_3 300x600
+  sbi_morpheus.register('div-gpt-ad-1426542666162-1', '15a87b011157c38c2bf9');
+  
+
+  window.school1 = googletag.defineSlot('/1058149/School1', [[728, 90]], 'div-gpt-ad-1426542666162-0').addService(googletag.pubads());
+  window.school2 = googletag.defineSlot('/1058149/School2', [[300, 250], [300, 600]], 'div-gpt-ad-1426542666162-1').addService(googletag.pubads());
+
+
+  // googletag.defineSlot('/1058149/School3', [[300, 250], [728, 90]], 'div-gpt-ad-1426542666162-2').addService(googletag.pubads());
+  
+  // move to _mid_ad
+  //googletag.defineSlot('/1058149/School4', [[1, 1], [728, 90]], 'div-gpt-ad-1426542666162-3').addService(googletag.pubads());
+
+  // move to _btf_ad
+  // googletag.defineSlot('/1058149/School5', [[336, 280], [728, 90]], 'div-gpt-ad-1426542666162-4').addService(googletag.pubads());
+
+  // googletag.defineSlot('/1058149/School6', [300, 250], 'div-gpt-ad-1434463970400-0').addService(googletag.pubads());
+
+  // move to lazyload at the bottom
+  // googletag.defineSlot('/1058149/1x1', [1, 1], 'div-gpt-ad-1426701753500-0').addService(googletag.pubads());
+
+  // M2 Demand
+
+
+  if( !asyncAds ) googletag.pubads().enableSyncRendering();
+
+  googletag.pubads().enableSingleRequest();
+
+  // for lazy load, it requires both single request + disableInitialLoad
+  googletag.pubads().disableInitialLoad();
+
+  // force load the school1, school2
+  googletag.pubads().refresh([school1, school2]);
+  // googletag.pubads().refresh([school2]);
+
+  googletag.enableServices();
+});
+</script>
+
+
+
+
+ 
+  <link href='http://www.ratemyteachers.com/clovis-grove-elementary-school/122666-s.rss' rel='alternate' type='application/rss+xml'>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="o/DuzLvsS/N9sERFfe6UJhSmyk8sLUwU+PTxs2bQJf0=" name="csrf-token" />
+
+
+
+</head>
+<!--
+
+██████╗ ███╗   ███╗████████╗
+██╔══██╗████╗ ████║╚══██╔══╝
+██████╔╝██╔████╔██║   ██║   
+██╔══██╗██║╚██╔╝██║   ██║   
+██║  ██║██║ ╚═╝ ██║   ██║   
+╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝
+
+If you see this we should talk!  We are pretty awesome!
+-->
+<body class="inner_page school_page schools_v12_1
+">
+  <div id="fb-root"></div>
+      <div class='rate_my_teachers_international'>
+<div class='container'>
+<div class='row'>
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+<div class='pull-right user_top_nav'></div>
+</div>
+</div>
+</div>
+<header>
+<div class='container'>
+<div class='row'>
+<form action='/search_page' class='tab-form search_form trigger_to_main_search' method='get'>
+<a alt='Go to RateMyTeachers Home' href='/' id='rate_my_teachers_logo' title='Go to RateMyTeachers Home'></a>
+<input name='search' type='hidden' value='teachers'>
+<div class='search_inputs'>
+<div class='bg'>
+<div class='padding'>
+<input class='search_input' name='q' placeholder='Search: School Name, City' type='text'>
+</div>
+<div class='location'>
+<select class="state" id="state" name="state"><option value="">Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class='search_button'>
+<button class='btn-search fa fa-search fa-3x' title='Search RateMyTeachers' type='submit'></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+
+
+
+  <div class="container-fluid main-content">
+    <div class="row">
+        <section class="breadcrumbs container-fluid">
+          <div class="row">
+            <div class="container">
+              <div class="col-sm-12">
+                <ul class='list-inline collapsible_nav collapsible_nav_collapsed'>
+<li class='toggle'>
+<a href='javascript:void(0);' rel='nofollow'>
+<i class='fa fa-bars'></i>
+</a>
+</li>
+<li class='collapse'>
+<a href='/' title='Go to RateMyTeachers Home'>United States</a>
+</li>
+<li class='always_show'>
+<a alt='Go to Schools in Wisconsin' href='/wisconsin' title='Go to Schools in Wisconsin'>Wisconsin</a>
+</li>
+<li class='collapse'>
+<a alt='Go to Schools in Menasha' href='/wisconsin/menasha' title='Go to Schools in Menasha'>Menasha</a>
+</li>
+<li class='always_show'>
+<!-- %span.last= @school.proper_name -->
+<a alt="View Clovis Grove Elementary School's Teachers" href='/clovis-grove-elementary-school/122666-s' title="View Clovis Grove Elementary School's Teachers">Clovis Grove Elementary School</a>
+</li>
+<li class='always_show extra_option'>
+<a class='new_teacher_trigger' data-backdrop='static' data-keyboard data-remote='/teachers/new?sid=122666' data-school='Clovis Grove Elementary School' data-sender-name='School page breadcrumb' data-target='#modal' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Add My Teacher'>Add My Teacher</a>
+</li>
+<li class='always_show extra_option'>
+<a class='new_school_rating_trigger' data-backdrop='static' data-keyboard data-remote='/school_ratings/new?sid=122666' data-school='Clovis Grove Elementary School' data-sender-name='School page breadcrumb' data-target='#modal_rating' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Rate My School'>Rate My School</a>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+      
+
+
+
+
+
+      <div class="container flash_container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="alert alert-danger" id="flash-error" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-warning" id="flash-alert" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-success" id="flash-success" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-info"  id="flash-notice" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+
+      <div id="content">
+        
+<span class='dn' itemscope itemtype='http://data-vocabulary.org/Breadcrumb'>
+<a href='http://www.ratemyteachers.com/wisconsin' itemprop='url'>
+<span itemprop='title'>Wisconsin</span>
+</a>
+<span itemscope itemtype='http://data-vocabulary.org/Breadcrumb'>
+<a href='http://www.ratemyteachers.com/wisconsin/menasha' itemprop='url'>
+<span itemprop='title'>Menasha</span>
+</a>
+</span>
+</span>
+
+<div id='sortable_ad_trigger'></div>
+<div class='container' itemscope itemtype='http://schema.org/ProfilePage'>
+<meta content='2016-04-26' itemprop='dateModified'>
+<!-- .container{:itemscope => true, :itemtype => "http://schema.org/#{school.rs_school_type}"} -->
+<div class='dn' itemprop='aggregateRating' itemscope itemtype='http://schema.org/AggregateRating'>
+<meta content='0' itemprop='ratingCount'>
+<meta content='0' itemprop='reviewCount'>
+<meta content='0.0' itemprop='ratingValue'>
+<meta content='5' itemprop='bestRating'>
+<meta content='0' itemprop='worstRating'>
+</div>
+<div class='row'>
+<section class='col-md-12 content' itemprop='about' itemscope itemtype='http://schema.org/School'>
+<div class='row secondary_data'>
+<div class='col-xs-12 col-lg-9 primary_column'>
+<div class='row school_info'>
+<div class='col-xs-12 col-sm-7 main_info'>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='school_name'>
+<h1 title='Clovis Grove Elementary School'>
+<span itemprop='name'>
+Clovis Grove Elementary School
+</span>
+
+<div class='school_actions' data-name='Clovis Grove Elementary School' data-sid='122666' data-status='0' style='display:none;'></div>
+</h1>
+<a class='edit school_correction_trigger' data-backdrop='static' data-keyboard data-remote='/schools/correction?sid=122666' data-school='Clovis Grove Elementary School' data-sender-name='School page Main' data-target='#modal' data-toggle='modal' href='javascript:void(0);' rel='nofollow' remote title='Submit a Correction'>
+Edit
+</a>
+</div>
+<div class='score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+Average
+0.0
+based on
+0
+teacher ratings
+</div>
+<div class='description'>
+<strong>Clovis Grove Elementary School</strong>
+is a
+public
+elementary school located in
+Menasha and part of Menasha Joint School District.
+Clovis Grove Elementary School has yet to be rated by any of its students and parents.
+
+</div>
+</div>
+</div>
+</div>
+<div class='col-xs-12 col-sm-4 details'>
+<div class='aux'>
+<h2 class='detail_item rate_school'>
+<a class='new_school_rating_trigger' data-backdrop='static' data-keyboard data-remote='/school_ratings/new?sid=122666' data-sender-name='School page Main' data-target='#modal_rating' data-teacher='Clovis Grove Elementary School' data-toggle='modal' href='javascript:void(0);' rel='nofollow' remote title='Submit Rating for Clovis Grove Elementary School'>
+<i class='fa fa-institution'></i>
+<span class='value'>Rate Clovis Grove Elementary School</span>
+</a>
+</h2>
+<div class='detail_item address'>
+<a href='https://www.google.com/maps/search/974%209th%20St%2CMenasha%2C%20WI%2054952%2C%20Menasha%2C%20Wisconsin%2C%2054952%2C%20United%20States' target='_blank' title='974 9th St,Menasha, WI 54952'>
+<i class='fa fa-map-marker'></i>
+<span class='value'>974 9th St,Menasha, WI 54952</span>
+</a>
+</div>
+<div class='detail_item phone'>
+<a class='school_phone_trigger' data-phone='9209671950' href='javascript:void(0);'>
+<i class='fa fa-phone'></i>
+<span itemprop='telephone'>920-967-1950</span>
+</a>
+</div>
+<h2 class='detail_item district'>
+<i class='fa fa-map'></i>
+Menasha Joint School District
+</h2>
+<div class='detail_item website'>
+<a href='http://www.mjsd.k12.wi.us' rel='nofollow' target='_blank' title='http://www.mjsd.k12.wi.us'>
+<i class='fa fa-globe'></i>
+<span itemprop='url'>http://www.mjsd.k12.wi.us</span>
+</a>
+</div>
+</div>
+<span class='dn' itemprop='address' itemscope itemtype='http://schema.org/PostalAddress'>
+<span itemprop='streetAddress'>974 9th St,Menasha, WI 54952</span>
+<span itemprop='addressLocality'>Menasha</span>
+<span itemprop='addressRegion'>WI</span>
+<span itemprop='postalCode'>54952</span>
+</span>
+</div>
+</div>
+
+<div class='school_content'>
+<div class='sticky_container_center'>
+<div class='sticky_column'>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='filter_section'>
+<div class='row subtitle'>
+<div class='col-xs-6'>
+<h2 class='active'>
+<a href='http://www.ratemyteachers.com/clovis-grove-elementary-school/122666-s' title="View Clovis Grove Elementary School's Teachers">
+Faculty:
+64
+Teachers
+</a>
+</h2>
+</div>
+<div class='col-xs-6'>
+<h2 class=''>
+<a href='http://www.ratemyteachers.com/clovis-grove-elementary-school/122666-s/school-reviews' title="View Clovis Grove Elementary School's Reviews">
+Clovis Grove Elementary School
+Reviews
+</a>
+</h2>
+</div>
+</div>
+<div class='row search_form_container'>
+<div class='col-md-2 sort_options'>
+<select id="sort_by" name="sort_by"><option value="">Sort by</option><option value=""></option><option value="">Latest Update</option>
+<option value="last_name">Last Name</option>
+<option value="first_name">First Name</option>
+<option value="avg_asc">Average Rating: Low to High</option>
+<option value="avg_desc">Average Rating: High to Low</option></select>
+</div>
+<form action='/clovis-grove-elementary-school/122666-s' class='simple_form inline_form' id='school_search_by_teacher_form'>
+<div class='col-md-9 text'>
+<input name='q' placeholder='Search by Teacher' type='text'>
+</div>
+<div class='col-md-1 options'>
+<button class='btn fa fa-search fa-2x' name='commit' title='Search by Teacher' type='submit'></button>
+</div>
+</form>
+</div>
+<div class='row extra'>
+<a class='col-xs-4 new_admin_request_trigger apply_admin' data-remote='/admin/new?sid=122666' data-school='Clovis Grove Elementary School' data-sender='School page Mobile Search Form' data-target='#modal' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title="Become Clovis Grove Elementary School's Moderator">
+<i class='fa fa-user-plus'></i>
+<span>Become a Moderator!</span>
+</a>
+<a class='col-xs-4 new_school_rating_trigger school_review' data-backdrop='static' data-keyboard data-remote='/school_ratings/new?sid=122666' data-sender-name='School page Search bar' data-target='#modal_rating' data-teacher='Clovis Grove Elementary School' data-toggle='modal' href='javascript:void(0);' rel='nofollow' remote title='Submit Rating for Clovis Grove Elementary School'>
+<i class='fa fa-institution'></i>
+<span>Write a School Review</span>
+</a>
+<a class='col-xs-4 new_teacher_trigger add_teacher' data-backdrop='static' data-keyboard data-remote='/teachers/new?sid=122666' data-school='Clovis Grove Elementary School' data-sender-name='School page Mobile Search Form' data-target='#modal' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Add My Teacher to Clovis Grove Elementary School'>
+<i class='fa fa-user-plus'></i>
+<span>Add Teacher</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='teachers'>
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Erin Bernier's Ratings" class='name' href='/erin-bernier/6664113-t' target='_blank' title="View Erin Bernier's Ratings">
+Erin Bernier
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Erin Bernier' data-sid='122666' data-status='0' data-tid='6664113' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6664113' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Erin Bernier' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Erin Bernier'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6664113' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Erin Bernier' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Erin Bernier'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/erin-bernier/6664113-t'></a>
+</div>
+
+<!-- / ad will be loaded in async in the iframe after pageload -->
+<div id='ybrant_placeholder'></div>
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Heather Rathman's Ratings" class='name' href='/heather-rathman/6665499-t' target='_blank' title="View Heather Rathman's Ratings">
+Heather Rathman
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Heather Rathman' data-sid='122666' data-status='0' data-tid='6665499' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6665499' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Heather Rathman' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Heather Rathman'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6665499' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Heather Rathman' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Heather Rathman'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/heather-rathman/6665499-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Jack Wayland's Ratings" class='name' href='/jack-wayland/6666097-t' target='_blank' title="View Jack Wayland's Ratings">
+Jack Wayland
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Jack Wayland' data-sid='122666' data-status='0' data-tid='6666097' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6666097' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Jack Wayland' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Jack Wayland'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6666097' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Jack Wayland' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Jack Wayland'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jack-wayland/6666097-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View James Viotto's Ratings" class='name' href='/james-viotto/6666733-t' target='_blank' title="View James Viotto's Ratings">
+James Viotto
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='James Viotto' data-sid='122666' data-status='0' data-tid='6666733' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6666733' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='James Viotto' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  James Viotto'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6666733' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='James Viotto' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  James Viotto'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/james-viotto/6666733-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Jane Learing's Ratings" class='name' href='/jane-learing/6667129-t' target='_blank' title="View Jane Learing's Ratings">
+Jane Learing
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Jane Learing' data-sid='122666' data-status='0' data-tid='6667129' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6667129' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Jane Learing' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Jane Learing'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6667129' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Jane Learing' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Jane Learing'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jane-learing/6667129-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Jody Hutchinson's Ratings" class='name' href='/jody-hutchinson/6670809-t' target='_blank' title="View Jody Hutchinson's Ratings">
+Jody Hutchinson
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Jody Hutchinson' data-sid='122666' data-status='0' data-tid='6670809' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6670809' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Jody Hutchinson' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Jody Hutchinson'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6670809' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Jody Hutchinson' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Jody Hutchinson'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jody-hutchinson/6670809-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Joelle Bhullar's Ratings" class='name' href='/joelle-bhullar/6670893-t' target='_blank' title="View Joelle Bhullar's Ratings">
+Joelle Bhullar
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Joelle Bhullar' data-sid='122666' data-status='0' data-tid='6670893' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6670893' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Joelle Bhullar' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Joelle Bhullar'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6670893' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Joelle Bhullar' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Joelle Bhullar'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/joelle-bhullar/6670893-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Joshua Ray's Ratings" class='name' href='/joshua-ray/6671843-t' target='_blank' title="View Joshua Ray's Ratings">
+Joshua Ray
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Joshua Ray' data-sid='122666' data-status='0' data-tid='6671843' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6671843' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Joshua Ray' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Joshua Ray'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6671843' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Joshua Ray' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Joshua Ray'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/joshua-ray/6671843-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Judy Odle's Ratings" class='name' href='/judy-odle/6672157-t' target='_blank' title="View Judy Odle's Ratings">
+Judy Odle
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Judy Odle' data-sid='122666' data-status='0' data-tid='6672157' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6672157' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Judy Odle' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Judy Odle'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6672157' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Judy Odle' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Judy Odle'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/judy-odle/6672157-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Julie Herzfeldt's Ratings" class='name' href='/julie-herzfeldt/6672699-t' target='_blank' title="View Julie Herzfeldt's Ratings">
+Julie Herzfeldt
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Julie Herzfeldt' data-sid='122666' data-status='0' data-tid='6672699' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6672699' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Julie Herzfeldt' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Julie Herzfeldt'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6672699' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Julie Herzfeldt' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Julie Herzfeldt'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/julie-herzfeldt/6672699-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Kelley Scott's Ratings" class='name' href='/kelley-scott/6675161-t' target='_blank' title="View Kelley Scott's Ratings">
+Kelley Scott
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Kelley Scott' data-sid='122666' data-status='0' data-tid='6675161' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6675161' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Kelley Scott' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Kelley Scott'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6675161' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Kelley Scott' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Kelley Scott'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kelley-scott/6675161-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Kim Maertz's Ratings" class='name' href='/kim-maertz/6676235-t' target='_blank' title="View Kim Maertz's Ratings">
+Kim Maertz
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Kim Maertz' data-sid='122666' data-status='0' data-tid='6676235' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6676235' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Kim Maertz' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Kim Maertz'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6676235' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Kim Maertz' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Kim Maertz'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kim-maertz/6676235-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Kim Svejda's Ratings" class='name' href='/kim-svejda/6676237-t' target='_blank' title="View Kim Svejda's Ratings">
+Kim Svejda
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Kim Svejda' data-sid='122666' data-status='0' data-tid='6676237' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6676237' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Kim Svejda' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Kim Svejda'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6676237' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Kim Svejda' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Kim Svejda'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kim-svejda/6676237-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Kristen Piontek's Ratings" class='name' href='/kristen-piontek/6676909-t' target='_blank' title="View Kristen Piontek's Ratings">
+Kristen Piontek
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Kristen Piontek' data-sid='122666' data-status='0' data-tid='6676909' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6676909' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Kristen Piontek' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Kristen Piontek'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6676909' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Kristen Piontek' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Kristen Piontek'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kristen-piontek/6676909-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Linda Vanderzanden's Ratings" class='name' href='/linda-vanderzanden/6679181-t' target='_blank' title="View Linda Vanderzanden's Ratings">
+Linda Vanderzanden
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Linda Vanderzanden' data-sid='122666' data-status='0' data-tid='6679181' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6679181' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Linda Vanderzanden' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Linda Vanderzanden'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6679181' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Linda Vanderzanden' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Linda Vanderzanden'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/linda-vanderzanden/6679181-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Lisa Hildebrandt's Ratings" class='name' href='/lisa-hildebrandt/6679863-t' target='_blank' title="View Lisa Hildebrandt's Ratings">
+Lisa Hildebrandt
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Lisa Hildebrandt' data-sid='122666' data-status='0' data-tid='6679863' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6679863' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Lisa Hildebrandt' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Lisa Hildebrandt'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6679863' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Lisa Hildebrandt' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Lisa Hildebrandt'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/lisa-hildebrandt/6679863-t'></a>
+</div>
+
+<div class='placements' style='border: 1px solid transparent;'></div>
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Lisa Cox's Ratings" class='name' href='/lisa-cox/6679865-t' target='_blank' title="View Lisa Cox's Ratings">
+Lisa Cox
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Lisa Cox' data-sid='122666' data-status='0' data-tid='6679865' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6679865' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Lisa Cox' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Lisa Cox'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6679865' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Lisa Cox' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Lisa Cox'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/lisa-cox/6679865-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Lisa Laluzerne's Ratings" class='name' href='/lisa-laluzerne/6679867-t' target='_blank' title="View Lisa Laluzerne's Ratings">
+Lisa Laluzerne
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Lisa Laluzerne' data-sid='122666' data-status='0' data-tid='6679867' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6679867' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Lisa Laluzerne' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Lisa Laluzerne'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6679867' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Lisa Laluzerne' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Lisa Laluzerne'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/lisa-laluzerne/6679867-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Mara Hendrickson's Ratings" class='name' href='/mara-hendrickson/6681147-t' target='_blank' title="View Mara Hendrickson's Ratings">
+Mara Hendrickson
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Mara Hendrickson' data-sid='122666' data-status='0' data-tid='6681147' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6681147' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Mara Hendrickson' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Mara Hendrickson'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6681147' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Mara Hendrickson' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Mara Hendrickson'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mara-hendrickson/6681147-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Marie Evensen's Ratings" class='name' href='/marie-evensen/6681743-t' target='_blank' title="View Marie Evensen's Ratings">
+Marie Evensen
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Marie Evensen' data-sid='122666' data-status='0' data-tid='6681743' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6681743' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Marie Evensen' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Marie Evensen'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6681743' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Marie Evensen' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Marie Evensen'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/marie-evensen/6681743-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Marla Francis' Ratings" class='name' href='/marla-francis/6682125-t' target='_blank' title="View Marla Francis' Ratings">
+Marla Francis
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Marla Francis' data-sid='122666' data-status='0' data-tid='6682125' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6682125' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Marla Francis' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Marla Francis'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6682125' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Marla Francis' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Marla Francis'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/marla-francis/6682125-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Marsha Day's Ratings" class='name' href='/marsha-day/6682205-t' target='_blank' title="View Marsha Day's Ratings">
+Marsha Day
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Marsha Day' data-sid='122666' data-status='0' data-tid='6682205' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6682205' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Marsha Day' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Marsha Day'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6682205' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Marsha Day' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Marsha Day'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/marsha-day/6682205-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Mary Seib's Ratings" class='name' href='/mary-seib/6683033-t' target='_blank' title="View Mary Seib's Ratings">
+Mary Seib
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Mary Seib' data-sid='122666' data-status='0' data-tid='6683033' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6683033' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Mary Seib' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Mary Seib'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6683033' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Mary Seib' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Mary Seib'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mary-seib/6683033-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Michael Emery's Ratings" class='name' href='/michael-emery/6684927-t' target='_blank' title="View Michael Emery's Ratings">
+Michael Emery
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Michael Emery' data-sid='122666' data-status='0' data-tid='6684927' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6684927' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Michael Emery' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Michael Emery'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6684927' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Michael Emery' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Michael Emery'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/michael-emery/6684927-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Michele Izzo's Ratings" class='name' href='/michele-izzo/6685105-t' target='_blank' title="View Michele Izzo's Ratings">
+Michele Izzo
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Michele Izzo' data-sid='122666' data-status='0' data-tid='6685105' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6685105' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Michele Izzo' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Michele Izzo'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6685105' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Michele Izzo' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Michele Izzo'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/michele-izzo/6685105-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Michelle Ikkala's Ratings" class='name' href='/michelle-ikkala/6685541-t' target='_blank' title="View Michelle Ikkala's Ratings">
+Michelle Ikkala
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Michelle Ikkala' data-sid='122666' data-status='0' data-tid='6685541' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6685541' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Michelle Ikkala' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Michelle Ikkala'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6685541' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Michelle Ikkala' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Michelle Ikkala'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/michelle-ikkala/6685541-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Nancy Relien's Ratings" class='name' href='/nancy-relien/6686229-t' target='_blank' title="View Nancy Relien's Ratings">
+Nancy Relien
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Nancy Relien' data-sid='122666' data-status='0' data-tid='6686229' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6686229' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Nancy Relien' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Nancy Relien'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6686229' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Nancy Relien' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Nancy Relien'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/nancy-relien/6686229-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Nicole Mees' Ratings" class='name' href='/nicole-mees/6686869-t' target='_blank' title="View Nicole Mees' Ratings">
+Nicole Mees
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Nicole Mees' data-sid='122666' data-status='0' data-tid='6686869' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6686869' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Nicole Mees' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Nicole Mees'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6686869' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Nicole Mees' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Nicole Mees'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/nicole-mees/6686869-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Patricia Bordeaux's Ratings" class='name' href='/patricia-bordeaux/6687753-t' target='_blank' title="View Patricia Bordeaux's Ratings">
+Patricia Bordeaux
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Patricia Bordeaux' data-sid='122666' data-status='0' data-tid='6687753' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6687753' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Patricia Bordeaux' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Patricia Bordeaux'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6687753' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Patricia Bordeaux' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Patricia Bordeaux'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/patricia-bordeaux/6687753-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Raynel Bays' Ratings" class='name' href='/raynel-bays/6689037-t' target='_blank' title="View Raynel Bays' Ratings">
+Raynel Bays
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Raynel Bays' data-sid='122666' data-status='0' data-tid='6689037' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6689037' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Raynel Bays' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Raynel Bays'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6689037' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Raynel Bays' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Raynel Bays'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/raynel-bays/6689037-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Rebecca Kunde's Ratings" class='name' href='/rebecca-kunde/6689355-t' target='_blank' title="View Rebecca Kunde's Ratings">
+Rebecca Kunde
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Rebecca Kunde' data-sid='122666' data-status='0' data-tid='6689355' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6689355' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Rebecca Kunde' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Rebecca Kunde'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6689355' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Rebecca Kunde' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Rebecca Kunde'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/rebecca-kunde/6689355-t'></a>
+</div>
+
+<div class='placements' style='border: 1px solid transparent;'></div>
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Sai Lor's Ratings" class='name' href='/sai-lor/6691141-t' target='_blank' title="View Sai Lor's Ratings">
+Sai Lor
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Sai Lor' data-sid='122666' data-status='0' data-tid='6691141' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6691141' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Sai Lor' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Sai Lor'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6691141' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Sai Lor' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Sai Lor'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/sai-lor/6691141-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Sara Pyka's Ratings" class='name' href='/sara-pyka/6691921-t' target='_blank' title="View Sara Pyka's Ratings">
+Sara Pyka
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Sara Pyka' data-sid='122666' data-status='0' data-tid='6691921' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6691921' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Sara Pyka' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Sara Pyka'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6691921' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Sara Pyka' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Sara Pyka'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/sara-pyka/6691921-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Sarah Bukoski's Ratings" class='name' href='/sarah-bukoski/6692373-t' target='_blank' title="View Sarah Bukoski's Ratings">
+Sarah Bukoski
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Sarah Bukoski' data-sid='122666' data-status='0' data-tid='6692373' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6692373' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Sarah Bukoski' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Sarah Bukoski'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6692373' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Sarah Bukoski' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Sarah Bukoski'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/sarah-bukoski/6692373-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Sarah Welke's Ratings" class='name' href='/sarah-welke/6692375-t' target='_blank' title="View Sarah Welke's Ratings">
+Sarah Welke
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Sarah Welke' data-sid='122666' data-status='0' data-tid='6692375' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6692375' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Sarah Welke' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Sarah Welke'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6692375' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Sarah Welke' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Sarah Welke'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/sarah-welke/6692375-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Shana Josephson's Ratings" class='name' href='/shana-josephson/6692763-t' target='_blank' title="View Shana Josephson's Ratings">
+Shana Josephson
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Shana Josephson' data-sid='122666' data-status='0' data-tid='6692763' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6692763' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Shana Josephson' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Shana Josephson'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6692763' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Shana Josephson' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Shana Josephson'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/shana-josephson/6692763-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Sharon Mcelrath's Ratings" class='name' href='/sharon-mcelrath/6693085-t' target='_blank' title="View Sharon Mcelrath's Ratings">
+Sharon Mcelrath
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Sharon Mcelrath' data-sid='122666' data-status='0' data-tid='6693085' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6693085' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Sharon Mcelrath' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Sharon Mcelrath'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6693085' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Sharon Mcelrath' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Sharon Mcelrath'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/sharon-mcelrath/6693085-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Susan Burns' Ratings" class='name' href='/susan-burns/6695121-t' target='_blank' title="View Susan Burns' Ratings">
+Susan Burns
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Susan Burns' data-sid='122666' data-status='0' data-tid='6695121' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6695121' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Susan Burns' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Susan Burns'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6695121' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Susan Burns' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Susan Burns'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/susan-burns/6695121-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Susan Fritsch's Ratings" class='name' href='/susan-fritsch/6695123-t' target='_blank' title="View Susan Fritsch's Ratings">
+Susan Fritsch
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Susan Fritsch' data-sid='122666' data-status='0' data-tid='6695123' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6695123' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Susan Fritsch' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Susan Fritsch'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6695123' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Susan Fritsch' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Susan Fritsch'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/susan-fritsch/6695123-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Tammy Richter's Ratings" class='name' href='/tammy-richter/6695699-t' target='_blank' title="View Tammy Richter's Ratings">
+Tammy Richter
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Tammy Richter' data-sid='122666' data-status='0' data-tid='6695699' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6695699' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Tammy Richter' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Tammy Richter'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6695699' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Tammy Richter' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Tammy Richter'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/tammy-richter/6695699-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Teresa Tenorio's Ratings" class='name' href='/teresa-tenorio/6696041-t' target='_blank' title="View Teresa Tenorio's Ratings">
+Teresa Tenorio
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Teresa Tenorio' data-sid='122666' data-status='0' data-tid='6696041' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6696041' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Teresa Tenorio' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Teresa Tenorio'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6696041' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Teresa Tenorio' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Teresa Tenorio'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/teresa-tenorio/6696041-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Tracy Gifford's Ratings" class='name' href='/tracy-gifford/6697651-t' target='_blank' title="View Tracy Gifford's Ratings">
+Tracy Gifford
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Tracy Gifford' data-sid='122666' data-status='0' data-tid='6697651' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6697651' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Tracy Gifford' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Tracy Gifford'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6697651' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Tracy Gifford' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Tracy Gifford'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/tracy-gifford/6697651-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Valerie Guy's Ratings" class='name' href='/valerie-guy/6698015-t' target='_blank' title="View Valerie Guy's Ratings">
+Valerie Guy
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Valerie Guy' data-sid='122666' data-status='0' data-tid='6698015' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6698015' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Valerie Guy' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Valerie Guy'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6698015' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Valerie Guy' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Valerie Guy'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/valerie-guy/6698015-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Vicki Kroiss' Ratings" class='name' href='/vicki-kroiss/6698171-t' target='_blank' title="View Vicki Kroiss' Ratings">
+Vicki Kroiss
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Vicki Kroiss' data-sid='122666' data-status='0' data-tid='6698171' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6698171' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Vicki Kroiss' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Vicki Kroiss'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6698171' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Vicki Kroiss' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Vicki Kroiss'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/vicki-kroiss/6698171-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View TRUE Yang's Ratings" class='name' href='/true-yang/6698989-t' target='_blank' title="View TRUE Yang's Ratings">
+TRUE Yang
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='TRUE Yang' data-sid='122666' data-status='0' data-tid='6698989' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6698989' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='TRUE Yang' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  TRUE Yang'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6698989' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='TRUE Yang' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  TRUE Yang'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/true-yang/6698989-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Aaliyah Tyler's Ratings" class='name' href='/aaliyah-tyler/6649839-t' target='_blank' title="View Aaliyah Tyler's Ratings">
+Aaliyah Tyler
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Aaliyah Tyler' data-sid='122666' data-status='0' data-tid='6649839' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6649839' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Aaliyah Tyler' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Aaliyah Tyler'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6649839' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Aaliyah Tyler' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Aaliyah Tyler'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/aaliyah-tyler/6649839-t'></a>
+</div>
+
+<div class='placements' style='border: 1px solid transparent;'></div>
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Alicia Nino's Ratings" class='name' href='/alicia-nino/6650365-t' target='_blank' title="View Alicia Nino's Ratings">
+Alicia Nino
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Alicia Nino' data-sid='122666' data-status='0' data-tid='6650365' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6650365' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Alicia Nino' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Alicia Nino'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6650365' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Alicia Nino' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Alicia Nino'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/alicia-nino/6650365-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Andrea Glad's Ratings" class='name' href='/andrea-glad/6651809-t' target='_blank' title="View Andrea Glad's Ratings">
+Andrea Glad
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Andrea Glad' data-sid='122666' data-status='0' data-tid='6651809' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6651809' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Andrea Glad' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Andrea Glad'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6651809' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Andrea Glad' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Andrea Glad'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/andrea-glad/6651809-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Andrea Macdonald's Ratings" class='name' href='/andrea-macdonald/6651811-t' target='_blank' title="View Andrea Macdonald's Ratings">
+Andrea Macdonald
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Andrea Macdonald' data-sid='122666' data-status='0' data-tid='6651811' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6651811' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Andrea Macdonald' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Andrea Macdonald'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6651811' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Andrea Macdonald' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Andrea Macdonald'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/andrea-macdonald/6651811-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Angela Schumaker's Ratings" class='name' href='/angela-schumaker/6652309-t' target='_blank' title="View Angela Schumaker's Ratings">
+Angela Schumaker
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Angela Schumaker' data-sid='122666' data-status='0' data-tid='6652309' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6652309' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Angela Schumaker' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Angela Schumaker'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6652309' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Angela Schumaker' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Angela Schumaker'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/angela-schumaker/6652309-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Barbara Walters' Ratings" class='name' href='/barbara-walters/6653783-t' target='_blank' title="View Barbara Walters' Ratings">
+Barbara Walters
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Barbara Walters' data-sid='122666' data-status='0' data-tid='6653783' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6653783' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Barbara Walters' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Barbara Walters'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6653783' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Barbara Walters' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Barbara Walters'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/barbara-walters/6653783-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Brianna Popp's Ratings" class='name' href='/brianna-popp/6655227-t' target='_blank' title="View Brianna Popp's Ratings">
+Brianna Popp
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Brianna Popp' data-sid='122666' data-status='0' data-tid='6655227' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6655227' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Brianna Popp' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Brianna Popp'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6655227' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Brianna Popp' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Brianna Popp'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/brianna-popp/6655227-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Brooke Kasmarek's Ratings" class='name' href='/brooke-kasmarek/6655439-t' target='_blank' title="View Brooke Kasmarek's Ratings">
+Brooke Kasmarek
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Brooke Kasmarek' data-sid='122666' data-status='0' data-tid='6655439' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6655439' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Brooke Kasmarek' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Brooke Kasmarek'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6655439' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Brooke Kasmarek' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Brooke Kasmarek'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/brooke-kasmarek/6655439-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Brooke Steffanus' Ratings" class='name' href='/brooke-steffanus/6655441-t' target='_blank' title="View Brooke Steffanus' Ratings">
+Brooke Steffanus
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Brooke Steffanus' data-sid='122666' data-status='0' data-tid='6655441' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6655441' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Brooke Steffanus' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Brooke Steffanus'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6655441' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Brooke Steffanus' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Brooke Steffanus'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/brooke-steffanus/6655441-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Catherine Basler's Ratings" class='name' href='/catherine-basler/6656693-t' target='_blank' title="View Catherine Basler's Ratings">
+Catherine Basler
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Catherine Basler' data-sid='122666' data-status='0' data-tid='6656693' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6656693' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Catherine Basler' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Catherine Basler'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6656693' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Catherine Basler' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Catherine Basler'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/catherine-basler/6656693-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Cheri Borowski's Ratings" class='name' href='/cheri-borowski/6657125-t' target='_blank' title="View Cheri Borowski's Ratings">
+Cheri Borowski
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Cheri Borowski' data-sid='122666' data-status='0' data-tid='6657125' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6657125' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Cheri Borowski' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Cheri Borowski'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6657125' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Cheri Borowski' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Cheri Borowski'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/cheri-borowski/6657125-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Cheryl Julian's Ratings" class='name' href='/cheryl-julian/6657301-t' target='_blank' title="View Cheryl Julian's Ratings">
+Cheryl Julian
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Cheryl Julian' data-sid='122666' data-status='0' data-tid='6657301' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6657301' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Cheryl Julian' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Cheryl Julian'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6657301' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Cheryl Julian' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Cheryl Julian'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/cheryl-julian/6657301-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Christine Breyley's Ratings" class='name' href='/christine-breyley/6657837-t' target='_blank' title="View Christine Breyley's Ratings">
+Christine Breyley
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Christine Breyley' data-sid='122666' data-status='0' data-tid='6657837' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6657837' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Christine Breyley' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Christine Breyley'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6657837' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Christine Breyley' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Christine Breyley'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/christine-breyley/6657837-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Colleen Hansmann's Ratings" class='name' href='/colleen-hansmann/6658453-t' target='_blank' title="View Colleen Hansmann's Ratings">
+Colleen Hansmann
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Colleen Hansmann' data-sid='122666' data-status='0' data-tid='6658453' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6658453' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Colleen Hansmann' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Colleen Hansmann'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6658453' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Colleen Hansmann' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Colleen Hansmann'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/colleen-hansmann/6658453-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Dawn Mcquillan's Ratings" class='name' href='/dawn-mcquillan/6660615-t' target='_blank' title="View Dawn Mcquillan's Ratings">
+Dawn Mcquillan
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Dawn Mcquillan' data-sid='122666' data-status='0' data-tid='6660615' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6660615' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Dawn Mcquillan' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Dawn Mcquillan'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6660615' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Dawn Mcquillan' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Dawn Mcquillan'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/dawn-mcquillan/6660615-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Dawn Theisen's Ratings" class='name' href='/dawn-theisen/6660617-t' target='_blank' title="View Dawn Theisen's Ratings">
+Dawn Theisen
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Dawn Theisen' data-sid='122666' data-status='0' data-tid='6660617' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6660617' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Dawn Theisen' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Dawn Theisen'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6660617' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Dawn Theisen' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Dawn Theisen'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/dawn-theisen/6660617-t'></a>
+</div>
+
+<div class='placements' style='border: 1px solid transparent;'></div>
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Deborah Depner's Ratings" class='name' href='/deborah-depner/6661021-t' target='_blank' title="View Deborah Depner's Ratings">
+Deborah Depner
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Deborah Depner' data-sid='122666' data-status='0' data-tid='6661021' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6661021' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Deborah Depner' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Deborah Depner'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6661021' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Deborah Depner' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Deborah Depner'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/deborah-depner/6661021-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Dina Nelson's Ratings" class='name' href='/dina-nelson/6662199-t' target='_blank' title="View Dina Nelson's Ratings">
+Dina Nelson
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Dina Nelson' data-sid='122666' data-status='0' data-tid='6662199' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6662199' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Dina Nelson' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Dina Nelson'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6662199' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Dina Nelson' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Dina Nelson'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/dina-nelson/6662199-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Donna Franczek's Ratings" class='name' href='/donna-franczek/6662455-t' target='_blank' title="View Donna Franczek's Ratings">
+Donna Franczek
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/clovis-grove-elementary-school/122666-s/not-specified" title="View Clovis Grove Elementary School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Donna Franczek' data-sid='122666' data-status='0' data-tid='6662455' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6662455' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Donna Franczek' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Donna Franczek'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=6662455' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Donna Franczek' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for  Donna Franczek'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/donna-franczek/6662455-t'></a>
+</div>
+
+</div>
+
+</div>
+</div>
+<div class='col-xs-12 col-lg-3 secondary_column'>
+
+<div class='row block_container school_rating_histogram_card'>
+<div class='col-xs-12'>
+<h2 class='school_name' title='Learn more about Clovis Grove Elementary School'>
+<span>
+Clovis Grove Elementary School Rating Histogram
+</span>
+</h2>
+<div class='score_line_container'>
+<div class='score_label'>5-star</div>
+<div class='score_percentage'>0%</div>
+<div class='score_line'>
+<div class='aux' style='width: 0.0%;'></div>
+</div>
+</div>
+
+<div class='score_line_container'>
+<div class='score_label'>4-star</div>
+<div class='score_percentage'>0%</div>
+<div class='score_line'>
+<div class='aux' style='width: 0.0%;'></div>
+</div>
+</div>
+
+<div class='score_line_container'>
+<div class='score_label'>3-star</div>
+<div class='score_percentage'>0%</div>
+<div class='score_line'>
+<div class='aux' style='width: 0.0%;'></div>
+</div>
+</div>
+
+<div class='score_line_container'>
+<div class='score_label'>2-star</div>
+<div class='score_percentage'>0%</div>
+<div class='score_line'>
+<div class='aux' style='width: 0.0%;'></div>
+</div>
+</div>
+
+<div class='score_line_container'>
+<div class='score_label'>1-star</div>
+<div class='score_percentage'>0%</div>
+<div class='score_line'>
+<div class='aux' style='width: 0.0%;'></div>
+</div>
+</div>
+
+<div class='score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 90px; height: 15px;'>
+<div class='rateit-preset rateit-selected' style='height: 15px; width: 0.000px;'></div>
+</div>
+</div>
+
+<span class='rating-summary'>
+Yet to be rated
+</span>
+</div>
+</div>
+</div>
+
+<div class='sticky_container_right'>
+<div class='sticky_column1'>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  
+    <div id="all_footer_wrapper" style="overflow:hidden;">
+      
+<section class='container-fluid hidden-xs padding' id='states'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12 col-sm-12 col-sm-offset-0 footer_states_container'>
+<h3>Locate Schools by State:</h3>
+<div class='states'>
+<div class='state'>
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class='state'>
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class='state'>
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class='state'>
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class='state'>
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class='state'>
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class='state'>
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class='state'>
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class='state'>
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class='state'>
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class='state'>
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class='state'>
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class='state'>
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class='state'>
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class='state'>
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class='state'>
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class='state'>
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class='state'>
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class='state'>
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class='state'>
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class='state'>
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class='state'>
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class='state'>
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class='state'>
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class='state'>
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class='state'>
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class='state'>
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class='state'>
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class='state'>
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class='state'>
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class='state'>
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class='state'>
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class='state'>
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class='state'>
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class='state'>
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class='state'>
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class='state'>
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class='state'>
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class='state'>
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class='state'>
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class='state'>
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class='state'>
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class='state'>
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class='state'>
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class='state'>
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class='state'>
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class='container-fluid' id='footer_directory'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-6 hidden-xs'>
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;W&quot;" href="/schools/directory/w" title="Schools beginning with &quot;W&quot;">w</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class='col-xs-6 hidden-xs'>
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;W&quot;" href="/teachers/directory/w" title="Teachers beginning with &quot;W&quot;">w</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class='row footer_countries_list'>
+<div class='col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0'>
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer'>
+<div class='container'>
+<div class='row footer_links'>
+<div class='col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0'>
+<h3 class='hidden-sm hidden-md hidden-lg'>Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop='static' data-keyboard data-remote='/contact/new' data-target='#modal' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Contact RateMyTeachers'>
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='row copyright'>
+Copyright 2001-2017 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden='true' class='modal fade' id='modal' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div aria-hidden='true' class='modal fade' id='modal_rating' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div id='loading-indicator' style='display: none;'>
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="//cdn0.ratemyteachers.com/assets/ajax-loader-90763890601dd0890ac263157c93e77d.gif" />
+</div>
+</div>
+<div class='amp_ad_unit amp_ad_unit_template' style='display: none;'>
+<a class='amp_clickurl amp_no_text' href='javascript:void(0);' rel='nofollow' target='_blank'>
+<span class='amp_title'></span>
+<span class='amp_description'></span>
+<span class='amp_displayurl'></span>
+<img class='amp_impressionurl' height='1px' width='1px'>
+<span class='arrow'>
+<span class='aux'></span>
+</span>
+</a>
+</div>
+
+
+    </div>
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery.ui || document.write(unescape('%3Cscript src="//cdn0.ratemyteachers.com/assets/jquery-ui-9dfe2877f062c4408595a5b1df205f6a.js">%3C/script>'))
+//]]>
+</script>
+
+
+
+  <script src="//cdn3.ratemyteachers.com/assets/application-637d0e5603d5f2032793a6cc94ddf034.js"></script>
+  <script src="//cdn0.ratemyteachers.com/assets/users-9e77f9d63c301e629ed223f4ed65cad9.js"></script>
+
+
+  
+    <script type="text/javascript">
+      setTimeout(function() {
+        // Facebook like
+        // (function(d, s, id) {
+        //   var js, fjs = d.getElementsByTagName(s)[0];
+        //   if (d.getElementById(id)) return;
+        //   js = d.createElement(s); js.id = id;
+        //   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=232453153516852&version=v2.0";
+        //   fjs.parentNode.insertBefore(js, fjs);
+        // }(document, 'script', 'facebook-jssdk'));
+
+        // Google Plus
+        // (function() {
+        //   var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        //   po.src = 'https://apis.google.com/js/platform.js';
+        //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        // })();
+
+        // Twitter Follow
+        // !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      
+      }, 200);
+    </script>
+
+  <script>
+  $('#teachers_by_alphabet').change(function(e){
+    document.location.href = $('#teachers_by_alphabet').val()
+  });
+</script>
+
+
+<script>
+  var schoolPagePath = '/clovis-grove-elementary-school/122666-s';
+  var resultCount = 64;
+  var minStickyResultCount = 3;
+
+  if (!isMobile && !isMedium && resultCount > 0) {
+    var stickyColumnRight = $(".sticky_container_right .sticky_column");
+    var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+    var footerHeight = $('#all_footer_wrapper').outerHeight() + 50;
+    var stickyOptions = function(getWidthFrom) {
+      return {topSpacing:0, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+    }
+    stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+    // Make center column options sticky when min results quantity
+    if (resultCount > minStickyResultCount - 1) {
+      stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+    }
+  }
+</script>
+
+
+  <!-- 1x1 -->
+  <div id='div-gpt-ad-1426701753500-0' style='width:1px; height:1px;'>
+  <script type='text/javascript'>
+    _googlePush(function() { 
+      var slot = googletag.defineSlot('/1058149/1x1', [1, 1], 'div-gpt-ad-1426701753500-0').addService(googletag.pubads());
+      googletag.display('div-gpt-ad-1426701753500-0'); 
+      googletag.pubads().refresh([slot]);
+    }, 800);
+  </script>
+  </div>
+
+
+
+<script type="text/javascript">
+_googlePush( function() {sbi_morpheus.enableReactiveSizes(); sbi_morpheus.callOperator();});
+</script>
+
+
+
+
+<script type="text/javascript">
+  if (window.__ssrt_ab_is_them) {
+    $(function(){
+      var placements = $('.placements');
+      var placementsVisibleAds = [];
+      var placementsLength = placements.length;
+      if (placementsLength == 0) return;  // disable for schools with too short
+
+      var debouncedScrollHandler = debounce(function(){
+        // console.log('inifinity ad');
+        for(var i = 0; i < placementsLength; i++) {
+          if ( !isElementVisibleInViewport(placements[i]) ) {
+            placementsVisibleAds[i] = false;
+            continue;
+          }
+
+          if ( !placementsVisibleAds[i] ) {
+            // console.log( "placement " + i + " is visible - refreshing ad" );
+            $(placements[i]).append($('#School_ATF_Leaderboard'));
+            googletag.pubads().refresh([school1]);
+            placementsVisibleAds[i] = true;
+          } else {
+            // console.log( "placement " + i + " is already visible" );
+          }
+        }
+      }, 50);
+      $(document).scroll(debouncedScrollHandler);
+    });
+  }
+</script>
+
+
+<script src="//a.teads.tv/page/63619/tag" async="true"></script>
+
+    <script type="text/javascript">
+      function initializeMaps() {
+        var length = mapFunctionArray.length;
+        for (var i = 0; i < length; i++) {
+          mapFunctionArray[i]();
+        }
+      }
+
+      $(document).ready(function() {
+        // Don't load google maps when no pending maps
+        if (typeof(mapFunctionArray) === 'undefined')
+          return;
+
+        var googleMapsId = "AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g";
+
+        var script_path = "http://maps.googleapis.com/maps/api/js?key=" + googleMapsId + "&sensor=false&callback=initializeMaps";
+        $.getScript(script_path);
+
+      });
+    </script>
+
+  
+    
+  
+  
+
+
+
+  
+    <script type="text/javascript">
+      (function() {
+        var url = 'https:\/\/s.yimg.com\/uv\/dm\/scripts\/syndication.js';
+        var scriptTags = document.getElementsByTagName('script');
+        var exists = false;
+        for (var i = 0; i < scriptTags.length; i++) {
+          if (scriptTags[i].src === url) {
+            exists = true;
+            break;
+          }
+        }
+        if (!exists) {
+          document.write('<script type="text\/javascript" src="' + url + '"><\/script>');
+        }
+      })();
+    </script>
+    
+    <script type='text/javascript'>
+      (function() {
+        var configYPA = function(searchTerms){
+          var location = '';
+          var country = 'United States';
+          //var keywords = "";
+          //var keywords = searchTerms + ' ';
+          var keywords = '';
+          if ($('#state').val() !== '') {
+            location = $("#state option:selected").text();
+            location = location.split('-')[0];
+            keywords = "online schools in {:location}";
+          } else {
+            location = country;
+            keywords = "online colleges";
+          }
+          var query = keywords.replace("{:location}", location);
+          var cssUrl = "http://www.ratemyteachers.com/assets/ypa_autocomplete_desktop-b8643103551a98483ebab316f9f09e3c.css";
+          var adOptions = function(adRange) {
+            if (typeof(adRange) === 'undefined')
+              adRange = "1-4";
+            return {
+              DeskTop:{
+                AdRange:adRange,
+                //Lat:true, 
+                Favicon:false,
+                //LocalAds:false,
+                SiteLink:false,
+                MerchantRating:false, 
+                ImageInAds:false
+              },
+              Mobile:{
+                AdRange:adRange,
+                //Lat:true, 
+                Favicon:false,
+                //LocalAds:false,
+                SiteLink:false,
+                MerchantRating:false, 
+                ImageInAds:false
+              }
+            };
+          };
+          var templateOptions = function() {
+            return {
+              DeskTop: {
+                AdUnit:{
+                  urlAboveDescription:false,
+                  cssLink:cssUrl
+                }
+              },
+              Mobile: {
+                AdUnit:{
+                  urlAboveDescription:false,
+                  cssLink:cssUrl
+                }
+              }
+            };
+          };
+          
+
+            var sponsoredSearch = {
+              adultFilter:false //'true' means allow, 'false' means don't
+            };
+          window.ypaAds.insertMultiAd({
+            ypaPubParams:{ query:query },
+            ypaAdConfig   : '0000002e5',
+            ypaAdTypeTag  : '253753',
+            ypaAdTagOptions : {
+              SponsoredSearch : sponsoredSearch
+            },
+            ypaAdSlotInfo : [
+              {
+                ypaAdSlotId : 'ratemyteachers',
+                ypaAdDivId  : 'ypaAdWrapper_ratemyteachers_autocomplete',
+                ypaAdWidth  : '450',
+                ypaAdHeight : '111',
+                ypaSlotOptions: {
+                  AdOptions: adOptions("1-2"),
+                  TemplateOptions: templateOptions()
+                }
+              }
+            ]
+          });
+        };
+        
+        // Override Autocomplete close method
+        var autocompleteData = $('.search_form input[name=q]').data('ui-autocomplete');
+        autocompleteData.close = function( event ) {
+          if (this.ypaForceCancelClose) {
+            delete this.ypaForceCancelClose;
+            
+            // Enable close on mouse down out
+            this.ypaCloseOnClickOut = true;
+            return;
+          }
+          this.ypaCloseOnClickOut = false;
+          
+          // Original Autocomplete code
+          this.cancelSearch = true;
+          this._close( event );
+        };
+        
+        // Save last clicked object
+        autocompleteData.ypaLastClickElement = null;
+        $(document).onFirst("mousedown", function(e) {
+          autocompleteData.ypaLastClickElement = $(e.target);
+        }).onFirst("mouseup", function(e) {
+          autocompleteData.ypaLastClickElement = null;
+        });
+        
+        
+        // Identify iframe click
+        $('.search_form input[name=q]').onFirst("blur", function(e) {
+          // Cancel autocomplete close when iframe.
+          // NOTE: It doesn't register any events when the iframe is click due
+          // cross domain denied access so last clicked element is null.
+          if (autocompleteData.ypaLastClickElement === null)
+            autocompleteData.ypaForceCancelClose = true;
+        });
+        
+        
+        // Close menu on mouse out
+        var isElementInAutocomplete = function(target) {
+          var menuElement = autocompleteData.menu.element[0];
+          return target === autocompleteData.element[0] ||
+            target === menuElement ||
+            $.contains( menuElement, target );
+        };
+        $(document).on("mousedown", function(e) {
+          if (!autocompleteData.ypaCloseOnClickOut || isElementInAutocomplete(e.target))
+            return;
+          autocompleteData.close();
+        });
+
+        // Autocomplete trigger
+        $('.search_form input[name=q]').on("autocompleteopen", function(e) {
+          var input = $(e.target);;
+          configYPA(input.val());
+        });
+      })();
+    </script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  <!-- [:desktop] 343c2cb@rails20 - 2017-02-13 14:49:52 -0500-->
+    
+  
+
+
+
+
+
+<script>
+  $(function(){
+    console.info("[PERF] DomContentLoaded: " + RMT.Analytics.elapseTime() );
+  });
+
+  $(window).load(function(){
+    console.info("[PERF] Load: " + RMT.Analytics.elapseTime() );
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,4200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+      (function(){
+        window.beginTimeTrack = (new Date()).getTime();
+      })();
+    </script>
+<title>Brooks School - North Andover, Massachusetts | RateMyTeachers.com</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":592,"agentToken":null,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(15)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(15)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(15)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){g.push(t),h&&(b?b.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(15)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,y="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(y,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===y||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=o(l+e,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(p+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],15:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!l.aborted||i){t&&t(n,r,o);for(var a=e(o),c=h(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[w[n]];return d&&d.push([g,n,r,a]),a}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",w[n]=e,e in u||(u[e]=[])})}var y={},w={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(w,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){s("mark",["domContent",a()+x.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-x.offset}var c=(new Date).getTime(),s=t("handle"),f=t(12),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:c,now:a,origin:y,features:{},xhrWrappable:g};t(9),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),s("mark",["firstbyte",c],null,"api");var b=0,E=t(14)},{}]},{},["loader",2,7]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+<meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw"/>
+<meta name="description" content="Brooks School is a High School in North Andover, MA. Search Brooks School&#39;s ratings, statistics and reviews by students and parents."/>
+<meta property="twitter:image" content="http://www.ratemyteachers.com/images/logo_icon_60.png"/>
+<meta property="og:image" content="http://www.ratemyteachers.com/images/logo_icon_100.png"/>
+<meta property="og:title" content="Brooks School - North Andover, Massachusetts | RateMyTeachers.com"/>
+<meta property="og:type" content="rmt:school"/>
+<meta property="og:url" content="http://www.ratemyteachers.com/brooks-school/23448-s"/>
+<meta property="og:site_name" content="Brooks School - North Andover, Massachusetts | RateMyTeachers.com"/>
+<meta property="og:description" content="Brooks School is a High School in North Andover, MA. Search Brooks School's ratings, statistics and reviews by students and parents."/>
+<meta name="robots" content="noodp,noydir"/>
+<meta property="rmt:image" content="http://www.ratemyteachers.com/apple_touch_icon_196x196.png"/>
+
+<link rel="shortcut icon" sizes="64x64 48x48 32x32 16x16" type="image/x-icon" href="/favicon.ico"/>
+<link rel="apple-touch-icon" href="/apple_touch_icon_60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple_touch_icon_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple_touch_icon_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple_touch_icon_152x152.png">
+<link rel="apple-touch-icon-precomposed" href="/apple_touch_icon_196x196.png"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+<link href="/assets/application-8f34b7246c4006713b4fb0b0c5f281b6.css" media="all" rel="stylesheet"/>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+<script type="text/javascript">
+    var currentState = 'VA';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:     true,
+    debugMode:           false,
+    asyncScripts:        true
+  };
+
+
+  function getWindowWidth() {
+    var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) === 'number' ) {
+      myWidth = window.innerWidth; myHeight = window.innerHeight;
+    } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+      myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+      myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+    }
+    return myWidth;
+  }
+
+  var isDesktopVariant = true;
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isExtraSmall = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false);
+  var isMobile = isExtraSmall || isMobileVariant;
+  var isMedium = (getWindowWidth() < 1200) || (screen ? screen.width < 1200 : false);
+
+
+  var isChrome = navigator.userAgent.indexOf('Chrome') > -1;
+  var isExplorer = navigator.userAgent.indexOf('MSIE') > -1;
+  var isFirefox = navigator.userAgent.indexOf('Firefox') > -1;
+  var isSafari = navigator.userAgent.indexOf("Safari") > -1;
+  var isOpera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
+  if ((isChrome)&&(isSafari)) {isSafari=false;}
+  if ((isChrome)&&(isOpera)) {isChrome=false;}
+
+  var enablePropel    = !isSafari && !isOpera && false;
+  var enableMediabong = !isSafari && !isOpera;
+  var enableBrightComedia = !isSafari && !isOpera;
+
+  var isMobileUpload = false;
+
+    var cseData = {
+      isCseSearch: true
+      ,paramFormat: '%{search_term}%{location}'
+      ,stateList: [{"name":"Alaska","shortname":"ak"},{"name":"Alabama","shortname":"al"},{"name":"Arkansas","shortname":"ar"},{"name":"Arizona","shortname":"az"},{"name":"California","shortname":"ca"},{"name":"Colorado","shortname":"co"},{"name":"Connecticut","shortname":"ct"},{"name":"Dc","shortname":"dc"},{"name":"Delaware","shortname":"de"},{"name":"Florida","shortname":"fl"},{"name":"Georgia","shortname":"ga"},{"name":"Hawaii","shortname":"hi"},{"name":"Iowa","shortname":"ia"},{"name":"Idaho","shortname":"id"},{"name":"Illinois","shortname":"il"},{"name":"Indiana","shortname":"in"},{"name":"Kansas","shortname":"ks"},{"name":"Kentucky","shortname":"ky"},{"name":"Louisiana","shortname":"la"},{"name":"Massachusetts","shortname":"ma"},{"name":"Maryland","shortname":"md"},{"name":"Maine","shortname":"me"},{"name":"Michigan","shortname":"mi"},{"name":"Minnesota","shortname":"mn"},{"name":"Missouri","shortname":"mo"},{"name":"Mississippi","shortname":"ms"},{"name":"Montana","shortname":"mt"},{"name":"North Carolina","shortname":"nc"},{"name":"North Dakota","shortname":"nd"},{"name":"Nebraska","shortname":"ne"},{"name":"New Hampshire","shortname":"nh"},{"name":"New Jersey","shortname":"nj"},{"name":"New Mexico","shortname":"nm"},{"name":"Nevada","shortname":"nv"},{"name":"New York","shortname":"ny"},{"name":"Ohio","shortname":"oh"},{"name":"Oklahoma","shortname":"ok"},{"name":"Oregon","shortname":"or"},{"name":"Pennsylvania","shortname":"pa"},{"name":"Puerto Rico","shortname":"pr"},{"name":"Rhode Island","shortname":"ri"},{"name":"South Carolina","shortname":"sc"},{"name":"South Dakota","shortname":"sd"},{"name":"Tennessee","shortname":"tn"},{"name":"Texas","shortname":"tx"},{"name":"Utah","shortname":"ut"},{"name":"Virginia","shortname":"va"},{"name":"Vermont","shortname":"vt"},{"name":"Washington","shortname":"wa"},{"name":"Wisconsin","shortname":"wi"},{"name":"West Virginia","shortname":"wv"},{"name":"Wyoming","shortname":"wy"}]
+    };
+
+
+  // Search autocomplete widget
+  var searchAutocompleteHTML = "<div class=\'desktop search_autocomplete_widget\'>\n<div class=\'autocomplete_teachers\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-user\'><\/i>\nTeachers and Professors\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_school_name\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nTeachers and Professors\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<div class=\'autocomplete_schools\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-university\'><\/i>\nSchools and Colleges\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_address\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nSchools and Colleges\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<\/div>\n";
+</script>
+<script type="text/javascript">
+  // Async functions variable
+  functionToLoad = [];
+  
+  // Fastest way to check if an object is an array
+  functionToLoad.isArrayObj = function(obj) {
+    return !!obj && obj.constructor === Array;
+  };
+  
+  // Extract data from an element
+  functionToLoad.extractElementData = function(elementData) {
+    var data = {
+      element: elementData
+      ,async: false
+      ,subElements: []
+    };
+    
+    // The element is an array, check for async option
+    if (this.isArrayObj(elementData) && elementData.length > 0) {
+      data.async = !!elementData[1];
+      data.element = elementData[0];
+      data.subElements = elementData[2] || [];
+    }
+    return data;
+  };
+  
+  // Wrap push functionality
+  functionToLoad.realPush = functionToLoad.push;
+  functionToLoad.executePush = function(args) {
+    var data = this.extractElementData(args);
+
+    // Inject script tag on inplace
+    if (typeof data.element === 'string') {
+      // Inject external file
+      document.write('<script type="text/javascript" src="' + data.element + '"><\/script>');
+    } else {
+      // Inject function
+      document.write('<script type="text/javascript">(');
+      document.write(data.element.toString());
+      document.write(')();<\/script>');
+    }
+    
+    // Execute child scripts
+    if (data.subElements.length > 0) {
+      this.executePush(data.subElements);
+    }
+  };
+  functionToLoad.push = function(args) {
+    if (siteConfig.asyncScripts) {
+      if (siteConfig.debugMode) { console.log('Async Script'); }
+      
+      // Async scripts so add it to array for later execution
+      this.realPush(args);
+      return;
+    }
+    if (siteConfig.debugMode) { console.log('Sync Script'); }
+    
+    // No async scripts, execute it right away
+    this.executePush(args);
+  };
+</script>
+<script type="text/javascript">_googlePush = function(a) {};</script>
+<script type="text/javascript">
+  functionToLoad.push('//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js');
+  functionToLoad.push('//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js');
+</script>
+<script>
+      functionToLoad.push(function() {
+        gaId = 'UA-4216499-1';
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', gaId, 'auto');
+        ga('require', 'displayfeatures');
+        //ga('require', 'ecommerce', 'ecommerce.js');
+      });
+    </script>
+<script type="text/javascript">
+  functionToLoad.push('/assets/rmt.analytics-833eb75f283313dde59926cd5939692a.js');
+</script>
+<script>
+  functionToLoad.push(function(){
+    pageType = "";
+    RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+    searchTerm = "";
+  });
+</script>
+<script type="text/javascript">
+    // Returns a function, that, as long as it continues to be invoked, will not
+    // be triggered. The function will be called after it stops being called for
+    // N milliseconds. If `immediate` is passed, trigger the function on the
+    // leading edge, instead of the trailing.
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+</script>
+<script type="text/javascript">
+    var _session = {};
+  </script>
+<link href="http://www.ratemyteachers.com/brooks-school/23448-s.rss" rel="alternate" type="application/rss+xml">
+<meta content="authenticity_token" name="csrf-param"/>
+<meta content="998OEILmuzEEHNAr60e3sD2WhP9pgFrep3qb91KaIAQ=" name="csrf-token"/>
+</head>
+
+<body class="inner_page school_page schools_v12_1
+">
+<div id="fb-root"></div>
+<div class="rate_my_teachers_international">
+<div class="container">
+<div class="row">
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+<div class="pull-right user_top_nav"></div>
+</div>
+</div>
+</div>
+<header>
+<div class="container">
+<div class="row">
+<form action="/search_page" class="tab-form search_form trigger_to_main_search" method="get">
+<a alt="Go to RateMyTeachers Home" href="/" id="rate_my_teachers_logo" title="Go to RateMyTeachers Home"></a>
+<input name="search" type="hidden" value="teachers">
+<div class="search_inputs">
+<div class="bg">
+<div class="padding">
+<input class="search_input" name="q" placeholder="Search: School Name, City" type="text">
+</div>
+<div class="location">
+<select class="state" id="state" name="state"><option value>Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class="search_button">
+<button class="btn-search fa fa-search fa-3x" title="Search RateMyTeachers" type="submit"></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+<div class="container-fluid main-content">
+<div class="row">
+<section class="breadcrumbs container-fluid">
+<div class="row">
+<div class="container">
+<div class="col-sm-12">
+<ul class="list-inline collapsible_nav collapsible_nav_collapsed">
+<li class="toggle">
+<a href="javascript:void(0);" rel="nofollow">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li class="collapse">
+<a href="/" title="Go to RateMyTeachers Home">United States</a>
+</li>
+<li class="always_show">
+<a alt="Go to Schools in Massachusetts" href="/massachusetts" title="Go to Schools in Massachusetts">Massachusetts</a>
+</li>
+<li class="collapse">
+<a alt="Go to Schools in North Andover" href="/massachusetts/north-andover" title="Go to Schools in North Andover">North Andover</a>
+</li>
+<li class="always_show">
+
+<a alt="View Brooks School's Teachers" href="/brooks-school/23448-s" title="View Brooks School's Teachers">Brooks School</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_teacher_trigger" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=23448" data-school="Brooks School" data-sender-name="School page breadcrumb" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher">Add My Teacher</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=23448" data-school="Brooks School" data-sender-name="School page breadcrumb" data-target="#modal_rating" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Rate My School">Rate My School</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<div class="container flash_container">
+<div class="row">
+<div class="col-xs-12">
+<div class="alert alert-danger" id="flash-error" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-warning" id="flash-alert" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-success" id="flash-success" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-info" id="flash-notice" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+</div>
+</div>
+</div>
+<div id="content">
+<span class="dn" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/massachusetts" itemprop="url">
+<span itemprop="title">Massachusetts</span>
+</a>
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/massachusetts/north-andover" itemprop="url">
+<span itemprop="title">North Andover</span>
+</a>
+</span>
+</span>
+<div id="sortable_ad_trigger"></div>
+<div class="container" itemscope itemtype="http://schema.org/ProfilePage">
+<meta content="2017-08-25" itemprop="dateModified">
+
+<div class="dn" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+<meta content="430" itemprop="ratingCount">
+<meta content="430" itemprop="reviewCount">
+<meta content="4.11914" itemprop="ratingValue">
+<meta content="5" itemprop="bestRating">
+<meta content="0" itemprop="worstRating">
+</div>
+<div class="row">
+<section class="col-md-12 content" itemprop="about" itemscope itemtype="http://schema.org/School">
+<div class="row secondary_data">
+<div class="col-xs-12 col-lg-9 primary_column">
+<div class="row school_info">
+<div class="col-xs-12 col-sm-7 main_info">
+<div class="row">
+<div class="col-xs-12">
+<div class="school_name">
+<h1 title="Brooks School">
+<span itemprop="name">
+Brooks School
+</span>
+<div class="school_actions" data-name="Brooks School" data-sid="23448" data-status="0" style="display:none;"></div>
+</h1>
+<a class="edit school_correction_trigger" data-backdrop="static" data-keyboard data-remote="/schools/correction?sid=23448" data-school="Brooks School" data-sender-name="School page Main" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit a Correction">
+Edit
+</a>
+</div>
+<div class="score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 90.621px;"></div>
+</div>
+</div>
+Average
+4.12
+based on
+430
+teacher ratings
+</div>
+<div class="description">
+<strong>Brooks School</strong>
+is located in North Andover, Massachusetts
+with an average teacher rating of 4.12
+stars. When comparing
+Brooks School's teachers to other
+teachers in the state of
+Massachusetts, Brooks School's
+teachers are
+below
+the average of
+4.31
+stars.
+Brooks School ranks
+176
+amongst all High Schools
+in the state of Massachusetts.
+<a href="/brooks-school/23448-s/stats" target="_blank">
+Learn More
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 details">
+<div class="aux">
+<h2 class="detail_item rate_school">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=23448" data-sender-name="School page Main" data-target="#modal_rating" data-teacher="Brooks School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Brooks School">
+<i class="fa fa-institution"></i>
+<span class="value">Rate Brooks School</span>
+</a>
+</h2>
+<div class="detail_item address">
+<a href="https://www.google.com/maps/search/1160%20Great%20Pond%20Rd%2C%20North%20Andover%2C%20Massachusetts%2001845%2C%20North%20Andover%2C%20Massachusetts%2C%2001845%2C%20United%20States" target="_blank" title="1160 Great Pond Rd, North Andover, Massachusetts 01845">
+<i class="fa fa-map-marker"></i>
+<span class="value">1160 Great Pond Rd, North Andover, Massachusetts 01845</span>
+</a>
+</div>
+<div class="detail_item phone">
+<a class="school_phone_trigger" data-phone="9787256226" href="javascript:void(0);">
+<i class="fa fa-phone"></i>
+<span itemprop="telephone">978-725-6226</span>
+</a>
+</div>
+<div class="detail_item website">
+<a href="http://brooksschool.org" rel="nofollow" target="_blank" title="http://brooksschool.org">
+<i class="fa fa-globe"></i>
+<span itemprop="url">http://brooksschool.org</span>
+</a>
+</div>
+</div>
+<span class="dn" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">1160 Great Pond Rd</span>
+<span itemprop="addressLocality">North Andover</span>
+<span itemprop="addressRegion">MA</span>
+<span itemprop="postalCode">01845</span>
+</span>
+</div>
+</div>
+<div class="school_content">
+<div class="sticky_container_center">
+<div class="sticky_column">
+<div class="row">
+<div class="col-xs-12">
+<div class="filter_section">
+<div class="row subtitle">
+<div class="col-xs-6">
+<h2 class="active">
+<a href="http://www.ratemyteachers.com/brooks-school/23448-s" title="View Brooks School's Teachers">
+Faculty:
+82
+Teachers
+</a>
+</h2>
+</div>
+<div class="col-xs-6">
+<h2 class>
+<a href="http://www.ratemyteachers.com/brooks-school/23448-s/school-reviews" title="View Brooks School's Reviews">
+Brooks School
+Reviews
+</a>
+</h2>
+</div>
+</div>
+<div class="row search_form_container">
+<div class="col-md-2 sort_options">
+<select id="sort_by" name="sort_by"><option value>Sort by</option><option value></option><option value>Latest Update</option>
+<option value="last_name">Last Name</option>
+<option value="first_name">First Name</option>
+<option value="avg_asc">Average Rating: Low to High</option>
+<option value="avg_desc">Average Rating: High to Low</option></select>
+</div>
+<form action="/brooks-school/23448-s" class="simple_form inline_form" id="school_search_by_teacher_form">
+<div class="col-md-9 text">
+<input name="q" placeholder="Search by Teacher" type="text">
+</div>
+<div class="col-md-1 options">
+<button class="btn fa fa-search fa-2x" name="commit" title="Search by Teacher" type="submit"></button>
+</div>
+</form>
+</div>
+<div class="row extra">
+<a class="col-xs-4 new_admin_request_trigger apply_admin" data-remote="/admin/new?sid=23448" data-school="Brooks School" data-sender="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Become Brooks School's Moderator">
+<i class="fa fa-user-plus"></i>
+<span>Become a Moderator!</span>
+</a>
+<a class="col-xs-4 new_school_rating_trigger school_review" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=23448" data-sender-name="School page Search bar" data-target="#modal_rating" data-teacher="Brooks School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Brooks School">
+<i class="fa fa-institution"></i>
+<span>Write a School Review</span>
+</a>
+<a class="col-xs-4 new_teacher_trigger add_teacher" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=23448" data-school="Brooks School" data-sender-name="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher to Brooks School">
+<i class="fa fa-user-plus"></i>
+<span>Add Teacher</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="teachers">
+<div class="ad_container AMP">
+<div id="amp_ads_bottom"></div>
+</div>
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Samantha Krasne's Ratings" class="name" href="/samantha-krasne/438266-t" target="_blank" title="View Samantha Krasne's Ratings">
+Samantha Krasne
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/languages" title="View Brooks School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Samantha Krasne" data-sid="23448" data-status="12" data-tid="438266" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 50.380px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She was a great teacher with a great accent, and I cannot understand other comments. She had also been my advisor...
+</div>
+<div class="options">
+<a alt="View Samantha Krasne's Ratings" class="btn view_more" href="/samantha-krasne/438266-t" title="View Samantha Krasne's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/samantha-krasne/438266-t"></a>
+</div>
+<div class="ad_container taboola_video">
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Alex Konovalchick's Ratings" class="name" href="/alex-konovalchick/215395-t" target="_blank" title="View Alex Konovalchick's Ratings">
+Alex Konovalchick
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/history" title="View Brooks School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Alex Konovalchick" data-sid="23448" data-status="-2" data-tid="215395" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 89.980px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I had Mr. K for economics my senior year. He is clearly a very smart guy but is by far the worst teacher I have had...
+</div>
+<div class="options">
+<a alt="View Alex Konovalchick's Ratings" class="btn view_more" href="/alex-konovalchick/215395-t" title="View Alex Konovalchick's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/alex-konovalchick/215395-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sarah Shea's Ratings" class="name" href="/sarah-shea/3141990-t" target="_blank" title="View Sarah Shea's Ratings">
+Sarah Shea
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/chemistry" title="View Brooks School&#39;s Chemistry Teachers">Chemistry</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Sarah Shea" data-sid="23448" data-status="12" data-tid="3141990" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 80.740px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Ms Shea is the best! She's always trying to make sure you understand the material, and she's very available for extra...
+</div>
+<div class="options">
+<a alt="View Sarah Shea's Ratings" class="btn view_more" href="/sarah-shea/3141990-t" title="View Sarah Shea's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sarah-shea/3141990-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Baker's Ratings" class="name" href="/baker/426085-t" target="_blank" title="View Baker's Ratings">
+Mr. Baker
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/english" title="View Brooks School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mr. Baker" data-sid="23448" data-status="10" data-tid="426085" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 78.320px;"></div>
+</div>
+</div>
+<div class="rating_count">13 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He is by far my least favorite teacher at Brooks. Saying that I like him as a person as well would be the biggest lie...
+</div>
+<div class="options">
+<a alt="View Baker's Ratings" class="btn view_more" href="/baker/426085-t" title="View Baker's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/baker/426085-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Steph Holmes' Ratings" class="name" href="/steph-holmes/7907239-t" target="_blank" title="View Steph Holmes' Ratings">
+Steph Holmes
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/english" title="View Brooks School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Steph Holmes" data-sid="23448" data-status="-2" data-tid="7907239" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7907239" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Steph Holmes" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Steph Holmes">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7907239" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Steph Holmes" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Steph Holmes">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/steph-holmes/7907239-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Johanna Bilodeau's Ratings" class="name" href="/johanna-bilodeau/7907241-t" target="_blank" title="View Johanna Bilodeau's Ratings">
+Johanna Bilodeau
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/history" title="View Brooks School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Johanna Bilodeau" data-sid="23448" data-status="-2" data-tid="7907241" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7907241" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Johanna Bilodeau" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Johanna Bilodeau">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7907241" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Johanna Bilodeau" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Johanna Bilodeau">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/johanna-bilodeau/7907241-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Ashley Johnston's Ratings" class="name" href="/ashley-johnston/7907243-t" target="_blank" title="View Ashley Johnston's Ratings">
+Ashley Johnston
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/history" title="View Brooks School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Ashley Johnston" data-sid="23448" data-status="-2" data-tid="7907243" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7907243" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Ashley Johnston" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ashley Johnston">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7907243" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Ashley Johnston" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ashley Johnston">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/ashley-johnston/7907243-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Andy Wall's Ratings" class="name" href="/andy-wall/7907231-t" target="_blank" title="View Andy Wall's Ratings">
+Andy Wall
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/science" title="View Brooks School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Andy Wall" data-sid="23448" data-status="-2" data-tid="7907231" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7907231" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Andy Wall" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Andy Wall">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7907231" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Andy Wall" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Andy Wall">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/andy-wall/7907231-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Huiying Zhao's Ratings" class="name" href="/huiying-zhao/7907233-t" target="_blank" title="View Huiying Zhao's Ratings">
+Huiying Zhao
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/languages" title="View Brooks School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Huiying Zhao" data-sid="23448" data-status="-2" data-tid="7907233" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 44.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is difficult to understand and doesn't do a very good job understanding her students.
+</div>
+<div class="options">
+<a alt="View Huiying Zhao's Ratings" class="btn view_more" href="/huiying-zhao/7907233-t" title="View Huiying Zhao's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/huiying-zhao/7907233-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Ben Carson's Ratings" class="name" href="/ben-carson/7907235-t" target="_blank" title="View Ben Carson's Ratings">
+Ben Carson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/history" title="View Brooks School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Ben Carson" data-sid="23448" data-status="-2" data-tid="7907235" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7907235" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Ben Carson" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ben Carson">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7907235" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Ben Carson" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ben Carson">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/ben-carson/7907235-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Niko Wagner's Ratings" class="name" href="/niko-wagner/7907237-t" target="_blank" title="View Niko Wagner's Ratings">
+Niko Wagner
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/science" title="View Brooks School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Niko Wagner" data-sid="23448" data-status="-2" data-tid="7907237" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+my favorite brooks teacher ever. super clear, funny, and knows a ton
+</div>
+<div class="options">
+<a alt="View Niko Wagner's Ratings" class="btn view_more" href="/niko-wagner/7907237-t" title="View Niko Wagner's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/niko-wagner/7907237-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Christopher Davis' Ratings" class="name" href="/christopher-davis/7900319-t" target="_blank" title="View Christopher Davis' Ratings">
+Christopher Davis
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/biology" title="View Brooks School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="teacher_actions" data-name="Christopher Davis" data-sid="23448" data-status="-2" data-tid="7900319" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+The guy is a G best teacher at Brooks School.
+</div>
+<div class="options">
+<a alt="View Christopher Davis' Ratings" class="btn view_more" href="/christopher-davis/7900319-t" title="View Christopher Davis' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/christopher-davis/7900319-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View William Waters' Ratings" class="name" href="/william-waters/3870995-t" target="_blank" title="View William Waters' Ratings">
+William Waters
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/history" title="View Brooks School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="William Waters" data-sid="23448" data-status="-2" data-tid="3870995" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 51.260px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Not a great teacher. He's hard to approach, kinda awkward and very difficult.
+</div>
+<div class="options">
+<a alt="View William Waters' Ratings" class="btn view_more" href="/william-waters/3870995-t" title="View William Waters' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/william-waters/3870995-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Becca Smith's Ratings" class="name" href="/becca-smith/3170027-t" target="_blank" title="View Becca Smith's Ratings">
+Becca Smith
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/biology" title="View Brooks School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Becca Smith" data-sid="23448" data-status="12" data-tid="3170027" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I couldn't agree more with the previous comment. Ms. Smith is quite smart and she makes she we know that. She think...
+</div>
+<div class="options">
+<a alt="View Becca Smith's Ratings" class="btn view_more" href="/becca-smith/3170027-t" title="View Becca Smith's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/becca-smith/3170027-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Dean Charpentier's Ratings" class="name" href="/dean-charpentier/3141991-t" target="_blank" title="View Dean Charpentier's Ratings">
+Dean Charpentier
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/english" title="View Brooks School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Dean Charpentier" data-sid="23448" data-status="-2" data-tid="3141991" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best English Teacher I have ever had!
+</div>
+<div class="options">
+<a alt="View Dean Charpentier's Ratings" class="btn view_more" href="/dean-charpentier/3141991-t" title="View Dean Charpentier's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/dean-charpentier/3141991-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Carmen Vicente-Quesada's Ratings" class="name" href="/carmen-vicente-quesada/2433007-t" target="_blank" title="View Carmen Vicente-Quesada's Ratings">
+Carmen Vicente-Quesada
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/languages" title="View Brooks School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Carmen Vicente-Quesada" data-sid="23448" data-status="12" data-tid="2433007" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 62.260px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+VQ needs to take a chill pill.
+</div>
+<div class="options">
+<a alt="View Carmen Vicente-Quesada's Ratings" class="btn view_more" href="/carmen-vicente-quesada/2433007-t" title="View Carmen Vicente-Quesada's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/carmen-vicente-quesada/2433007-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John Packard's Ratings" class="name" href="/john-packard/2394479-t" target="_blank" title="View John Packard's Ratings">
+John Packard
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/headmaster" title="View Brooks School&#39;s Headmaster Teachers">Headmaster</a>
+</div>
+<div class="teacher_actions" data-name="John Packard" data-sid="23448" data-status="-2" data-tid="2394479" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 107.580px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I had Mr. Packard in our winter term Vietnam course and felt like I was one of only two kids who cared about the...
+</div>
+<div class="options">
+<a alt="View John Packard's Ratings" class="btn view_more" href="/john-packard/2394479-t" title="View John Packard's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-packard/2394479-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Bob Flanagan's Ratings" class="name" href="/bob-flanagan/2392585-t" target="_blank" title="View Bob Flanagan's Ratings">
+Bob Flanagan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/religion" title="View Brooks School&#39;s Religion Teachers">Religion</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Bob Flanagan" data-sid="23448" data-status="12" data-tid="2392585" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 61.600px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+The Rev is a frustrating guy for me, most guys and many girls hate him, but all his girls crew people love him and...
+</div>
+<div class="options">
+<a alt="View Bob Flanagan's Ratings" class="btn view_more" href="/bob-flanagan/2392585-t" title="View Bob Flanagan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/bob-flanagan/2392585-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jeff Saunders' Ratings" class="name" href="/jeff-saunders/2392587-t" target="_blank" title="View Jeff Saunders' Ratings">
+Jeff Saunders
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/math" title="View Brooks School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Jeff Saunders" data-sid="23448" data-status="-2" data-tid="2392587" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 90.420px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Saunders is the perfect teacher. He kinda screwed around with us in class and jokes a ton but is very smart and...
+</div>
+<div class="options">
+<a alt="View Jeff Saunders' Ratings" class="btn view_more" href="/jeff-saunders/2392587-t" title="View Jeff Saunders' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jeff-saunders/2392587-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kihak Nam's Ratings" class="name" href="/kihak-nam/2392614-t" target="_blank" title="View Kihak Nam's Ratings">
+Kihak Nam
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/math" title="View Brooks School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Kihak Nam" data-sid="23448" data-status="-2" data-tid="2392614" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Very hard teacher
+</div>
+<div class="options">
+<a alt="View Kihak Nam's Ratings" class="btn view_more" href="/kihak-nam/2392614-t" title="View Kihak Nam's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kihak-nam/2392614-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Adele Saint Pierre's Ratings" class="name" href="/adele-saint-pierre/2392618-t" target="_blank" title="View Adele Saint Pierre's Ratings">
+Adele Saint Pierre
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/french" title="View Brooks School&#39;s French Teachers">French</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Adele Saint Pierre" data-sid="23448" data-status="12" data-tid="2392618" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.260px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is the best teacher ever.. ever... ever...
+</div>
+<div class="options">
+<a alt="View Adele Saint Pierre's Ratings" class="btn view_more" href="/adele-saint-pierre/2392618-t" title="View Adele Saint Pierre's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/adele-saint-pierre/2392618-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Parker's Ratings" class="name" href="/parker/2159545-t" target="_blank" title="View Parker's Ratings">
+Parker
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/not-specified" title="View Brooks School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Parker" data-sid="23448" data-status="12" data-tid="2159545" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She's amazing at what she does.
+</div>
+<div class="options">
+<a alt="View Parker's Ratings" class="btn view_more" href="/parker/2159545-t" title="View Parker's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/parker/2159545-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Timothy Benson's Ratings" class="name" href="/timothy-benson/1799447-t" target="_blank" title="View Timothy Benson's Ratings">
+Timothy Benson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/english" title="View Brooks School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Timothy Benson" data-sid="23448" data-status="-2" data-tid="1799447" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Greatest Teacher/Coach of all time. Everyone at the school likes him.
+</div>
+<div class="options">
+<a alt="View Timothy Benson's Ratings" class="btn view_more" href="/timothy-benson/1799447-t" title="View Timothy Benson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/timothy-benson/1799447-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Michael Walczak's Ratings" class="name" href="/michael-walczak/1684439-t" target="_blank" title="View Michael Walczak's Ratings">
+Michael Walczak
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/not-specified" title="View Brooks School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Michael Walczak" data-sid="23448" data-status="12" data-tid="1684439" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 100.760px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Easily one of the most difficult but motivational high school mentors I've had. He has a way of spotting characters;...
+</div>
+<div class="options">
+<a alt="View Michael Walczak's Ratings" class="btn view_more" href="/michael-walczak/1684439-t" title="View Michael Walczak's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/michael-walczak/1684439-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Dan Callahan's Ratings" class="name" href="/dan-callahan/1666128-t" target="_blank" title="View Dan Callahan's Ratings">
+Dan Callahan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/administration" title="View Brooks School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class="teacher_actions" data-name="Dan Callahan" data-sid="23448" data-status="-2" data-tid="1666128" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He's the best.
+</div>
+<div class="options">
+<a alt="View Dan Callahan's Ratings" class="btn view_more" href="/dan-callahan/1666128-t" title="View Dan Callahan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/dan-callahan/1666128-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Leigh Perkins' Ratings" class="name" href="/leigh-perkins/1481245-t" target="_blank" title="View Leigh Perkins' Ratings">
+Leigh Perkins
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/english" title="View Brooks School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Leigh Perkins" data-sid="23448" data-status="-2" data-tid="1481245" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best teacher I have ever had
+</div>
+<div class="options">
+<a alt="View Leigh Perkins' Ratings" class="btn view_more" href="/leigh-perkins/1481245-t" title="View Leigh Perkins' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/leigh-perkins/1481245-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Brad Hoffman's Ratings" class="name" href="/brad-hoffman/1481247-t" target="_blank" title="View Brad Hoffman's Ratings">
+Brad Hoffman
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/english" title="View Brooks School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Brad Hoffman" data-sid="23448" data-status="12" data-tid="1481247" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 101.200px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Hoffman is an exceptional teacher, and I was sad to hear that he is leaving Brooks. He'll be missed, a lot!
+</div>
+<div class="options">
+<a alt="View Brad Hoffman's Ratings" class="btn view_more" href="/brad-hoffman/1481247-t" title="View Brad Hoffman's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/brad-hoffman/1481247-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Linda Carrigan's Ratings" class="name" href="/linda-carrigan/1481077-t" target="_blank" title="View Linda Carrigan's Ratings">
+Linda Carrigan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/math" title="View Brooks School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Linda Carrigan" data-sid="23448" data-status="12" data-tid="1481077" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 51.260px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1481077" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Linda Carrigan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Linda Carrigan">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1481077" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Linda Carrigan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Linda Carrigan">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/linda-carrigan/1481077-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Erin Carroll's Ratings" class="name" href="/erin-carroll/1451640-t" target="_blank" title="View Erin Carroll's Ratings">
+Erin Carroll
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/not-specified" title="View Brooks School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Erin Carroll" data-sid="23448" data-status="12" data-tid="1451640" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1451640" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Erin Carroll" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Erin Carroll">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1451640" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Erin Carroll" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Erin Carroll">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/erin-carroll/1451640-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tom McGown's Ratings" class="name" href="/tom-mcgown/1176298-t" target="_blank" title="View Tom McGown's Ratings">
+Tom McGown
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/math" title="View Brooks School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Tom McGown" data-sid="23448" data-status="12" data-tid="1176298" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 86.460px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+&lt;3
+</div>
+<div class="options">
+<a alt="View Tom McGown's Ratings" class="btn view_more" href="/tom-mcgown/1176298-t" title="View Tom McGown's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tom-mcgown/1176298-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Moira Goodman's Ratings" class="name" href="/moira-goodman/928517-t" target="_blank" title="View Moira Goodman's Ratings">
+Moira Goodman
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/math" title="View Brooks School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Moira Goodman" data-sid="23448" data-status="-2" data-tid="928517" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Super easy, gives you answers to tests, easy A
+</div>
+<div class="options">
+<a alt="View Moira Goodman's Ratings" class="btn view_more" href="/moira-goodman/928517-t" title="View Moira Goodman's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/moira-goodman/928517-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Deb Davies' Ratings" class="name" href="/deb-davies/928519-t" target="_blank" title="View Deb Davies' Ratings">
+Deb Davies
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/languages" title="View Brooks School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Deb Davies" data-sid="23448" data-status="-2" data-tid="928519" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.260px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I absolutely love mrs. davies. I had her for AP Vergil, and she made it my favorite class. She is extremely quirky,...
+</div>
+<div class="options">
+<a alt="View Deb Davies' Ratings" class="btn view_more" href="/deb-davies/928519-t" title="View Deb Davies' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/deb-davies/928519-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jon Heydenreich's Ratings" class="name" href="/jon-heydenreich/599183-t" target="_blank" title="View Jon Heydenreich's Ratings">
+Jon Heydenreich
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/not-specified" title="View Brooks School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Jon Heydenreich" data-sid="23448" data-status="12" data-tid="599183" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 71.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+In order to do ok in his class you have to force yourself not to fall asleep because most of the time he can be so...
+</div>
+<div class="options">
+<a alt="View Jon Heydenreich's Ratings" class="btn view_more" href="/jon-heydenreich/599183-t" title="View Jon Heydenreich's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jon-heydenreich/599183-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View J Disanto's Ratings" class="name" href="/j-disanto/575194-t" target="_blank" title="View J Disanto's Ratings">
+J Disanto
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/english" title="View Brooks School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="J Disanto" data-sid="23448" data-status="12" data-tid="575194" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 69.740px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Ms. Ries is by far the nicest woman on Brooks' campus and for someone to talk about her in that was is probablly...
+</div>
+<div class="options">
+<a alt="View J Disanto's Ratings" class="btn view_more" href="/j-disanto/575194-t" title="View J Disanto's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/j-disanto/575194-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Bobbie Crump's Ratings" class="name" href="/bobbie-crump/568234-t" target="_blank" title="View Bobbie Crump's Ratings">
+Bobbie Crump
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/not-specified" title="View Brooks School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Bobbie Crump" data-sid="23448" data-status="-2" data-tid="568234" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=568234" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Bobbie Crump" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Bobbie Crump">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=568234" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Bobbie Crump" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Bobbie Crump">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/bobbie-crump/568234-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Benjy Kennedy's Ratings" class="name" href="/benjy-kennedy/531351-t" target="_blank" title="View Benjy Kennedy's Ratings">
+Benjy Kennedy
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/math" title="View Brooks School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Benjy Kennedy" data-sid="23448" data-status="12" data-tid="531351" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=531351" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Benjy Kennedy" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Benjy Kennedy">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=531351" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Benjy Kennedy" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Benjy Kennedy">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/benjy-kennedy/531351-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John McVeigh's Ratings" class="name" href="/john-mcveigh/524952-t" target="_blank" title="View John McVeigh's Ratings">
+John McVeigh
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/chemistry" title="View Brooks School&#39;s Chemistry Teachers">Chemistry</a>
+</div>
+<div class="teacher_actions" data-name="John McVeigh" data-sid="23448" data-status="-2" data-tid="524952" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+makes chem fun. never boring. great coach too- turned basketball team around in one year. cool guy.
+</div>
+<div class="options">
+<a alt="View John McVeigh's Ratings" class="btn view_more" href="/john-mcveigh/524952-t" title="View John McVeigh's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-mcveigh/524952-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kim Moulton's Ratings" class="name" href="/kim-moulton/521626-t" target="_blank" title="View Kim Moulton's Ratings">
+Kim Moulton
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/biology" title="View Brooks School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Kim Moulton" data-sid="23448" data-status="12" data-tid="521626" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=521626" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Kim Moulton" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Kim Moulton">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=521626" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Kim Moulton" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Kim Moulton">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kim-moulton/521626-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lisa Saunders' Ratings" class="name" href="/lisa-saunders/515569-t" target="_blank" title="View Lisa Saunders' Ratings">
+Lisa Saunders
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/technology" title="View Brooks School&#39;s Technology Teachers">Technology</a>
+</div>
+<div class="teacher_actions" data-name="Lisa Saunders" data-sid="23448" data-status="-2" data-tid="515569" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 71.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Incredible teacher, awsome person in general
+</div>
+<div class="options">
+<a alt="View Lisa Saunders' Ratings" class="btn view_more" href="/lisa-saunders/515569-t" title="View Lisa Saunders' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lisa-saunders/515569-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Luis Rosenfeld's Ratings" class="name" href="/luis-rosenfeld/498669-t" target="_blank" title="View Luis Rosenfeld's Ratings">
+Luis Rosenfeld
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/english" title="View Brooks School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Luis Rosenfeld" data-sid="23448" data-status="12" data-tid="498669" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Rosenfeld taught me English/Philosophy 20 years ago, and he was amazing. He's extremely bright and will make you...
+</div>
+<div class="options">
+<a alt="View Luis Rosenfeld's Ratings" class="btn view_more" href="/luis-rosenfeld/498669-t" title="View Luis Rosenfeld's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/luis-rosenfeld/498669-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Randall Hesse's Ratings" class="name" href="/randall-hesse/498672-t" target="_blank" title="View Randall Hesse's Ratings">
+Randall Hesse
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/chemistry" title="View Brooks School&#39;s Chemistry Teachers">Chemistry</a>
+</div>
+<div class="teacher_actions" data-name="Randall Hesse" data-sid="23448" data-status="-2" data-tid="498672" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 105.160px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great Teacher. The class its self is difficult, but he is a great person and explains things very well.
+</div>
+<div class="options">
+<a alt="View Randall Hesse's Ratings" class="btn view_more" href="/randall-hesse/498672-t" title="View Randall Hesse's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/randall-hesse/498672-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Peter Olrich's Ratings" class="name" href="/peter-olrich/495785-t" target="_blank" title="View Peter Olrich's Ratings">
+Peter Olrich
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/counselor" title="View Brooks School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Peter Olrich" data-sid="23448" data-status="12" data-tid="495785" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Chillest dude I have ever met.
+</div>
+<div class="options">
+<a alt="View Peter Olrich's Ratings" class="btn view_more" href="/peter-olrich/495785-t" title="View Peter Olrich's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/peter-olrich/495785-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Deanna Stuart's Ratings" class="name" href="/deanna-stuart/481065-t" target="_blank" title="View Deanna Stuart's Ratings">
+Deanna Stuart
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/computer-science" title="View Brooks School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class="teacher_actions" data-name="Deanna Stuart" data-sid="23448" data-status="-2" data-tid="481065" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 33.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I wish she would just get the picture that no one likes her. I hate her so much
+</div>
+<div class="options">
+<a alt="View Deanna Stuart's Ratings" class="btn view_more" href="/deanna-stuart/481065-t" title="View Deanna Stuart's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/deanna-stuart/481065-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Brian Palm's Ratings" class="name" href="/brian-palm/478949-t" target="_blank" title="View Brian Palm's Ratings">
+Brian Palm
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/biology" title="View Brooks School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Brian Palm" data-sid="23448" data-status="12" data-tid="478949" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 108.240px;"></div>
+</div>
+</div>
+<div class="rating_count">12 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I had Mr. Palm for APES and he is very smart and passionate about his field. When I came to Brooks in 2008 the APES...
+</div>
+<div class="options">
+<a alt="View Brian Palm's Ratings" class="btn view_more" href="/brian-palm/478949-t" title="View Brian Palm's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/brian-palm/478949-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Richard Diamond's Ratings" class="name" href="/richard-diamond/476451-t" target="_blank" title="View Richard Diamond's Ratings">
+Richard Diamond
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/math" title="View Brooks School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Richard Diamond" data-sid="23448" data-status="-2" data-tid="476451" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 84.920px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He is cool but is a hard teacher
+</div>
+<div class="options">
+<a alt="View Richard Diamond's Ratings" class="btn view_more" href="/richard-diamond/476451-t" title="View Richard Diamond's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/richard-diamond/476451-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Christy Wagner's Ratings" class="name" href="/christy-wagner/474939-t" target="_blank" title="View Christy Wagner's Ratings">
+Christy Wagner
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/languages" title="View Brooks School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Christy Wagner" data-sid="23448" data-status="12" data-tid="474939" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great teacher but pretty easy.
+</div>
+<div class="options">
+<a alt="View Christy Wagner's Ratings" class="btn view_more" href="/christy-wagner/474939-t" title="View Christy Wagner's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/christy-wagner/474939-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Susan Wilmer's Ratings" class="name" href="/susan-wilmer/426078-t" target="_blank" title="View Susan Wilmer's Ratings">
+Susan Wilmer
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/counselor" title="View Brooks School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Susan Wilmer" data-sid="23448" data-status="12" data-tid="426078" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 55.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+you wont get into college because of her. worst advisor ever.
+</div>
+<div class="options">
+<a alt="View Susan Wilmer's Ratings" class="btn view_more" href="/susan-wilmer/426078-t" title="View Susan Wilmer's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/susan-wilmer/426078-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Bettina Graves-Muto's Ratings" class="name" href="/bettina-graves-muto/426083-t" target="_blank" title="View Bettina Graves-Muto's Ratings">
+Bettina Graves-Muto
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/languages" title="View Brooks School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Bettina Graves-Muto" data-sid="23448" data-status="12" data-tid="426083" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Her class isn't easy, but you learn a lot, and you learn it well. She really tries to get her students to understand...
+</div>
+<div class="options">
+<a alt="View Bettina Graves-Muto's Ratings" class="btn view_more" href="/bettina-graves-muto/426083-t" title="View Bettina Graves-Muto's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/bettina-graves-muto/426083-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Holly Parker's Ratings" class="name" href="/holly-parker/426084-t" target="_blank" title="View Holly Parker's Ratings">
+Holly Parker
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/english" title="View Brooks School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Holly Parker" data-sid="23448" data-status="-2" data-tid="426084" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 67.320px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+very excessively difficult junior year english teacher. stay away if you are a high-honor-roll student and don't...
+</div>
+<div class="options">
+<a alt="View Holly Parker's Ratings" class="btn view_more" href="/holly-parker/426084-t" title="View Holly Parker's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/holly-parker/426084-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Andrea Heinze's Ratings" class="name" href="/andrea-heinze/426087-t" target="_blank" title="View Andrea Heinze's Ratings">
+Andrea Heinze
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/math" title="View Brooks School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Andrea Heinze" data-sid="23448" data-status="-2" data-tid="426087" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 85.800px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She means well but she is an unruly, unfair, and close-minded Dean who behind her coniving smile, rules with an iron...
+</div>
+<div class="options">
+<a alt="View Andrea Heinze's Ratings" class="btn view_more" href="/andrea-heinze/426087-t" title="View Andrea Heinze's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/andrea-heinze/426087-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John Quirk's Ratings" class="name" href="/john-quirk/426088-t" target="_blank" title="View John Quirk's Ratings">
+John Quirk
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/languages" title="View Brooks School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="John Quirk" data-sid="23448" data-status="12" data-tid="426088" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 72.600px;"></div>
+</div>
+</div>
+<div class="rating_count">10 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Quirk is not an individual who makes any effort to empathize with teenagers. If you do something wrong, he's will...
+</div>
+<div class="options">
+<a alt="View John Quirk's Ratings" class="btn view_more" href="/john-quirk/426088-t" title="View John Quirk's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-quirk/426088-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John Fahey's Ratings" class="name" href="/john-fahey/426094-t" target="_blank" title="View John Fahey's Ratings">
+John Fahey
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/health" title="View Brooks School&#39;s Health Teachers">Health</a>
+</div>
+<div class="teacher_actions" data-name="John Fahey" data-sid="23448" data-status="-2" data-tid="426094" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+We are gonna win some ball games this fall.
+</div>
+<div class="options">
+<a alt="View John Fahey's Ratings" class="btn view_more" href="/john-fahey/426094-t" title="View John Fahey's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-fahey/426094-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Dan Rorke's Ratings" class="name" href="/dan-rorke/426096-t" target="_blank" title="View Dan Rorke's Ratings">
+Dan Rorke
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/history" title="View Brooks School&#39;s History Teachers">History</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Dan Rorke" data-sid="23448" data-status="12" data-tid="426096" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+A great teacher and even better football coach, I look up to them as if he was my grandfather, thank you Mr. rorke
+</div>
+<div class="options">
+<a alt="View Dan Rorke's Ratings" class="btn view_more" href="/dan-rorke/426096-t" title="View Dan Rorke's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/dan-rorke/426096-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Nat Wagner's Ratings" class="name" href="/nat-wagner/425509-t" target="_blank" title="View Nat Wagner's Ratings">
+Nat Wagner
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/english" title="View Brooks School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Nat Wagner" data-sid="23448" data-status="12" data-tid="425509" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">10 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Wagner is the man. He can reallly improve your writing skills through real techniques. If you missed out on one...
+</div>
+<div class="options">
+<a alt="View Nat Wagner's Ratings" class="btn view_more" href="/nat-wagner/425509-t" title="View Nat Wagner's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/nat-wagner/425509-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Candice Jimerson-Johnson's Ratings" class="name" href="/candice-jimerson-johnson/420118-t" target="_blank" title="View Candice Jimerson-Johnson's Ratings">
+Candice Jimerson-Johnson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/history" title="View Brooks School&#39;s History Teachers">History</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Candice Jimerson-Johnson" data-sid="23448" data-status="12" data-tid="420118" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 74.800px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She an ok teacher but she picks favorites and gives them better grades. They are most ofter minority students
+</div>
+<div class="options">
+<a alt="View Candice Jimerson-Johnson's Ratings" class="btn view_more" href="/candice-jimerson-johnson/420118-t" title="View Candice Jimerson-Johnson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/candice-jimerson-johnson/420118-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lawrence Becker's Ratings" class="name" href="/lawrence-becker/420119-t" target="_blank" title="View Lawrence Becker's Ratings">
+Lawrence Becker
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/math" title="View Brooks School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Lawrence Becker" data-sid="23448" data-status="10" data-tid="420119" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+awesome cal teacher. very helpful. trys hard
+</div>
+<div class="options">
+<a alt="View Lawrence Becker's Ratings" class="btn view_more" href="/lawrence-becker/420119-t" title="View Lawrence Becker's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lawrence-becker/420119-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Grace Becker's Ratings" class="name" href="/grace-becker/420121-t" target="_blank" title="View Grace Becker's Ratings">
+Grace Becker
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/languages" title="View Brooks School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Grace Becker" data-sid="23448" data-status="12" data-tid="420121" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 73.920px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+There's no getting around the fact that Mrs. Becker's classes are difficult, but underneath it all, she is one of the...
+</div>
+<div class="options">
+<a alt="View Grace Becker's Ratings" class="btn view_more" href="/grace-becker/420121-t" title="View Grace Becker's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/grace-becker/420121-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Carlyn Aloe's Ratings" class="name" href="/carlyn-aloe/420125-t" target="_blank" title="View Carlyn Aloe's Ratings">
+Carlyn Aloe
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/science" title="View Brooks School&#39;s Science Teachers">Science</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Carlyn Aloe" data-sid="23448" data-status="12" data-tid="420125" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 62.260px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Aloe was a hard grader but held an awesome class
+</div>
+<div class="options">
+<a alt="View Carlyn Aloe's Ratings" class="btn view_more" href="/carlyn-aloe/420125-t" title="View Carlyn Aloe's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/carlyn-aloe/420125-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mellin's Ratings" class="name" href="/mellin/420127-t" target="_blank" title="View Mellin's Ratings">
+Mr. Mellin
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/science" title="View Brooks School&#39;s Science Teachers">Science</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mr. Mellin" data-sid="23448" data-status="12" data-tid="420127" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 90.860px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+How could you not love Bruce? He is the sweetest man ever who loves his job so much. If you don't like science you...
+</div>
+<div class="options">
+<a alt="View Mellin's Ratings" class="btn view_more" href="/mellin/420127-t" title="View Mellin's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mellin/420127-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Fredrick Emrich's Ratings" class="name" href="/fredrick-emrich/420128-t" target="_blank" title="View Fredrick Emrich's Ratings">
+Fredrick Emrich
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/religion" title="View Brooks School&#39;s Religion Teachers">Religion</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Fredrick Emrich" data-sid="23448" data-status="12" data-tid="420128" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 63.360px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Somewhat boring teacher, but if you actually listen to what he has to say it makes some sense. Always repeating...
+</div>
+<div class="options">
+<a alt="View Fredrick Emrich's Ratings" class="btn view_more" href="/fredrick-emrich/420128-t" title="View Fredrick Emrich's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/fredrick-emrich/420128-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Bob Morahan's Ratings" class="name" href="/bob-morahan/420133-t" target="_blank" title="View Bob Morahan's Ratings">
+Bob Morahan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/math" title="View Brooks School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Bob Morahan" data-sid="23448" data-status="12" data-tid="420133" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 68.200px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Although he may mean well, Mr. Morahan was very unclear while giving us lectures in my topics in pre-cal class. He...
+</div>
+<div class="options">
+<a alt="View Bob Morahan's Ratings" class="btn view_more" href="/bob-morahan/420133-t" title="View Bob Morahan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/bob-morahan/420133-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Barbara Vanesse's Ratings" class="name" href="/barbara-vanesse/420134-t" target="_blank" title="View Barbara Vanesse's Ratings">
+Barbara Vanesse
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/nursing" title="View Brooks School&#39;s Nursing Teachers">Nursing</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Barbara Vanesse" data-sid="23448" data-status="12" data-tid="420134" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Hey Nursie! your the best
+</div>
+<div class="options">
+<a alt="View Barbara Vanesse's Ratings" class="btn view_more" href="/barbara-vanesse/420134-t" title="View Barbara Vanesse's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/barbara-vanesse/420134-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Matt Grant's Ratings" class="name" href="/matt-grant/420136-t" target="_blank" title="View Matt Grant's Ratings">
+Matt Grant
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/computer-science" title="View Brooks School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Matt Grant" data-sid="23448" data-status="12" data-tid="420136" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.660px;"></div>
+</div>
+</div>
+<div class="rating_count">19 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Loves to teach and enjoys hanging with us
+</div>
+<div class="options">
+<a alt="View Matt Grant's Ratings" class="btn view_more" href="/matt-grant/420136-t" title="View Matt Grant's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/matt-grant/420136-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Alex Costello's Ratings" class="name" href="/alex-costello/420115-t" target="_blank" title="View Alex Costello's Ratings">
+Alex Costello
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/english" title="View Brooks School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Alex Costello" data-sid="23448" data-status="12" data-tid="420115" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 108.680px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Cotello is an awesome teacher. He is one of the greatest and most entertaining people I have ever met.
+</div>
+<div class="options">
+<a alt="View Alex Costello's Ratings" class="btn view_more" href="/alex-costello/420115-t" title="View Alex Costello's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/alex-costello/420115-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Doug Burbank's Ratings" class="name" href="/doug-burbank/420116-t" target="_blank" title="View Doug Burbank's Ratings">
+Doug Burbank
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/math" title="View Brooks School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Doug Burbank" data-sid="23448" data-status="-2" data-tid="420116" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 84.700px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Burbank is a cool guy. He makes a very dull class a little less dull. However, his tests and quizzes are...
+</div>
+<div class="options">
+<a alt="View Doug Burbank's Ratings" class="btn view_more" href="/doug-burbank/420116-t" title="View Doug Burbank's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/doug-burbank/420116-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Claudia Keller's Ratings" class="name" href="/claudia-keller/420117-t" target="_blank" title="View Claudia Keller's Ratings">
+Claudia Keller
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/music" title="View Brooks School&#39;s Music Teachers">Music</a>
+</div>
+<div class="teacher_actions" data-name="Claudia Keller" data-sid="23448" data-status="-2" data-tid="420117" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 101.860px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+BEST TEACHER EVER!
+</div>
+<div class="options">
+<a alt="View Claudia Keller's Ratings" class="btn view_more" href="/claudia-keller/420117-t" title="View Claudia Keller's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/claudia-keller/420117-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Susan Hodgson's Ratings" class="name" href="/susan-hodgson/420050-t" target="_blank" title="View Susan Hodgson's Ratings">
+Susan Hodgson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/english" title="View Brooks School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Susan Hodgson" data-sid="23448" data-status="12" data-tid="420050" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She's a good listener, thoughtful, and tries to hard to be hip.
+</div>
+<div class="options">
+<a alt="View Susan Hodgson's Ratings" class="btn view_more" href="/susan-hodgson/420050-t" title="View Susan Hodgson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/susan-hodgson/420050-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kevin Breen's Ratings" class="name" href="/kevin-breen/366056-t" target="_blank" title="View Kevin Breen's Ratings">
+Kevin Breen
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/english" title="View Brooks School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Kevin Breen" data-sid="23448" data-status="12" data-tid="366056" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+breen is awesome
+</div>
+<div class="options">
+<a alt="View Kevin Breen's Ratings" class="btn view_more" href="/kevin-breen/366056-t" title="View Kevin Breen's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kevin-breen/366056-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Conor Hanover's Ratings" class="name" href="/conor-hanover/223955-t" target="_blank" title="View Conor Hanover's Ratings">
+Conor Hanover
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/history" title="View Brooks School&#39;s History Teachers">History</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Conor Hanover" data-sid="23448" data-status="12" data-tid="223955" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 96.800px;"></div>
+</div>
+</div>
+<div class="rating_count">15 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+A true drill-sargeant at heart, his presence made my heart pound constantly in the dorm and in class. However, he is...
+</div>
+<div class="options">
+<a alt="View Conor Hanover's Ratings" class="btn view_more" href="/conor-hanover/223955-t" title="View Conor Hanover's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/conor-hanover/223955-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lance Latham's Ratings" class="name" href="/lance-latham/207620-t" target="_blank" title="View Lance Latham's Ratings">
+Lance Latham
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/history" title="View Brooks School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Lance Latham" data-sid="23448" data-status="-2" data-tid="207620" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 92.400px;"></div>
+</div>
+</div>
+<div class="rating_count">10 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Latham is one of the most fair people on the Brooks campus. He is always friendly and his class is excellent. I...
+</div>
+<div class="options">
+<a alt="View Lance Latham's Ratings" class="btn view_more" href="/lance-latham/207620-t" title="View Lance Latham's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lance-latham/207620-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Alexander Moody's Ratings" class="name" href="/alexander-moody/207612-t" target="_blank" title="View Alexander Moody's Ratings">
+Alexander Moody
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/math" title="View Brooks School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Alexander Moody" data-sid="23448" data-status="12" data-tid="207612" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 86.680px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He still needs to grow up and mature himself. He's more interested in his hockey coaching career then teaching math.
+</div>
+<div class="options">
+<a alt="View Alexander Moody's Ratings" class="btn view_more" href="/alexander-moody/207612-t" title="View Alexander Moody's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/alexander-moody/207612-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Joel Dure's Ratings" class="name" href="/joel-dure/24753-t" target="_blank" title="View Joel Dure's Ratings">
+Joel Dure
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/languages" title="View Brooks School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Joel Dure" data-sid="23448" data-status="12" data-tid="24753" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I pretty much got worse at the spanish language in this class... but all that talking about political stuff was way...
+</div>
+<div class="options">
+<a alt="View Joel Dure's Ratings" class="btn view_more" href="/joel-dure/24753-t" title="View Joel Dure's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/joel-dure/24753-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Raymond Broadhead's Ratings" class="name" href="/raymond-broadhead/22925-t" target="_blank" title="View Raymond Broadhead's Ratings">
+Raymond Broadhead
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/science" title="View Brooks School&#39;s Science Teachers">Science</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Raymond Broadhead" data-sid="23448" data-status="12" data-tid="22925" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 75.680px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Raybro is the man!!! too bad he's leaving. Props to AP Bio 2007!
+</div>
+<div class="options">
+<a alt="View Raymond Broadhead's Ratings" class="btn view_more" href="/raymond-broadhead/22925-t" title="View Raymond Broadhead's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/raymond-broadhead/22925-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jack McVey's Ratings" class="name" href="/jack-mcvey/22518-t" target="_blank" title="View Jack McVey's Ratings">
+Jack McVey
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/social-studies" title="View Brooks School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Jack McVey" data-sid="23448" data-status="12" data-tid="22518" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+amazing teacher..cares about u and is invloved in what we do
+</div>
+<div class="options">
+<a alt="View Jack McVey's Ratings" class="btn view_more" href="/jack-mcvey/22518-t" title="View Jack McVey's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jack-mcvey/22518-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Timothy Cogan's Ratings" class="name" href="/timothy-cogan/22162-t" target="_blank" title="View Timothy Cogan's Ratings">
+Timothy Cogan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/religion" title="View Brooks School&#39;s Religion Teachers">Religion</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Timothy Cogan" data-sid="23448" data-status="12" data-tid="22162" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 79.860px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I always thought he was a cool guy, but now...
+</div>
+<div class="options">
+<a alt="View Timothy Cogan's Ratings" class="btn view_more" href="/timothy-cogan/22162-t" title="View Timothy Cogan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/timothy-cogan/22162-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View E. Graham Ward's Ratings" class="name" href="/e-graham-ward/21196-t" target="_blank" title="View E. Graham Ward's Ratings">
+E. Graham Ward
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/english" title="View Brooks School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="E. Graham Ward" data-sid="23448" data-status="-2" data-tid="21196" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+One of my all-time faves. Really sweet guy.
+</div>
+<div class="options">
+<a alt="View E. Graham Ward's Ratings" class="btn view_more" href="/e-graham-ward/21196-t" title="View E. Graham Ward's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/e-graham-ward/21196-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mark Shovan's Ratings" class="name" href="/mark-shovan/20176-t" target="_blank" title="View Mark Shovan's Ratings">
+Mark Shovan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/english" title="View Brooks School&#39;s English Teachers">English</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Mark Shovan" data-sid="23448" data-status="10" data-tid="20176" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 105.820px;"></div>
+</div>
+</div>
+<div class="rating_count">14 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Shovie is the best teacher i've ever had. He's intelligent, funny and just makes the classroom a fun place to be. I...
+</div>
+<div class="options">
+<a alt="View Mark Shovan's Ratings" class="btn view_more" href="/mark-shovan/20176-t" title="View Mark Shovan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mark-shovan/20176-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Dusty Richards' Ratings" class="name" href="/dusty-richards/20033-t" target="_blank" title="View Dusty Richards' Ratings">
+Dusty Richards
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/math" title="View Brooks School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Dusty Richards" data-sid="23448" data-status="-2" data-tid="20033" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 91.080px;"></div>
+</div>
+</div>
+<div class="rating_count">17 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great teacher of math and soccer. Has always led the Greens to victory. He has also led students win the Fifty.
+</div>
+<div class="options">
+<a alt="View Dusty Richards' Ratings" class="btn view_more" href="/dusty-richards/20033-t" title="View Dusty Richards' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/dusty-richards/20033-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Michael McCahill's Ratings" class="name" href="/michael-mccahill/19914-t" target="_blank" title="View Michael McCahill's Ratings">
+Michael McCahill
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/social-studies" title="View Brooks School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Michael McCahill" data-sid="23448" data-status="12" data-tid="19914" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 98.120px;"></div>
+</div>
+</div>
+<div class="rating_count">13 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+The absolute best teacher I have ever had and a million times better than all of the teachers/professors I will ever...
+</div>
+<div class="options">
+<a alt="View Michael McCahill's Ratings" class="btn view_more" href="/michael-mccahill/19914-t" title="View Michael McCahill's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/michael-mccahill/19914-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Donald Cameron's Ratings" class="name" href="/donald-cameron/19915-t" target="_blank" title="View Donald Cameron's Ratings">
+Donald Cameron
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/math" title="View Brooks School&#39;s Math Teachers">Math</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Donald Cameron" data-sid="23448" data-status="12" data-tid="19915" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 105.380px;"></div>
+</div>
+</div>
+<div class="rating_count">19 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Outstanding teacher. Only math teacher I've ever had whose ability to break things down into helpful processes...
+</div>
+<div class="options">
+<a alt="View Donald Cameron's Ratings" class="btn view_more" href="/donald-cameron/19915-t" title="View Donald Cameron's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/donald-cameron/19915-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Robert Moore's Ratings" class="name" href="/robert-moore/19917-t" target="_blank" title="View Robert Moore's Ratings">
+Robert Moore
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/physics" title="View Brooks School&#39;s Physics Teachers">Physics</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Robert Moore" data-sid="23448" data-status="12" data-tid="19917" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 107.360px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr.Moore's teachings aren't limited in the lab.
+</div>
+<div class="options">
+<a alt="View Robert Moore's Ratings" class="btn view_more" href="/robert-moore/19917-t" title="View Robert Moore's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/robert-moore/19917-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Nabil Alami's Ratings" class="name" href="/nabil-alami/7132-t" target="_blank" title="View Nabil Alami's Ratings">
+Nabil Alami
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/brooks-school/23448-s/languages" title="View Brooks School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Nabil Alami" data-sid="23448" data-status="12" data-tid="7132" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.220px;"></div>
+</div>
+</div>
+<div class="rating_count">16 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr.Alami is a smart man . However he abuses power at times . He sometimes forgets his role as a teacher and starts...
+</div>
+<div class="options">
+<a alt="View Nabil Alami's Ratings" class="btn view_more" href="/nabil-alami/7132-t" title="View Nabil Alami's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/nabil-alami/7132-t"></a>
+</div>
+
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-lg-3 secondary_column">
+<a class="rating_histogram_widget_link_container" href="/brooks-school/23448-s/stats" title="Go to Brooks School stats">
+<div class="row block_container school_rating_histogram_card">
+<div class="col-xs-12">
+<h2 class="school_name" title="Learn more about Brooks School">
+<span>
+Brooks School Rating Histogram
+</span>
+</h2>
+<div class="score_line_container">
+<div class="score_label">5-star</div>
+<div class="score_percentage">70%</div>
+<div class="score_line">
+<div class="aux" style="width: 70.77%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">4-star</div>
+<div class="score_percentage">10%</div>
+<div class="score_line">
+<div class="aux" style="width: 10.0%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">3-star</div>
+<div class="score_percentage">11%</div>
+<div class="score_line">
+<div class="aux" style="width: 11.54%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">2-star</div>
+<div class="score_percentage">1%</div>
+<div class="score_line">
+<div class="aux" style="width: 1.54%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">1-star</div>
+<div class="score_percentage">6%</div>
+<div class="score_line">
+<div class="aux" style="width: 6.15%;"></div>
+</div>
+</div>
+<div class="score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 90px; height: 15px;">
+<div class="rateit-preset rateit-selected" style="height: 15px; width: 74.145px;"></div>
+</div>
+</div>
+<span class="rating-summary">
+Based on
+430
+Ratings
+</span>
+</div>
+</div>
+</div>
+</a>
+<div class="sticky_container_right">
+<div class="sticky_column">
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="all_footer_wrapper" style="overflow:hidden;">
+<section class="container-fluid hidden-xs padding" id="states">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-sm-offset-0 footer_states_container">
+<h3>Locate Schools by State:</h3>
+<div class="states">
+<div class="state">
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class="state">
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class="state">
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class="state">
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class="state">
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class="state">
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class="state">
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class="state">
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class="state">
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class="state">
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class="state">
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class="state">
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class="state">
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class="state">
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class="state">
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class="state">
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class="state">
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class="state">
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class="state">
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class="state">
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class="state">
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class="state">
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class="state">
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class="state">
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class="state">
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class="state">
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class="state">
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class="state">
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class="state">
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class="state">
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class="state">
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class="state">
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class="state">
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class="state">
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class="state">
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class="state">
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class="state">
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class="state">
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class="state">
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class="state">
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class="state">
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class="state">
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class="state">
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class="state">
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class="state">
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class="state">
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class="state">
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class="state">
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer_directory">
+<div class="container">
+<div class="row">
+<div class="col-xs-6 hidden-xs">
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;W&quot;" href="/schools/directory/w" title="Schools beginning with &quot;W&quot;">w</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class="col-xs-6 hidden-xs">
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;W&quot;" href="/teachers/directory/w" title="Teachers beginning with &quot;W&quot;">w</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class="row footer_countries_list">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer">
+<div class="container">
+<div class="row footer_links">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+<h3 class="hidden-sm hidden-md hidden-lg">Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop="static" data-keyboard data-remote="/contact/new" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Contact RateMyTeachers">
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="row copyright">
+Copyright 2001-2017 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden="true" class="modal fade" id="modal" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div aria-hidden="true" class="modal fade" id="modal_rating" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div id="loading-indicator" style="display: none;">
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif"/>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    functionToLoad.push('//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js');
+  </script>
+<script type="text/javascript">
+    functionToLoad.push('/assets/application-54ea36510d376e4b53979f87d72bc002.js');
+    functionToLoad.push('/assets/users-8d86f10db3dd4d729784ef9748a4b44e.js');
+  </script>
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        // Facebook like
+        // (function(d, s, id) {
+        //   var js, fjs = d.getElementsByTagName(s)[0];
+        //   if (d.getElementById(id)) return;
+        //   js = d.createElement(s); js.id = id;
+        //   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=232453153516852&version=v2.0";
+        //   fjs.parentNode.insertBefore(js, fjs);
+        // }(document, 'script', 'facebook-jssdk'));
+
+        // Google Plus
+        // (function() {
+        //   var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        //   po.src = 'https://apis.google.com/js/platform.js';
+        //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        // })();
+
+        // Twitter Follow
+        // !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      
+      });
+    </script>
+<script>
+  functionToLoad.push(function() {
+    $('#teachers_by_alphabet').change(function(e){
+      document.location.href = $('#teachers_by_alphabet').val()
+    });
+  });
+</script>
+<script>
+  functionToLoad.push(function() {
+    var schoolPagePath = '/brooks-school/23448-s';
+    var resultCount = 82;
+    var minStickyResultCount = 3;
+
+    if (!isMobile && !isMedium && resultCount > 0) {
+      var stickyColumnRight = $(".sticky_container_right .sticky_column");
+      var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+      var footerHeight = $('#all_footer_wrapper').outerHeight() + 50;
+      var stickyOptions = function(getWidthFrom) {
+        return {topSpacing:0, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+      }
+      stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+      // Make center column options sticky when min results quantity
+      if (resultCount > minStickyResultCount - 1) {
+        stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+      }
+    }
+  });
+</script>
+<script type="text/javascript">
+    function initializeMaps() {
+      var length = mapFunctionArray.length;
+      for (var i = 0; i < length; i++) {
+        mapFunctionArray[i]();
+      }
+    }
+
+    functionToLoad.push(function() {
+      // Don't load google maps when no pending maps
+      if (typeof(mapFunctionArray) === 'undefined' || mapFunctionArray.length < 1)
+        return;
+
+      var googleMapsId = "AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g";
+
+      var script_path = "http://maps.googleapis.com/maps/api/js?key=" + googleMapsId + "&sensor=false&callback=initializeMaps";
+      $.getScript(script_path);
+
+    });
+  </script>
+
+<script>
+    window.addEventListener('load', function(){
+      console.info("[PERF] DomContentLoaded: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+
+    window.addEventListener('load', function(){
+      console.info("[PERF] Load: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+  </script>
+
+<script type="text/javascript">
+    (function() {
+      // Load script from url
+      var loadScript = function(url, callback) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+
+        // Add on load callback event
+        if (callback !== null) {
+          if (script.readyState){ //IE
+            script.onreadystatechange = function(){
+              if (script.readyState == "loaded" || script.readyState == "complete"){
+                script.onreadystatechange = null;
+                callback();
+              }
+            };
+          } else { //Others
+            // Execute callback even when an error happen
+            script.onerror = function(e){
+              try {
+                console.error("An error happen when loading '" + err.target.src + "' script.");
+              } catch(err) {} finally {
+                callback();
+              }
+            };
+            script.onload = function(){ callback(); };
+          }
+        }
+
+        // Load the script
+        script.src = url;
+        document.body.appendChild(script);
+      };
+
+      // Load scripts in a sequence instead parallel
+      // to make sure frameworks load correctly
+      function sequence(index, max, source) {
+        if (index < max) {
+          var data = functionToLoad.extractElementData(source[index]);
+
+          if (typeof data.element === 'string') {
+            if (data.async) {
+              // Async script
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+              });
+              sequence(index + 1, max, source);
+            } else {
+              // Sync scripts
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+                sequence(index + 1, max, source);
+              });
+            }
+          } else {
+            // Execute callback even when an error happen on the function
+            try {
+              if (data.async) {
+                // Async script
+                setTimeout(function() { data.element(); }, 1);
+              } else {
+                // Sync script
+                data.element();
+              }
+            } catch(err) {
+              console.error(err);
+            } finally {
+              sequence(index + 1, max, source);
+            }
+          }
+        }
+      }
+
+      // Load all javascript in a sequence
+      var loadDeferredJs = function() {
+        sequence(0, functionToLoad.length, functionToLoad);
+      };
+
+      // Execute all lazy javascripts after DOM load
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredJs, 0); });
+      else window.addEventListener('load', loadDeferredJs);
+    })();
+  </script>
+
+</body>
+</html>

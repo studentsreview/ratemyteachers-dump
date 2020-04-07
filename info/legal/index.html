@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Legal | RateMyTeachers.com</title>
+		<link href="/css/legal.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="/js/core/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/core/sort.js"></script>
+        
+        <script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'>
+</script>
+<script type='text/javascript'>
+GS_googleAddAdSenseService("ca-pub-8322864954623881");
+GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+GA_googleAddSlot("ca-pub-8322864954623881", "ATF_Leaderboard");
+GA_googleAddSlot("ca-pub-8322864954623881", "ATF_MediumRectangle");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_Leaderboard");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomCenter");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomLeft");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomRight");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_TopRight");
+GA_googleAddSlot("ca-pub-8322864954623881", "STF_WideSkyscraper_TopRight");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_Leaderboard_NoAdsense");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomRight_NoAdsense");
+</script>
+<script type='text/javascript'>
+GA_googleFetchAds();
+</script>
+
+
+            <link rel="stylesheet" type="text/css" href="/css/core/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/core/notifier.css">
+    <link rel="stylesheet" type="text/css" href="/css/squeezebox/squeezebox.css">
+    <link rel="stylesheet" type="text/css" href="/css/moodialog/MooDialog.css">
+<!--[if LT IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lte IE 8]>
+        <link href="/css/core/style_ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+    <script type="text/javascript" src="/js/core/mootools-core-1.4-full.js"></script>
+    <script type="text/javascript" src="/js/core/mootools-more-1.4-full.js"></script>
+    <script type="text/javascript" src="/js/core/notifier.js"></script>
+    <script type="text/javascript" src="/js/core/person_filter.js"></script>
+    <script type="text/javascript" src="/js/tabs.js"></script>
+    <script type="text/javascript" src="/js/z-index.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/clear-inputs.js"></script>
+    <script type="text/javascript" src="/js/topcontent.js"></script>
+    <script type="text/javascript" src="/js/like.js"></script>
+    <script type="text/javascript" src="/js/aframe.js"></script>
+    <script type="text/javascript" src="/js/moodialog/Overlay.js"></script>
+    <script type="text/javascript" src="/js/moodialog/MooDialog.js"></script>
+    <script type="text/javascript" src="/js/moodialog/MooDialog.Fx.js"></script>
+    <script type="text/javascript" src="/js/moodialog/MooDialog.Alert.js"></script>
+    <script type="text/javascript" src="/js/moodialog/MooDialog.Confirm.js"></script>
+    <script type="text/javascript" src="/js/moodialog/MooDialog.Request.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			    <meta property="og:title" content="RateMyTeachers.com - Professor, Teacher Ratings and Reviews by Public and Private School Students Parents and Faculty."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://ratemyteachers.com"/>
+    <meta property="og:image" content="http://www.ratemyteachers.com/images/RMT-logo-icon.jpg"/>
+    <meta property="og:site_name" content="Rate My Teachers"/>    
+    <meta property="og:description" content="Over 2.1 million professors and teachers, with 20 million ratings, reviews, and opinions. Find your college, university, or high school on RateMyTeachers.com in the United States. Leave your mark and rate your professor, teacher, or school!"/>
+
+<script type="text/javascript">
+    window.addEvent('domready',function() {
+        /*** Begin Search Expand/Collapse */
+        var status = {
+            'true': 'open',
+            'false': 'close'
+        };
+        var myVerticalSlide = new Fx.Slide('vertical_slide').hide();
+        
+        if ($('search_link') != null) {
+            $('search_link').addEvent('click', function(event) {
+                if (status[myVerticalSlide.open] == "open") {
+                    $('vertical_slide').removeClass('search');
+                } else {
+                    $('vertical_slide').addClass('search');
+                }
+                event.stop();
+                myVerticalSlide.toggle();
+            });
+        }
+        
+        var rate_link = $$('.rate_link');
+        rate_link.each(rate_link_add_click_event);
+        
+        function rate_link_add_click_event (el) {
+            el.addEvent('click', function(event) {
+                if (status[myVerticalSlide.open] == "open") {
+                    $('vertical_slide').removeClass('search');
+                } else {
+                    $('vertical_slide').addClass('search');
+                }
+                event.stop();
+                myVerticalSlide.toggle();
+            });
+        }
+        
+        if ($('rate_link') != null) {
+            $('rate_link').addEvent('click', function(event) {
+                if (status[myVerticalSlide.open] == "open") {
+                    $('vertical_slide').removeClass('search');
+                } else {
+                    $('vertical_slide').addClass('search');
+                }
+                event.stop();
+                myVerticalSlide.toggle();
+            });
+        }
+        
+        if ($('school_link') != null) {
+            $('school_link').addEvent('click', function(event) {
+                if (status[myVerticalSlide.open] == "open") {
+                    $('vertical_slide').removeClass('search');
+                } else {
+                    $('vertical_slide').addClass('search');
+                }
+                event.stop();
+                myVerticalSlide.toggle();
+            });
+        }
+        
+        /*
+        $$('input[name=search_org]').addEvent('blur', function(event){
+			//alert('jona2');
+            event.stop();
+            myVerticalSlide.slideOut();
+        });
+        */
+		/*Added by jonathan 07/20/2012
+		$$('input[name=search_org]').addEvent('click', function(event){
+			//alert('jona3');
+            event.stop();
+            myVerticalSlide.slideOut();
+        });
+		*/
+       
+		$$('input[name=search_teacher]').addEvent('click', function(event){
+			//alert('jona3');
+            event.stop();
+            myVerticalSlide.slideOut();
+        });
+		/*end*/
+        myVerticalSlide.addEvent('complete', function() {
+            $('vertical_status').set('text', status[myVerticalSlide.open]);
+        });
+        /*** End Search Expand/Collapse */
+
+        /*** Begin Textbox Watermark */
+        var values = new Array();
+        var inputs = new Array();
+
+        function addWaterMark(el){
+            try {
+                values.push(el.value);
+                el.onfocus = function ()	{
+                    if (el.value == values[inputs.indexOf(el)]) {
+                        el.value = '';
+                        el.className = el.className.replace("watermarkOn", "");
+                    }
+                }
+                el.onblur = function () {
+                    if(el.value === ''){
+                        el.value = values[inputs.indexOf(el)];
+                        el.className += " watermarkOn";
+                    }
+                }
+            } catch(e) {dbug.log('addWaterMark: ', e)}
+        };
+
+        function addValue(el){
+            try {
+                //if (el.name == "search_org") el.value = "Search for School"
+                if (el.name == "search_teacher") el.value = "Search for Teacher"
+                if (el.id == "search_input_expand") el.value = "Search Here"
+            } catch(e) {dbug.log('addWaterMark: ', e)}
+        };
+
+        inputs = $$('input[name^=search],input[name=search_input_expand],input[name^=newsletter],input[class^=rating_fields_input]');
+        inputs.each(addValue);
+        inputs.each(addWaterMark);
+        /*** End Textbox Watermark */
+    });
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<link rel="stylesheet" type="text/css" href="/css/core/dd.css">
+<script type="text/javascript" src="/js/fancybox/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/js/jquery.dd.js"></script>
+<script type="text/javascript">
+	jQuery.noConflict();
+                (function($){
+        $(document).ready(function() {        
+	try {
+		oHandler = $("#country-select").msDropDown({mainCSS:'dd2'}).data("dd");
+		//alert($.msDropDown.version);
+		//$.msDropDown.create("body select");
+		$("#ver").html($.msDropDown.version);
+		} catch(e) {
+			alert("Error: "+e.message);
+		}
+                
+                $('#imageSubmit').click(function() {
+                    $('#cse-search-box').submit();
+                  });
+                
+                $("select").change(function () {
+                    if ($("select#country-select").val() != "" ) {                                    
+                        switch ($("select#country-select").val())
+                            {
+                                case "United States":
+                                    //window.location = 'http://us.richard.ratemyteachers.com/';
+                                    $("input[name=cr]").val('countryUS');
+                                    break;
+                                case "Canada":
+                                    //window.location = 'http://ca.richard.ratemyteachers.com/';
+                                    $("input[name=cr]").val('countryCA');
+                                    break;
+                                case "United Kingdom":
+                                    //window.location = 'http://uk.richard.ratemyteachers.com/';
+                                    $("input[name=cr]").val('countryUK');
+                                    break;
+                                case "Australia":
+                                    //window.location = 'http://au.richard.ratemyteachers.com/';
+                                    $("input[name=cr]").val('countryAU');
+                                    break;
+                                case "Ireland":
+                                    //window.location = 'http://ie.richard.ratemyteachers.com/';
+                                    $("input[name=cr]").val('countryIE');
+                                    break;
+                                case "New Zealand":
+                                    //window.location = 'http://nz.richard.ratemyteachers.com/';
+                                    $("input[name=cr]").val('countryNZ');
+                                    break;    
+                                default: 
+                                   //window.location = 'http://us.richard.ratemyteachers.com/';
+                                   $("input[name=cr]").val('countryUS');
+                            }
+                    }
+                    
+                });
+                
+	})
+          })(jQuery);
+</script>
+<header>
+    <div id="pagelet">
+        <div id="pagelet_left" class="fltlft">
+            <a href="/" class="fltlft">RateMyTeachers.com</a><span class="fltlft">&nbsp;-</span>
+            <div class="pagelet_select_country fltlft">
+                <ul id="sort2">
+                    <li><a class="option selected" href="#" title="United States">United States</a></li>
+                                            <li><a class="option" href="http://ca.ratemyteachers.com" title="Canada">Canada</a></li>
+                                            <li><a class="option" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a></li>
+                                            <li><a class="option" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a></li>
+                                            <li><a class="option" href="http://au.ratemyteachers.com" title="Australia">Australia</a></li>
+                                            <li><a class="option" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a></li>
+                                    </ul>
+            </div>
+        </div>
+                <ul>
+            <li><a href="/schools.rss">RSS</a></li>
+                            <li><a href="/register/info/legal">Sign up</a></li>
+                        <li><a href="#" class="rate_link">Rate</a></li>
+                <li><a href="/login/info/legal">Log in</a></li>
+
+			<li>
+            	<div class="fb-like" data-href="http://www.facebook.com/pages/Rate-My-Teachers/172604876112259" data-send="false" data-layout="button_count" data-width="80" data-show-faces="true" style="margin-left:10px;"></div>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <!--end pagelet-->
+
+    <div id="header">
+    	<div id="head">
+        	<div id="head_blk">
+                <h1 class="fltlft"><a href="/"><img src="/images/RateMyTeacher_Logo.png" alt="Rate My Teachers" title="Rate My Teachers" /></a></h1>
+                <div id="header-search">			
+                    <div class="search-input">
+                        <!--
+                        <form action="http://www.ratemyteachers.com/search/school" method="get" id="school_search">
+                            <input id="search_org" name="search_org" type="text" class="school watermarkOn" />
+                            <input name="submit_search" type="image" src="/images/search-btn1.png" class="SearchSubmit" alt="Search School on Rate My Teachers" title="Search School on Rate My Teachers" />
+                        </form>
+                        -->
+                        <!--<form class="search-form" action="http://www.google.com/cse" method="get" id="school_search"> -->
+                        <!--
+                        <form class="search-form" action="/search" method="post" id="school_search">
+                            <fieldset>                               
+                                <div class="row">                                                        
+                                    <input id="search" class="school watermarkOn" type="text" name="q" value="Enter Keywords" />
+                                    <input class="SearchSubmit" type="submit" name="sa" value="Search" alt="Search School on Rate My Teachers" title="Search School on Rate My Teachers" />                                                      
+                                </div>
+                                <input type="hidden" name="ie" value="ISO-8859-1" />
+                                <input type="hidden" name="cx" value="partner-pub-8322864954623881:m59ex1d1spx" />
+                            </fieldset>
+                        </form>
+                        -->
+                        <form action="http://www.google.com/cse" id="cse-search-box">
+                            <div>
+                              <!--<input type="hidden" name="cx" value="partner-pub-8322864954623881:m59ex1d1spx" />-->
+                              <input type="hidden" name="cx" value="002069359071098435579:lblk1g7-2ri" />
+                              <input type="hidden" name="ie" value="ISO-8859-1" />
+                                                                                            <input type="hidden" name="cr" value="countryUS" />
+                                                            <input type="text" name="q" size="31" class="school watermarkOn" />
+                              <input type="submit" name="sa" value="Search" class="SearchSubmit" />
+                            </div>
+                          </form>
+                         
+                          <script type="text/javascript" src="/js/google-search/google.js"></script>
+                          <!--<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>-->
+                    </div>
+                    <div class="search-select">
+                        <form id="formSearchByCountry" action="" method ="get">
+                            <select name="websites2" id="country-select" style="width:278px !important; display:none;" tabindex="1">
+                                <option name="one" selectec="selected" value="United States"  title="images/icon-ok.gif">United States</option>    
+                                                                        <option  name="two" value="Canada"  title="images/icon-ok.gif">Canada</option>
+                                                                                <option value="United Kingdom"  title="images/icon-ok.gif">United Kingdom</option>
+                                                                                <option value="Ireland" title="images/icon-ok.gif">Ireland</option>
+                                                                                <option value="Australia"  title="images/icon-ok.gif">Australia</option>
+                                                                                <option value="New Zealand"  title="images/icon-ok.gif">New Zealand</option>
+                                                                                
+                            </select>
+                        </form>
+                    </div>
+                    <div class="search-input" style="display:none;">
+                        <form action="http://www.ratemyteachers.com/search/people" method="get" id="teacher_search">
+                            <input id="search_teacher" name="search_teacher" type="text" class="watermarkOn" />
+                            <input name="submit_search"  type="image" src="/images/search-btn1.png" class="SearchSubmit" alt="Search Teacher on Rate My Teachers" title="Search Teacher on Rate My Teachers" />
+                        </form>
+                    </div>
+                    <div>
+                        
+                        <input name="submit_search" id ="imageSubmit" type="image" src="/images/search-btn.png" alt="Search School &amp; Teacher on Rate My Teachers" title="Search School &amp; Teacher on Rate My Teachers" />
+                        
+                    </div>
+                </div>
+            <script type="text/javascript">
+                    window.addEvent('domready',function() {
+        
+                        $$('input[name=submit_search]').addEvent('click', function(event){
+                            event.stop(); // Stops the submission of the form.
+                            var keyword1 = $('search_org').get("value");
+                            var keyword2 = $('search_teacher').get("value");
+                            if (keyword1 != null && keyword1 != "Search for School") {
+                                if (has_common_words(keyword1)){ var box = new MooDialog.Alert('Please refine your search term'); }
+                                else { $('school_search').submit(); }
+                            } else if (keyword2 != null && keyword2 != "Search for Teacher") {
+                                $('teacher_search').submit();
+                            }
+                        });
+                        /*
+                        $('search_org').addEvent('keydown', function(event) {
+                            //alert('jona');
+                            if(event.key == "enter") {
+                                event.stop();
+                                var keyword = this.get('value');
+                                if (has_common_words(keyword)){ var box = new MooDialog.Alert('Please refine your search term'); }
+                                else { $('school_search').submit(); }
+                            }
+                        });
+                        */
+        
+        
+                        $('search_teacher').addEvent('keydown', function(event) {
+                            if(event.key == "enter") {
+                                event.stop();
+                                var keyword = this.get('value');
+                                $('teacher_search').submit();
+                            }
+                        });
+                        function has_common_words(keyword){
+                            var c_words = ['college', 'high', 'elementary', 'school'];
+                            var searchIndex = c_words.indexOf(keyword.toLowerCase());
+                            return searchIndex != -1;
+                        }
+                    });
+            </script>
+            <div class="clear"></div>
+        	</div>
+        </div>
+    </div>
+    <!--end header-->
+
+</header>
+			<div id="content_container">
+            	<div id="navi">
+                    <ul>            	
+                        <li><a href="#" id="rate_link">Rate Now</a></li>              
+                        <li><a href="#" id="search_link">Search</a></li> 
+                    </ul>
+                </div>
+                <!--end navi--> 
+
+				<div id="content">
+                	<div class="ads">
+                        <div class="ATF_Leaderboard">
+                            <!-- ATF_Leaderboard -->
+                            <script type='text/javascript'>
+                                GA_googleFillSlot("ATF_Leaderboard");
+                            </script>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <!--end ads-->
+                
+                	<div id="vertical_slide" class="search">
+                        <form action="/search" method="post" id="school_search">
+                            <fieldset>
+                                <div class="search-input-blk">
+                                    <input name="search_org" type="text" class="school" value="Search Here" />
+                                </div>
+                                <div>
+                                    <!--<input name="search_org" type="text" class="school" value="" />-->
+                                    <input id="search-button" class="school-submit" type="submit" name="search-org-submit" value="" alt="RateMyTeachers Search" title="RateMyTeachers Search" src="/images/search-btn.png" />
+                                </div>
+                            </fieldset>
+                        </form>
+                        <span id="vertical_status" style="display:none;">close</span>
+                    </div>
+                    <!--end search-->
+
+					<div class="terms">
+						<h1 class="info_h1">Legal</h1>
+						<a class="black" href="#terms">Terms</a><br />
+		<a class="black" href="#legal_jump">Legal</a><br />
+		<a class="black" href="#privacy">Privacy</a><br />
+		<a name="terms"></a>
+		<style type="text/css">
+.terms_normal {
+	list-style-type:disc;
+	margin-left:25px;
+	}
+</style>
+		<div align="center">
+			<b>
+				<h3>RATEMYTEACHERS.COM, LLC TERMS OF USE</h3>
+			</b></div>
+		<br />THIS DOCUMENT SETS FORTH THE TERMS OF USE FOR THE RATEMYTEACHERS.COM, LLC (&ldquo;RMT.com,&rdquo; &ldquo;WE,&rdquo; &ldquo;US,&rdquo; OR &ldquo;OUR&rdquo;) WEBSITE, WWW.RATEMYTEACHERS.COM (&ldquo;SITE&rdquo;), AS MORE SPECIFICALLY DEFINED BELOW, AND THE INFORMATION, SERVICES AND/OR PRODUCTS THAT MAY BE MADE AVAILABLE TO YOU, THE USER (&ldquo;YOU&rdquo; OR &ldquo;YOUR&rdquo;) THROUGH THIS SITE (IF YOU ARE UNDER THE LEGAL AGE OF MAJORITY, &ldquo;YOU&rdquo; AND &ldquo;YOUR&rdquo; ALSO INCLUDE YOUR PARENTS OR LEGAL GUARDIANS). PLEASE READ THE FOLLOWING TERMS OF USE (&ldquo;TERMS&rdquo;) CAREFULLY. BY USING THE SITE, YOU INDICATE THAT YOU HAVE READ AND AGREE TO BE BOUND BY THESE TERMS, INCLUDING THE BINDING ARBITRATION PROVISIONS. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THE SITE IN ANY MANNER.<br />
+		<br />The &ldquo;Site&rdquo; encompasses this website and all associated RMT.com Web pages, including without limitation all content, materials, information, policies, modifications, updates, enhancements, revisions, new features, and or new web properties of such pages, along with all site services provided through such Web pages.<br />
+		<br />
+		<div align="center">
+			<b><u>Modification of these Terms of Use</u></b></div>
+		<br />
+		<br />
+		RMT.com reserves the right to change these Terms at any time at its sole discretion and without notice to you. All changes to the Terms will be posted on the Site and are effective immediately. Consequently, RMT.com recommends that you visit and review these Terms frequently. Your continued use of the Site following any changes to the Terms will mean you accept those changes.<br />
+		<br />
+		<div align="center">
+			<b><u>Site Ownership</u></b></div>
+		<br />
+		<br />
+		The Site, including all text, logos or graphic images appearing therein, is protected by copyright, trademark, patent, trade secret, and other laws. The Site and all Site content is the property of RMT.com and/or third party licensors, and all right, title and interest in and to the Site shall remain with RMT.com and/or such third party licensors. Nothing in these Terms transfers any rights to you or any third party except as expressly set forth herein.<br />
+		<br />
+		<div align="center">
+			<b><u>Links to Third Party Sites</u></b></div>
+		<br />
+		<br />The Site may contain links to other web sites (&ldquo;Linked Sites&rdquo;). The Linked Sites are not under the control of RMT.com and RMT.com is not responsible for the contents of any Linked Site, including without limitation any link contained in a Linked Site, or any changes or updates to a Linked Site. RMT.com is not responsible for webcasting or any other form of transmission received from any Linked Site. RMT.com is providing these links to you only as a convenience, and the inclusion of any link does not imply any association with its operators. You enter any Linked Site at your own risk.<br />
+		<br />
+		<div align="center">
+			<b><u>Site Use</u></b></div>
+		<br />
+		<br />
+		The Site may contain bulletin board services, chat areas, news groups, forums, communities, personal web pages, calendars, and/or other message or communication facilities designed to enable you to communicate with the public at large or with a group. You agree to use the Site only to post, send and receive messages and material that are proper and related to the particular Site forum, community, or other site service you are using. Unless otherwise specifically agreed by you and RMT.com in writing, the Site is for your personal and non-commercial use only, and you will not:<br />
+		<br />
+		<ul class="terms_normal">
+			<li>Post on or transmit to the Site any defamatory, libelous, obscene, bigoted, hateful, racially offensive, vulgar, harassing, inflammatory, pornographic, profane, threatening or unlawful content or any content that could constitute or encourage conduct that would be considered a criminal offense or give rise to civil liability, whether under statute, common law or equitable principles, or otherwise violate any law.<br />
+				<br />
+			</li>
+			<li>Upload files that contain viruses, corrupted files, or any other similar software or programs that may damage the operation of another's computer.<br />
+				<br />
+			</li>
+			<li>Advertise or offer to sell or buy any goods or services for any business purpose, unless the Site service you are using specifically allows such messages.<br />
+				<br />
+			</li>
+			<li>Conduct or forward surveys, contests, pyramid schemes or chain letters.<br />
+				<br />
+			</li>
+			<li>Download any file posted by another user of the Site that you know, or reasonably should know, cannot be legally distributed in such manner.<br />
+				<br />
+			</li>
+			<li>Falsify or delete any author attributions, copyright notices or legal or other proper notices or proprietary designations or labels of the origin or source of software or other material contained in a file that is uploaded, or that is provided with Site materials.<br />
+				<br />
+			</li>
+			<li>Violate any code of conduct or other guidelines which may be applicable to any particular Site services.<br />
+				<br />
+			</li>
+			<li>Harvest or otherwise collect information about others, including e-mail addresses, without their prior express written consent.<br />
+				<br />
+			</li>
+			<li>Post on or transmit to the Site any content that discusses illegal activities with the intent to commit them.<br />
+				<br />
+			</li>
+			<li>Use the Site in any manner which could damage, disable, overburden, or impair the Site or interfere with any other party's use and enjoyment of the Site.<br />
+				<br />
+			</li>
+			<li>Obtain or attempt to obtain any materials or information through any means not intentionally made available or provided for through the Site.<br />
+				<br />
+			</li>
+			<li>Violate any applicable laws or regulations, or violate these Terms of Use.<br />
+				<br />
+			</li>
+			<li>Access or attempt to access any other user&rsquo;s account, or misrepresent or attempt to misrepresent your identity while using the Site.<br />
+				<br />
+			</li>
+			<li>Post on, transmit to or upload from the Site any content that violates another party&rsquo;s privacy or infringes another party&rsquo;s intellectual property, including, but not limited to, such party&rsquo;s copyrights, trademarks, trade secrets or patents. Examples of materials that may be covered by copyright include software, graphics, text, photographs, sound, video and musical recordings.<br />
+				<br />
+			</li>
+		</ul>
+		<div align="center">
+			<b><u>Monitoring</u></b></div>
+		<br />
+		<br />RMT.com has no obligation to monitor you or any other user&rsquo;s use of the Site, and currently does not perform such monitoring. RMT.com reserves the right to review and monitor your use of the Site, including without limitation your use of any user ID and/or password in accessing the Site and any materials posted to the Site, and to remove any materials in its sole discretion. RMT.com reserves the right to restrict or terminate your access to the Site, including, without limitation, your access to any or all of the services provided thereunder or your ability to use any Site user ID and/or password, at any time without notice if we believe you have violated these Terms of Use. RMT.com&rsquo;s goal is to encourage civil discourse on the Site.<br />
+		<br />
+		<div align="center">
+			<b><u>Information Disclosure</u></b></div>
+		<br />
+		<br />
+		<u>Disclosure Under Law.</u> RMT.com reserves the right at all times to disclose any information as necessary to satisfy any applicable law, regulation, legal process or governmental request, or to edit, refuse to post or to remove any information or materials, in whole or in part, in RMT.com&rsquo;s sole discretion if we believe you have violated these Terms of Use.<br />
+		<br />
+		<u>Providing Correct Personal Information.</u> In the course of using the Site, you may be required to enter certain information, including without limitation personal information (&ldquo;Information&rdquo;). You agree to provide RMT.com with correct Information, and to update such Information on the Site promptly as reasonably necessary and as required by the Site.<br />
+		<br />
+		<u>Caution When Providing Information.</u> Always use caution when giving out any personally identifying information about yourself or your children in using any Site service. RMT.com does not control or endorse the content, messages or information found in any Site forums, communities or other services and, therefore, RMT.com specifically disclaims any liability with regard to Site services and any actions resulting from your participation in such services. Managers and hosts are not authorized RMT.com spokespersons, and their views do not necessarily reflect those of RMT.com.<br />
+		<br />
+		<u>Posting Limitations.</u> Materials uploaded to the Site may be subject to posted limitations on usage, reproduction and/or dissemination. You are responsible for adhering to such limitations if you download the materials.<br />
+		<br />
+		<div align="center">
+			<b><u>Materials Provided to RMT.com or Posted at Any Site</u></b></div>
+		<br />
+		<br />
+		<u>License in Posted Materials.</u> RMT.com does not claim ownership of the materials you provide to RMT.com (including feedback and suggestions) or that you post, upload, input or submit to the Site or its associated services (collectively &ldquo;Submissions&rdquo;). However, by posting, uploading, inputting, providing or submitting your Submission you are granting RMT.com, its affiliated companies and sublicensees a non-exclusive, royalty-free, perpetual, irrevocable and fully assignable and sublicenseable license in and to such Submissions. We have the right to: copy, distribute, transmit, publicly display, publicly perform, reproduce, edit, translate and reformat your Submission, with or without attribution, and allow other Site users to do so as well. Where feasible, we will generally strive to provide attribution in the event we use Submissions.<br />
+		<br />
+		<u>No Compensation.</u> No compensation will be paid with respect to the use of your Submission, as provided herein. RMT.com is under no obligation to post or use any Submission you may provide and may remove any Submission at any time in RMT.com's sole discretion.<br />
+		<br />
+		<u>User Representation.</u> By posting, uploading, inputting, providing or submitting your Submission you warrant and represent that you own or otherwise control all of the rights to your Submission as described in this section including, without limitation, all the rights necessary for you to provide, post, upload, input or submit the Submissions.<br />
+		<br />
+		<div align="center">
+			<b><u>Representation and Warranty Disclaimer</u></b></div>
+		<br />
+		<br />THE SITE AND ALL INFORMATION AND MATERIALS ON THE SITE, INCLUDING TEXT, IMAGES, GRAPHICS, AND LINKS, AND THE INFORMATION AND MATERIALS ON ANY WEBSITES, WHETHER AFFILIATED OR UNAFFILIATED WITH RMT.COM, WHICH YOU MAY VISIT THROUGH THE SITE, IS PROVIDED &ldquo;AS IS&rdquo; BY US AS A CONVENIENCE TO ALL USERS, WITHOUT REPRESENTATION OR WARRANTY OF ANY KIND TO YOU OR ANY THIRD PARTY, INCLUDING, BUT NOT LIMITED TO, ANY EXPRESS OR IMPLIED WARRANTIES (I) OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE; (II) OF INFORMATIONAL CONTENT OR ACCURACY; (III) OF NON-INFRINGEMENT; (IV) OF QUIET ENJOYMENT; (V) OF TITLE; (VI) THAT THE SITE WILL OPERATE ERROR FREE, OR IN AN UNINTERRUPTED FASHION; (VII) THAT ANY DEFECTS OR ERRORS IN THE SITE WILL BE CORRECTED; OR (VIII) THAT THE SITE IS COMPATIBLE WITH ANY PARTICULAR HARDWARE OR SOFTWARE PLATFORM. ANY USE OF THE SITE AND ANY INFORMATION AND/OR MATERIALS PROVIDED ON OR THROUGH THE SITE SHALL BE SOLELY AT YOUR OWN RISK. EFFORTS BY RMT.COM TO MODIFY THE SITE SHALL NOT BE DEEMED A WAIVER OF THESE LIMITATIONS. RMT.COM AND ITS OFFICERS, DIRECTORS, AGENTS, EMPLOYEES, SUCCESSORS, ASSIGNS, AND STOCKHOLDERS (COLLECTIVELY, WITH RMT.COM, THE &ldquo;RMT.COM ENTITIES&rdquo;) SHALL NOT BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY LOSS OF PROFITS, LOSS OF USE, LOSS OF DATA, INTERRUPTION OF BUSINESS, OR ANY DIRECT, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES OF ANY KIND WHETHER UNDER THESE TERMS, STATUTE, REGULATION, COMMON LAW PRECEDENT OR DOCTRINE, OR OTHERWISE, EVEN IF WE WERE ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR WERE NEGLIGENT. In jurisdictions that prohibit the exclusion or limitation of liability for consequential or incidental damages, RMT.com&rsquo;s liability is limited to the greatest extent permitted by law.<br />
+		<br />
+		<div align="center">
+			<b><u>Indemnification</u></b></div>
+		<br />
+		<br />You shall indemnify, defend and hold the RMT.com Entities harmless from all claims, losses, liabilities, suits, damages, disputes or demands, including reasonable attorneys fees (collectively, &ldquo;Claims&rdquo;), arising from your use of the Site or from any violation of these Terms. In connection with any Claims that may give rise to your indemnification obligations as set forth above, the RMT.com Entities shall have the exclusive right, at its option, to defend, compromise and/or settle the suit, action or proceeding, and you shall be bound by the determination of any suit, action or proceeding so defended or any compromise or settlement so effected. The remedies provided in this Section are not exclusive of and do not limit any other remedies that may be available to the RMT.com Entities pursuant to this Section.<br />
+		<br />
+		<div align="center">
+			<b><u>Your Account</u></b></div>
+		<br />
+		<br />
+		<u>Confidentiality of Account and Password.</u> You are responsible for maintaining the confidentiality of your account and password, if any, and for restricting access to your computer. You accept full responsibility and liability for all activities that occur under your account or password. RMT.com reserves the right to refuse service, terminate accounts, or remove content in its sole discretion. For certain services, you may be required to register; as part of the registration process, you must select a user name. The information that you supply during any registration process must be accurate and complete and you agree to not (1) register under the name of another person; (2) choose a user name that RMT.com deems offensive; or (3) choose a user name for the purposes of deceiving or misleading forums members and/or staff as to your true identity. You agree to not impersonate any other person, including any other RMT.com forum member, any RMT.com forum host or any RMT.com staff.<br />
+		<br />
+		<u>Notification of Unauthorized Use/Ceasing Access.</u> You shall notify RMT.com immediately of any unauthorized use or threat of unauthorized use of your account or the Site or of any other breach or potential breach of security known to you with respect to your account or the Site, including without limitation any loss or compromise of any password, and will cooperate with RMT.com in every reasonable way to help RMT.com prevent the further unauthorized use, threat of unauthorized use, disclosure or threat of disclosure regarding the Site, your account and/or your password. You agree that immediately upon termination of your right to use the Site, or upon any earlier demand by RMT.com at any time, you will cease all access and/or use of the Site, and will not attempt to access and/or use the Site.<br />
+		<br />
+		<div align="center">
+			<b><u>Notice and Procedure for Making Claims of Copyright Infringement</u></b></div>RMT.com will investigate notices of copyright infringement and take appropriate actions under the Digital Millennium Copyright Act (&ldquo;DMCA&rdquo;). Pursuant to the DMCA, written notification of claimed copyright infringement must be submitted to the RMT.com Designated Agent using the following contact information:<br />
+		<br />
+		[COPYRIGHT AGENT NAME] copyrights@RateMyTeachers.com [COPYRIGHT AGENT ADDRESS] [COPYRIGHT AGENT TEL. NO.] [COPYRIGHT AGENT FAX NO.]<br />
+		<br />
+		ALL INQUIRIES NOT RELEVANT TO THE ABOVE PROCEDURE WILL RECEIVE NO RESPONSE.<br />
+		<br />
+		<div align="center">
+			<b><u>Dispute Resolution (Arbitration Clause)</u></b></div>
+		<br />
+		<br />
+		<u>Binding Arbitration.</u> You and RMT.com each agree to submit to binding arbitration in the event of a dispute, controversy or claim (each, a &ldquo;Dispute&rdquo;) arising out of or in connection with these Terms, your or RMT.com&rsquo;s rights and obligations under these Terms, the Site, the use of the Site, and/or the information, services and/or products that may be provided by or through or in connection with the Site. The arbitration will be held in Maryland before one arbitrator on an individual basis and not as a class action. You expressly waive any right you may have to arbitrate a dispute as a class action. You also expressly waive your right to a jury trial. You may select one of the following arbitration organizations and its applicable rules: the National Arbitration Forum, Box 50191, Minneapolis, MN 55405-0191 (www.arb-forum.com), or JAMS, Two Embarcadero Center Suite 1100 San Francisco, CA 94111 (www.jamsadr.com). If you fail to select an arbitration organization within 30 days after notice from RMT.com, RMT.com may select the organization. You may obtain a copy of the rules of each organization by contacting the organization. In the event that any Dispute cannot be submitted to binding arbitration pursuant to the rules of any such organization, such event shall not affect the enforceability of this clause so long as the Dispute may be submitted to binding arbitration with one of the organizations. You and RMT.com shall agree on one arbitrator to conduct the arbitration and the arbitrator shall be selected pursuant to the applicable rules. Each party shall be responsible for its own attorney, expert and other fees, unless such fees are awarded by the arbitrator to the prevailing party. Notwithstanding anything to the contrary in this Section, to the extent you have in any manner violated or threatened to violate RMT.com&rsquo;s intellectual property rights, RMT.com may seek (and you will not contest) injunctive or other appropriate relief in any state or federal court in the state of Maryland, and you consent to exclusive jurisdiction and venue in such courts.<br />
+		<br />
+		<u>Arbitration Final.</u> The arbitrator's award is final and binding on all parties. The Federal Arbitration Act, and not any state law concerning arbitration, governs all arbitration under this clause. Any court having jurisdiction may enter judgment on the arbitrator's award. If any part of this clause, other than waivers of class action rights, is deemed or found to be unenforceable for any reason, the remainder shall remain enforceable. Notwithstanding anything to the contrary contained herein, if the waiver of class action rights contained herein is not enforceable as to any person or persons, such non-enforceability shall apply to such person or persons only, and all other persons shall continue to be governed by the Arbitration Clause.<br />
+		<br />
+		<u>Giving Up Right of Class Action.</u> These Terms provide that all Disputes will be resolved by binding arbitration and not in court or by jury trial. IF A DISPUTE IS ARBITRATED, YOU GIVE UP YOUR RIGHT TO PARTICIPATE AS A CLASS REPRESENTATIVE OR CLASS MEMBER ON ANY CLASS CLAIM YOU MAY HAVE AGAINST RMT.COM INCLUDING ANY RIGHT TO CLASS ARBITRATION OR ANY CONSOLIDATION OF INDIVIDUAL ARBITRATIONS. WITHOUT LIMITATION, THIS INCLUDES GIVING UP YOUR RIGHTS TO BRING OR PARTICIPATE IN A CLASS ACTION AS SET FORTH IN ANY STATE STATUTE.<br />
+		<br />
+		<u>California Residents.</u> If you are a California resident, to the extent permitted by California law, you waive California Civil Code Section 1542, which states: &ldquo;A general release does not extend to claims which the creditor does not know or suspect to exist in his favor at the time of executing the release, which if known by him must have materially affected his settlement with the debtor&rdquo; as well as any other unknown claims under California Civil Code Section 1542 or any statute or common law principle of similar effect.<br />
+		<br />
+		<div align="center">
+			<b><u>Choice of Law; Jurisdiction and Venue; Waiver of Trial By Jury</u></b></div>
+		<br />
+		<br />To the maximum extent permitted by law, these Terms are governed by the laws of the State of Maryland, excluding any law or conflicts of law principle that would apply the law of another jurisdiction. NOTWITHSTANDING THE FOREGOING, THE PARTIES EXPRESSLY OPT OUT OF THE MARYLAND UNIFORM COMPUTER TRANSACTIONS ACT (&ldquo;MUCITA&rdquo;) AS PERMITTED BY SECTION 22-104 OF MUCITA. To the extent a Dispute is not governed by the Arbitration Clause, you hereby consent to the exclusive jurisdiction and venue of courts in the State of Maryland in all disputes arising out of or relating to the use of the Site or under these Terms; provided, however, that in the event RMT.com is sued or joined by a third party in any other court or in any other forum in respect of any matter which may give rise to a claim by RMT.com hereunder, you consent to the jurisdiction of such court or forum over any claim which may be asserted by RMT.com therein. You irrevocably consent to the exercise of personal jurisdiction by such courts in any such action. In addition, and notwithstanding the foregoing, you irrevocably waive, to the fullest extent permitted by law, any objection that you may now or hereafter have to the laying of the venue of any such suit, action or proceeding brought in any such court and any claim that any such suit, action or proceeding brought in any such court has been brought in an inconvenient forum. Final judgment in any such suit, action or proceeding brought in any such court shall be conclusive and binding upon you and may be enforced in any court in which you are subject to a jurisdiction by a suit upon such judgment. To the Use of the Site is unauthorized in any jurisdiction that does not give effect to all provisions of these terms and conditions, including without limitation this paragraph. To the extent a claim is not governed by the Arbitration Clause, RMT.com and you each hereby waive the right to a trial by jury in any court and in any suit, action or proceeding, whether in tort, contract, or otherwise, in which any such party is a party, as to any claim arising out of or in connection with these Terms, your or RMT.com&rsquo;s rights and obligations under these Terms, the Site, use of the Site, and/or the services and/or products that may be provided by or through or in connection with the Site.<br />
+		<br />
+		<div align="center">
+			<b><u>General</u></b></div>
+		<br />
+		<br />You agree that no joint venture, partnership, employment, or agency relationship exists between you and RMT.com as a result of these Terms or use of the Site. RMT.com&rsquo;s performance of these Terms is subject to existing laws and legal process, and nothing contained in these Terms is in derogation of RMT.com&rsquo;s right to comply with governmental, court and law enforcement requests or requirements relating to your use of the Site or information provided to or gathered by RMT.com with respect to such use. If any provision of these Terms shall be held to be invalid or unenforceable for any reason, the remaining provisions shall continue to be valid and enforceable. If any provision(s) of these Terms shall be held by a court of competent jurisdiction to be illegal, invalid, or unenforceable, the provision shall be deemed to have been amended to the extent required to render it valid and enforceable, and such court is hereby authorized and directed to amend the provision to the extent that, but only to the extent that, such court determines such amendment is necessary to make it legal, valid, and enforceable. The failure of RMT.com to enforce any provision of these Terms shall not be construed as a waiver or limitation of RMT.com&rsquo;s right to subsequently enforce and compel strict compliance with that provision or any other provision of these Terms. These Terms shall be binding upon, inure to the benefit of, and be enforceable by the parties to these Terms and their respective successors, heirs, legatees, personal representatives and permitted assigns. No assignment, delegation or other conveyance of these Terms or of any rights or obligations hereunder may be made by you (by operation of law or otherwise) without the prior written consent of RMT.com. RMT.com may assign its rights and obligations under these Terms to any other party. Unless otherwise specified herein, these Terms constitute the entire agreement between you and RMT.com with respect to the Site and it supersedes all prior or contemporaneous communications and proposals, whether electronic, oral or written, between you and RMT.com with respect to the Site. A printed version of these Terms and of any notice given in electronic form shall be admissible in judicial or administrative proceedings based upon or relating to these Terms to the same extent and subject to the same conditions as other business documents and records originally generated and maintained in printed form. It is the express wish of the parties that these Terms and all related documents be drawn up in English. The headings and other captions in these Terms are for convenience and reference only and shall not be used in interpreting, construing or enforcing any of the provisions of these Terms. Those terms and conditions of these Terms that assign liabilities to the parties extending beyond the term of these Terms shall survive termination of these Terms.<br />
+		<br />
+		<div align="center">
+			<b><u>Privacy Policy</u></b></div>
+		<br />
+		<br />By using the Site, you consent to RMT.com&rsquo;s use and disclosure of information about you in accordance with any privacy policy posted by RMT.com, which is a part of these Terms, without any further notice or any liability to you or any other person.<br />
+		<br />
+		<div align="center">
+			<b><u>Support</u></b></div>
+		<br />
+		<br />Unless otherwise agreed in writing by you and RMT.com, RMT.com is not obligated to provide, and shall not provide, any support, consulting, interpretation, training or assistance (collectively, &ldquo;Support&rdquo;) of any kind to you, including without limitation Support relating to use, operation and/or performance of the Site.<br />
+		<br />
+		<div align="center">
+			<b><u>Viewing Outside the United States</u></b></div>
+		<br />
+		<br />
+		RMT.com makes no claims that the Site may be lawfully viewed, accessed or used outside the United States. Access or use of the Site may not be legal by certain persons or in certain countries. If you access or use the Site from outside of the United States, you do so at your own risk and you are responsible for compliance with the laws of your jurisdiction. <a name="legal_jump"></a>
+		<div align="center">
+			<b>
+				<h3>RATEMYTEACHERS.COM, LEGAL USE</h3>
+			</b></div>
+		<br />
+		IF YOU ARE CONSIDERING A LAW SUIT, YOU REALLY SHOULD READ THIS PAGE!<br />
+		<br />Our users are anonymous. The Supreme Court of the United States has held that anonymity of speech is protected under the First Amendment to the Constitution (see McIntyre v. Ohio, 514 U.S. at 337; Talley v. State of California, 362 U.S. 60). United States courts also recognize the right to speak anonymously &#150; AND have held that the right extends to speech on the Internet. When courts have ordered disclosure of the name of an anonymous user, a litigant must show that its need for identifying information outweighs the user's constitutional right. RateMyTeachers.com recognizes this right to anonymity.<br />
+		<br />
+		According to the Electronic Frontier Foundation:<br />
+		<br />Anyone questioning the legality of anonymous postings on an internet site should familiarize himself or herself with 47 USC Section 230, the federal law that permits many entities to &quot;host&quot; other people's content without being liable for defamation/libel etc. &quot;By its plain language, &sect; 230 creates a federal immunity to any cause of action that would make service providers liable for information originating with a third-party user of the service.&quot; Zeran v. AOL, 129 F.3d 327, 330 (4th Cir. 1997). Under 230(c)(2)(A), ``<br />
+		<br />
+		Does this change when RateMyTeachers deletes inappropriate comments?<br />
+		The answer is NO according to the following:<br />
+		<br />
+		(2) Civil liability.--No provider or user of an interactive computer service shall be held liable on account of-- ``(A) any action voluntarily taken in good faith to restrict access to or availability of material that the provider or user considers to be obscene, lewd, lascivious, filthy, excessively violent, harassing, or otherwise objectionable, whether or not such material is constitutionally protected.<br />
+		<br />
+		The following is a list of websites containing legal information, as well as quotes and legal precedents. Please feel free to click on the links.<br />
+		<br />
+		<a class="map" href="http://www.thefirstamendment.org/antislappresourcecenter.html">The Anti SLAPP Resource Center</a><br />
+		<a class="map" href="http://www.splc.org/">Student Press Law Center</a><br />
+		<a class="map" href="http://www.aclu.org/">ACLU: Student Cyber Liberties</a><br />
+		<a class="map" href="http://www.aclunc.org/aclunews/news62000/curzonbrown.html">ACLU Northern California</a><br />
+		<a class="map" href="http://www.eff.org/Legal/recent_legal.html">Electronic Frontier Foundation: Anti-SLAPP Cases</a><br />
+		<a class="map" href="http://news.com.com/2100-1028_3-5156094.html?tag=nefd_top">News.com: Relevant e-Bay case</a><br />
+		<br />
+		Any disputes or claims must be filed in the United States, State of California, County of Kern. <a name="privacy"></a>
+		<div align="center">
+			<h2>RATEMYTEACHERS.COM PRIVACY POLICY</h2>
+		</div>
+		<br />
+		<br />
+		<b>THIS DOCUMENT SETS FORTH THE PRIVACY POLICY FOR THE RATEMYTEACHERS.COM, LLC (&ldquo;RMT.COM&rdquo;) WEBSITE <u>WWW.RATEMYTEACHERS.COM</u> (&ldquo;SITE&rdquo;). RMT.COM VALUES THE PROTECTION OF INDIVIDUAL PRIVACY AND IS COMMITTED TO THE PRIVACY OF ITS VISITORS. THIS PRIVACY POLICY SETS FORTH RMT.COM&rsquo;S PRIVACY POLICY FOR THE SITE, AND GOVERNS THE MANNER IN WHICH RMT.COM COLLECTS, USES, MAINTAINS AND DISCLOSES INFORMATION COLLECTED FROM USERS OF THE SITE. BY USING THE SITE, YOU AGREE TO BE BOUND BY THIS PRIVACY POLICY. IF YOU DO NOT AGREE TO THIS PRIVACY POLICY, DO NOT USE THE SITE IN ANY MANNER. THIS PRIVACY POLICY DOES NOT GOVERN PRIVACY PRACTICES ASSOCIATED WITH OFFLINE ACTIVITIES OR ACTIVITIES OCCURRING ON WEBSITES NOT UNDER RMT.COM&rsquo;S CONTROL. </b><br />
+		<br />
+		<div align="center">
+			<b><u>The Information RMT.com Collects</u></b></div>
+		<br />
+		<br />
+		<u>Personally Identifiable Information.</u> During your interactions with the Site, such as when you register with the Site, RMT.com may wish to collect information that personally identifies who you are, such as your name, address, email address and/or telephone number.<br />
+		<br />Anonymous Information. RMT.com may collect non-personally-identifiable information during your visit. Examples of non-personally-identifiable information may include your Internet access provider, your computer&rsquo;s Internet protocol (IP) address, information regarding your user profile, your browser and operating system, the date and time of your visit, the pages you visit, the address of any Site you linked from, and aggregate, statistical data such as usage, traffic patterns and user demographics based on your use of the Site. RMT.com collects non-personally-identifiable information in order to, among other things, provide you with or assist in the provision of information through the Site, to maintain the performance of the Site, and to make the Site more useful. RMT.com may also share this non-personally-identifiable information in aggregated form with third parties so that these third parties may provide you with more relevant services and advertisements.<br />
+		<br />
+		<div align="center">
+			<b><u>Parental Consent</u></b></div>
+		<br />
+		<br />
+		In the event you are under the age of 13, we will notify your parent or guardian before we collect any personally identifiable information and require that your parent or guardian affirmatively consent to such collection (as well as our use and/or disclosure of such information) in advance.<br />
+		<br />
+		<div align="center">
+			<b><u>RMT.com&rsquo;s Use and Disclosure of Collected Information</u></b></div>
+		<br />
+		<br />
+		<u>Personally Identifiable Information Use.</u> RMT.com may collect personally identifiable information in order to, among other things, provide you with the information and/or services that you have requested through the Site. RMT.com retains such personally identifiable information only for as long as is necessary depending on the reason for your submission of such personally identifiable information, and collects no more personally identifiable information than is reasonably necessary to provide you with the services for which such information is collected.<br />
+		<br />
+		<u>Personally Identifiable Information Disclosure.</u> RMT.com takes your privacy very seriously. RMT.com does not sell or otherwise disclose any personally identifiable information to any third parties other than: (i) as required by law; (ii) in the event of a sale, merger, public offering, bankruptcy or other change in control of RMT.com and/or the Site; or (iii) with your affirmative consent at the time you provide such information. While collecting personally identifiable information from Site users age 13 or older, RMT.com may ask whether you would like to &ldquo;opt in&rdquo; and allow disclosure of your personally identifiable information by RMT.com to certain specifically identified third party partners of RMT.com (collectively, &ldquo;Partners&rdquo;). In the event you opt in and allow such disclosure, your personally identifiable information will only be disclosed to the previously identified Partner(s).<br />
+		<br />
+		<u>Opting In Through Other Venues.</u> Please be advised that if you provide consent and allow RMT.com to disclose your personally identifiable information through one RMT.com venue (such as the Site), you will be deemed to have &ldquo;opted in&rdquo; through all RMT.com venues.<br />
+		<br />
+		<u>Disclosure to Agents of RMT.com.</u> From time to time, RMT.com may share the information you provide to RMT.com, including personally identifiable information, with outside contractors, auditors, consultants, or others hired by RMT.com to assist in providing financial or operational activities on RMT.com&rsquo;s behalf including technical and processing services and analysis of website performance. RMT.com informs these parties about safeguarding personally identifiable information, and requires them to use such personally identifiable information only for an authorized purpose on behalf of RMT.com and consistent with this Privacy Policy.<br />
+		<br />
+		We use third-party advertising companies to serve ads when you visit our website. These companies may use information (not including your name, address, email address, or telephone number) about your visits to this and other websites in order to provide advertisements about goods and services of interest to you. If you would like more information about this practice and to know your choices about not having this information used by these companies, click <a href="http://www.google.com/privacy_ads.html">here</a>.<br />
+		<br />
+		<div align="center">
+			<u><b>Electronically Produced Data</b></u></div>
+		<br />
+		<br />
+		<u>Cookies. RMT.com,</u> like most standard website servers, may use cookies and other tools to collect information about how you use the Site. A cookie is a small, unique text file that a website can send to your computer hard drive when you visit a site. RMT.com may use &ldquo;session cookies&rdquo;, which terminate when a user closes his or her browser, and/or &ldquo;persistent cookies&rdquo;, which remain on the user's computer until manually deleted. Most web browsers can either alert you to the use of cookies or refuse to accept cookies entirely. If you do not want RMT.com to deploy cookies in your browser, you can set your browser to reject cookies or to notify you when a website tries to put a cookie on your computer. Rejecting cookies may affect your ability to use the Site.<br />
+		<br />
+		<u>Action Tags.</u> Like most standard website servers, RMT.com may employ a software technology called action tags (also known as &ldquo;web beacons&rdquo;, &ldquo;single pixel gifs&rdquo;, &ldquo;clear gifs&rdquo; or &ldquo;web bugs&rdquo;), which collect information and help to manage cookies, in order to gather information about Site usage. Action tags help RMT.com identify and track the performance of web pages on the Site, therefore allowing RMT.com to measure the performance and quality of the Site and to manage Site content. In addition, RMT.com may use action tags in emails. This allows RMT.com to gauge the effectiveness of certain communications by showing, for example, how many emails have been opened.<br />
+		<br />
+		<u>IP Addresses.</u> An IP address is a number that is assigned to your computer when you use the Internet. Like most standard website servers, RMT.com collects IP addresses and other technical information about your machine through your web browser such as your operating system, browser type and referring URL for the purposes of, among other things, system administration and to ensure the validity of user requests.<br />
+		<br />
+		<u>Log Files.</u> Like most standard website servers, RMT.com gathers certain information automatically and store it in log files, which contain information such as, among other things, IP addresses, browser type, operating system, ISP, date/time stamps and referring pages. Among other things, this information allows RMT.com to track statistics and trends on an aggregate basis.<br />
+		<br />
+		<div align="center">
+			<u><b>Maintenance of Information and Security</b></u></div>
+		<br />
+		<br />RMT.com maintains physical, electronic and procedural safeguards to protect the confidentiality and security of any personally identifiable information that you disclose to RMT.com. RMT.com utilizes what RMT.com believes to be industry standard security measures to protect the loss, misuse and alteration of personally identifiable information under RMT.com&rsquo;s control, and RMT.com limits access to your personally identifiable information within RMT.com to those employees who need to know the personally identifiable information to provide information, services and/or products to you. However, due to the nature of the Internet, computer networks, systems and other factors, no transmission of data over the Internet is guaranteed to be completely secure. It may be possible for third parties not under the control of RMT.com to intercept or access transmissions or private communications unlawfully, regardless of RMT.com&rsquo;s best intentions. As such, RMT.com cannot ensure or warrant the security of any information you transmit to RMT.com, including without limitation personally identifiable information.<br />
+		<br />
+		<div align="center">
+			<u><b>Review or Correction of Person Information</b></u></div>
+		<br />
+		<br />
+		An adult may review, request corrections, ask that we delete, or refuse further collection or use of the personally identifiable information RMT.com collects from such adult or the child or children for which such adult is the legal guardian. Such adult may do this by contacting RMT.com using the contact information provided at the end of this document. In the event RMT.com changes this Privacy Policy to allow disclosure of personally identifiable information to third parties, such adults will have the option to agree to the collection and use of such child and/or adult information without having to consent to the disclosure of such personally identifiable information to third parties.<br />
+		<br />
+		<div align="center">
+			<u><b>Other Information</b></u></div>
+		<br />
+		<br />
+		<u>Consent to Receive Notices Via the Site. </u>By submitting any personally identifiable information to the Site (and, for parents or guardians of children under the age of 13, submitting a consent to RMT.com), you are agreeing that RMT.com may deliver all privacy and opt out notices to you electronically, including via email to the most recent email address you have provided to RMT.com, or via posting on the Site.<br />
+		<br />
+		<u>Links.</u> The Site may contain links to third party sites at which your personally identifiable information is collected and used. Your visit to any third party website is governed by the privacy and other policies applicable to that site. RMT.com cannot control nor is it responsible for any such third party collection or use of your personally identifiable information or the content or policies of such sites, and RMT.com expressly disclaims any liability related to such sites. Web Logs and Other Forums. The Site may offer web logs, web postings, bulletin boards, chat rooms, newsgroups or other forums which permit users to interact online. Any information you transmit online in such forums will be made public and RMT.com cannot control nor is it responsible for the use any third party may make of such information.<br />
+		<br />
+		<u>Privacy Policy Changes.</u> RMT.com reserves the right to change this Privacy Policy at any time at its sole discretion. All Privacy Policy changes will be posted on the Site and are effective immediately upon posting. Consequently, you are advised to visit and review this Privacy Policy frequently. The last date on which this Privacy Policy has been updated is noted below.<br />
+		<br />
+		<u>Limitation of Liability.</u> YOU UNDERSTAND AND AGREE THAT ANY DISPUTE OVER PRIVACY IS SUBJECT TO THE TERMS AND CONDITIONS OF THIS PRIVACY POLICY AND RMT.COM&rsquo;S TERMS OF USE (INCLUDING ANY LIMITATIONS ON DAMAGES CONTAINED THEREIN). <a href="/info/terms">Terms of Use</a><br />
+		<br />
+		<div align="center">
+			<u><b>RMT.com Contact Information</b></u></div>
+		<br />
+		<br />
+		If you have any questions or comments regarding this Privacy Policy, or wish to review or revise any personally identifiable information as provided herein, please email RMT.com at<br /> <img src='/images/email_address_image.gif' />.<br />
+		<br />
+		<div align="center">
+			<b>THIS PRIVACY POLICY WAS LAST UPDATED ON April 28, 2008 PLEASE RETAIN A COPY OF THIS PRIVACY POLICY FOR YOUR RECORDS. </b></div>					</div>
+                    
+                    <div id="sidebar">
+                        <div id="home_box_ad">
+                            <!-- ATF_MediumRectangle -->
+                            <script type='text/javascript'>
+                                GA_googleFillSlot("ATF_MediumRectangle");
+                            </script>
+                        </div>                        
+                    </div>
+                    <!--end sidebar-->
+    
+                    <div class="clear"></div>
+                    
+                    <div class="sub_banner_728">
+                        <!-- BTF_Leaderboard -->
+                        <script type='text/javascript'>
+                            GA_googleFillSlot("BTF_Leaderboard");
+                        </script>
+                    </div>
+
+					                    <!--end top block-->
+
+				</div>
+				<!--end content-->
+
+			</div>
+			<!-- end container-->
+
+			<footer>
+	<div id="footer">
+		<ul class="dictionary">
+			<li>School Directory:</li>
+			<li><a href="/school/A">A</a></li>
+			<li><a href="/school/B">B</a></li>
+			<li><a href="/school/C">C</a></li>
+			<li><a href="/school/D">D</a></li>
+			<li><a href="/school/E">E</a></li>
+			<li><a href="/school/F">F</a></li>
+			<li><a href="/school/G">G</a></li>
+			<li><a href="/school/H">H</a></li>
+			<li><a href="/school/I">I</a></li>
+			<li><a href="/school/J">J</a></li>
+			<li><a href="/school/K">K</a></li>
+			<li><a href="/school/L">L</a></li>
+			<li><a href="/school/M">M</a></li>
+			<li><a href="/school/N">N</a></li>
+			<li><a href="/school/O">O</a></li>
+			<li><a href="/school/P">P</a></li>
+			<li><a href="/school/Q">Q</a></li>
+			<li><a href="/school/R">R</a></li>
+			<li><a href="/school/S">S</a></li>
+			<li><a href="/school/T">T</a></li>
+			<li><a href="/school/U">U</a></li>
+			<li><a href="/school/V">V</a></li>
+			<li><a href="/school/W">W</a></li>
+			<li><a href="/school/X">X</a></li>
+			<li><a href="/school/Y">Y</a></li>
+			<li><a href="/school/Z">Z</a></li>
+			<li>|</li>
+			<li>Teacher Directory:</li>
+			<li><a href="/teacher/A">A</a></li>
+			<li><a href="/teacher/B">B</a></li>
+			<li><a href="/teacher/C">C</a></li>
+			<li><a href="/teacher/D">D</a></li>
+			<li><a href="/teacher/E">E</a></li>
+			<li><a href="/teacher/F">F</a></li>
+			<li><a href="/teacher/G">G</a></li>
+			<li><a href="/teacher/H">H</a></li>
+			<li><a href="/teacher/I">I</a></li>
+			<li><a href="/teacher/J">J</a></li>
+			<li><a href="/teacher/K">K</a></li>
+			<li><a href="/teacher/L">L</a></li>
+			<li><a href="/teacher/M">M</a></li>
+			<li><a href="/teacher/N">N</a></li>
+			<li><a href="/teacher/O">O</a></li>
+			<li><a href="/teacher/P">P</a></li>
+			<li><a href="/teacher/Q">Q</a></li>
+			<li><a href="/teacher/R">R</a></li>
+			<li><a href="/teacher/S">S</a></li>
+			<li><a href="/teacher/T">T</a></li>
+			<li><a href="/teacher/U">U</a></li>
+			<li><a href="/teacher/V">V</a></li>
+			<li><a href="/teacher/W">W</a></li>
+			<li><a href="/teacher/X">X</a></li>
+			<li><a href="/teacher/Y">Y</a></li>
+			<li><a href="/teacher/Z">Z</a></li>
+		</ul>
+		<div id="foot">
+			<ul>
+									<li><a href="/school">Schools</a><span>|</span></li>
+					<li><a href="/teacher">Teachers</a><span>|</span></li>
+									<li><a href="http://www.facebook.com/pages/Rate-My-Teachers/172604876112259" target="_blank">Forum</a><span>|</span></li>
+					<li><a href="/faq">FAQ</a><span>|</span></li>
+					<li><a href="/contact">Contact</a><span>|</span></li>
+					<li><a href="/info/Terms">Terms of Use</a><span>|</span></li>
+					<li><a href="/info/Privacy">Privacy Policy</a><span>|</span></li>
+					<li><a href="/info/RateRules">Site Guidelines</a><span>|</span></li>
+					<li><a href="/info/Copyright">Copyright Compliance</a><span>|</span></li>
+					<li><a href="/location">Site Map</a><span>|</span></li>
+					<li><a href="/refer_a_friend">Refer a Friend</a></li>
+			</ul>
+			<p>© 2012 RateMyTeachers.com All Rights Reserved. This site is dedicated to Nancy Lynn Davis 1945-2006 & Brian Timothy Davis 1981-2003</p>
+		</div>
+	</div>
+</footer>
+<div style="display:none">
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-4216499-1");
+		pageTracker._initData();
+				pageTracker._trackPageview();
+	</script> 
+
+	<script type="text/javascript">
+		_qoptions={
+			qacct:"p-6d6fzw6m9kY1M"
+		};
+	</script>
+
+	<!-- Start Quantcast tag -->
+	<script type="text/javascript">
+		_qoptions={
+		qacct:"p-6d6fzw6m9kY1M"
+		};
+	</script>
+	<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+	<noscript>
+		<img src="http://pixel.quantserve.com/pixel/p-6d6fzw6m9kY1M.gif" style="display: none;" border="0" height="1" width="1" alt=""/>
+	</noscript>
+	<!-- End Quantcast tag -->
+</div>
+		</div>
+		<!--end wrapper__>
+
+	</body>
+</html>

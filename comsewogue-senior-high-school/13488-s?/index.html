@@ -1,0 +1,2724 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comsewogue Senior High School - Port Jefferson Sta | RateMyTeachers.com</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-4.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":3185,"agentToken":null,"agent":"js-agent.newrelic.com/nr-476.min.js","ttGuid":"99c50e306841d6fb"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),u=c.length,f=i(a,o,r),d=0;u>d;d++)c[d].apply(f,n);return f}function a(t,e){u[t]=s(t).concat(e)}function s(t){return u[t]||[]}function c(){return n(e)}var u={};return{on:a,emit:e,create:c,listeners:s,_events:u}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(u){try{r("ierr",[u,(new Date).getTime(),!0])}catch(f){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(4),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(u){"stack"in u&&(t(5),t(3),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:5,4:18,5:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:18,2:19,ee:"QJf3ax",gos:"7eSDFh"}],5:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:19,2:18,ee:"QJf3ax"}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:19,2:18,ee:"QJf3ax"}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t("ee").create(),a=t(1),s=t(2),c=s(i),u=s(a),f=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new f(t);try{i.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",[r])}catch(o){}}return e},window.XMLHttpRequest.prototype=f.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:19,ee:"QJf3ax"}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,u="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=e(u);if(f&&(r.rxSize=f),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,u=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var u=e(o);u&&(r.txSize=u)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",[e])}catch(r){}}};for(var f=0;c>f;f++)n.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:9,3:7,4:4,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){p.proto="https"===d.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=p.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,c=s.document,u="addEventListener",f="attachEvent",d=(""+location).split("?")[0],p=e.exports={offset:i(),origin:d,features:{}};c[u]?(c[u]("DOMContentLoaded",o,!1),s[u]("load",n,!1)):(c[f]("onreadystatechange",r),s[f]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],18:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],19:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,u;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){f([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return u=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,u],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,u(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,u="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,u?s+o:o,i,s,t))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){f([o,e,n,r])}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){f([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function f(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:18,ee:"QJf3ax"}]},{},["G9z0Bl",3,8]);</script>  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw" />
+  
+  <meta name="keywords" content="Rate a teacher from school,read college professor ratings,rate a professor from university,university,rate my teacher,rate,teacher,college,school,high school,schools,elementary school,preschool,middle school,professor ratings,teacher ratings,ratemyteachers.com" />
+
+  <meta name="description" content="Rate Comsewogue Senior High School in Port Jefferson Sta on RateMyTeachers.com" />
+
+
+  <meta name="robots" content="noodp,noydir" />
+  <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+  <link href="/assets/application-1581443678ba2354ad81bff1767e8cfc.css" media="all" rel="stylesheet" />
+  
+  <meta property="og:type" content="rmt:school" />
+<meta property="og:url" content="http://www.ratemyteachers.com/comsewogue-senior-high-school/13488-s" />
+<meta property="og:site_name" content="Comsewogue Senior High School on RateMyTeachers.com" />
+<meta property="og:description" content="Rate Comsewogue Senior High School in Port Jefferson Sta on RateMyTeachers.com" />
+
+  <script type="text/javascript">
+    var currentState = 'VA';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:      true,
+    debugMode:            false
+  }
+
+
+ function getWindowWidth() {
+   var myWidth = 0, myHeight = 0;
+     if( typeof( window.innerWidth ) == 'number' ) {
+         myWidth = window.innerWidth; myHeight = window.innerHeight;
+     } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+         myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+     } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+         myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+     }
+     return myWidth;
+ }  
+
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isMobile = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false) || isMobileVariant;
+</script>
+  <script>
+    var gaId = 'UA-4216499-1';
+    
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', gaId, 'auto');
+    ga('require', 'displayfeatures');
+    //ga('require', 'ecommerce', 'ecommerce.js');
+    
+  </script>
+
+<script src="/assets/rmt.analytics-defd401f8cfb44d689532ba3eda18a86.js"></script>
+
+<script>
+  var pageType = "";
+  RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+  var searchTerm = "";
+</script>
+
+
+  <!-- DFP -->
+
+  <!-- Google Custom Ads -->
+  <script type="text/javascript" charset="utf-8">
+    (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+    arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+    O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+    e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+  </script>
+
+
+  <!-- AdSense -->
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+  
+  <!-- WebSpectator -->
+  <script async type="text/javascript" src="//wfpscripts.webspectator.com/bootstrap/ws-8828A2DD.js"></script>
+
+  <script type="text/javascript">window._pt_lt = new Date().getTime();</script>
+ 
+   
+  <link href='http://www.ratemyteachers.com/comsewogue-senior-high-school/13488-s.rss' rel='alternate' type='application/rss+xml'>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="F43Qho9fKtWUBQi7ae8qyMenPeK9lhoG01VZ3LBPy4o=" name="csrf-token" />
+</head>
+<!--
+
+██████╗ ███╗   ███╗████████╗
+██╔══██╗████╗ ████║╚══██╔══╝
+██████╔╝██╔████╔██║   ██║   
+██╔══██╗██║╚██╔╝██║   ██║   
+██║  ██║██║ ╚═╝ ██║   ██║   
+╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝
+
+If you see this we should talk!  We are pretty awesome!
+-->
+<body class="inner_page school_page schools_v7_1
+">
+  <div id="fb-root"></div>
+      <div class='rate_my_teachers_international'>
+<div class='container'>
+<div class='row'>
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+<header>
+<div class='container'>
+<div class='row'>
+<form action='/search_page' class='tab-form search_form' method='get'>
+<a alt='Go to RateMyTeachers Home' href='/' id='rate_my_teachers_logo' title='Go to RateMyTeachers Home'></a>
+<input name='search' type='hidden' value='teachers'>
+<div class='search_inputs'>
+<div class='bg'>
+<div class='padding'>
+<input class='search_input' name='q' placeholder='Search: Professors, Teachers, High Schools, or Colleges' type='text'>
+</div>
+<div class='location'>
+<select class="state" id="state" name="state"><option value="">Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class='search_button'>
+<button class='btn-search fa fa-search fa-3x' title='Search RateMyTeachers' type='submit'></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+
+
+
+    <section class="breadcrumbs container-fluid">
+      <div class="row">
+        <div class="container">
+          <div class="col-sm-12">
+            <ul class='list-inline collapsible_nav collapsible_nav_collapsed'>
+<li class='toggle'>
+<a href='javascript:void(0);'>
+<i class='fa fa-bars'></i>
+</a>
+</li>
+<li class='collapse'>
+<a href='/' title='Go to RateMyTeachers Home'>United States</a>
+</li>
+<li class='always_show'>
+<a alt='Go to Schools in New York' href='/new-york' title='Go to Schools in New York'>New York</a>
+</li>
+<li class='collapse'>
+<a alt='Go to Schools in PORT JEFFERSON STA' href='/new-york/port-jefferson-sta' title='Go to Schools in PORT JEFFERSON STA'>Port Jefferson Sta</a>
+</li>
+<li class='always_show extra_option'>
+<span class='last'>Comsewogue Senior High School</span>
+</li>
+<li class='always_show'>
+<a class='new_teacher_trigger' data-backdrop='static' data-keyboard data-school='Comsewogue Senior High School' data-sender-name='School page breadcrumb' data-target='#modal' data-toggle='modal' href='/teachers/new?sid=13488' title='Add My Teacher'>Add My Teacher</a>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+    <div class="container text-ad-unit">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="alert alert-info"  id="giving_cycle_ad">
+          <span>
+            <span style="color: red;font-weight: bold;">80,000,000+</span>
+            girls in developing countries are missing school while on their period:
+            <a target="_blank" href="http://lp.sheva.com/givingcyclenewsletter/?utm_source=ratemyteachers&utm_medium=referral&utm_campaign=giving_ratemyteachers">
+              The Giving Cycle...
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="alert alert-danger" id="flash-error" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-warning" id="flash-alert" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-success" id="flash-success" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-info"  id="flash-notice" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+  
+
+  <div id="content">
+    <span itemprop='aggregateRating' itemscope itemtype='http://data-vocabulary.org/Review-aggregate'>
+<meta content='Comsewogue Senior High School' itemprop='itemreviewed'>
+<span itemprop='rating' itemscope itemtype='http://data-vocabulary.org/Rating'>
+<meta content='4.138' itemprop='average'>
+<meta content='5' itemprop='best'>
+<meta content='0' itemprop='worst'>
+</span>
+<meta itemprop='votes'>
+</span>
+
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+  <div id="School_ATF_Large_Leaderboard">
+    <!-- School_ATF_Large_Leaderboard -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:970px;height:90px"
+         data-ad-client="ca-pub-8322864954623881"
+         data-ad-slot="7130714482"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+</div>
+</div>
+<div class='row'>
+<div class='col-md-4 sticky_container_left'>
+<div class='sticky_column'>
+<section class='school_info' itemscope itemtype='http://schema.org/School'>
+<div class='callout'>
+This School profile is 41% complete. Help us
+<a href='javascript:void(0);'>add more information</a>
+</div>
+<div class='info row'>
+<div class='col-md-12'>
+<div class='info_box'>
+<div class='main_info'>
+<h1 class='title school_name' itemprop='name'>
+Comsewogue Senior High School
+
+</h1>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='18' data-rateit-starwidth='22' data-rateit-value='4.138'></div>
+</div>
+<!-- /.location= school.state_and_city_full -->
+<div class='staff'>
+Based on
+204
+Teachers
+and
+1,135
+Ratings
+</div>
+<div class='row'>
+<div class='col-xs-12 attributes'>
+<div class='attribute'>
+<div class='easy val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Easiness</div>
+</div>
+<div class='attribute'>
+<div class='helpful val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Helpfulness</div>
+</div>
+<div class='attribute'>
+<div class='clarity val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Clarity</div>
+</div>
+<div class='attribute'>
+<div class='knowledgeable val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Knowledge</div>
+</div>
+<div class='attribute'>
+<div class='textbook_use val3 value'>
+<span>3</span>
+</div>
+<div class='text'>Textbook Use</div>
+</div>
+<div class='attribute'>
+<div class='exam_difficulty val3 value'>
+<span>3</span>
+</div>
+<div class='text'>Exam Difficulty</div>
+</div>
+</div>
+</div>
+</div>
+<div class='secondary_info'>
+<div class='col-md-12 stats phone'>
+<div class='title'>Telephone:</div>
+<span itemprop='telephone'>631-474-8182</span>
+</div>
+<div class='col-md-12 map'>
+  <iframe
+    width="100%"
+    height="200"
+    frameborder="0" style="border:0;"
+    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g&amp;q=565+BICYCLE+PATH+Port+Jefferson+Sta+United+States">
+  </iframe>
+
+</div>
+<div class='col-md-12 stats'>
+<div class='title strong'>Address:</div>
+<span itemprop='address'>565 Bicycle Path</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class='apply_school_administrator_wrapper secondary'>
+<a class='new_admin_request_trigger' data-school='Comsewogue Senior High School' data-sender='School page' data-target='#modal' data-toggle='modal' href='/admin/new?sid=13488' title="Become Comsewogue Senior High School's Admin">
+Become Comsewogue Senior High School's Admin
+</a>
+</div>
+
+</div>
+</div>
+<div class='col-md-4 middle'>
+<section class='school_teachers content'>
+<!-- - else -->
+<!-- .item -->
+<div class='sticky_container_center'>
+<div class='sticky_column' style='z-index:999; background-color:#fff;'>
+<div class='search padding hidden-xs'>
+<form action='/comsewogue-senior-high-school/13488-s' class='simple_form inline_form'>
+<div class='row'>
+<div class='col-xs-12 col-md-7 left'>
+<input name='q' placeholder='Search by Teacher' type='text'>
+<input class='btn btn-default' name='commit' type='submit' value='Search'>
+</div>
+<div class='col-xs-12 col-md-5 right'>
+<select id="school_departments" name="school_departments"><option value="">Select a Department</option><option value=""></option><option value="/comsewogue-senior-high-school/13488-s/not-specified">Not Specified</option>
+<option value="/comsewogue-senior-high-school/13488-s/accounting">Accounting</option>
+<option value="/comsewogue-senior-high-school/13488-s/administration">Administration</option>
+<option value="/comsewogue-senior-high-school/13488-s/anthropology">Anthropology</option>
+<option value="/comsewogue-senior-high-school/13488-s/architecture">Architecture</option>
+<option value="/comsewogue-senior-high-school/13488-s/asl">ASL</option>
+<option value="/comsewogue-senior-high-school/13488-s/auto-tech">Auto Tech</option>
+<option value="/comsewogue-senior-high-school/13488-s/band">Band</option>
+<option value="/comsewogue-senior-high-school/13488-s/biology">Biology</option>
+<option value="/comsewogue-senior-high-school/13488-s/business">Business</option>
+<option value="/comsewogue-senior-high-school/13488-s/chemistry">Chemistry</option>
+<option value="/comsewogue-senior-high-school/13488-s/co-op">Co-op</option>
+<option value="/comsewogue-senior-high-school/13488-s/communications">Communications</option>
+<option value="/comsewogue-senior-high-school/13488-s/computer-science">Computer Science</option>
+<option value="/comsewogue-senior-high-school/13488-s/counselor">Counselor</option>
+<option value="/comsewogue-senior-high-school/13488-s/drafting">Drafting</option>
+<option value="/comsewogue-senior-high-school/13488-s/drivers-education">Drivers Education</option>
+<option value="/comsewogue-senior-high-school/13488-s/economics">Economics</option>
+<option value="/comsewogue-senior-high-school/13488-s/education">Education</option>
+<option value="/comsewogue-senior-high-school/13488-s/english">English</option>
+<option value="/comsewogue-senior-high-school/13488-s/esl">ESL</option>
+<option value="/comsewogue-senior-high-school/13488-s/family-consumer-sciences">Family &amp; Consumer Sciences</option>
+<option value="/comsewogue-senior-high-school/13488-s/film">Film</option>
+<option value="/comsewogue-senior-high-school/13488-s/fine-arts">Fine Arts</option>
+<option value="/comsewogue-senior-high-school/13488-s/french">French</option>
+<option value="/comsewogue-senior-high-school/13488-s/geography">Geography</option>
+<option value="/comsewogue-senior-high-school/13488-s/grade-1">Grade 1</option>
+<option value="/comsewogue-senior-high-school/13488-s/grade-2">Grade 2</option>
+<option value="/comsewogue-senior-high-school/13488-s/grade-3">Grade 3</option>
+<option value="/comsewogue-senior-high-school/13488-s/grade-4">Grade 4</option>
+<option value="/comsewogue-senior-high-school/13488-s/grade-5">Grade 5</option>
+<option value="/comsewogue-senior-high-school/13488-s/grade-6">Grade 6</option>
+<option value="/comsewogue-senior-high-school/13488-s/grade-k">Grade K</option>
+<option value="/comsewogue-senior-high-school/13488-s/grammaire-composition">Grammaire/Composition</option>
+<option value="/comsewogue-senior-high-school/13488-s/headmaster">Headmaster</option>
+<option value="/comsewogue-senior-high-school/13488-s/health">Health</option>
+<option value="/comsewogue-senior-high-school/13488-s/history">History</option>
+<option value="/comsewogue-senior-high-school/13488-s/home-economics">Home Economics</option>
+<option value="/comsewogue-senior-high-school/13488-s/ib-program">IB Program</option>
+<option value="/comsewogue-senior-high-school/13488-s/independent-study">Independent Study</option>
+<option value="/comsewogue-senior-high-school/13488-s/industrial-education">Industrial Education</option>
+<option value="/comsewogue-senior-high-school/13488-s/journalism">Journalism</option>
+<option value="/comsewogue-senior-high-school/13488-s/languages">Languages</option>
+<option value="/comsewogue-senior-high-school/13488-s/law">Law</option>
+<option value="/comsewogue-senior-high-school/13488-s/librarian">Librarian</option>
+<option value="/comsewogue-senior-high-school/13488-s/math">Math</option>
+<option value="/comsewogue-senior-high-school/13488-s/media">Media</option>
+<option value="/comsewogue-senior-high-school/13488-s/multiple-subjects">Multiple Subjects</option>
+<option value="/comsewogue-senior-high-school/13488-s/music">Music</option>
+<option value="/comsewogue-senior-high-school/13488-s/nursing">Nursing</option>
+<option value="/comsewogue-senior-high-school/13488-s/performing-arts">Performing Arts</option>
+<option value="/comsewogue-senior-high-school/13488-s/philosophy">Philosophy</option>
+<option value="/comsewogue-senior-high-school/13488-s/photography">Photography</option>
+<option value="/comsewogue-senior-high-school/13488-s/physical-education">Physical Education</option>
+<option value="/comsewogue-senior-high-school/13488-s/physics">Physics</option>
+<option value="/comsewogue-senior-high-school/13488-s/principal">Principal</option>
+<option value="/comsewogue-senior-high-school/13488-s/psychology">Psychology</option>
+<option value="/comsewogue-senior-high-school/13488-s/reading">Reading</option>
+<option value="/comsewogue-senior-high-school/13488-s/religion">Religion</option>
+<option value="/comsewogue-senior-high-school/13488-s/resource">Resource</option>
+<option value="/comsewogue-senior-high-school/13488-s/rotc">ROTC</option>
+<option value="/comsewogue-senior-high-school/13488-s/science">Science</option>
+<option value="/comsewogue-senior-high-school/13488-s/social-studies">Social Studies</option>
+<option value="/comsewogue-senior-high-school/13488-s/sociology">Sociology</option>
+<option value="/comsewogue-senior-high-school/13488-s/speech">Speech</option>
+<option value="/comsewogue-senior-high-school/13488-s/study-skills">Study Skills</option>
+<option value="/comsewogue-senior-high-school/13488-s/substitute-teacher">Substitute Teacher</option>
+<option value="/comsewogue-senior-high-school/13488-s/technology">Technology</option>
+<option value="/comsewogue-senior-high-school/13488-s/vice-principal">Vice Principal</option>
+<option value="/comsewogue-senior-high-school/13488-s/visual-arts">Visual Arts</option>
+<option value="/comsewogue-senior-high-school/13488-s/writing">Writing</option></select>
+</div>
+</div>
+</form>
+</div>
+<ul class='teachers_by_alphabet'>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with A' href='/comsewogue-senior-high-school/13488-s/a' title='Teachers at Comsewogue Senior High School whose names begin with A'>a</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with B' href='/comsewogue-senior-high-school/13488-s/b' title='Teachers at Comsewogue Senior High School whose names begin with B'>b</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with C' href='/comsewogue-senior-high-school/13488-s/c' title='Teachers at Comsewogue Senior High School whose names begin with C'>c</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with D' href='/comsewogue-senior-high-school/13488-s/d' title='Teachers at Comsewogue Senior High School whose names begin with D'>d</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with E' href='/comsewogue-senior-high-school/13488-s/e' title='Teachers at Comsewogue Senior High School whose names begin with E'>e</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with F' href='/comsewogue-senior-high-school/13488-s/f' title='Teachers at Comsewogue Senior High School whose names begin with F'>f</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with G' href='/comsewogue-senior-high-school/13488-s/g' title='Teachers at Comsewogue Senior High School whose names begin with G'>g</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with H' href='/comsewogue-senior-high-school/13488-s/h' title='Teachers at Comsewogue Senior High School whose names begin with H'>h</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with I' href='/comsewogue-senior-high-school/13488-s/i' title='Teachers at Comsewogue Senior High School whose names begin with I'>i</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with J' href='/comsewogue-senior-high-school/13488-s/j' title='Teachers at Comsewogue Senior High School whose names begin with J'>j</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with K' href='/comsewogue-senior-high-school/13488-s/k' title='Teachers at Comsewogue Senior High School whose names begin with K'>k</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with L' href='/comsewogue-senior-high-school/13488-s/l' title='Teachers at Comsewogue Senior High School whose names begin with L'>l</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with M' href='/comsewogue-senior-high-school/13488-s/m' title='Teachers at Comsewogue Senior High School whose names begin with M'>m</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with N' href='/comsewogue-senior-high-school/13488-s/n' title='Teachers at Comsewogue Senior High School whose names begin with N'>n</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with O' href='/comsewogue-senior-high-school/13488-s/o' title='Teachers at Comsewogue Senior High School whose names begin with O'>o</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with P' href='/comsewogue-senior-high-school/13488-s/p' title='Teachers at Comsewogue Senior High School whose names begin with P'>p</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with Q' href='/comsewogue-senior-high-school/13488-s/q' title='Teachers at Comsewogue Senior High School whose names begin with Q'>q</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with R' href='/comsewogue-senior-high-school/13488-s/r' title='Teachers at Comsewogue Senior High School whose names begin with R'>r</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with S' href='/comsewogue-senior-high-school/13488-s/s' title='Teachers at Comsewogue Senior High School whose names begin with S'>s</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with T' href='/comsewogue-senior-high-school/13488-s/t' title='Teachers at Comsewogue Senior High School whose names begin with T'>t</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with U' href='/comsewogue-senior-high-school/13488-s/u' title='Teachers at Comsewogue Senior High School whose names begin with U'>u</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with V' href='/comsewogue-senior-high-school/13488-s/v' title='Teachers at Comsewogue Senior High School whose names begin with V'>v</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with X' href='/comsewogue-senior-high-school/13488-s/x' title='Teachers at Comsewogue Senior High School whose names begin with X'>x</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with Y' href='/comsewogue-senior-high-school/13488-s/y' title='Teachers at Comsewogue Senior High School whose names begin with Y'>y</a>
+</li>
+<li>
+<a alt='Teachers at Comsewogue Senior High School whose names begin with Z' href='/comsewogue-senior-high-school/13488-s/z' title='Teachers at Comsewogue Senior High School whose names begin with Z'>z</a>
+</li>
+</ul>
+
+</div>
+</div>
+<div class='header padding'>
+Showing
+204 Teachers
+<!-- and -->
+<!-- %span.colorized= pluralize ratings_count, 'Rating' -->
+from Comsewogue Senior High School
+</div>
+<div class='teachers padding'>
+
+
+
+  <div id="School_ATF_Leaderboard">
+    <!-- School_ATF_Leaderboard_web -->
+    <ins class="adsbygoogle"
+      style="display:inline-block;width:336px;height:280px"
+      data-ad-client="ca-pub-8322864954623881"
+      data-ad-slot="1367689285"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Melissa Hutter&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/melissa-hutter/390421-t" title="View Melissa Hutter&#39;s Ratings">Melissa Hutter</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>6 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/computer-science" title="View Comsewogue Senior High School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"i think that ms hutter is the best teacher that i have ever had since the 4th grade.  she is..."</span>
+<a alt="View Melissa Hutter&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/melissa-hutter/390421-t" title="View Melissa Hutter&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/melissa-hutter/390421-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Elliot Perry&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/elliot-perry/847065-t" title="View Elliot Perry&#39;s Ratings">Elliot Perry</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>3 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/technology" title="View Comsewogue Senior High School&#39;s Technology Teachers">Technology</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Elliot is / was the finest Comsewogue ever had. He was my teacher in HS twenty plus years ago and..."</span>
+<a alt="View Elliot Perry&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/elliot-perry/847065-t" title="View Elliot Perry&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/elliot-perry/847065-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Paul Wirkus&#39; Ratings" class="name" href="http://www.ratemyteachers.com/paul-wirkus/969921-t" title="View Paul Wirkus&#39; Ratings">Paul Wirkus</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/science" title="View Comsewogue Senior High School&#39;s Science Teachers">Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Gretaest teacher ever!!! I had him last year and he won teacher of the year award!"</span>
+<a alt="View Paul Wirkus&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/paul-wirkus/969921-t" title="View Paul Wirkus&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/paul-wirkus/969921-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Fred The Custodian&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/fred-the-custodian/976793-t" title="View Fred The Custodian&#39;s Ratings">Fred The Custodian</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/not-specified" title="View Comsewogue Senior High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"So sweet. Amazing person all around."</span>
+<a alt="View Fred The Custodian&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/fred-the-custodian/976793-t" title="View Fred The Custodian&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/fred-the-custodian/976793-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Mr. Gutman&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/mr-gutman/990960-t" title="View Mr. Gutman&#39;s Ratings">Mr. Gutman</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/social-studies" title="View Comsewogue Senior High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"i loved gutman but hes gone now"</span>
+<a alt="View Mr. Gutman&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/mr-gutman/990960-t" title="View Mr. Gutman&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mr-gutman/990960-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View George Gerson&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/george-gerson/1032919-t" title="View George Gerson&#39;s Ratings">George Gerson</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/science" title="View Comsewogue Senior High School&#39;s Science Teachers">Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mr. Gerson was my 5th grade teacher about 35 years ago.  I loved him then.  I hope he is still as..."</span>
+<a alt="View George Gerson&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/george-gerson/1032919-t" title="View George Gerson&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/george-gerson/1032919-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Chris Rowett&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/chris-rowett/2421483-t" title="View Chris Rowett&#39;s Ratings">Chris Rowett</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>3 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/physical-education" title="View Comsewogue Senior High School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Rowett&#39;s the best...pushes us, but we have fun....great smile!"</span>
+<a alt="View Chris Rowett&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/chris-rowett/2421483-t" title="View Chris Rowett&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/chris-rowett/2421483-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Joe Bienz&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/joe-bienz/607716-t" title="View Joe Bienz&#39;s Ratings">Joe Bienz</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>9 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/social-studies" title="View Comsewogue Senior High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"best teacher ever                                                                                ..."</span>
+<a alt="View Joe Bienz&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/joe-bienz/607716-t" title="View Joe Bienz&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/joe-bienz/607716-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Robert Jantzen&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/robert-jantzen/1113697-t" title="View Robert Jantzen&#39;s Ratings">Robert Jantzen</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/administration" title="View Comsewogue Senior High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Dr.J is awesome! He&#39;s da Man!"</span>
+<a alt="View Robert Jantzen&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/robert-jantzen/1113697-t" title="View Robert Jantzen&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/robert-jantzen/1113697-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Lee&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/lee/1122610-t" title="View Lee&#39;s Ratings">Lee</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/substitute-teacher" title="View Comsewogue Senior High School&#39;s Substitute Teacher Teachers">Substitute Teacher</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"i dont know if she still watches the halls but was a good friend to talk to"</span>
+<a alt="View Lee&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/lee/1122610-t" title="View Lee&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/lee/1122610-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Will Fechter&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/will-fechter/771702-t" title="View Will Fechter&#39;s Ratings">Will Fechter</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/resource" title="View Comsewogue Senior High School&#39;s Resource Teachers">Resource</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Coolest Teacher in the United States! Help&#39;s Student&#39;s learn In an Orginal and &quot;real&quot; Method...."</span>
+<a alt="View Will Fechter&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/will-fechter/771702-t" title="View Will Fechter&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/will-fechter/771702-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Linda Taylor&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/linda-taylor/755989-t" title="View Linda Taylor&#39;s Ratings">Linda Taylor</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/administration" title="View Comsewogue Senior High School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"mrs taylor is awesome."</span>
+<a alt="View Linda Taylor&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/linda-taylor/755989-t" title="View Linda Taylor&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/linda-taylor/755989-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Mac&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/mac/702079-t" title="View Mac&#39;s Ratings">Mac</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/substitute-teacher" title="View Comsewogue Senior High School&#39;s Substitute Teacher Teachers">Substitute Teacher</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mr Mac is the best teacher ever! In science last year, we had rap wars! It was so0o much fun!"</span>
+<a alt="View Mac&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/mac/702079-t" title="View Mac&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mac/702079-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Chris Lunati&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/chris-lunati/256665-t" title="View Chris Lunati&#39;s Ratings">Chris Lunati</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>7 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/counselor" title="View Comsewogue Senior High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"awesome, sometimes a lil disorganized due to lots of work but i can always talk to him, he..."</span>
+<a alt="View Chris Lunati&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/chris-lunati/256665-t" title="View Chris Lunati&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/chris-lunati/256665-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Jessica Cohen&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/jessica-cohen/339995-t" title="View Jessica Cohen&#39;s Ratings">Jessica Cohen</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/substitute-teacher" title="View Comsewogue Senior High School&#39;s Substitute Teacher Teachers">Substitute Teacher</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"You&#39;re the best :P  guess who!"</span>
+<a alt="View Jessica Cohen&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/jessica-cohen/339995-t" title="View Jessica Cohen&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jessica-cohen/339995-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Mr. Anzini&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/mr-anzini/508466-t" title="View Mr. Anzini&#39;s Ratings">Mr. Anzini</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/science" title="View Comsewogue Senior High School&#39;s Science Teachers">Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"he is very nice to me.now i hope to be an honor  c                                               ..."</span>
+<a alt="View Mr. Anzini&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/mr-anzini/508466-t" title="View Mr. Anzini&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mr-anzini/508466-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Clarissa Rooney&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/clarissa-rooney/585617-t" title="View Clarissa Rooney&#39;s Ratings">Clarissa Rooney</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>4 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/counselor" title="View Comsewogue Senior High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"THE BEST"</span>
+<a alt="View Clarissa Rooney&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/clarissa-rooney/585617-t" title="View Clarissa Rooney&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/clarissa-rooney/585617-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Giovanni Vasquez&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/giovanni-vasquez/605034-t" title="View Giovanni Vasquez&#39;s Ratings">Giovanni Vasquez</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>9 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/languages" title="View Comsewogue Senior High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"omg Vasquez is the best! I only wish that our class was a little more behaved so we could see his..."</span>
+<a alt="View Giovanni Vasquez&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/giovanni-vasquez/605034-t" title="View Giovanni Vasquez&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/giovanni-vasquez/605034-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Peter Pece&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/peter-pece/607711-t" title="View Peter Pece&#39;s Ratings">Peter Pece</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>4 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/music" title="View Comsewogue Senior High School&#39;s Music Teachers">Music</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mr. Pece is an awesome teacher with an excellent sense of humor. He is very relaxed with his..."</span>
+<a alt="View Peter Pece&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/peter-pece/607711-t" title="View Peter Pece&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/peter-pece/607711-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Jen Cosban&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/jen-cosban/607737-t" title="View Jen Cosban&#39;s Ratings">Jen Cosban</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>3 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/counselor" title="View Comsewogue Senior High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"mrs cosban was SOO awesome. im so close to her she knows everything. i love her"</span>
+<a alt="View Jen Cosban&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/jen-cosban/607737-t" title="View Jen Cosban&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jen-cosban/607737-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Gerald Schroeder&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/gerald-schroeder/612114-t" title="View Gerald Schroeder&#39;s Ratings">Gerald Schroeder</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/music" title="View Comsewogue Senior High School&#39;s Music Teachers">Music</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He&#39;s so awesome! I had him in 7th grade, but even now as a Junior I remember how cool he was!"</span>
+<a alt="View Gerald Schroeder&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/gerald-schroeder/612114-t" title="View Gerald Schroeder&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/gerald-schroeder/612114-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Emma&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/emma/702071-t" title="View Emma&#39;s Ratings">Emma</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/substitute-teacher" title="View Comsewogue Senior High School&#39;s Substitute Teacher Teachers">Substitute Teacher</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mr Emma is the coolest teacher. He makes class so much fun."</span>
+<a alt="View Emma&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/emma/702071-t" title="View Emma&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/emma/702071-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Mr. Bodkin&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/mr-bodkin/1139145-t" title="View Mr. Bodkin&#39;s Ratings">Mr. Bodkin</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/law" title="View Comsewogue Senior High School&#39;s Law Teachers">Law</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Great teacher!!!"</span>
+<a alt="View Mr. Bodkin&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/mr-bodkin/1139145-t" title="View Mr. Bodkin&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mr-bodkin/1139145-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Margaret Nicolosi&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/margaret-nicolosi/2409510-t" title="View Margaret Nicolosi&#39;s Ratings">Margaret Nicolosi</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>9 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/math" title="View Comsewogue Senior High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mrs. Fasano is a great teacher. The best math teacher in the district. I have had her for three..."</span>
+<a alt="View Margaret Nicolosi&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/margaret-nicolosi/2409510-t" title="View Margaret Nicolosi&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/margaret-nicolosi/2409510-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Allison Cramer&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/allison-cramer/3165722-t" title="View Allison Cramer&#39;s Ratings">Allison Cramer</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/not-specified" title="View Comsewogue Senior High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"The best teacher in the world just stay on her good and you&#39;ll be set for the year"</span>
+<a alt="View Allison Cramer&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/allison-cramer/3165722-t" title="View Allison Cramer&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/allison-cramer/3165722-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Kristen Wolfinger&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/kristen-wolfinger/3147157-t" title="View Kristen Wolfinger&#39;s Ratings">Kristen Wolfinger</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/counselor" title="View Comsewogue Senior High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"I love her. Because of her, I&#39;m going to a great college! I will miss you!!"</span>
+<a alt="View Kristen Wolfinger&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/kristen-wolfinger/3147157-t" title="View Kristen Wolfinger&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kristen-wolfinger/3147157-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Rich Vigalanty&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/rich-vigalanty/2437999-t" title="View Rich Vigalanty&#39;s Ratings">Rich Vigalanty</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/substitute-teacher" title="View Comsewogue Senior High School&#39;s Substitute Teacher Teachers">Substitute Teacher</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"i love da name man"</span>
+<a alt="View Rich Vigalanty&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/rich-vigalanty/2437999-t" title="View Rich Vigalanty&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/rich-vigalanty/2437999-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Paul Thompson&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/paul-thompson/3824863-t" title="View Paul Thompson&#39;s Ratings">Paul Thompson</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/economics" title="View Comsewogue Senior High School&#39;s Economics Teachers">Economics</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He is my absolute favorite teacher. I love him. He is very funny and gives really easy work. He..."</span>
+<a alt="View Paul Thompson&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/paul-thompson/3824863-t" title="View Paul Thompson&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/paul-thompson/3824863-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Michael Taheny&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/michael-taheny/2501457-t" title="View Michael Taheny&#39;s Ratings">Michael Taheny</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/chemistry" title="View Comsewogue Senior High School&#39;s Chemistry Teachers">Chemistry</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Chill teacher. so funny :D one of my favorites! he is very friendly and knowledgeable. and did he..."</span>
+<a alt="View Michael Taheny&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/michael-taheny/2501457-t" title="View Michael Taheny&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/michael-taheny/2501457-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Joe Coniglione&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/joe-coniglione/1757130-t" title="View Joe Coniglione&#39;s Ratings">Joe Coniglione</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>7 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/vice-principal" title="View Comsewogue Senior High School&#39;s Vice Principal Teachers">Vice Principal</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mr. Coniglione, you are are great principal at Comsewogue High School.   You are always available..."</span>
+<a alt="View Joe Coniglione&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/joe-coniglione/1757130-t" title="View Joe Coniglione&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/joe-coniglione/1757130-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Fischetti Nick&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/fischetti-nick/1822982-t" title="View Fischetti Nick&#39;s Ratings">Fischetti Nick</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>6 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/biology-science" title="View Comsewogue Senior High School&#39;s Biology/Science Teachers">Biology/Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"I loved Fischetti&#39;s AP Bio class even though I hate science. He was super helpful and always..."</span>
+<a alt="View Fischetti Nick&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/fischetti-nick/1822982-t" title="View Fischetti Nick&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/fischetti-nick/1822982-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Markowitz&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/markowitz/1872121-t" title="View Markowitz&#39;s Ratings">Markowitz</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/english" title="View Comsewogue Senior High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"i love you so much miss having u as a teacher ur awesome"</span>
+<a alt="View Markowitz&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/markowitz/1872121-t" title="View Markowitz&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/markowitz/1872121-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Dr. Spencer&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/dr-spencer/1965730-t" title="View Dr. Spencer&#39;s Ratings">Dr. Spencer</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/not-specified" title="View Comsewogue Senior High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She is so nice and really cares about her students. I want to be a school psychologist bc of her...."</span>
+<a alt="View Dr. Spencer&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/dr-spencer/1965730-t" title="View Dr. Spencer&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/dr-spencer/1965730-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Cheryl Watkins&#39; Ratings" class="name" href="http://www.ratemyteachers.com/cheryl-watkins/1998032-t" title="View Cheryl Watkins&#39; Ratings">Cheryl Watkins</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>4 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/substitute-teacher" title="View Comsewogue Senior High School&#39;s Substitute Teacher Teachers">Substitute Teacher</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Gonna miss her seeing her everyday now that I&#39;m off to college."</span>
+<a alt="View Cheryl Watkins&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/cheryl-watkins/1998032-t" title="View Cheryl Watkins&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/cheryl-watkins/1998032-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Friedman&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/friedman/2085184-t" title="View Friedman&#39;s Ratings">Friedman</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/not-specified" title="View Comsewogue Senior High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Ms. Friedman was an awesome teacher, she was really nice and open-minded and taught really well."</span>
+<a alt="View Friedman&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/friedman/2085184-t" title="View Friedman&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/friedman/2085184-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Sutherland&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/sutherland/2096071-t" title="View Sutherland&#39;s Ratings">Sutherland</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>3 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/math" title="View Comsewogue Senior High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"he&#39;s honestly an amazing teacher. pretty hard to fail his class"</span>
+<a alt="View Sutherland&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/sutherland/2096071-t" title="View Sutherland&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/sutherland/2096071-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Diane Cutrone&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/diane-cutrone/2304481-t" title="View Diane Cutrone&#39;s Ratings">Diane Cutrone</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/math" title="View Comsewogue Senior High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Really good math teacher... just a little monotone... needs to liven it up"</span>
+<a alt="View Diane Cutrone&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/diane-cutrone/2304481-t" title="View Diane Cutrone&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/diane-cutrone/2304481-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Gia Grimaldi&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/gia-grimaldi/2367383-t" title="View Gia Grimaldi&#39;s Ratings">Gia Grimaldi</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/study-skills" title="View Comsewogue Senior High School&#39;s Study Skills Teachers">Study Skills</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"really good at teaching"</span>
+<a alt="View Gia Grimaldi&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/gia-grimaldi/2367383-t" title="View Gia Grimaldi&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/gia-grimaldi/2367383-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Malissa Derose&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/malissa-derose/2392160-t" title="View Malissa Derose&#39;s Ratings">Malissa Derose</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/math" title="View Comsewogue Senior High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Awsome teacher."</span>
+<a alt="View Malissa Derose&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/malissa-derose/2392160-t" title="View Malissa Derose&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/malissa-derose/2392160-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Kelly Palmer&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/kelly-palmer/1757127-t" title="View Kelly Palmer&#39;s Ratings">Kelly Palmer</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>11 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/physical-education" title="View Comsewogue Senior High School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"palmer! you truley are an amazing person. i love the fact that your door is alway open when ever..."</span>
+<a alt="View Kelly Palmer&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/kelly-palmer/1757127-t" title="View Kelly Palmer&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kelly-palmer/1757127-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Chris Carannante&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/chris-carannante/1461447-t" title="View Chris Carannante&#39;s Ratings">Chris Carannante</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>3 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/health" title="View Comsewogue Senior High School&#39;s Health Teachers">Health</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Best teacher I have ever had.  I wish i could have him ever year."</span>
+<a alt="View Chris Carannante&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/chris-carannante/1461447-t" title="View Chris Carannante&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/chris-carannante/1461447-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Derek Kennelly&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/derek-kennelly/1259854-t" title="View Derek Kennelly&#39;s Ratings">Derek Kennelly</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/not-specified" title="View Comsewogue Senior High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Awesome student"</span>
+<a alt="View Derek Kennelly&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/derek-kennelly/1259854-t" title="View Derek Kennelly&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/derek-kennelly/1259854-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Eddie Diaz&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/eddie-diaz/1259847-t" title="View Eddie Diaz&#39;s Ratings">Eddie Diaz</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/not-specified" title="View Comsewogue Senior High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"he&#39;s aWeSoMe!!!!!"</span>
+<a alt="View Eddie Diaz&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/eddie-diaz/1259847-t" title="View Eddie Diaz&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/eddie-diaz/1259847-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Evan Tousey&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/evan-tousey/1259842-t" title="View Evan Tousey&#39;s Ratings">Evan Tousey</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/grade-k" title="View Comsewogue Senior High School&#39;s Grade K Teachers">Grade K</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Cool person"</span>
+<a alt="View Evan Tousey&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/evan-tousey/1259842-t" title="View Evan Tousey&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/evan-tousey/1259842-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Craig Lonigro&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/craig-lonigro/1461438-t" title="View Craig Lonigro&#39;s Ratings">Craig Lonigro</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/health" title="View Comsewogue Senior High School&#39;s Health Teachers">Health</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Good guy. Funny and fair. I liked him very much."</span>
+<a alt="View Craig Lonigro&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/craig-lonigro/1461438-t" title="View Craig Lonigro&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/craig-lonigro/1461438-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Karen Murphy&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/karen-murphy/1375609-t" title="View Karen Murphy&#39;s Ratings">Karen Murphy</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/social-studies" title="View Comsewogue Senior High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"the best"</span>
+<a alt="View Karen Murphy&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/karen-murphy/1375609-t" title="View Karen Murphy&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/karen-murphy/1375609-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Mc Bride&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/mc-bride/154978-t" title="View Mc Bride&#39;s Ratings">Mc Bride</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.98'></div>
+<span class='rating_count'>20 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/social-studies-math" title="View Comsewogue Senior High School&#39;s Social Studies/Math Teachers">Social Studies/Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"mcb isnt just a great teacher hes a great guys he helps me all the time and im gunna miss him so..."</span>
+<a alt="View Mc Bride&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/mc-bride/154978-t" title="View Mc Bride&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mc-bride/154978-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View William Bodkin&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/william-bodkin/39942-t" title="View William Bodkin&#39;s Ratings">William Bodkin</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.9'></div>
+<span class='rating_count'>23 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/social-studies" title="View Comsewogue Senior High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"I had Mr Bodkin at both JFK and then again when he moved to the high school.  Greatest teacher I..."</span>
+<a alt="View William Bodkin&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/william-bodkin/39942-t" title="View William Bodkin&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/william-bodkin/39942-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Noelle Niosi&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/noelle-niosi/1368878-t" title="View Noelle Niosi&#39;s Ratings">Noelle Niosi</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.9'></div>
+<span class='rating_count'>5 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/math" title="View Comsewogue Senior High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"you will always be the best teacher"</span>
+<a alt="View Noelle Niosi&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/noelle-niosi/1368878-t" title="View Noelle Niosi&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/noelle-niosi/1368878-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Dottie Small&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/dottie-small/288226-t" title="View Dottie Small&#39;s Ratings">Dottie Small</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.88'></div>
+<span class='rating_count'>8 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/comsewogue-senior-high-school/13488-s/languages" title="View Comsewogue Senior High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Such a nice person. Had her as a club leader not a teacher. But she was always very sweet and..."</span>
+<a alt="View Dottie Small&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/dottie-small/288226-t" title="View Dottie Small&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/dottie-small/288226-t'></a>
+</div>
+</div>
+</div>
+
+</div>
+<div class='padding'>
+  <!-- School_BTF_Leaderboard -->
+  <div id="School_BTF_Leaderboard">
+    <ins class="adsbygoogle"
+      style="display:inline-block;width:336px;height:280px"
+      data-ad-client="ca-pub-8322864954623881"
+      data-ad-slot="2844422481"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+
+</div>
+<div class='pagination_container'>  <ul class="pagination">
+    
+    
+        <li class="page active">
+  <a href="/comsewogue-senior-high-school/13488-s">1</a>
+</li>
+
+        <li class="page">
+  <a href="/comsewogue-senior-high-school/13488-s/2" rel="next">2</a>
+</li>
+
+        <li class="page">
+  <a href="/comsewogue-senior-high-school/13488-s/3">3</a>
+</li>
+
+        <li class="page">
+  <a href="/comsewogue-senior-high-school/13488-s/4">4</a>
+</li>
+
+        <li class="page">
+  <a href="/comsewogue-senior-high-school/13488-s/5">5</a>
+</li>
+
+    <li class="next_page">
+  <a href="/comsewogue-senior-high-school/13488-s/2" rel="next">
+    <span class="hidden-sm hidden-md hidden-lg">&rsaquo;</span>
+    <span class="hidden-xs">Next &rsaquo;</span>
+  </a>
+</li>
+
+    <li class="last next">
+  <a href="/comsewogue-senior-high-school/13488-s/5">
+    <span class="hidden-sm hidden-md hidden-lg">&raquo;</span>
+    <span class="hidden-xs">Last &raquo;</span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</section>
+</div>
+<aside class='col-xs-12 col-sm-4 sticky_container_right'>
+<div class='sticky_column'>
+
+<div class='sheva_ad'>
+<a href='http://lp.sheva.com/givingcyclenewsletter/?utm_source=ratemyteachers&amp;utm_medium=referral&amp;utm_campaign=giving_ratemyteachers' target='_blank' title='Go to Sheva website'><img alt="Go to Sheva website" src="/assets/template/sheva_banner-5bff26ecfd8ee12efd18945bccc61c3c.jpg" /></a>
+</div>
+
+<div class='add_teacher_wrapper'>
+<a class='new_teacher_trigger' data-backdrop='static' data-keyboard data-school='Comsewogue Senior High School' data-sender-name='School aside' data-target='#modal' data-toggle='modal' href='/teachers/new?sid=13488' title='Add My Teacher to Comsewogue Senior High School'>
+<span>
+<span>
+Add My Teacher
+</span>
+</span>
+</a>
+</div>
+
+<section class='aside_content'>
+<div class='col-xs-12 schools'>
+<div class='school clickable_fix'>
+<div class='name'>
+<a alt="View Lexington Middle School's Teachers" href='/lexington-middle-school/51006-s' title="View Lexington Middle School's Teachers">
+Lexington Middle School
+</a>
+</div>
+<div class='col-xs-12 details'>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.85715'></div>
+Middle School
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>8 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Lexington, Missouri</span>
+</div>
+</div>
+<a alt="View Lexington Middle School's Teachers" class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='/lexington-middle-school/51006-s' title="View Lexington Middle School's Teachers"></a>
+</div>
+
+<div class='school clickable_fix'>
+<div class='name'>
+<a alt="View Chester Elementary School's Teachers" href='/chester-elementary-school/156651-s' title="View Chester Elementary School's Teachers">
+Chester Elementary School
+</a>
+</div>
+<div class='col-xs-12 details'>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='0.0'></div>
+Elementary
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>0 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Chester, California</span>
+</div>
+</div>
+<a alt="View Chester Elementary School's Teachers" class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='/chester-elementary-school/156651-s' title="View Chester Elementary School's Teachers"></a>
+</div>
+
+<div class='school clickable_fix'>
+<div class='name'>
+<a alt="View Kirksville Sr. High School's Teachers" href='/kirksville-sr-high-school/30455-s' title="View Kirksville Sr. High School's Teachers">
+Kirksville Sr. High School
+</a>
+</div>
+<div class='col-xs-12 details'>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.14133'></div>
+Highschool
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>11 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Kirksville, Missouri</span>
+</div>
+</div>
+<a alt="View Kirksville Sr. High School's Teachers" class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='/kirksville-sr-high-school/30455-s' title="View Kirksville Sr. High School's Teachers"></a>
+</div>
+
+</div>
+</section>
+<div class='back_button_wrapper secondary'>
+<a href='/new-york/port-jefferson-sta' title='View all schools in Port Jefferson Sta'>Port Jefferson Sta</a>
+</div>
+
+</div>
+</aside>
+</div>
+</div>
+<div class='hidden' id='v'>school-web-6.3</div>
+
+
+  </div>
+
+  
+    <div id="all_footer_wrapper" style="overflow:hidden;">
+      <section class='container-fluid hidden-xs padding' id='states'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<h3>Find High Schools and Colleges by State</h3>
+<div class='states'>
+<div class='state'>
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class='state'>
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class='state'>
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class='state'>
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class='state'>
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class='state'>
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class='state'>
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class='state'>
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class='state'>
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class='state'>
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class='state'>
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class='state'>
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class='state'>
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class='state'>
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class='state'>
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class='state'>
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class='state'>
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class='state'>
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class='state'>
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class='state'>
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class='state'>
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class='state'>
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class='state'>
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class='state'>
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class='state'>
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class='state'>
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class='state'>
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class='state'>
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class='state'>
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class='state'>
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class='state'>
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class='state'>
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class='state'>
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class='state'>
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class='state'>
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class='state'>
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class='state'>
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class='state'>
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class='state'>
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class='state'>
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class='state'>
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class='state'>
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class='state'>
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class='state'>
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class='state'>
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class='state'>
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer_directory'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-6 hidden-xs'>
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class='col-xs-6 hidden-xs'>
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class='row footer_countries_list'>
+<div class='col-xs-12'>
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer'>
+<div class='container'>
+<div class='row footer_links'>
+<div class='col-xs-12'>
+<h3 class='hidden-sm hidden-md hidden-lg'>Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop='static' data-keyboard data-target='#modal' data-toggle='modal' href='/contact/new' title='Contact RateMyTeachers'>
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='row copyright'>
+© 2014 RateMyTeachers
+All Rights Reserved
+</div>
+</div>
+</section>
+<div aria-hidden='true' class='modal fade' id='modal' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div aria-hidden='true' class='modal fade' id='modal_rating' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div id='loading-indicator' style='display: none;'>
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif" />
+</div>
+</div>
+
+    </div>
+
+  <!-- loading JS at the end to speed up page loading -->
+    <script type="text/javascript">
+  window._pt_sp_2 = [];
+  _pt_sp_2.push('setAccount,42a92f26');
+  var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+
+  (function()
+  { var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true; atag.src = _protocol + 'js.ptengine.com/pta.js'; var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true; stag.src = _protocol + 'js.ptengine.com/pts.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s); }
+
+  )();
+  </script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery || document.write(unescape('%3Cscript src="/assets/jquery-92f6843043abf957b96f7fad2afbc022.js">%3C/script>'))
+//]]>
+</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery.ui || document.write(unescape('%3Cscript src="/assets/jquery-ui-e3d1c2f8bca4b46c2d38af5aa36cbc30.js">%3C/script>'))
+//]]>
+</script>
+  <script src="/assets/application-24584bf75994ef613eb3ccdfa2070ffb.js"></script>
+  <script>
+  var resultCount = 50;
+  var minStickyResultCount = 20;
+  var schoolPagePath = '/comsewogue-senior-high-school/13488-s';
+  var stickyColumnLeft = $(".sticky_container_left .sticky_column");
+  var stickyColumnRight = $(".sticky_container_right .sticky_column");
+  var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+  var footerHeight = $('#all_footer_wrapper').outerHeight();
+  var stickyOptions = function(getWidthFrom, topSpacing) {
+    if (typeof(topSpacing) === 'undefined') {
+      topSpacing = 10;
+    }
+    return {topSpacing: topSpacing, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+  }
+  stickyColumnLeft.sticky(stickyOptions('.sticky_container_left'));
+  stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+  // Make center column options sticky when min results quantity
+  if (resultCount > minStickyResultCount - 1) {
+    stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+  }
+
+  // Beating Chrome bug
+  var fixEventStep1 = function() {
+    setTimeout(function() {
+      var secondaryInfo = $('.secondary_info');
+      secondaryInfo.css('min-height', secondaryInfo.height() + 'px');
+    }, 1);
+  };
+  var fixEventStep2 = function() {
+    $('.secondary_info').css('min-height', '');
+  };
+  stickyColumnLeft.on('sticky-start', fixEventStep1);
+  stickyColumnLeft.on('sticky-end', fixEventStep2);
+</script>
+
+
+  
+
+
+
+  <!-- [:desktop] 14c51a5@rails1 - 2014-12-24 21:50:24 +0000-->
+</body>
+</html>

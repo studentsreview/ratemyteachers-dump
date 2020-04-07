@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frolio Middle School - Abington, Massachusetts | RateMyTeachers.com</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-4.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":283,"agentToken":null,"agent":"js-agent.newrelic.com/nr-476.min.js","ttGuid":"a57c4739931ec4aa"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),u=c.length,f=i(a,o,r),d=0;u>d;d++)c[d].apply(f,n);return f}function a(t,e){u[t]=s(t).concat(e)}function s(t){return u[t]||[]}function c(){return n(e)}var u={};return{on:a,emit:e,create:c,listeners:s,_events:u}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(u){try{r("ierr",[u,(new Date).getTime(),!0])}catch(f){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(4),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(u){"stack"in u&&(t(5),t(3),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:5,4:18,5:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:18,2:19,ee:"QJf3ax",gos:"7eSDFh"}],5:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:19,2:18,ee:"QJf3ax"}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:19,2:18,ee:"QJf3ax"}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t("ee").create(),a=t(1),s=t(2),c=s(i),u=s(a),f=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new f(t);try{i.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",[r])}catch(o){}}return e},window.XMLHttpRequest.prototype=f.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:19,ee:"QJf3ax"}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,u="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=e(u);if(f&&(r.rxSize=f),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,u=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var u=e(o);u&&(r.txSize=u)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",[e])}catch(r){}}};for(var f=0;c>f;f++)n.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:9,3:7,4:4,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){p.proto="https"===d.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=p.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,c=s.document,u="addEventListener",f="attachEvent",d=(""+location).split("?")[0],p=e.exports={offset:i(),origin:d,features:{}};c[u]?(c[u]("DOMContentLoaded",o,!1),s[u]("load",n,!1)):(c[f]("onreadystatechange",r),s[f]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],18:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],19:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,u;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){f([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return u=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,u],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,u(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,u="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,u?s+o:o,i,s,t))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){f([o,e,n,r])}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){f([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function f(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:18,ee:"QJf3ax"}]},{},["G9z0Bl",3,8]);</script>  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw" />
+  
+  <meta name="keywords" content="Rate a teacher from school,read college professor ratings,rate a professor from university,university,rate my teacher,rate,teacher,college,school,high school,schools,elementary school,preschool,middle school,professor ratings,teacher ratings,ratemyteachers.com" />
+
+  <meta name="description" content="Rate Frolio Middle School in Abington, Massachusetts on RateMyTeachers.com" />
+
+<meta name="googlebot" content="noindex">
+
+  <meta name="robots" content="noodp,noydir" />
+  <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+  <link href="/assets/application-cd712a77a030ef0f95d9d50bb8ca07fd.css" media="all" rel="stylesheet" />
+  
+  <meta property="og:type" content="rmt:school" />
+<meta property="og:url" content="http://www.ratemyteachers.com/frolio-middle-school/114888-s" />
+<meta property="og:site_name" content="Frolio Middle School on RateMyTeachers.com" />
+<meta property="og:description" content="Rate Frolio Middle School in Abington, Massachusetts on RateMyTeachers.com" />
+
+  <script type="text/javascript">
+    var currentState = 'VA';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:      true,
+    debugMode:            false
+  }
+
+
+ function getWindowWidth() {
+   var myWidth = 0, myHeight = 0;
+     if( typeof( window.innerWidth ) == 'number' ) {
+         myWidth = window.innerWidth; myHeight = window.innerHeight;
+     } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+         myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+     } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+         myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+     }
+     return myWidth;
+ }  
+
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isMobile = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false) || isMobileVariant;
+</script>
+  <script>
+    var gaId = 'UA-4216499-1';
+    
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', gaId, 'auto');
+    ga('require', 'displayfeatures');
+    //ga('require', 'ecommerce', 'ecommerce.js');
+    
+  </script>
+
+<script src="/assets/rmt.analytics-ed37c1dc4dde9d44483869ae07be4d6a.js"></script>
+
+<script>
+  var pageType = "";
+  RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+  var searchTerm = "";
+</script>
+
+
+  <!-- DFP -->
+
+  <!-- Google Custom Ads -->
+  <script type="text/javascript" charset="utf-8">
+    (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+    arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+    O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+    e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+  </script>
+
+
+  <!-- AdSense -->
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+  
+  <!-- WebSpectator -->
+  <script async type="text/javascript" src="//wfpscripts.webspectator.com/bootstrap/ws-8828A2DD.js"></script>
+
+  <script type="text/javascript">window._pt_lt = new Date().getTime();</script>
+ 
+   
+  <link href='http://www.ratemyteachers.com/frolio-middle-school/114888-s.rss' rel='alternate' type='application/rss+xml'>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Yhp4MTeA+ZnOi/jTKJg6/r7lMamD9HKcrLEFF4kdNEM=" name="csrf-token" />
+</head>
+<!--
+
+██████╗ ███╗   ███╗████████╗
+██╔══██╗████╗ ████║╚══██╔══╝
+██████╔╝██╔████╔██║   ██║   
+██╔══██╗██║╚██╔╝██║   ██║   
+██║  ██║██║ ╚═╝ ██║   ██║   
+╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝
+
+If you see this we should talk!  We are pretty awesome!
+-->
+
+<body class="inner_page school_page schools_v6_5
+">
+  <div id="fb-root"></div>
+      <div class='rate_my_teachers_international'>
+<div class='container'>
+<div class='row'>
+<a class="country active" href="http://www.ratemyteachers.com">United States</a>
+<a class="country " href="http://ca.ratemyteachers.com">Canada</a>
+<a class="country " href="http://uk.ratemyteachers.com">United Kingdom</a>
+<a class="country " href="http://au.ratemyteachers.com">Australia</a>
+<a class="country " href="http://nz.ratemyteachers.com">New Zealand</a>
+<a class="country " href="http://ie.ratemyteachers.com">Ireland</a>
+</div>
+</div>
+</div>
+<header>
+<div class='container'>
+<div class='row'>
+<form action='/search_page' class='tab-form search_form' method='get'>
+<a href='/' id='rate_my_teachers_logo'></a>
+<input name='search' type='hidden' value='teachers'>
+<div class='search_inputs'>
+<div class='bg'>
+<div class='padding'>
+<input class='search_input' name='q' placeholder='Search for teacher or school' type='text'>
+</div>
+<div class='location'>
+<select class="state" id="state" name="state"><option value="">Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class='search_button'>
+<button class='btn-search fa fa-search fa-3x' title='Search RateMyTeachers' type='submit'></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+
+
+
+    <section class="breadcrumbs container-fluid">
+      <div class="row">
+        <div class="container">
+          <div class="col-sm-12">
+            <ul class='list-inline collapsible_nav collapsible_nav_collapsed'>
+<li class='toggle'>
+<a href='javascript:void(0);'>
+<i class='fa fa-bars'></i>
+</a>
+</li>
+<li class='collapse'>
+<a href='/'>United States</a>
+</li>
+<li class='always_show'>
+<a href='/massachusetts'>Massachusetts</a>
+</li>
+<li class='collapse'>
+<a href='/massachusetts/abington'>Abington</a>
+</li>
+<li class='always_show'>
+<a href='/frolio-middle-school/114888-s'>Frolio Middle School</a>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="alert alert-danger" id="flash-error" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-warning" id="flash-alert" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-success" id="flash-success" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-info"  id="flash-notice" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+  
+
+  <div id="content">
+    <span itemprop='aggregateRating' itemscope itemtype='http://data-vocabulary.org/Review-aggregate'>
+<meta content='Frolio Middle School' itemprop='itemreviewed'>
+<span itemprop='rating' itemscope itemtype='http://data-vocabulary.org/Rating'>
+<meta content='3.19841' itemprop='average'>
+<meta content='5' itemprop='best'>
+<meta content='0' itemprop='worst'>
+</span>
+<meta content='54' itemprop='votes'>
+</span>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+  <div id="School_ATF_Large_Leaderboard">
+    <!-- School_ATF_Large_Leaderboard -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:970px;height:90px"
+         data-ad-client="ca-pub-8322864954623881"
+         data-ad-slot="7130714482"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+</div>
+</div>
+<div class='row'>
+<div class='col-md-4 sticky_container_left'>
+<div class='sticky_column'>
+<section class='school_info' itemscope itemtype='http://schema.org/School'>
+<div class='callout'>
+This School profile is 20% complete. Help us
+<a href='javascript:void(0);'>add more information</a>
+</div>
+<div class='info row'>
+<div class='col-md-12'>
+<div class='info_box'>
+<div class='main_info'>
+<h1 class='title school_name' itemprop='name'>
+Frolio Middle School
+
+</h1>
+<div class='location'>Abington, Massachusetts</div>
+</div>
+<div class='row'>
+<div class='col-md-8 col-lg-8 rating'>
+<div class='wrapper'>
+<div class='average'>
+2.9
+<small>Easiness</small>
+</div>
+<div class='average'>
+3.0
+<small>Helpfulness</small>
+</div>
+<div class='average'>
+3.0
+<small>Clarity</small>
+</div>
+<div class='average'>
+3.5
+<small>Knowledge</small>
+</div>
+<div class='average'>
+3.0
+<small>Textbook Use</small>
+</div>
+<div class='average'>
+2.0
+<small>Exam Difficulty</small>
+</div>
+</div>
+</div>
+<div class='col-md-4 col-lg-4 rating'>
+<div class='wrapper'>
+<div class='average all'>
+3.2
+<small>Overall Rating</small>
+</div>
+<div class='counts'>
+Based on
+<span class='colorized'>54 Ratings</span>
+</div>
+</div>
+</div>
+</div>
+<div class='secondary_info'>
+<div class='col-md-12 stats phone'>
+<div class='title'>Telephone:</div>
+<span itemprop='telephone'>413-967-6903</span>
+</div>
+<div class='col-md-12 map'>
+  <iframe
+    width="100%"
+    height="200"
+    frameborder="0" style="border:0;"
+    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g&amp;q=239+West+Street+Abington%2C+Massachusetts+United+States">
+  </iframe>
+
+</div>
+<div class='col-md-12 stats'>
+<div class='title strong'>Address:</div>
+<span itemprop='address'>239 West Street</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class='apply_school_administrator_wrapper secondary'>
+<a class='new_admin_request_trigger' data-school='FROLIO MIDDLE SCHOOL' data-sender='School page' data-target='#modal' data-toggle='modal' href='/admin/new?sid=114888'>Apply for School Administrator</a>
+</div>
+
+<!-- - unless school.bio.blank? -->
+<!-- .bio -->
+<!-- %h4 School Bio -->
+<!-- %div -->
+<!-- = school.bio -->
+</div>
+</div>
+<div class='col-md-4 middle'>
+<section class='school_teachers content'>
+<div class='header padding'>
+Showing
+0 Teachers
+<!-- and -->
+<!-- %span.colorized= pluralize ratings_count, 'Rating' -->
+from Frolio Middle School
+</div>
+<!-- - else -->
+<!-- .item -->
+<div class='search padding hidden-xs'>
+<div class='row'>
+<div class='col-xs-12 col-md-7 left'>
+<form action='/frolio-middle-school/114888-s' class='simple_form inline_form'>
+<input name='q' placeholder='Search by Teacher' type='text'>
+<input class='btn btn-default' name='commit' type='submit' value='Search'>
+</form>
+</div>
+<div class='col-xs-12 col-md-5 right'>
+<select id="school_departments" name="school_departments"><option value="">Select a Department</option><option value=""></option><option value="/frolio-middle-school/114888-s/not-specified">Not Specified</option>
+<option value="/frolio-middle-school/114888-s/accounting">Accounting</option>
+<option value="/frolio-middle-school/114888-s/administration">Administration</option>
+<option value="/frolio-middle-school/114888-s/anthropology">Anthropology</option>
+<option value="/frolio-middle-school/114888-s/architecture">Architecture</option>
+<option value="/frolio-middle-school/114888-s/asl">ASL</option>
+<option value="/frolio-middle-school/114888-s/auto-tech">Auto Tech</option>
+<option value="/frolio-middle-school/114888-s/band">Band</option>
+<option value="/frolio-middle-school/114888-s/biology">Biology</option>
+<option value="/frolio-middle-school/114888-s/business">Business</option>
+<option value="/frolio-middle-school/114888-s/chemistry">Chemistry</option>
+<option value="/frolio-middle-school/114888-s/co-op">Co-op</option>
+<option value="/frolio-middle-school/114888-s/communications">Communications</option>
+<option value="/frolio-middle-school/114888-s/computer-science">Computer Science</option>
+<option value="/frolio-middle-school/114888-s/counselor">Counselor</option>
+<option value="/frolio-middle-school/114888-s/drafting">Drafting</option>
+<option value="/frolio-middle-school/114888-s/drivers-education">Drivers Education</option>
+<option value="/frolio-middle-school/114888-s/economics">Economics</option>
+<option value="/frolio-middle-school/114888-s/education">Education</option>
+<option value="/frolio-middle-school/114888-s/english">English</option>
+<option value="/frolio-middle-school/114888-s/esl">ESL</option>
+<option value="/frolio-middle-school/114888-s/family-consumer-sciences">Family &amp; Consumer Sciences</option>
+<option value="/frolio-middle-school/114888-s/film">Film</option>
+<option value="/frolio-middle-school/114888-s/fine-arts">Fine Arts</option>
+<option value="/frolio-middle-school/114888-s/french">French</option>
+<option value="/frolio-middle-school/114888-s/geography">Geography</option>
+<option value="/frolio-middle-school/114888-s/grade-1">Grade 1</option>
+<option value="/frolio-middle-school/114888-s/grade-2">Grade 2</option>
+<option value="/frolio-middle-school/114888-s/grade-3">Grade 3</option>
+<option value="/frolio-middle-school/114888-s/grade-4">Grade 4</option>
+<option value="/frolio-middle-school/114888-s/grade-5">Grade 5</option>
+<option value="/frolio-middle-school/114888-s/grade-6">Grade 6</option>
+<option value="/frolio-middle-school/114888-s/grade-k">Grade K</option>
+<option value="/frolio-middle-school/114888-s/grammaire-composition">Grammaire/Composition</option>
+<option value="/frolio-middle-school/114888-s/headmaster">Headmaster</option>
+<option value="/frolio-middle-school/114888-s/health">Health</option>
+<option value="/frolio-middle-school/114888-s/history">History</option>
+<option value="/frolio-middle-school/114888-s/home-economics">Home Economics</option>
+<option value="/frolio-middle-school/114888-s/ib-program">IB Program</option>
+<option value="/frolio-middle-school/114888-s/independent-study">Independent Study</option>
+<option value="/frolio-middle-school/114888-s/industrial-education">Industrial Education</option>
+<option value="/frolio-middle-school/114888-s/journalism">Journalism</option>
+<option value="/frolio-middle-school/114888-s/languages">Languages</option>
+<option value="/frolio-middle-school/114888-s/law">Law</option>
+<option value="/frolio-middle-school/114888-s/librarian">Librarian</option>
+<option value="/frolio-middle-school/114888-s/math">Math</option>
+<option value="/frolio-middle-school/114888-s/media">Media</option>
+<option value="/frolio-middle-school/114888-s/multiple-subjects">Multiple Subjects</option>
+<option value="/frolio-middle-school/114888-s/music">Music</option>
+<option value="/frolio-middle-school/114888-s/nursing">Nursing</option>
+<option value="/frolio-middle-school/114888-s/performing-arts">Performing Arts</option>
+<option value="/frolio-middle-school/114888-s/philosophy">Philosophy</option>
+<option value="/frolio-middle-school/114888-s/photography">Photography</option>
+<option value="/frolio-middle-school/114888-s/physical-education">Physical Education</option>
+<option value="/frolio-middle-school/114888-s/physics">Physics</option>
+<option value="/frolio-middle-school/114888-s/principal">Principal</option>
+<option value="/frolio-middle-school/114888-s/psychology">Psychology</option>
+<option value="/frolio-middle-school/114888-s/reading">Reading</option>
+<option value="/frolio-middle-school/114888-s/religion">Religion</option>
+<option value="/frolio-middle-school/114888-s/resource">Resource</option>
+<option value="/frolio-middle-school/114888-s/rotc">ROTC</option>
+<option value="/frolio-middle-school/114888-s/science">Science</option>
+<option value="/frolio-middle-school/114888-s/social-studies">Social Studies</option>
+<option value="/frolio-middle-school/114888-s/sociology">Sociology</option>
+<option value="/frolio-middle-school/114888-s/speech">Speech</option>
+<option value="/frolio-middle-school/114888-s/study-skills">Study Skills</option>
+<option value="/frolio-middle-school/114888-s/substitute-teacher">Substitute Teacher</option>
+<option value="/frolio-middle-school/114888-s/technology">Technology</option>
+<option value="/frolio-middle-school/114888-s/vice-principal">Vice Principal</option>
+<option value="/frolio-middle-school/114888-s/visual-arts">Visual Arts</option>
+<option value="/frolio-middle-school/114888-s/writing">Writing</option></select>
+</div>
+</div>
+</div>
+<ul class='teachers_by_alphabet'>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with A' href='/frolio-middle-school/114888-s/a' title='Teachers at Frolio Middle School whose names begin with A'>a</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with B' href='/frolio-middle-school/114888-s/b' title='Teachers at Frolio Middle School whose names begin with B'>b</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with C' href='/frolio-middle-school/114888-s/c' title='Teachers at Frolio Middle School whose names begin with C'>c</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with D' href='/frolio-middle-school/114888-s/d' title='Teachers at Frolio Middle School whose names begin with D'>d</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with E' class='active' href='/frolio-middle-school/114888-s/e' title='Teachers at Frolio Middle School whose names begin with E'>e</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with F' href='/frolio-middle-school/114888-s/f' title='Teachers at Frolio Middle School whose names begin with F'>f</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with G' href='/frolio-middle-school/114888-s/g' title='Teachers at Frolio Middle School whose names begin with G'>g</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with H' href='/frolio-middle-school/114888-s/h' title='Teachers at Frolio Middle School whose names begin with H'>h</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with I' href='/frolio-middle-school/114888-s/i' title='Teachers at Frolio Middle School whose names begin with I'>i</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with J' href='/frolio-middle-school/114888-s/j' title='Teachers at Frolio Middle School whose names begin with J'>j</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with K' href='/frolio-middle-school/114888-s/k' title='Teachers at Frolio Middle School whose names begin with K'>k</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with L' href='/frolio-middle-school/114888-s/l' title='Teachers at Frolio Middle School whose names begin with L'>l</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with M' href='/frolio-middle-school/114888-s/m' title='Teachers at Frolio Middle School whose names begin with M'>m</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with N' href='/frolio-middle-school/114888-s/n' title='Teachers at Frolio Middle School whose names begin with N'>n</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with O' href='/frolio-middle-school/114888-s/o' title='Teachers at Frolio Middle School whose names begin with O'>o</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with P' href='/frolio-middle-school/114888-s/p' title='Teachers at Frolio Middle School whose names begin with P'>p</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with Q' href='/frolio-middle-school/114888-s/q' title='Teachers at Frolio Middle School whose names begin with Q'>q</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with R' href='/frolio-middle-school/114888-s/r' title='Teachers at Frolio Middle School whose names begin with R'>r</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with S' href='/frolio-middle-school/114888-s/s' title='Teachers at Frolio Middle School whose names begin with S'>s</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with T' href='/frolio-middle-school/114888-s/t' title='Teachers at Frolio Middle School whose names begin with T'>t</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with U' href='/frolio-middle-school/114888-s/u' title='Teachers at Frolio Middle School whose names begin with U'>u</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with V' href='/frolio-middle-school/114888-s/v' title='Teachers at Frolio Middle School whose names begin with V'>v</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with X' href='/frolio-middle-school/114888-s/x' title='Teachers at Frolio Middle School whose names begin with X'>x</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with Y' href='/frolio-middle-school/114888-s/y' title='Teachers at Frolio Middle School whose names begin with Y'>y</a>
+</li>
+<li>
+<a alt='Teachers at Frolio Middle School whose names begin with Z' href='/frolio-middle-school/114888-s/z' title='Teachers at Frolio Middle School whose names begin with Z'>z</a>
+</li>
+</ul>
+
+
+
+
+  <div id="School_ATF_Leaderboard">
+    <!-- School_ATF_Leaderboard_web -->
+    <ins class="adsbygoogle"
+      style="display:inline-block;width:336px;height:280px"
+      data-ad-client="ca-pub-8322864954623881"
+      data-ad-slot="1367689285"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+<div class='teachers padding'>
+<h3 class='letter'>Teachers by the letter E</h3>
+<div class='row internal_ad'>
+<div class='internal_ad_unit' id='CSA_School_web_internal_0'></div>
+</div>
+
+<div class='pagination_container'>
+
+</div>
+<h4 class='empty'>No Teachers Found</h4>
+</div>
+</section>
+</div>
+<aside class='col-xs-12 col-sm-4 sticky_container_right'>
+<div class='sticky_column'>
+<section class='aside_content'>
+<div class='col-xs-12 title'>
+Checkout these Colleges around the
+Massachusetts
+Area
+</div>
+<div class='col-xs-12'>
+<div class='schools'>
+<div class='school clickable_fix'>
+<div class='name'>
+<a href='/springfield-technical-community-college/138956-s'>
+Springfield Technical Community College
+- Springfield, Massachusetts
+</a>
+</div>
+
+<div class='col-xs-12 col-sm-12 details'>
+<div class='type'>
+College
+</div>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.0'></div>
+4.0
+out of 5
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>231 Professors</span>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/springfield-technical-community-college/138956-s'></a>
+</div>
+
+<div class='school clickable_fix'>
+<div class='name'>
+<a href='/worcester-polytechnic-institute/138983-s'>
+Worcester Polytechnic Institute
+- Worcester, Massachusetts
+</a>
+</div>
+
+<div class='col-xs-12 col-sm-12 details'>
+<div class='type'>
+College
+</div>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.46667'></div>
+4.5
+out of 5
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>471 Professors</span>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/worcester-polytechnic-institute/138983-s'></a>
+</div>
+
+<div class='school clickable_fix'>
+<div class='name'>
+<a href='/roxbury-community-college/138947-s'>
+Roxbury Community College
+- Roxbury Crossing
+</a>
+</div>
+
+<div class='col-xs-12 col-sm-12 details'>
+<div class='type'>
+College
+</div>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='0.0'></div>
+0.0
+out of 5
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>132 Professors</span>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/roxbury-community-college/138947-s'></a>
+</div>
+
+</div>
+</div>
+</section>
+</div>
+</aside>
+</div>
+</div>
+<div class='hidden' id='v'>school-web-6.3</div>
+
+
+  </div>
+  
+
+    <div id="all_footer_wrapper" style="overflow:hidden;">
+      <section class='container-fluid hidden-xs padding' id='states'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<h3>Locate your school or college by state:</h3>
+<div class='state'>
+<a href="/alaska">Alaska</a>
+</div>
+<div class='state'>
+<a href="/alabama">Alabama</a>
+</div>
+<div class='state'>
+<a href="/arkansas">Arkansas</a>
+</div>
+<div class='state'>
+<a href="/arizona">Arizona</a>
+</div>
+<div class='state'>
+<a href="/california">California</a>
+</div>
+<div class='state'>
+<a href="/colorado">Colorado</a>
+</div>
+<div class='state'>
+<a href="/connecticut">Connecticut</a>
+</div>
+<div class='state'>
+<a href="/dc">DC</a>
+</div>
+<div class='state'>
+<a href="/delaware">Delaware</a>
+</div>
+<div class='state'>
+<a href="/florida">Florida</a>
+</div>
+<div class='state'>
+<a href="/georgia">Georgia</a>
+</div>
+<div class='state'>
+<a href="/hawaii">Hawaii</a>
+</div>
+<div class='state'>
+<a href="/iowa">Iowa</a>
+</div>
+<div class='state'>
+<a href="/idaho">Idaho</a>
+</div>
+<div class='state'>
+<a href="/illinois">Illinois</a>
+</div>
+<div class='state'>
+<a href="/indiana">Indiana</a>
+</div>
+<div class='state'>
+<a href="/kansas">Kansas</a>
+</div>
+<div class='state'>
+<a href="/kentucky">Kentucky</a>
+</div>
+<div class='state'>
+<a href="/louisiana">Louisiana</a>
+</div>
+<div class='state'>
+<a href="/massachusetts">Massachusetts</a>
+</div>
+<div class='state'>
+<a href="/maryland">Maryland</a>
+</div>
+<div class='state'>
+<a href="/maine">Maine</a>
+</div>
+<div class='state'>
+<a href="/michigan">Michigan</a>
+</div>
+<div class='state'>
+<a href="/minnesota">Minnesota</a>
+</div>
+<div class='state'>
+<a href="/missouri">Missouri</a>
+</div>
+<div class='state'>
+<a href="/mississippi">Mississippi</a>
+</div>
+<div class='state'>
+<a href="/montana">Montana</a>
+</div>
+<div class='state'>
+<a href="/north-carolina">North Carolina</a>
+</div>
+<div class='state'>
+<a href="/north-dakota">North Dakota</a>
+</div>
+<div class='state'>
+<a href="/nebraska">Nebraska</a>
+</div>
+<div class='state'>
+<a href="/new-hampshire">New Hampshire</a>
+</div>
+<div class='state'>
+<a href="/new-jersey">New Jersey</a>
+</div>
+<div class='state'>
+<a href="/new-mexico">New Mexico</a>
+</div>
+<div class='state'>
+<a href="/nevada">Nevada</a>
+</div>
+<div class='state'>
+<a href="/new-york">New York</a>
+</div>
+<div class='state'>
+<a href="/ohio">Ohio</a>
+</div>
+<div class='state'>
+<a href="/oklahoma">Oklahoma</a>
+</div>
+<div class='state'>
+<a href="/oregon">Oregon</a>
+</div>
+<div class='state'>
+<a href="/pennsylvania">Pennsylvania</a>
+</div>
+<div class='state'>
+<a href="/puerto-rico">Puerto Rico</a>
+</div>
+<div class='state'>
+<a href="/rhode-island">Rhode Island</a>
+</div>
+<div class='state'>
+<a href="/south-carolina">South Carolina</a>
+</div>
+<div class='state'>
+<a href="/south-dakota">South Dakota</a>
+</div>
+<div class='state'>
+<a href="/tennessee">Tennessee</a>
+</div>
+<div class='state'>
+<a href="/texas">Texas</a>
+</div>
+<div class='state'>
+<a href="/utah">Utah</a>
+</div>
+<div class='state'>
+<a href="/virginia">Virginia</a>
+</div>
+<div class='state'>
+<a href="/vermont">Vermont</a>
+</div>
+<div class='state'>
+<a href="/washington">Washington</a>
+</div>
+<div class='state'>
+<a href="/wisconsin">Wisconsin</a>
+</div>
+<div class='state'>
+<a href="/west-virginia">West Virginia</a>
+</div>
+<div class='state'>
+<a href="/wyoming">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer_directory'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-6 hidden-xs'>
+School Directory:
+<a href="/schools/directory/a">a</a>
+<a href="/schools/directory/b">b</a>
+<a href="/schools/directory/c">c</a>
+<a href="/schools/directory/d">d</a>
+<a href="/schools/directory/e">e</a>
+<a href="/schools/directory/f">f</a>
+<a href="/schools/directory/g">g</a>
+<a href="/schools/directory/h">h</a>
+<a href="/schools/directory/i">i</a>
+<a href="/schools/directory/j">j</a>
+<a href="/schools/directory/k">k</a>
+<a href="/schools/directory/l">l</a>
+<a href="/schools/directory/m">m</a>
+<a href="/schools/directory/n">n</a>
+<a href="/schools/directory/o">o</a>
+<a href="/schools/directory/p">p</a>
+<a href="/schools/directory/q">q</a>
+<a href="/schools/directory/r">r</a>
+<a href="/schools/directory/s">s</a>
+<a href="/schools/directory/t">t</a>
+<a href="/schools/directory/u">u</a>
+<a href="/schools/directory/v">v</a>
+<a href="/schools/directory/x">x</a>
+<a href="/schools/directory/y">y</a>
+<a href="/schools/directory/z">z</a>
+<a href="/schools/directory/%23">#</a>
+</div>
+<div class='col-xs-6 hidden-xs'>
+Teacher Directory:
+<a href="/teachers/directory/a">a</a>
+<a href="/teachers/directory/b">b</a>
+<a href="/teachers/directory/c">c</a>
+<a href="/teachers/directory/d">d</a>
+<a href="/teachers/directory/e">e</a>
+<a href="/teachers/directory/f">f</a>
+<a href="/teachers/directory/g">g</a>
+<a href="/teachers/directory/h">h</a>
+<a href="/teachers/directory/i">i</a>
+<a href="/teachers/directory/j">j</a>
+<a href="/teachers/directory/k">k</a>
+<a href="/teachers/directory/l">l</a>
+<a href="/teachers/directory/m">m</a>
+<a href="/teachers/directory/n">n</a>
+<a href="/teachers/directory/o">o</a>
+<a href="/teachers/directory/p">p</a>
+<a href="/teachers/directory/q">q</a>
+<a href="/teachers/directory/r">r</a>
+<a href="/teachers/directory/s">s</a>
+<a href="/teachers/directory/t">t</a>
+<a href="/teachers/directory/u">u</a>
+<a href="/teachers/directory/v">v</a>
+<a href="/teachers/directory/x">x</a>
+<a href="/teachers/directory/y">y</a>
+<a href="/teachers/directory/z">z</a>
+</div>
+</div>
+<div class='row footer_countries_list'>
+<div class='col-xs-12'>
+RateMyTeachers International:
+<a class="country" href="http://www.ratemyteachers.com">United States</a>
+<a class="country" href="http://ca.ratemyteachers.com">Canada</a>
+<a class="country" href="http://uk.ratemyteachers.com">United Kingdom</a>
+<a class="country" href="http://au.ratemyteachers.com">Australia</a>
+<a class="country" href="http://nz.ratemyteachers.com">New Zealand</a>
+<a class="country" href="http://ie.ratemyteachers.com">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer'>
+<div class='container'>
+<div class='row footer_links'>
+<div class='col-xs-12'>
+<h3 class='hidden-sm hidden-md hidden-lg'>Quick Links</h3>
+<ul>
+<!-- <li><a href="#">Forum</a></li> -->
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a data-backdrop='static' data-keyboard data-target='#modal' data-toggle='modal' href='/contact/new'>
+Contact
+</a>
+</li>
+<li>
+<a href="/terms">Terms of Use</a>
+</li>
+<li>
+<a href="/privacy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='row copyright'>
+© 2014 RateMyTeachers
+All Rights Reserved
+</div>
+</div>
+</section>
+<div aria-hidden='true' class='modal fade' id='modal' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div aria-hidden='true' class='modal fade' id='modal_rating' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div id='loading-indicator' style='display: none;'>
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif" />
+</div>
+</div>
+
+    </div>
+
+  <!-- loading JS at the end to speed up page loading -->
+    <script type="text/javascript">
+  window._pt_sp_2 = [];
+  _pt_sp_2.push('setAccount,42a92f26');
+  var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+
+  (function()
+  { var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true; atag.src = _protocol + 'js.ptengine.com/pta.js'; var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true; stag.src = _protocol + 'js.ptengine.com/pts.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s); }
+
+  )();
+  </script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery || document.write(unescape('%3Cscript src="/assets/jquery-92f6843043abf957b96f7fad2afbc022.js">%3C/script>'))
+//]]>
+</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery.ui || document.write(unescape('%3Cscript src="/assets/jquery-ui-e3d1c2f8bca4b46c2d38af5aa36cbc30.js">%3C/script>'))
+//]]>
+</script>
+  <script src="/assets/application-1bf9016d396a2599473b813158e922ba.js"></script>
+  <script>
+  var schoolPagePath = '/frolio-middle-school/114888-s';
+  var stickyColumnLeft = $(".sticky_container_left .sticky_column");
+  var stickyColumnRight = $(".sticky_container_right .sticky_column");
+  var footerHeight = $('#all_footer_wrapper').outerHeight();
+  var stickyOptions = function(getWidthFrom) {
+    return {topSpacing:10, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+  }
+  stickyColumnLeft.sticky(stickyOptions('.sticky_container_left'));
+  stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+  // Beating Chrome bug
+  var fixEventStep1 = function() {
+    setTimeout(function() {
+      var secondaryInfo = $('.secondary_info');
+      secondaryInfo.css('min-height', secondaryInfo.height() + 'px');
+    }, 1);
+  };
+  var fixEventStep2 = function() {
+    $('.secondary_info').css('min-height', '');
+  };
+  stickyColumnLeft.on('sticky-start', fixEventStep1);
+  stickyColumnLeft.on('sticky-end', fixEventStep2);
+</script>
+
+
+  
+  <!-- [:desktop] 7918b2d@rails2 - 2014-11-10 20:25:36 +0000-->
+</body>
+</html>

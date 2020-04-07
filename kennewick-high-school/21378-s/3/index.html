@@ -1,0 +1,1942 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<script src="http://cdn.optimizely.com/js/165933532.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<meta name="description" content="Check out ratings and comments about teachers from Kennewick High School in Kennewick, WA. Find out if Kennewick High School is a good school!">
+			<meta name="keywords" content="Teachers, Teacher, Rate My Teacher, Ratings, Reviews, High School, Middle School, Elementary School, Private School, Easiness, Helpfulness, Clarity, Department, School, Grade.">
+					<title>Kennewick High School - Kennewick, WA | RateMyTeachers.com</title>
+		<!--[if LT IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!--[if lte IE 8]>
+			<link href="/css/core/style_ie.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="/css/core/style.css?v=315">
+	<link rel="stylesheet" type="text/css" href="/css/core/dd.css">
+	<link rel="stylesheet" type="text/css" href="/css/fancybox/jquery.fancybox.css">
+	<link rel="stylesheet" type="text/css" href="/css/core/register.css">
+	<script type="text/javascript" src="/js/fancybox/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/js/fancybox/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="/js/jquery-countdown/jquery.countdown.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.dd.js"></script>
+	<script type="text/javascript" src="/js/core/sort.js"></script>
+	<script type="text/javascript">
+		jQuery.noConflict();
+		(function($){
+			$(document).ready(function() {
+				$('.fancylogin').fancybox({closeBtn : false});
+
+				// flagged rating notif
+				$("a#frn-box").fancybox({
+					closeBtn : false,
+					'afterShow' : function () {
+						$('#frn-countdown').countdown({
+							compact :true,
+							layout: 'This will close in {sn} seconds.',
+							format :'S',
+							until: 5,
+							onExpiry : function(){
+								$.fancybox.close();
+							}
+						});
+					}
+				});
+
+				//$('a#popup-quick-rate').fancybox({closeBtn : false});
+				//$('a#popup-quick-rate').click(function() {
+				//	Recaptcha.reload();
+				//	// get the form info to be populated on the popup
+				//	var form = $(this).prev();
+				//	var formID = form.attr("id");
+				//	var person_id = $("#" + formID + " input[name=person_id]").attr("value");
+				//	var person_review_url = $("#" + formID + " input[name=person_review_url]").attr("value");
+				//	var url = $("#" + formID + " input[name=url]").attr("value");
+				//
+				//	// popupate the actual quick rating form with recaptcha
+				//	var a_person_id = $("#actual-form input[name=person_id]");
+				//	var a_person_review_url = $("#actual-form input[name=person_review_url]");
+				//	var a_url = $("#actual-form input[name=url]");
+				//
+				//	a_person_id.attr("value", person_id);
+				//	a_person_review_url.attr("value", person_review_url);
+				//	a_url.attr("value", url);
+				//
+				//});
+
+				
+				// ===============================================
+
+				//var windowSizeArray = [ "width=520,height=530",
+				//	"width=520,height=530,scrollbars=yes" ];
+				//
+				//	$('.newWindow').click(function (event){
+				//
+				//	var url = $(this).attr("href");
+				//	var windowName = "popUp";//$(this).attr("name");
+				//	var windowSize = windowSizeArray[$(this).attr("rel")];
+				//
+				//	window.open(url, windowName, windowSize);
+				//
+				//	event.preventDefault();
+				//
+				//});
+				//
+				//$('input[name=login]').click(function(){
+				//	window.location="https://www.facebook.com/dialog/oauth?client_id=228246920612336&redirect_uri=http%3A%2F%2Fwww.ratemyteachers.com%2Flogin%2Fkennewick-high-school%2F21378-s%2F3&state=00bbedcbd17e47ed2a25824675d9d759&scope=email%2Cuser_about_me%2Cuser_birthday%2Cuser_hometown%2Cuser_location%2Cpublish_stream%2Coffline_access";
+				//});
+				//
+				//$('input#submit_quick_rating').click(function(event) {
+				//	var errorMsg = "";
+				//
+				//	var descriptionT ='';
+				//	descriptionT =  $("#actual-form :input[name=description]").val().trim();
+				//
+				//	var str = descriptionT.split(' ');
+				//	var len = str.length;
+				//	if(len > 1) {
+				//		//alert('Please enter a one word description!');
+				//		//event.preventDefault();
+				//		// add to error msg
+				//		errorMsg = 'Please enter a one word description!';
+				//
+				//	} else {
+				//		if(descriptionT != '') {
+				//			if (!descriptionT.match(/^[a-zA-Z]+$/)) {
+				//				//alert('Numbers and special characters are not allowed!');
+				//				//event.preventDefault();
+				//				errorMsg = 'Numbers and special characters are not allowed!';
+				//			} else {
+				//				console.log("Submitting");
+				//			}
+				//		}
+				//		else {
+				//			//alert('Please enter a one word description!');
+				//			//event.preventDefault();
+				//			errorMsg = 'Please enter a one word description!';
+				//		}
+				//	}
+				//
+				//	event.preventDefault();
+				//	// quick rating with recaptcha
+				//	var formID = "form#actual-form";
+				//	var personID = $(formID + " input[name=person_id]").val();
+				//	var personReviewURL = $(formID + " input[name=person_review_url]").val();
+				//	var url = $(formID + " input[name=url]").val();
+				//	var ratingValue = $(formID + " input#quick_rating_for_teacher").val();
+				//	var ratingDesc = $(formID + " input#rating_description").val();
+				//	var challengeField = $("input#recaptcha_challenge_field").val();
+				//	var responseField = $("input#recaptcha_response_field").val();
+				//
+				//	$.ajax({
+				//		type : "POST",
+				//		url : 'http://www.ratemyteachers.com/rate_school',
+				//		data :
+				//			"person_id=" + personID +
+				//			"&person_review_url=" + personReviewURL +
+				//			"&url=" + url +
+				//			"&rating_value=" + ratingValue +
+				//			"&description=" + ratingDesc +
+				//			"&recaptcha_challenge_field=" + challengeField +
+				//			"&recaptcha_response_field=" + responseField,
+				//		async : false,
+				//		success : function(resp) {
+				//			if (resp.success == 0) {
+				//				try {
+				//					var errorMsgRecaptcha = resp.errors.recaptcha_challenge_field == null ? resp.errors.recaptcha_response_field : resp.errors.recaptcha_challenge_field;
+				//					alert(errorMsg + "\n" + errorMsgRecaptcha);
+				//					event.preventDefault();
+				//				} catch(e) {
+				//					alert("Something Went Wrong!!");
+				//					event.preventDefault();
+				//				}
+				//			} else  {
+				//				var url = "http://www.ratemyteachers.com/" + personReviewURL;
+				//				window.location = url;
+				//			}
+				//		}
+				//	});
+				//});
+				//
+				////Addded by jonathan 07/25/2012
+				//$('input[name=submit_rating]').click(function(event) {
+				//
+				//	var descriptionT ='';
+				//	if(this.value == 'formHeader')
+				//		{
+				//			descriptionT =  $("#formHeader :input[name=description]").val().trim();
+				//		}
+				//		else
+				//		{
+				//			var formId = 'form' + this.value;
+				//			descriptionT 	=  $("#" + formId + " :input[name=description]").val().trim();
+				//
+				//		}
+				//
+				//	var str = descriptionT.split(' ');
+				//	var len = str.length;
+				//	if(len > 1)
+				//	{
+				//			alert('Please enter a one word description!');
+				//			event.preventDefault();
+				//	}
+				//	else
+				//	{
+				//		if(descriptionT != '')
+				//			{
+				//			if (!descriptionT.match(/^[a-zA-Z]+$/)) {
+				//				alert('Numbers and special characters are not allowed!');
+				//				event.preventDefault();
+				//			} else {
+				//				console.log("Submitting");
+				//			}
+				//		}
+				//		else
+				//			{
+				//				alert('Please enter a one word description!');
+				//				event.preventDefault();
+				//			}
+				//	}
+				//});
+				//end jon
+			});
+		})(jQuery);
+	</script>
+	<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'>
+</script>
+<script type='text/javascript'>
+GS_googleAddAdSenseService("ca-pub-8322864954623881");
+GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+GA_googleAddSlot("ca-pub-8322864954623881", "ATF_Leaderboard");
+GA_googleAddSlot("ca-pub-8322864954623881", "ATF_MediumRectangle");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_Leaderboard");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomCenter");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomLeft");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomRight");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_TopRight");
+GA_googleAddSlot("ca-pub-8322864954623881", "STF_WideSkyscraper_TopRight");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_Leaderboard_NoAdsense");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomRight_NoAdsense");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_TextAd");
+</script>
+<script type='text/javascript'>
+GA_googleFetchAds();
+</script>
+
+
+	<link rel="stylesheet" type="text/css" href="/css/core/common.css">
+	<link rel="stylesheet" type="text/css" href="/css/add_person.css" />
+	<link rel="stylesheet" type="text/css" href="/css/mooRatings.css" />
+	<script type="text/javascript" src="/js/core/person_filter.js"></script>
+	<script type="text/javascript" src="/js/aframe.js"></script>
+	<script type="text/javascript" src="/js/addperson.js"></script>
+	<script type="text/javascript" src="/js/core/mootools-core-1.4-full.js"></script>
+	<script type="text/javascript" src="/js/core/mootools-more-1.4-full.js"></script>
+	<link rel="alternate" type="application/rss+xml" href="/kennewick-high-school/21378-s.rss">
+	<script type="text/javascript" src="/js/fancybox/jquery-1.7.2.min.js"></script>
+	<script src="http://connect.facebook.net/en_US/all.js"></script>
+</head>
+<body id="fbrate">
+	<div id="fb-root"><a id="like" onClick="return false;"></a></div>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+					appId      : '228246920612336',
+					status     : true, // check login status
+					cookie     : true, // enable cookies to allow the server to access the session
+					xfbml      : true  // parse XFBML
+			});
+		}
+		// Load the SDK Asynchronously
+		(function(d){
+				var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+				if (d.getElementById(id)) {return;}
+				js = d.createElement('script'); js.id = id; js.async = true;
+				js.src = "//connect.facebook.net/en_US/all.js";
+				ref.parentNode.insertBefore(js, ref);
+		}(document));
+	</script>
+	<script type="text/javascript">
+		window.addEvent("domready", function(event){
+			// initialize the person filter
+			PersonFilter.init({
+					"id": "21378",
+					"url": "/kennewick-high-school/21378-s",
+					"letter": "",
+					"dept": "",
+					"order_by": "LastName",
+					"order_dir": "ASC",
+					"order_mappings": {"Name":"LastName","Department":"Department"}});
+
+					// add events to the filter
+					PersonFilter.addEvents();});
+	</script>
+
+	<script type="text/javascript">
+		 jQuery.noConflict();
+		(function($){
+		$(document).ready(function() {
+			var windowSizeArray = [ "width=520,height=530",
+			   "width=520,height=530,scrollbars=yes" ];
+
+			 $('.newWindow').click(function (event){
+
+				var url = $(this).attr("href");
+				var windowName = "popUp";//$(this).attr("name");
+				var windowSize = windowSizeArray[$(this).attr("rel")];
+
+				window.open(url, windowName, windowSize);
+
+				event.preventDefault();
+
+			});
+
+			$('input[name=login]').click(function(){
+				window.location="https://www.facebook.com/dialog/oauth?client_id=228246920612336&redirect_uri=http%3A%2F%2Fwww.ratemyteachers.com%2Flogin%2Fkennewick-high-school%2F21378-s%2F3&state=00bbedcbd17e47ed2a25824675d9d759&scope=email%2Cuser_about_me%2Cuser_birthday%2Cuser_hometown%2Cuser_location%2Cpublish_stream%2Coffline_access";
+			});
+
+			 //Addded by jonathan 07/25/2012
+			$('input[name=submit_rating]').click(function(event) {
+				var descriptionT ='';
+				if(this.value == 'formHeader')
+				 {
+					  descriptionT =  $("#formHeader :input[name=description]").val().trim();
+				 }
+				 else
+				 {
+					 var formId = 'form' + this.value;
+					 descriptionT 	=  $("#" + formId + " :input[name=description]").val().trim();
+
+				 }
+
+				var str = descriptionT.split(' ');
+				var len = str.length;
+				if(len > 1)
+				{
+					   alert('Please enter a one word description!');
+					   event.preventDefault();
+				}
+				else
+				{
+					if(descriptionT != '')
+						{
+						if (!descriptionT.match(/^[a-zA-Z]+$/)) {
+							alert('Numbers and special characters are not allowed!');
+							event.preventDefault();
+						} else {
+						  console.log("Submitting");
+						}
+				   }
+				   else
+					   {
+						   alert('Please enter a one word description!');
+						   event.preventDefault();
+					   }
+				}
+
+			});
+
+			//end jon
+		});
+		 })(jQuery);
+	</script>
+		<div id="wrapper">
+			    <meta property="og:title" content="RateMyTeachers.com - Professor, Teacher Ratings and Reviews by Public and Private School Students Parents and Faculty."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://ratemyteachers.com"/>
+    <meta property="og:image" content="http://www.ratemyteachers.com/images/RMT-logo-icon.jpg"/>
+    <meta property="og:site_name" content="Rate My Teachers"/>
+    <meta property="og:description" content="Over 2.1 million professors and teachers, with 20 million ratings, reviews, and opinions. Find your college, university, or high school on RateMyTeachers.com in the United States. Leave your mark and rate your professor, teacher, or school!"/>
+
+<script type="text/javascript">
+    window.addEvent('domready',function() {
+        /*** Begin Search Expand/Collapse */
+        var status = {
+            'true': 'open',
+            'false': 'close'
+        };
+        var myVerticalSlide = new Fx.Slide('vertical_slide').hide();
+
+        if ($('search_link') != null) {
+            $('search_link').addEvent('click', function(event) {
+                if (status[myVerticalSlide.open] == "open") {
+                    $('vertical_slide').removeClass('search');
+                } else {
+                    $('vertical_slide').addClass('search');
+                }
+                event.stop();
+                myVerticalSlide.toggle();
+            });
+        }
+
+        //var rate_link = $$('.rate_link');
+        //rate_link.each(rate_link_add_click_event);
+        //
+        //function rate_link_add_click_event (el) {
+        //    el.addEvent('click', function(event) {
+        //        if (status[myVerticalSlide.open] == "open") {
+        //            $('vertical_slide').removeClass('search');
+        //        } else {
+        //            $('vertical_slide').addClass('search');
+        //        }
+        //        event.stop();
+        //        myVerticalSlide.toggle();
+        //    });
+        //}
+        //
+        //if ($('rate_link') != null) {
+        //    $('rate_link').addEvent('click', function(event) {
+        //        if (status[myVerticalSlide.open] == "open") {
+        //            $('vertical_slide').removeClass('search');
+        //        } else {
+        //            $('vertical_slide').addClass('search');
+        //        }
+        //        event.stop();
+        //        myVerticalSlide.toggle();
+        //    });
+        //}
+
+        if ($('school_link') != null) {
+            $('school_link').addEvent('click', function(event) {
+                if (status[myVerticalSlide.open] == "open") {
+                    $('vertical_slide').removeClass('search');
+                } else {
+                    $('vertical_slide').addClass('search');
+                }
+                event.stop();
+                myVerticalSlide.toggle();
+            });
+        }
+
+        /*
+        $$('input[name=search_org]').addEvent('blur', function(event){
+			//alert('jona2');
+            event.stop();
+            myVerticalSlide.slideOut();
+        });
+        */
+		/*Added by jonathan 07/20/2012
+		$$('input[name=search_org]').addEvent('click', function(event){
+			//alert('jona3');
+            event.stop();
+            myVerticalSlide.slideOut();
+        });
+		*/
+
+		$$('input[name=search_teacher]').addEvent('click', function(event){
+			//alert('jona3');
+            event.stop();
+            myVerticalSlide.slideOut();
+        });
+		/*end*/
+        myVerticalSlide.addEvent('complete', function() {
+            $('vertical_status').set('text', status[myVerticalSlide.open]);
+        });
+        /*** End Search Expand/Collapse */
+
+        /*** Begin Textbox Watermark */
+        var values = new Array();
+        var inputs = new Array();
+
+        function addWaterMark(el){
+            try {
+                values.push(el.value);
+                el.onfocus = function ()	{
+                    if (el.value == values[inputs.indexOf(el)]) {
+                        el.value = '';
+                        el.className = el.className.replace("watermarkOn", "");
+                    }
+                }
+                el.onblur = function () {
+                    if(el.value === ''){
+                        el.value = values[inputs.indexOf(el)];
+                        el.className += " watermarkOn";
+                    }
+                }
+            } catch(e) {dbug.log('addWaterMark: ', e)}
+        };
+
+        function addValue(el){
+            try {
+                //if (el.name == "search_org") el.value = "Search for School"
+                if (el.name == "search_teacher") el.value = "Search for Teacher"
+                if (el.id == "search_input_expand") el.value = "Search Here"
+            } catch(e) {dbug.log('addWaterMark: ', e)}
+        };
+
+        inputs = $$('input[name^=search],input[name=search_input_expand],input[name^=newsletter],input[class^=rating_fields_input]');
+        inputs.each(addValue);
+        inputs.each(addWaterMark);
+        /*** End Textbox Watermark */
+    });
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<link rel="stylesheet" type="text/css" href="/css/core/dd.css">
+<link rel="stylesheet" type="text/css" href="/css/fancybox/jquery.fancybox.css">
+<script type="text/javascript" src="/js/fancybox/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/js/jquery.dd.js"></script>
+<script type="text/javascript" src="/js/fancybox/jquery.fancybox.js"></script>
+<script type="text/javascript">
+	jQuery.noConflict();
+	(function($){
+		$(document).ready(function() {
+			try {
+				oHandler = $("#country-select").msDropDown({mainCSS:'dd2'}).data("dd");
+				//alert($.msDropDown.version);
+				//$.msDropDown.create("body select");
+				$("#ver").html($.msDropDown.version);
+			} catch(e) {
+				alert("Error: "+e.message);
+			}
+
+			$("a#suggestion-box").fancybox({closeBtn : false});
+			var frm = $('#suggest_school_form');
+			frm.submit(function () {
+			$.ajax({
+					type: frm.attr('method'),
+					url: frm.attr('action'),
+					data: frm.serialize(),
+					success: function (data) {
+						console.log(data);
+					}
+				});
+
+				return false;
+			});
+
+			$('#imageSubmit').click(function() {
+				$('#cse-search-box').submit();
+			});
+
+			$("select").change(function () {
+				if ($("select#country-select").val() != "" ) {
+					switch ($("select#country-select").val())
+						{
+							case "United States":
+								//window.location = 'http://us.richard.ratemyteachers.com/';
+								$("input[name=cr]").val('countryUS');
+								break;
+							case "Canada":
+								//window.location = 'http://ca.richard.ratemyteachers.com/';
+								$("input[name=cr]").val('countryCA');
+								break;
+							case "United Kingdom":
+								//window.location = 'http://uk.richard.ratemyteachers.com/';
+								$("input[name=cr]").val('countryUK');
+								break;
+							case "Australia":
+								//window.location = 'http://au.richard.ratemyteachers.com/';
+								$("input[name=cr]").val('countryAU');
+								break;
+							case "Ireland":
+								//window.location = 'http://ie.richard.ratemyteachers.com/';
+								$("input[name=cr]").val('countryIE');
+								break;
+							case "New Zealand":
+								//window.location = 'http://nz.richard.ratemyteachers.com/';
+								$("input[name=cr]").val('countryNZ');
+								break;
+							default:
+							   //window.location = 'http://us.richard.ratemyteachers.com/';
+							   $("input[name=cr]").val('countryUS');
+						}
+				}
+
+			});
+
+			//var isOverAd = false;
+			//$('div[id*=google][id*=container]')
+			//	.mouseover(function(){isOverAd=true;})
+			//	.mouseout(function(){isOverAd=false;});
+			//$(window).blur(function(){
+			//	if(isOverAd) {
+			//		console.log('ad click');
+			//		//window.optimizely = window.optimizely || [];
+			//		//window.optimizely.push(['trackEvent', ad_click, 10]);
+			//		//
+			//		//var mentad_website_id = "A036Ux2Fz7_2o"; // Unique ID supplied by MentAd
+			//		//var mentad_purchase_items = [];
+			//		//mentad_purchase_items.push({
+			//		//	sku: "AdSenseClick",
+			//		//	price: "0" // If you know how much the click is worth then enter it here. Otherwise just leave it as 0.
+			//		//});
+			//		//
+			//		//
+			//		//// Trigger the purchase notification asynchronously
+			//		//(function(){
+			//		//	var js, id = 'mentad-notification'; if (document.getElementById(id)) {return;}
+			//		//	js = document.createElement('script'); js.id = id; js.async = true;
+			//		//	js.src = "//mentad.com/static/js/mentad-purchase-notification.js";
+			//		//	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(js, s);
+			//		//})();
+			//	}
+			//});
+		})
+	})(jQuery);
+</script>
+ <style type="text/css">
+   @import url(http://www.google.com/cse/api/branding.css);
+ </style>
+<header>
+    <div style="display:none; color: #000000; width: 100%; height: 18px; margin: 0 auto 5px; font-size: 12px; position: fixed; top: 0px; text-align: center; line-height: 1.4; font-family: Verdana,Arial,Sans-serif; background-color: #FFFFAA; border-bottom: 2px solid #CCCC89; z-index: 9999;">
+        <a href="http://fs18.formsite.com/RateMyTeachers/form1/index.html" target="_blank">We have recently improved our web site platform. If you want to report any glitches, please use this link.</a>
+    </div>
+    <div id="pagelet">
+        <div id="pagelet_left" class="fltlft">
+            <a href="/" class="fltlft">RateMyTeachers.com</a><span class="fltlft">&nbsp;-</span>
+            <div class="pagelet_select_country fltlft">
+                <ul id="sort2">
+                    <li><a class="option selected" href="#" title="United States">United States</a></li>
+                                            <li><a class="option" href="http://ca.ratemyteachers.com" title="Canada">Canada</a></li>
+                                            <li><a class="option" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a></li>
+                                            <li><a class="option" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a></li>
+                                            <li><a class="option" href="http://au.ratemyteachers.com" title="Australia">Australia</a></li>
+                                            <li><a class="option" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a></li>
+                                    </ul>
+            </div>
+        </div>
+                <ul>
+            <li><a href="/schools.rss">RSS</a></li>
+                        <li style="display:none;"><a href="/register/kennewick-high-school/21378-s/3">Sign up</a></li>
+                                    <!--<li><a href="#" class="rate_link">Rate Kennewick High School</a></li>-->
+                        <li style="display:none;"><a href="#suggestion_box" id="suggestion-box" class="suggestionbox_link">Suggest a School</a></li>
+
+			<li>
+            	<div class="fb-like" data-href="http://www.facebook.com/pages/Rate-My-Teachers/172604876112259" data-send="false" data-layout="button_count" data-width="80" data-show-faces="true" style="margin-left:10px;"></div>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <!--end pagelet-->
+
+    <div id="header">
+    	<div id="head">
+        	<div id="head_blk">
+                <h1 class="fltlft"><a href="/"><img src="/images/RateMyTeacher_Logo.png" alt="Rate My Teachers" title="Rate My Teachers" /></a></h1>
+                <div id="header-search">
+                    <div class="search-input">
+
+
+                          <div class="cse-branding-form">
+                            <form action="http://www.ratemyteachers.com/search_page" id="cse-search-box">
+                              <div>
+                                <input type="hidden" name="cx" value="002069359071098435579:lblk1g7-2ri" />
+                                 <input type="hidden" name="ie" value="ISO-8859-1" />
+                               <!--
+                                <input type="hidden" name="cx" value="partner-pub-8322864954623881:5925877767" />
+                                <input type="hidden" name="ie" value="UTF-8" /> -->
+                                <input type="hidden" name="cof" value="FORID:9" />
+
+                                                                                                  <input type="hidden" name="cr" value="countryUS" />
+                                
+                                <input type="text" name="q"  size="31" class="school watermarkOn" />
+                                <input type="submit" name="sa" value="Search" class="SearchSubmit" />
+                              </div>
+                            </form>
+                            <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+                            <script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+                            <script type="text/javascript" src="http://www.google.com/cse/t13n?form=cse-search-box&t13n_langs=en"></script>
+                          </div>
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="search-select">
+                        <form id="formSearchByCountry" action="" method ="get">
+                            <select name="websites2" id="country-select" style="width:278px !important; display:none;" tabindex="1">
+                                <option name="one" selectec="selected" value="United States"  title="images/icon-ok.gif" style="font-size: 7pt;">United States</option>
+                                                                        <option  name="two" value="Canada"  title="images/icon-ok.gif" style="font-size: 7pt;">Canada</option>
+                                                                                <option value="United Kingdom"  title="images/icon-ok.gif" style="font-size: 7pt;">United Kingdom</option>
+                                                                                <option value="Ireland" title="images/icon-ok.gif" style="font-size: 7pt;">Ireland</option>
+                                                                                <option value="Australia"  title="images/icon-ok.gif" style="font-size: 7pt;">Australia</option>
+                                                                                <option value="New Zealand"  title="images/icon-ok.gif" style="font-size: 7pt;">New Zealand</option>
+                                        
+                            </select>
+                        </form>
+                    </div>
+                    <div class="search-input" style="display:none;">
+                        <form action="http://www.ratemyteachers.com/search/people" method="get" id="teacher_search">
+                            <input id="search_teacher" name="search_teacher" type="text" class="watermarkOn" />
+                            <input name="submit_search"  type="image" src="/images/search-btn1.png" class="SearchSubmit" alt="Search Teacher on Rate My Teachers" title="Search Teacher on Rate My Teachers" />
+                        </form>
+                    </div>
+                    <div>
+
+                        <input name="submit_search" id ="imageSubmit" type="image" src="/images/search-btn.png" alt="Search School &amp; Teacher on Rate My Teachers" title="Search School &amp; Teacher on Rate My Teachers" />
+
+                    </div>
+                </div>
+            <script type="text/javascript">
+                    window.addEvent('domready',function() {
+
+                        $$('input[name=submit_search]').addEvent('click', function(event){
+                            event.stop(); // Stops the submission of the form.
+                            var keyword1 = $('search_org').get("value");
+                            var keyword2 = $('search_teacher').get("value");
+                            if (keyword1 != null && keyword1 != "Search for School") {
+                                if (has_common_words(keyword1)){ var box = new MooDialog.Alert('Please refine your search term'); }
+                                else { $('school_search').submit(); }
+                            } else if (keyword2 != null && keyword2 != "Search for Teacher") {
+                                $('teacher_search').submit();
+                            }
+                        });
+                        /*
+                        $('search_org').addEvent('keydown', function(event) {
+                            //alert('jona');
+                            if(event.key == "enter") {
+                                event.stop();
+                                var keyword = this.get('value');
+                                if (has_common_words(keyword)){ var box = new MooDialog.Alert('Please refine your search term'); }
+                                else { $('school_search').submit(); }
+                            }
+                        });
+                        */
+
+
+                        $('search_teacher').addEvent('keydown', function(event) {
+                            if(event.key == "enter") {
+                                event.stop();
+                                var keyword = this.get('value');
+                                $('teacher_search').submit();
+                            }
+                        });
+                        function has_common_words(keyword){
+                            var c_words = ['college', 'high', 'elementary', 'school'];
+                            var searchIndex = c_words.indexOf(keyword.toLowerCase());
+                            return searchIndex != -1;
+                        }
+                    });
+            </script>
+            <div class="clear"></div>
+        	</div>
+        </div>
+    </div>
+    <!--end header-->
+
+    <!-- suggestion box -->
+    <!--
+    <div><a href="#suggestion-box" class="suggestion-box"><img src="/images/quick-rating-btn.jpg" alt="" /></a></div>
+    -->
+    <div id="suggestion_box" class="fancysuggestionbox" style="display: none;">
+        <h2>Suggest a School</h2>
+        <p>Lorem Ipsum Dolor Sit Amit.</p>
+        <p style="margin-bottom:10px;"></p>
+        <div>
+            <form action="http://www.ratemyteachers.com/suggest_school" method="post" id="suggest_school_form">
+                <fieldset>
+                    <input type="text" name="school" value="Name of School" class="suggestion_box watermarkOn" />
+                </fieldset>
+                <fieldset>
+                    <input type="text" name="address" value="Address" class="suggestion_box watermarkOn" />
+                </fieldset>
+                <fieldset>
+                    <input type="text" name="URL" value="URL (optional)" class="suggestion_box watermarkOn" />
+                </fieldset>
+                <fieldset>
+                    <input type="image" name="submit_ratingPopup" onclick="return false;" src="/images/submit-btn.jpg" alt="Submit Suggestion" title="Submit Suggestion" />
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <!-- end suggestion box -->
+</header>
+
+			<div id="content_container">
+				<div id="navi">
+					<ul>
+						<li><a id="search_link" href="#">Search&nbsp;Kennewick High School</a></li>
+						<li><a id="rate_link" href="/school" rel="nofollow">Rate a different school</a></li>
+					</ul>
+				</div>
+				<!--end navi-->
+
+										<div itemscope itemtype="http://schema.org/School" id="content">
+				
+			<div class="ads">
+				<div class="ATF_Leaderboard">
+					<!-- ATF_Leaderboard -->
+					<script type='text/javascript'>
+							GA_googleFillSlot("ATF_Leaderboard");
+					</script>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<!--end ads-->
+
+			<div id="vertical_slide" style="display:none;">
+    
+        <form action="http://www.ratemyteachers.com/search_page" id="cse-search-box1">
+        <div>
+          <input type="hidden" name="cx" value="002069359071098435579:lblk1g7-2ri" />
+           <input type="hidden" name="ie" value="ISO-8859-1" />
+         <!--
+          <input type="hidden" name="cx" value="partner-pub-8322864954623881:5925877767" />
+          <input type="hidden" name="ie" value="UTF-8" /> -->
+          <input type="hidden" name="cof" value="FORID:10" />
+
+                                <input type="hidden" name="cr" value="countryUS" />
+                    <fieldset>
+            <div class="search-input-blk">
+                <input type="text" name="q" size="31" class="school watermarkOn" />
+                <input type="submit" name="sa" value="Search" class="SearchSubmit fltrgt" alt="Rate My Teachers Search" title="Rate My Teachers Search" />
+            </div>
+            <div>
+                <!-- <input id="search-button" name="search-org-submit" class="school-submit" type="submit" value="" alt="Rate My Teachers Search" title="Rate My Teachers Search" src="/images/search-btn.png" /> -->
+                <input id="search-button" name="sa" class="school-submit" type="submit" value="Search" alt="Rate My Teachers Search" title="Rate My Teachers Search" src="/images/search-btn.png" />
+            </div>
+          </fieldset>
+            
+            
+          
+        </div>
+      </form>
+     
+     <!--<input type="hidden" name="cx" value="partner-pub-8322864954623881:m59ex1d1spx" />-->
+    <!--
+    <form action="http://www.google.com/cse" id="cse-search-box">
+    <div>
+       
+        <input type="hidden" name="cx" value="002069359071098435579:lblk1g7-2ri" />
+        <input type="hidden" name="ie" value="ISO-8859-1" />
+                        <input type="hidden" name="cr" value="countryUS" />
+                <fieldset>
+            <div class="search-input-blk">
+                <input type="text" name="q" size="31" class="school watermarkOn" />
+                <input type="submit" name="sa" value="Search" class="SearchSubmit fltrgt" alt="Rate My Teachers Search" title="Rate My Teachers Search" />
+            </div>
+            <div>
+                <input id="search-button" name="search-org-submit" class="school-submit" type="submit" value="" alt="Rate My Teachers Search" title="Rate My Teachers Search" src="/images/search-btn.png" />
+            </div>
+        </fieldset>
+    </div>
+    </form>
+    <script type="text/javascript" src="/js/google-search/google.js"></script>
+    -->
+    <!--
+    <form action="#"  method="get" id="search_expand">
+        <fieldset>
+            <div class="search-input-blk">
+                <input id="search_input_expand" name="search_org" type="text" class="school watermarkOn" />
+                <input type="button" name="search-org-submit" class="SearchSubmit fltrgt" alt="Rate My Teachers Search" title="Rate My Teachers Search" />
+            </div>
+            <div>
+                <!--<input name="search_org" type="text" class="school" value="" />
+                <input id="search-button" name="search-org-submit" class="school-submit" type="submit" value="" alt="Rate My Teachers Search" title="Rate My Teachers Search" src="/images/search-btn.png" />
+            </div>
+        </fieldset>
+    </form>
+    -->
+    
+    <span id="vertical_status" style="display:none;">close</span>
+    <p>&nbsp;</p>
+</div>
+<script type="text/javascript" src="/js/core/check_results.js"></script>
+<script type="text/javascript">
+    window.addEvent('domready',function() {
+        if ($$('input[name=removed-search-org-submit]') != null) {
+            $$('input[name=search-org-submit]').addEvent('click', function(event){
+                event.stop(); // Stops the submission of the form.
+                var keyword = $('search_input_expand').get("value");
+                if (keyword != null && keyword != "Search Here") {
+                    if (has_common_words(keyword)){ new MooDialog.Alert('Please refine your search term'); }
+                    else { $('search_expand').submit(); }
+                }
+            });
+        }
+
+        if ($('removed_search_input_expand') != null) {
+            $('search_input_expand').addEvent('keydown', function(event) {
+                if(event.key == "enter") {
+                    event.stop();
+                    var keyword = this.get('value');
+                    if (has_common_words(keyword)){ new MooDialog.Alert('Please refine your search term'); }
+                    else { 
+
+                        var data = "search_org=" + keyword + "&is_ajax=true";
+                        var submit_url = {
+                                "school" : 'http://www.ratemyteachers.com/search/school',
+                                "teacher" : 'http://www.ratemyteachers.com/search/people'
+                            };
+                        var options = { 
+                            'url'           : 'http://www.ratemyteachers.com/search/get_results',
+                            'method'        : 'get',
+                            'data'          : data,
+                            'submit_url'    : submit_url,
+                            'keyword'       : keyword,
+                            'append_to'     : document.body
+                        }
+                        check_results = new Check_Results(options);
+                        check_results.submit();
+                    }
+                }
+            });
+        }
+        function has_common_words(keyword){
+            var c_words = ['college', 'high', 'elementary', 'school'];
+            var searchIndex = c_words.indexOf(keyword.toLowerCase());
+            return searchIndex != -1;
+        }
+    });
+</script>			<!--end search-->
+
+			<div class="clear"></div>
+
+			<div id="heading" class="border-bottom">
+				<ul class="breadcrumbs fltlft">
+	<li><a href="/location">United States</a> &raquo;</li>
+
+	        <li><a href="/location/wa">Washington</a> &raquo;</li>
+	
+	        <li><a href="/location/wa/kennewick">Kennewick</a> &raquo;</li>
+	
+	        <li class="dark"><a href="#">Search Kennewick High School</a></li>
+	</ul>
+
+			<div class="clear"></div>
+			</div>
+			<!--end heading-->
+
+			<div id="school_result_blk">
+				<div class="principle_register">
+					<div style="width:302px; float:left;">
+						<h2 itemprop="name">Kennewick High School</h2>
+						<div class="teacher_register_rate">
+							<!--<div id="rate">
+								<div id="rating_fieldsHeader" class="hide">
+									<form action="#" method="post" id="formHeader" >
+										<input type="hidden" name="rating_id" value="" />
+										<input type="hidden" name="schoolID" value="441" />
+										<input type="hidden" name="schoolName" value="Kennewick High School" />
+										<input type="hidden" name="rating_value" id="rating_value" value="0"/>
+										<input type="hidden" name="person_review_url" value="" />
+										<input type="hidden" name="url" value="kennewick-high-school/21378-s/3" />
+										<input type="text" name="description" maxlength="25" id="description_for_school" class="rating_fields_input watermarkOn" value="Describe School" />
+										<input type="submit" name="submit_rating" id="submit_rating_for_school" class="rating_fields_submit" value="formHeader" />
+									</form>
+								</div>
+								<div id="rate_blk">
+									<div id="mydiv" class ="mytestNoBorder">
+										<form name="simpleHeader" >
+											<label id="simpleTipHeader"></label>
+											<input type="radio" name="rating" value="Hated">
+											<input type="radio" name="rating" value="Disliked">
+											<input type="radio" name="rating" value="Okay">
+											<input type="radio" name="rating" value="Liked">
+											<input type="radio" name="rating" value="Loved">
+										</form>
+									</div>
+								</div>
+							</div>-->
+						</div>
+																				<fieldset>
+										<label>Telephone No:&nbsp;</label>
+										<span>(509) 585-3212</span>
+								</fieldset>
+								<fieldset>
+										<label>Address:&nbsp;</label>
+																				<a HREF="http://www.ratemyteachers.com/gmaps/withUrl/500 SOUTH DAYTON STREET Kennewick Washington/Kennewick High School//kennewick-high-school/21378-s" rel="0" class="newWindow" >
+										<span>500 SOUTH DAYTON STREET<br />
+												<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+														<span itemprop="addressLocality">Kennewick</span>
+														<span>,&nbsp; </span><span itemprop="addressRegion">Washington</span>												</span>
+										</span>
+										</a>
+
+								</fieldset>
+								<fieldset>
+										<label>Population:&nbsp;</label>
+										<span>1,585</span>
+								</fieldset>
+											</div>
+					<div style="width: 302px; float: right;">
+						<div class="google_map" style="margin-top: 45px">
+							<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+ 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false'></script>		<script type="text/javascript" charset="utf-8">
+//<![CDATA[
+/*************************************************
+ * Created with GoogleMapAPI3.0beta
+ * Author: Brad Wedell <brad AT mycnl DOT com>
+ * Link http://code.google.com/p/phpgooglemapapiv3/
+ * Copyright 2010 Brad Wedell
+ * Original Author: Monte Ohrt <monte AT ohrt DOT com>
+ * Original Copyright 2005-2006 New Digital Group
+ * Originial Link http://www.phpinsider.com/php/code/GoogleMapAPI/
+ *************************************************/
+
+				var markersmap  = [];
+			
+					var sidebar_htmlmap  = '';
+					var marker_htmlmap  = [];
+				
+                var to_htmlsmap  = [];
+                var from_htmlsmap  = [];
+            var mapmap = null;
+function onLoadmap() {
+var mapObjmap = document.getElementById("map");
+if (mapObjmap != 'undefined' && mapObjmap != null) {
+
+				var mapOptionsmap = {
+					zoom: 16,
+					mapTypeId: google.maps.MapTypeId.ROADMAP,
+					mapTypeControl: true,
+					mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DEFAULT}
+				};
+			
+					mapOptionsmap.center = new google.maps.LatLng(
+						46.205780,
+						-119.124391
+					);
+				
+				mapmap = new google.maps.Map(mapObjmap,mapOptionsmap);
+			var point = new google.maps.LatLng(46.20578,-119.124391);
+markersmap.push(createMarker(mapmap, point,"","<a href=http:\/\/www.ratemyteachers.com\/kennewick-high-school\/21378-s\/3 target='_blank'>Kennewick High School<\/a>", '', '', "sidebar_map", '' ));
+
+
+			  }
+}
+
+    	   function createMarker(map, point, title, html, icon, icon_shadow, sidebar_id, openers){
+			    var marker_options = {
+			        position: point,
+			        map: map,
+			        title: title};
+			    if(icon!=''){marker_options.icon = icon;}
+			    if(icon_shadow!=''){marker_options.icon_shadow = icon_shadow;}
+			    //create marker
+			    var new_marker = new google.maps.Marker(marker_options);
+			    if(html!=''){
+					
+			        var infowindow = new google.maps.InfoWindow({content: html});
+			        google.maps.event.addListener(new_marker, 'click', function() {
+			          infowindow.open(map,new_marker);
+			        });
+					if(openers != ''&&!isEmpty(openers)){
+			           for(var i in openers){
+			             var opener = document.getElementById(openers[i]);
+			             opener.onclick = function(){infowindow.open(map,new_marker); return false};
+			           }
+			        }
+					
+			        if(sidebar_id != ''){
+			            var sidebar = document.getElementById(sidebar_id);
+						if(sidebar!=null && sidebar!=undefined && title!=null && title!=''){
+							var newlink = document.createElement('a');
+							
+			        		newlink.onclick=function(){infowindow.open(map,new_marker); return false};
+							
+							newlink.innerHTML = title;
+							sidebar.appendChild(newlink);
+						}
+			        }
+                }
+			    return new_marker;
+			}
+    	function isArray(a) {return isObject(a) && a.constructor == Array;}
+function isObject(a) {return (a && typeof a == 'object') || isFunction(a);}
+function isFunction(a) {return typeof a == 'function';}
+function isEmpty(obj) { for(var i in obj) { return false; } return true; }
+//]]>
+</script>
+	</head>
+	<body>
+		 <script language="javascript" type="text/javascript" charset="utf-8">window.onload=onLoadmap;</script>		 <script type="text/javascript" charset="utf-8">
+//<![CDATA[
+document.write('<div id="map" style="width: 295px; height: 180px; position:relative;"><\/div>');
+//]]>
+</script>
+<noscript><b>Javascript must be enabled in order to use Google Maps.</b></noscript>
+		<div id="sidebar_map" class="sidebar_map"></div>
+	</body>
+</html>						</div>
+					</div>
+					<br clear="all" />
+				</div>
+				<!--end principle register-->
+
+				<div class="ad1">
+					<div class="banner_300">
+						<!-- ATF_MediumRectangle -->
+						<script type='text/javascript'>
+							GA_googleFillSlot("ATF_MediumRectangle");
+						</script>
+					</div>
+				</div>
+				<!--end ad-->
+
+				<div class="clear"></div>
+
+				<div class="action_blk">
+
+				</div>
+				<!--end action block-->
+				<div class="clear"></div>
+			</div>
+			<!--end school result block-->
+
+			<div id="school_search_result_blk">
+				<div>
+					<div style="margin-left: 5px; margin-top: 10px; font-weight: bold; float: left;">
+						<a href="#" onClick="addTeacher('9552'); return false;"><img src="/images/add-teacher-btn.jpg" alt="Add a Teacher on Rate my Teachers" title="Add a Teacher on Rate my Teachers" /></a>
+					</div>
+					<div class="search-select fltrgt">
+						<form id="formSearchByDepartment" action="" method ="get">
+						<select name="websites2" id="search-select" tabindex="1">
+
+																										<option name="All Departments" value="All Departments">All Departments</option>
+																																				<option name="Administration" value="Administration">Administration</option>
+																																				<option name="Anthropology" value="Anthropology">Anthropology</option>
+																																				<option name="ASL" value="ASL">ASL</option>
+																																				<option name="Biology" value="Biology">Biology</option>
+																																				<option name="Business" value="Business">Business</option>
+																																				<option name="Chemistry" value="Chemistry">Chemistry</option>
+																																				<option name="Communications" value="Communications">Communications</option>
+																																				<option name="Computer Science" value="Computer Science">Computer Science</option>
+																																				<option name="Counselor" value="Counselor">Counselor</option>
+																																				<option name="Drafting" value="Drafting">Drafting</option>
+																																				<option name="Education" value="Education">Education</option>
+																																				<option name="English" value="English">English</option>
+																																				<option name="ESL" value="ESL">ESL</option>
+																																				<option name="French" value="French">French</option>
+																																				<option name="Geography" value="Geography">Geography</option>
+																																				<option name="Health" value="Health">Health</option>
+																																				<option name="History" value="History">History</option>
+																																				<option name="History/Languages" value="History/Languages">History/Languages</option>
+																																				<option name="Home Economics" value="Home Economics">Home Economics</option>
+																																				<option name="Languages" value="Languages">Languages</option>
+																																				<option name="Math" value="Math">Math</option>
+																																				<option name="Music" value="Music">Music</option>
+																																				<option name="Not Specified" value="Not Specified">Not Specified</option>
+																																				<option name="Performing Arts" value="Performing Arts">Performing Arts</option>
+																																				<option name="Photography" value="Photography">Photography</option>
+																																				<option name="Physical Education" value="Physical Education">Physical Education</option>
+																																				<option name="Principal" value="Principal">Principal</option>
+																																				<option name="Religion" value="Religion">Religion</option>
+																																				<option name="Resource" value="Resource">Resource</option>
+																																				<option name="Science" value="Science">Science</option>
+																																				<option name="Social Studies" value="Social Studies">Social Studies</option>
+																																				<option name="Substitute Teacher" value="Substitute Teacher">Substitute Teacher</option>
+																																				<option name="Technology" value="Technology">Technology</option>
+																																				<option name="Visual Arts" value="Visual Arts">Visual Arts</option>
+																	
+
+						</select>
+						</form>
+					</div>
+
+				<ul id="alpha" class="browse_teacher fltrgt">
+	<li class="sort">Browse by Teacher Name</li>
+																<li class="allWide"><a class="alpha_filter" href="#">ALL</a></li>
+																									<li><a class="alpha_filter" href="#">A</a></li>
+																									<li><a class="alpha_filter" href="#">B</a></li>
+																									<li><a class="alpha_filter" href="#">C</a></li>
+																									<li><a class="alpha_filter" href="#">D</a></li>
+																									<li><a class="alpha_filter" href="#">E</a></li>
+																									<li><a class="alpha_filter" href="#">F</a></li>
+																									<li><a class="alpha_filter" href="#">G</a></li>
+																									<li><a class="alpha_filter" href="#">H</a></li>
+																									<li><a class="alpha_filter" href="#">I</a></li>
+																									<li><a class="alpha_filter" href="#">J</a></li>
+																									<li><a class="alpha_filter" href="#">K</a></li>
+																									<li><a class="alpha_filter" href="#">L</a></li>
+																									<li><a class="alpha_filter" href="#">M</a></li>
+																									<li><a class="alpha_filter" href="#">N</a></li>
+																									<li><a class="alpha_filter" href="#">O</a></li>
+																									<li><a class="alpha_filter" href="#">P</a></li>
+																									<li><a class="alpha_filter" href="#">Q</a></li>
+																									<li><a class="alpha_filter" href="#">R</a></li>
+																									<li><a class="alpha_filter" href="#">S</a></li>
+																									<li><a class="alpha_filter" href="#">T</a></li>
+																									<li><a class="alpha_filter" href="#">U</a></li>
+																									<li><a class="alpha_filter" href="#">V</a></li>
+																									<li><a class="alpha_filter" href="#">W</a></li>
+																									<li><a class="alpha_filter" href="#">X</a></li>
+																									<li><a class="alpha_filter" href="#">Y</a></li>
+																									<li><a class="alpha_filter" href="#">Z</a></li>
+											</ul>
+
+				</div>
+				<div class="clear"></div>
+				<ul class="school_search_result_heading">
+					<li class="rating">Quick Rating</li>
+					<li class="name"><a class="sort_filter" href="#">Name</a></li>
+					<li class="overall_quality">Overall Quality</li>
+					<li class="subject">Subject</li>
+					<li class="actions"></li>
+				</ul>
+				<ul class="sort_list">
+																<li class="bg-gray">					<ul>
+						<li class="rating">
+							<div id="rate">
+								<div id="rating_fields1" class="hide">
+									<form action="http://www.ratemyteachers.com/rate_school" method="post" id="form1" >
+										<input type="hidden" name="rating_id" value="" />
+										<input type="hidden" name="formid" value="1" />
+										<input type="hidden" name="person_id" value="2332064" />
+										<input type="hidden" name="person_review_url" value="/kennewick-high-school/2332064-t" />
+										<input type="hidden" id="rating_value1" name="rating_value" />
+										<input type="hidden" name="url" value="kennewick-high-school/21378-s/3" />
+										<input type="text" name="description" maxlength="25" class="rating_fields_input watermarkOn" value="Describe Teacher" />
+										<input type="submit" name="submit_rating" class="rating_fields_submit" value="1" />
+									</form>
+								</div>
+								<div id="rate_blk">
+									<div id="mydiv" class ="mytestNoBorder">
+										<form name="simple1" >
+											<label id="simpleTip1"></label>
+																						<input type="radio" name="rating" value="Hated">
+											<input type="radio" name="rating" value="Disliked">
+											<input type="radio" name="rating" value="Okay">
+											<input type="radio" name="rating" value="Liked">
+											<input type="radio" name="rating" value="Loved">
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<!--							<a href="#" onClick="alert('Done Quick Rating This Teacher'); return false;" title="Done Rating Tarah Troutman"><img src="/images/quick-rating-btn.jpg" alt="Done Quick Rate" title="Done Quick Rate"></a>
+							-->
+						</li>
+						<li class="name"><a href="/kennewick-high-school/2332064-t"><span itemprop="employees" itemscope itemtype="http://schema.org/Person">Tarah Troutman</span></a></li>
+						<li class="overall_quality">
+
+						
+																<img src="/images/static_stars/3-star.png" alt="Rating Stars" title="Rating Stars" />
+												</li>
+						<li class="subject">English</li>
+						<li class="actions">
+																						<a href="#fblogin" title="Share Tarah Troutman on Facebook" class="fancylogin share">Share</a>
+																						<a href='#fblogin' class="fancylogin" title="Flag Tarah Troutman"><img src="/images/flag-teacher-btn.png" alt="flag Tarah Troutman" /></a>
+													</li>
+					</ul>
+												<li>					<ul>
+						<li class="rating">
+							<div id="rate">
+								<div id="rating_fields2" class="hide">
+									<form action="http://www.ratemyteachers.com/rate_school" method="post" id="form2" >
+										<input type="hidden" name="rating_id" value="" />
+										<input type="hidden" name="formid" value="2" />
+										<input type="hidden" name="person_id" value="850310" />
+										<input type="hidden" name="person_review_url" value="/kennewick-high-school/850310-t" />
+										<input type="hidden" id="rating_value2" name="rating_value" />
+										<input type="hidden" name="url" value="kennewick-high-school/21378-s/3" />
+										<input type="text" name="description" maxlength="25" class="rating_fields_input watermarkOn" value="Describe Teacher" />
+										<input type="submit" name="submit_rating" class="rating_fields_submit" value="2" />
+									</form>
+								</div>
+								<div id="rate_blk">
+									<div id="mydiv" class ="mytestNoBorder">
+										<form name="simple2" >
+											<label id="simpleTip2"></label>
+																						<input type="radio" name="rating" value="Hated">
+											<input type="radio" name="rating" value="Disliked">
+											<input type="radio" name="rating" value="Okay">
+											<input type="radio" name="rating" value="Liked">
+											<input type="radio" name="rating" value="Loved">
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<!--							<a href="#" onClick="alert('Done Quick Rating This Teacher'); return false;" title="Done Rating Teresa Urrego"><img src="/images/quick-rating-btn.jpg" alt="Done Quick Rate" title="Done Quick Rate"></a>
+							-->
+						</li>
+						<li class="name"><a href="/kennewick-high-school/850310-t"><span itemprop="employees" itemscope itemtype="http://schema.org/Person">Teresa Urrego</span></a></li>
+						<li class="overall_quality">
+
+						
+																<img src="/images/static_stars/4-star.png" alt="Rating Stars" title="Rating Stars" />
+												</li>
+						<li class="subject">Languages</li>
+						<li class="actions">
+																						<a href="#fblogin" title="Share Teresa Urrego on Facebook" class="fancylogin share">Share</a>
+																						<a href='#fblogin' class="fancylogin" title="Flag Teresa Urrego"><img src="/images/flag-teacher-btn.png" alt="flag Teresa Urrego" /></a>
+													</li>
+					</ul>
+												<li class="bg-gray">					<ul>
+						<li class="rating">
+							<div id="rate">
+								<div id="rating_fields3" class="hide">
+									<form action="http://www.ratemyteachers.com/rate_school" method="post" id="form3" >
+										<input type="hidden" name="rating_id" value="" />
+										<input type="hidden" name="formid" value="3" />
+										<input type="hidden" name="person_id" value="1405504" />
+										<input type="hidden" name="person_review_url" value="/kennewick-high-school/1405504-t" />
+										<input type="hidden" id="rating_value3" name="rating_value" />
+										<input type="hidden" name="url" value="kennewick-high-school/21378-s/3" />
+										<input type="text" name="description" maxlength="25" class="rating_fields_input watermarkOn" value="Describe Teacher" />
+										<input type="submit" name="submit_rating" class="rating_fields_submit" value="3" />
+									</form>
+								</div>
+								<div id="rate_blk">
+									<div id="mydiv" class ="mytestNoBorder">
+										<form name="simple3" >
+											<label id="simpleTip3"></label>
+																						<input type="radio" name="rating" value="Hated">
+											<input type="radio" name="rating" value="Disliked">
+											<input type="radio" name="rating" value="Okay">
+											<input type="radio" name="rating" value="Liked">
+											<input type="radio" name="rating" value="Loved">
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<!--							<a href="#" onClick="alert('Done Quick Rating This Teacher'); return false;" title="Done Rating Matt Wallblom"><img src="/images/quick-rating-btn.jpg" alt="Done Quick Rate" title="Done Quick Rate"></a>
+							-->
+						</li>
+						<li class="name"><a href="/kennewick-high-school/1405504-t"><span itemprop="employees" itemscope itemtype="http://schema.org/Person">Matt Wallblom</span></a></li>
+						<li class="overall_quality">
+
+						
+																<img src="/images/static_stars/3-star.png" alt="Rating Stars" title="Rating Stars" />
+												</li>
+						<li class="subject">Communications</li>
+						<li class="actions">
+																						<a href="#fblogin" title="Share Matt Wallblom on Facebook" class="fancylogin share">Share</a>
+																						<a href='#fblogin' class="fancylogin" title="Flag Matt Wallblom"><img src="/images/flag-teacher-btn.png" alt="flag Matt Wallblom" /></a>
+													</li>
+					</ul>
+												<li>					<ul>
+						<li class="rating">
+							<div id="rate">
+								<div id="rating_fields4" class="hide">
+									<form action="http://www.ratemyteachers.com/rate_school" method="post" id="form4" >
+										<input type="hidden" name="rating_id" value="" />
+										<input type="hidden" name="formid" value="4" />
+										<input type="hidden" name="person_id" value="1175478" />
+										<input type="hidden" name="person_review_url" value="/kennewick-high-school/1175478-t" />
+										<input type="hidden" id="rating_value4" name="rating_value" />
+										<input type="hidden" name="url" value="kennewick-high-school/21378-s/3" />
+										<input type="text" name="description" maxlength="25" class="rating_fields_input watermarkOn" value="Describe Teacher" />
+										<input type="submit" name="submit_rating" class="rating_fields_submit" value="4" />
+									</form>
+								</div>
+								<div id="rate_blk">
+									<div id="mydiv" class ="mytestNoBorder">
+										<form name="simple4" >
+											<label id="simpleTip4"></label>
+																						<input type="radio" name="rating" value="Hated">
+											<input type="radio" name="rating" value="Disliked">
+											<input type="radio" name="rating" value="Okay">
+											<input type="radio" name="rating" value="Liked">
+											<input type="radio" name="rating" value="Loved">
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<!--							<a href="#" onClick="alert('Done Quick Rating This Teacher'); return false;" title="Done Rating Kate Weir"><img src="/images/quick-rating-btn.jpg" alt="Done Quick Rate" title="Done Quick Rate"></a>
+							-->
+						</li>
+						<li class="name"><a href="/kennewick-high-school/1175478-t"><span itemprop="employees" itemscope itemtype="http://schema.org/Person">Kate Weir</span></a></li>
+						<li class="overall_quality">
+
+						
+																<img src="/images/static_stars/4-star.png" alt="Rating Stars" title="Rating Stars" />
+												</li>
+						<li class="subject">English</li>
+						<li class="actions">
+																						<a href="#fblogin" title="Share Kate Weir on Facebook" class="fancylogin share">Share</a>
+																						<a href='#fblogin' class="fancylogin" title="Flag Kate Weir"><img src="/images/flag-teacher-btn.png" alt="flag Kate Weir" /></a>
+													</li>
+					</ul>
+												<li class="bg-gray">					<ul>
+						<li class="rating">
+							<div id="rate">
+								<div id="rating_fields5" class="hide">
+									<form action="http://www.ratemyteachers.com/rate_school" method="post" id="form5" >
+										<input type="hidden" name="rating_id" value="" />
+										<input type="hidden" name="formid" value="5" />
+										<input type="hidden" name="person_id" value="537130" />
+										<input type="hidden" name="person_review_url" value="/kennewick-high-school/537130-t" />
+										<input type="hidden" id="rating_value5" name="rating_value" />
+										<input type="hidden" name="url" value="kennewick-high-school/21378-s/3" />
+										<input type="text" name="description" maxlength="25" class="rating_fields_input watermarkOn" value="Describe Teacher" />
+										<input type="submit" name="submit_rating" class="rating_fields_submit" value="5" />
+									</form>
+								</div>
+								<div id="rate_blk">
+									<div id="mydiv" class ="mytestNoBorder">
+										<form name="simple5" >
+											<label id="simpleTip5"></label>
+																						<input type="radio" name="rating" value="Hated">
+											<input type="radio" name="rating" value="Disliked">
+											<input type="radio" name="rating" value="Okay">
+											<input type="radio" name="rating" value="Liked">
+											<input type="radio" name="rating" value="Loved">
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<!--							<a href="#" onClick="alert('Done Quick Rating This Teacher'); return false;" title="Done Rating Sharon Wiens"><img src="/images/quick-rating-btn.jpg" alt="Done Quick Rate" title="Done Quick Rate"></a>
+							-->
+						</li>
+						<li class="name"><a href="/kennewick-high-school/537130-t"><span itemprop="employees" itemscope itemtype="http://schema.org/Person">Sharon Wiens</span></a></li>
+						<li class="overall_quality">
+
+						
+																<img src="/images/static_stars/3-star.png" alt="Rating Stars" title="Rating Stars" />
+												</li>
+						<li class="subject">English</li>
+						<li class="actions">
+																						<a href="#fblogin" title="Share Sharon Wiens on Facebook" class="fancylogin share">Share</a>
+																						<a href='#fblogin' class="fancylogin" title="Flag Sharon Wiens"><img src="/images/flag-teacher-btn.png" alt="flag Sharon Wiens" /></a>
+													</li>
+					</ul>
+												<li>					<ul>
+						<li class="rating">
+							<div id="rate">
+								<div id="rating_fields6" class="hide">
+									<form action="http://www.ratemyteachers.com/rate_school" method="post" id="form6" >
+										<input type="hidden" name="rating_id" value="" />
+										<input type="hidden" name="formid" value="6" />
+										<input type="hidden" name="person_id" value="813983" />
+										<input type="hidden" name="person_review_url" value="/kennewick-high-school/813983-t" />
+										<input type="hidden" id="rating_value6" name="rating_value" />
+										<input type="hidden" name="url" value="kennewick-high-school/21378-s/3" />
+										<input type="text" name="description" maxlength="25" class="rating_fields_input watermarkOn" value="Describe Teacher" />
+										<input type="submit" name="submit_rating" class="rating_fields_submit" value="6" />
+									</form>
+								</div>
+								<div id="rate_blk">
+									<div id="mydiv" class ="mytestNoBorder">
+										<form name="simple6" >
+											<label id="simpleTip6"></label>
+																						<input type="radio" name="rating" value="Hated">
+											<input type="radio" name="rating" value="Disliked">
+											<input type="radio" name="rating" value="Okay">
+											<input type="radio" name="rating" value="Liked">
+											<input type="radio" name="rating" value="Loved">
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<!--							<a href="#" onClick="alert('Done Quick Rating This Teacher'); return false;" title="Done Rating Becky Wilson"><img src="/images/quick-rating-btn.jpg" alt="Done Quick Rate" title="Done Quick Rate"></a>
+							-->
+						</li>
+						<li class="name"><a href="/kennewick-high-school/813983-t"><span itemprop="employees" itemscope itemtype="http://schema.org/Person">Becky Wilson</span></a></li>
+						<li class="overall_quality">
+
+						
+																<img src="/images/static_stars/2-star.png" alt="Rating Stars" title="Rating Stars" />
+												</li>
+						<li class="subject">Home Economics</li>
+						<li class="actions">
+																						<a href="#fblogin" title="Share Becky Wilson on Facebook" class="fancylogin share">Share</a>
+																						<a href='#fblogin' class="fancylogin" title="Flag Becky Wilson"><img src="/images/flag-teacher-btn.png" alt="flag Becky Wilson" /></a>
+													</li>
+					</ul>
+												<li class="bg-gray">					<ul>
+						<li class="rating">
+							<div id="rate">
+								<div id="rating_fields7" class="hide">
+									<form action="http://www.ratemyteachers.com/rate_school" method="post" id="form7" >
+										<input type="hidden" name="rating_id" value="" />
+										<input type="hidden" name="formid" value="7" />
+										<input type="hidden" name="person_id" value="850317" />
+										<input type="hidden" name="person_review_url" value="/kennewick-high-school/850317-t" />
+										<input type="hidden" id="rating_value7" name="rating_value" />
+										<input type="hidden" name="url" value="kennewick-high-school/21378-s/3" />
+										<input type="text" name="description" maxlength="25" class="rating_fields_input watermarkOn" value="Describe Teacher" />
+										<input type="submit" name="submit_rating" class="rating_fields_submit" value="7" />
+									</form>
+								</div>
+								<div id="rate_blk">
+									<div id="mydiv" class ="mytestNoBorder">
+										<form name="simple7" >
+											<label id="simpleTip7"></label>
+																						<input type="radio" name="rating" value="Hated">
+											<input type="radio" name="rating" value="Disliked">
+											<input type="radio" name="rating" value="Okay">
+											<input type="radio" name="rating" value="Liked">
+											<input type="radio" name="rating" value="Loved">
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<!--							<a href="#" onClick="alert('Done Quick Rating This Teacher'); return false;" title="Done Rating Russ Wodehouse"><img src="/images/quick-rating-btn.jpg" alt="Done Quick Rate" title="Done Quick Rate"></a>
+							-->
+						</li>
+						<li class="name"><a href="/kennewick-high-school/850317-t"><span itemprop="employees" itemscope itemtype="http://schema.org/Person">Russ Wodehouse</span></a></li>
+						<li class="overall_quality">
+
+						
+																<img src="/images/static_stars/1-star.png" alt="Rating Stars" title="Rating Stars" />
+												</li>
+						<li class="subject">Performing Arts</li>
+						<li class="actions">
+																						<a href="#fblogin" title="Share Russ Wodehouse on Facebook" class="fancylogin share">Share</a>
+																						<a href='#fblogin' class="fancylogin" title="Flag Russ Wodehouse"><img src="/images/flag-teacher-btn.png" alt="flag Russ Wodehouse" /></a>
+													</li>
+					</ul>
+												<li>					<ul>
+						<li class="rating">
+							<div id="rate">
+								<div id="rating_fields8" class="hide">
+									<form action="http://www.ratemyteachers.com/rate_school" method="post" id="form8" >
+										<input type="hidden" name="rating_id" value="" />
+										<input type="hidden" name="formid" value="8" />
+										<input type="hidden" name="person_id" value="537092" />
+										<input type="hidden" name="person_review_url" value="/kennewick-high-school/537092-t" />
+										<input type="hidden" id="rating_value8" name="rating_value" />
+										<input type="hidden" name="url" value="kennewick-high-school/21378-s/3" />
+										<input type="text" name="description" maxlength="25" class="rating_fields_input watermarkOn" value="Describe Teacher" />
+										<input type="submit" name="submit_rating" class="rating_fields_submit" value="8" />
+									</form>
+								</div>
+								<div id="rate_blk">
+									<div id="mydiv" class ="mytestNoBorder">
+										<form name="simple8" >
+											<label id="simpleTip8"></label>
+																						<input type="radio" name="rating" value="Hated">
+											<input type="radio" name="rating" value="Disliked">
+											<input type="radio" name="rating" value="Okay">
+											<input type="radio" name="rating" value="Liked">
+											<input type="radio" name="rating" value="Loved">
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<!--							<a href="#" onClick="alert('Done Quick Rating This Teacher'); return false;" title="Done Rating Twila Wood"><img src="/images/quick-rating-btn.jpg" alt="Done Quick Rate" title="Done Quick Rate"></a>
+							-->
+						</li>
+						<li class="name"><a href="/kennewick-high-school/537092-t"><span itemprop="employees" itemscope itemtype="http://schema.org/Person">Twila Wood</span></a></li>
+						<li class="overall_quality">
+
+						
+																<img src="/images/static_stars/2-star.png" alt="Rating Stars" title="Rating Stars" />
+												</li>
+						<li class="subject">Languages</li>
+						<li class="actions">
+																						<a href="#fblogin" title="Share Twila Wood on Facebook" class="fancylogin share">Share</a>
+																						<a href='#fblogin' class="fancylogin" title="Flag Twila Wood"><img src="/images/flag-teacher-btn.png" alt="flag Twila Wood" /></a>
+													</li>
+					</ul>
+												<li class="bg-gray">					<ul>
+						<li class="rating">
+							<div id="rate">
+								<div id="rating_fields9" class="hide">
+									<form action="http://www.ratemyteachers.com/rate_school" method="post" id="form9" >
+										<input type="hidden" name="rating_id" value="" />
+										<input type="hidden" name="formid" value="9" />
+										<input type="hidden" name="person_id" value="537691" />
+										<input type="hidden" name="person_review_url" value="/kennewick-high-school/537691-t" />
+										<input type="hidden" id="rating_value9" name="rating_value" />
+										<input type="hidden" name="url" value="kennewick-high-school/21378-s/3" />
+										<input type="text" name="description" maxlength="25" class="rating_fields_input watermarkOn" value="Describe Teacher" />
+										<input type="submit" name="submit_rating" class="rating_fields_submit" value="9" />
+									</form>
+								</div>
+								<div id="rate_blk">
+									<div id="mydiv" class ="mytestNoBorder">
+										<form name="simple9" >
+											<label id="simpleTip9"></label>
+																						<input type="radio" name="rating" value="Hated">
+											<input type="radio" name="rating" value="Disliked">
+											<input type="radio" name="rating" value="Okay">
+											<input type="radio" name="rating" value="Liked">
+											<input type="radio" name="rating" value="Loved">
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<!--							<a href="#" onClick="alert('Done Quick Rating This Teacher'); return false;" title="Done Rating Rob Woodford"><img src="/images/quick-rating-btn.jpg" alt="Done Quick Rate" title="Done Quick Rate"></a>
+							-->
+						</li>
+						<li class="name"><a href="/kennewick-high-school/537691-t"><span itemprop="employees" itemscope itemtype="http://schema.org/Person">Rob Woodford</span></a></li>
+						<li class="overall_quality">
+
+						
+																<img src="/images/static_stars/5-star.png" alt="Rating Stars" title="Rating Stars" />
+												</li>
+						<li class="subject">English</li>
+						<li class="actions">
+																						<a href="#fblogin" title="Share Rob Woodford on Facebook" class="fancylogin share">Share</a>
+																						<a href='#fblogin' class="fancylogin" title="Flag Rob Woodford"><img src="/images/flag-teacher-btn.png" alt="flag Rob Woodford" /></a>
+													</li>
+					</ul>
+												<li>					<ul>
+						<li class="rating">
+							<div id="rate">
+								<div id="rating_fields10" class="hide">
+									<form action="http://www.ratemyteachers.com/rate_school" method="post" id="form10" >
+										<input type="hidden" name="rating_id" value="" />
+										<input type="hidden" name="formid" value="10" />
+										<input type="hidden" name="person_id" value="537718" />
+										<input type="hidden" name="person_review_url" value="/kennewick-high-school/537718-t" />
+										<input type="hidden" id="rating_value10" name="rating_value" />
+										<input type="hidden" name="url" value="kennewick-high-school/21378-s/3" />
+										<input type="text" name="description" maxlength="25" class="rating_fields_input watermarkOn" value="Describe Teacher" />
+										<input type="submit" name="submit_rating" class="rating_fields_submit" value="10" />
+									</form>
+								</div>
+								<div id="rate_blk">
+									<div id="mydiv" class ="mytestNoBorder">
+										<form name="simple10" >
+											<label id="simpleTip10"></label>
+																						<input type="radio" name="rating" value="Hated">
+											<input type="radio" name="rating" value="Disliked">
+											<input type="radio" name="rating" value="Okay">
+											<input type="radio" name="rating" value="Liked">
+											<input type="radio" name="rating" value="Loved">
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<!--							<a href="#" onClick="alert('Done Quick Rating This Teacher'); return false;" title="Done Rating Jason Woods"><img src="/images/quick-rating-btn.jpg" alt="Done Quick Rate" title="Done Quick Rate"></a>
+							-->
+						</li>
+						<li class="name"><a href="/kennewick-high-school/537718-t"><span itemprop="employees" itemscope itemtype="http://schema.org/Person">Jason Woods</span></a></li>
+						<li class="overall_quality">
+
+						
+																<img src="/images/static_stars/5-star.png" alt="Rating Stars" title="Rating Stars" />
+												</li>
+						<li class="subject">Physical Education</li>
+						<li class="actions">
+																						<a href="#fblogin" title="Share Jason Woods on Facebook" class="fancylogin share">Share</a>
+																						<a href='#fblogin' class="fancylogin" title="Flag Jason Woods"><img src="/images/flag-teacher-btn.png" alt="flag Jason Woods" /></a>
+													</li>
+					</ul>
+								</ul>
+
+				<div class="clear"></div>
+			</div>
+			<!--end school search result block-->
+
+			<p align="center" class="ads">
+				<div class="sub_banner_728">
+					<!-- BTF_Leaderboard -->
+					<script type='text/javascript'>
+						GA_googleFillSlot("BTF_Leaderboard");
+					</script>
+				</div>
+			</p>
+			<div class="page_result">
+								<p>100 to 110 of 110 Results</p>
+				<ul class="pagination">
+					<li><a href="/kennewick-high-school/21378-s/1">&lsaquo;</a></li><li><a href="/kennewick-high-school/21378-s/1"></a></li><li><a href="/kennewick-high-school/21378-s/1">1</a></li><li><a href="/kennewick-high-school/21378-s/2">2</a></li><li>3</li>				</ul>
+							</div>
+			<!--end page result-->
+			<div class="clear"></div>
+						<!--end top block-->
+		</div>
+		<!--end content-->
+	</div>
+	<!-- end container-->
+		<div id="fblogin" class="fancylogin" style="display: none">
+			<div class="popup_heading"><h2>Facebook Login</h2></div>
+			<div class="popup_content">
+					<p>RateMyTeachers.com recently teamed-up with Facebook to provide the world with more meaningful anonymous ratings. Your personal information and ratings will never be disclosed to your friends on Facebook.</p>
+			</div>
+			<div class="popup_action">
+					<span>Your ratings will remain strictly anonymous.</span>
+				<input type="image" name="login" onclick="return false;" src="/images/popup/continue-btn.jpg" alt="Facebook login on Rate My Teachers" title="Facebook login on Rate My Teachers" />
+			</div>
+		</div>
+		<footer>
+	<div id="footer">
+		<ul class="dictionary">
+			<li><a href="/school/ALL">School Directory</a>:</li>
+			<li><a href="/school/A">A</a></li>
+			<li><a href="/school/B">B</a></li>
+			<li><a href="/school/C">C</a></li>
+			<li><a href="/school/D">D</a></li>
+			<li><a href="/school/E">E</a></li>
+			<li><a href="/school/F">F</a></li>
+			<li><a href="/school/G">G</a></li>
+			<li><a href="/school/H">H</a></li>
+			<li><a href="/school/I">I</a></li>
+			<li><a href="/school/J">J</a></li>
+			<li><a href="/school/K">K</a></li>
+			<li><a href="/school/L">L</a></li>
+			<li><a href="/school/M">M</a></li>
+			<li><a href="/school/N">N</a></li>
+			<li><a href="/school/O">O</a></li>
+			<li><a href="/school/P">P</a></li>
+			<li><a href="/school/Q">Q</a></li>
+			<li><a href="/school/R">R</a></li>
+			<li><a href="/school/S">S</a></li>
+			<li><a href="/school/T">T</a></li>
+			<li><a href="/school/U">U</a></li>
+			<li><a href="/school/V">V</a></li>
+			<li><a href="/school/W">W</a></li>
+			<li><a href="/school/X">X</a></li>
+			<li><a href="/school/Y">Y</a></li>
+			<li><a href="/school/Z">Z</a></li>
+			<li>|</li>
+			<li><a href="/teacher/ALL">Teacher Directory</a>:</li>
+			<li><a href="/teacher/A">A</a></li>
+			<li><a href="/teacher/B">B</a></li>
+			<li><a href="/teacher/C">C</a></li>
+			<li><a href="/teacher/D">D</a></li>
+			<li><a href="/teacher/E">E</a></li>
+			<li><a href="/teacher/F">F</a></li>
+			<li><a href="/teacher/G">G</a></li>
+			<li><a href="/teacher/H">H</a></li>
+			<li><a href="/teacher/I">I</a></li>
+			<li><a href="/teacher/J">J</a></li>
+			<li><a href="/teacher/K">K</a></li>
+			<li><a href="/teacher/L">L</a></li>
+			<li><a href="/teacher/M">M</a></li>
+			<li><a href="/teacher/N">N</a></li>
+			<li><a href="/teacher/O">O</a></li>
+			<li><a href="/teacher/P">P</a></li>
+			<li><a href="/teacher/Q">Q</a></li>
+			<li><a href="/teacher/R">R</a></li>
+			<li><a href="/teacher/S">S</a></li>
+			<li><a href="/teacher/T">T</a></li>
+			<li><a href="/teacher/U">U</a></li>
+			<li><a href="/teacher/V">V</a></li>
+			<li><a href="/teacher/W">W</a></li>
+			<li><a href="/teacher/X">X</a></li>
+			<li><a href="/teacher/Y">Y</a></li>
+			<li><a href="/teacher/Z">Z</a></li>
+		</ul>
+		<div id="foot">
+			<ul>
+									<li><a href="/school">Schools</a><span>|</span></li>
+					<li><a href="/teacher">Teachers</a><span>|</span></li>
+									<li><a href="http://www.facebook.com/pages/Rate-My-Teachers/172604876112259" target="_blank">Forum</a><span>|</span></li>
+					<li><a href="/faq">FAQ</a><span>|</span></li>
+					<li><a href="/contact">Contact</a><span>|</span></li>
+					<li><a href="/info/Terms">Terms of Use</a><span>|</span></li>
+					<li><a href="/info/Privacy">Privacy Policy</a><span>|</span></li>
+					<li><a href="/info/RateRules">Site Guidelines</a><span>|</span></li>
+					<li><a href="/info/Copyright">Copyright Compliance</a><span>|</span></li>
+					<li><a href="/location">Site Map</a><span>|</span></li>
+					<li><a href="/refer_a_friend">Refer a Friend</a></li>
+			</ul>
+			<p>© 2012 RateMyTeachers.com All Rights Reserved. This site is dedicated to Nancy Lynn Davis 1945-2006 & Brian Timothy Davis 1981-2003</p>
+		</div>
+	</div>
+</footer>
+<div style="display:none">
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-4216499-1");
+		pageTracker._initData();
+					pageTracker._setCustomVar(5,"Institution Type","High School");
+				pageTracker._trackPageview();
+	</script>
+
+	<script type="text/javascript">
+		_qoptions={
+			qacct:"p-6d6fzw6m9kY1M"
+		};
+	</script>
+
+	<!-- Start Quantcast tag -->
+	<script type="text/javascript">
+		_qoptions={
+		qacct:"p-6d6fzw6m9kY1M"
+		};
+	</script>
+	<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+	<noscript>
+		<img src="http://pixel.quantserve.com/pixel/p-6d6fzw6m9kY1M.gif" style="display: none;" border="0" height="1" width="1" alt=""/>
+	</noscript>
+	<!-- End Quantcast tag -->
+</div>
+
+<!-- MentAd Code for Visit Notification -->
+<script type="text/javascript">
+    var mentad_website_id = "A036Ux2Fz7_2o";
+
+    (function(){
+        var js = document.createElement('script'); js.type = "text/javascript"; js.async = true;
+        js.src = "//mentad.com/static/js/mentad-visit-notification.js";
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(js, s);
+    })();
+</script>
+
+		<div class="clear"></div>
+
+		<!-- flagged rating notif -->
+		<p id="frn-countdown" style="display:none;"></p>
+		<a href="#flaggedratingnotif_box" id="frn-box" class="suggestionbox_link" style="display:none;">Suggest a School</a>
+		<div id="flaggedratingnotif_box" class="fancyfrnbox" style="display: none;">
+			<h2>Flagged Rating Notification</h2>
+			<p>
+							</p>
+		</div>
+	</div>
+	<!-- end wrapper-->
+
+	<!--<div style="display:none;"><a href="#quick-rate" id="popup-quick-rate-remove"></a></div>
+	<div id="quick-rate" style="display: none;">
+		<h2>Quick Rating</h2>
+		<p>Please give the teacher a rating from 1 to 5 stars and then describe them with a single word.</p>
+		<p style="margin-bottom:10px;"></p>
+		<div id="quick-rate-blk">
+			<div id="mydiv" class ="mytestNoBorder">
+				<form name="actualQuickRating" id="actualQuickRating">
+					<label id="actualQuickRatingTip"></label>
+					<input type="radio" name="rating" value="Hated">
+					<input type="radio" name="rating" value="Disliked">
+					<input type="radio" name="rating" value="Okay">
+					<input type="radio" name="rating" value="Liked">
+					<input type="radio" name="rating" value="Loved">
+				</form>
+			</div>
+		</div>
+		<div id="quick_rating_form" >
+			<form action="#" method="post" id="actual-form" >
+				<input type="hidden" name="rating_id"           value="" />
+				<input type="hidden" name="formid"              value="" />
+				<input type="hidden" name="person_id"           value="" />
+				<input type="hidden" name="person_review_url"   value="" />
+				<input type="hidden" name="url"                 value="" />
+				<input type="hidden" name="rating_value"        value="" id="quick_rating_for_teacher"/>
+				<input type="text" id="rating_description" name="description" class="rating_fields_input watermarkOn" value="Describe Teacher" />
+				<input type="submit" name="submit_quick_rating" class="rating_fields_submit" value="" id="submit_quick_rating"/>
+				<div class="fixRecaptcha">
+					<script type="text/javascript" src="http://api.recaptcha.net/challenge?k=6LcxdgcAAAAAAM04UQcAylN9OeRX4Qrv4fEC3s8b"></script>
+
+	<noscript>
+  		<iframe src="http://api.recaptcha.net/noscript?k=6LcxdgcAAAAAAM04UQcAylN9OeRX4Qrv4fEC3s8b" height="300" width="500" frameborder="0"></iframe><br/>
+  		<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+  		<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+	</noscript>				</div>
+			</form>
+		</div>
+	</div>-->
+
+		<!-- Add the mooRatings JavaScript file -->
+		<script src="/js/moostarrating.js"></script>
+		<script type="text/javascript">
+			window.addEvent('domready',function() {
+
+				rating_values = ['Hated', 'Disliked', 'Okay', 'Liked',  'Loved'];
+				count = 10;
+				MooStarRatingImages.defaultImageFolder = "/images";
+
+				//var simpleRating = new MooStarRating({
+				//		form: "simpleHeader",
+				//		tip : "[VALUE]",
+				//		tipTarget: $('simpleTipHeader')
+				//});
+				//
+				//simpleRating.addEvent('click', function (value) {
+				//	$('rating_fieldsHeader').set("class","appear");
+				//	var rv = rating_values.indexOf(value) + 1;
+				//	$('rating_value').set("value", rv);
+				//});
+
+				var basicRatings = new Array(count);
+				var rating_fields = new Array(count);
+
+				for(j=1;j<=count;j++) {
+					rating_fields[j] = "rating_fields"+j;
+				}
+
+				for(i=1;i<=count;i++) {
+					basicRatings[i] = new MooStarRating({
+						form: "simple"+ i,
+						tip : "[VALUE]",
+						tipTarget: $('simpleTip'+ i)
+					});
+				}
+
+				Array.each(basicRatings, function(obj, index) {
+						obj.addEvent('click', function (value) {
+			url = $("form" + index).getElements("input[name=person_review_url]");
+			document.location = url[0].value;
+			return;
+								// we hide first the other textboxes
+								Array.each(rating_fields, function(obj, r_index) {
+										$$('#rating_fields1').set("class","hide");
+										$$('#'+rating_fields[r_index]).set("class","hide");
+								});
+								// show the currently selected rating control
+								$$('#'+rating_fields[index]).set("class","appear");
+								var rating_value = $('form'+index).getElements('input[name=rating_value]');
+								var rv = rating_values.indexOf(value) + 1;
+								rating_value.set("value", rv);
+						});
+
+				});
+
+				var rate_school = function(){};
+				rate_school.implement("send", function(obj) {
+						var form_id 		= obj.getParent().get("id");
+						var rating_field 	= $(form_id).getParent().get("id");
+						var post_url 		= 'http://www.ratemyteachers.com/rate_schoolnow';
+						var http_method 	= 'post';
+
+						var rating_form 	= $(form_id);
+						var rating_value 	= rating_form.getElements('input[name=rating_value]').get('value');
+						var rating_description 	= rating_form.getElements('input[name=description]').get('value');
+						var school_name		= rating_form.getElements('input[name=schoolName]').get('value');
+						var rating_id 		= rating_form.getElements('input[name=rating_id]').get('value');
+						var rating_url          = rating_form.getElements('input[name=url]').get('value');
+						var is_ajax             = true;
+
+						var post_string 	= "rating_value=" + rating_value;
+						post_string		+= "&description=" + rating_description;
+						post_string 		+= "&schoolName=" + school_name;
+						post_string		+= "&rating_id=" + rating_id;
+						post_string             += "&url=" + rating_url;
+						post_string             += "&is_ajax=" + is_ajax;
+
+						var ajax_options = { method : http_method,
+											 url     : post_url,
+											 data    : post_string,
+											 onComplete	: function(resp) {
+												if (resp.contains('already')) alert("You have already rated this school");
+												if (resp > 0) alert("Thank you for rating this school");
+												$(rating_field).set("class","hide");
+											 }
+										   };
+						var req = new Request(ajax_options)
+						req.send(); //make the ajax call
+				});
+		});
+	</script>
+	<script type="text/javascript">
+		function shareToFB(pname,plink,pmessage,pdescription){
+			var picurl = 'http://www.ratemyteachers.com/images/RMT-logo-icon.jpg';
+							window.location = 'http://www.ratemyteachers.com/login/kennewick-high-school/21378-s/3';
+					}
+
+		jQuery(document).ready(function() {
+			if (jQuery(window).scrollTop() == 0) {
+				jQuery(window).scrollTop(242);
+				//jQuery(document).scroll( function() {
+					////jQuery(window).scrollTop(242);
+					//jQuery(document).unbind("scroll");
+				//});
+			}
+		});
+	</script>
+</body>
+</html>

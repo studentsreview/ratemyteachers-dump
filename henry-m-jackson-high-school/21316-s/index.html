@@ -1,0 +1,3993 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+      (function(){
+        window.beginTimeTrack = (new Date()).getTime();
+      })();
+    </script>
+<title>Henry M Jackson High School - Mill Creek, Washington | RateMyTeachers.com</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":143,"agentToken":null,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(15)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(15)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(15)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){g.push(t),h&&(b?b.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(15)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,y="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(y,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===y||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=o(l+e,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(p+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],15:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!l.aborted||i){t&&t(n,r,o);for(var a=e(o),c=h(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[w[n]];return d&&d.push([g,n,r,a]),a}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",w[n]=e,e in u||(u[e]=[])})}var y={},w={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(w,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){s("mark",["domContent",a()+x.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-x.offset}var c=(new Date).getTime(),s=t("handle"),f=t(12),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:c,now:a,origin:y,features:{},xhrWrappable:g};t(9),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),s("mark",["firstbyte",c],null,"api");var b=0,E=t(14)},{}]},{},["loader",2,7]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+<meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw"/>
+<meta name="description" content="Henry M Jackson High School is a High School in Mill Creek, WA. Search Henry M Jackson High School&#39;s ratings, statistics and reviews by students and parents."/>
+<meta property="twitter:image" content="http://www.ratemyteachers.com/images/logo_icon_60.png"/>
+<meta property="og:image" content="http://www.ratemyteachers.com/images/logo_icon_100.png"/>
+<meta property="og:title" content="Henry M Jackson High School - Mill Creek, Washington | RateMyTeachers.com"/>
+<meta property="og:type" content="rmt:school"/>
+<meta property="og:url" content="http://www.ratemyteachers.com/henry-m-jackson-high-school/21316-s"/>
+<meta property="og:site_name" content="Henry M Jackson High School - Mill Creek, Washington | RateMyTeachers.com"/>
+<meta property="og:description" content="Henry M Jackson High School is a High School in Mill Creek, WA. Search Henry M Jackson High School's ratings, statistics and reviews by students and parents."/>
+<meta name="robots" content="noodp,noydir"/>
+<meta property="rmt:image" content="http://www.ratemyteachers.com/apple_touch_icon_196x196.png"/>
+
+<link rel="shortcut icon" sizes="64x64 48x48 32x32 16x16" type="image/x-icon" href="/favicon.ico"/>
+<link rel="apple-touch-icon" href="/apple_touch_icon_60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple_touch_icon_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple_touch_icon_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple_touch_icon_152x152.png">
+<link rel="apple-touch-icon-precomposed" href="/apple_touch_icon_196x196.png"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+<link href="/assets/application-8f34b7246c4006713b4fb0b0c5f281b6.css" media="all" rel="stylesheet"/>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+<script type="text/javascript">
+    var currentState = '';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:     true,
+    debugMode:           false,
+    asyncScripts:        true
+  };
+
+
+  function getWindowWidth() {
+    var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) === 'number' ) {
+      myWidth = window.innerWidth; myHeight = window.innerHeight;
+    } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+      myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+      myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+    }
+    return myWidth;
+  }
+
+  var isDesktopVariant = true;
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isExtraSmall = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false);
+  var isMobile = isExtraSmall || isMobileVariant;
+  var isMedium = (getWindowWidth() < 1200) || (screen ? screen.width < 1200 : false);
+
+
+  var isChrome = navigator.userAgent.indexOf('Chrome') > -1;
+  var isExplorer = navigator.userAgent.indexOf('MSIE') > -1;
+  var isFirefox = navigator.userAgent.indexOf('Firefox') > -1;
+  var isSafari = navigator.userAgent.indexOf("Safari") > -1;
+  var isOpera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
+  if ((isChrome)&&(isSafari)) {isSafari=false;}
+  if ((isChrome)&&(isOpera)) {isChrome=false;}
+
+  var enablePropel    = !isSafari && !isOpera && false;
+  var enableMediabong = !isSafari && !isOpera;
+  var enableBrightComedia = !isSafari && !isOpera;
+
+  var isMobileUpload = false;
+
+    var cseData = {
+      isCseSearch: true
+      ,paramFormat: '%{search_term}%{location}'
+      ,stateList: [{"name":"Alaska","shortname":"ak"},{"name":"Alabama","shortname":"al"},{"name":"Arkansas","shortname":"ar"},{"name":"Arizona","shortname":"az"},{"name":"California","shortname":"ca"},{"name":"Colorado","shortname":"co"},{"name":"Connecticut","shortname":"ct"},{"name":"Dc","shortname":"dc"},{"name":"Delaware","shortname":"de"},{"name":"Florida","shortname":"fl"},{"name":"Georgia","shortname":"ga"},{"name":"Hawaii","shortname":"hi"},{"name":"Iowa","shortname":"ia"},{"name":"Idaho","shortname":"id"},{"name":"Illinois","shortname":"il"},{"name":"Indiana","shortname":"in"},{"name":"Kansas","shortname":"ks"},{"name":"Kentucky","shortname":"ky"},{"name":"Louisiana","shortname":"la"},{"name":"Massachusetts","shortname":"ma"},{"name":"Maryland","shortname":"md"},{"name":"Maine","shortname":"me"},{"name":"Michigan","shortname":"mi"},{"name":"Minnesota","shortname":"mn"},{"name":"Missouri","shortname":"mo"},{"name":"Mississippi","shortname":"ms"},{"name":"Montana","shortname":"mt"},{"name":"North Carolina","shortname":"nc"},{"name":"North Dakota","shortname":"nd"},{"name":"Nebraska","shortname":"ne"},{"name":"New Hampshire","shortname":"nh"},{"name":"New Jersey","shortname":"nj"},{"name":"New Mexico","shortname":"nm"},{"name":"Nevada","shortname":"nv"},{"name":"New York","shortname":"ny"},{"name":"Ohio","shortname":"oh"},{"name":"Oklahoma","shortname":"ok"},{"name":"Oregon","shortname":"or"},{"name":"Pennsylvania","shortname":"pa"},{"name":"Puerto Rico","shortname":"pr"},{"name":"Rhode Island","shortname":"ri"},{"name":"South Carolina","shortname":"sc"},{"name":"South Dakota","shortname":"sd"},{"name":"Tennessee","shortname":"tn"},{"name":"Texas","shortname":"tx"},{"name":"Utah","shortname":"ut"},{"name":"Virginia","shortname":"va"},{"name":"Vermont","shortname":"vt"},{"name":"Washington","shortname":"wa"},{"name":"Wisconsin","shortname":"wi"},{"name":"West Virginia","shortname":"wv"},{"name":"Wyoming","shortname":"wy"}]
+    };
+
+
+  // Search autocomplete widget
+  var searchAutocompleteHTML = "<div class=\'desktop search_autocomplete_widget\'>\n<div class=\'autocomplete_teachers\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-user\'><\/i>\nTeachers and Professors\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_school_name\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nTeachers and Professors\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<div class=\'autocomplete_schools\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-university\'><\/i>\nSchools and Colleges\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_address\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nSchools and Colleges\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<\/div>\n";
+</script>
+<script type="text/javascript">
+  // Async functions variable
+  functionToLoad = [];
+  
+  // Fastest way to check if an object is an array
+  functionToLoad.isArrayObj = function(obj) {
+    return !!obj && obj.constructor === Array;
+  };
+  
+  // Extract data from an element
+  functionToLoad.extractElementData = function(elementData) {
+    var data = {
+      element: elementData
+      ,async: false
+      ,subElements: []
+    };
+    
+    // The element is an array, check for async option
+    if (this.isArrayObj(elementData) && elementData.length > 0) {
+      data.async = !!elementData[1];
+      data.element = elementData[0];
+      data.subElements = elementData[2] || [];
+    }
+    return data;
+  };
+  
+  // Wrap push functionality
+  functionToLoad.realPush = functionToLoad.push;
+  functionToLoad.executePush = function(args) {
+    var data = this.extractElementData(args);
+
+    // Inject script tag on inplace
+    if (typeof data.element === 'string') {
+      // Inject external file
+      document.write('<script type="text/javascript" src="' + data.element + '"><\/script>');
+    } else {
+      // Inject function
+      document.write('<script type="text/javascript">(');
+      document.write(data.element.toString());
+      document.write(')();<\/script>');
+    }
+    
+    // Execute child scripts
+    if (data.subElements.length > 0) {
+      this.executePush(data.subElements);
+    }
+  };
+  functionToLoad.push = function(args) {
+    if (siteConfig.asyncScripts) {
+      if (siteConfig.debugMode) { console.log('Async Script'); }
+      
+      // Async scripts so add it to array for later execution
+      this.realPush(args);
+      return;
+    }
+    if (siteConfig.debugMode) { console.log('Sync Script'); }
+    
+    // No async scripts, execute it right away
+    this.executePush(args);
+  };
+</script>
+<script type="text/javascript">_googlePush = function(a) {};</script>
+<script type="text/javascript">
+  functionToLoad.push('//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js');
+  functionToLoad.push('//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js');
+</script>
+<script>
+      functionToLoad.push(function() {
+        gaId = 'UA-4216499-1';
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', gaId, 'auto');
+        ga('require', 'displayfeatures');
+        //ga('require', 'ecommerce', 'ecommerce.js');
+      });
+    </script>
+<script type="text/javascript">
+  functionToLoad.push('/assets/rmt.analytics-833eb75f283313dde59926cd5939692a.js');
+</script>
+<script>
+  functionToLoad.push(function(){
+    pageType = "";
+    RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+    searchTerm = "";
+  });
+</script>
+<script type="text/javascript">
+    // Returns a function, that, as long as it continues to be invoked, will not
+    // be triggered. The function will be called after it stops being called for
+    // N milliseconds. If `immediate` is passed, trigger the function on the
+    // leading edge, instead of the trailing.
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+</script>
+<script type="text/javascript">
+    var _session = {};
+  </script>
+<link href="http://www.ratemyteachers.com/henry-m-jackson-high-school/21316-s.rss" rel="alternate" type="application/rss+xml">
+<meta content="authenticity_token" name="csrf-param"/>
+<meta content="5IIVoZtcWRIOQMjKThCnc84yGCQymM8gkyv2EpSjBx8=" name="csrf-token"/>
+</head>
+
+<body class="inner_page school_page schools_v12_1
+">
+<div id="fb-root"></div>
+<div class="rate_my_teachers_international">
+<div class="container">
+<div class="row">
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+<div class="pull-right user_top_nav"></div>
+</div>
+</div>
+</div>
+<header>
+<div class="container">
+<div class="row">
+<form action="/search_page" class="tab-form search_form trigger_to_main_search" method="get">
+<a alt="Go to RateMyTeachers Home" href="/" id="rate_my_teachers_logo" title="Go to RateMyTeachers Home"></a>
+<input name="search" type="hidden" value="teachers">
+<div class="search_inputs">
+<div class="bg">
+<div class="padding">
+<input class="search_input" name="q" placeholder="Search: School Name, City" type="text">
+</div>
+<div class="location">
+<select class="state" id="state" name="state"><option value>Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class="search_button">
+<button class="btn-search fa fa-search fa-3x" title="Search RateMyTeachers" type="submit"></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+<div class="container-fluid main-content">
+<div class="row">
+<section class="breadcrumbs container-fluid">
+<div class="row">
+<div class="container">
+<div class="col-sm-12">
+<ul class="list-inline collapsible_nav collapsible_nav_collapsed">
+<li class="toggle">
+<a href="javascript:void(0);" rel="nofollow">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li class="collapse">
+<a href="/" title="Go to RateMyTeachers Home">United States</a>
+</li>
+<li class="always_show">
+<a alt="Go to Schools in Washington" href="/washington" title="Go to Schools in Washington">Washington</a>
+</li>
+<li class="collapse">
+<a alt="Go to Schools in Mill Creek" href="/washington/mill-creek" title="Go to Schools in Mill Creek">Mill Creek</a>
+</li>
+<li class="always_show">
+
+<a alt="View Henry M Jackson High School's Teachers" href="/henry-m-jackson-high-school/21316-s" title="View Henry M Jackson High School's Teachers">Henry M Jackson High School</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_teacher_trigger" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=21316" data-school="Henry M Jackson High School" data-sender-name="School page breadcrumb" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher">Add My Teacher</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=21316" data-school="Henry M Jackson High School" data-sender-name="School page breadcrumb" data-target="#modal_rating" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Rate My School">Rate My School</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<div class="container flash_container">
+<div class="row">
+<div class="col-xs-12">
+<div class="alert alert-danger" id="flash-error" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-warning" id="flash-alert" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-success" id="flash-success" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-info" id="flash-notice" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+</div>
+</div>
+</div>
+<div id="content">
+
+<span class="dn" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/washington" itemprop="url">
+<span itemprop="title">Washington</span>
+</a>
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/washington/mill-creek" itemprop="url">
+<span itemprop="title">Mill Creek</span>
+</a>
+</span>
+</span>
+<div id="sortable_ad_trigger"></div>
+<div class="container" itemscope itemtype="http://schema.org/ProfilePage">
+<meta content="2017-08-29" itemprop="dateModified">
+
+<div class="dn" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+<meta content="606" itemprop="ratingCount">
+<meta content="606" itemprop="reviewCount">
+<meta content="3.89828" itemprop="ratingValue">
+<meta content="5" itemprop="bestRating">
+<meta content="0" itemprop="worstRating">
+</div>
+<div class="row">
+<section class="col-md-12 content" itemprop="about" itemscope itemtype="http://schema.org/School">
+<div class="row secondary_data">
+<div class="col-xs-12 col-lg-9 primary_column">
+<div class="row school_info">
+<div class="col-xs-12 col-sm-7 main_info">
+<div class="row">
+<div class="col-xs-12">
+<div class="school_name">
+<h1 title="Henry M Jackson High School">
+<span itemprop="name">
+Henry M Jackson High School
+</span>
+<div class="school_actions" data-name="Henry M Jackson High School" data-sid="21316" data-status="1" style="display:none;"></div>
+</h1>
+<a class="edit school_correction_trigger" data-backdrop="static" data-keyboard data-remote="/schools/correction?sid=21316" data-school="Henry M Jackson High School" data-sender-name="School page Main" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit a Correction">
+Edit
+</a>
+</div>
+<div class="score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 85.762px;"></div>
+</div>
+</div>
+Average
+3.9
+based on
+606
+teacher ratings
+</div>
+<div class="description">
+<strong>Henry M Jackson High School</strong>
+is located in Mill Creek, Washington
+with an average teacher rating of 3.9
+stars. When comparing
+Henry M Jackson High School's teachers to other
+teachers in the state of
+Washington, Henry M Jackson High School's
+teachers are
+below
+the average of
+4.21
+stars.
+Henry M Jackson High School ranks
+173
+amongst all High Schools
+in the state of Washington.
+<a href="/henry-m-jackson-high-school/21316-s/stats" target="_blank">
+Learn More
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 details">
+<div class="aux">
+<h2 class="detail_item rate_school">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=21316" data-sender-name="School page Main" data-target="#modal_rating" data-teacher="Henry M Jackson High School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Henry M Jackson High School">
+<i class="fa fa-institution"></i>
+<span class="value">Rate Henry M Jackson High School</span>
+</a>
+</h2>
+<div class="detail_item address">
+<a href="https://www.google.com/maps/search/1508%20136th%20St.%20Se%2C%20Mill%20Creek%2C%20Washington%2098012%2C%20Mill%20Creek%2C%20Washington%2C%2098012%2C%20United%20States" target="_blank" title="1508 136th St. Se, Mill Creek, Washington 98012">
+<i class="fa fa-map-marker"></i>
+<span class="value">1508 136th St. Se, Mill Creek, Washington 98012</span>
+</a>
+</div>
+<div class="detail_item phone">
+<a class="school_phone_trigger" data-phone="4253857000" href="javascript:void(0);">
+<i class="fa fa-phone"></i>
+<span itemprop="telephone">425-385-7000</span>
+</a>
+</div>
+<h2 class="detail_item district">
+<i class="fa fa-map"></i>
+Everett Public
+</h2>
+<div class="detail_item website">
+<a href="http://www.everettsd.org/Domain/10" rel="nofollow" target="_blank" title="http://www.everettsd.org/Domain/10">
+<i class="fa fa-globe"></i>
+<span itemprop="url">http://www.everettsd.org/Domain/10</span>
+</a>
+</div>
+</div>
+<span class="dn" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">1508 136th St. Se</span>
+<span itemprop="addressLocality">Mill Creek</span>
+<span itemprop="addressRegion">WA</span>
+<span itemprop="postalCode">98012</span>
+</span>
+</div>
+</div>
+<div class="school_content">
+<div class="sticky_container_center">
+<div class="sticky_column">
+<div class="row">
+<div class="col-xs-12">
+<div class="filter_section">
+<div class="row subtitle">
+<div class="col-xs-6">
+<h2 class="active">
+<a href="http://www.ratemyteachers.com/henry-m-jackson-high-school/21316-s" title="View Henry M Jackson High School's Teachers">
+Faculty:
+80
+Teachers
+</a>
+</h2>
+</div>
+<div class="col-xs-6">
+<h2 class>
+<a href="http://www.ratemyteachers.com/henry-m-jackson-high-school/21316-s/school-reviews" title="View Henry M Jackson High School's Reviews">
+Henry M Jackson High School
+Reviews
+</a>
+</h2>
+</div>
+</div>
+<div class="row search_form_container">
+<div class="col-md-2 sort_options">
+<select id="sort_by" name="sort_by"><option value>Sort by</option><option value></option><option value>Latest Update</option>
+<option value="last_name">Last Name</option>
+<option value="first_name">First Name</option>
+<option value="avg_asc">Average Rating: Low to High</option>
+<option value="avg_desc">Average Rating: High to Low</option></select>
+</div>
+<form action="/henry-m-jackson-high-school/21316-s" class="simple_form inline_form" id="school_search_by_teacher_form">
+<div class="col-md-9 text">
+<input name="q" placeholder="Search by Teacher" type="text">
+</div>
+<div class="col-md-1 options">
+<button class="btn fa fa-search fa-2x" name="commit" title="Search by Teacher" type="submit"></button>
+</div>
+</form>
+</div>
+<div class="row extra">
+<a class="col-xs-4 new_admin_request_trigger apply_admin" data-remote="/admin/new?sid=21316" data-school="Henry M Jackson High School" data-sender="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Become Henry M Jackson High School's Moderator">
+<i class="fa fa-user-plus"></i>
+<span>Become a Moderator!</span>
+</a>
+<a class="col-xs-4 new_school_rating_trigger school_review" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=21316" data-sender-name="School page Search bar" data-target="#modal_rating" data-teacher="Henry M Jackson High School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Henry M Jackson High School">
+<i class="fa fa-institution"></i>
+<span>Write a School Review</span>
+</a>
+<a class="col-xs-4 new_teacher_trigger add_teacher" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=21316" data-school="Henry M Jackson High School" data-sender-name="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher to Henry M Jackson High School">
+<i class="fa fa-user-plus"></i>
+<span>Add Teacher</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="teachers">
+<div class="ad_container AMP">
+<div id="amp_ads_bottom"></div>
+</div>
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Margaret Thorliefson's Ratings" class="name" href="/margaret-thorliefson/584640-t" target="_blank" title="View Margaret Thorliefson's Ratings">
+Margaret Thorliefson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/computer-science" title="View Henry M Jackson High School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class="teacher_actions" data-name="Margaret Thorliefson" data-sid="21316" data-status="-2" data-tid="584640" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 39.160px;"></div>
+</div>
+</div>
+<div class="rating_count">12 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+In my opinion, this teacher is one of the worst here at Jackson. The only reason I am attending this class is for my...
+</div>
+<div class="options">
+<a alt="View Margaret Thorliefson's Ratings" class="btn view_more" href="/margaret-thorliefson/584640-t" title="View Margaret Thorliefson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/margaret-thorliefson/584640-t"></a>
+</div>
+<div class="ad_container taboola_video">
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Grindstaff's Ratings" class="name" href="/grindstaff/1339895-t" target="_blank" title="View Grindstaff's Ratings">
+Grindstaff
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/french" title="View Henry M Jackson High School&#39;s French Teachers">French</a>
+</div>
+<div class="teacher_actions" data-name="Grindstaff" data-sid="21316" data-status="-2" data-tid="1339895" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 82.500px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She didn't really know how to teach french. she mostly taught culture so I didn't learn the language very much,
+</div>
+<div class="options">
+<a alt="View Grindstaff's Ratings" class="btn view_more" href="/grindstaff/1339895-t" title="View Grindstaff's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/grindstaff/1339895-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Eric Bush's Ratings" class="name" href="/eric-bush/1288172-t" target="_blank" title="View Eric Bush's Ratings">
+Eric Bush
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/english" title="View Henry M Jackson High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Eric Bush" data-sid="21316" data-status="-2" data-tid="1288172" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 103.180px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+One of my favorite teachers. Really chill dude, but you learn a lot
+</div>
+<div class="options">
+<a alt="View Eric Bush's Ratings" class="btn view_more" href="/eric-bush/1288172-t" title="View Eric Bush's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/eric-bush/1288172-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tammy Bruns' Ratings" class="name" href="/tammy-bruns/1280267-t" target="_blank" title="View Tammy Bruns' Ratings">
+Tammy Bruns
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/math" title="View Henry M Jackson High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Tammy Bruns" data-sid="21316" data-status="-2" data-tid="1280267" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 101.860px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I love Mrs. Bruns!! I have her for Pre-Calculus and I love having her. We tend to do a lot of tests and quizzes...
+</div>
+<div class="options">
+<a alt="View Tammy Bruns' Ratings" class="btn view_more" href="/tammy-bruns/1280267-t" title="View Tammy Bruns' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tammy-bruns/1280267-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Bill Trueit's Ratings" class="name" href="/bill-trueit/2033114-t" target="_blank" title="View Bill Trueit's Ratings">
+Bill Trueit
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/photography" title="View Henry M Jackson High School&#39;s Photography Teachers">Photography</a>
+</div>
+<div class="teacher_actions" data-name="Bill Trueit" data-sid="21316" data-status="-2" data-tid="2033114" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 89.100px;"></div>
+</div>
+</div>
+<div class="rating_count">17 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I had Trueit for AP Gov and the class wasn't what I expected it to be at all. He plays favorites a little and has a...
+</div>
+<div class="options">
+<a alt="View Bill Trueit's Ratings" class="btn view_more" href="/bill-trueit/2033114-t" title="View Bill Trueit's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/bill-trueit/2033114-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jim Andersen's Ratings" class="name" href="/jim-andersen/1288176-t" target="_blank" title="View Jim Andersen's Ratings">
+Jim Andersen
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/physical-education" title="View Henry M Jackson High School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class="teacher_actions" data-name="Jim Andersen" data-sid="21316" data-status="-2" data-tid="1288176" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 76.780px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+My brother and I both had Mr. Anderson. He's cool, he would always call me by my last name though, he didn't do it to...
+</div>
+<div class="options">
+<a alt="View Jim Andersen's Ratings" class="btn view_more" href="/jim-andersen/1288176-t" title="View Jim Andersen's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jim-andersen/1288176-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Torri McEntire's Ratings" class="name" href="/torri-mcentire/2239263-t" target="_blank" title="View Torri McEntire's Ratings">
+Torri McEntire
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/english" title="View Henry M Jackson High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Torri McEntire" data-sid="21316" data-status="-2" data-tid="2239263" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 92.180px;"></div>
+</div>
+</div>
+<div class="rating_count">11 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I love Mrs. McEntire!!! She is amazing at what she does! We tend to watch a lot of videos on YouTube, but I like...
+</div>
+<div class="options">
+<a alt="View Torri McEntire's Ratings" class="btn view_more" href="/torri-mcentire/2239263-t" title="View Torri McEntire's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/torri-mcentire/2239263-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Meghan Emery's Ratings" class="name" href="/meghan-emery/3989247-t" target="_blank" title="View Meghan Emery's Ratings">
+Meghan Emery
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/science" title="View Henry M Jackson High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Meghan Emery" data-sid="21316" data-status="-2" data-tid="3989247" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 108.240px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+This may seem like a no-brainer, but do the homework otherwise you won't get to do test corrections (and trust me...
+</div>
+<div class="options">
+<a alt="View Meghan Emery's Ratings" class="btn view_more" href="/meghan-emery/3989247-t" title="View Meghan Emery's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/meghan-emery/3989247-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kevin Kukla's Ratings" class="name" href="/kevin-kukla/7954519-t" target="_blank" title="View Kevin Kukla's Ratings">
+Kevin Kukla
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/science" title="View Henry M Jackson High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Kevin Kukla" data-sid="21316" data-status="-2" data-tid="7954519" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 58.740px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He is very smart! And he's built! But I had a tough time in his class because the way he taught AP Physics 1 was very...
+</div>
+<div class="options">
+<a alt="View Kevin Kukla's Ratings" class="btn view_more" href="/kevin-kukla/7954519-t" title="View Kevin Kukla's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kevin-kukla/7954519-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Bridget Shee's Ratings" class="name" href="/bridget-shee/2223296-t" target="_blank" title="View Bridget Shee's Ratings">
+Bridget Shee
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/history" title="View Henry M Jackson High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Bridget Shee" data-sid="21316" data-status="-2" data-tid="2223296" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.880px;"></div>
+</div>
+</div>
+<div class="rating_count">17 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+i get that she is a cool person but.. she'll embarrass the hell out of you if you don't know what ur talking about...
+</div>
+<div class="options">
+<a alt="View Bridget Shee's Ratings" class="btn view_more" href="/bridget-shee/2223296-t" title="View Bridget Shee's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/bridget-shee/2223296-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lesley Moffat's Ratings" class="name" href="/lesley-moffat/819049-t" target="_blank" title="View Lesley Moffat's Ratings">
+Lesley Moffat
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/music-band" title="View Henry M Jackson High School&#39;s Music/Band Teachers">Music/Band</a>
+</div>
+<div class="teacher_actions" data-name="Lesley Moffat" data-sid="21316" data-status="-2" data-tid="819049" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 100.760px;"></div>
+</div>
+</div>
+<div class="rating_count">16 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Moffat is easily the best teacher I have ever had. She is very knowledgeable on what she teaches, helpful in...
+</div>
+<div class="options">
+<a alt="View Lesley Moffat's Ratings" class="btn view_more" href="/lesley-moffat/819049-t" title="View Lesley Moffat's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lesley-moffat/819049-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Stacey Hall's Ratings" class="name" href="/stacey-hall/478065-t" target="_blank" title="View Stacey Hall's Ratings">
+Stacey Hall
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/chemistry" title="View Henry M Jackson High School&#39;s Chemistry Teachers">Chemistry</a>
+</div>
+<div class="teacher_actions" data-name="Stacey Hall" data-sid="21316" data-status="-2" data-tid="478065" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 75.680px;"></div>
+</div>
+</div>
+<div class="rating_count">17 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+really fun guy, a lot of fun in the class and if you need help he can provide it, we've gotten study guides and...
+</div>
+<div class="options">
+<a alt="View Stacey Hall's Ratings" class="btn view_more" href="/stacey-hall/478065-t" title="View Stacey Hall's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/stacey-hall/478065-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Iverson's Ratings" class="name" href="/iverson/1328218-t" target="_blank" title="View Iverson's Ratings">
+Iverson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/physical-education" title="View Henry M Jackson High School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class="teacher_actions" data-name="Iverson" data-sid="21316" data-status="-2" data-tid="1328218" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+If you try hard in her class you'll do fine
+</div>
+<div class="options">
+<a alt="View Iverson's Ratings" class="btn view_more" href="/iverson/1328218-t" title="View Iverson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/iverson/1328218-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Gustovo Anaya's Ratings" class="name" href="/gustovo-anaya/1339894-t" target="_blank" title="View Gustovo Anaya's Ratings">
+Gustovo Anaya
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/math" title="View Henry M Jackson High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Gustovo Anaya" data-sid="21316" data-status="-2" data-tid="1339894" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 59.840px;"></div>
+</div>
+</div>
+<div class="rating_count">24 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Very difficult to learn in his class :/ Great guy, needs to work on his teaching methods
+</div>
+<div class="options">
+<a alt="View Gustovo Anaya's Ratings" class="btn view_more" href="/gustovo-anaya/1339894-t" title="View Gustovo Anaya's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/gustovo-anaya/1339894-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Westfahl's Ratings" class="name" href="/westfahl/2281403-t" target="_blank" title="View Westfahl's Ratings">
+Westfahl
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/science" title="View Henry M Jackson High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Westfahl" data-sid="21316" data-status="-2" data-tid="2281403" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 72.160px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Easy class if you pay attention. I feel bad for her as she deserves a better job than to teach high school students....
+</div>
+<div class="options">
+<a alt="View Westfahl's Ratings" class="btn view_more" href="/westfahl/2281403-t" title="View Westfahl's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/westfahl/2281403-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Robert Crosby's Ratings" class="name" href="/robert-crosby/1819918-t" target="_blank" title="View Robert Crosby's Ratings">
+Robert Crosby
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/not-specified" title="View Henry M Jackson High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Robert Crosby" data-sid="21316" data-status="-2" data-tid="1819918" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 68.860px;"></div>
+</div>
+</div>
+<div class="rating_count">11 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Crosby is the best teacher I have ever had. His class is mostly based around reading a section out of the...
+</div>
+<div class="options">
+<a alt="View Robert Crosby's Ratings" class="btn view_more" href="/robert-crosby/1819918-t" title="View Robert Crosby's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/robert-crosby/1819918-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Steve Till's Ratings" class="name" href="/steve-till/358201-t" target="_blank" title="View Steve Till's Ratings">
+Steve Till
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/languages" title="View Henry M Jackson High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Steve Till" data-sid="21316" data-status="-2" data-tid="358201" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 103.620px;"></div>
+</div>
+</div>
+<div class="rating_count">16 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Senor Till is by far the most funny/lively teacher I've ever had. I look forward to his class every day. With his...
+</div>
+<div class="options">
+<a alt="View Steve Till's Ratings" class="btn view_more" href="/steve-till/358201-t" title="View Steve Till's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/steve-till/358201-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Keith Gerhard's Ratings" class="name" href="/keith-gerhard/474294-t" target="_blank" title="View Keith Gerhard's Ratings">
+Keith Gerhard
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/english" title="View Henry M Jackson High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Keith Gerhard" data-sid="21316" data-status="-2" data-tid="474294" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 98.120px;"></div>
+</div>
+</div>
+<div class="rating_count">11 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He is by far one of the best teachers that I've ever had. one tip; if he says he has a 100 question quiz and gives...
+</div>
+<div class="options">
+<a alt="View Keith Gerhard's Ratings" class="btn view_more" href="/keith-gerhard/474294-t" title="View Keith Gerhard's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/keith-gerhard/474294-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kay Peterson's Ratings" class="name" href="/kay-peterson/474369-t" target="_blank" title="View Kay Peterson's Ratings">
+Kay Peterson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/math" title="View Henry M Jackson High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Kay Peterson" data-sid="21316" data-status="-2" data-tid="474369" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 109.340px;"></div>
+</div>
+</div>
+<div class="rating_count">11 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great teacher, great instructor, and don't forget life lesson Monday. I enjoy her class very much and she teaches...
+</div>
+<div class="options">
+<a alt="View Kay Peterson's Ratings" class="btn view_more" href="/kay-peterson/474369-t" title="View Kay Peterson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kay-peterson/474369-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Carole Tanner's Ratings" class="name" href="/carole-tanner/1696900-t" target="_blank" title="View Carole Tanner's Ratings">
+Carole Tanner
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/science" title="View Henry M Jackson High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Carole Tanner" data-sid="21316" data-status="-2" data-tid="1696900" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 61.380px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+she doesn't really know what she's doing. she isnt prepared
+</div>
+<div class="options">
+<a alt="View Carole Tanner's Ratings" class="btn view_more" href="/carole-tanner/1696900-t" title="View Carole Tanner's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/carole-tanner/1696900-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Carol Barnes' Ratings" class="name" href="/carol-barnes/478052-t" target="_blank" title="View Carol Barnes' Ratings">
+Carol Barnes
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/physical-education" title="View Henry M Jackson High School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class="teacher_actions" data-name="Carol Barnes" data-sid="21316" data-status="-2" data-tid="478052" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.220px;"></div>
+</div>
+</div>
+<div class="rating_count">14 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+If you dont do something the first time she asks then she glares you down. (like a stare down) She picks favorites...
+</div>
+<div class="options">
+<a alt="View Carol Barnes' Ratings" class="btn view_more" href="/carol-barnes/478052-t" title="View Carol Barnes' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/carol-barnes/478052-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Erin Sebby's Ratings" class="name" href="/erin-sebby/2261966-t" target="_blank" title="View Erin Sebby's Ratings">
+Erin Sebby
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/languages" title="View Henry M Jackson High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Erin Sebby" data-sid="21316" data-status="-2" data-tid="2261966" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 94.160px;"></div>
+</div>
+</div>
+<div class="rating_count">13 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great teacher I had her for Spanish 1. She gave me a great foundation to continue to excel in Spanish. Her cheerful...
+</div>
+<div class="options">
+<a alt="View Erin Sebby's Ratings" class="btn view_more" href="/erin-sebby/2261966-t" title="View Erin Sebby's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/erin-sebby/2261966-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jennifer Kink's Ratings" class="name" href="/jennifer-kink/7142613-t" target="_blank" title="View Jennifer Kink's Ratings">
+Jennifer Kink
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/english" title="View Henry M Jackson High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Jennifer Kink" data-sid="21316" data-status="-2" data-tid="7142613" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She's the best teacher I've ever had I love her so much. I have minor learning disabilities and she's been working...
+</div>
+<div class="options">
+<a alt="View Jennifer Kink's Ratings" class="btn view_more" href="/jennifer-kink/7142613-t" title="View Jennifer Kink's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jennifer-kink/7142613-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Michael Taggart's Ratings" class="name" href="/michael-taggart/2519263-t" target="_blank" title="View Michael Taggart's Ratings">
+Michael Taggart
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/math" title="View Henry M Jackson High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Michael Taggart" data-sid="21316" data-status="-2" data-tid="2519263" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 85.580px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+all throughout middle school I was constantly getting Cs in math. somehow in algebra I got As both semesters. he...
+</div>
+<div class="options">
+<a alt="View Michael Taggart's Ratings" class="btn view_more" href="/michael-taggart/2519263-t" title="View Michael Taggart's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/michael-taggart/2519263-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sheryl Mason's Ratings" class="name" href="/sheryl-mason/1371272-t" target="_blank" title="View Sheryl Mason's Ratings">
+Sheryl Mason
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/science" title="View Henry M Jackson High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Sheryl Mason" data-sid="21316" data-status="-2" data-tid="1371272" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.280px;"></div>
+</div>
+</div>
+<div class="rating_count">22 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is literally the best teacher I've ever had. just totally down to earth
+</div>
+<div class="options">
+<a alt="View Sheryl Mason's Ratings" class="btn view_more" href="/sheryl-mason/1371272-t" title="View Sheryl Mason's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sheryl-mason/1371272-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kathy Guffey's Ratings" class="name" href="/kathy-guffey/358192-t" target="_blank" title="View Kathy Guffey's Ratings">
+Kathy Guffey
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/not-specified" title="View Henry M Jackson High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Kathy Guffey" data-sid="21316" data-status="-2" data-tid="358192" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 40.700px;"></div>
+</div>
+</div>
+<div class="rating_count">14 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Never grades anything and gives us a really short time to finish our homework or esays
+</div>
+<div class="options">
+<a alt="View Kathy Guffey's Ratings" class="btn view_more" href="/kathy-guffey/358192-t" title="View Kathy Guffey's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kathy-guffey/358192-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kelly Dietsch's Ratings" class="name" href="/kelly-dietsch/1431749-t" target="_blank" title="View Kelly Dietsch's Ratings">
+Kelly Dietsch
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/languages" title="View Henry M Jackson High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Kelly Dietsch" data-sid="21316" data-status="-2" data-tid="1431749" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 81.620px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Frau Dietsch is a wonderful German teacher! If you pay attention in class and work on it at home, this class will be...
+</div>
+<div class="options">
+<a alt="View Kelly Dietsch's Ratings" class="btn view_more" href="/kelly-dietsch/1431749-t" title="View Kelly Dietsch's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kelly-dietsch/1431749-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Katherine Akesson's Ratings" class="name" href="/katherine-akesson/7923953-t" target="_blank" title="View Katherine Akesson's Ratings">
+Katherine Akesson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/math" title="View Henry M Jackson High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Katherine Akesson" data-sid="21316" data-status="-2" data-tid="7923953" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 34.320px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I had Mrs. Akesson for Pre-Calculus, and right off the bat the class was a chore. She completely rushes through...
+</div>
+<div class="options">
+<a alt="View Katherine Akesson's Ratings" class="btn view_more" href="/katherine-akesson/7923953-t" title="View Katherine Akesson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/katherine-akesson/7923953-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Nick Andersen's Ratings" class="name" href="/nick-andersen/1280269-t" target="_blank" title="View Nick Andersen's Ratings">
+Nick Andersen
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/english" title="View Henry M Jackson High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Nick Andersen" data-sid="21316" data-status="-2" data-tid="1280269" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 78.320px;"></div>
+</div>
+</div>
+<div class="rating_count">21 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Andersen's class sucks. Even though he him self seems like a cool guy,is teaching is horrible. Instead of using...
+</div>
+<div class="options">
+<a alt="View Nick Andersen's Ratings" class="btn view_more" href="/nick-andersen/1280269-t" title="View Nick Andersen's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/nick-andersen/1280269-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Rick Wigre's Ratings" class="name" href="/rick-wigre/299310-t" target="_blank" title="View Rick Wigre's Ratings">
+Rick Wigre
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/visual-arts" title="View Henry M Jackson High School&#39;s Visual Arts Teachers">Visual Arts</a>
+</div>
+<div class="teacher_actions" data-name="Rick Wigre" data-sid="21316" data-status="-2" data-tid="299310" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 71.280px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He's very lazy with his lessons and has no enthusiasm at all. Don't take a class from him, it's waste of time.
+</div>
+<div class="options">
+<a alt="View Rick Wigre's Ratings" class="btn view_more" href="/rick-wigre/299310-t" title="View Rick Wigre's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/rick-wigre/299310-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Alan Briggs' Ratings" class="name" href="/alan-briggs/1170596-t" target="_blank" title="View Alan Briggs' Ratings">
+Alan Briggs
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/languages" title="View Henry M Jackson High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Alan Briggs" data-sid="21316" data-status="-2" data-tid="1170596" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 64.240px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He was a fun teacher, who I enjoyed. He taught me a lot about the wonderful Spanish language.
+</div>
+<div class="options">
+<a alt="View Alan Briggs' Ratings" class="btn view_more" href="/alan-briggs/1170596-t" title="View Alan Briggs' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/alan-briggs/1170596-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Stephanie Powell's Ratings" class="name" href="/stephanie-powell/474630-t" target="_blank" title="View Stephanie Powell's Ratings">
+Stephanie Powell
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/languages" title="View Henry M Jackson High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Stephanie Powell" data-sid="21316" data-status="-2" data-tid="474630" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 90.420px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+You can just slack off the whole class you do nothing and she lets you do anything you want and doesn't care. You...
+</div>
+<div class="options">
+<a alt="View Stephanie Powell's Ratings" class="btn view_more" href="/stephanie-powell/474630-t" title="View Stephanie Powell's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/stephanie-powell/474630-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Nelson's Ratings" class="name" href="/nelson/1983744-t" target="_blank" title="View Nelson's Ratings">
+Nelson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/science" title="View Henry M Jackson High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Nelson" data-sid="21316" data-status="-2" data-tid="1983744" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.920px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She's incredibly helpful and very considerate of her students' worries and needs. 10/10 would recommend, love you...
+</div>
+<div class="options">
+<a alt="View Nelson's Ratings" class="btn view_more" href="/nelson/1983744-t" title="View Nelson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/nelson/1983744-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Debbie Kalina's Ratings" class="name" href="/debbie-kalina/2213294-t" target="_blank" title="View Debbie Kalina's Ratings">
+Debbie Kalina
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/english" title="View Henry M Jackson High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Debbie Kalina" data-sid="21316" data-status="-2" data-tid="2213294" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 68.200px;"></div>
+</div>
+</div>
+<div class="rating_count">24 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+If you get on her good side it's a great class. She's not always clear on her requirements for her projects and papers.
+</div>
+<div class="options">
+<a alt="View Debbie Kalina's Ratings" class="btn view_more" href="/debbie-kalina/2213294-t" title="View Debbie Kalina's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/debbie-kalina/2213294-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Troy Schwenke's Ratings" class="name" href="/troy-schwenke/3171739-t" target="_blank" title="View Troy Schwenke's Ratings">
+Troy Schwenke
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/history" title="View Henry M Jackson High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Troy Schwenke" data-sid="21316" data-status="-2" data-tid="3171739" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 70.400px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+You can pretty much ignore everything he teaches in class. All you need to do is take notes, on the chapter he is...
+</div>
+<div class="options">
+<a alt="View Troy Schwenke's Ratings" class="btn view_more" href="/troy-schwenke/3171739-t" title="View Troy Schwenke's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/troy-schwenke/3171739-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Andrew Sevald's Ratings" class="name" href="/andrew-sevald/2009943-t" target="_blank" title="View Andrew Sevald's Ratings">
+Andrew Sevald
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/chemistry" title="View Henry M Jackson High School&#39;s Chemistry Teachers">Chemistry</a>
+</div>
+<div class="teacher_actions" data-name="Andrew Sevald" data-sid="21316" data-status="-2" data-tid="2009943" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 92.180px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He teaches physics and science research not chemistry! He is really funny and a great science research advisor. I'm...
+</div>
+<div class="options">
+<a alt="View Andrew Sevald's Ratings" class="btn view_more" href="/andrew-sevald/2009943-t" title="View Andrew Sevald's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/andrew-sevald/2009943-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Johnny Acosta's Ratings" class="name" href="/johnny-acosta/7142601-t" target="_blank" title="View Johnny Acosta's Ratings">
+Johnny Acosta
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/not-specified" title="View Henry M Jackson High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Johnny Acosta" data-sid="21316" data-status="-2" data-tid="7142601" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 69.740px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr Acosta is a great teacher that I definitely recommend
+</div>
+<div class="options">
+<a alt="View Johnny Acosta's Ratings" class="btn view_more" href="/johnny-acosta/7142601-t" title="View Johnny Acosta's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/johnny-acosta/7142601-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Brenda Black's Ratings" class="name" href="/brenda-black/474273-t" target="_blank" title="View Brenda Black's Ratings">
+Brenda Black
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/health" title="View Henry M Jackson High School&#39;s Health Teachers">Health</a>
+</div>
+<div class="teacher_actions" data-name="Brenda Black" data-sid="21316" data-status="-2" data-tid="474273" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She's a pretty good teacher! :) Gives a little to much homework. :P But, besides that she is awesome! Totally...
+</div>
+<div class="options">
+<a alt="View Brenda Black's Ratings" class="btn view_more" href="/brenda-black/474273-t" title="View Brenda Black's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/brenda-black/474273-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Martin Mainer's Ratings" class="name" href="/martin-mainer/7671185-t" target="_blank" title="View Martin Mainer's Ratings">
+Martin Mainer
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/not-specified" title="View Henry M Jackson High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Martin Mainer" data-sid="21316" data-status="10" data-tid="7671185" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Senor Mainer was probably the best teacher I've ever had. He was a great way to start my freshmen year. He's really...
+</div>
+<div class="options">
+<a alt="View Martin Mainer's Ratings" class="btn view_more" href="/martin-mainer/7671185-t" title="View Martin Mainer's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/martin-mainer/7671185-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sam Lessard's Ratings" class="name" href="/sam-lessard/7928821-t" target="_blank" title="View Sam Lessard's Ratings">
+Sam Lessard
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/english" title="View Henry M Jackson High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Sam Lessard" data-sid="21316" data-status="-2" data-tid="7928821" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7928821" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Sam Lessard" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Sam Lessard">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7928821" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Sam Lessard" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Sam Lessard">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sam-lessard/7928821-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Matthew Barry's Ratings" class="name" href="/matthew-barry/7142609-t" target="_blank" title="View Matthew Barry's Ratings">
+Matthew Barry
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/english" title="View Henry M Jackson High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Matthew Barry" data-sid="21316" data-status="-2" data-tid="7142609" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Very understanding person and will work with you until you are happy with your grade.
+</div>
+<div class="options">
+<a alt="View Matthew Barry's Ratings" class="btn view_more" href="/matthew-barry/7142609-t" title="View Matthew Barry's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/matthew-barry/7142609-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Paul Turner's Ratings" class="name" href="/paul-turner/1280784-t" target="_blank" title="View Paul Turner's Ratings">
+Paul Turner
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/counselor" title="View Henry M Jackson High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="teacher_actions" data-name="Paul Turner" data-sid="21316" data-status="-2" data-tid="1280784" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 101.200px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Unfortunately you don't get to choose your counselor here. He is always very busy and rushed. I don't always feel...
+</div>
+<div class="options">
+<a alt="View Paul Turner's Ratings" class="btn view_more" href="/paul-turner/1280784-t" title="View Paul Turner's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/paul-turner/1280784-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Patricia Fankhauser's Ratings" class="name" href="/patricia-fankhauser/7521749-t" target="_blank" title="View Patricia Fankhauser's Ratings">
+Patricia Fankhauser
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/math" title="View Henry M Jackson High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Patricia Fankhauser" data-sid="21316" data-status="-2" data-tid="7521749" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 80.740px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+DANK HAUSER IS SINGLE HANDLY THE BEST MEMER YOU WILL EVER MEET IN YOUR LYFE #FREE CHINA
+</div>
+<div class="options">
+<a alt="View Patricia Fankhauser's Ratings" class="btn view_more" href="/patricia-fankhauser/7521749-t" title="View Patricia Fankhauser's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/patricia-fankhauser/7521749-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Rose Smith's Ratings" class="name" href="/rose-smith/1288171-t" target="_blank" title="View Rose Smith's Ratings">
+Rose Smith
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/technology" title="View Henry M Jackson High School&#39;s Technology Teachers">Technology</a>
+</div>
+<div class="teacher_actions" data-name="Rose Smith" data-sid="21316" data-status="-2" data-tid="1288171" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 50.600px;"></div>
+</div>
+</div>
+<div class="rating_count">10 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I currently have Mrs. Smith for CCRS and it's probably been the most infuriating experience in my high school...
+</div>
+<div class="options">
+<a alt="View Rose Smith's Ratings" class="btn view_more" href="/rose-smith/1288171-t" title="View Rose Smith's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/rose-smith/1288171-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Judy Baker's Ratings" class="name" href="/judy-baker/474600-t" target="_blank" title="View Judy Baker's Ratings">
+Judy Baker
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/not-specified" title="View Henry M Jackson High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="Judy Baker" data-sid="21316" data-status="10" data-tid="474600" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 98.560px;"></div>
+</div>
+</div>
+<div class="rating_count">20 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Baker is amazing. You take AP lit to get Baker...it doesn't matter how hard the exam is.
+</div>
+<div class="options">
+<a alt="View Judy Baker's Ratings" class="btn view_more" href="/judy-baker/474600-t" title="View Judy Baker's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/judy-baker/474600-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John Doe's Ratings" class="name" href="/john-doe/7990225-t" target="_blank" title="View John Doe's Ratings">
+John Doe
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/biology" title="View Henry M Jackson High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="former">
+Former
+Teacher
+</div>
+<div class="teacher_actions" data-name="John Doe" data-sid="21316" data-status="10" data-tid="7990225" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 80.740px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+funny guy, like really im seriious XDXDXD
+</div>
+<div class="options">
+<a alt="View John Doe's Ratings" class="btn view_more" href="/john-doe/7990225-t" title="View John Doe's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-doe/7990225-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hanson's Ratings" class="name" href="/hanson/7989701-t" target="_blank" title="View Hanson's Ratings">
+Ms. Hanson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/health" title="View Henry M Jackson High School&#39;s Health Teachers">Health</a>
+</div>
+<div class="teacher_actions" data-name="Ms. Hanson" data-sid="21316" data-status="-2" data-tid="7989701" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 80.740px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+chillllllllllllllll
+</div>
+<div class="options">
+<a alt="View Hanson's Ratings" class="btn view_more" href="/hanson/7989701-t" title="View Hanson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hanson/7989701-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Frank Patrica's Ratings" class="name" href="/frank-patrica/7981497-t" target="_blank" title="View Frank Patrica's Ratings">
+Frank Patrica
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/reading" title="View Henry M Jackson High School&#39;s Reading Teachers">Reading</a>
+</div>
+<div class="teacher_actions" data-name="Frank Patrica" data-sid="21316" data-status="-2" data-tid="7981497" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Ms. Cranky is the best teacher i've had in my whole entire life. I learned a lot ;;;;;;^^^)))))))
+</div>
+<div class="options">
+<a alt="View Frank Patrica's Ratings" class="btn view_more" href="/frank-patrica/7981497-t" title="View Frank Patrica's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/frank-patrica/7981497-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Todd Freeman's Ratings" class="name" href="/todd-freeman/7977863-t" target="_blank" title="View Todd Freeman's Ratings">
+Todd Freeman
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/history" title="View Henry M Jackson High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Todd Freeman" data-sid="21316" data-status="-2" data-tid="7977863" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Freeman is an amazing teacher who likes to make laugh, but he is a honest teacher but he gives alot of work and i is...
+</div>
+<div class="options">
+<a alt="View Todd Freeman's Ratings" class="btn view_more" href="/todd-freeman/7977863-t" title="View Todd Freeman's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/todd-freeman/7977863-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kevin Reilly's Ratings" class="name" href="/kevin-reilly/7923757-t" target="_blank" title="View Kevin Reilly's Ratings">
+Kevin Reilly
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/math" title="View Henry M Jackson High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Kevin Reilly" data-sid="21316" data-status="-2" data-tid="7923757" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 108.240px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best Teacher at Jackson. He has so much passion and genuinely loves teaching. He's incredibly helpful, and always...
+</div>
+<div class="options">
+<a alt="View Kevin Reilly's Ratings" class="btn view_more" href="/kevin-reilly/7923757-t" title="View Kevin Reilly's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kevin-reilly/7923757-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lauren Dandridge's Ratings" class="name" href="/lauren-dandridge/7907119-t" target="_blank" title="View Lauren Dandridge's Ratings">
+Lauren Dandridge
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/chemistry" title="View Henry M Jackson High School&#39;s Chemistry Teachers">Chemistry</a>
+</div>
+<div class="teacher_actions" data-name="Lauren Dandridge" data-sid="21316" data-status="-2" data-tid="7907119" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 80.740px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Class is difficult an has large quantities of homework. You will spend a lot of time not understanding what is going...
+</div>
+<div class="options">
+<a alt="View Lauren Dandridge's Ratings" class="btn view_more" href="/lauren-dandridge/7907119-t" title="View Lauren Dandridge's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lauren-dandridge/7907119-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Michelle Renee's Ratings" class="name" href="/michelle-renee/7900259-t" target="_blank" title="View Michelle Renee's Ratings">
+Michelle Renee
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/vice-principal" title="View Henry M Jackson High School&#39;s Vice Principal Teachers">Vice Principal</a>
+</div>
+<div class="teacher_actions" data-name="Michelle Renee" data-sid="21316" data-status="-2" data-tid="7900259" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Fantastic person. Super helpful and easy to talk to.
+</div>
+<div class="options">
+<a alt="View Michelle Renee's Ratings" class="btn view_more" href="/michelle-renee/7900259-t" title="View Michelle Renee's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/michelle-renee/7900259-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sabrina Cook's Ratings" class="name" href="/sabrina-cook/7894979-t" target="_blank" title="View Sabrina Cook's Ratings">
+Sabrina Cook
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/math" title="View Henry M Jackson High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Sabrina Cook" data-sid="21316" data-status="-2" data-tid="7894979" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 97.680px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great teacher i learned a lot from her and without some of the methods she has taught us has helped me in algebra 2....
+</div>
+<div class="options">
+<a alt="View Sabrina Cook's Ratings" class="btn view_more" href="/sabrina-cook/7894979-t" title="View Sabrina Cook's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sabrina-cook/7894979-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John Mellana's Ratings" class="name" href="/john-mellana/7892727-t" target="_blank" title="View John Mellana's Ratings">
+John Mellana
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/history" title="View Henry M Jackson High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="John Mellana" data-sid="21316" data-status="-2" data-tid="7892727" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Mellana is one, quixotic man. great guy though! he always goes off topic but he has a good sense of clothing so...
+</div>
+<div class="options">
+<a alt="View John Mellana's Ratings" class="btn view_more" href="/john-mellana/7892727-t" title="View John Mellana's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-mellana/7892727-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Brian Marshall's Ratings" class="name" href="/brian-marshall/7667821-t" target="_blank" title="View Brian Marshall's Ratings">
+Brian Marshall
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/fine-arts" title="View Henry M Jackson High School&#39;s Fine Arts Teachers">Fine Arts</a>
+</div>
+<div class="teacher_actions" data-name="Brian Marshall" data-sid="21316" data-status="-2" data-tid="7667821" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Marshall is the real MVP of Jackson high. You can always tell where he is be his walk, talk, whistle, and keys.
+</div>
+<div class="options">
+<a alt="View Brian Marshall's Ratings" class="btn view_more" href="/brian-marshall/7667821-t" title="View Brian Marshall's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/brian-marshall/7667821-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Erin Acheson's Ratings" class="name" href="/erin-acheson/7142599-t" target="_blank" title="View Erin Acheson's Ratings">
+Erin Acheson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/psychology" title="View Henry M Jackson High School&#39;s Psychology Teachers">Psychology</a>
+</div>
+<div class="teacher_actions" data-name="Erin Acheson" data-sid="21316" data-status="-2" data-tid="7142599" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I loved having her as a teacher. She understands what she is teaching and really taught me new things last year!...
+</div>
+<div class="options">
+<a alt="View Erin Acheson's Ratings" class="btn view_more" href="/erin-acheson/7142599-t" title="View Erin Acheson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/erin-acheson/7142599-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Monica Andersen's Ratings" class="name" href="/monica-andersen/7142603-t" target="_blank" title="View Monica Andersen's Ratings">
+Monica Andersen
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/health" title="View Henry M Jackson High School&#39;s Health Teachers">Health</a>
+</div>
+<div class="teacher_actions" data-name="Monica Andersen" data-sid="21316" data-status="-2" data-tid="7142603" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great teacher, very sweet &lt;3
+</div>
+<div class="options">
+<a alt="View Monica Andersen's Ratings" class="btn view_more" href="/monica-andersen/7142603-t" title="View Monica Andersen's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/monica-andersen/7142603-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jeanette Boyer's Ratings" class="name" href="/jeanette-boyer/7142611-t" target="_blank" title="View Jeanette Boyer's Ratings">
+Jeanette Boyer
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/not-specified" title="View Henry M Jackson High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Jeanette Boyer" data-sid="21316" data-status="-2" data-tid="7142611" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I absolutely love Mrs. Boyer!!! She's so sweet and loves to joke with her students. I had her for biotech and it's...
+</div>
+<div class="options">
+<a alt="View Jeanette Boyer's Ratings" class="btn view_more" href="/jeanette-boyer/7142611-t" title="View Jeanette Boyer's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jeanette-boyer/7142611-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sinead Pollom's Ratings" class="name" href="/sinead-pollom/7142615-t" target="_blank" title="View Sinead Pollom's Ratings">
+Sinead Pollom
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/math" title="View Henry M Jackson High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Sinead Pollom" data-sid="21316" data-status="-2" data-tid="7142615" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+i had her for geometry as a freshman and she is the best teacher ever. totally chill and never judges. she will help...
+</div>
+<div class="options">
+<a alt="View Sinead Pollom's Ratings" class="btn view_more" href="/sinead-pollom/7142615-t" title="View Sinead Pollom's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sinead-pollom/7142615-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hiedi Little's Ratings" class="name" href="/hiedi-little/4308627-t" target="_blank" title="View Hiedi Little's Ratings">
+Hiedi Little
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/english" title="View Henry M Jackson High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Hiedi Little" data-sid="21316" data-status="-2" data-tid="4308627" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is one of the most enthusiastic teachers out there, very nice and spirited and is very orginized
+</div>
+<div class="options">
+<a alt="View Hiedi Little's Ratings" class="btn view_more" href="/hiedi-little/4308627-t" title="View Hiedi Little's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hiedi-little/4308627-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Brielle Kemis' Ratings" class="name" href="/brielle-kemis/3819961-t" target="_blank" title="View Brielle Kemis' Ratings">
+Brielle Kemis
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/biology" title="View Henry M Jackson High School&#39;s Biology Teachers">Biology</a>
+</div>
+<div class="teacher_actions" data-name="Brielle Kemis" data-sid="21316" data-status="-2" data-tid="3819961" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+good teacher. just wish that she'd post ppts online and actually answer questions instead of saying &quot;ask ur neighbor&quot;
+</div>
+<div class="options">
+<a alt="View Brielle Kemis' Ratings" class="btn view_more" href="/brielle-kemis/3819961-t" title="View Brielle Kemis' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/brielle-kemis/3819961-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tom Lundburg's Ratings" class="name" href="/tom-lundburg/3174156-t" target="_blank" title="View Tom Lundburg's Ratings">
+Tom Lundburg
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/math" title="View Henry M Jackson High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Tom Lundburg" data-sid="21316" data-status="-2" data-tid="3174156" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.260px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Lundberg is a great teacher. I believe he is one of the best math teachers at this school.
+</div>
+<div class="options">
+<a alt="View Tom Lundburg's Ratings" class="btn view_more" href="/tom-lundburg/3174156-t" title="View Tom Lundburg's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tom-lundburg/3174156-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Maria Reiman's Ratings" class="name" href="/maria-reiman/3156171-t" target="_blank" title="View Maria Reiman's Ratings">
+Maria Reiman
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/languages" title="View Henry M Jackson High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Maria Reiman" data-sid="21316" data-status="-2" data-tid="3156171" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+If learning Spanish is your goal don't take this class. She's a great person and lots of fun but you learn very...
+</div>
+<div class="options">
+<a alt="View Maria Reiman's Ratings" class="btn view_more" href="/maria-reiman/3156171-t" title="View Maria Reiman's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/maria-reiman/3156171-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Margaret Armstrong's Ratings" class="name" href="/margaret-armstrong/2404493-t" target="_blank" title="View Margaret Armstrong's Ratings">
+Margaret Armstrong
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/math" title="View Henry M Jackson High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Margaret Armstrong" data-sid="21316" data-status="-2" data-tid="2404493" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 45.980px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Idk why people don't like her. She may spend a long time going over homework but she really does care more than other...
+</div>
+<div class="options">
+<a alt="View Margaret Armstrong's Ratings" class="btn view_more" href="/margaret-armstrong/2404493-t" title="View Margaret Armstrong's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/margaret-armstrong/2404493-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Connie Sperry's Ratings" class="name" href="/connie-sperry/2395690-t" target="_blank" title="View Connie Sperry's Ratings">
+Connie Sperry
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/counselor" title="View Henry M Jackson High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="teacher_actions" data-name="Connie Sperry" data-sid="21316" data-status="-2" data-tid="2395690" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She actually knows who i am which is a nice change since most counselors dont necessarily get to know their students....
+</div>
+<div class="options">
+<a alt="View Connie Sperry's Ratings" class="btn view_more" href="/connie-sperry/2395690-t" title="View Connie Sperry's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/connie-sperry/2395690-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Elizabeth Burns' Ratings" class="name" href="/elizabeth-burns/2171752-t" target="_blank" title="View Elizabeth Burns' Ratings">
+Elizabeth Burns
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/science" title="View Henry M Jackson High School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Elizabeth Burns" data-sid="21316" data-status="-2" data-tid="2171752" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 49.940px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+If you end up having Burns first period like I did, good luck. She is never prepared for labs and seems to never know...
+</div>
+<div class="options">
+<a alt="View Elizabeth Burns' Ratings" class="btn view_more" href="/elizabeth-burns/2171752-t" title="View Elizabeth Burns' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/elizabeth-burns/2171752-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Ryan Simmons' Ratings" class="name" href="/ryan-simmons/2093687-t" target="_blank" title="View Ryan Simmons' Ratings">
+Ryan Simmons
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/history" title="View Henry M Jackson High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Ryan Simmons" data-sid="21316" data-status="-2" data-tid="2093687" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 91.740px;"></div>
+</div>
+</div>
+<div class="rating_count">10 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Acts like he knows everything, Not a bad guy but it seems like he makes things that should be simple more complex and...
+</div>
+<div class="options">
+<a alt="View Ryan Simmons' Ratings" class="btn view_more" href="/ryan-simmons/2093687-t" title="View Ryan Simmons' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/ryan-simmons/2093687-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mark Kreutz's Ratings" class="name" href="/mark-kreutz/2080883-t" target="_blank" title="View Mark Kreutz's Ratings">
+Mark Kreutz
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/history" title="View Henry M Jackson High School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Mark Kreutz" data-sid="21316" data-status="-2" data-tid="2080883" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 61.380px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I have him for US History and all we do is packets. Very boring and pointless class.
+</div>
+<div class="options">
+<a alt="View Mark Kreutz's Ratings" class="btn view_more" href="/mark-kreutz/2080883-t" title="View Mark Kreutz's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mark-kreutz/2080883-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jason Gadek's Ratings" class="name" href="/jason-gadek/2018559-t" target="_blank" title="View Jason Gadek's Ratings">
+Jason Gadek
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/math" title="View Henry M Jackson High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Jason Gadek" data-sid="21316" data-status="-2" data-tid="2018559" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 107.800px;"></div>
+</div>
+</div>
+<div class="rating_count">27 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Gadek is a pretty good teacher unless you talk to him a lot outside of class. Too much picking on my friends and I...
+</div>
+<div class="options">
+<a alt="View Jason Gadek's Ratings" class="btn view_more" href="/jason-gadek/2018559-t" title="View Jason Gadek's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jason-gadek/2018559-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Wendy Organ's Ratings" class="name" href="/wendy-organ/2018565-t" target="_blank" title="View Wendy Organ's Ratings">
+Wendy Organ
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/english" title="View Henry M Jackson High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Wendy Organ" data-sid="21316" data-status="-2" data-tid="2018565" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 101.420px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+All her students know a bunch of french and she's is an amazing teacher
+</div>
+<div class="options">
+<a alt="View Wendy Organ's Ratings" class="btn view_more" href="/wendy-organ/2018565-t" title="View Wendy Organ's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/wendy-organ/2018565-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Daniel Geary's Ratings" class="name" href="/daniel-geary/1999523-t" target="_blank" title="View Daniel Geary's Ratings">
+Daniel Geary
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/english" title="View Henry M Jackson High School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Daniel Geary" data-sid="21316" data-status="-2" data-tid="1999523" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 101.420px;"></div>
+</div>
+</div>
+<div class="rating_count">12 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+wonderful teacher, he changed my life. his wisdom and his special way of teaching have moved me dearly. he helped me...
+</div>
+<div class="options">
+<a alt="View Daniel Geary's Ratings" class="btn view_more" href="/daniel-geary/1999523-t" title="View Daniel Geary's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/daniel-geary/1999523-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View George Brush's Ratings" class="name" href="/george-brush/1974452-t" target="_blank" title="View George Brush's Ratings">
+George Brush
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/health" title="View Henry M Jackson High School&#39;s Health Teachers">Health</a>
+</div>
+<div class="teacher_actions" data-name="George Brush" data-sid="21316" data-status="-2" data-tid="1974452" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 63.800px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+nice guy... class was health so what do you expect?
+</div>
+<div class="options">
+<a alt="View George Brush's Ratings" class="btn view_more" href="/george-brush/1974452-t" title="View George Brush's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/george-brush/1974452-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Vincent's Ratings" class="name" href="/vincent/1328219-t" target="_blank" title="View Vincent's Ratings">
+Vincent
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/health" title="View Henry M Jackson High School&#39;s Health Teachers">Health</a>
+</div>
+<div class="teacher_actions" data-name="Vincent" data-sid="21316" data-status="-2" data-tid="1328219" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 85.800px;"></div>
+</div>
+</div>
+<div class="rating_count">11 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He picks favorites if you're an athlete. He only presents the positive side of history. (Like the Manhattan project...
+</div>
+<div class="options">
+<a alt="View Vincent's Ratings" class="btn view_more" href="/vincent/1328219-t" title="View Vincent's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/vincent/1328219-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Chris Walters' Ratings" class="name" href="/chris-walters/1288178-t" target="_blank" title="View Chris Walters' Ratings">
+Chris Walters
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/math" title="View Henry M Jackson High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Chris Walters" data-sid="21316" data-status="-2" data-tid="1288178" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 106.920px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Never have I had such a dedicated math teacher. He is ALWAYS there before/during lunch/after school to help you out....
+</div>
+<div class="options">
+<a alt="View Chris Walters' Ratings" class="btn view_more" href="/chris-walters/1288178-t" title="View Chris Walters' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/chris-walters/1288178-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Ivette Thompson's Ratings" class="name" href="/ivette-thompson/1280258-t" target="_blank" title="View Ivette Thompson's Ratings">
+Ivette Thompson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/accounting" title="View Henry M Jackson High School&#39;s Accounting Teachers">Accounting</a>
+</div>
+<div class="teacher_actions" data-name="Ivette Thompson" data-sid="21316" data-status="-2" data-tid="1280258" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 52.140px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+This was possibly the most confusing accounting class ive ever taken. She spoke spanish the whole time
+</div>
+<div class="options">
+<a alt="View Ivette Thompson's Ratings" class="btn view_more" href="/ivette-thompson/1280258-t" title="View Ivette Thompson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/ivette-thompson/1280258-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Megan Friedenson's Ratings" class="name" href="/megan-friedenson/1280266-t" target="_blank" title="View Megan Friedenson's Ratings">
+Megan Friedenson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/languages" title="View Henry M Jackson High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Megan Friedenson" data-sid="21316" data-status="-2" data-tid="1280266" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.440px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She's a good teacher and will answer all of your questions as well as she can. She talks very little in english. Her...
+</div>
+<div class="options">
+<a alt="View Megan Friedenson's Ratings" class="btn view_more" href="/megan-friedenson/1280266-t" title="View Megan Friedenson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/megan-friedenson/1280266-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hinckley's Ratings" class="name" href="/hinckley/1170580-t" target="_blank" title="View Hinckley's Ratings">
+Hinckley
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/math" title="View Henry M Jackson High School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Hinckley" data-sid="21316" data-status="-2" data-tid="1170580" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 85.580px;"></div>
+</div>
+</div>
+<div class="rating_count">14 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Hinckle Sprinkle was the best teacher ever! Hinckle Meister did such a great job teaching the math in class. He...
+</div>
+<div class="options">
+<a alt="View Hinckley's Ratings" class="btn view_more" href="/hinckley/1170580-t" title="View Hinckley's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hinckley/1170580-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View David Lamoureux's Ratings" class="name" href="/david-lamoureux/1170587-t" target="_blank" title="View David Lamoureux's Ratings">
+David Lamoureux
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/not-specified" title="View Henry M Jackson High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="David Lamoureux" data-sid="21316" data-status="-2" data-tid="1170587" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 64.460px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I had him for music studio, and as long as you keep up with the work, the class is pretty easy. He's actually a kind...
+</div>
+<div class="options">
+<a alt="View David Lamoureux's Ratings" class="btn view_more" href="/david-lamoureux/1170587-t" title="View David Lamoureux's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/david-lamoureux/1170587-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hutt's Ratings" class="name" href="/hutt/1170592-t" target="_blank" title="View Hutt's Ratings">
+Hutt
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/physical-education" title="View Henry M Jackson High School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class="teacher_actions" data-name="Hutt" data-sid="21316" data-status="-2" data-tid="1170592" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 90.860px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Hutt is a fantastic teacher. I didn't bother him and he didn't bother me. He informed the class of tests and...
+</div>
+<div class="options">
+<a alt="View Hutt's Ratings" class="btn view_more" href="/hutt/1170592-t" title="View Hutt's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hutt/1170592-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Biggetta MacIntosh's Ratings" class="name" href="/biggetta-macintosh/474639-t" target="_blank" title="View Biggetta MacIntosh's Ratings">
+Biggetta MacIntosh
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/henry-m-jackson-high-school/21316-s/counselor" title="View Henry M Jackson High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="teacher_actions" data-name="Biggetta MacIntosh" data-sid="21316" data-status="-2" data-tid="474639" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 75.240px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Ms. McIntosh, is a great person. She truly cares about you.
+</div>
+<div class="options">
+<a alt="View Biggetta MacIntosh's Ratings" class="btn view_more" href="/biggetta-macintosh/474639-t" title="View Biggetta MacIntosh's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/biggetta-macintosh/474639-t"></a>
+</div>
+
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-lg-3 secondary_column">
+<a class="rating_histogram_widget_link_container" href="/henry-m-jackson-high-school/21316-s/stats" title="Go to Henry M Jackson High School stats">
+<div class="row block_container school_rating_histogram_card">
+<div class="col-xs-12">
+<h2 class="school_name" title="Learn more about Henry M Jackson High School">
+<span>
+Henry M Jackson High School Rating Histogram
+</span>
+</h2>
+<div class="score_line_container">
+<div class="score_label">5-star</div>
+<div class="score_percentage">61%</div>
+<div class="score_line">
+<div class="aux" style="width: 61.13%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">4-star</div>
+<div class="score_percentage">15%</div>
+<div class="score_line">
+<div class="aux" style="width: 15.07%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">3-star</div>
+<div class="score_percentage">11%</div>
+<div class="score_line">
+<div class="aux" style="width: 11.64%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">2-star</div>
+<div class="score_percentage">5%</div>
+<div class="score_line">
+<div class="aux" style="width: 5.65%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">1-star</div>
+<div class="score_percentage">6%</div>
+<div class="score_line">
+<div class="aux" style="width: 6.51%;"></div>
+</div>
+</div>
+<div class="score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 90px; height: 15px;">
+<div class="rateit-preset rateit-selected" style="height: 15px; width: 70.169px;"></div>
+</div>
+</div>
+<span class="rating-summary">
+Based on
+606
+Ratings
+</span>
+</div>
+</div>
+</div>
+</a>
+<div class="sticky_container_right">
+<div class="sticky_column">
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="all_footer_wrapper" style="overflow:hidden;">
+<section class="container-fluid hidden-xs padding" id="states">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-sm-offset-0 footer_states_container">
+<h3>Locate Schools by State:</h3>
+<div class="states">
+<div class="state">
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class="state">
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class="state">
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class="state">
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class="state">
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class="state">
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class="state">
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class="state">
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class="state">
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class="state">
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class="state">
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class="state">
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class="state">
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class="state">
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class="state">
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class="state">
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class="state">
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class="state">
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class="state">
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class="state">
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class="state">
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class="state">
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class="state">
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class="state">
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class="state">
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class="state">
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class="state">
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class="state">
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class="state">
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class="state">
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class="state">
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class="state">
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class="state">
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class="state">
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class="state">
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class="state">
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class="state">
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class="state">
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class="state">
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class="state">
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class="state">
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class="state">
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class="state">
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class="state">
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class="state">
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class="state">
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class="state">
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class="state">
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer_directory">
+<div class="container">
+<div class="row">
+<div class="col-xs-6 hidden-xs">
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;W&quot;" href="/schools/directory/w" title="Schools beginning with &quot;W&quot;">w</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class="col-xs-6 hidden-xs">
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;W&quot;" href="/teachers/directory/w" title="Teachers beginning with &quot;W&quot;">w</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class="row footer_countries_list">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer">
+<div class="container">
+<div class="row footer_links">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+<h3 class="hidden-sm hidden-md hidden-lg">Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop="static" data-keyboard data-remote="/contact/new" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Contact RateMyTeachers">
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="row copyright">
+Copyright 2001-2017 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden="true" class="modal fade" id="modal" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div aria-hidden="true" class="modal fade" id="modal_rating" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div id="loading-indicator" style="display: none;">
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif"/>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    functionToLoad.push('//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js');
+  </script>
+<script type="text/javascript">
+    functionToLoad.push('/assets/application-54ea36510d376e4b53979f87d72bc002.js');
+    functionToLoad.push('/assets/users-8d86f10db3dd4d729784ef9748a4b44e.js');
+  </script>
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        // Facebook like
+        // (function(d, s, id) {
+        //   var js, fjs = d.getElementsByTagName(s)[0];
+        //   if (d.getElementById(id)) return;
+        //   js = d.createElement(s); js.id = id;
+        //   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=232453153516852&version=v2.0";
+        //   fjs.parentNode.insertBefore(js, fjs);
+        // }(document, 'script', 'facebook-jssdk'));
+
+        // Google Plus
+        // (function() {
+        //   var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        //   po.src = 'https://apis.google.com/js/platform.js';
+        //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        // })();
+
+        // Twitter Follow
+        // !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      
+      });
+    </script>
+<script>
+  functionToLoad.push(function() {
+    $('#teachers_by_alphabet').change(function(e){
+      document.location.href = $('#teachers_by_alphabet').val()
+    });
+  });
+</script>
+<script>
+  functionToLoad.push(function() {
+    var schoolPagePath = '/henry-m-jackson-high-school/21316-s';
+    var resultCount = 80;
+    var minStickyResultCount = 3;
+
+    if (!isMobile && !isMedium && resultCount > 0) {
+      var stickyColumnRight = $(".sticky_container_right .sticky_column");
+      var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+      var footerHeight = $('#all_footer_wrapper').outerHeight() + 50;
+      var stickyOptions = function(getWidthFrom) {
+        return {topSpacing:0, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+      }
+      stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+      // Make center column options sticky when min results quantity
+      if (resultCount > minStickyResultCount - 1) {
+        stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+      }
+    }
+  });
+</script>
+<script type="text/javascript">
+    function initializeMaps() {
+      var length = mapFunctionArray.length;
+      for (var i = 0; i < length; i++) {
+        mapFunctionArray[i]();
+      }
+    }
+
+    functionToLoad.push(function() {
+      // Don't load google maps when no pending maps
+      if (typeof(mapFunctionArray) === 'undefined' || mapFunctionArray.length < 1)
+        return;
+
+      var googleMapsId = "AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g";
+
+      var script_path = "http://maps.googleapis.com/maps/api/js?key=" + googleMapsId + "&sensor=false&callback=initializeMaps";
+      $.getScript(script_path);
+
+    });
+  </script>
+
+
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-bottom"};
+      });
+      functionToLoad.push("//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js");
+    </script>
+
+<script>
+    window.addEventListener('load', function(){
+      console.info("[PERF] DomContentLoaded: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+
+    window.addEventListener('load', function(){
+      console.info("[PERF] Load: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+  </script>
+
+<script type="text/javascript">
+    (function() {
+      // Load script from url
+      var loadScript = function(url, callback) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+
+        // Add on load callback event
+        if (callback !== null) {
+          if (script.readyState){ //IE
+            script.onreadystatechange = function(){
+              if (script.readyState == "loaded" || script.readyState == "complete"){
+                script.onreadystatechange = null;
+                callback();
+              }
+            };
+          } else { //Others
+            // Execute callback even when an error happen
+            script.onerror = function(e){
+              try {
+                console.error("An error happen when loading '" + err.target.src + "' script.");
+              } catch(err) {} finally {
+                callback();
+              }
+            };
+            script.onload = function(){ callback(); };
+          }
+        }
+
+        // Load the script
+        script.src = url;
+        document.body.appendChild(script);
+      };
+
+      // Load scripts in a sequence instead parallel
+      // to make sure frameworks load correctly
+      function sequence(index, max, source) {
+        if (index < max) {
+          var data = functionToLoad.extractElementData(source[index]);
+
+          if (typeof data.element === 'string') {
+            if (data.async) {
+              // Async script
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+              });
+              sequence(index + 1, max, source);
+            } else {
+              // Sync scripts
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+                sequence(index + 1, max, source);
+              });
+            }
+          } else {
+            // Execute callback even when an error happen on the function
+            try {
+              if (data.async) {
+                // Async script
+                setTimeout(function() { data.element(); }, 1);
+              } else {
+                // Sync script
+                data.element();
+              }
+            } catch(err) {
+              console.error(err);
+            } finally {
+              sequence(index + 1, max, source);
+            }
+          }
+        }
+      }
+
+      // Load all javascript in a sequence
+      var loadDeferredJs = function() {
+        sequence(0, functionToLoad.length, functionToLoad);
+      };
+
+      // Execute all lazy javascripts after DOM load
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredJs, 0); });
+      else window.addEventListener('load', loadDeferredJs);
+    })();
+  </script>
+
+</body>
+</html>

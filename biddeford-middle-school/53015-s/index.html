@@ -1,0 +1,4046 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+      (function(){
+        window.beginTimeTrack = (new Date()).getTime();
+      })();
+    </script>
+<title>Biddeford Middle School - Biddeford, Maine | RateMyTeachers.com</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":486,"agentToken":null,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(15)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(15)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(15)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){g.push(t),h&&(b?b.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(15)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,y="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(y,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===y||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=o(l+e,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(p+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],15:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!l.aborted||i){t&&t(n,r,o);for(var a=e(o),c=h(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[w[n]];return d&&d.push([g,n,r,a]),a}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",w[n]=e,e in u||(u[e]=[])})}var y={},w={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(w,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){s("mark",["domContent",a()+x.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-x.offset}var c=(new Date).getTime(),s=t("handle"),f=t(12),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:c,now:a,origin:y,features:{},xhrWrappable:g};t(9),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),s("mark",["firstbyte",c],null,"api");var b=0,E=t(14)},{}]},{},["loader",2,7]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+<meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw"/>
+<meta name="description" content="Biddeford Middle School is a Middle School in Biddeford, ME. Search Biddeford Middle School&#39;s ratings, statistics and reviews by students and parents."/>
+<meta property="twitter:image" content="http://www.ratemyteachers.com/images/logo_icon_60.png"/>
+<meta property="og:image" content="http://www.ratemyteachers.com/images/logo_icon_100.png"/>
+<meta property="og:title" content="Biddeford Middle School - Biddeford, Maine | RateMyTeachers.com"/>
+<meta property="og:type" content="rmt:school"/>
+<meta property="og:url" content="http://www.ratemyteachers.com/biddeford-middle-school/53015-s"/>
+<meta property="og:site_name" content="Biddeford Middle School - Biddeford, Maine | RateMyTeachers.com"/>
+<meta property="og:description" content="Biddeford Middle School is a Middle School in Biddeford, ME. Search Biddeford Middle School's ratings, statistics and reviews by students and parents."/>
+<meta name="robots" content="noodp,noydir"/>
+<meta property="rmt:image" content="http://www.ratemyteachers.com/apple_touch_icon_196x196.png"/>
+
+<link rel="shortcut icon" sizes="64x64 48x48 32x32 16x16" type="image/x-icon" href="/favicon.ico"/>
+<link rel="apple-touch-icon" href="/apple_touch_icon_60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple_touch_icon_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple_touch_icon_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple_touch_icon_152x152.png">
+<link rel="apple-touch-icon-precomposed" href="/apple_touch_icon_196x196.png"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+<link href="/assets/application-8f34b7246c4006713b4fb0b0c5f281b6.css" media="all" rel="stylesheet"/>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+<script type="text/javascript">
+    var currentState = '';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:     true,
+    debugMode:           false,
+    asyncScripts:        true
+  };
+
+
+  function getWindowWidth() {
+    var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) === 'number' ) {
+      myWidth = window.innerWidth; myHeight = window.innerHeight;
+    } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+      myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+      myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+    }
+    return myWidth;
+  }
+
+  var isDesktopVariant = true;
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isExtraSmall = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false);
+  var isMobile = isExtraSmall || isMobileVariant;
+  var isMedium = (getWindowWidth() < 1200) || (screen ? screen.width < 1200 : false);
+
+
+  var isChrome = navigator.userAgent.indexOf('Chrome') > -1;
+  var isExplorer = navigator.userAgent.indexOf('MSIE') > -1;
+  var isFirefox = navigator.userAgent.indexOf('Firefox') > -1;
+  var isSafari = navigator.userAgent.indexOf("Safari") > -1;
+  var isOpera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
+  if ((isChrome)&&(isSafari)) {isSafari=false;}
+  if ((isChrome)&&(isOpera)) {isChrome=false;}
+
+  var enablePropel    = !isSafari && !isOpera && false;
+  var enableMediabong = !isSafari && !isOpera;
+  var enableBrightComedia = !isSafari && !isOpera;
+
+  var isMobileUpload = false;
+
+    var cseData = {
+      isCseSearch: true
+      ,paramFormat: '%{search_term}%{location}'
+      ,stateList: [{"name":"Alaska","shortname":"ak"},{"name":"Alabama","shortname":"al"},{"name":"Arkansas","shortname":"ar"},{"name":"Arizona","shortname":"az"},{"name":"California","shortname":"ca"},{"name":"Colorado","shortname":"co"},{"name":"Connecticut","shortname":"ct"},{"name":"Dc","shortname":"dc"},{"name":"Delaware","shortname":"de"},{"name":"Florida","shortname":"fl"},{"name":"Georgia","shortname":"ga"},{"name":"Hawaii","shortname":"hi"},{"name":"Iowa","shortname":"ia"},{"name":"Idaho","shortname":"id"},{"name":"Illinois","shortname":"il"},{"name":"Indiana","shortname":"in"},{"name":"Kansas","shortname":"ks"},{"name":"Kentucky","shortname":"ky"},{"name":"Louisiana","shortname":"la"},{"name":"Massachusetts","shortname":"ma"},{"name":"Maryland","shortname":"md"},{"name":"Maine","shortname":"me"},{"name":"Michigan","shortname":"mi"},{"name":"Minnesota","shortname":"mn"},{"name":"Missouri","shortname":"mo"},{"name":"Mississippi","shortname":"ms"},{"name":"Montana","shortname":"mt"},{"name":"North Carolina","shortname":"nc"},{"name":"North Dakota","shortname":"nd"},{"name":"Nebraska","shortname":"ne"},{"name":"New Hampshire","shortname":"nh"},{"name":"New Jersey","shortname":"nj"},{"name":"New Mexico","shortname":"nm"},{"name":"Nevada","shortname":"nv"},{"name":"New York","shortname":"ny"},{"name":"Ohio","shortname":"oh"},{"name":"Oklahoma","shortname":"ok"},{"name":"Oregon","shortname":"or"},{"name":"Pennsylvania","shortname":"pa"},{"name":"Puerto Rico","shortname":"pr"},{"name":"Rhode Island","shortname":"ri"},{"name":"South Carolina","shortname":"sc"},{"name":"South Dakota","shortname":"sd"},{"name":"Tennessee","shortname":"tn"},{"name":"Texas","shortname":"tx"},{"name":"Utah","shortname":"ut"},{"name":"Virginia","shortname":"va"},{"name":"Vermont","shortname":"vt"},{"name":"Washington","shortname":"wa"},{"name":"Wisconsin","shortname":"wi"},{"name":"West Virginia","shortname":"wv"},{"name":"Wyoming","shortname":"wy"}]
+    };
+
+
+  // Search autocomplete widget
+  var searchAutocompleteHTML = "<div class=\'desktop search_autocomplete_widget\'>\n<div class=\'autocomplete_teachers\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-user\'><\/i>\nTeachers and Professors\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'amp_ads_autocomplete_widget\' id=\'amp_ads_autocomplete\'><\/div>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_school_name\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nTeachers and Professors\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<div class=\'autocomplete_schools\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-university\'><\/i>\nSchools and Colleges\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_address\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nSchools and Colleges\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<\/div>\n";
+</script>
+<script type="text/javascript">
+  // Async functions variable
+  functionToLoad = [];
+  
+  // Fastest way to check if an object is an array
+  functionToLoad.isArrayObj = function(obj) {
+    return !!obj && obj.constructor === Array;
+  };
+  
+  // Extract data from an element
+  functionToLoad.extractElementData = function(elementData) {
+    var data = {
+      element: elementData
+      ,async: false
+      ,subElements: []
+    };
+    
+    // The element is an array, check for async option
+    if (this.isArrayObj(elementData) && elementData.length > 0) {
+      data.async = !!elementData[1];
+      data.element = elementData[0];
+      data.subElements = elementData[2] || [];
+    }
+    return data;
+  };
+  
+  // Wrap push functionality
+  functionToLoad.realPush = functionToLoad.push;
+  functionToLoad.executePush = function(args) {
+    var data = this.extractElementData(args);
+
+    // Inject script tag on inplace
+    if (typeof data.element === 'string') {
+      // Inject external file
+      document.write('<script type="text/javascript" src="' + data.element + '"><\/script>');
+    } else {
+      // Inject function
+      document.write('<script type="text/javascript">(');
+      document.write(data.element.toString());
+      document.write(')();<\/script>');
+    }
+    
+    // Execute child scripts
+    if (data.subElements.length > 0) {
+      this.executePush(data.subElements);
+    }
+  };
+  functionToLoad.push = function(args) {
+    if (siteConfig.asyncScripts) {
+      if (siteConfig.debugMode) { console.log('Async Script'); }
+      
+      // Async scripts so add it to array for later execution
+      this.realPush(args);
+      return;
+    }
+    if (siteConfig.debugMode) { console.log('Sync Script'); }
+    
+    // No async scripts, execute it right away
+    this.executePush(args);
+  };
+</script>
+<script type="text/javascript">_googlePush = function(a) {};</script>
+<script type="text/javascript">
+  functionToLoad.push('//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js');
+  functionToLoad.push('//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js');
+</script>
+<script>
+      functionToLoad.push(function() {
+        gaId = 'UA-4216499-1';
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', gaId, 'auto');
+        ga('require', 'displayfeatures');
+        //ga('require', 'ecommerce', 'ecommerce.js');
+      });
+    </script>
+<script type="text/javascript">
+  functionToLoad.push('/assets/rmt.analytics-833eb75f283313dde59926cd5939692a.js');
+</script>
+<script>
+  functionToLoad.push(function(){
+    pageType = "";
+    RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+    searchTerm = "";
+  });
+</script>
+<script type="text/javascript">
+    // Returns a function, that, as long as it continues to be invoked, will not
+    // be triggered. The function will be called after it stops being called for
+    // N milliseconds. If `immediate` is passed, trigger the function on the
+    // leading edge, instead of the trailing.
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+</script>
+
+<script data-cfasync="false" type="text/javascript">
+  functionToLoad.push([function() {
+    window.apd_options = { 'websiteId': 6292, 'runFromFrame': false };
+    (function() {
+      var w = window.apd_options.runFromFrame ? window.top : window;
+      if(window.apd_options.runFromFrame && w!=window.parent) w=window.parent;
+      if (w.location.hash.indexOf('apdAdmin') != -1){if(typeof(Storage) !== 'undefined') {w.localStorage.apdAdmin = 1;}}
+      var adminMode = ((typeof(Storage) == 'undefined') || (w.localStorage.apdAdmin == 1));
+      w.apd_options=window.apd_options;
+      var apd = w.document.createElement('script'); apd.type = 'text/javascript'; apd.async = true;
+      apd.src = '//' + (adminMode ? 'cdn' : 'ecdn') + '.firstimpression.io/' + (adminMode ? 'fi.js?id=' + window.apd_options.websiteId : 'fi_client.js') ;
+      var s = w.document.getElementsByTagName('head')[0]; s.appendChild(apd);
+    })();
+  }, true]);
+</script>
+
+
+<script type="text/javascript" charset="utf-8">
+      functionToLoad.push(function() {
+        (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+        arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+        O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+        e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+      });
+    </script>
+
+<script type="text/javascript">
+      functionToLoad.push('//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
+    </script>
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        window.deployads=[];
+        window.deployads.push=function(){
+          var b=document.querySelectorAll('script[type\x3d"text/x-ab-test"]:not([data-processed])');
+          if(b&&0<b.length){
+            var b=b[0];
+            var a=b.innerHTML.replace(/xscript/g,"script");
+            document.write(a);
+            b.setAttribute("data-processed","true");
+          }
+        }
+      });
+    </script>
+<script type="text/javascript">
+    functionToLoad.push(function() {
+
+      var LazyAds = function(){
+        // this.elements = {};
+      };
+
+
+      LazyAds.init = function(delay){
+        this.elements = {};
+        var self = this;
+        if (typeof(delay) === 'undefined' || delay === null)
+          delay = 10000;
+        else
+          console.info('Set LazyAds delay to ' + delay + 'ms');
+
+
+        $(window).load(function() {
+          // self.domLoaded = true;
+          // console.log('LazyAds: window load');
+          setTimeout(function() {
+            self.domLoaded = true;
+            self.refresh();
+          }, delay);
+          // self.refresh();
+        });
+
+        var scrollHandler = debounce(function(e){
+          self.refresh();
+        }, 100);
+        jQuery(document).scroll(scrollHandler);
+      };
+
+      /* id:  can ben ID of en element, or a scroll offset */
+      LazyAds.register = function(id, callback, opts) {
+        // console.log('LazyAds: register ' + id);
+        this.elements[ id ] = { loaded: false, callback: callback };
+        this.refresh();
+      };
+
+
+      LazyAds.refresh = function() {
+        var el, isVisible;
+        var scrollY = window.scrollY;
+        // console.log("LazyAds: scrollY " + scrollY);
+        for(var id in this.elements) {
+          if (!this.elements.hasOwnProperty(id)) continue;
+          if(this.elements[id].loaded) continue;
+
+          isVisible = false || this.domLoaded;
+
+          if (!isVisible) {
+            // handle scroll position
+            if (/^\d+$/.test(id)) {
+              // console.log('id is an offset');
+              if( scrollY >= id ) {
+                isVisible = true;
+              }
+            } else if( this.isVisible(id) ) {
+              isVisible = true;
+            }
+          }
+
+          if (isVisible) {
+            this.elements[id].loaded = true;
+            console.info('LazyAds: execute callback for ' + id);
+            this.elements[id].callback();
+            delete this.elements[id];
+          }
+
+
+
+        }
+      };
+
+
+      LazyAds.isVisible = function(id) {
+        // https://github.com/customd/jquery-visible/blob/master/jquery.visible.js
+        var $t        = $('#' + id);
+
+        // if the id doesn't exist just bounce.
+        if( !$t[0] ) return false;
+
+        var $w        = $(window),  // todo refactor this
+            t         = $t.get(0),
+            vpWidth   = $w.width(),
+            vpHeight  = $w.height(),
+            direction = (direction) ? direction : 'both',
+            clientSize = t.offsetWidth * t.offsetHeight;
+            // clientSize = hidden === true ? t.offsetWidth * t.offsetHeight : true;
+
+        if (typeof t.getBoundingClientRect === 'function'){
+
+            // Use this native browser method, if available.
+            var rec = t.getBoundingClientRect(),
+                tViz = rec.top    >= 0 && rec.top    <  vpHeight,
+                bViz = rec.bottom >  0 && rec.bottom <= vpHeight,
+                lViz = rec.left   >= 0 && rec.left   <  vpWidth,
+                rViz = rec.right  >  0 && rec.right  <= vpWidth,
+                vVisible   = tViz || bViz,
+                hVisible   = lViz || rViz;
+
+            if(direction === 'both')
+                return clientSize && vVisible && hVisible;
+            else if(direction === 'vertical')
+                return clientSize && vVisible;
+            else if(direction === 'horizontal')
+                return clientSize && hVisible;
+        } else {
+
+            var viewTop         = $w.scrollTop(),
+                viewBottom      = viewTop + vpHeight,
+                viewLeft        = $w.scrollLeft(),
+                viewRight       = viewLeft + vpWidth,
+                offset          = $t.offset(),
+                _top            = offset.top,
+                _bottom         = _top + $t.height(),
+                _left           = offset.left,
+                _right          = _left + $t.width(),
+                compareTop      = _bottom,
+                compareBottom   = _top,
+                compareLeft     = _right,
+                compareRight    = _left;
+
+            if(direction === 'both')
+                return !!clientSize && ((compareBottom <= viewBottom) && (compareTop >= viewTop)) && ((compareRight <= viewRight) && (compareLeft >= viewLeft));
+            else if(direction === 'vertical')
+                return !!clientSize && ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+            else if(direction === 'horizontal')
+                return !!clientSize && ((compareRight <= viewRight) && (compareLeft >= viewLeft));
+        }
+      };
+
+
+
+      var delay = null;
+      LazyAds.init(delay);
+
+      // (function() {
+      //   var delay = null;
+      //   LazyAds.init();
+      // })();
+    });
+  </script>
+<script type="text/javascript">
+    var _session = {};
+  </script>
+<script type="text/javascript">
+      functionToLoad.push(["//tags-cdn.deployads.com/a/ratemyteachers.com.js", true,[
+        function() {
+          (deployads = window.deployads || []).push({});
+        }
+      ]]);
+    </script>
+
+<script type="text/javascript">
+        functionToLoad.push([function() {
+          window._taboola = window._taboola || [];
+          _taboola.push({article:'auto'});
+          !function (e, f, u, i) {
+            if (!document.getElementById(i)){
+              e.async = 1;
+              e.src = u;
+              e.id = i;
+              f.parentNode.insertBefore(e, f);
+            }
+          }(document.createElement('script'),
+          document.getElementsByTagName('script')[0],
+          '//cdn.taboola.com/libtrc/ratemyteachers-network/loader.js',
+          'tb_loader_script');
+          if(window.performance && typeof window.performance.mark == 'function')
+            {window.performance.mark('tbl_ic');}
+        }, true]);
+      </script>
+<link href="http://www.ratemyteachers.com/biddeford-middle-school/53015-s.rss" rel="alternate" type="application/rss+xml">
+<meta content="authenticity_token" name="csrf-param"/>
+<meta content="5IIVoZtcWRIOQMjKThCnc84yGCQymM8gkyv2EpSjBx8=" name="csrf-token"/>
+</head>
+
+<body class="inner_page school_page schools_v12_1
+">
+<div id="fb-root"></div>
+<div class="rate_my_teachers_international">
+<div class="container">
+<div class="row">
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+<div class="pull-right user_top_nav"></div>
+</div>
+</div>
+</div>
+<header>
+<div class="container">
+<div class="row">
+<form action="/search_page" class="tab-form search_form trigger_to_main_search" method="get">
+<a alt="Go to RateMyTeachers Home" href="/" id="rate_my_teachers_logo" title="Go to RateMyTeachers Home"></a>
+<input name="search" type="hidden" value="teachers">
+<div class="search_inputs">
+<div class="bg">
+<div class="padding">
+<input class="search_input" name="q" placeholder="Search: School Name, City" type="text">
+</div>
+<div class="location">
+<select class="state" id="state" name="state"><option value>Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class="search_button">
+<button class="btn-search fa fa-search fa-3x" title="Search RateMyTeachers" type="submit"></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+<div class="container-fluid main-content">
+<div class="row">
+<section class="breadcrumbs container-fluid">
+<div class="row">
+<div class="container">
+<div class="col-sm-12">
+<ul class="list-inline collapsible_nav collapsible_nav_collapsed">
+<li class="toggle">
+<a href="javascript:void(0);" rel="nofollow">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li class="collapse">
+<a href="/" title="Go to RateMyTeachers Home">United States</a>
+</li>
+<li class="always_show">
+<a alt="Go to Schools in Maine" href="/maine" title="Go to Schools in Maine">Maine</a>
+</li>
+<li class="collapse">
+<a alt="Go to Schools in Biddeford" href="/maine/biddeford" title="Go to Schools in Biddeford">Biddeford</a>
+</li>
+<li class="always_show">
+
+<a alt="View Biddeford Middle School's Teachers" href="/biddeford-middle-school/53015-s" title="View Biddeford Middle School's Teachers">Biddeford Middle School</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_teacher_trigger" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=53015" data-school="Biddeford Middle School" data-sender-name="School page breadcrumb" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher">Add My Teacher</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=53015" data-school="Biddeford Middle School" data-sender-name="School page breadcrumb" data-target="#modal_rating" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Rate My School">Rate My School</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<div class="container flash_container">
+<div class="row">
+<div class="col-xs-12">
+<div class="alert alert-danger" id="flash-error" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-warning" id="flash-alert" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-success" id="flash-success" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-info" id="flash-notice" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+</div>
+</div>
+</div>
+<div id="content">
+<span class="dn" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/maine" itemprop="url">
+<span itemprop="title">Maine</span>
+</a>
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/maine/biddeford" itemprop="url">
+<span itemprop="title">Biddeford</span>
+</a>
+</span>
+</span>
+<div id="sortable_ad_trigger"></div>
+<div class="container" itemscope itemtype="http://schema.org/ProfilePage">
+<meta content="2017-06-28" itemprop="dateModified">
+
+<div class="dn" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+<meta content="230" itemprop="ratingCount">
+<meta content="230" itemprop="reviewCount">
+<meta content="4.47522" itemprop="ratingValue">
+<meta content="5" itemprop="bestRating">
+<meta content="0" itemprop="worstRating">
+</div>
+<div class="row">
+<section class="col-md-12 content" itemprop="about" itemscope itemtype="http://schema.org/School">
+<div class="row secondary_data">
+<div class="col-xs-12 col-lg-9 primary_column">
+<div class="row school_info">
+<div class="col-xs-12 col-sm-7 main_info">
+<div class="row">
+<div class="col-xs-12">
+<div class="school_name">
+<h1 title="Biddeford Middle School">
+<span itemprop="name">
+Biddeford Middle School
+</span>
+<div class="school_actions" data-name="Biddeford Middle School" data-sid="53015" data-status="0" style="display:none;"></div>
+</h1>
+<a class="edit school_correction_trigger" data-backdrop="static" data-keyboard data-remote="/schools/correction?sid=53015" data-school="Biddeford Middle School" data-sender-name="School page Main" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit a Correction">
+Edit
+</a>
+</div>
+<div class="score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 98.455px;"></div>
+</div>
+</div>
+Average
+4.48
+based on
+230
+teacher ratings
+</div>
+<div class="description">
+<strong>Biddeford Middle School</strong>
+is a
+public
+middle school located in
+Biddeford, Maine and part of Biddeford School Department.
+Biddeford Middle School is ranked
+51
+in Maine.
+<a href="/biddeford-middle-school/53015-s/stats" target="_blank">
+Learn More
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 details">
+<div class="aux">
+<h2 class="detail_item rate_school">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=53015" data-sender-name="School page Main" data-target="#modal_rating" data-teacher="Biddeford Middle School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Biddeford Middle School">
+<i class="fa fa-institution"></i>
+<span class="value">Rate Biddeford Middle School</span>
+</a>
+</h2>
+<div class="detail_item address">
+<a href="https://www.google.com/maps/search/25%20Tiger%20Dr%2C%20Biddeford%2C%20Maine%2004005%2C%20Biddeford%2C%20Maine%2C%2004005%2C%20United%20States" target="_blank" title="25 Tiger Dr, Biddeford, Maine 04005">
+<i class="fa fa-map-marker"></i>
+<span class="value">25 Tiger Dr, Biddeford, Maine 04005</span>
+</a>
+</div>
+<div class="detail_item phone">
+<a class="school_phone_trigger" data-phone="2072826400" href="javascript:void(0);">
+<i class="fa fa-phone"></i>
+<span itemprop="telephone">207-282-6400</span>
+</a>
+</div>
+<h2 class="detail_item district">
+<i class="fa fa-map"></i>
+Biddeford School Department
+</h2>
+<div class="enrollment">
+<div class="detail_item student">
+<i class="fa fa-graduation-cap"></i>
+577
+Students
+Enrolled
+</div>
+<div class="detail_item gender">
+<i class="fa fa-pie-chart"></i>
+313
+Male
+|
+264
+Female
+</div>
+</div>
+</div>
+<span class="dn" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">25 Tiger Dr</span>
+<span itemprop="addressLocality">Biddeford</span>
+<span itemprop="addressRegion">ME</span>
+<span itemprop="postalCode">04005</span>
+</span>
+</div>
+</div>
+<div class="school_content">
+<div class="sticky_container_center">
+<div class="sticky_column">
+<div class="row">
+<div class="col-xs-12">
+<div class="filter_section">
+<div class="row subtitle">
+<div class="col-xs-6">
+<h2 class="active">
+<a href="http://www.ratemyteachers.com/biddeford-middle-school/53015-s" title="View Biddeford Middle School's Teachers">
+Faculty:
+74
+Teachers
+</a>
+</h2>
+</div>
+<div class="col-xs-6">
+<h2 class>
+<a href="http://www.ratemyteachers.com/biddeford-middle-school/53015-s/school-reviews" title="View Biddeford Middle School's Reviews">
+Biddeford Middle School
+Reviews
+</a>
+</h2>
+</div>
+</div>
+<div class="row search_form_container">
+<div class="col-md-2 sort_options">
+<select id="sort_by" name="sort_by"><option value>Sort by</option><option value></option><option value>Latest Update</option>
+<option value="last_name">Last Name</option>
+<option value="first_name">First Name</option>
+<option value="avg_asc">Average Rating: Low to High</option>
+<option value="avg_desc">Average Rating: High to Low</option></select>
+</div>
+<form action="/biddeford-middle-school/53015-s" class="simple_form inline_form" id="school_search_by_teacher_form">
+<div class="col-md-9 text">
+<input name="q" placeholder="Search by Teacher" type="text">
+</div>
+<div class="col-md-1 options">
+<button class="btn fa fa-search fa-2x" name="commit" title="Search by Teacher" type="submit"></button>
+</div>
+</form>
+</div>
+<div class="row extra">
+<a class="col-xs-4 new_admin_request_trigger apply_admin" data-remote="/admin/new?sid=53015" data-school="Biddeford Middle School" data-sender="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Become Biddeford Middle School's Moderator">
+<i class="fa fa-user-plus"></i>
+<span>Become a Moderator!</span>
+</a>
+<a class="col-xs-4 new_school_rating_trigger school_review" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=53015" data-sender-name="School page Search bar" data-target="#modal_rating" data-teacher="Biddeford Middle School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for Biddeford Middle School">
+<i class="fa fa-institution"></i>
+<span>Write a School Review</span>
+</a>
+<a class="col-xs-4 new_teacher_trigger add_teacher" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=53015" data-school="Biddeford Middle School" data-sender-name="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher to Biddeford Middle School">
+<i class="fa fa-user-plus"></i>
+<span>Add Teacher</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="teachers">
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Amy Delorge's Ratings" class="name" href="/amy-delorge/865277-t" target="_blank" title="View Amy Delorge's Ratings">
+Amy Delorge
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/music" title="View Biddeford Middle School&#39;s Music Teachers">Music</a>
+</div>
+<div class="teacher_actions" data-name="Amy Delorge" data-sid="53015" data-status="-2" data-tid="865277" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 92.620px;"></div>
+</div>
+</div>
+<div class="rating_count">10 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She made band fun
+</div>
+<div class="options">
+<a alt="View Amy Delorge's Ratings" class="btn view_more" href="/amy-delorge/865277-t" title="View Amy Delorge's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/amy-delorge/865277-t"></a>
+</div>
+<div class="ad_container taboola_video">
+
+<div id="taboola-below-article-thumbnails"></div>
+<script type="text/javascript">
+        functionToLoad.push(function() {
+          window._taboola = window._taboola || [];
+          _taboola.push({
+            mode: 'thumbnails-a',
+            container: 'taboola-below-article-thumbnails',
+            placement: 'Below Article Thumbnails',
+            target_type: 'mix'
+          });
+        });
+      </script>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Webber's Ratings" class="name" href="/webber/1736283-t" target="_blank" title="View Webber's Ratings">
+Webber
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/math" title="View Biddeford Middle School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Webber" data-sid="53015" data-status="-2" data-tid="1736283" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+mrs.webbers class is the high class so it is kind of hard but she really helps you so u understand and she is fun
+</div>
+<div class="options">
+<a alt="View Webber's Ratings" class="btn view_more" href="/webber/1736283-t" title="View Webber's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/webber/1736283-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Rick Jackson's Ratings" class="name" href="/rick-jackson/1722508-t" target="_blank" title="View Rick Jackson's Ratings">
+Rick Jackson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/math" title="View Biddeford Middle School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Rick Jackson" data-sid="53015" data-status="-2" data-tid="1722508" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best teacher in the whole school and i loved having him as a teacher he was so nice to the class and everyone liked him
+</div>
+<div class="options">
+<a alt="View Rick Jackson's Ratings" class="btn view_more" href="/rick-jackson/1722508-t" title="View Rick Jackson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/rick-jackson/1722508-t"></a>
+</div>
+
+<div class="ad_container ATF">
+<div id="School_ATF_Leaderboard" style="border: 0px solid blue; text-align: center;">
+
+<div id="lead_desktop" class="ad-tag" data-ad-name="lead_desktop" data-ad-size="728x90"></div>
+</div>
+</div>
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hawkins' Ratings" class="name" href="/hawkins/2479966-t" target="_blank" title="View Hawkins' Ratings">
+Hawkins
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/not-specified" title="View Biddeford Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Hawkins" data-sid="53015" data-status="-2" data-tid="2479966" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+she is so nice and positive all the time
+</div>
+<div class="options">
+<a alt="View Hawkins' Ratings" class="btn view_more" href="/hawkins/2479966-t" title="View Hawkins' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hawkins/2479966-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Leslie Jordan's Ratings" class="name" href="/leslie-jordan/2467996-t" target="_blank" title="View Leslie Jordan's Ratings">
+Leslie Jordan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/not-specified" title="View Biddeford Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Leslie Jordan" data-sid="53015" data-status="-2" data-tid="2467996" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2467996" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Leslie Jordan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Leslie Jordan">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2467996" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Leslie Jordan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Leslie Jordan">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/leslie-jordan/2467996-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jay Demick's Ratings" class="name" href="/jay-demick/2451241-t" target="_blank" title="View Jay Demick's Ratings">
+Jay Demick
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/not-specified" title="View Biddeford Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Jay Demick" data-sid="53015" data-status="-2" data-tid="2451241" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Awesome teacher. Understands middle school students and their problems. Easy to talk to, but expects you to be...
+</div>
+<div class="options">
+<a alt="View Jay Demick's Ratings" class="btn view_more" href="/jay-demick/2451241-t" title="View Jay Demick's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jay-demick/2451241-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Beth Donohoe's Ratings" class="name" href="/beth-donohoe/2394092-t" target="_blank" title="View Beth Donohoe's Ratings">
+Beth Donohoe
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/not-specified" title="View Biddeford Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Beth Donohoe" data-sid="53015" data-status="-2" data-tid="2394092" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Beth, you are just a wonderful teacher and i have learned so much from you. If it weren't for you I would probably be...
+</div>
+<div class="options">
+<a alt="View Beth Donohoe's Ratings" class="btn view_more" href="/beth-donohoe/2394092-t" title="View Beth Donohoe's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/beth-donohoe/2394092-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Miller's Ratings" class="name" href="/miller/2391924-t" target="_blank" title="View Miller's Ratings">
+Mrs. Miller
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/math" title="View Biddeford Middle School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Miller" data-sid="53015" data-status="-2" data-tid="2391924" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2391924" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mrs. Miller" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Miller">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2391924" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mrs. Miller" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Miller">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/miller/2391924-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jennifer Wessner's Ratings" class="name" href="/jennifer-wessner/2352214-t" target="_blank" title="View Jennifer Wessner's Ratings">
+Jennifer Wessner
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/social-studies" title="View Biddeford Middle School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Jennifer Wessner" data-sid="53015" data-status="-2" data-tid="2352214" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I love Mrs. Wessner!!!! &lt;3
+</div>
+<div class="options">
+<a alt="View Jennifer Wessner's Ratings" class="btn view_more" href="/jennifer-wessner/2352214-t" title="View Jennifer Wessner's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jennifer-wessner/2352214-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Chip Warner's Ratings" class="name" href="/chip-warner/2322626-t" target="_blank" title="View Chip Warner's Ratings">
+Chip Warner
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/math" title="View Biddeford Middle School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Chip Warner" data-sid="53015" data-status="-2" data-tid="2322626" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+he is nice
+</div>
+<div class="options">
+<a alt="View Chip Warner's Ratings" class="btn view_more" href="/chip-warner/2322626-t" title="View Chip Warner's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/chip-warner/2322626-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Devon Werthner's Ratings" class="name" href="/devon-werthner/2306577-t" target="_blank" title="View Devon Werthner's Ratings">
+Devon Werthner
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/principal" title="View Biddeford Middle School&#39;s Principal Teachers">Principal</a>
+</div>
+<div class="teacher_actions" data-name="Devon Werthner" data-sid="53015" data-status="-2" data-tid="2306577" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2306577" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Devon Werthner" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Devon Werthner">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2306577" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Devon Werthner" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Devon Werthner">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/devon-werthner/2306577-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kim Sheehan's Ratings" class="name" href="/kim-sheehan/2299474-t" target="_blank" title="View Kim Sheehan's Ratings">
+Kim Sheehan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/not-specified" title="View Biddeford Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Kim Sheehan" data-sid="53015" data-status="-2" data-tid="2299474" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2299474" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Kim Sheehan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Kim Sheehan">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2299474" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Kim Sheehan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Kim Sheehan">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kim-sheehan/2299474-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Bryan Bedard's Ratings" class="name" href="/bryan-bedard/2297505-t" target="_blank" title="View Bryan Bedard's Ratings">
+Bryan Bedard
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/not-specified" title="View Biddeford Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Bryan Bedard" data-sid="53015" data-status="-2" data-tid="2297505" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 96.800px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+hahahaha yeaa, this is a real teacher... :P
+</div>
+<div class="options">
+<a alt="View Bryan Bedard's Ratings" class="btn view_more" href="/bryan-bedard/2297505-t" title="View Bryan Bedard's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/bryan-bedard/2297505-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Diana Mullins' Ratings" class="name" href="/diana-mullins/2280726-t" target="_blank" title="View Diana Mullins' Ratings">
+Diana Mullins
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/english" title="View Biddeford Middle School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Diana Mullins" data-sid="53015" data-status="-2" data-tid="2280726" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2280726" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Diana Mullins" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Diana Mullins">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2280726" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Diana Mullins" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Diana Mullins">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/diana-mullins/2280726-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Ron Zellers' Ratings" class="name" href="/ron-zellers/2280729-t" target="_blank" title="View Ron Zellers' Ratings">
+Ron Zellers
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/not-specified" title="View Biddeford Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Ron Zellers" data-sid="53015" data-status="-2" data-tid="2280729" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 100.320px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Zellers is an awesome teacher and great with kids. I hope he teaches for a long time at biddeford.
+</div>
+<div class="options">
+<a alt="View Ron Zellers' Ratings" class="btn view_more" href="/ron-zellers/2280729-t" title="View Ron Zellers' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/ron-zellers/2280729-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Chuck Lomonte's Ratings" class="name" href="/chuck-lomonte/2280744-t" target="_blank" title="View Chuck Lomonte's Ratings">
+Chuck Lomonte
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/principal" title="View Biddeford Middle School&#39;s Principal Teachers">Principal</a>
+</div>
+<div class="teacher_actions" data-name="Chuck Lomonte" data-sid="53015" data-status="-2" data-tid="2280744" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He took the time to really get to know me. He is awesome !!!
+</div>
+<div class="options">
+<a alt="View Chuck Lomonte's Ratings" class="btn view_more" href="/chuck-lomonte/2280744-t" title="View Chuck Lomonte's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/chuck-lomonte/2280744-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Drapeau's Ratings" class="name" href="/drapeau/2255304-t" target="_blank" title="View Drapeau's Ratings">
+Drapeau
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/english" title="View Biddeford Middle School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Drapeau" data-sid="53015" data-status="-2" data-tid="2255304" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Ms.Drapeau is extremely fun and it is very easy to receive an &quot;A&quot; in her class.
+</div>
+<div class="options">
+<a alt="View Drapeau's Ratings" class="btn view_more" href="/drapeau/2255304-t" title="View Drapeau's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/drapeau/2255304-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hatt's Ratings" class="name" href="/hatt/2255306-t" target="_blank" title="View Hatt's Ratings">
+Hatt
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/not-specified" title="View Biddeford Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Hatt" data-sid="53015" data-status="-2" data-tid="2255306" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is sweet
+</div>
+<div class="options">
+<a alt="View Hatt's Ratings" class="btn view_more" href="/hatt/2255306-t" title="View Hatt's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hatt/2255306-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Susanne Dunn's Ratings" class="name" href="/susanne-dunn/2228063-t" target="_blank" title="View Susanne Dunn's Ratings">
+Susanne Dunn
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/reading" title="View Biddeford Middle School&#39;s Reading Teachers">Reading</a>
+</div>
+<div class="teacher_actions" data-name="Susanne Dunn" data-sid="53015" data-status="-2" data-tid="2228063" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2228063" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Susanne Dunn" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Susanne Dunn">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2228063" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Susanne Dunn" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Susanne Dunn">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/susanne-dunn/2228063-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Angela Fiandaca's Ratings" class="name" href="/angela-fiandaca/2223150-t" target="_blank" title="View Angela Fiandaca's Ratings">
+Angela Fiandaca
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/counselor" title="View Biddeford Middle School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="teacher_actions" data-name="Angela Fiandaca" data-sid="53015" data-status="-2" data-tid="2223150" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+she is an amazing counselor
+</div>
+<div class="options">
+<a alt="View Angela Fiandaca's Ratings" class="btn view_more" href="/angela-fiandaca/2223150-t" title="View Angela Fiandaca's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/angela-fiandaca/2223150-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Barbara Fortier's Ratings" class="name" href="/barbara-fortier/2107531-t" target="_blank" title="View Barbara Fortier's Ratings">
+Barbara Fortier
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/science" title="View Biddeford Middle School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Barbara Fortier" data-sid="53015" data-status="-2" data-tid="2107531" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I believe Barbara Fortier is a very knowledgable teacher and deserves respect for her accomplishments.
+</div>
+<div class="options">
+<a alt="View Barbara Fortier's Ratings" class="btn view_more" href="/barbara-fortier/2107531-t" title="View Barbara Fortier's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/barbara-fortier/2107531-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Duguay's Ratings" class="name" href="/duguay/2085908-t" target="_blank" title="View Duguay's Ratings">
+Ms. Duguay
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/not-specified" title="View Biddeford Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Ms. Duguay" data-sid="53015" data-status="-2" data-tid="2085908" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2085908" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Ms. Duguay" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Duguay">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2085908" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Ms. Duguay" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ms. Duguay">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/duguay/2085908-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Petit's Ratings" class="name" href="/petit/2069185-t" target="_blank" title="View Petit's Ratings">
+Petit
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/not-specified" title="View Biddeford Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Petit" data-sid="53015" data-status="-2" data-tid="2069185" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He is the best teacher ever he is nice and kind and willing to help you with your homework and I just think he is the...
+</div>
+<div class="options">
+<a alt="View Petit's Ratings" class="btn view_more" href="/petit/2069185-t" title="View Petit's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/petit/2069185-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hayner's Ratings" class="name" href="/hayner/2067933-t" target="_blank" title="View Hayner's Ratings">
+Hayner
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/music" title="View Biddeford Middle School&#39;s Music Teachers">Music</a>
+</div>
+<div class="teacher_actions" data-name="Hayner" data-sid="53015" data-status="-2" data-tid="2067933" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 71.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+gave me too much detention
+</div>
+<div class="options">
+<a alt="View Hayner's Ratings" class="btn view_more" href="/hayner/2067933-t" title="View Hayner's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hayner/2067933-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lynsey West's Ratings" class="name" href="/lynsey-west/2067937-t" target="_blank" title="View Lynsey West's Ratings">
+Lynsey West
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/not-specified" title="View Biddeford Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Lynsey West" data-sid="53015" data-status="-2" data-tid="2067937" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+she is cool...
+</div>
+<div class="options">
+<a alt="View Lynsey West's Ratings" class="btn view_more" href="/lynsey-west/2067937-t" title="View Lynsey West's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lynsey-west/2067937-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Thomas Pastorelli's Ratings" class="name" href="/thomas-pastorelli/2067322-t" target="_blank" title="View Thomas Pastorelli's Ratings">
+Thomas Pastorelli
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/history" title="View Biddeford Middle School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Thomas Pastorelli" data-sid="53015" data-status="-2" data-tid="2067322" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 103.400px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I love him
+</div>
+<div class="options">
+<a alt="View Thomas Pastorelli's Ratings" class="btn view_more" href="/thomas-pastorelli/2067322-t" title="View Thomas Pastorelli's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/thomas-pastorelli/2067322-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Claire Smith's Ratings" class="name" href="/claire-smith/2067325-t" target="_blank" title="View Claire Smith's Ratings">
+Claire Smith
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/multiple-subjects" title="View Biddeford Middle School&#39;s Multiple Subjects Teachers">Multiple Subjects</a>
+</div>
+<div class="teacher_actions" data-name="Claire Smith" data-sid="53015" data-status="-2" data-tid="2067325" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 66.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She should stick with special ed not 8th grade...
+</div>
+<div class="options">
+<a alt="View Claire Smith's Ratings" class="btn view_more" href="/claire-smith/2067325-t" title="View Claire Smith's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/claire-smith/2067325-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Thomas Coakley's Ratings" class="name" href="/thomas-coakley/2066148-t" target="_blank" title="View Thomas Coakley's Ratings">
+Thomas Coakley
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/english" title="View Biddeford Middle School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Thomas Coakley" data-sid="53015" data-status="-2" data-tid="2066148" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+great teacher... yhaa brother
+</div>
+<div class="options">
+<a alt="View Thomas Coakley's Ratings" class="btn view_more" href="/thomas-coakley/2066148-t" title="View Thomas Coakley's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/thomas-coakley/2066148-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Chris Gebhardt's Ratings" class="name" href="/chris-gebhardt/2065843-t" target="_blank" title="View Chris Gebhardt's Ratings">
+Chris Gebhardt
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/fine-arts" title="View Biddeford Middle School&#39;s Fine Arts Teachers">Fine Arts</a>
+</div>
+<div class="teacher_actions" data-name="Chris Gebhardt" data-sid="53015" data-status="-2" data-tid="2065843" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+hes the best teacher in the school
+</div>
+<div class="options">
+<a alt="View Chris Gebhardt's Ratings" class="btn view_more" href="/chris-gebhardt/2065843-t" title="View Chris Gebhardt's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/chris-gebhardt/2065843-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Bill Ezzard's Ratings" class="name" href="/bill-ezzard/2040111-t" target="_blank" title="View Bill Ezzard's Ratings">
+Bill Ezzard
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/english" title="View Biddeford Middle School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Bill Ezzard" data-sid="53015" data-status="-2" data-tid="2040111" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 49.500px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+online textbook. all i have to say. on.line.text.book.
+</div>
+<div class="options">
+<a alt="View Bill Ezzard's Ratings" class="btn view_more" href="/bill-ezzard/2040111-t" title="View Bill Ezzard's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/bill-ezzard/2040111-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Donna Jordan's Ratings" class="name" href="/donna-jordan/2030674-t" target="_blank" title="View Donna Jordan's Ratings">
+Donna Jordan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/grade-6" title="View Biddeford Middle School&#39;s Grade 6 Teachers">Grade 6</a>
+</div>
+<div class="teacher_actions" data-name="Donna Jordan" data-sid="53015" data-status="-2" data-tid="2030674" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+i love mrs jordan!!!!! she is so cool
+</div>
+<div class="options">
+<a alt="View Donna Jordan's Ratings" class="btn view_more" href="/donna-jordan/2030674-t" title="View Donna Jordan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/donna-jordan/2030674-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mathew Moon's Ratings" class="name" href="/mathew-moon/2001413-t" target="_blank" title="View Mathew Moon's Ratings">
+Mathew Moon
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/english" title="View Biddeford Middle School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Mathew Moon" data-sid="53015" data-status="-2" data-tid="2001413" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2001413" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mathew Moon" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mathew Moon">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2001413" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mathew Moon" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mathew Moon">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mathew-moon/2001413-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tom McGovern's Ratings" class="name" href="/tom-mcgovern/1989324-t" target="_blank" title="View Tom McGovern's Ratings">
+Tom McGovern
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/languages" title="View Biddeford Middle School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Tom McGovern" data-sid="53015" data-status="-2" data-tid="1989324" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He is a really nice French teacher. He is kinda cool and he is nice!
+</div>
+<div class="options">
+<a alt="View Tom McGovern's Ratings" class="btn view_more" href="/tom-mcgovern/1989324-t" title="View Tom McGovern's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tom-mcgovern/1989324-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Nicole Fecteau's Ratings" class="name" href="/nicole-fecteau/1989325-t" target="_blank" title="View Nicole Fecteau's Ratings">
+Nicole Fecteau
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/languages" title="View Biddeford Middle School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Nicole Fecteau" data-sid="53015" data-status="-2" data-tid="1989325" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 85.800px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+i don't like her at all. she is gunna make kids not do french!!!!! she is too boring! plus all movies have to be g or...
+</div>
+<div class="options">
+<a alt="View Nicole Fecteau's Ratings" class="btn view_more" href="/nicole-fecteau/1989325-t" title="View Nicole Fecteau's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/nicole-fecteau/1989325-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jeff Mears' Ratings" class="name" href="/jeff-mears/1989326-t" target="_blank" title="View Jeff Mears' Ratings">
+Jeff Mears
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/physical-education" title="View Biddeford Middle School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class="teacher_actions" data-name="Jeff Mears" data-sid="53015" data-status="-2" data-tid="1989326" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+he is the best teacher ever and i like him so much:)
+</div>
+<div class="options">
+<a alt="View Jeff Mears' Ratings" class="btn view_more" href="/jeff-mears/1989326-t" title="View Jeff Mears' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jeff-mears/1989326-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Ruth Perrson's Ratings" class="name" href="/ruth-perrson/1988068-t" target="_blank" title="View Ruth Perrson's Ratings">
+Ruth Perrson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/nursing" title="View Biddeford Middle School&#39;s Nursing Teachers">Nursing</a>
+</div>
+<div class="teacher_actions" data-name="Ruth Perrson" data-sid="53015" data-status="-2" data-tid="1988068" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+5 for everything &lt;3 love her
+</div>
+<div class="options">
+<a alt="View Ruth Perrson's Ratings" class="btn view_more" href="/ruth-perrson/1988068-t" title="View Ruth Perrson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/ruth-perrson/1988068-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Barbara Burgess' Ratings" class="name" href="/barbara-burgess/1987017-t" target="_blank" title="View Barbara Burgess' Ratings">
+Barbara Burgess
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/science" title="View Biddeford Middle School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Barbara Burgess" data-sid="53015" data-status="-2" data-tid="1987017" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I like her but sometimes she assigns work or bonus questions without telling us then says she did!! Wrong!!
+</div>
+<div class="options">
+<a alt="View Barbara Burgess' Ratings" class="btn view_more" href="/barbara-burgess/1987017-t" title="View Barbara Burgess' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/barbara-burgess/1987017-t"></a>
+</div>
+
+<div class="ad_container MID">
+<div id="School_MID_Leaderboard" class="sponsor">
+
+<div id="mrec_desktop" class="ad-tag" data-ad-name="mrec_desktop" data-ad-size="300x250"></div>
+</div>
+</div>
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Richard Souza's Ratings" class="name" href="/richard-souza/1987020-t" target="_blank" title="View Richard Souza's Ratings">
+Richard Souza
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/science" title="View Biddeford Middle School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Richard Souza" data-sid="53015" data-status="-2" data-tid="1987020" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+haha simply the BEST science class ever! we had awesome people in it. just to laugh at his jokes you have to get...
+</div>
+<div class="options">
+<a alt="View Richard Souza's Ratings" class="btn view_more" href="/richard-souza/1987020-t" title="View Richard Souza's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/richard-souza/1987020-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Margi Byrnes' Ratings" class="name" href="/margi-byrnes/1985109-t" target="_blank" title="View Margi Byrnes' Ratings">
+Margi Byrnes
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/not-specified" title="View Biddeford Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Margi Byrnes" data-sid="53015" data-status="-2" data-tid="1985109" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+ms byrnes was an awesome advisory teacher! miss that class best people ever. '08-'09 advisory!:D but she did have her...
+</div>
+<div class="options">
+<a alt="View Margi Byrnes' Ratings" class="btn view_more" href="/margi-byrnes/1985109-t" title="View Margi Byrnes' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/margi-byrnes/1985109-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Charlene Uldbjerg's Ratings" class="name" href="/charlene-uldbjerg/1985126-t" target="_blank" title="View Charlene Uldbjerg's Ratings">
+Charlene Uldbjerg
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/geography" title="View Biddeford Middle School&#39;s Geography Teachers">Geography</a>
+</div>
+<div class="teacher_actions" data-name="Charlene Uldbjerg" data-sid="53015" data-status="-2" data-tid="1985126" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Uldbjerg is a really nice teacher. She is always nice to people and is a really good geography teacher.
+</div>
+<div class="options">
+<a alt="View Charlene Uldbjerg's Ratings" class="btn view_more" href="/charlene-uldbjerg/1985126-t" title="View Charlene Uldbjerg's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/charlene-uldbjerg/1985126-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Patrick Bolin's Ratings" class="name" href="/patrick-bolin/1949517-t" target="_blank" title="View Patrick Bolin's Ratings">
+Patrick Bolin
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/band" title="View Biddeford Middle School&#39;s Band Teachers">Band</a>
+</div>
+<div class="teacher_actions" data-name="Patrick Bolin" data-sid="53015" data-status="-2" data-tid="1949517" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr.Bolin is amazing!!!!!!! He is one of my favorite teachers already and I haven't gone to high-school yet!!!!!! YAY...
+</div>
+<div class="options">
+<a alt="View Patrick Bolin's Ratings" class="btn view_more" href="/patrick-bolin/1949517-t" title="View Patrick Bolin's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/patrick-bolin/1949517-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Warner's Ratings" class="name" href="/warner/1945605-t" target="_blank" title="View Warner's Ratings">
+Warner
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/math" title="View Biddeford Middle School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Warner" data-sid="53015" data-status="-2" data-tid="1945605" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1945605" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Warner" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Warner">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1945605" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Warner" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Warner">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/warner/1945605-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Douglas McDonald's Ratings" class="name" href="/douglas-mcdonald/1933294-t" target="_blank" title="View Douglas McDonald's Ratings">
+Douglas McDonald
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/computer-science" title="View Biddeford Middle School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class="teacher_actions" data-name="Douglas McDonald" data-sid="53015" data-status="-2" data-tid="1933294" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1933294" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Douglas McDonald" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Douglas McDonald">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1933294" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Douglas McDonald" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Douglas McDonald">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/douglas-mcdonald/1933294-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Katina Sherman's Ratings" class="name" href="/katina-sherman/1909033-t" target="_blank" title="View Katina Sherman's Ratings">
+Katina Sherman
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/grade-6" title="View Biddeford Middle School&#39;s Grade 6 Teachers">Grade 6</a>
+</div>
+<div class="teacher_actions" data-name="Katina Sherman" data-sid="53015" data-status="-2" data-tid="1909033" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I really liked mrs. Sherman! she was very nice
+</div>
+<div class="options">
+<a alt="View Katina Sherman's Ratings" class="btn view_more" href="/katina-sherman/1909033-t" title="View Katina Sherman's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/katina-sherman/1909033-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jennifer Neyenhouse's Ratings" class="name" href="/jennifer-neyenhouse/1909036-t" target="_blank" title="View Jennifer Neyenhouse's Ratings">
+Jennifer Neyenhouse
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/social-studies" title="View Biddeford Middle School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Jennifer Neyenhouse" data-sid="53015" data-status="-2" data-tid="1909036" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Ms. Neyenhouse, you have been an amazing teacher all year. You have been such a positive role model in my life and...
+</div>
+<div class="options">
+<a alt="View Jennifer Neyenhouse's Ratings" class="btn view_more" href="/jennifer-neyenhouse/1909036-t" title="View Jennifer Neyenhouse's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jennifer-neyenhouse/1909036-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Elizabeth Brazier's Ratings" class="name" href="/elizabeth-brazier/1772015-t" target="_blank" title="View Elizabeth Brazier's Ratings">
+Elizabeth Brazier
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/languages" title="View Biddeford Middle School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Elizabeth Brazier" data-sid="53015" data-status="-2" data-tid="1772015" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 82.500px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is nice but she talks in spanish to much. I dont know what she means sometimes!!!!
+</div>
+<div class="options">
+<a alt="View Elizabeth Brazier's Ratings" class="btn view_more" href="/elizabeth-brazier/1772015-t" title="View Elizabeth Brazier's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/elizabeth-brazier/1772015-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jan Kohl's Ratings" class="name" href="/jan-kohl/1757653-t" target="_blank" title="View Jan Kohl's Ratings">
+Jan Kohl
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/not-specified" title="View Biddeford Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Jan Kohl" data-sid="53015" data-status="-2" data-tid="1757653" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1757653" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Jan Kohl" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Jan Kohl">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1757653" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Jan Kohl" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Jan Kohl">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jan-kohl/1757653-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Laura Friedman's Ratings" class="name" href="/laura-friedman/1757062-t" target="_blank" title="View Laura Friedman's Ratings">
+Laura Friedman
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/multiple-subjects" title="View Biddeford Middle School&#39;s Multiple Subjects Teachers">Multiple Subjects</a>
+</div>
+<div class="teacher_actions" data-name="Laura Friedman" data-sid="53015" data-status="-2" data-tid="1757062" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1757062" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Laura Friedman" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Laura Friedman">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1757062" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Laura Friedman" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Laura Friedman">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/laura-friedman/1757062-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Marie Potvin's Ratings" class="name" href="/marie-potvin/1757064-t" target="_blank" title="View Marie Potvin's Ratings">
+Marie Potvin
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/multiple-subjects" title="View Biddeford Middle School&#39;s Multiple Subjects Teachers">Multiple Subjects</a>
+</div>
+<div class="teacher_actions" data-name="Marie Potvin" data-sid="53015" data-status="-2" data-tid="1757064" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 107.360px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+she isnt as mean as everyone says she is... i feel bad 4 her at times, like now...
+</div>
+<div class="options">
+<a alt="View Marie Potvin's Ratings" class="btn view_more" href="/marie-potvin/1757064-t" title="View Marie Potvin's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/marie-potvin/1757064-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Lori Hickey's Ratings" class="name" href="/lori-hickey/1753751-t" target="_blank" title="View Lori Hickey's Ratings">
+Lori Hickey
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/science" title="View Biddeford Middle School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Lori Hickey" data-sid="53015" data-status="-1" data-tid="1753751" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 35.200px;"></div>
+</div>
+</div>
+<div class="rating_count">10 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Worst teacher but sometimes nice
+</div>
+<div class="options">
+<a alt="View Lori Hickey's Ratings" class="btn view_more" href="/lori-hickey/1753751-t" title="View Lori Hickey's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/lori-hickey/1753751-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tom Sferes' Ratings" class="name" href="/tom-sferes/1725523-t" target="_blank" title="View Tom Sferes' Ratings">
+Tom Sferes
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/languages" title="View Biddeford Middle School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Tom Sferes" data-sid="53015" data-status="-2" data-tid="1725523" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 101.420px;"></div>
+</div>
+</div>
+<div class="rating_count">11 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Really seems to care about his students...
+</div>
+<div class="options">
+<a alt="View Tom Sferes' Ratings" class="btn view_more" href="/tom-sferes/1725523-t" title="View Tom Sferes' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tom-sferes/1725523-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Boucher's Ratings" class="name" href="/boucher/1722523-t" target="_blank" title="View Boucher's Ratings">
+Boucher
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/history" title="View Biddeford Middle School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Boucher" data-sid="53015" data-status="-2" data-tid="1722523" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I didn't have him this year, but as a sub, he was good! (:
+</div>
+<div class="options">
+<a alt="View Boucher's Ratings" class="btn view_more" href="/boucher/1722523-t" title="View Boucher's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/boucher/1722523-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tammy Lavigne's Ratings" class="name" href="/tammy-lavigne/1722541-t" target="_blank" title="View Tammy Lavigne's Ratings">
+Tammy Lavigne
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/science" title="View Biddeford Middle School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Tammy Lavigne" data-sid="53015" data-status="-2" data-tid="1722541" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+One of the best teachers at BIddeford Middle School. She has a great relationship with the students.
+</div>
+<div class="options">
+<a alt="View Tammy Lavigne's Ratings" class="btn view_more" href="/tammy-lavigne/1722541-t" title="View Tammy Lavigne's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tammy-lavigne/1722541-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Charles Lomonte's Ratings" class="name" href="/charles-lomonte/1722556-t" target="_blank" title="View Charles Lomonte's Ratings">
+Charles Lomonte
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/principal" title="View Biddeford Middle School&#39;s Principal Teachers">Principal</a>
+</div>
+<div class="teacher_actions" data-name="Charles Lomonte" data-sid="53015" data-status="-2" data-tid="1722556" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.080px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He is a good principal and I like him a lot.
+</div>
+<div class="options">
+<a alt="View Charles Lomonte's Ratings" class="btn view_more" href="/charles-lomonte/1722556-t" title="View Charles Lomonte's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/charles-lomonte/1722556-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Rico Mariello's Ratings" class="name" href="/rico-mariello/1722484-t" target="_blank" title="View Rico Mariello's Ratings">
+Rico Mariello
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/reading" title="View Biddeford Middle School&#39;s Reading Teachers">Reading</a>
+</div>
+<div class="teacher_actions" data-name="Rico Mariello" data-sid="53015" data-status="-2" data-tid="1722484" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.720px;"></div>
+</div>
+</div>
+<div class="rating_count">14 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mariello is awesome best teacher everrrr!!!!!!!!!!
+</div>
+<div class="options">
+<a alt="View Rico Mariello's Ratings" class="btn view_more" href="/rico-mariello/1722484-t" title="View Rico Mariello's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/rico-mariello/1722484-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Brad Shaw's Ratings" class="name" href="/brad-shaw/1705509-t" target="_blank" title="View Brad Shaw's Ratings">
+Brad Shaw
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/social-studies" title="View Biddeford Middle School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Brad Shaw" data-sid="53015" data-status="-2" data-tid="1705509" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Is a great teacher and bball coach. Really can put a smile on someones face. And he can really make learning fun
+</div>
+<div class="options">
+<a alt="View Brad Shaw's Ratings" class="btn view_more" href="/brad-shaw/1705509-t" title="View Brad Shaw's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/brad-shaw/1705509-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Ann Putney's Ratings" class="name" href="/ann-putney/1603737-t" target="_blank" title="View Ann Putney's Ratings">
+Ann Putney
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/science" title="View Biddeford Middle School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Ann Putney" data-sid="53015" data-status="-2" data-tid="1603737" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Shes nice and funny and one of my fav. teachersss &lt;33 best!!!
+</div>
+<div class="options">
+<a alt="View Ann Putney's Ratings" class="btn view_more" href="/ann-putney/1603737-t" title="View Ann Putney's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/ann-putney/1603737-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Annie Cosgrove's Ratings" class="name" href="/annie-cosgrove/1603740-t" target="_blank" title="View Annie Cosgrove's Ratings">
+Annie Cosgrove
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/grade-6" title="View Biddeford Middle School&#39;s Grade 6 Teachers">Grade 6</a>
+</div>
+<div class="teacher_actions" data-name="Annie Cosgrove" data-sid="53015" data-status="-2" data-tid="1603740" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+she's nice
+</div>
+<div class="options">
+<a alt="View Annie Cosgrove's Ratings" class="btn view_more" href="/annie-cosgrove/1603740-t" title="View Annie Cosgrove's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/annie-cosgrove/1603740-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Cheryl Coughlin's Ratings" class="name" href="/cheryl-coughlin/1262872-t" target="_blank" title="View Cheryl Coughlin's Ratings">
+Cheryl Coughlin
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/not-specified" title="View Biddeford Middle School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Cheryl Coughlin" data-sid="53015" data-status="-2" data-tid="1262872" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1262872" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Cheryl Coughlin" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Cheryl Coughlin">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1262872" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Cheryl Coughlin" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Cheryl Coughlin">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/cheryl-coughlin/1262872-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Alan Dutremble's Ratings" class="name" href="/alan-dutremble/1218483-t" target="_blank" title="View Alan Dutremble's Ratings">
+Alan Dutremble
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/social-studies" title="View Biddeford Middle School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="Alan Dutremble" data-sid="53015" data-status="-2" data-tid="1218483" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.080px;"></div>
+</div>
+</div>
+<div class="rating_count">11 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He is my favoritee i love him. I wish i could stay in 6 grade forever and just have him!! I love his jokes and...
+</div>
+<div class="options">
+<a alt="View Alan Dutremble's Ratings" class="btn view_more" href="/alan-dutremble/1218483-t" title="View Alan Dutremble's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/alan-dutremble/1218483-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Whitten's Ratings" class="name" href="/whitten/1154505-t" target="_blank" title="View Whitten's Ratings">
+Whitten
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/math" title="View Biddeford Middle School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Whitten" data-sid="53015" data-status="-2" data-tid="1154505" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 49.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+mrs whitten is not helpfull at all she will not help you with schoolwork and is in my own oppinion very rude and...
+</div>
+<div class="options">
+<a alt="View Whitten's Ratings" class="btn view_more" href="/whitten/1154505-t" title="View Whitten's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/whitten/1154505-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Patty Jean's Ratings" class="name" href="/patty-jean/1047868-t" target="_blank" title="View Patty Jean's Ratings">
+Patty Jean
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/science" title="View Biddeford Middle School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Patty Jean" data-sid="53015" data-status="-2" data-tid="1047868" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+This teacher is really fun to have!!
+</div>
+<div class="options">
+<a alt="View Patty Jean's Ratings" class="btn view_more" href="/patty-jean/1047868-t" title="View Patty Jean's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/patty-jean/1047868-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View England's Ratings" class="name" href="/england/1047871-t" target="_blank" title="View England's Ratings">
+England
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/reading" title="View Biddeford Middle School&#39;s Reading Teachers">Reading</a>
+</div>
+<div class="teacher_actions" data-name="England" data-sid="53015" data-status="-2" data-tid="1047871" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+she is awesome.......says kim gato
+</div>
+<div class="options">
+<a alt="View England's Ratings" class="btn view_more" href="/england/1047871-t" title="View England's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/england/1047871-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Mozden's Ratings" class="name" href="/mozden/1047874-t" target="_blank" title="View Mozden's Ratings">
+Mozden
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/home-economics" title="View Biddeford Middle School&#39;s Home Economics Teachers">Home Economics</a>
+</div>
+<div class="teacher_actions" data-name="Mozden" data-sid="53015" data-status="-2" data-tid="1047874" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 73.260px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Mozden is one of the nicest teachers I have ever had. She is really nice to me and is really helpful. She is...
+</div>
+<div class="options">
+<a alt="View Mozden's Ratings" class="btn view_more" href="/mozden/1047874-t" title="View Mozden's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/mozden/1047874-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Wilson's Ratings" class="name" href="/wilson/1047875-t" target="_blank" title="View Wilson's Ratings">
+Wilson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/fine-arts" title="View Biddeford Middle School&#39;s Fine Arts Teachers">Fine Arts</a>
+</div>
+<div class="teacher_actions" data-name="Wilson" data-sid="53015" data-status="-2" data-tid="1047875" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1047875" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Wilson" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Wilson">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1047875" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Wilson" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Wilson">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/wilson/1047875-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sampson's Ratings" class="name" href="/sampson/1047876-t" target="_blank" title="View Sampson's Ratings">
+Sampson
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/technology" title="View Biddeford Middle School&#39;s Technology Teachers">Technology</a>
+</div>
+<div class="teacher_actions" data-name="Sampson" data-sid="53015" data-status="-2" data-tid="1047876" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+i don like him. he teased and annoying me a lot......
+</div>
+<div class="options">
+<a alt="View Sampson's Ratings" class="btn view_more" href="/sampson/1047876-t" title="View Sampson's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sampson/1047876-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Weeks' Ratings" class="name" href="/weeks/1047877-t" target="_blank" title="View Weeks' Ratings">
+Weeks
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/principal" title="View Biddeford Middle School&#39;s Principal Teachers">Principal</a>
+</div>
+<div class="teacher_actions" data-name="Weeks" data-sid="53015" data-status="-2" data-tid="1047877" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+miss yas want you to come back even tho mr lamonte is cool
+</div>
+<div class="options">
+<a alt="View Weeks' Ratings" class="btn view_more" href="/weeks/1047877-t" title="View Weeks' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/weeks/1047877-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Marc Bourassa's Ratings" class="name" href="/marc-bourassa/905871-t" target="_blank" title="View Marc Bourassa's Ratings">
+Marc Bourassa
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/reading" title="View Biddeford Middle School&#39;s Reading Teachers">Reading</a>
+</div>
+<div class="teacher_actions" data-name="Marc Bourassa" data-sid="53015" data-status="-2" data-tid="905871" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.060px;"></div>
+</div>
+</div>
+<div class="rating_count">13 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+THis Teacher is the absolute best teacher. He rlly knows how to help a kid out and make learning fun
+</div>
+<div class="options">
+<a alt="View Marc Bourassa's Ratings" class="btn view_more" href="/marc-bourassa/905871-t" title="View Marc Bourassa's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/marc-bourassa/905871-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View S. Silva's Ratings" class="name" href="/s-silva/897304-t" target="_blank" title="View S. Silva's Ratings">
+S. Silva
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/reading" title="View Biddeford Middle School&#39;s Reading Teachers">Reading</a>
+</div>
+<div class="teacher_actions" data-name="S. Silva" data-sid="53015" data-status="-2" data-tid="897304" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+she is the best teacher ever!!!!
+</div>
+<div class="options">
+<a alt="View S. Silva's Ratings" class="btn view_more" href="/s-silva/897304-t" title="View S. Silva's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/s-silva/897304-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View C. Putnam's Ratings" class="name" href="/c-putnam/895157-t" target="_blank" title="View C. Putnam's Ratings">
+C. Putnam
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/social-studies" title="View Biddeford Middle School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class="teacher_actions" data-name="C. Putnam" data-sid="53015" data-status="-2" data-tid="895157" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Awesome teacher just make sure you don't act up! And Pass in homeowrk and Projects!!
+</div>
+<div class="options">
+<a alt="View C. Putnam's Ratings" class="btn view_more" href="/c-putnam/895157-t" title="View C. Putnam's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/c-putnam/895157-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jeanne Montembeau's Ratings" class="name" href="/jeanne-montembeau/895146-t" target="_blank" title="View Jeanne Montembeau's Ratings">
+Jeanne Montembeau
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/english" title="View Biddeford Middle School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Jeanne Montembeau" data-sid="53015" data-status="-2" data-tid="895146" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is a very nice teacher and help's out when anybody needs help.
+</div>
+<div class="options">
+<a alt="View Jeanne Montembeau's Ratings" class="btn view_more" href="/jeanne-montembeau/895146-t" title="View Jeanne Montembeau's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jeanne-montembeau/895146-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Fred Eder's Ratings" class="name" href="/fred-eder/850976-t" target="_blank" title="View Fred Eder's Ratings">
+Fred Eder
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/english" title="View Biddeford Middle School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Fred Eder" data-sid="53015" data-status="-2" data-tid="850976" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=850976" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Fred Eder" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Fred Eder">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=850976" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Fred Eder" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Fred Eder">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/fred-eder/850976-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Heather Wakelin's Ratings" class="name" href="/heather-wakelin/850981-t" target="_blank" title="View Heather Wakelin's Ratings">
+Heather Wakelin
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/geography" title="View Biddeford Middle School&#39;s Geography Teachers">Geography</a>
+</div>
+<div class="teacher_actions" data-name="Heather Wakelin" data-sid="53015" data-status="-2" data-tid="850981" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 89.760px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs.Wakelin is awesome!! I wish she didn;t move to Abu Dhabi, but she was by far the best teacher on team 3 :D
+</div>
+<div class="options">
+<a alt="View Heather Wakelin's Ratings" class="btn view_more" href="/heather-wakelin/850981-t" title="View Heather Wakelin's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/heather-wakelin/850981-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Chelsea Brittian's Ratings" class="name" href="/chelsea-brittian/7991253-t" target="_blank" title="View Chelsea Brittian's Ratings">
+Chelsea Brittian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/biddeford-middle-school/53015-s/science" title="View Biddeford Middle School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Chelsea Brittian" data-sid="53015" data-status="-2" data-tid="7991253" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Brittain is funny, hip, and is super at fidget spinners. She is good at helping us and keeping us working....
+</div>
+<div class="options">
+<a alt="View Chelsea Brittian's Ratings" class="btn view_more" href="/chelsea-brittian/7991253-t" title="View Chelsea Brittian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/chelsea-brittian/7991253-t"></a>
+</div>
+
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-lg-3 secondary_column">
+<div class="ad_container ATF_rectangle sponsor">
+<div id="School_ATF_Rectangle">
+
+<div class="ad-tag" data-ad-name="halfpage_Desktop_mrec" data-ad-size="300x250"></div>
+</div>
+</div>
+<div class="row block_container demographic_card">
+<div class="tab_horizontal_format">
+<div class="col-xs-12 tab_header">
+<ul class="nav nav-tabs nav-top collapsible_nav collapsible_nav_collapsed" id="enrollment_charts" role="tablist">
+<li>
+<a alt="Enrollment By Year" data-toggle="tab" data-type="by_year" href="#enrollment_by_year" role="tab">
+<span>Enrollment By Year</span>
+<span class="arrow_container">
+<i class="arrow fa fa-angle-right"></i>
+</span>
+</a>
+<a class="toggle" href="javascript:void(0);">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li>
+<a alt="Enrollment By Ethnicity" data-toggle="tab" data-type="by_ethnicity" href="#enrollment_by_ethnicity" role="tab">
+<span>Enrollment By Ethnicity</span>
+<span class="arrow_container">
+<i class="arrow fa fa-angle-right"></i>
+</span>
+</a>
+<a class="toggle" href="javascript:void(0);">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li>
+<a alt="Enrollment By Gender" data-toggle="tab" data-type="by_gender" href="#enrollment_by_gender" role="tab">
+<span>Enrollment By Gender</span>
+<span class="arrow_container">
+<i class="arrow fa fa-angle-right"></i>
+</span>
+</a>
+<a class="toggle" href="javascript:void(0);">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+</ul>
+</div>
+<a class="col-xs-12 tab_container tab-content enrollment" href="/biddeford-middle-school/53015-s/stats" title="Go to Biddeford Middle School stats">
+<span class="tab-pane charts_container students_charts_container" id="enrollment_by_year">
+<span class="graph_info" id="students_charts" style="min-height: 200px;">Loading ...</span>
+</span>
+<span class="tab-pane charts_container ethnicity_chart_container" id="enrollment_by_ethnicity">
+<span class="graph_info" id="ethnicity_chart" style="min-height: 200px;">Loading ...</span>
+</span>
+<span class="tab-pane charts_container gender_container" id="enrollment_by_gender">
+<span class="row gender_info">
+<span class="col-xs-5">
+<span class="icon icon-male">
+<span class="aux"></span>
+</span>
+</span>
+<span class="col-xs-4 text">Male</span>
+<span class="col-xs-3 count">313</span>
+</span>
+<span class="row gender_info">
+<span class="col-xs-5">
+<span class="icon icon-female">
+<span class="aux"></span>
+</span>
+</span>
+<span class="col-xs-4 text">Female</span>
+<span class="col-xs-3 count">264</span>
+</span>
+</span>
+<span class="data_from">
+Data by NCES 2013
+</span>
+</a>
+</div>
+</div>
+<div class="sticky_container_right">
+<div class="sticky_column">
+<div class="ad_container ATF_rectangle_2">
+<div class="sponsor">
+<div style="min-height:250px; width:300px;">
+
+<div id="mrec_desktop_2" class="ad-tag" data-ad-name="mrec_desktop_2" data-ad-size="300x250"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="all_footer_wrapper" style="overflow:hidden;">
+<section class="container-fluid hidden-xs padding" id="states">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-sm-offset-0 footer_states_container">
+<h3>Locate Schools by State:</h3>
+<div class="states">
+<div class="state">
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class="state">
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class="state">
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class="state">
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class="state">
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class="state">
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class="state">
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class="state">
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class="state">
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class="state">
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class="state">
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class="state">
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class="state">
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class="state">
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class="state">
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class="state">
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class="state">
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class="state">
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class="state">
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class="state">
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class="state">
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class="state">
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class="state">
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class="state">
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class="state">
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class="state">
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class="state">
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class="state">
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class="state">
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class="state">
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class="state">
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class="state">
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class="state">
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class="state">
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class="state">
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class="state">
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class="state">
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class="state">
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class="state">
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class="state">
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class="state">
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class="state">
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class="state">
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class="state">
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class="state">
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class="state">
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class="state">
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class="state">
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer_directory">
+<div class="container">
+<div class="row">
+<div class="col-xs-6 hidden-xs">
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;W&quot;" href="/schools/directory/w" title="Schools beginning with &quot;W&quot;">w</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class="col-xs-6 hidden-xs">
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;W&quot;" href="/teachers/directory/w" title="Teachers beginning with &quot;W&quot;">w</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class="row footer_countries_list">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer">
+<div class="container">
+<div class="row footer_links">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+<h3 class="hidden-sm hidden-md hidden-lg">Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop="static" data-keyboard data-remote="/contact/new" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Contact RateMyTeachers">
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="row copyright">
+Copyright 2001-2017 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden="true" class="modal fade" id="modal" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div aria-hidden="true" class="modal fade" id="modal_rating" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div id="loading-indicator" style="display: none;">
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif"/>
+</div>
+</div>
+<div class="amp_ad_unit amp_ad_unit_template" style="display: none;">
+<a class="amp_clickurl amp_no_text" href="javascript:void(0);" rel="nofollow" target="_blank">
+<span class="amp_title"></span>
+<span class="amp_extension_merchant_rating" style="display: none;">
+<span class="amp_extension_merchant_rating_rating" data-star-width="18">
+<div class="rateit star-rating rateit-exclude" title>
+<div class="rateit-range" style="width: 90px; height: 15px;">
+<div class="rateit-preset rateit-selected" style="height: 15px; width: 0.000px;"></div>
+</div>
+</div>
+</span>
+</span>
+<span class="amp_description"></span>
+<span class="amp_displayurl"></span>
+<img class="amp_impressionurl" style="height: 1px; width: 1px;">
+</a>
+<span class="row amp_extension_site_links"></span>
+<span class="arrow">
+<span class="aux"></span>
+</span>
+<span class="amp_site_link_template" style="display: none;">
+<a class="col-xs-6 amp_extension_site_links_link">
+<span class="amp_extension_site_links_text"></span>
+</a>
+</span>
+</div>
+</div>
+<script type="text/javascript">
+    functionToLoad.push('//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js');
+  </script>
+<script type="text/javascript">
+    functionToLoad.push('/assets/application-54ea36510d376e4b53979f87d72bc002.js');
+    functionToLoad.push('/assets/users-8d86f10db3dd4d729784ef9748a4b44e.js');
+  </script>
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        // Facebook like
+        // (function(d, s, id) {
+        //   var js, fjs = d.getElementsByTagName(s)[0];
+        //   if (d.getElementById(id)) return;
+        //   js = d.createElement(s); js.id = id;
+        //   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=232453153516852&version=v2.0";
+        //   fjs.parentNode.insertBefore(js, fjs);
+        // }(document, 'script', 'facebook-jssdk'));
+
+        // Google Plus
+        // (function() {
+        //   var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        //   po.src = 'https://apis.google.com/js/platform.js';
+        //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        // })();
+
+        // Twitter Follow
+        // !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      
+      });
+    </script>
+<script type="text/javascript">
+  functionToLoad.push(["https://www.google.com/jsapi", true, [
+    function() {
+      enrollmentByEthnicity = {};
+        enrollmentByEthnicity = {"American Indiant/Alaskan (5)":5,"Asian (20)":20,"African American (11)":11,"Hispanic (20)":20,"White (494)":494,"Two or More Races (27)":27};
+
+      totalStudentsHistory = {"2009":610,"2010":595,"2011":599,"2012":572,"2013":577} ;
+      initSchoolStatsPage(true, true, true);
+
+      google.load("visualization", "1", {
+        packages:["corechart"],
+        callback: function(){
+          $('body').trigger('chart-ready');
+        }
+      });
+    }
+  ]]);
+</script>
+<script>
+  functionToLoad.push(function() {
+    $('#teachers_by_alphabet').change(function(e){
+      document.location.href = $('#teachers_by_alphabet').val()
+    });
+  });
+</script>
+<script>
+  functionToLoad.push(function() {
+    var schoolPagePath = '/biddeford-middle-school/53015-s';
+    var resultCount = 74;
+    var minStickyResultCount = 3;
+
+    if (!isMobile && !isMedium && resultCount > 0) {
+      var stickyColumnRight = $(".sticky_container_right .sticky_column");
+      var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+      var footerHeight = $('#all_footer_wrapper').outerHeight() + 50;
+      var stickyOptions = function(getWidthFrom) {
+        return {topSpacing:0, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+      }
+      stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+      // Make center column options sticky when min results quantity
+      if (resultCount > minStickyResultCount - 1) {
+        stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+      }
+    }
+  });
+</script>
+
+<script type="text/javascript">
+        functionToLoad.push([function() {
+          window._taboola = window._taboola || [];
+          _taboola.push({flush: true});
+        }, true]);
+      </script>
+<script type="text/javascript">
+    function initializeMaps() {
+      var length = mapFunctionArray.length;
+      for (var i = 0; i < length; i++) {
+        mapFunctionArray[i]();
+      }
+    }
+
+    functionToLoad.push(function() {
+      // Don't load google maps when no pending maps
+      if (typeof(mapFunctionArray) === 'undefined' || mapFunctionArray.length < 1)
+        return;
+
+      var googleMapsId = "AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g";
+
+      var script_path = "http://maps.googleapis.com/maps/api/js?key=" + googleMapsId + "&sensor=false&callback=initializeMaps";
+      $.getScript(script_path);
+
+    });
+  </script>
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        $('.search_form input[name=q]').on("autocompleteopen", function(e) {
+          var input = $(e.target);
+          var url = 'http://ratemyteachers_contextual.ampfeed.com/xmlamp/feed?deco=1&extn=0%2C2&ip=163.172.146.78&partner=ratemyteachers_contextual&results=2&rfr=http%3A%2F%2Fwww.ratemyteachers.com%2Fbiddeford-middle-school%2F53015-s&sub1=desktop&sub2=searchbox&ua=Mozilla%2F5.0+%28Windows+NT+6.1%3B+WOW64%3B+rv%3A37.0%29+Gecko%2F20100101+Firefox%2F37.0&v=5';
+          var country = 'United States';
+          var location = '';
+          var keywords = 'college scholarship in ';
+          if ($('#state').val() !== '') {
+            location = $("#state option:selected").text();
+            location = location.split('-')[0];
+            //keywords = 'online colleges in ';
+          } else {
+            location = country;
+            //keywords = 'online colleges in ';
+          }
+          url += '&qt=["' + encodeURIComponent(keywords + location) + '"]';
+          ampAdRegister('amp_ads_autocomplete', url);
+        });
+      });
+    </script>
+
+
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-bottom"};
+      });
+      functionToLoad.push("//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js");
+    </script>
+
+<script>
+    window.addEventListener('load', function(){
+      console.info("[PERF] DomContentLoaded: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+
+    window.addEventListener('load', function(){
+      console.info("[PERF] Load: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+  </script>
+
+<script type="text/javascript">
+    (function() {
+      // Load script from url
+      var loadScript = function(url, callback) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+
+        // Add on load callback event
+        if (callback !== null) {
+          if (script.readyState){ //IE
+            script.onreadystatechange = function(){
+              if (script.readyState == "loaded" || script.readyState == "complete"){
+                script.onreadystatechange = null;
+                callback();
+              }
+            };
+          } else { //Others
+            // Execute callback even when an error happen
+            script.onerror = function(e){
+              try {
+                console.error("An error happen when loading '" + err.target.src + "' script.");
+              } catch(err) {} finally {
+                callback();
+              }
+            };
+            script.onload = function(){ callback(); };
+          }
+        }
+
+        // Load the script
+        script.src = url;
+        document.body.appendChild(script);
+      };
+
+      // Load scripts in a sequence instead parallel
+      // to make sure frameworks load correctly
+      function sequence(index, max, source) {
+        if (index < max) {
+          var data = functionToLoad.extractElementData(source[index]);
+
+          if (typeof data.element === 'string') {
+            if (data.async) {
+              // Async script
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+              });
+              sequence(index + 1, max, source);
+            } else {
+              // Sync scripts
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+                sequence(index + 1, max, source);
+              });
+            }
+          } else {
+            // Execute callback even when an error happen on the function
+            try {
+              if (data.async) {
+                // Async script
+                setTimeout(function() { data.element(); }, 1);
+              } else {
+                // Sync script
+                data.element();
+              }
+            } catch(err) {
+              console.error(err);
+            } finally {
+              sequence(index + 1, max, source);
+            }
+          }
+        }
+      }
+
+      // Load all javascript in a sequence
+      var loadDeferredJs = function() {
+        sequence(0, functionToLoad.length, functionToLoad);
+      };
+
+      // Execute all lazy javascripts after DOM load
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredJs, 0); });
+      else window.addEventListener('load', loadDeferredJs);
+    })();
+  </script>
+
+</body>
+</html>

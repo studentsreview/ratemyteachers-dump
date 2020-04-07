@@ -1,0 +1,2790 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page 5 Of Teachers At Glenbrook South High School - Glenview, Illinois | RateMyTeachers.com</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-4.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":2082,"agentToken":null,"agent":"js-agent.newrelic.com/nr-515.min.js","ttGuid":"d1d3a1ffd98b7ed4"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),u=c.length,f=i(a,o,r),d=0;u>d;d++)c[d].apply(f,n);return f}function a(t,e){u[t]=s(t).concat(e)}function s(t){return u[t]||[]}function c(){return n(e)}var u={};return{on:a,emit:e,create:c,listeners:s,_events:u}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(u){try{r("ierr",[u,(new Date).getTime(),!0])}catch(f){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(4),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(u){"stack"in u&&(t(5),t(3),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:5,4:19,5:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:19,2:20,ee:"QJf3ax",gos:"7eSDFh"}],5:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:20,2:19,ee:"QJf3ax"}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:20,2:19,ee:"QJf3ax"}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t("ee").create(),a=t(1),s=t(2),c=s(i),u=s(a),f=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new f(t);try{i.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",[r])}catch(o){}}return e},window.XMLHttpRequest.prototype=f.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:20,ee:"QJf3ax"}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,u="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=e(u);if(f&&(r.rxSize=f),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,u=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var u=e(o);u&&(r.txSize=u)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",[e])}catch(r){}}};for(var f=0;c>f;f++)n.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:9,3:7,4:4,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.licenseKey&&t.applicationID&&u&&u.body){s(h,function(e,n){e in t||(t[e]=n)}),l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=u.createElement("script");e.src=l.proto+t.agent,u.body.appendChild(e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,u=c.document,f="addEventListener",d="attachEvent",p=(""+location).split("?")[0],h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-515.min.js"},l=e.exports={offset:i(),origin:p,features:{}};u[f]?(u[f]("DOMContentLoaded",o,!1),c[f]("load",n,!1)):(u[d]("onreadystatechange",r),c[d]("onload",n)),a("mark",["firstbyte",i()])},{1:18,handle:"D5DuLP"}],18:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],19:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],20:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,u;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){f([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return u=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,u],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,u(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,u="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,u?s+o:o,i,s,t))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){f([o,e,n,r])}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){f([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function f(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:19,ee:"QJf3ax"}]},{},["G9z0Bl",3,8]);</script>  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw" />
+  
+  <meta name="keywords" content="Rate a teacher from school,read college professor ratings,rate a professor from university,university,rate my teacher,rate,teacher,college,school,high school,schools,elementary school,preschool,middle school,professor ratings,teacher ratings,ratemyteachers.com" />
+
+  <meta name="description" content="Rate Glenbrook South High School in Glenview, Illinois on RateMyTeachers.com" />
+
+
+  <meta name="robots" content="noodp,noydir" />
+  <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+  <link href="&#47;assets&#47;application-7abe0b1af899fb880c2f09b699d6c9cf.css" media="all" rel="stylesheet" />
+  
+  <meta property="og:type" content="rmt:school" />
+<meta property="og:url" content="http:&#47;&#47;www.ratemyteachers.com&#47;glenbrook-south-high-school&#47;7073-s" />
+<meta property="og:site_name" content="Glenbrook South High School on RateMyTeachers.com" />
+<meta property="og:description" content="Rate Glenbrook South High School in Glenview, Illinois on RateMyTeachers.com" />
+
+  <script type="text/javascript">
+    var currentState = 'VA';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:      true,
+    debugMode:            false
+  }
+
+
+ function getWindowWidth() {
+   var myWidth = 0, myHeight = 0;
+     if( typeof( window.innerWidth ) == 'number' ) {
+         myWidth = window.innerWidth; myHeight = window.innerHeight;
+     } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+         myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+     } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+         myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+     }
+     return myWidth;
+ }  
+
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isMobile = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false) || isMobileVariant;
+</script>
+  <script>
+    var gaId = 'UA-4216499-1';
+    
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', gaId, 'auto');
+    ga('require', 'displayfeatures');
+    //ga('require', 'ecommerce', 'ecommerce.js');
+    
+  </script>
+
+<script src="&#47;assets&#47;rmt.analytics-131e93a4bae95d33e6912d9c499775a9.js"></script>
+
+<script>
+  var pageType = "";
+  RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+  var searchTerm = "";
+</script>
+
+
+  <!-- DFP -->
+
+  <!-- Google Custom Ads -->
+  <script type="text/javascript" charset="utf-8">
+    (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+    arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+    O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+    e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+  </script>
+
+
+  <!-- AdSense -->
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+  
+  <!-- WebSpectator -->
+  <script async type="text/javascript" src="//wfpscripts.webspectator.com/bootstrap/ws-8828A2DD.js"></script>
+
+  <script type="text/javascript">window._pt_lt = new Date().getTime();</script>
+ 
+   
+  <link href='http:&#47;&#47;www.ratemyteachers.com&#47;glenbrook-south-high-school&#47;7073-s&#47;5.rss' rel='alternate' type='application&#47;rss+xml'>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="wOg1mrhwPAZPIgz&#47;3UC8eI3mykIykkB3HH0Um8j8YLA=" name="csrf-token" />
+</head>
+<!--
+
+██████╗ ███╗   ███╗████████╗
+██╔══██╗████╗ ████║╚══██╔══╝
+██████╔╝██╔████╔██║   ██║   
+██╔══██╗██║╚██╔╝██║   ██║   
+██║  ██║██║ ╚═╝ ██║   ██║   
+╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝
+
+If you see this we should talk!  We are pretty awesome!
+-->
+<body class="inner_page school_page schools_v7_1
+">
+  <div id="fb-root"></div>
+      <div class='rate_my_teachers_international'>
+<div class='container'>
+<div class='row'>
+<a alt="United States" class="country active" href="http:&#47;&#47;www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http:&#47;&#47;ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http:&#47;&#47;uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http:&#47;&#47;au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http:&#47;&#47;nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http:&#47;&#47;ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+<header>
+<div class='container'>
+<div class='row'>
+<form action='&#47;search_page' class='tab-form search_form' method='get'>
+<a alt='Go to RateMyTeachers Home' href='&#47;' id='rate_my_teachers_logo' title='Go to RateMyTeachers Home'></a>
+<input name='search' type='hidden' value='teachers'>
+<div class='search_inputs'>
+<div class='bg'>
+<div class='padding'>
+<input class='search_input' name='q' placeholder='Search: Professors, Teachers, High Schools, or Colleges' type='text'>
+</div>
+<div class='location'>
+<select class="state" id="state" name="state"><option value="">Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class='search_button'>
+<button class='btn-search fa fa-search fa-3x' title='Search RateMyTeachers' type='submit'></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+
+
+
+    <section class="breadcrumbs container-fluid">
+      <div class="row">
+        <div class="container">
+          <div class="col-sm-12">
+            <ul class='list-inline collapsible_nav collapsible_nav_collapsed'>
+<li class='toggle'>
+<a href='javascript:void(0);' rel='nofollow'>
+<i class='fa fa-bars'></i>
+</a>
+</li>
+<li class='collapse'>
+<a href='&#47;' title='Go to RateMyTeachers Home'>United States</a>
+</li>
+<li class='always_show'>
+<a alt='Go to Schools in Illinois' href='&#47;illinois' title='Go to Schools in Illinois'>Illinois</a>
+</li>
+<li class='collapse'>
+<a alt='Go to Schools in Glenview' href='&#47;illinois&#47;glenview' title='Go to Schools in Glenview'>Glenview</a>
+</li>
+<li class='always_show extra_option'>
+<span class='last'>Glenbrook South High School</span>
+</li>
+<li class='always_show'>
+<a class='new_teacher_trigger' data-backdrop='static' data-keyboard data-school='Glenbrook South High School' data-sender-name='School page breadcrumb' data-target='#modal' data-toggle='modal' href='&#47;teachers&#47;new?sid=7073' rel='nofollow' title='Add My Teacher'>Add My Teacher</a>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+  
+
+  <div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="alert alert-danger" id="flash-error" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-warning" id="flash-alert" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-success" id="flash-success" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-info"  id="flash-notice" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+  
+
+  <div id="content">
+    
+<span itemprop='aggregateRating' itemscope itemtype='http:&#47;&#47;data-vocabulary.org&#47;Review-aggregate'>
+<meta content='Glenbrook South High School' itemprop='itemreviewed'>
+<span itemprop='rating' itemscope itemtype='http:&#47;&#47;data-vocabulary.org&#47;Rating'>
+<meta content='4.13451' itemprop='average'>
+<meta content='5' itemprop='best'>
+<meta content='0' itemprop='worst'>
+</span>
+<meta content='2903' itemprop='votes'>
+</span>
+
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+  <div id="School_ATF_Large_Leaderboard">
+    <!-- School_ATF_Large_Leaderboard -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:970px;height:90px"
+         data-ad-client="ca-pub-8322864954623881"
+         data-ad-slot="7130714482"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+</div>
+</div>
+<div class='row'>
+<div class='col-md-4 sticky_container_left'>
+<div class='sticky_column'>
+<section class='school_info' itemscope itemtype='http:&#47;&#47;schema.org&#47;School'>
+<div class='info row'>
+<div class='col-md-12'>
+<div class='info_box'>
+<div class='main_info'>
+<h1 class='title school_name' itemprop='name'>
+Glenbrook South High School
+<a class='edit flag_school_trigger' data-backdrop='static' data-keyboard data-school='Glenbrook South High School' data-sender-name='School page Main' data-target='#modal' data-toggle='modal' href='&#47;schools&#47;7073&#47;flag' rel='nofollow' remote title='Submit a Correction'>
+<span>
+<i class='fa fa-flag'></i>
+Flag
+</span>
+</a>
+
+</h1>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='18' data-rateit-starwidth='22' data-rateit-value='4.13451'></div>
+</div>
+<!-- /.location= school.state_and_city_full -->
+<div class='staff'>
+Based on
+347
+Teachers
+and
+2,901
+Ratings
+</div>
+<div class='row'>
+<div class='col-xs-12 attributes'>
+<div class='attribute'>
+<div class='easy val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Easiness</div>
+</div>
+<div class='attribute'>
+<div class='helpful val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Helpfulness</div>
+</div>
+<div class='attribute'>
+<div class='clarity val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Clarity</div>
+</div>
+<div class='attribute'>
+<div class='knowledgeable val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Knowledge</div>
+</div>
+<div class='attribute'>
+<div class='textbook_use val3 value'>
+<span>3</span>
+</div>
+<div class='text'>Textbook Use</div>
+</div>
+<div class='attribute'>
+<div class='exam_difficulty val3 value'>
+<span>3</span>
+</div>
+<div class='text'>Exam Difficulty</div>
+</div>
+</div>
+</div>
+</div>
+<div class='secondary_info'>
+<div class='col-md-12 stats phone'>
+<div class='title'>Telephone:</div>
+<span itemprop='telephone'>847-486-4559</span>
+</div>
+<div class='col-md-12 map'>
+  <iframe
+    width="100%"
+    height="200"
+    frameborder="0" style="border:0;"
+    src="https:&#47;&#47;www.google.com&#47;maps&#47;embed&#47;v1&#47;place?key=AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g&amp;q=4000+West+Lake+Avenue%2CGlenview%2C+IL+60026%2C+Glenview%2C+Illinois%2C+60026%2C+United+States">
+  </iframe>
+
+</div>
+<div class='col-md-12 stats'>
+<div class='title strong'>Address:</div>
+<span itemprop='address'>4000 West Lake Avenue,Glenview, Il 60026, Glenview, Illinois 60026</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class='apply_school_administrator_wrapper secondary'>
+<a class='new_admin_request_trigger' data-school='Glenbrook South High School' data-sender='School page' data-target='#modal' data-toggle='modal' href='&#47;admin&#47;new?sid=7073' rel='nofollow' title='Become Glenbrook South High School&#39;s Admin'>
+Become Glenbrook South High School&#39;s Admin
+</a>
+</div>
+
+</div>
+</div>
+<div class='col-md-4 middle'>
+<section class='school_teachers content'>
+<!-- - else -->
+<!-- .item -->
+<div class='sticky_container_center'>
+<div class='sticky_column' style='z-index:999; background-color:#fff;'>
+<div class='search padding hidden-xs'>
+<form action='&#47;glenbrook-south-high-school&#47;7073-s' class='simple_form inline_form'>
+<div class='row'>
+<div class='col-xs-12 col-md-7 left'>
+<input name='q' placeholder='Search by Teacher' type='text'>
+<input class='btn btn-default' name='commit' type='submit' value='Search'>
+</div>
+<div class='col-xs-12 col-md-5 right'>
+<select id="school_departments" name="school_departments"><option value="">Select a Department</option><option value=""></option><option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;not-specified">Not Specified</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;accounting">Accounting</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;administration">Administration</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;anthropology">Anthropology</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;architecture">Architecture</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;asl">ASL</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;auto-tech">Auto Tech</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;band">Band</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;biology">Biology</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;business">Business</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;chemistry">Chemistry</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;co-op">Co-op</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;communications">Communications</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;computer-science">Computer Science</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;counselor">Counselor</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;drafting">Drafting</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;drivers-education">Drivers Education</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;economics">Economics</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;education">Education</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;english">English</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;esl">ESL</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;family-consumer-sciences">Family & Consumer Sciences</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;film">Film</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;fine-arts">Fine Arts</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;french">French</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;geography">Geography</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;grade-1">Grade 1</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;grade-2">Grade 2</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;grade-3">Grade 3</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;grade-4">Grade 4</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;grade-5">Grade 5</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;grade-6">Grade 6</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;grade-k">Grade K</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;grammaire-composition">Grammaire/Composition</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;headmaster">Headmaster</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;health">Health</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;history">History</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;home-economics">Home Economics</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;ib-program">IB Program</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;independent-study">Independent Study</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;industrial-education">Industrial Education</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;journalism">Journalism</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;languages">Languages</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;law">Law</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;librarian">Librarian</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;math">Math</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;media">Media</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;multiple-subjects">Multiple Subjects</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;music">Music</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;nursing">Nursing</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;performing-arts">Performing Arts</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;philosophy">Philosophy</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;photography">Photography</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;physical-education">Physical Education</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;physics">Physics</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;principal">Principal</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;psychology">Psychology</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;reading">Reading</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;religion">Religion</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;resource">Resource</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;rotc">ROTC</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;science">Science</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;social-studies">Social Studies</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;sociology">Sociology</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;speech">Speech</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;study-skills">Study Skills</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;substitute-teacher">Substitute Teacher</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;technology">Technology</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;vice-principal">Vice Principal</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;visual-arts">Visual Arts</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;writing">Writing</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;art">Art</option>
+<option value="&#47;glenbrook-south-high-school&#47;7073-s&#47;special-education">Special Education</option></select>
+</div>
+</div>
+</form>
+</div>
+<ul class='teachers_by_alphabet'>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with A' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;a' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with A'>a</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with B' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;b' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with B'>b</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with C' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;c' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with C'>c</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with D' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;d' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with D'>d</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with E' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;e' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with E'>e</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with F' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;f' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with F'>f</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with G' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;g' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with G'>g</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with H' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;h' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with H'>h</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with I' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;i' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with I'>i</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with J' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;j' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with J'>j</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with K' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;k' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with K'>k</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with L' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;l' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with L'>l</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with M' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;m' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with M'>m</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with N' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;n' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with N'>n</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with O' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;o' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with O'>o</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with P' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;p' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with P'>p</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with Q' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;q' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with Q'>q</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with R' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;r' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with R'>r</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with S' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;s' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with S'>s</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with T' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;t' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with T'>t</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with U' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;u' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with U'>u</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with V' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;v' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with V'>v</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with X' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;x' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with X'>x</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with Y' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;y' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with Y'>y</a>
+</li>
+<li>
+<a alt='Teachers at Glenbrook South High School whose names begin with Z' href='&#47;glenbrook-south-high-school&#47;7073-s&#47;z' rel='nofollow' title='Teachers at Glenbrook South High School whose names begin with Z'>z</a>
+</li>
+</ul>
+
+</div>
+</div>
+<div class='header padding'>
+Showing
+347 Teachers
+<!-- and -->
+<!-- %span.colorized= pluralize ratings_count, 'Rating' -->
+from Glenbrook South High School
+</div>
+<div class='teachers padding'>
+
+
+
+  <div id="School_ATF_Leaderboard">
+    <!-- School_ATF_Leaderboard_web -->
+    <ins class="adsbygoogle"
+      style="display:inline-block;width:336px;height:280px"
+      data-ad-client="ca-pub-8322864954623881"
+      data-ad-slot="1367689285"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Daniel Hicks&#39; Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;daniel-hicks&#47;619656-t" title="View Daniel Hicks&#39; Ratings">Daniel Hicks</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.92'></div>
+<span class='rating_count'>13 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;social-studies" title="View Glenbrook South High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"hes my brudder...hes my bruddderr................ITS A BABBBUUUUUU"</span>
+<a alt="View Daniel Hicks&#39; Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;daniel-hicks&#47;619656-t" title="View Daniel Hicks&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;daniel-hicks&#47;619656-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Jim Tsagalis&#39; Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;jim-tsagalis&#47;888653-t" title="View Jim Tsagalis&#39; Ratings">Jim Tsagalis</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.9'></div>
+<span class='rating_count'>5 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;drivers-education" title="View Glenbrook South High School&#39;s Drivers Education Teachers">Drivers Education</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"a real pain. intimidating."</span>
+<a alt="View Jim Tsagalis&#39; Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;jim-tsagalis&#47;888653-t" title="View Jim Tsagalis&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;jim-tsagalis&#47;888653-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View David Schoenwetter&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;david-schoenwetter&#47;509376-t" title="View David Schoenwetter&#39;s Ratings">David Schoenwetter</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.9'></div>
+<span class='rating_count'>19 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;social-studies" title="View Glenbrook South High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Had a good sense of humor, which helped him present the boring class material.  Could have..."</span>
+<a alt="View David Schoenwetter&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;david-schoenwetter&#47;509376-t" title="View David Schoenwetter&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;david-schoenwetter&#47;509376-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Gregory Schwab&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;gregory-schwab&#47;2502608-t" title="View Gregory Schwab&#39;s Ratings">Gregory Schwab</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.89'></div>
+<span class='rating_count'>9 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;languages" title="View Glenbrook South High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Best teacher in the world!  Can&#39;t even believe it. "</span>
+<a alt="View Gregory Schwab&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;gregory-schwab&#47;2502608-t" title="View Gregory Schwab&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;gregory-schwab&#47;2502608-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Susan Flickinger&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;susan-flickinger&#47;2341990-t" title="View Susan Flickinger&#39;s Ratings">Susan Flickinger</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.87'></div>
+<span class='rating_count'>18 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;history" title="View Glenbrook South High School&#39;s History Teachers">History</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mrs. Flickinger is an amazing teacher. You can truly see how much she loves teaching and you can..."</span>
+<a alt="View Susan Flickinger&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;susan-flickinger&#47;2341990-t" title="View Susan Flickinger&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;susan-flickinger&#47;2341990-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Chris Hilvert&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;chris-hilvert&#47;312098-t" title="View Chris Hilvert&#39;s Ratings">Chris Hilvert</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.86'></div>
+<span class='rating_count'>19 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;science" title="View Glenbrook South High School&#39;s Science Teachers">Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Great teacher. Knows his stuff and is good at helping with difficult concepts. One of my favorite..."</span>
+<a alt="View Chris Hilvert&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;chris-hilvert&#47;312098-t" title="View Chris Hilvert&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;chris-hilvert&#47;312098-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Matthew Drone&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;matthew-drone&#47;1176859-t" title="View Matthew Drone&#39;s Ratings">Matthew Drone</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.86'></div>
+<span class='rating_count'>7 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;counselor" title="View Glenbrook South High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"he is beyond Good, he is exceptional and a true professional!"</span>
+<a alt="View Matthew Drone&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;matthew-drone&#47;1176859-t" title="View Matthew Drone&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;matthew-drone&#47;1176859-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Janet Vinopal&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;janet-vinopal&#47;1444384-t" title="View Janet Vinopal&#39;s Ratings">Janet Vinopal</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.85'></div>
+<span class='rating_count'>11 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;health" title="View Glenbrook South High School&#39;s Health Teachers">Health</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She is a good soul and you learn to love her and she talks alot about her personal life but she..."</span>
+<a alt="View Janet Vinopal&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;janet-vinopal&#47;1444384-t" title="View Janet Vinopal&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;janet-vinopal&#47;1444384-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Tate&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;tate&#47;1837780-t" title="View Tate&#39;s Ratings">Tate</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.83'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;communications" title="View Glenbrook South High School&#39;s Communications Teachers">Communications</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"I never really liked her, she gives out candy and is pretty open, but her comm class is boring,..."</span>
+<a alt="View Tate&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;tate&#47;1837780-t" title="View Tate&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;tate&#47;1837780-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Krukoski&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;krukoski&#47;2120883-t" title="View Krukoski&#39;s Ratings">Krukoski</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.83'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;not-specified" title="View Glenbrook South High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"SHE&#39;S GREAT!"</span>
+<a alt="View Krukoski&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;krukoski&#47;2120883-t" title="View Krukoski&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;krukoski&#47;2120883-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Elizabeth Proske&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;elizabeth-proske&#47;323191-t" title="View Elizabeth Proske&#39;s Ratings">Elizabeth Proske</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.82'></div>
+<span class='rating_count'>26 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;math" title="View Glenbrook South High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Do yer homework, listen up in class, focus, study, and you&#39;ll be fine.  Everybody has a rough..."</span>
+<a alt="View Elizabeth Proske&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;elizabeth-proske&#47;323191-t" title="View Elizabeth Proske&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;elizabeth-proske&#47;323191-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Terry Benjamin&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;terry-benjamin&#47;1319135-t" title="View Terry Benjamin&#39;s Ratings">Terry Benjamin</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.81'></div>
+<span class='rating_count'>18 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;history" title="View Glenbrook South High School&#39;s History Teachers">History</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"he is the man, best sense of humor and a very intelligent person"</span>
+<a alt="View Terry Benjamin&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;terry-benjamin&#47;1319135-t" title="View Terry Benjamin&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;terry-benjamin&#47;1319135-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Jean Simmons&#39; Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;jean-simmons&#47;1811326-t" title="View Jean Simmons&#39; Ratings">Jean Simmons</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.79'></div>
+<span class='rating_count'>8 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;not-specified" title="View Glenbrook South High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mrs. Jean Simmons was the best summer school cooking teacher ever!!! I loved her class and she&#39;s..."</span>
+<a alt="View Jean Simmons&#39; Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;jean-simmons&#47;1811326-t" title="View Jean Simmons&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;jean-simmons&#47;1811326-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Stephanie Bailey&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;stephanie-bailey&#47;1713232-t" title="View Stephanie Bailey&#39;s Ratings">Stephanie Bailey</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.78'></div>
+<span class='rating_count'>12 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;english" title="View Glenbrook South High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"hands down the best english teacher I&#39;ve ever had. She wasn&#39;t an easy grader, but she grades..."</span>
+<a alt="View Stephanie Bailey&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;stephanie-bailey&#47;1713232-t" title="View Stephanie Bailey&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;stephanie-bailey&#47;1713232-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Stephanie Brannen&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;stephanie-brannen&#47;1219172-t" title="View Stephanie Brannen&#39;s Ratings">Stephanie Brannen</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.75'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;english" title="View Glenbrook South High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"I hated Ms. Brannen...now Mrs. Bailey...she grades super hard and is mean"</span>
+<a alt="View Stephanie Brannen&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;stephanie-brannen&#47;1219172-t" title="View Stephanie Brannen&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;stephanie-brannen&#47;1219172-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Susan Liebowitz&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;susan-liebowitz&#47;1219257-t" title="View Susan Liebowitz&#39;s Ratings">Susan Liebowitz</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.75'></div>
+<span class='rating_count'>4 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;french" title="View Glenbrook South High School&#39;s French Teachers">French</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"I had Madame for 3&#47;4 years of French. I learned so much from her, scored high on the AP, was..."</span>
+<a alt="View Susan Liebowitz&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;susan-liebowitz&#47;1219257-t" title="View Susan Liebowitz&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;susan-liebowitz&#47;1219257-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Mary Vicars&#39; Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;mary-vicars&#47;1760563-t" title="View Mary Vicars&#39; Ratings">Mary Vicars</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.75'></div>
+<span class='rating_count'>14 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;social-studies" title="View Glenbrook South High School&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Vicars+Jared Diamond= perfection"</span>
+<a alt="View Mary Vicars&#39; Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;mary-vicars&#47;1760563-t" title="View Mary Vicars&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;mary-vicars&#47;1760563-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View John Cowlin&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;john-cowlin&#47;1638113-t" title="View John Cowlin&#39;s Ratings">John Cowlin</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.75'></div>
+<span class='rating_count'>38 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;english" title="View Glenbrook South High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He&#39;s the best English teacher I have ever had! His incorporation of swears and racism into his..."</span>
+<a alt="View John Cowlin&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;john-cowlin&#47;1638113-t" title="View John Cowlin&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;john-cowlin&#47;1638113-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Jim Glynn&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;jim-glynn&#47;1963948-t" title="View Jim Glynn&#39;s Ratings">Jim Glynn</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.73'></div>
+<span class='rating_count'>10 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;not-specified" title="View Glenbrook South High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Probably the sassiest guy I&#39;ve ever met but probably one of my favorite teachers. Obviously knows..."</span>
+<a alt="View Jim Glynn&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;jim-glynn&#47;1963948-t" title="View Jim Glynn&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;jim-glynn&#47;1963948-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Ann Golding&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;ann-golding&#47;1509437-t" title="View Ann Golding&#39;s Ratings">Ann Golding</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.73'></div>
+<span class='rating_count'>11 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;languages" title="View Glenbrook South High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She is tough and only speaks in Spanish but u learn a lot.   I am learning so much more than..."</span>
+<a alt="View Ann Golding&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;ann-golding&#47;1509437-t" title="View Ann Golding&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;ann-golding&#47;1509437-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View David Knudson&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;david-knudson&#47;1443790-t" title="View David Knudson&#39;s Ratings">David Knudson</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.72'></div>
+<span class='rating_count'>9 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;english" title="View Glenbrook South High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"hes a good teacher and a good guy but when he wants you to write essays half the class doent even..."</span>
+<a alt="View David Knudson&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;david-knudson&#47;1443790-t" title="View David Knudson&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;david-knudson&#47;1443790-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Dave Smith&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;dave-smith&#47;1727146-t" title="View Dave Smith&#39;s Ratings">Dave Smith</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.72'></div>
+<span class='rating_count'>6 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;physics" title="View Glenbrook South High School&#39;s Physics Teachers">Physics</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"he talks soooo fast......"</span>
+<a alt="View Dave Smith&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;dave-smith&#47;1727146-t" title="View Dave Smith&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;dave-smith&#47;1727146-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Schmalzer&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;schmalzer&#47;2120373-t" title="View Schmalzer&#39;s Ratings">Schmalzer</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.69'></div>
+<span class='rating_count'>14 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;math" title="View Glenbrook South High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Offers lots of help outside of class and teaches very clearly."</span>
+<a alt="View Schmalzer&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;schmalzer&#47;2120373-t" title="View Schmalzer&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;schmalzer&#47;2120373-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Diane Dillon&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;diane-dillon&#47;179796-t" title="View Diane Dillon&#39;s Ratings">Diane Dillon</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.68'></div>
+<span class='rating_count'>19 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;science" title="View Glenbrook South High School&#39;s Science Teachers">Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She was one of my favorite teachers freshman year.  She answers questions well and her..."</span>
+<a alt="View Diane Dillon&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;diane-dillon&#47;179796-t" title="View Diane Dillon&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;diane-dillon&#47;179796-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Katie Klahn&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;katie-klahn&#47;175732-t" title="View Katie Klahn&#39;s Ratings">Katie Klahn</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.68'></div>
+<span class='rating_count'>30 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;english" title="View Glenbrook South High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She is an absolutely amazing french teacher. She is so sweet and helpful and her class is so much..."</span>
+<a alt="View Katie Klahn&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;katie-klahn&#47;175732-t" title="View Katie Klahn&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;katie-klahn&#47;175732-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Steve Farber&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;steve-farber&#47;3163004-t" title="View Steve Farber&#39;s Ratings">Steve Farber</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.67'></div>
+<span class='rating_count'>3 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;math" title="View Glenbrook South High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Pretty cool dude. "</span>
+<a alt="View Steve Farber&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;steve-farber&#47;3163004-t" title="View Steve Farber&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;steve-farber&#47;3163004-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Dell Kennedy&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;dell-kennedy&#47;748016-t" title="View Dell Kennedy&#39;s Ratings">Dell Kennedy</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.67'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;technology" title="View Glenbrook South High School&#39;s Technology Teachers">Technology</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Best ever! No need for textbook. She IS the textbook. If you didn&#39;t learn, that&#39;s your prob!..."</span>
+<a alt="View Dell Kennedy&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;dell-kennedy&#47;748016-t" title="View Dell Kennedy&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;dell-kennedy&#47;748016-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Yasuko Makita-discekici&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;yasuko-makita-discekici&#47;1765093-t" title="View Yasuko Makita-discekici&#39;s Ratings">Yasuko Makita-discekici</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;languages" title="View Glenbrook South High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"I love Makita-sensei!  Yes, it is true she isn&#39;t so clear with the English language, but in my..."</span>
+<a alt="View Yasuko Makita-discekici&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;yasuko-makita-discekici&#47;1765093-t" title="View Yasuko Makita-discekici&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;yasuko-makita-discekici&#47;1765093-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Cosgrove Christina&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;cosgrove-christina&#47;3836139-t" title="View Cosgrove Christina&#39;s Ratings">Cosgrove Christina</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.67'></div>
+<span class='rating_count'>1 rating</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;languages" title="View Glenbrook South High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She really isn&#39;t a bad teacher, but she can be the biggest b**** at times. She gets so mad..."</span>
+<a alt="View Cosgrove Christina&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;cosgrove-christina&#47;3836139-t" title="View Cosgrove Christina&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;cosgrove-christina&#47;3836139-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Fred Kocian&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;fred-kocian&#47;1219182-t" title="View Fred Kocian&#39;s Ratings">Fred Kocian</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.65'></div>
+<span class='rating_count'>16 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;science" title="View Glenbrook South High School&#39;s Science Teachers">Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He is very attracted towards females... Treats kids like they are idiots. Gets off task..."</span>
+<a alt="View Fred Kocian&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;fred-kocian&#47;1219182-t" title="View Fred Kocian&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;fred-kocian&#47;1219182-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Katie Hoover&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;katie-hoover&#47;2008403-t" title="View Katie Hoover&#39;s Ratings">Katie Hoover</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.59'></div>
+<span class='rating_count'>12 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;english" title="View Glenbrook South High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She takes herself waaaay too seriously and we do the same thing every day in class. There&#39;s..."</span>
+<a alt="View Katie Hoover&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;katie-hoover&#47;2008403-t" title="View Katie Hoover&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;katie-hoover&#47;2008403-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Erin Bosack&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;erin-bosack&#47;1617680-t" title="View Erin Bosack&#39;s Ratings">Erin Bosack</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.59'></div>
+<span class='rating_count'>11 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;english" title="View Glenbrook South High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Ms. Bosack is a pretty cool teacher.  She is a kind person and likes to get everyone involved. ..."</span>
+<a alt="View Erin Bosack&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;erin-bosack&#47;1617680-t" title="View Erin Bosack&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;erin-bosack&#47;1617680-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Mark Toliusis&#39; Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;mark-toliusis&#47;2266516-t" title="View Mark Toliusis&#39; Ratings">Mark Toliusis</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.57'></div>
+<span class='rating_count'>7 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;music" title="View Glenbrook South High School&#39;s Music Teachers">Music</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"mr. t is a total tool. he knows stuff about marching but doesnt make an attempt to connect with..."</span>
+<a alt="View Mark Toliusis&#39; Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;mark-toliusis&#47;2266516-t" title="View Mark Toliusis&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;mark-toliusis&#47;2266516-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View John Arko&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;john-arko&#47;926286-t" title="View John Arko&#39;s Ratings">John Arko</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.52'></div>
+<span class='rating_count'>23 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;math" title="View Glenbrook South High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"I hiccupped in class, and he walked out of the classroom. He came back after 10 minutes and just..."</span>
+<a alt="View John Arko&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;john-arko&#47;926286-t" title="View John Arko&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;john-arko&#47;926286-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Frau Saraswat&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;frau-saraswat&#47;2515001-t" title="View Frau Saraswat&#39;s Ratings">Frau Saraswat</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.5'></div>
+<span class='rating_count'>2 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;languages" title="View Glenbrook South High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"I love this woman with all my heart. Her class was my favorite of the day, and she made me fall..."</span>
+<a alt="View Frau Saraswat&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;frau-saraswat&#47;2515001-t" title="View Frau Saraswat&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;frau-saraswat&#47;2515001-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Karen Muskat&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;karen-muskat&#47;822284-t" title="View Karen Muskat&#39;s Ratings">Karen Muskat</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.5'></div>
+<span class='rating_count'>4 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;english" title="View Glenbrook South High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"My daughter is about to graduate from this school, and this is the ONLY teacher she complained..."</span>
+<a alt="View Karen Muskat&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;karen-muskat&#47;822284-t" title="View Karen Muskat&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;karen-muskat&#47;822284-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Sarah Majors&#39; Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;sarah-majors&#47;1323418-t" title="View Sarah Majors&#39; Ratings">Sarah Majors</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.5'></div>
+<span class='rating_count'>3 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;counselor" title="View Glenbrook South High School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"she&#39;s the best counselor!"</span>
+<a alt="View Sarah Majors&#39; Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;sarah-majors&#47;1323418-t" title="View Sarah Majors&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;sarah-majors&#47;1323418-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Neil Schmidgall&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;neil-schmidgall&#47;2122584-t" title="View Neil Schmidgall&#39;s Ratings">Neil Schmidgall</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.48'></div>
+<span class='rating_count'>11 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;physics" title="View Glenbrook South High School&#39;s Physics Teachers">Physics</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He may not be the easiest or most clear of teachers, but I&#39;ll cut him a break because his subject..."</span>
+<a alt="View Neil Schmidgall&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;neil-schmidgall&#47;2122584-t" title="View Neil Schmidgall&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;neil-schmidgall&#47;2122584-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Patricia Moulakelis&#39; Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;patricia-moulakelis&#47;1219177-t" title="View Patricia Moulakelis&#39; Ratings">Patricia Moulakelis</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.45'></div>
+<span class='rating_count'>11 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;physical-education" title="View Glenbrook South High School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Her grading is soo un fair. she is a good dancer but her grading sucks!! i worked hard in her..."</span>
+<a alt="View Patricia Moulakelis&#39; Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;patricia-moulakelis&#47;1219177-t" title="View Patricia Moulakelis&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;patricia-moulakelis&#47;1219177-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Paul Zwiercan&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;paul-zwiercan&#47;1488139-t" title="View Paul Zwiercan&#39;s Ratings">Paul Zwiercan</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.43'></div>
+<span class='rating_count'>7 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;drivers-education" title="View Glenbrook South High School&#39;s Drivers Education Teachers">Drivers Education</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"His new york accent is hilarious!! "</span>
+<a alt="View Paul Zwiercan&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;paul-zwiercan&#47;1488139-t" title="View Paul Zwiercan&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;paul-zwiercan&#47;1488139-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Mark Rasar&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;mark-rasar&#47;2306788-t" title="View Mark Rasar&#39;s Ratings">Mark Rasar</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.4'></div>
+<span class='rating_count'>5 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;history" title="View Glenbrook South High School&#39;s History Teachers">History</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"greatest teacher i have ever had. very funny and easy to talk to. teaches very well. he&#39;s the man"</span>
+<a alt="View Mark Rasar&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;mark-rasar&#47;2306788-t" title="View Mark Rasar&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;mark-rasar&#47;2306788-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Brandon Tucker&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;brandon-tucker&#47;1042120-t" title="View Brandon Tucker&#39;s Ratings">Brandon Tucker</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.39'></div>
+<span class='rating_count'>19 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;science" title="View Glenbrook South High School&#39;s Science Teachers">Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"I have nothing nice to say about brandon tucker because he was a toolbag."</span>
+<a alt="View Brandon Tucker&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;brandon-tucker&#47;1042120-t" title="View Brandon Tucker&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;brandon-tucker&#47;1042120-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Hong Wu&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;hong-wu&#47;2464919-t" title="View Hong Wu&#39;s Ratings">Hong Wu</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.33'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;languages" title="View Glenbrook South High School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Saying I dislike Hong Wu is an understatement.  In the very beginning of freshman year she told..."</span>
+<a alt="View Hong Wu&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;hong-wu&#47;2464919-t" title="View Hong Wu&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;hong-wu&#47;2464919-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Marty Sirvatka&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;marty-sirvatka&#47;1322376-t" title="View Marty Sirvatka&#39;s Ratings">Marty Sirvatka</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.32'></div>
+<span class='rating_count'>31 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;music" title="View Glenbrook South High School&#39;s Music Teachers">Music</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Horrible bad horrible nasty mean cruel. the end"</span>
+<a alt="View Marty Sirvatka&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;marty-sirvatka&#47;1322376-t" title="View Marty Sirvatka&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;marty-sirvatka&#47;1322376-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Vito Androlia&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;vito-androlia&#47;1993805-t" title="View Vito Androlia&#39;s Ratings">Vito Androlia</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.28'></div>
+<span class='rating_count'>9 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;drivers-education" title="View Glenbrook South High School&#39;s Drivers Education Teachers">Drivers Education</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"awesome teacher! A behind the wheel. just make sure you listen to the rules of theroad, which is..."</span>
+<a alt="View Vito Androlia&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;vito-androlia&#47;1993805-t" title="View Vito Androlia&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;vito-androlia&#47;1993805-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Debbie Middleton&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;debbie-middleton&#47;1895531-t" title="View Debbie Middleton&#39;s Ratings">Debbie Middleton</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.28'></div>
+<span class='rating_count'>12 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;not-specified" title="View Glenbrook South High School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She is a nice lady and is pretty funny, but her honors class is one of the hardest i have ever..."</span>
+<a alt="View Debbie Middleton&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;debbie-middleton&#47;1895531-t" title="View Debbie Middleton&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;debbie-middleton&#47;1895531-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Mike Stancik&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;mike-stancik&#47;1462994-t" title="View Mike Stancik&#39;s Ratings">Mike Stancik</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.28'></div>
+<span class='rating_count'>9 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;physics" title="View Glenbrook South High School&#39;s Physics Teachers">Physics</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"hes a great guy"</span>
+<a alt="View Mike Stancik&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;mike-stancik&#47;1462994-t" title="View Mike Stancik&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;mike-stancik&#47;1462994-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Elizabeth Bushek&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;elizabeth-bushek&#47;2499092-t" title="View Elizabeth Bushek&#39;s Ratings">Elizabeth Bushek</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.27'></div>
+<span class='rating_count'>5 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;math" title="View Glenbrook South High School&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She is willing to help.  Wants everyone to do well.  You need to put effort in.  This is a hard..."</span>
+<a alt="View Elizabeth Bushek&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;elizabeth-bushek&#47;2499092-t" title="View Elizabeth Bushek&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;elizabeth-bushek&#47;2499092-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Meyer Sonja&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;meyer-sonja&#47;1390502-t" title="View Meyer Sonja&#39;s Ratings">Meyer Sonja</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.25'></div>
+<span class='rating_count'>15 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;english" title="View Glenbrook South High School&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"While 10th year Honors English may have been one of the most difficult courses I&#39;ve ever taken,..."</span>
+<a alt="View Meyer Sonja&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;meyer-sonja&#47;1390502-t" title="View Meyer Sonja&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;meyer-sonja&#47;1390502-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View David Lieberman&#39;s Ratings" class="name" href="http:&#47;&#47;www.ratemyteachers.com&#47;david-lieberman&#47;1419162-t" title="View David Lieberman&#39;s Ratings">David Lieberman</a>
+
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.23'></div>
+<span class='rating_count'>15 ratings</span>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;science" title="View Glenbrook South High School&#39;s Science Teachers">Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He is not very helpful with the homeworks and tests. He acts like he is doing you a favor when he..."</span>
+<a alt="View David Lieberman&#39;s Ratings" class="view_more" href="http:&#47;&#47;www.ratemyteachers.com&#47;david-lieberman&#47;1419162-t" title="View David Lieberman&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "nofollow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='&#47;david-lieberman&#47;1419162-t'></a>
+</div>
+</div>
+</div>
+
+</div>
+<div class='padding'>
+  <!-- School_BTF_Leaderboard -->
+  <div id="School_BTF_Leaderboard">
+    <ins class="adsbygoogle"
+      style="display:inline-block;width:336px;height:280px"
+      data-ad-client="ca-pub-8322864954623881"
+      data-ad-slot="2844422481"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+
+</div>
+<div class='pagination_container'>  <ul class="pagination">
+    <li class="first">
+  <a href="&#47;glenbrook-south-high-school&#47;7073-s">
+    <span class="hidden-sm hidden-md hidden-lg">&laquo;</span>
+    <span class="hidden-xs">&laquo; First</span>
+  </a>
+</li>
+
+    <li class="prev">
+  <a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;4" rel="prev">
+    <span class="hidden-sm hidden-md hidden-lg">&lsaquo;</span>
+    <span class="hidden-xs">&lsaquo; Prev</span>
+  </a>
+</li>
+
+        <li class="page">
+  <a href="&#47;glenbrook-south-high-school&#47;7073-s">1</a>
+</li>
+
+        <li class="page">
+  <a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;2">2</a>
+</li>
+
+        <li class="page">
+  <a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;3">3</a>
+</li>
+
+        <li class="page">
+  <a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;4" rel="prev">4</a>
+</li>
+
+        <li class="page active">
+  <a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;5">5</a>
+</li>
+
+        <li class="page">
+  <a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;6" rel="next">6</a>
+</li>
+
+        <li class="page">
+  <a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;7">7</a>
+</li>
+
+    <li class="next_page">
+  <a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;6" rel="next">
+    <span class="hidden-sm hidden-md hidden-lg">&rsaquo;</span>
+    <span class="hidden-xs">Next &rsaquo;</span>
+  </a>
+</li>
+
+    <li class="last next">
+  <a href="&#47;glenbrook-south-high-school&#47;7073-s&#47;7">
+    <span class="hidden-sm hidden-md hidden-lg">&raquo;</span>
+    <span class="hidden-xs">Last &raquo;</span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</section>
+</div>
+<aside class='col-xs-12 col-sm-4 sticky_container_right'>
+<div class='sticky_column'>
+
+
+<div class='credit_card_ad'>
+      
+  <!-- School_ATF_Rectangle_web -->
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:300px;height:250px"
+       data-ad-client="ca-pub-8322864954623881"
+       data-ad-slot="4512186086"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+</div>
+<div class='add_teacher_wrapper'>
+<a class='new_teacher_trigger' data-backdrop='static' data-keyboard data-school='Glenbrook South High School' data-sender-name='School aside' data-target='#modal' data-toggle='modal' href='&#47;teachers&#47;new?sid=7073' rel='nofollow' title='Add My Teacher to Glenbrook South High School'>
+<span>
+<span>
+Add My Teacher
+</span>
+</span>
+</a>
+</div>
+
+<section class='aside_content'>
+<div class='col-xs-12 schools'>
+<div class='school clickable_fix'>
+<div class='name'>
+<a alt='View Tomorrow&#39;s Future Day Care&#39;s Teachers' href='&#47;tomorrow-s-future-day-care&#47;415763-s' title='View Tomorrow&#39;s Future Day Care&#39;s Teachers'>
+Tomorrow&#39;s Future Day Care
+</a>
+</div>
+<div class='col-xs-12 details'>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='0.0'></div>
+Elementary
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>0 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Glenview, Illinois</span>
+</div>
+</div>
+<a alt='View Tomorrow&#39;s Future Day Care&#39;s Teachers' class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='&#47;tomorrow-s-future-day-care&#47;415763-s' title='View Tomorrow&#39;s Future Day Care&#39;s Teachers'></a>
+</div>
+
+<div class='school clickable_fix'>
+<div class='name'>
+<a alt='View Washington Elementary School&#39;s Teachers' href='&#47;washington-elementary-school&#47;416427-s' title='View Washington Elementary School&#39;s Teachers'>
+Washington Elementary School
+</a>
+</div>
+<div class='col-xs-12 details'>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='0.0'></div>
+Elementary
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>0 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Glenview, Illinois</span>
+</div>
+</div>
+<a alt='View Washington Elementary School&#39;s Teachers' class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='&#47;washington-elementary-school&#47;416427-s' title='View Washington Elementary School&#39;s Teachers'></a>
+</div>
+
+<div class='school clickable_fix'>
+<div class='name'>
+<a alt='View Attea Middle School&#39;s Teachers' href='&#47;attea-middle-school&#47;115823-s' title='View Attea Middle School&#39;s Teachers'>
+Attea Middle School
+</a>
+</div>
+<div class='col-xs-12 details'>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.41238'></div>
+Middle School
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>9 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Glenview, Illinois</span>
+</div>
+</div>
+<a alt='View Attea Middle School&#39;s Teachers' class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='&#47;attea-middle-school&#47;115823-s' title='View Attea Middle School&#39;s Teachers'></a>
+</div>
+
+</div>
+</section>
+<div class='back_button_wrapper secondary'>
+<a href='&#47;illinois&#47;glenview' title='View all schools in Glenview, Illinois'>Glenview, Illinois</a>
+</div>
+
+</div>
+</aside>
+</div>
+</div>
+<div class='hidden' id='v'>school-web-6.3</div>
+
+
+  </div>
+
+  
+    <div id="all_footer_wrapper" style="overflow:hidden;">
+      <section class='container-fluid hidden-xs padding' id='states'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<h3>Find High Schools and Colleges by State</h3>
+<div class='states'>
+<div class='state'>
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="&#47;alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class='state'>
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="&#47;alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class='state'>
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="&#47;arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class='state'>
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="&#47;arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class='state'>
+<a alt="Find California&#39;s High Schools and Colleges" href="&#47;california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class='state'>
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="&#47;colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class='state'>
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="&#47;connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class='state'>
+<a alt="Find DC&#39;s High Schools and Colleges" href="&#47;dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class='state'>
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="&#47;delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class='state'>
+<a alt="Find Florida&#39;s High Schools and Colleges" href="&#47;florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class='state'>
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="&#47;georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class='state'>
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="&#47;hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class='state'>
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="&#47;iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class='state'>
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="&#47;idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class='state'>
+<a alt="Find Illinois&#39; High Schools and Colleges" href="&#47;illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class='state'>
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="&#47;indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class='state'>
+<a alt="Find Kansas&#39; High Schools and Colleges" href="&#47;kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class='state'>
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="&#47;kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class='state'>
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="&#47;louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class='state'>
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="&#47;massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class='state'>
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="&#47;maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class='state'>
+<a alt="Find Maine&#39;s High Schools and Colleges" href="&#47;maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class='state'>
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="&#47;michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class='state'>
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="&#47;minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class='state'>
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="&#47;missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class='state'>
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="&#47;mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class='state'>
+<a alt="Find Montana&#39;s High Schools and Colleges" href="&#47;montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class='state'>
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="&#47;north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="&#47;north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="&#47;nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class='state'>
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="&#47;new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class='state'>
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="&#47;new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class='state'>
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="&#47;new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class='state'>
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="&#47;nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class='state'>
+<a alt="Find New York&#39;s High Schools and Colleges" href="&#47;new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class='state'>
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="&#47;ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class='state'>
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="&#47;oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class='state'>
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="&#47;oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class='state'>
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="&#47;pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class='state'>
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="&#47;puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class='state'>
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="&#47;rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class='state'>
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="&#47;south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="&#47;south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="&#47;tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class='state'>
+<a alt="Find Texas&#39; High Schools and Colleges" href="&#47;texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class='state'>
+<a alt="Find Utah&#39;s High Schools and Colleges" href="&#47;utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class='state'>
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="&#47;virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="&#47;vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class='state'>
+<a alt="Find Washington&#39;s High Schools and Colleges" href="&#47;washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class='state'>
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="&#47;wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class='state'>
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="&#47;west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="&#47;wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer_directory'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-6 hidden-xs'>
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="&#47;schools&#47;directory&#47;a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="&#47;schools&#47;directory&#47;b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="&#47;schools&#47;directory&#47;c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="&#47;schools&#47;directory&#47;d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="&#47;schools&#47;directory&#47;e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="&#47;schools&#47;directory&#47;f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="&#47;schools&#47;directory&#47;g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="&#47;schools&#47;directory&#47;h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="&#47;schools&#47;directory&#47;i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="&#47;schools&#47;directory&#47;j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="&#47;schools&#47;directory&#47;k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="&#47;schools&#47;directory&#47;l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="&#47;schools&#47;directory&#47;m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="&#47;schools&#47;directory&#47;n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="&#47;schools&#47;directory&#47;o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="&#47;schools&#47;directory&#47;p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="&#47;schools&#47;directory&#47;q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="&#47;schools&#47;directory&#47;r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="&#47;schools&#47;directory&#47;s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="&#47;schools&#47;directory&#47;t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="&#47;schools&#47;directory&#47;u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="&#47;schools&#47;directory&#47;v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;X&quot;" href="&#47;schools&#47;directory&#47;x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="&#47;schools&#47;directory&#47;y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="&#47;schools&#47;directory&#47;z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="&#47;schools&#47;directory&#47;%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class='col-xs-6 hidden-xs'>
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="&#47;teachers&#47;directory&#47;a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="&#47;teachers&#47;directory&#47;b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="&#47;teachers&#47;directory&#47;c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="&#47;teachers&#47;directory&#47;d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="&#47;teachers&#47;directory&#47;e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="&#47;teachers&#47;directory&#47;f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="&#47;teachers&#47;directory&#47;g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="&#47;teachers&#47;directory&#47;h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="&#47;teachers&#47;directory&#47;i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="&#47;teachers&#47;directory&#47;j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="&#47;teachers&#47;directory&#47;k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="&#47;teachers&#47;directory&#47;l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="&#47;teachers&#47;directory&#47;m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="&#47;teachers&#47;directory&#47;n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="&#47;teachers&#47;directory&#47;o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="&#47;teachers&#47;directory&#47;p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="&#47;teachers&#47;directory&#47;q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="&#47;teachers&#47;directory&#47;r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="&#47;teachers&#47;directory&#47;s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="&#47;teachers&#47;directory&#47;t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="&#47;teachers&#47;directory&#47;u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="&#47;teachers&#47;directory&#47;v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="&#47;teachers&#47;directory&#47;x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="&#47;teachers&#47;directory&#47;y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="&#47;teachers&#47;directory&#47;z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class='row footer_countries_list'>
+<div class='col-xs-12'>
+RateMyTeachers International:
+<a alt="United States" class="country" href="http:&#47;&#47;www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http:&#47;&#47;ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http:&#47;&#47;uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http:&#47;&#47;au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http:&#47;&#47;nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http:&#47;&#47;ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer'>
+<div class='container'>
+<div class='row footer_links'>
+<div class='col-xs-12'>
+<h3 class='hidden-sm hidden-md hidden-lg'>Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="&#47;faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop='static' data-keyboard data-target='#modal' data-toggle='modal' href='&#47;contact&#47;new' rel='nofollow' title='Contact RateMyTeachers'>
+Contact
+</a>
+</li>
+<li>
+<a href="&#47;terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="&#47;privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="&#47;site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="&#47;copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='row copyright'>
+Copyright 2001-2015 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden='true' class='modal fade' id='modal' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div aria-hidden='true' class='modal fade' id='modal_rating' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div id='loading-indicator' style='display: none;'>
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="&#47;assets&#47;ajax-loader-e483da860d5177651d2a88eda6a66b00.gif" />
+</div>
+</div>
+
+    </div>
+
+  <!-- loading JS at the end to speed up page loading -->
+    <script type="text/javascript">
+  window._pt_sp_2 = [];
+  _pt_sp_2.push('setAccount,42a92f26');
+  var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+
+  (function()
+  { var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true; atag.src = _protocol + 'js.ptengine.com/pta.js'; var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true; stag.src = _protocol + 'js.ptengine.com/pts.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s); }
+
+  )();
+  </script>
+
+  <script src="&#47;&#47;ajax.googleapis.com&#47;ajax&#47;libs&#47;jquery&#47;1.11.1&#47;jquery.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery || document.write(unescape('%3Cscript src="&#47;assets&#47;jquery-92f6843043abf957b96f7fad2afbc022.js">%3C/script>'))
+//]]>
+</script>
+  <script src="&#47;&#47;ajax.googleapis.com&#47;ajax&#47;libs&#47;jqueryui&#47;1.11.2&#47;jquery-ui.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery.ui || document.write(unescape('%3Cscript src="&#47;assets&#47;jquery-ui-e3d1c2f8bca4b46c2d38af5aa36cbc30.js">%3C/script>'))
+//]]>
+</script>
+  <script src="&#47;assets&#47;application-957e612af551289850a601adebc72d80.js"></script>
+  <script>
+  var resultCount = 50;
+  var minStickyResultCount = 20;
+  var schoolPagePath = '&#47;glenbrook-south-high-school&#47;7073-s';
+  var stickyColumnLeft = $(".sticky_container_left .sticky_column");
+  var stickyColumnRight = $(".sticky_container_right .sticky_column");
+  var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+  var footerHeight = $('#all_footer_wrapper').outerHeight();
+  var stickyOptions = function(getWidthFrom, topSpacing) {
+    if (typeof(topSpacing) === 'undefined') {
+      topSpacing = 10;
+    }
+    return {topSpacing: topSpacing, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+  }
+  stickyColumnLeft.sticky(stickyOptions('.sticky_container_left'));
+  stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+  // Make center column options sticky when min results quantity
+  if (resultCount > minStickyResultCount - 1) {
+    stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+  }
+
+  // Beating Chrome bug
+  var fixEventStep1 = function() {
+    setTimeout(function() {
+      var secondaryInfo = $('.secondary_info');
+      secondaryInfo.css('min-height', secondaryInfo.height() + 'px');
+    }, 1);
+  };
+  var fixEventStep2 = function() {
+    $('.secondary_info').css('min-height', '');
+  };
+  stickyColumnLeft.on('sticky-start', fixEventStep1);
+  stickyColumnLeft.on('sticky-end', fixEventStep2);
+</script>
+
+
+  
+
+
+
+  <!-- [:desktop] a5c7b57@rails1 - 2015-02-16 16:56:45 -0500-->
+</body>
+</html>

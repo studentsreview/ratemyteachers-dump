@@ -1,0 +1,3886 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+      (function(){
+        window.beginTimeTrack = (new Date()).getTime();
+      })();
+    </script>
+<title>A.G.B.U. Manoogian Demirdjian School - Canoga Park, California | RateMyTeachers.com</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":696,"agentToken":null,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(15)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(15)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(15)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){g.push(t),h&&(b?b.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(15)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,y="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(y,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===y||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=o(l+e,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(p+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],15:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!l.aborted||i){t&&t(n,r,o);for(var a=e(o),c=h(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[w[n]];return d&&d.push([g,n,r,a]),a}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",w[n]=e,e in u||(u[e]=[])})}var y={},w={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(w,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){s("mark",["domContent",a()+x.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-x.offset}var c=(new Date).getTime(),s=t("handle"),f=t(12),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:c,now:a,origin:y,features:{},xhrWrappable:g};t(9),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),s("mark",["firstbyte",c],null,"api");var b=0,E=t(14)},{}]},{},["loader",2,7]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+<meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw"/>
+<meta name="description" content="A.G.B.U. Manoogian Demirdjian School is a High School in Canoga Park, CA. Search A.G.B.U. Manoogian Demirdjian School&#39;s ratings, statistics and reviews by students and parents."/>
+<meta property="twitter:image" content="http://www.ratemyteachers.com/images/logo_icon_60.png"/>
+<meta property="og:image" content="http://www.ratemyteachers.com/images/logo_icon_100.png"/>
+<meta property="og:title" content="A.G.B.U. Manoogian Demirdjian School - Canoga Park, California | RateMyTeachers.com"/>
+<meta property="og:type" content="rmt:school"/>
+<meta property="og:url" content="http://www.ratemyteachers.com/a-g-b-u-manoogian-demirdjian-school/52248-s"/>
+<meta property="og:site_name" content="A.G.B.U. Manoogian Demirdjian School - Canoga Park, California | RateMyTeachers.com"/>
+<meta property="og:description" content="A.G.B.U. Manoogian Demirdjian School is a High School in Canoga Park, CA. Search A.G.B.U. Manoogian Demirdjian School's ratings, statistics and reviews by students and parents."/>
+<meta name="robots" content="noodp,noydir"/>
+<meta property="rmt:image" content="http://www.ratemyteachers.com/apple_touch_icon_196x196.png"/>
+
+<link rel="shortcut icon" sizes="64x64 48x48 32x32 16x16" type="image/x-icon" href="/favicon.ico"/>
+<link rel="apple-touch-icon" href="/apple_touch_icon_60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple_touch_icon_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple_touch_icon_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple_touch_icon_152x152.png">
+<link rel="apple-touch-icon-precomposed" href="/apple_touch_icon_196x196.png"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+<link href="/assets/application-8f34b7246c4006713b4fb0b0c5f281b6.css" media="all" rel="stylesheet"/>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+<script type="text/javascript">
+    var currentState = '';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:     true,
+    debugMode:           false,
+    asyncScripts:        true
+  };
+
+
+  function getWindowWidth() {
+    var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) === 'number' ) {
+      myWidth = window.innerWidth; myHeight = window.innerHeight;
+    } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+      myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+      myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+    }
+    return myWidth;
+  }
+
+  var isDesktopVariant = true;
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isExtraSmall = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false);
+  var isMobile = isExtraSmall || isMobileVariant;
+  var isMedium = (getWindowWidth() < 1200) || (screen ? screen.width < 1200 : false);
+
+
+  var isChrome = navigator.userAgent.indexOf('Chrome') > -1;
+  var isExplorer = navigator.userAgent.indexOf('MSIE') > -1;
+  var isFirefox = navigator.userAgent.indexOf('Firefox') > -1;
+  var isSafari = navigator.userAgent.indexOf("Safari") > -1;
+  var isOpera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
+  if ((isChrome)&&(isSafari)) {isSafari=false;}
+  if ((isChrome)&&(isOpera)) {isChrome=false;}
+
+  var enablePropel    = !isSafari && !isOpera && false;
+  var enableMediabong = !isSafari && !isOpera;
+  var enableBrightComedia = !isSafari && !isOpera;
+
+  var isMobileUpload = false;
+
+    var cseData = {
+      isCseSearch: true
+      ,paramFormat: '%{search_term}%{location}'
+      ,stateList: [{"name":"Alaska","shortname":"ak"},{"name":"Alabama","shortname":"al"},{"name":"Arkansas","shortname":"ar"},{"name":"Arizona","shortname":"az"},{"name":"California","shortname":"ca"},{"name":"Colorado","shortname":"co"},{"name":"Connecticut","shortname":"ct"},{"name":"Dc","shortname":"dc"},{"name":"Delaware","shortname":"de"},{"name":"Florida","shortname":"fl"},{"name":"Georgia","shortname":"ga"},{"name":"Hawaii","shortname":"hi"},{"name":"Iowa","shortname":"ia"},{"name":"Idaho","shortname":"id"},{"name":"Illinois","shortname":"il"},{"name":"Indiana","shortname":"in"},{"name":"Kansas","shortname":"ks"},{"name":"Kentucky","shortname":"ky"},{"name":"Louisiana","shortname":"la"},{"name":"Massachusetts","shortname":"ma"},{"name":"Maryland","shortname":"md"},{"name":"Maine","shortname":"me"},{"name":"Michigan","shortname":"mi"},{"name":"Minnesota","shortname":"mn"},{"name":"Missouri","shortname":"mo"},{"name":"Mississippi","shortname":"ms"},{"name":"Montana","shortname":"mt"},{"name":"North Carolina","shortname":"nc"},{"name":"North Dakota","shortname":"nd"},{"name":"Nebraska","shortname":"ne"},{"name":"New Hampshire","shortname":"nh"},{"name":"New Jersey","shortname":"nj"},{"name":"New Mexico","shortname":"nm"},{"name":"Nevada","shortname":"nv"},{"name":"New York","shortname":"ny"},{"name":"Ohio","shortname":"oh"},{"name":"Oklahoma","shortname":"ok"},{"name":"Oregon","shortname":"or"},{"name":"Pennsylvania","shortname":"pa"},{"name":"Puerto Rico","shortname":"pr"},{"name":"Rhode Island","shortname":"ri"},{"name":"South Carolina","shortname":"sc"},{"name":"South Dakota","shortname":"sd"},{"name":"Tennessee","shortname":"tn"},{"name":"Texas","shortname":"tx"},{"name":"Utah","shortname":"ut"},{"name":"Virginia","shortname":"va"},{"name":"Vermont","shortname":"vt"},{"name":"Washington","shortname":"wa"},{"name":"Wisconsin","shortname":"wi"},{"name":"West Virginia","shortname":"wv"},{"name":"Wyoming","shortname":"wy"}]
+    };
+
+
+  // Search autocomplete widget
+  var searchAutocompleteHTML = "<div class=\'desktop search_autocomplete_widget\'>\n<div class=\'autocomplete_teachers\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-user\'><\/i>\nTeachers and Professors\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_school_name\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nTeachers and Professors\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<div class=\'autocomplete_schools\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-university\'><\/i>\nSchools and Colleges\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_address\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nSchools and Colleges\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<\/div>\n";
+</script>
+<script type="text/javascript">
+  // Async functions variable
+  functionToLoad = [];
+  
+  // Fastest way to check if an object is an array
+  functionToLoad.isArrayObj = function(obj) {
+    return !!obj && obj.constructor === Array;
+  };
+  
+  // Extract data from an element
+  functionToLoad.extractElementData = function(elementData) {
+    var data = {
+      element: elementData
+      ,async: false
+      ,subElements: []
+    };
+    
+    // The element is an array, check for async option
+    if (this.isArrayObj(elementData) && elementData.length > 0) {
+      data.async = !!elementData[1];
+      data.element = elementData[0];
+      data.subElements = elementData[2] || [];
+    }
+    return data;
+  };
+  
+  // Wrap push functionality
+  functionToLoad.realPush = functionToLoad.push;
+  functionToLoad.executePush = function(args) {
+    var data = this.extractElementData(args);
+
+    // Inject script tag on inplace
+    if (typeof data.element === 'string') {
+      // Inject external file
+      document.write('<script type="text/javascript" src="' + data.element + '"><\/script>');
+    } else {
+      // Inject function
+      document.write('<script type="text/javascript">(');
+      document.write(data.element.toString());
+      document.write(')();<\/script>');
+    }
+    
+    // Execute child scripts
+    if (data.subElements.length > 0) {
+      this.executePush(data.subElements);
+    }
+  };
+  functionToLoad.push = function(args) {
+    if (siteConfig.asyncScripts) {
+      if (siteConfig.debugMode) { console.log('Async Script'); }
+      
+      // Async scripts so add it to array for later execution
+      this.realPush(args);
+      return;
+    }
+    if (siteConfig.debugMode) { console.log('Sync Script'); }
+    
+    // No async scripts, execute it right away
+    this.executePush(args);
+  };
+</script>
+<script type="text/javascript">_googlePush = function(a) {};</script>
+<script type="text/javascript">
+  functionToLoad.push('//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js');
+  functionToLoad.push('//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js');
+</script>
+<script>
+      functionToLoad.push(function() {
+        gaId = 'UA-4216499-1';
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', gaId, 'auto');
+        ga('require', 'displayfeatures');
+        //ga('require', 'ecommerce', 'ecommerce.js');
+      });
+    </script>
+<script type="text/javascript">
+  functionToLoad.push('/assets/rmt.analytics-833eb75f283313dde59926cd5939692a.js');
+</script>
+<script>
+  functionToLoad.push(function(){
+    pageType = "";
+    RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+    searchTerm = "";
+  });
+</script>
+<script type="text/javascript">
+    // Returns a function, that, as long as it continues to be invoked, will not
+    // be triggered. The function will be called after it stops being called for
+    // N milliseconds. If `immediate` is passed, trigger the function on the
+    // leading edge, instead of the trailing.
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+</script>
+<script type="text/javascript">
+    var _session = {};
+  </script>
+<link href="http://www.ratemyteachers.com/a-g-b-u-manoogian-demirdjian-school/52248-s.rss" rel="alternate" type="application/rss+xml">
+<meta content="authenticity_token" name="csrf-param"/>
+<meta content="5IIVoZtcWRIOQMjKThCnc84yGCQymM8gkyv2EpSjBx8=" name="csrf-token"/>
+</head>
+
+<body class="inner_page school_page schools_v12_1
+">
+<div id="fb-root"></div>
+<div class="rate_my_teachers_international">
+<div class="container">
+<div class="row">
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+<div class="pull-right user_top_nav"></div>
+</div>
+</div>
+</div>
+<header>
+<div class="container">
+<div class="row">
+<form action="/search_page" class="tab-form search_form trigger_to_main_search" method="get">
+<a alt="Go to RateMyTeachers Home" href="/" id="rate_my_teachers_logo" title="Go to RateMyTeachers Home"></a>
+<input name="search" type="hidden" value="teachers">
+<div class="search_inputs">
+<div class="bg">
+<div class="padding">
+<input class="search_input" name="q" placeholder="Search: School Name, City" type="text">
+</div>
+<div class="location">
+<select class="state" id="state" name="state"><option value>Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class="search_button">
+<button class="btn-search fa fa-search fa-3x" title="Search RateMyTeachers" type="submit"></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+<div class="container-fluid main-content">
+<div class="row">
+<section class="breadcrumbs container-fluid">
+<div class="row">
+<div class="container">
+<div class="col-sm-12">
+<ul class="list-inline collapsible_nav collapsible_nav_collapsed">
+<li class="toggle">
+<a href="javascript:void(0);" rel="nofollow">
+<i class="fa fa-bars"></i>
+</a>
+</li>
+<li class="collapse">
+<a href="/" title="Go to RateMyTeachers Home">United States</a>
+</li>
+<li class="always_show">
+<a alt="Go to Schools in California" href="/california" title="Go to Schools in California">California</a>
+</li>
+<li class="collapse">
+<a alt="Go to Schools in Canoga Park" href="/california/canoga-park" title="Go to Schools in Canoga Park">Canoga Park</a>
+</li>
+<li class="always_show">
+
+<a alt="View A.G.B.U. Manoogian Demirdjian School's Teachers" href="/a-g-b-u-manoogian-demirdjian-school/52248-s" title="View A.G.B.U. Manoogian Demirdjian School's Teachers">A.G.B.U. Manoogian Demirdjian School</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_teacher_trigger" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=52248" data-school="A.G.B.U. Manoogian Demirdjian School" data-sender-name="School page breadcrumb" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher">Add My Teacher</a>
+</li>
+<li class="always_show extra_option">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=52248" data-school="A.G.B.U. Manoogian Demirdjian School" data-sender-name="School page breadcrumb" data-target="#modal_rating" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Rate My School">Rate My School</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<div class="container flash_container">
+<div class="row">
+<div class="col-xs-12">
+<div class="alert alert-danger" id="flash-error" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-warning" id="flash-alert" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-success" id="flash-success" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+<div class="alert alert-info" id="flash-notice" style="display: none">
+<button type="button" class="close" data-dismiss="close">×</button>
+<span></span>
+</div>
+</div>
+</div>
+</div>
+<div id="content">
+<span class="dn" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/california" itemprop="url">
+<span itemprop="title">California</span>
+</a>
+<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="http://www.ratemyteachers.com/california/canoga-park" itemprop="url">
+<span itemprop="title">Canoga Park</span>
+</a>
+</span>
+</span>
+<div id="sortable_ad_trigger"></div>
+<div class="container" itemscope itemtype="http://schema.org/ProfilePage">
+<meta content="2017-08-28" itemprop="dateModified">
+
+<div class="dn" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+<meta content="283" itemprop="ratingCount">
+<meta content="283" itemprop="reviewCount">
+<meta content="4.14118" itemprop="ratingValue">
+<meta content="5" itemprop="bestRating">
+<meta content="0" itemprop="worstRating">
+</div>
+<div class="row">
+<section class="col-md-12 content" itemprop="about" itemscope itemtype="http://schema.org/School">
+<div class="row secondary_data">
+<div class="col-xs-12 col-lg-9 primary_column">
+<div class="row school_info">
+<div class="col-xs-12 col-sm-7 main_info">
+<div class="row">
+<div class="col-xs-12">
+<div class="school_name">
+<h1 title="A.G.B.U. Manoogian Demirdjian School">
+<span itemprop="name">
+A.G.B.U. Manoogian Demirdjian School
+</span>
+<div class="school_actions" data-name="A.G.B.U. Manoogian Demirdjian School" data-sid="52248" data-status="-1" style="display:none;"></div>
+</h1>
+<a class="edit school_correction_trigger" data-backdrop="static" data-keyboard data-remote="/schools/correction?sid=52248" data-school="A.G.B.U. Manoogian Demirdjian School" data-sender-name="School page Main" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit a Correction">
+Edit
+</a>
+</div>
+<div class="score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 91.106px;"></div>
+</div>
+</div>
+Average
+4.14
+based on
+283
+teacher ratings
+</div>
+<div class="description">
+<strong>A.G.B.U. Manoogian Demirdjian School</strong>
+is located in Canoga Park, California
+with an average teacher rating of 4.14
+stars. When comparing
+A.G.B.U. Manoogian Demirdjian School's teachers to other
+teachers in the state of
+California, A.G.B.U. Manoogian Demirdjian School's
+teachers are
+below
+the average of
+4.21
+stars.
+A.G.B.U. Manoogian Demirdjian School ranks
+239
+amongst all High Schools
+in the state of California.
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/stats" target="_blank">
+Learn More
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 details">
+<div class="aux">
+<h2 class="detail_item rate_school">
+<a class="new_school_rating_trigger" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=52248" data-sender-name="School page Main" data-target="#modal_rating" data-teacher="A.G.B.U. Manoogian Demirdjian School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for A.G.B.U. Manoogian Demirdjian School">
+<i class="fa fa-institution"></i>
+<span class="value">Rate A.G.B.U. Manoogian Demirdjian School</span>
+</a>
+</h2>
+</div>
+<span class="dn" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress"></span>
+<span itemprop="addressLocality">Canoga Park</span>
+<span itemprop="addressRegion">CA</span>
+<span itemprop="postalCode"></span>
+</span>
+</div>
+</div>
+<div class="school_content">
+<div class="sticky_container_center">
+<div class="sticky_column">
+<div class="row">
+<div class="col-xs-12">
+<div class="filter_section">
+<div class="row subtitle">
+<div class="col-xs-6">
+<h2 class="active">
+<a href="http://www.ratemyteachers.com/a-g-b-u-manoogian-demirdjian-school/52248-s" title="View A.G.B.U. Manoogian Demirdjian School's Teachers">
+Faculty:
+80
+Teachers
+</a>
+</h2>
+</div>
+<div class="col-xs-6">
+<h2 class>
+<a href="http://www.ratemyteachers.com/a-g-b-u-manoogian-demirdjian-school/52248-s/school-reviews" title="View A.G.B.U. Manoogian Demirdjian School's Reviews">
+A.G.B.U. Manoogian Demirdjian School
+Reviews
+</a>
+</h2>
+</div>
+</div>
+<div class="row search_form_container">
+<div class="col-md-2 sort_options">
+<select id="sort_by" name="sort_by"><option value>Sort by</option><option value></option><option value>Latest Update</option>
+<option value="last_name">Last Name</option>
+<option value="first_name">First Name</option>
+<option value="avg_asc">Average Rating: Low to High</option>
+<option value="avg_desc">Average Rating: High to Low</option></select>
+</div>
+<form action="/a-g-b-u-manoogian-demirdjian-school/52248-s" class="simple_form inline_form" id="school_search_by_teacher_form">
+<div class="col-md-9 text">
+<input name="q" placeholder="Search by Teacher" type="text">
+</div>
+<div class="col-md-1 options">
+<button class="btn fa fa-search fa-2x" name="commit" title="Search by Teacher" type="submit"></button>
+</div>
+</form>
+</div>
+<div class="row extra">
+<a class="col-xs-4 new_admin_request_trigger apply_admin" data-remote="/admin/new?sid=52248" data-school="A.G.B.U. Manoogian Demirdjian School" data-sender="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Become A.G.B.U. Manoogian Demirdjian School's Moderator">
+<i class="fa fa-user-plus"></i>
+<span>Become a Moderator!</span>
+</a>
+<a class="col-xs-4 new_school_rating_trigger school_review" data-backdrop="static" data-keyboard data-remote="/school_ratings/new?sid=52248" data-sender-name="School page Search bar" data-target="#modal_rating" data-teacher="A.G.B.U. Manoogian Demirdjian School" data-toggle="modal" href="javascript:void(0);" rel="nofollow" remote title="Submit Rating for A.G.B.U. Manoogian Demirdjian School">
+<i class="fa fa-institution"></i>
+<span>Write a School Review</span>
+</a>
+<a class="col-xs-4 new_teacher_trigger add_teacher" data-backdrop="static" data-keyboard data-remote="/teachers/new?sid=52248" data-school="A.G.B.U. Manoogian Demirdjian School" data-sender-name="School page Mobile Search Form" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Add My Teacher to A.G.B.U. Manoogian Demirdjian School">
+<i class="fa fa-user-plus"></i>
+<span>Add Teacher</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="teachers">
+<div class="ad_container AMP">
+<div id="amp_ads_bottom"></div>
+</div>
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Arus Andreassian's Ratings" class="name" href="/arus-andreassian/747432-t" target="_blank" title="View Arus Andreassian's Ratings">
+Arus Andreassian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/music" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Music Teachers">Music</a>
+</div>
+<div class="teacher_actions" data-name="Arus Andreassian" data-sid="52248" data-status="-2" data-tid="747432" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 107.360px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best teacher although you watch the same movies at least 45 times a year
+</div>
+<div class="options">
+<a alt="View Arus Andreassian's Ratings" class="btn view_more" href="/arus-andreassian/747432-t" title="View Arus Andreassian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/arus-andreassian/747432-t"></a>
+</div>
+<div class="ad_container taboola_video">
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Robyn Ebert's Ratings" class="name" href="/robyn-ebert/7927213-t" target="_blank" title="View Robyn Ebert's Ratings">
+Robyn Ebert
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/history" title="View A.G.B.U. Manoogian Demirdjian School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Robyn Ebert" data-sid="52248" data-status="-2" data-tid="7927213" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 22.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Not very clear, teaching methods are not very well used
+</div>
+<div class="options">
+<a alt="View Robyn Ebert's Ratings" class="btn view_more" href="/robyn-ebert/7927213-t" title="View Robyn Ebert's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/robyn-ebert/7927213-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Houry Khechoumian's Ratings" class="name" href="/houry-khechoumian/1560566-t" target="_blank" title="View Houry Khechoumian's Ratings">
+Houry Khechoumian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/not-specified" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Houry Khechoumian" data-sid="52248" data-status="-2" data-tid="1560566" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+i think Mrs. Khechumian is the best teacher you will ever have in you life , as being her student 2009-2010 she told...
+</div>
+<div class="options">
+<a alt="View Houry Khechoumian's Ratings" class="btn view_more" href="/houry-khechoumian/1560566-t" title="View Houry Khechoumian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/houry-khechoumian/1560566-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Anahid Nalbandian's Ratings" class="name" href="/anahid-nalbandian/720264-t" target="_blank" title="View Anahid Nalbandian's Ratings">
+Anahid Nalbandian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/math" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Anahid Nalbandian" data-sid="52248" data-status="-2" data-tid="720264" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 97.460px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+A very good and entertaining teacher. She makes math fun, and makes you learn so much. BEST MATH TEACHER AT OUR...
+</div>
+<div class="options">
+<a alt="View Anahid Nalbandian's Ratings" class="btn view_more" href="/anahid-nalbandian/720264-t" title="View Anahid Nalbandian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/anahid-nalbandian/720264-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Preston Bakshi's Ratings" class="name" href="/preston-bakshi/5480121-t" target="_blank" title="View Preston Bakshi's Ratings">
+Preston Bakshi
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/history" title="View A.G.B.U. Manoogian Demirdjian School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Preston Bakshi" data-sid="52248" data-status="-2" data-tid="5480121" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=5480121" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Preston Bakshi" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Preston Bakshi">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=5480121" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Preston Bakshi" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Preston Bakshi">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/preston-bakshi/5480121-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Vana DerOhanessian's Ratings" class="name" href="/vana-derohanessian/6182865-t" target="_blank" title="View Vana DerOhanessian's Ratings">
+Vana DerOhanessian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/english" title="View A.G.B.U. Manoogian Demirdjian School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Vana DerOhanessian" data-sid="52248" data-status="-2" data-tid="6182865" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 51.260px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Not good teacher. Too cocky and does not interact with students well
+</div>
+<div class="options">
+<a alt="View Vana DerOhanessian's Ratings" class="btn view_more" href="/vana-derohanessian/6182865-t" title="View Vana DerOhanessian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/vana-derohanessian/6182865-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Anita Joukjian's Ratings" class="name" href="/anita-joukjian/720295-t" target="_blank" title="View Anita Joukjian's Ratings">
+Anita Joukjian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/math" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Anita Joukjian" data-sid="52248" data-status="-2" data-tid="720295" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 73.260px;"></div>
+</div>
+</div>
+<div class="rating_count">12 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Gives homework and quizzes on topics we have never learned. Repeats the same story over and over again, and defies...
+</div>
+<div class="options">
+<a alt="View Anita Joukjian's Ratings" class="btn view_more" href="/anita-joukjian/720295-t" title="View Anita Joukjian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/anita-joukjian/720295-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Raffi Wartanian's Ratings" class="name" href="/raffi-wartanian/7927217-t" target="_blank" title="View Raffi Wartanian's Ratings">
+Raffi Wartanian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/history" title="View A.G.B.U. Manoogian Demirdjian School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Raffi Wartanian" data-sid="52248" data-status="-2" data-tid="7927217" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7927217" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Raffi Wartanian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Raffi Wartanian">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7927217" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Raffi Wartanian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Raffi Wartanian">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/raffi-wartanian/7927217-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Anna Yaralian's Ratings" class="name" href="/anna-yaralian/2254059-t" target="_blank" title="View Anna Yaralian's Ratings">
+Anna Yaralian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/not-specified" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Anna Yaralian" data-sid="52248" data-status="-2" data-tid="2254059" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She has a passion for what she teaches and she is really good at it !
+</div>
+<div class="options">
+<a alt="View Anna Yaralian's Ratings" class="btn view_more" href="/anna-yaralian/2254059-t" title="View Anna Yaralian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/anna-yaralian/2254059-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Craig Harzman's Ratings" class="name" href="/craig-harzman/1579399-t" target="_blank" title="View Craig Harzman's Ratings">
+Craig Harzman
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/english" title="View A.G.B.U. Manoogian Demirdjian School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Craig Harzman" data-sid="52248" data-status="-2" data-tid="1579399" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 107.800px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He is scary sometimes but i have nothing to worry about because i am not spoiled like the others.
+</div>
+<div class="options">
+<a alt="View Craig Harzman's Ratings" class="btn view_more" href="/craig-harzman/1579399-t" title="View Craig Harzman's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/craig-harzman/1579399-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Tina Papazian's Ratings" class="name" href="/tina-papazian/3170594-t" target="_blank" title="View Tina Papazian's Ratings">
+Tina Papazian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/english" title="View A.G.B.U. Manoogian Demirdjian School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Tina Papazian" data-sid="52248" data-status="-2" data-tid="3170594" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 69.740px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I love Mrs. Papazian. I'm sad she had to leave, but happy that she did because she deserves much better than this...
+</div>
+<div class="options">
+<a alt="View Tina Papazian's Ratings" class="btn view_more" href="/tina-papazian/3170594-t" title="View Tina Papazian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/tina-papazian/3170594-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Teni Markaryan's Ratings" class="name" href="/teni-markaryan/3150053-t" target="_blank" title="View Teni Markaryan's Ratings">
+Teni Markaryan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/english" title="View A.G.B.U. Manoogian Demirdjian School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Teni Markaryan" data-sid="52248" data-status="-2" data-tid="3150053" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Great teacher, knows how to make the class fun and enjoyable, but still educational.
+</div>
+<div class="options">
+<a alt="View Teni Markaryan's Ratings" class="btn view_more" href="/teni-markaryan/3150053-t" title="View Teni Markaryan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/teni-markaryan/3150053-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kevin Boerem's Ratings" class="name" href="/kevin-boerem/2488033-t" target="_blank" title="View Kevin Boerem's Ratings">
+Kevin Boerem
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/history" title="View A.G.B.U. Manoogian Demirdjian School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Kevin Boerem" data-sid="52248" data-status="-2" data-tid="2488033" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2488033" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Kevin Boerem" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Kevin Boerem">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2488033" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Kevin Boerem" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Kevin Boerem">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kevin-boerem/2488033-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Christine Korkodian's Ratings" class="name" href="/christine-korkodian/2307340-t" target="_blank" title="View Christine Korkodian's Ratings">
+Christine Korkodian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/english" title="View A.G.B.U. Manoogian Demirdjian School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Christine Korkodian" data-sid="52248" data-status="-2" data-tid="2307340" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+great teacher, we miss her
+</div>
+<div class="options">
+<a alt="View Christine Korkodian's Ratings" class="btn view_more" href="/christine-korkodian/2307340-t" title="View Christine Korkodian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/christine-korkodian/2307340-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Szilvia Musurlian's Ratings" class="name" href="/szilvia-musurlian/2303808-t" target="_blank" title="View Szilvia Musurlian's Ratings">
+Szilvia Musurlian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/geography" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Geography Teachers">Geography</a>
+</div>
+<div class="teacher_actions" data-name="Szilvia Musurlian" data-sid="52248" data-status="-1" data-tid="2303808" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 90.860px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+AWESOME teacher!! She will literally do anything in her power to make sure you really understand the subject and...
+</div>
+<div class="options">
+<a alt="View Szilvia Musurlian's Ratings" class="btn view_more" href="/szilvia-musurlian/2303808-t" title="View Szilvia Musurlian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/szilvia-musurlian/2303808-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Seta Frencjian's Ratings" class="name" href="/seta-frencjian/2292556-t" target="_blank" title="View Seta Frencjian's Ratings">
+Seta Frencjian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/not-specified" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Seta Frencjian" data-sid="52248" data-status="-2" data-tid="2292556" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2292556" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Seta Frencjian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Seta Frencjian">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2292556" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Seta Frencjian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Seta Frencjian">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/seta-frencjian/2292556-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sean Burns' Ratings" class="name" href="/sean-burns/2184753-t" target="_blank" title="View Sean Burns' Ratings">
+Sean Burns
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/counselor" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="teacher_actions" data-name="Sean Burns" data-sid="52248" data-status="-2" data-tid="2184753" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 61.160px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Honestly, Mr. Burns should consider working under a new field.
+</div>
+<div class="options">
+<a alt="View Sean Burns' Ratings" class="btn view_more" href="/sean-burns/2184753-t" title="View Sean Burns' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sean-burns/2184753-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Karaboghosian's Ratings" class="name" href="/karaboghosian/2160874-t" target="_blank" title="View Karaboghosian's Ratings">
+Karaboghosian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/not-specified" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Karaboghosian" data-sid="52248" data-status="-2" data-tid="2160874" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2160874" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Karaboghosian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Karaboghosian">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2160874" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Karaboghosian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Karaboghosian">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/karaboghosian/2160874-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Arpi Arslanian's Ratings" class="name" href="/arpi-arslanian/2055560-t" target="_blank" title="View Arpi Arslanian's Ratings">
+Arpi Arslanian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/religion" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Religion Teachers">Religion</a>
+</div>
+<div class="teacher_actions" data-name="Arpi Arslanian" data-sid="52248" data-status="-2" data-tid="2055560" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best Armenian Teacher around. She makes armenian and religion so much fun and interesting. I have learned so much...
+</div>
+<div class="options">
+<a alt="View Arpi Arslanian's Ratings" class="btn view_more" href="/arpi-arslanian/2055560-t" title="View Arpi Arslanian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/arpi-arslanian/2055560-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Bunch's Ratings" class="name" href="/bunch/2055562-t" target="_blank" title="View Bunch's Ratings">
+Bunch
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/not-specified" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Bunch" data-sid="52248" data-status="-2" data-tid="2055562" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2055562" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Bunch" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Bunch">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2055562" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Bunch" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Bunch">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/bunch/2055562-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Magdonia Vartn's Ratings" class="name" href="/magdonia-vartn/2045629-t" target="_blank" title="View Magdonia Vartn's Ratings">
+Magdonia Vartn
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/grade-5" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Grade 5 Teachers">Grade 5</a>
+</div>
+<div class="teacher_actions" data-name="Magdonia Vartn" data-sid="52248" data-status="-2" data-tid="2045629" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 55.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He can be sweet but when you pis him off he will yell at everyone
+</div>
+<div class="options">
+<a alt="View Magdonia Vartn's Ratings" class="btn view_more" href="/magdonia-vartn/2045629-t" title="View Magdonia Vartn's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/magdonia-vartn/2045629-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Arek Momjian's Ratings" class="name" href="/arek-momjian/2045630-t" target="_blank" title="View Arek Momjian's Ratings">
+Arek Momjian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/grade-4" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Grade 4 Teachers">Grade 4</a>
+</div>
+<div class="teacher_actions" data-name="Arek Momjian" data-sid="52248" data-status="-2" data-tid="2045630" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2045630" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Arek Momjian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Arek Momjian">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2045630" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Arek Momjian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Arek Momjian">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/arek-momjian/2045630-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Oshin Baboomi's Ratings" class="name" href="/oshin-baboomi/2035987-t" target="_blank" title="View Oshin Baboomi's Ratings">
+Oshin Baboomi
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/history" title="View A.G.B.U. Manoogian Demirdjian School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Oshin Baboomi" data-sid="52248" data-status="-2" data-tid="2035987" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 90.640px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Good teacher. Totally funny. Pilibos is lucky, unless the rumors are true.
+</div>
+<div class="options">
+<a alt="View Oshin Baboomi's Ratings" class="btn view_more" href="/oshin-baboomi/2035987-t" title="View Oshin Baboomi's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/oshin-baboomi/2035987-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Shannan Marley-whitehead's Ratings" class="name" href="/shannan-marley-whitehead/2015296-t" target="_blank" title="View Shannan Marley-whitehead's Ratings">
+Shannan Marley-whitehead
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/grade-5" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Grade 5 Teachers">Grade 5</a>
+</div>
+<div class="teacher_actions" data-name="Shannan Marley-whitehead" data-sid="52248" data-status="-2" data-tid="2015296" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2015296" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Shannan Marley-whitehead" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Shannan Marley-whitehead">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=2015296" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Shannan Marley-whitehead" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Shannan Marley-whitehead">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/shannan-marley-whitehead/2015296-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sayadian's Ratings" class="name" href="/sayadian/1996468-t" target="_blank" title="View Sayadian's Ratings">
+Sayadian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/computer-science" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class="teacher_actions" data-name="Sayadian" data-sid="52248" data-status="-2" data-tid="1996468" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best teacher I have ever had.
+</div>
+<div class="options">
+<a alt="View Sayadian's Ratings" class="btn view_more" href="/sayadian/1996468-t" title="View Sayadian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sayadian/1996468-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Adam Hudanian's Ratings" class="name" href="/adam-hudanian/1986051-t" target="_blank" title="View Adam Hudanian's Ratings">
+Adam Hudanian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/accounting" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Accounting Teachers">Accounting</a>
+</div>
+<div class="teacher_actions" data-name="Adam Hudanian" data-sid="52248" data-status="-2" data-tid="1986051" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1986051" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Adam Hudanian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Adam Hudanian">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1986051" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Adam Hudanian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Adam Hudanian">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/adam-hudanian/1986051-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Andre Gharibian's Ratings" class="name" href="/andre-gharibian/1953291-t" target="_blank" title="View Andre Gharibian's Ratings">
+Andre Gharibian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/science" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Andre Gharibian" data-sid="52248" data-status="-2" data-tid="1953291" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">9 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+nice guy
+</div>
+<div class="options">
+<a alt="View Andre Gharibian's Ratings" class="btn view_more" href="/andre-gharibian/1953291-t" title="View Andre Gharibian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/andre-gharibian/1953291-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Armine Avedian's Ratings" class="name" href="/armine-avedian/1952585-t" target="_blank" title="View Armine Avedian's Ratings">
+Armine Avedian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/math" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Armine Avedian" data-sid="52248" data-status="-1" data-tid="1952585" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 73.260px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+good teacher (not a profesional as mrs. Nalbandian though...she is nicer though...
+</div>
+<div class="options">
+<a alt="View Armine Avedian's Ratings" class="btn view_more" href="/armine-avedian/1952585-t" title="View Armine Avedian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/armine-avedian/1952585-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hagop Margossian's Ratings" class="name" href="/hagop-margossian/1942766-t" target="_blank" title="View Hagop Margossian's Ratings">
+Hagop Margossian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/drivers-education" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Drivers Education Teachers">Drivers Education</a>
+</div>
+<div class="teacher_actions" data-name="Hagop Margossian" data-sid="52248" data-status="-2" data-tid="1942766" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1942766" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Hagop Margossian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Hagop Margossian">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1942766" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Hagop Margossian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Hagop Margossian">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hagop-margossian/1942766-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Baghdasarian's Ratings" class="name" href="/baghdasarian/1854131-t" target="_blank" title="View Baghdasarian's Ratings">
+Baghdasarian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/not-specified" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Baghdasarian" data-sid="52248" data-status="-2" data-tid="1854131" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1854131" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Baghdasarian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Baghdasarian">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1854131" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Baghdasarian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Baghdasarian">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/baghdasarian/1854131-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Cesilia Donsker's Ratings" class="name" href="/cesilia-donsker/1842544-t" target="_blank" title="View Cesilia Donsker's Ratings">
+Cesilia Donsker
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/grade-k" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Grade K Teachers">Grade K</a>
+</div>
+<div class="teacher_actions" data-name="Cesilia Donsker" data-sid="52248" data-status="-2" data-tid="1842544" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+HOWEVER WAS IN HER CLASS WAS VERY LUCKY BECAUSE IS VERY VERY NICE SHE DOSEN'T YELL SHE IN A FUN AND DOES FUN THINGS...
+</div>
+<div class="options">
+<a alt="View Cesilia Donsker's Ratings" class="btn view_more" href="/cesilia-donsker/1842544-t" title="View Cesilia Donsker's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/cesilia-donsker/1842544-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sashah Cohen's Ratings" class="name" href="/sashah-cohen/1842547-t" target="_blank" title="View Sashah Cohen's Ratings">
+Sashah Cohen
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/not-specified" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Sashah Cohen" data-sid="52248" data-status="-2" data-tid="1842547" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1842547" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Sashah Cohen" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Sashah Cohen">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1842547" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Sashah Cohen" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Sashah Cohen">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sashah-cohen/1842547-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Nellie Arslanian's Ratings" class="name" href="/nellie-arslanian/1842549-t" target="_blank" title="View Nellie Arslanian's Ratings">
+Nellie Arslanian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/grade-4" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Grade 4 Teachers">Grade 4</a>
+</div>
+<div class="teacher_actions" data-name="Nellie Arslanian" data-sid="52248" data-status="-2" data-tid="1842549" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+mis s neliie is very nice she has patience wants to teach and help kids when they need it she teaches very well and...
+</div>
+<div class="options">
+<a alt="View Nellie Arslanian's Ratings" class="btn view_more" href="/nellie-arslanian/1842549-t" title="View Nellie Arslanian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/nellie-arslanian/1842549-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Salpi Seckunian's Ratings" class="name" href="/salpi-seckunian/1842553-t" target="_blank" title="View Salpi Seckunian's Ratings">
+Salpi Seckunian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/languages" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Salpi Seckunian" data-sid="52248" data-status="-2" data-tid="1842553" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is the best teacher ive ever had in school. She was so nice even though i was far from well-behaved in her class....
+</div>
+<div class="options">
+<a alt="View Salpi Seckunian's Ratings" class="btn view_more" href="/salpi-seckunian/1842553-t" title="View Salpi Seckunian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/salpi-seckunian/1842553-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Adriane Alvarez's Ratings" class="name" href="/adriane-alvarez/1840695-t" target="_blank" title="View Adriane Alvarez's Ratings">
+Adriane Alvarez
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/english" title="View A.G.B.U. Manoogian Demirdjian School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Adriane Alvarez" data-sid="52248" data-status="-2" data-tid="1840695" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 58.080px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She was a passionate drama teacher but sometimes she didn't consider the students' thoughts or feelings at all. It is...
+</div>
+<div class="options">
+<a alt="View Adriane Alvarez's Ratings" class="btn view_more" href="/adriane-alvarez/1840695-t" title="View Adriane Alvarez's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/adriane-alvarez/1840695-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Carol-lyn Porter's Ratings" class="name" href="/carol-lyn-porter/1835427-t" target="_blank" title="View Carol-lyn Porter's Ratings">
+Carol-lyn Porter
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/not-specified" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Carol-lyn Porter" data-sid="52248" data-status="-2" data-tid="1835427" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1835427" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Carol-lyn Porter" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Carol-lyn Porter">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1835427" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Carol-lyn Porter" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Carol-lyn Porter">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/carol-lyn-porter/1835427-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Gayenty Alvandian's Ratings" class="name" href="/gayenty-alvandian/1751186-t" target="_blank" title="View Gayenty Alvandian's Ratings">
+Gayenty Alvandian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/not-specified" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Gayenty Alvandian" data-sid="52248" data-status="-2" data-tid="1751186" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="0.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 0.000px;"></div>
+</div>
+</div>
+<div class="rating_count">0 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1751186" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Gayenty Alvandian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Gayenty Alvandian">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1751186" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Gayenty Alvandian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Gayenty Alvandian">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/gayenty-alvandian/1751186-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kraft's Ratings" class="name" href="/kraft/1631437-t" target="_blank" title="View Kraft's Ratings">
+Kraft
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/computer-science" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class="teacher_actions" data-name="Kraft" data-sid="52248" data-status="-2" data-tid="1631437" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 77.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr.Kraft..I miss this guy so much! He was the best. He was a good, fun, easy-going teacher. There's something wrong...
+</div>
+<div class="options">
+<a alt="View Kraft's Ratings" class="btn view_more" href="/kraft/1631437-t" title="View Kraft's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kraft/1631437-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Alison Kelemen's Ratings" class="name" href="/alison-kelemen/1629040-t" target="_blank" title="View Alison Kelemen's Ratings">
+Alison Kelemen
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/not-specified" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Alison Kelemen" data-sid="52248" data-status="-2" data-tid="1629040" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+This is a wonderful teacher, person, and friend!
+</div>
+<div class="options">
+<a alt="View Alison Kelemen's Ratings" class="btn view_more" href="/alison-kelemen/1629040-t" title="View Alison Kelemen's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/alison-kelemen/1629040-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kirkman's Ratings" class="name" href="/kirkman/1616847-t" target="_blank" title="View Kirkman's Ratings">
+Kirkman
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/english" title="View A.G.B.U. Manoogian Demirdjian School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Kirkman" data-sid="52248" data-status="-2" data-tid="1616847" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 96.580px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+THE BEST TEACHER I HAVE EVER HAD LOVE YOU MS. KIRKMAN!!!!!!!!!!
+</div>
+<div class="options">
+<a alt="View Kirkman's Ratings" class="btn view_more" href="/kirkman/1616847-t" title="View Kirkman's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kirkman/1616847-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hratch Sepedjian's Ratings" class="name" href="/hratch-sepedjian/1579470-t" target="_blank" title="View Hratch Sepedjian's Ratings">
+Hratch Sepedjian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/education" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Education Teachers">Education</a>
+</div>
+<div class="teacher_actions" data-name="Hratch Sepedjian" data-sid="52248" data-status="-2" data-tid="1579470" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 60.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+boring teacher. very ignorant of class disruptions which causes it to grow.
+</div>
+<div class="options">
+<a alt="View Hratch Sepedjian's Ratings" class="btn view_more" href="/hratch-sepedjian/1579470-t" title="View Hratch Sepedjian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hratch-sepedjian/1579470-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Farid Nourjahan's Ratings" class="name" href="/farid-nourjahan/1579406-t" target="_blank" title="View Farid Nourjahan's Ratings">
+Farid Nourjahan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/computer-science" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class="teacher_actions" data-name="Farid Nourjahan" data-sid="52248" data-status="-2" data-tid="1579406" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+The best teacher in 4th grade and 5th grade computer class.
+</div>
+<div class="options">
+<a alt="View Farid Nourjahan's Ratings" class="btn view_more" href="/farid-nourjahan/1579406-t" title="View Farid Nourjahan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/farid-nourjahan/1579406-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Anna Tavitian's Ratings" class="name" href="/anna-tavitian/1568316-t" target="_blank" title="View Anna Tavitian's Ratings">
+Anna Tavitian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/science" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Anna Tavitian" data-sid="52248" data-status="-2" data-tid="1568316" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+I loved her class, it was really fun and interesting. I like teachers who know how to have a conversation with...
+</div>
+<div class="options">
+<a alt="View Anna Tavitian's Ratings" class="btn view_more" href="/anna-tavitian/1568316-t" title="View Anna Tavitian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/anna-tavitian/1568316-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Maral Voskian's Ratings" class="name" href="/maral-voskian/1567809-t" target="_blank" title="View Maral Voskian's Ratings">
+Maral Voskian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/languages" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Maral Voskian" data-sid="52248" data-status="-1" data-tid="1567809" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 105.600px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+really nice and helped me improve my armenian soo much.
+</div>
+<div class="options">
+<a alt="View Maral Voskian's Ratings" class="btn view_more" href="/maral-voskian/1567809-t" title="View Maral Voskian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/maral-voskian/1567809-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Aznive Vartanian's Ratings" class="name" href="/aznive-vartanian/1567813-t" target="_blank" title="View Aznive Vartanian's Ratings">
+Aznive Vartanian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/math" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Aznive Vartanian" data-sid="52248" data-status="-2" data-tid="1567813" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 102.740px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+she is the best math teacher.I love you digeen.
+</div>
+<div class="options">
+<a alt="View Aznive Vartanian's Ratings" class="btn view_more" href="/aznive-vartanian/1567813-t" title="View Aznive Vartanian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/aznive-vartanian/1567813-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Catherine Dedeyan's Ratings" class="name" href="/catherine-dedeyan/1554347-t" target="_blank" title="View Catherine Dedeyan's Ratings">
+Catherine Dedeyan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/asl" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Asl Teachers">Asl</a>
+</div>
+<div class="teacher_actions" data-name="Catherine Dedeyan" data-sid="52248" data-status="-2" data-tid="1554347" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1554347" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Catherine Dedeyan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Catherine Dedeyan">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=1554347" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Catherine Dedeyan" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Catherine Dedeyan">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/catherine-dedeyan/1554347-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Eleanor Avanessian's Ratings" class="name" href="/eleanor-avanessian/1545408-t" target="_blank" title="View Eleanor Avanessian's Ratings">
+Eleanor Avanessian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/grade-5" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Grade 5 Teachers">Grade 5</a>
+</div>
+<div class="teacher_actions" data-name="Eleanor Avanessian" data-sid="52248" data-status="-2" data-tid="1545408" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+good teacher. Strict, but good
+</div>
+<div class="options">
+<a alt="View Eleanor Avanessian's Ratings" class="btn view_more" href="/eleanor-avanessian/1545408-t" title="View Eleanor Avanessian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/eleanor-avanessian/1545408-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Alvandian's Ratings" class="name" href="/alvandian/1508630-t" target="_blank" title="View Alvandian's Ratings">
+Alvandian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/english" title="View A.G.B.U. Manoogian Demirdjian School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Alvandian" data-sid="52248" data-status="-2" data-tid="1508630" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 79.860px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Alvandian taught 2nd grade for 3 years, then move to the 3rd grade for a 1 year, then was premoted to the 6th grade....
+</div>
+<div class="options">
+<a alt="View Alvandian's Ratings" class="btn view_more" href="/alvandian/1508630-t" title="View Alvandian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/alvandian/1508630-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Ann Marie's Ratings" class="name" href="/ann-marie/1508633-t" target="_blank" title="View Ann Marie's Ratings">
+Ann Marie
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/not-specified" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Ann Marie" data-sid="52248" data-status="-2" data-tid="1508633" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 73.920px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She's a very fun teacher. Yes she does seem to always be yelling at a student, but its not her fault, usually kids do...
+</div>
+<div class="options">
+<a alt="View Ann Marie's Ratings" class="btn view_more" href="/ann-marie/1508633-t" title="View Ann Marie's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/ann-marie/1508633-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Shannon Marley's Ratings" class="name" href="/shannon-marley/1480417-t" target="_blank" title="View Shannon Marley's Ratings">
+Shannon Marley
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/grade-5" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Grade 5 Teachers">Grade 5</a>
+</div>
+<div class="teacher_actions" data-name="Shannon Marley" data-sid="52248" data-status="-2" data-tid="1480417" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+best teacher ever.
+</div>
+<div class="options">
+<a alt="View Shannon Marley's Ratings" class="btn view_more" href="/shannon-marley/1480417-t" title="View Shannon Marley's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/shannon-marley/1480417-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Raffi Kahwajian's Ratings" class="name" href="/raffi-kahwajian/1309632-t" target="_blank" title="View Raffi Kahwajian's Ratings">
+Raffi Kahwajian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/counselor" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="teacher_actions" data-name="Raffi Kahwajian" data-sid="52248" data-status="-2" data-tid="1309632" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+raffi ownss. period. no doubt about it. he's the most helpful counselor i've ever had. He is an awesome musician, a...
+</div>
+<div class="options">
+<a alt="View Raffi Kahwajian's Ratings" class="btn view_more" href="/raffi-kahwajian/1309632-t" title="View Raffi Kahwajian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/raffi-kahwajian/1309632-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Avedian's Ratings" class="name" href="/avedian/1123261-t" target="_blank" title="View Avedian's Ratings">
+Avedian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/substitute-teacher" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Substitute Teacher Teachers">Substitute Teacher</a>
+</div>
+<div class="teacher_actions" data-name="Avedian" data-sid="52248" data-status="-2" data-tid="1123261" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 82.500px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+EXCELLENT MATH TEACHER I LOVE HER!
+</div>
+<div class="options">
+<a alt="View Avedian's Ratings" class="btn view_more" href="/avedian/1123261-t" title="View Avedian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/avedian/1123261-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Isgouhi Vartanian's Ratings" class="name" href="/isgouhi-vartanian/952570-t" target="_blank" title="View Isgouhi Vartanian's Ratings">
+Isgouhi Vartanian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/not-specified" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Isgouhi Vartanian" data-sid="52248" data-status="-2" data-tid="952570" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 103.400px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+One of the nicest teachers I have ever had.
+</div>
+<div class="options">
+<a alt="View Isgouhi Vartanian's Ratings" class="btn view_more" href="/isgouhi-vartanian/952570-t" title="View Isgouhi Vartanian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/isgouhi-vartanian/952570-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Ellie Andreassian's Ratings" class="name" href="/ellie-andreassian/732445-t" target="_blank" title="View Ellie Andreassian's Ratings">
+Ellie Andreassian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/administration" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class="teacher_actions" data-name="Ellie Andreassian" data-sid="52248" data-status="-2" data-tid="732445" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="2.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 60.500px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=732445" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Ellie Andreassian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ellie Andreassian">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=732445" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Ellie Andreassian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Ellie Andreassian">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/ellie-andreassian/732445-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Roxanne Bedrossian's Ratings" class="name" href="/roxanne-bedrossian/729959-t" target="_blank" title="View Roxanne Bedrossian's Ratings">
+Roxanne Bedrossian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/history" title="View A.G.B.U. Manoogian Demirdjian School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Roxanne Bedrossian" data-sid="52248" data-status="-2" data-tid="729959" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 108.240px;"></div>
+</div>
+</div>
+<div class="rating_count">16 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Not much to say... amazing teacher (more like a university professor). Her class is tough and very challenging, but...
+</div>
+<div class="options">
+<a alt="View Roxanne Bedrossian's Ratings" class="btn view_more" href="/roxanne-bedrossian/729959-t" title="View Roxanne Bedrossian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/roxanne-bedrossian/729959-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hagop Hagopian's Ratings" class="name" href="/hagop-hagopian/729967-t" target="_blank" title="View Hagop Hagopian's Ratings">
+Hagop Hagopian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/principal" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Principal Teachers">Principal</a>
+</div>
+<div class="teacher_actions" data-name="Hagop Hagopian" data-sid="52248" data-status="-2" data-tid="729967" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+his morning anouncements are very pointless b/c no one listens but i guess hes a nice guy
+</div>
+<div class="options">
+<a alt="View Hagop Hagopian's Ratings" class="btn view_more" href="/hagop-hagopian/729967-t" title="View Hagop Hagopian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hagop-hagopian/729967-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Louisa Utudjian's Ratings" class="name" href="/louisa-utudjian/729971-t" target="_blank" title="View Louisa Utudjian's Ratings">
+Louisa Utudjian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/languages" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Louisa Utudjian" data-sid="52248" data-status="-2" data-tid="729971" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+If you are on her good side she is extremely nice and helpful. Great teacher.
+</div>
+<div class="options">
+<a alt="View Louisa Utudjian's Ratings" class="btn view_more" href="/louisa-utudjian/729971-t" title="View Louisa Utudjian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/louisa-utudjian/729971-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Vruyr Boulghourjian's Ratings" class="name" href="/vruyr-boulghourjian/729984-t" target="_blank" title="View Vruyr Boulghourjian's Ratings">
+Vruyr Boulghourjian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/math" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Vruyr Boulghourjian" data-sid="52248" data-status="-2" data-tid="729984" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+The Best Teacher!!! The coolest!!!
+</div>
+<div class="options">
+<a alt="View Vruyr Boulghourjian's Ratings" class="btn view_more" href="/vruyr-boulghourjian/729984-t" title="View Vruyr Boulghourjian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/vruyr-boulghourjian/729984-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John Regan's Ratings" class="name" href="/john-regan/730007-t" target="_blank" title="View John Regan's Ratings">
+John Regan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/counselor" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Counselor Teachers">Counselor</a>
+</div>
+<div class="teacher_actions" data-name="John Regan" data-sid="52248" data-status="-2" data-tid="730007" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 88.000px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+One of my favorite teachers when he was a histroy teacher in the 80's
+</div>
+<div class="options">
+<a alt="View John Regan's Ratings" class="btn view_more" href="/john-regan/730007-t" title="View John Regan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-regan/730007-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Aram Chouljian's Ratings" class="name" href="/aram-chouljian/728331-t" target="_blank" title="View Aram Chouljian's Ratings">
+Aram Chouljian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/computer-science" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class="teacher_actions" data-name="Aram Chouljian" data-sid="52248" data-status="-2" data-tid="728331" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+pretty good...pretty pretty pretty good...
+</div>
+<div class="options">
+<a alt="View Aram Chouljian's Ratings" class="btn view_more" href="/aram-chouljian/728331-t" title="View Aram Chouljian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/aram-chouljian/728331-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Vergine Harutunian's Ratings" class="name" href="/vergine-harutunian/725953-t" target="_blank" title="View Vergine Harutunian's Ratings">
+Vergine Harutunian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/math" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Math Teachers">Math</a>
+</div>
+<div class="teacher_actions" data-name="Vergine Harutunian" data-sid="52248" data-status="-2" data-tid="725953" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 108.680px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+i missed you teaching us i sooooooooooooooo glad you came to arshag dickranian why cant you be our teacher anymore i...
+</div>
+<div class="options">
+<a alt="View Vergine Harutunian's Ratings" class="btn view_more" href="/vergine-harutunian/725953-t" title="View Vergine Harutunian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/vergine-harutunian/725953-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hagop Halladjian's Ratings" class="name" href="/hagop-halladjian/725954-t" target="_blank" title="View Hagop Halladjian's Ratings">
+Hagop Halladjian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/physical-education" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class="teacher_actions" data-name="Hagop Halladjian" data-sid="52248" data-status="-2" data-tid="725954" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 66.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=725954" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Hagop Halladjian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Hagop Halladjian">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=725954" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Hagop Halladjian" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Hagop Halladjian">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hagop-halladjian/725954-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Denise Lerette's Ratings" class="name" href="/denise-lerette/725955-t" target="_blank" title="View Denise Lerette's Ratings">
+Denise Lerette
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/english" title="View A.G.B.U. Manoogian Demirdjian School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Denise Lerette" data-sid="52248" data-status="-2" data-tid="725955" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.8 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.500px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=725955" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Denise Lerette" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Denise Lerette">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=725955" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Denise Lerette" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Denise Lerette">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/denise-lerette/725955-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Nazeli Kojayan's Ratings" class="name" href="/nazeli-kojayan/725959-t" target="_blank" title="View Nazeli Kojayan's Ratings">
+Nazeli Kojayan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/languages" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Nazeli Kojayan" data-sid="52248" data-status="-2" data-tid="725959" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 93.500px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is a great teacher. I like her a lot. Try to get on her good side.
+</div>
+<div class="options">
+<a alt="View Nazeli Kojayan's Ratings" class="btn view_more" href="/nazeli-kojayan/725959-t" title="View Nazeli Kojayan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/nazeli-kojayan/725959-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Sylvie Martin's Ratings" class="name" href="/sylvie-martin/725962-t" target="_blank" title="View Sylvie Martin's Ratings">
+Sylvie Martin
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/english" title="View A.G.B.U. Manoogian Demirdjian School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Sylvie Martin" data-sid="52248" data-status="-2" data-tid="725962" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mrs. Martin is the best! so nice and smart
+</div>
+<div class="options">
+<a alt="View Sylvie Martin's Ratings" class="btn view_more" href="/sylvie-martin/725962-t" title="View Sylvie Martin's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/sylvie-martin/725962-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Paul Martin's Ratings" class="name" href="/paul-martin/725526-t" target="_blank" title="View Paul Martin's Ratings">
+Paul Martin
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/english" title="View A.G.B.U. Manoogian Demirdjian School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Paul Martin" data-sid="52248" data-status="-2" data-tid="725526" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.5 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 99.000px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Demanding, but worth it. Very down to Earth; awesome teacher. Works hard for us, and we learn a lot by doing the...
+</div>
+<div class="options">
+<a alt="View Paul Martin's Ratings" class="btn view_more" href="/paul-martin/725526-t" title="View Paul Martin's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/paul-martin/725526-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Kevork Agopian's Ratings" class="name" href="/kevork-agopian/725549-t" target="_blank" title="View Kevork Agopian's Ratings">
+Kevork Agopian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/science" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Kevork Agopian" data-sid="52248" data-status="-2" data-tid="725549" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 104.060px;"></div>
+</div>
+</div>
+<div class="rating_count">24 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+great great great
+</div>
+<div class="options">
+<a alt="View Kevork Agopian's Ratings" class="btn view_more" href="/kevork-agopian/725549-t" title="View Kevork Agopian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/kevork-agopian/725549-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John Paulos' Ratings" class="name" href="/john-paulos/720258-t" target="_blank" title="View John Paulos' Ratings">
+John Paulos
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/history" title="View A.G.B.U. Manoogian Demirdjian School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="John Paulos" data-sid="52248" data-status="-2" data-tid="720258" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.4 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 97.240px;"></div>
+</div>
+</div>
+<div class="rating_count">6 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Mr. Paulos is a cool guy. Some people don't think so, that cause they don't really know him. He is a real teacher.He...
+</div>
+<div class="options">
+<a alt="View John Paulos' Ratings" class="btn view_more" href="/john-paulos/720258-t" title="View John Paulos' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-paulos/720258-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Yolanda Ohanesyan's Ratings" class="name" href="/yolanda-ohanesyan/720267-t" target="_blank" title="View Yolanda Ohanesyan's Ratings">
+Yolanda Ohanesyan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/science" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Science Teachers">Science</a>
+</div>
+<div class="teacher_actions" data-name="Yolanda Ohanesyan" data-sid="52248" data-status="-2" data-tid="720267" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 85.360px;"></div>
+</div>
+</div>
+<div class="rating_count">8 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+yolanda ohanesian has the experience but not the talent of being an adequet teacher.In my perspective she has not...
+</div>
+<div class="options">
+<a alt="View Yolanda Ohanesyan's Ratings" class="btn view_more" href="/yolanda-ohanesyan/720267-t" title="View Yolanda Ohanesyan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/yolanda-ohanesyan/720267-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Minas Kojayan's Ratings" class="name" href="/minas-kojayan/720278-t" target="_blank" title="View Minas Kojayan's Ratings">
+Minas Kojayan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/languages" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Languages Teachers">Languages</a>
+</div>
+<div class="teacher_actions" data-name="Minas Kojayan" data-sid="52248" data-status="-2" data-tid="720278" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.7 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 81.400px;"></div>
+</div>
+</div>
+<div class="rating_count">10 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He is a cool teacher. He dose not punish you. He is the best ever NOT
+</div>
+<div class="options">
+<a alt="View Minas Kojayan's Ratings" class="btn view_more" href="/minas-kojayan/720278-t" title="View Minas Kojayan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/minas-kojayan/720278-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View John Thomas' Ratings" class="name" href="/john-thomas/720286-t" target="_blank" title="View John Thomas' Ratings">
+John Thomas
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/history" title="View A.G.B.U. Manoogian Demirdjian School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="John Thomas" data-sid="52248" data-status="-2" data-tid="720286" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.2 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 92.400px;"></div>
+</div>
+</div>
+<div class="rating_count">5 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+kickass class, kickass teacher
+</div>
+<div class="options">
+<a alt="View John Thomas' Ratings" class="btn view_more" href="/john-thomas/720286-t" title="View John Thomas' Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/john-thomas/720286-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Gerald McKay's Ratings" class="name" href="/gerald-mckay/720306-t" target="_blank" title="View Gerald McKay's Ratings">
+Gerald McKay
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/administration" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Administration Teachers">Administration</a>
+</div>
+<div class="teacher_actions" data-name="Gerald McKay" data-sid="52248" data-status="-2" data-tid="720306" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.9 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 108.460px;"></div>
+</div>
+</div>
+<div class="rating_count">7 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+He was really cool. liked him a lot he was the coolest guy
+</div>
+<div class="options">
+<a alt="View Gerald McKay's Ratings" class="btn view_more" href="/gerald-mckay/720306-t" title="View Gerald McKay's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/gerald-mckay/720306-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Chloe Roselander-Ginn's Ratings" class="name" href="/chloe-roselander-ginn/7949877-t" target="_blank" title="View Chloe Roselander-Ginn's Ratings">
+Chloe Roselander-Ginn
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/history" title="View A.G.B.U. Manoogian Demirdjian School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Chloe Roselander-Ginn" data-sid="52248" data-status="-2" data-tid="7949877" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.6 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 100.760px;"></div>
+</div>
+</div>
+<div class="rating_count">4 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+She is a knowledgeable teacher yet she uses class time as a discussion too much rather than lecture. Everything is...
+</div>
+<div class="options">
+<a alt="View Chloe Roselander-Ginn's Ratings" class="btn view_more" href="/chloe-roselander-ginn/7949877-t" title="View Chloe Roselander-Ginn's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/chloe-roselander-ginn/7949877-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Serj Zakarian's Ratings" class="name" href="/serj-zakarian/3898387-t" target="_blank" title="View Serj Zakarian's Ratings">
+Serj Zakarian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/principal" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Principal Teachers">Principal</a>
+</div>
+<div class="teacher_actions" data-name="Serj Zakarian" data-sid="52248" data-status="-2" data-tid="3898387" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">3 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Serj zakarian is the best principal i have ever seen. He is so kind to everyone and interacts with all the students....
+</div>
+<div class="options">
+<a alt="View Serj Zakarian's Ratings" class="btn view_more" href="/serj-zakarian/3898387-t" title="View Serj Zakarian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/serj-zakarian/3898387-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Fadi Beyrouthy's Ratings" class="name" href="/fadi-beyrouthy/7992677-t" target="_blank" title="View Fadi Beyrouthy's Ratings">
+Fadi Beyrouthy
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/computer-science" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class="teacher_actions" data-name="Fadi Beyrouthy" data-sid="52248" data-status="-2" data-tid="7992677" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="4.3 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 95.260px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Enjoyed his class, very knowledgeable of his classes, friendly, great, and loving
+</div>
+<div class="options">
+<a alt="View Fadi Beyrouthy's Ratings" class="btn view_more" href="/fadi-beyrouthy/7992677-t" title="View Fadi Beyrouthy's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/fadi-beyrouthy/7992677-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Hovhannes Gumroyan's Ratings" class="name" href="/hovhannes-gumroyan/7929197-t" target="_blank" title="View Hovhannes Gumroyan's Ratings">
+Hovhannes Gumroyan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/not-specified" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class="teacher_actions" data-name="Hovhannes Gumroyan" data-sid="52248" data-status="-2" data-tid="7929197" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+The best Armenian teacher!
+</div>
+<div class="options">
+<a alt="View Hovhannes Gumroyan's Ratings" class="btn view_more" href="/hovhannes-gumroyan/7929197-t" title="View Hovhannes Gumroyan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/hovhannes-gumroyan/7929197-t"></a>
+</div>
+<div class="placements" style="border: 1px solid transparent;"></div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Jockins' Ratings" class="name" href="/jockins/7927219-t" target="_blank" title="View Jockins' Ratings">
+Mrs. Jockins
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/history" title="View A.G.B.U. Manoogian Demirdjian School&#39;s History Teachers">History</a>
+</div>
+<div class="teacher_actions" data-name="Mrs. Jockins" data-sid="52248" data-status="-2" data-tid="7927219" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="1.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 22.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+<a class="new_rating_trigger fake_comment" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7927219" data-sender-name="School page Fake Comment Box" data-target="#modal_rating" data-teacher="Mrs. Jockins" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Jockins">
+Start a Review...
+</a>
+<a class="new_rating_trigger btn rate_now" data-backdrop="static" data-keyboard data-remote="/ratings/new?tid=7927219" data-sender-name="School page Rate Now Button" data-target="#modal_rating" data-teacher="Mrs. Jockins" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Submit Rating for  Mrs. Jockins">
+Rate Now
+</a>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/jockins/7927219-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Vartan Karigosyan's Ratings" class="name" href="/vartan-karigosyan/7927221-t" target="_blank" title="View Vartan Karigosyan's Ratings">
+Vartan Karigosyan
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/rotc" title="View A.G.B.U. Manoogian Demirdjian School&#39;s Rotc Teachers">Rotc</a>
+</div>
+<div class="teacher_actions" data-name="Vartan Karigosyan" data-sid="52248" data-status="-2" data-tid="7927221" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best teacher at AGBU! explains everything clearly and is able to control the class. Join the Vart cult
+</div>
+<div class="options">
+<a alt="View Vartan Karigosyan's Ratings" class="btn view_more" href="/vartan-karigosyan/7927221-t" title="View Vartan Karigosyan's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/vartan-karigosyan/7927221-t"></a>
+</div>
+
+<div class="clickable_fix row teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Donna Tucker's Ratings" class="name" href="/donna-tucker/3819979-t" target="_blank" title="View Donna Tucker's Ratings">
+Donna Tucker
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/english" title="View A.G.B.U. Manoogian Demirdjian School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Donna Tucker" data-sid="52248" data-status="-1" data-tid="3819979" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="3.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 66.000px;"></div>
+</div>
+</div>
+<div class="rating_count">2 ratings</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+Best awsome and hot
+</div>
+<div class="options">
+<a alt="View Donna Tucker's Ratings" class="btn view_more" href="/donna-tucker/3819979-t" title="View Donna Tucker's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/donna-tucker/3819979-t"></a>
+</div>
+
+<div class="clickable_fix row secondary teacher">
+<div class="col-xs-3 info">
+<h3 class="teacher_name">
+<a alt="View Shoushan Arabian's Ratings" class="name" href="/shoushan-arabian/3819981-t" target="_blank" title="View Shoushan Arabian's Ratings">
+Shoushan Arabian
+</a>
+</h3>
+<div class="department">
+Department
+<a href="/a-g-b-u-manoogian-demirdjian-school/52248-s/english" title="View A.G.B.U. Manoogian Demirdjian School&#39;s English Teachers">English</a>
+</div>
+<div class="teacher_actions" data-name="Shoushan Arabian" data-sid="52248" data-status="-1" data-tid="3819981" style="display:none;"></div>
+</div>
+<div class="col-xs-2 col-lg-3 score">
+<div class="rateit star-rating rateit-exclude" title="5.0 of 5">
+<div class="rateit-range" style="width: 110px; height: 18px;">
+<div class="rateit-preset rateit-selected" style="height: 18px; width: 110.000px;"></div>
+</div>
+</div>
+<div class="rating_count">1 rating</div>
+</div>
+<div class="col-xs-7 col-lg-6 comments">
+Recent Rating
+<div class="comment_extract">
+One of the BEST English teachers we ever had. She was also responsible for the yearbooks, which turned out FANTASTIC!...
+</div>
+<div class="options">
+<a alt="View Shoushan Arabian's Ratings" class="btn view_more" href="/shoushan-arabian/3819981-t" title="View Shoushan Arabian's Ratings">
+View More
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<a class="clickable_fix_trigger hidden-sm hidden-md hidden-lg" href="/shoushan-arabian/3819981-t"></a>
+</div>
+
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-lg-3 secondary_column">
+<a class="rating_histogram_widget_link_container" href="/a-g-b-u-manoogian-demirdjian-school/52248-s/stats" title="Go to A.G.B.U. Manoogian Demirdjian School stats">
+<div class="row block_container school_rating_histogram_card">
+<div class="col-xs-12">
+<h2 class="school_name" title="Learn more about A.G.B.U. Manoogian Demirdjian School">
+<span>
+A.G.B.U. Manoogian Demirdjian School Rating Histogram
+</span>
+</h2>
+<div class="score_line_container">
+<div class="score_label">5-star</div>
+<div class="score_percentage">82%</div>
+<div class="score_line">
+<div class="aux" style="width: 82.69%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">4-star</div>
+<div class="score_percentage">6%</div>
+<div class="score_line">
+<div class="aux" style="width: 6.71%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">3-star</div>
+<div class="score_percentage">4%</div>
+<div class="score_line">
+<div class="aux" style="width: 4.24%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">2-star</div>
+<div class="score_percentage">1%</div>
+<div class="score_line">
+<div class="aux" style="width: 1.41%;"></div>
+</div>
+</div>
+<div class="score_line_container">
+<div class="score_label">1-star</div>
+<div class="score_percentage">4%</div>
+<div class="score_line">
+<div class="aux" style="width: 4.95%;"></div>
+</div>
+</div>
+<div class="score">
+<div class="rateit star-rating rateit-exclude" title="4.1 of 5">
+<div class="rateit-range" style="width: 90px; height: 15px;">
+<div class="rateit-preset rateit-selected" style="height: 15px; width: 74.541px;"></div>
+</div>
+</div>
+<span class="rating-summary">
+Based on
+283
+Ratings
+</span>
+</div>
+</div>
+</div>
+</a>
+<div class="sticky_container_right">
+<div class="sticky_column">
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="all_footer_wrapper" style="overflow:hidden;">
+<section class="container-fluid hidden-xs padding" id="states">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-sm-offset-0 footer_states_container">
+<h3>Locate Schools by State:</h3>
+<div class="states">
+<div class="state">
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class="state">
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class="state">
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class="state">
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class="state">
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class="state">
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class="state">
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class="state">
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class="state">
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class="state">
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class="state">
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class="state">
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class="state">
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class="state">
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class="state">
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class="state">
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class="state">
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class="state">
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class="state">
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class="state">
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class="state">
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class="state">
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class="state">
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class="state">
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class="state">
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class="state">
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class="state">
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class="state">
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class="state">
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class="state">
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class="state">
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class="state">
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class="state">
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class="state">
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class="state">
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class="state">
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class="state">
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class="state">
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class="state">
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class="state">
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class="state">
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class="state">
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class="state">
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class="state">
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class="state">
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class="state">
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class="state">
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class="state">
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class="state">
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class="state">
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer_directory">
+<div class="container">
+<div class="row">
+<div class="col-xs-6 hidden-xs">
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;W&quot;" href="/schools/directory/w" title="Schools beginning with &quot;W&quot;">w</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class="col-xs-6 hidden-xs">
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;W&quot;" href="/teachers/directory/w" title="Teachers beginning with &quot;W&quot;">w</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class="row footer_countries_list">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class="container-fluid" id="footer">
+<div class="container">
+<div class="row footer_links">
+<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+<h3 class="hidden-sm hidden-md hidden-lg">Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop="static" data-keyboard data-remote="/contact/new" data-target="#modal" data-toggle="modal" href="javascript:void(0);" rel="nofollow" title="Contact RateMyTeachers">
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="row copyright">
+Copyright 2001-2017 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden="true" class="modal fade" id="modal" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div aria-hidden="true" class="modal fade" id="modal_rating" role="dialog" style="width: auto;" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div id="loading-indicator" style="display: none;">
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif"/>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    functionToLoad.push('//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js');
+  </script>
+<script type="text/javascript">
+    functionToLoad.push('/assets/application-54ea36510d376e4b53979f87d72bc002.js');
+    functionToLoad.push('/assets/users-8d86f10db3dd4d729784ef9748a4b44e.js');
+  </script>
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        // Facebook like
+        // (function(d, s, id) {
+        //   var js, fjs = d.getElementsByTagName(s)[0];
+        //   if (d.getElementById(id)) return;
+        //   js = d.createElement(s); js.id = id;
+        //   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=232453153516852&version=v2.0";
+        //   fjs.parentNode.insertBefore(js, fjs);
+        // }(document, 'script', 'facebook-jssdk'));
+
+        // Google Plus
+        // (function() {
+        //   var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        //   po.src = 'https://apis.google.com/js/platform.js';
+        //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        // })();
+
+        // Twitter Follow
+        // !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      
+      });
+    </script>
+<script>
+  functionToLoad.push(function() {
+    $('#teachers_by_alphabet').change(function(e){
+      document.location.href = $('#teachers_by_alphabet').val()
+    });
+  });
+</script>
+<script>
+  functionToLoad.push(function() {
+    var schoolPagePath = '/a-g-b-u-manoogian-demirdjian-school/52248-s';
+    var resultCount = 80;
+    var minStickyResultCount = 3;
+
+    if (!isMobile && !isMedium && resultCount > 0) {
+      var stickyColumnRight = $(".sticky_container_right .sticky_column");
+      var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+      var footerHeight = $('#all_footer_wrapper').outerHeight() + 50;
+      var stickyOptions = function(getWidthFrom) {
+        return {topSpacing:0, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+      }
+      stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+      // Make center column options sticky when min results quantity
+      if (resultCount > minStickyResultCount - 1) {
+        stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+      }
+    }
+  });
+</script>
+<script type="text/javascript">
+    function initializeMaps() {
+      var length = mapFunctionArray.length;
+      for (var i = 0; i < length; i++) {
+        mapFunctionArray[i]();
+      }
+    }
+
+    functionToLoad.push(function() {
+      // Don't load google maps when no pending maps
+      if (typeof(mapFunctionArray) === 'undefined' || mapFunctionArray.length < 1)
+        return;
+
+      var googleMapsId = "AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g";
+
+      var script_path = "http://maps.googleapis.com/maps/api/js?key=" + googleMapsId + "&sensor=false&callback=initializeMaps";
+      $.getScript(script_path);
+
+    });
+  </script>
+
+
+<script type="text/javascript">
+      functionToLoad.push(function() {
+        window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-bottom"};
+      });
+      functionToLoad.push("//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js");
+    </script>
+
+<script>
+    window.addEventListener('load', function(){
+      console.info("[PERF] DomContentLoaded: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+
+    window.addEventListener('load', function(){
+      console.info("[PERF] Load: " + ((new Date()).getTime() - window.beginTimeTrack));
+    });
+  </script>
+
+<script type="text/javascript">
+    (function() {
+      // Load script from url
+      var loadScript = function(url, callback) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+
+        // Add on load callback event
+        if (callback !== null) {
+          if (script.readyState){ //IE
+            script.onreadystatechange = function(){
+              if (script.readyState == "loaded" || script.readyState == "complete"){
+                script.onreadystatechange = null;
+                callback();
+              }
+            };
+          } else { //Others
+            // Execute callback even when an error happen
+            script.onerror = function(e){
+              try {
+                console.error("An error happen when loading '" + err.target.src + "' script.");
+              } catch(err) {} finally {
+                callback();
+              }
+            };
+            script.onload = function(){ callback(); };
+          }
+        }
+
+        // Load the script
+        script.src = url;
+        document.body.appendChild(script);
+      };
+
+      // Load scripts in a sequence instead parallel
+      // to make sure frameworks load correctly
+      function sequence(index, max, source) {
+        if (index < max) {
+          var data = functionToLoad.extractElementData(source[index]);
+
+          if (typeof data.element === 'string') {
+            if (data.async) {
+              // Async script
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+              });
+              sequence(index + 1, max, source);
+            } else {
+              // Sync scripts
+              loadScript(data.element, function() {
+                if (data.subElements.length > 0) {
+                  sequence(0, data.subElements.length, data.subElements);
+                }
+                sequence(index + 1, max, source);
+              });
+            }
+          } else {
+            // Execute callback even when an error happen on the function
+            try {
+              if (data.async) {
+                // Async script
+                setTimeout(function() { data.element(); }, 1);
+              } else {
+                // Sync script
+                data.element();
+              }
+            } catch(err) {
+              console.error(err);
+            } finally {
+              sequence(index + 1, max, source);
+            }
+          }
+        }
+      }
+
+      // Load all javascript in a sequence
+      var loadDeferredJs = function() {
+        sequence(0, functionToLoad.length, functionToLoad);
+      };
+
+      // Execute all lazy javascripts after DOM load
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredJs, 0); });
+      else window.addEventListener('load', loadDeferredJs);
+    })();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,3948 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+      (function(){
+        window.beginTimeTrack = (new Date()).getTime();
+      })();
+    </script>
+
+
+  <title>Laguna College of Art and Design - Laguna Beach, California | RateMyTeachers.com</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":733,"agentToken":null,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(14)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(14)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(14)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,v,"fn-",c)}function i(t){y.push(t),h&&(w=-w,b.data=w)}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(14)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,g),g.prototype=p.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var w=1,b=document.createTextNode(w);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[g[n]];return f&&f.push([w,n,r,i]),i}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",g[n]=e,e in u||(u[e]=[])})}var y={},g={},w={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return w}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=w.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(y,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(12),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(9);var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},g=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),w=e.exports={offset:a(),origin:v,features:{},xhrWrappable:g};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,7]);</script>  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+  <meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw" />
+  
+
+
+<meta name="description" content="Laguna College of Art and Design is a College in Laguna Beach, CA. Search Laguna College of Art and Design&#39;s ratings, statistics and reviews by students and parents." />
+
+
+<meta property="twitter:image" content="http://www.ratemyteachers.com/images/logo_icon_60.png" />
+
+
+<meta property="og:image" content="http://www.ratemyteachers.com/images/logo_icon_100.png" />
+<meta property="og:title" content="Laguna College of Art and Design - Laguna Beach, California | RateMyTeachers.com" />
+  <meta property="og:type" content="rmt:school" />
+<meta property="og:url" content="http://www.ratemyteachers.com/laguna-college-of-art-and-design/137489-s" />
+<meta property="og:site_name" content="Laguna College of Art and Design - Laguna Beach, California | RateMyTeachers.com" />
+<meta property="og:description" content="Laguna College of Art and Design is a College in Laguna Beach, CA. Search Laguna College of Art and Design's ratings, statistics and reviews by students and parents." />
+
+
+
+
+  <meta name="robots" content="noodp,noydir" />
+  <meta property="rmt:image" content="http://www.ratemyteachers.com/apple_touch_icon_196x196.png" />
+  
+  <!-- Favicons -->
+  <link rel="shortcut icon" sizes="64x64 48x48 32x32 16x16" type="image/x-icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple_touch_icon_60x60.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple_touch_icon_76x76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple_touch_icon_120x120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple_touch_icon_152x152.png">
+  <link rel="apple-touch-icon-precomposed" href="/apple_touch_icon_196x196.png"/>
+  
+  <link rel="dns-prefetch" href="cdn0.ratemyteachers.com" />
+  <link rel="dns-prefetch" href="cdn1.ratemyteachers.com" />
+  <link rel="dns-prefetch" href="cdn2.ratemyteachers.com" />
+  <link rel="dns-prefetch" href="cdn3.ratemyteachers.com" />
+  
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="screen" rel="stylesheet" />
+
+<link href="//cdn3.ratemyteachers.com/assets/application-d00f2d650056252f069f5abb528ae370.css" media="all" rel="stylesheet" />
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+
+
+
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery || document.write(unescape('%3Cscript src="//cdn3.ratemyteachers.com/assets/jquery-58d33bff957b1f23315aac9c615a03c1.js">%3C/script>'))
+//]]>
+</script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script>
+//<![CDATA[
+typeof $().modal == 'function' || document.write(unescape('%3Cscript src="//cdn0.ratemyteachers.com/javascripts/bootstrap-3.1.1.min.js">%3C/script>'))
+//]]>
+</script>
+
+<script type="text/javascript">
+    var currentState = 'DE';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:      true,
+    debugMode:            false
+  };
+
+
+  function getWindowWidth() {
+    var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth; myHeight = window.innerHeight;
+    } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+      myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+      myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+    }
+    return myWidth;
+  }
+
+  var isDesktopVariant = true;
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isExtraSmall = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false)
+  var isMobile = isExtraSmall || isMobileVariant;
+  var isMedium = (getWindowWidth() < 1200) || (screen ? screen.width < 1200 : false);
+
+
+  var isChrome = navigator.userAgent.indexOf('Chrome') > -1;
+  var isExplorer = navigator.userAgent.indexOf('MSIE') > -1;
+  var isFirefox = navigator.userAgent.indexOf('Firefox') > -1;
+  var isSafari = navigator.userAgent.indexOf("Safari") > -1;
+  var isOpera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
+  if ((isChrome)&&(isSafari)) {isSafari=false;}
+  if ((isChrome)&&(isOpera)) {isChrome=false;}
+
+  var enablePropel    = !isSafari && !isOpera && false;
+  var enableMediabong = !isSafari && !isOpera;
+  var enableBrightComedia = !isSafari && !isOpera;
+
+  var isMobileUpload = false;
+
+    var cseData = {
+      isCseSearch: true
+      ,paramFormat: '%{search_term}%{location}'
+      ,stateList: [{"name":"Alaska","shortname":"ak"},{"name":"Alabama","shortname":"al"},{"name":"Arkansas","shortname":"ar"},{"name":"Arizona","shortname":"az"},{"name":"California","shortname":"ca"},{"name":"Colorado","shortname":"co"},{"name":"Connecticut","shortname":"ct"},{"name":"Dc","shortname":"dc"},{"name":"Delaware","shortname":"de"},{"name":"Florida","shortname":"fl"},{"name":"Georgia","shortname":"ga"},{"name":"Hawaii","shortname":"hi"},{"name":"Iowa","shortname":"ia"},{"name":"Idaho","shortname":"id"},{"name":"Illinois","shortname":"il"},{"name":"Indiana","shortname":"in"},{"name":"Kansas","shortname":"ks"},{"name":"Kentucky","shortname":"ky"},{"name":"Louisiana","shortname":"la"},{"name":"Massachusetts","shortname":"ma"},{"name":"Maryland","shortname":"md"},{"name":"Maine","shortname":"me"},{"name":"Michigan","shortname":"mi"},{"name":"Minnesota","shortname":"mn"},{"name":"Missouri","shortname":"mo"},{"name":"Mississippi","shortname":"ms"},{"name":"Montana","shortname":"mt"},{"name":"North Carolina","shortname":"nc"},{"name":"North Dakota","shortname":"nd"},{"name":"Nebraska","shortname":"ne"},{"name":"New Hampshire","shortname":"nh"},{"name":"New Jersey","shortname":"nj"},{"name":"New Mexico","shortname":"nm"},{"name":"Nevada","shortname":"nv"},{"name":"New York","shortname":"ny"},{"name":"Ohio","shortname":"oh"},{"name":"Oklahoma","shortname":"ok"},{"name":"Oregon","shortname":"or"},{"name":"Pennsylvania","shortname":"pa"},{"name":"Puerto Rico","shortname":"pr"},{"name":"Rhode Island","shortname":"ri"},{"name":"South Carolina","shortname":"sc"},{"name":"South Dakota","shortname":"sd"},{"name":"Tennessee","shortname":"tn"},{"name":"Texas","shortname":"tx"},{"name":"Utah","shortname":"ut"},{"name":"Virginia","shortname":"va"},{"name":"Vermont","shortname":"vt"},{"name":"Washington","shortname":"wa"},{"name":"Wisconsin","shortname":"wi"},{"name":"West Virginia","shortname":"wv"},{"name":"Wyoming","shortname":"wy"}]
+    };
+
+
+  // Search autocomplete widget
+  var searchAutocompleteHTML = "<div class=\'desktop search_autocomplete_widget\'>\n<div class=\'autocomplete_teachers\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-user\'><\/i>\nTeachers and Professors\n<\/div>\n<div class=\'autocomplete_container\'>\n<style>#ypaAdWrapper_ratemyteachers_autocomplete iframe{width:100%}<\/style>\n<div id=\'ypaAdWrapper_ratemyteachers_autocomplete\'><\/div>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_school_name\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nTeachers and Professors\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<div class=\'autocomplete_schools\'>\n<div class=\'autocomplete_subtitle\'>\n<i class=\'fa fa-university\'><\/i>\nSchools and Colleges\n<\/div>\n<div class=\'autocomplete_container\'>\n<div class=\'autocomplete_elements_container\'>\n<a class=\'autocomplete_element\' target=\'_blank\'>\n<span class=\'autocomplete_name\'><\/span>\n<span class=\'autocomplete_address\'><\/span>\n<\/a>\n<\/div>\n<\/div>\n<a class=\'autocomplete_view_more\'>\nView All\n<span class=\'autocomplete_count\'><\/span>\nSchools and Colleges\n<i class=\'fa fa-chevron-right\'><\/i>\n<\/a>\n<\/div>\n<\/div>\n";
+</script>
+
+
+
+  <script>
+    var gaId = 'UA-4216499-1';
+    
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', gaId, 'auto');
+    ga('require', 'displayfeatures');
+    //ga('require', 'ecommerce', 'ecommerce.js');
+    
+  </script>
+
+
+<script src="//cdn2.ratemyteachers.com/assets/rmt.analytics-47babc79c47e11fa3bc4afadf1b83ad7.js"></script>
+
+
+<script>
+    // Returns a function, that, as long as it continues to be invoked, will not
+    // be triggered. The function will be called after it stops being called for
+    // N milliseconds. If `immediate` is passed, trigger the function on the
+    // leading edge, instead of the trailing.
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+</script>
+
+<!--BEGIN FIRSTIMPRESSION TAG -->
+<script data-cfasync='false' type='text/javascript'>
+	window.apd_options = { 'websiteId': 6292, 'runFromFrame': false };
+	(function() {
+		var w = window.apd_options.runFromFrame ? window.top : window;
+		if(window.apd_options.runFromFrame && w!=window.parent) w=window.parent;
+		if (w.location.hash.indexOf('apdAdmin') != -1){if(typeof(Storage) !== 'undefined') {w.localStorage.apdAdmin = 1;}}
+		var adminMode = ((typeof(Storage) == 'undefined') || (w.localStorage.apdAdmin == 1));
+		w.apd_options=window.apd_options;
+		var apd = w.document.createElement('script'); apd.type = 'text/javascript'; apd.async = true;
+		apd.src = '//' + (adminMode ? 'cdn' : 'ecdn') + '.firstimpression.io/' + (adminMode ? 'fi.js?id=' + window.apd_options.websiteId : 'fi_client.js') ;
+		var s = w.document.getElementsByTagName('head')[0]; s.appendChild(apd);
+	})();</script>
+<!-- END FIRSTIMPRESSION TAG -->
+
+
+<script>
+  var pageType = "";
+  RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+  var searchTerm = "";
+</script>
+
+
+<!-- Sortable adblocker tracker -->
+<script src="//d1stmqa67kozr6.cloudfront.net/a/detector.js?site=ratemyteachers.com" async></script>
+
+
+
+
+    <!-- Google Custom Ads -->
+    <script type="text/javascript" charset="utf-8">
+      (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+      arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+      O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+      e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+    </script>
+    <!-- AdSense -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+<script type="text/javascript">
+  // fallback to use google ads when no sortable ads
+  window.__ssrt_ab_is_them = true;
+</script>
+    <script type="text/javascript">
+      (function(){
+        window.__ssrt_ab_our_pct=100;
+        var a=window.__ssrt_ab_our_pct,a=Math.random()>a/100,c=location.search.match(/[?&]ssrt-ab-is-them=([^&]+)/);c&&2===c.length&&(a="true"===c[1]);a&&(window.deployads=[],window.deployads.push=function(){var b=document.querySelectorAll('script[type\x3d"text/x-ab-test"]:not([data-processed])');if(b&&0<b.length){var b=b[0],a=b.innerHTML.replace(/xscript/g,"script");document.write(a);b.setAttribute("data-processed","true")}});window.__ssrt_ab_is_them=a}
+      )();
+    </script>
+
+
+
+
+
+
+
+      <script type='text/javascript'>
+        if (window.__ssrt_ab_is_them) {
+          // Google tag init
+          var asyncAds  = true;
+          var googletag = googletag || {};
+          googletag.cmd = googletag.cmd || [];
+
+          // Google services tag script
+          (function() {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') +
+              '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+          })();
+        }
+      </script>
+
+
+
+
+  <script>
+
+
+    var LazyAds = function(){
+      // this.elements = {};
+    };
+
+
+    LazyAds.init = function(delay){
+      this.elements = {};
+      var self = this;
+      if (typeof(delay) === 'undefined' || delay === null)
+        delay = 10000;
+      else
+        console.info('Set LazyAds delay to ' + delay + 'ms');
+
+
+      $(window).load(function() {
+        // self.domLoaded = true;
+        // console.log('LazyAds: window load');
+        setTimeout(function() {
+          self.domLoaded = true;
+          self.refresh();
+        }, delay);
+        // self.refresh();
+      });
+
+      var scrollHandler = debounce(function(e){
+        self.refresh();
+      }, 100);
+      jQuery(document).scroll(scrollHandler);
+    }
+
+    /* id:  can ben ID of en element, or a scroll offset */
+    LazyAds.register = function(id, callback, opts) {
+      // console.log('LazyAds: register ' + id);
+      this.elements[ id ] = { loaded: false, callback: callback };
+      this.refresh();
+    };
+
+
+    LazyAds.refresh = function() {
+      var el, isVisible;
+      var scrollY = window.scrollY;
+      // console.log("LazyAds: scrollY " + scrollY);
+      for(var id in this.elements) {
+        if (!this.elements.hasOwnProperty(id)) continue;
+        if(this.elements[id].loaded) continue;
+
+        isVisible = false || this.domLoaded;
+
+        if (!isVisible) {
+          // handle scroll position
+          if (/^\d+$/.test(id)) {
+            // console.log('id is an offset');
+            if( scrollY >= id ) {
+              isVisible = true;
+            }
+          } else if( this.isVisible(id) ) {
+            isVisible = true;
+          }
+        }
+
+        if (isVisible) {
+          this.elements[id].loaded = true;
+          console.info('LazyAds: execute callback for ' + id);
+          this.elements[id].callback();
+          delete this.elements[id];
+        }
+
+
+
+      }
+    };
+
+
+    LazyAds.isVisible = function(id) {
+      // https://github.com/customd/jquery-visible/blob/master/jquery.visible.js
+      var $t        = $('#' + id);
+
+      // if the id doesn't exist just bounce.
+      if( !$t[0] ) return false;
+
+      var $w        = $(window),  // todo refactor this
+          t         = $t.get(0),
+          vpWidth   = $w.width(),
+          vpHeight  = $w.height(),
+          direction = (direction) ? direction : 'both',
+          clientSize = t.offsetWidth * t.offsetHeight;
+          // clientSize = hidden === true ? t.offsetWidth * t.offsetHeight : true;
+
+      if (typeof t.getBoundingClientRect === 'function'){
+
+          // Use this native browser method, if available.
+          var rec = t.getBoundingClientRect(),
+              tViz = rec.top    >= 0 && rec.top    <  vpHeight,
+              bViz = rec.bottom >  0 && rec.bottom <= vpHeight,
+              lViz = rec.left   >= 0 && rec.left   <  vpWidth,
+              rViz = rec.right  >  0 && rec.right  <= vpWidth,
+              vVisible   = tViz || bViz,
+              hVisible   = lViz || rViz;
+
+          if(direction === 'both')
+              return clientSize && vVisible && hVisible;
+          else if(direction === 'vertical')
+              return clientSize && vVisible;
+          else if(direction === 'horizontal')
+              return clientSize && hVisible;
+      } else {
+
+          var viewTop         = $w.scrollTop(),
+              viewBottom      = viewTop + vpHeight,
+              viewLeft        = $w.scrollLeft(),
+              viewRight       = viewLeft + vpWidth,
+              offset          = $t.offset(),
+              _top            = offset.top,
+              _bottom         = _top + $t.height(),
+              _left           = offset.left,
+              _right          = _left + $t.width(),
+              compareTop      = _bottom,
+              compareBottom   = _top,
+              compareLeft     = _right,
+              compareRight    = _left;
+
+          if(direction === 'both')
+              return !!clientSize && ((compareBottom <= viewBottom) && (compareTop >= viewTop)) && ((compareRight <= viewRight) && (compareLeft >= viewLeft));
+          else if(direction === 'vertical')
+              return !!clientSize && ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+          else if(direction === 'horizontal')
+              return !!clientSize && ((compareRight <= viewRight) && (compareLeft >= viewLeft));
+      }
+    }
+
+
+
+    var delay = null;
+    LazyAds.init(delay);
+
+    // (function() {
+    //   var delay = null;
+    //   LazyAds.init();
+    // })();
+  </script>
+
+
+  <script>
+    if (window.__ssrt_ab_is_them) {
+      // handling async/sync load of ads
+      var _googlePush = function(func, lazyLoadId) {
+        // if it's sync, just call
+        if(!asyncAds) {
+          func();
+        } else { // Async
+          // console.log('Async Ad: Push To Queue:' + func.toString());
+          if (!lazyLoadId) {
+            googletag.cmd.push(func);
+          } else {
+            // console.log('Registering ' + lazyLoadId);
+            LazyAds.register(lazyLoadId, function() {
+              // console.log('LazyAds executing googletag.cmd.push func for ' + lazyLoadId);
+              // func();
+              googletag.cmd.push(func);
+            });
+
+          }
+
+        }
+      };
+    } else {
+      // Fallback when sortable ads
+      var _googlePush = function(func, lazyLoadId) { }
+    }
+  </script>
+
+
+
+
+
+
+  <script>
+    var _session = {}
+  </script>
+ 
+  
+    <script type='text/javascript'>
+  if (window.__ssrt_ab_is_them) {
+    document.write('<script type="text/javascript" src="http://mtrx.go.sonobi.com/morpheus.ratemyteachers.js">\x3c/script>')
+  }
+</script>
+
+
+
+
+
+<script type='text/javascript'>
+_googlePush(function(){
+  // Sonobi
+  //ratemyteachers_ROS_ATF 728x90
+  sbi_morpheus.register('div-gpt-ad-1426542666162-0', '0f683c0370bd52948c36');
+    //ratemyteachers_ROS_MID 728x90
+    sbi_morpheus.register('div-gpt-ad-1426542666162-3', 'abfd4fcf08d45bbd2837');
+    //ratemyteachers_ROS_BTF 728x90
+    sbi_morpheus.register('div-gpt-ad-1426542666162-4', 'bd09c7836a815353969d');
+  //ratemyteachers_ROS_ATF_2 300x250
+  sbi_morpheus.register('div-gpt-ad-1426542666162-1', 'f694b9a4907fd3e44745');
+  //ratemyteachers_ROS_BTF_2 300x250
+  sbi_morpheus.register('div-gpt-ad-1434463970400-0', 'cbf8939b552ed43f3180');
+  //ratemyteachers_ROS_3 300x600
+  sbi_morpheus.register('div-gpt-ad-1426542666162-1', '15a87b011157c38c2bf9');
+  
+
+  window.school1 = googletag.defineSlot('/1058149/School1', [[728, 90]], 'div-gpt-ad-1426542666162-0').addService(googletag.pubads());
+  window.school2 = googletag.defineSlot('/1058149/School2', [[300, 250], [300, 600]], 'div-gpt-ad-1426542666162-1').addService(googletag.pubads());
+
+
+  // googletag.defineSlot('/1058149/School3', [[300, 250], [728, 90]], 'div-gpt-ad-1426542666162-2').addService(googletag.pubads());
+  
+  // move to _mid_ad
+  //googletag.defineSlot('/1058149/School4', [[1, 1], [728, 90]], 'div-gpt-ad-1426542666162-3').addService(googletag.pubads());
+
+  // move to _btf_ad
+  // googletag.defineSlot('/1058149/School5', [[336, 280], [728, 90]], 'div-gpt-ad-1426542666162-4').addService(googletag.pubads());
+
+  // googletag.defineSlot('/1058149/School6', [300, 250], 'div-gpt-ad-1434463970400-0').addService(googletag.pubads());
+
+  // move to lazyload at the bottom
+  // googletag.defineSlot('/1058149/1x1', [1, 1], 'div-gpt-ad-1426701753500-0').addService(googletag.pubads());
+
+  // M2 Demand
+
+
+  if( !asyncAds ) googletag.pubads().enableSyncRendering();
+
+  googletag.pubads().enableSingleRequest();
+
+  // for lazy load, it requires both single request + disableInitialLoad
+  googletag.pubads().disableInitialLoad();
+
+  // force load the school1, school2
+  googletag.pubads().refresh([school1, school2]);
+  // googletag.pubads().refresh([school2]);
+
+  googletag.enableServices();
+});
+</script>
+
+
+
+
+<script type="text/javascript">
+  if (!window.__ssrt_ab_is_them) {
+    document.write('<script src="//tags-cdn.deployads.com/a/ratemyteachers.com.js" async >\x3c/script>')
+  }
+</script>
+
+
+
+ 
+  <link href='http://www.ratemyteachers.com/laguna-college-of-art-and-design/137489-s.rss' rel='alternate' type='application/rss+xml'>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="qAx6v4cvPv3SwWDaRQJuTvnWaRZbqyN8t9Awxn1V89g=" name="csrf-token" />
+
+
+
+</head>
+<!--
+
+██████╗ ███╗   ███╗████████╗
+██╔══██╗████╗ ████║╚══██╔══╝
+██████╔╝██╔████╔██║   ██║   
+██╔══██╗██║╚██╔╝██║   ██║   
+██║  ██║██║ ╚═╝ ██║   ██║   
+╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝
+
+If you see this we should talk!  We are pretty awesome!
+-->
+<body class="inner_page school_page schools_v12_1
+">
+  <div id="fb-root"></div>
+      <div class='rate_my_teachers_international'>
+<div class='container'>
+<div class='row'>
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+<div class='pull-right user_top_nav'></div>
+</div>
+</div>
+</div>
+<header>
+<div class='container'>
+<div class='row'>
+<form action='/search_page' class='tab-form search_form trigger_to_main_search' method='get'>
+<a alt='Go to RateMyTeachers Home' href='/' id='rate_my_teachers_logo' title='Go to RateMyTeachers Home'></a>
+<input name='search' type='hidden' value='teachers'>
+<div class='search_inputs'>
+<div class='bg'>
+<div class='padding'>
+<input class='search_input' name='q' placeholder='Search: School Name, City' type='text'>
+</div>
+<div class='location'>
+<select class="state" id="state" name="state"><option value="">Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class='search_button'>
+<button class='btn-search fa fa-search fa-3x' title='Search RateMyTeachers' type='submit'></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+
+
+
+  <div class="container-fluid main-content">
+    <div class="row">
+        <section class="breadcrumbs container-fluid">
+          <div class="row">
+            <div class="container">
+              <div class="col-sm-12">
+                <ul class='list-inline collapsible_nav collapsible_nav_collapsed'>
+<li class='toggle'>
+<a href='javascript:void(0);' rel='nofollow'>
+<i class='fa fa-bars'></i>
+</a>
+</li>
+<li class='collapse'>
+<a href='/' title='Go to RateMyTeachers Home'>United States</a>
+</li>
+<li class='always_show'>
+<a alt='Go to Schools in California' href='/california' title='Go to Schools in California'>California</a>
+</li>
+<li class='collapse'>
+<a alt='Go to Schools in Laguna Beach' href='/california/laguna-beach' title='Go to Schools in Laguna Beach'>Laguna Beach</a>
+</li>
+<li class='always_show'>
+<!-- %span.last= @school.proper_name -->
+<a alt="View Laguna College of Art and Design's Professors" href='/laguna-college-of-art-and-design/137489-s' title="View Laguna College of Art and Design's Professors">Laguna College of Art and Design</a>
+</li>
+<li class='always_show extra_option'>
+<a class='new_teacher_trigger' data-backdrop='static' data-keyboard data-remote='/teachers/new?sid=137489' data-school='Laguna College of Art and Design' data-sender-name='School page breadcrumb' data-target='#modal' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Add My Professor'>Add My Professor</a>
+</li>
+<li class='always_show extra_option'>
+<a class='new_school_rating_trigger' data-backdrop='static' data-keyboard data-remote='/school_ratings/new?sid=137489' data-school='Laguna College of Art and Design' data-sender-name='School page breadcrumb' data-target='#modal_rating' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Rate My College'>Rate My College</a>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+      
+
+
+
+
+
+      <div class="container flash_container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="alert alert-danger" id="flash-error" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-warning" id="flash-alert" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-success" id="flash-success" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-info"  id="flash-notice" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+
+      <div id="content">
+        
+<span class='dn' itemscope itemtype='http://data-vocabulary.org/Breadcrumb'>
+<a href='http://www.ratemyteachers.com/california' itemprop='url'>
+<span itemprop='title'>California</span>
+</a>
+<span itemscope itemtype='http://data-vocabulary.org/Breadcrumb'>
+<a href='http://www.ratemyteachers.com/california/laguna-beach' itemprop='url'>
+<span itemprop='title'>Laguna Beach</span>
+</a>
+</span>
+</span>
+
+<div id='sortable_ad_trigger'></div>
+<div class='container' itemscope itemtype='http://schema.org/ProfilePage'>
+<meta content='2017-01-31' itemprop='dateModified'>
+<!-- .container{:itemscope => true, :itemtype => "http://schema.org/#{school.rs_school_type}"} -->
+<div class='dn' itemprop='aggregateRating' itemscope itemtype='http://schema.org/AggregateRating'>
+<meta content='21' itemprop='ratingCount'>
+<meta content='21' itemprop='reviewCount'>
+<meta content='4.94867' itemprop='ratingValue'>
+<meta content='5' itemprop='bestRating'>
+<meta content='0' itemprop='worstRating'>
+</div>
+<div class='row'>
+<section class='col-md-12 content' itemprop='about' itemscope itemtype='http://schema.org/CollegeOrUniversity'>
+<div class='row secondary_data'>
+<div class='col-xs-12 col-lg-9 primary_column'>
+<div class='row school_info'>
+<div class='col-xs-12 col-sm-7 main_info'>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='school_name'>
+<h1 title='Laguna College of Art and Design'>
+<span itemprop='name'>
+Laguna College of Art and Design
+</span>
+
+<div class='school_actions' data-name='Laguna College of Art and Design' data-sid='137489' data-status='1' style='display:none;'></div>
+</h1>
+<a class='edit school_correction_trigger' data-backdrop='static' data-keyboard data-remote='/schools/correction?sid=137489' data-school='Laguna College of Art and Design' data-sender-name='School page Main' data-target='#modal' data-toggle='modal' href='javascript:void(0);' rel='nofollow' remote title='Submit a Correction'>
+Edit
+</a>
+</div>
+<div class='score'>
+<div class='rateit star-rating rateit-exclude' title='4.9 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 108.871px;'></div>
+</div>
+</div>
+
+Average
+4.95
+based on
+21
+professor ratings
+</div>
+<div class='description'>
+<strong>Laguna College of Art and Design</strong>
+is located in Laguna Beach, California.
+Laguna College of Art and Design has
+63
+professors
+listed on RateMyTeachers.com.
+The average professor rating at
+Laguna College of Art and Design is
+4.95
+stars.
+
+</div>
+</div>
+</div>
+</div>
+<div class='col-xs-12 col-sm-4 details'>
+<div class='aux'>
+<h2 class='detail_item rate_school'>
+<a class='new_school_rating_trigger' data-backdrop='static' data-keyboard data-remote='/school_ratings/new?sid=137489' data-sender-name='School page Main' data-target='#modal_rating' data-teacher='Laguna College of Art and Design' data-toggle='modal' href='javascript:void(0);' rel='nofollow' remote title='Submit Rating for Laguna College of Art and Design'>
+<i class='fa fa-institution'></i>
+<span class='value'>Rate Laguna College of Art and Design</span>
+</a>
+</h2>
+</div>
+<span class='dn' itemprop='address' itemscope itemtype='http://schema.org/PostalAddress'>
+<span itemprop='streetAddress'></span>
+<span itemprop='addressLocality'>Laguna Beach</span>
+<span itemprop='addressRegion'>CA</span>
+<span itemprop='postalCode'></span>
+</span>
+</div>
+</div>
+
+<div class='school_content'>
+<div class='sticky_container_center'>
+<div class='sticky_column'>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='filter_section'>
+<div class='row subtitle'>
+<div class='col-xs-6'>
+<h2 class='active'>
+<a href='http://www.ratemyteachers.com/laguna-college-of-art-and-design/137489-s' title="View Laguna College of Art and Design's Professors">
+Faculty:
+63
+Professors
+</a>
+</h2>
+</div>
+<div class='col-xs-6'>
+<h2 class=''>
+<a href='http://www.ratemyteachers.com/laguna-college-of-art-and-design/137489-s/school-reviews' title="View Laguna College of Art and Design's Reviews">
+Laguna College of Art and Design
+Reviews
+</a>
+</h2>
+</div>
+</div>
+<div class='row search_form_container'>
+<div class='col-md-2 sort_options'>
+<select id="sort_by" name="sort_by"><option value="">Sort by</option><option value=""></option><option value="">Latest Update</option>
+<option value="last_name">Last Name</option>
+<option value="first_name">First Name</option>
+<option value="avg_asc">Average Rating: Low to High</option>
+<option value="avg_desc">Average Rating: High to Low</option></select>
+</div>
+<form action='/laguna-college-of-art-and-design/137489-s' class='simple_form inline_form' id='school_search_by_teacher_form'>
+<div class='col-md-9 text'>
+<input name='q' placeholder='Search by Teacher' type='text'>
+</div>
+<div class='col-md-1 options'>
+<button class='btn fa fa-search fa-2x' name='commit' title='Search by Professor' type='submit'></button>
+</div>
+</form>
+</div>
+<div class='row extra'>
+<a class='col-xs-4 new_admin_request_trigger apply_admin' data-remote='/admin/new?sid=137489' data-school='Laguna College of Art and Design' data-sender='School page Mobile Search Form' data-target='#modal' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title="Become Laguna College of Art and Design's Moderator">
+<i class='fa fa-user-plus'></i>
+<span>Become a Moderator!</span>
+</a>
+<a class='col-xs-4 new_school_rating_trigger school_review' data-backdrop='static' data-keyboard data-remote='/school_ratings/new?sid=137489' data-sender-name='School page Search bar' data-target='#modal_rating' data-teacher='Laguna College of Art and Design' data-toggle='modal' href='javascript:void(0);' rel='nofollow' remote title='Submit Rating for Laguna College of Art and Design'>
+<i class='fa fa-institution'></i>
+<span>Write a School Review</span>
+</a>
+<a class='col-xs-4 new_teacher_trigger add_teacher' data-backdrop='static' data-keyboard data-remote='/teachers/new?sid=137489' data-school='Laguna College of Art and Design' data-sender-name='School page Mobile Search Form' data-target='#modal' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Add My Professor to Laguna College of Art and Design'>
+<i class='fa fa-user-plus'></i>
+<span>Add Teacher</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='teachers'>
+<div class='ad_container AMP'>
+<div id='amp_ads_bottom'></div>
+</div>
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Marcella Stockstill's Ratings" class='name' href='/marcella-stockstill/3233538-t' target='_blank' title="View Professor Marcella Stockstill's Ratings">
+Marcella Stockstill
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/art-history" title="View Laguna College of Art and Design&#39;s Art History Professors">Art History</a>
+</div>
+<div class='teacher_actions' data-name='Marcella Stockstill' data-sid='137489' data-status='0' data-tid='3233538' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>1 rating</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+The world's best teacher !!!!!!!!!!!
+</div>
+<div class='options'>
+<a alt="View Professor Marcella Stockstill's Ratings" class='btn view_more' href='/marcella-stockstill/3233538-t' title="View Professor Marcella Stockstill's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/marcella-stockstill/3233538-t'></a>
+</div>
+
+<!-- / ad will be loaded in async in the iframe after pageload -->
+<div id='ybrant_placeholder'></div>
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Raymond Persinger's Ratings" class='name' href='/raymond-persinger/2600270-t' target='_blank' title="View Professor Raymond Persinger's Ratings">
+Raymond Persinger
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Raymond Persinger' data-sid='137489' data-status='0' data-tid='2600270' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>1 rating</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+I came to LCAD because of Ray. He is the sculpture master -a great teacher and an amazing person.  Take his classes.
+</div>
+<div class='options'>
+<a alt="View Professor Raymond Persinger's Ratings" class='btn view_more' href='/raymond-persinger/2600270-t' title="View Professor Raymond Persinger's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/raymond-persinger/2600270-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Randall Cabe's Ratings" class='name' href='/randall-cabe/3233566-t' target='_blank' title="View Professor Randall Cabe's Ratings">
+Randall Cabe
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Randall Cabe' data-sid='137489' data-status='0' data-tid='3233566' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='4.8 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 104.500px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>17 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Randall Cabe is deeply knowledgeable, thoughtful, and articulate. As a teacher and mentor he was sincere and...
+</div>
+<div class='options'>
+<a alt="View Professor Randall Cabe's Ratings" class='btn view_more' href='/randall-cabe/3233566-t' title="View Professor Randall Cabe's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/randall-cabe/3233566-t'></a>
+</div>
+
+<div class='ad_container ATF'>
+  <div id="School_ATF_Leaderboard" style="border: 0px solid blue; text-align: center;">
+
+    <!-- Sortable -->
+    <div id="lead_desktop" class="ad-tag" data-ad-name="lead_desktop" data-ad-size="728x90" ></div>
+    <script type="text/javascript">
+      (deployads = window.deployads || []).push({});
+    </script>
+    
+
+    <!-- School 1 -->
+    <div id='div-gpt-ad-1426542666162-0'>
+    <script type='text/javascript'>
+    _googlePush( function() { 
+      googletag.display('div-gpt-ad-1426542666162-0'); 
+    });
+    </script>
+    </div>
+  </div>
+
+</div>
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Brad Coleman's Ratings" class='name' href='/brad-coleman/3233527-t' target='_blank' title="View Professor Brad Coleman's Ratings">
+Brad Coleman
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Brad Coleman' data-sid='137489' data-status='0' data-tid='3233527' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233527' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Brad Coleman' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Brad Coleman'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233527' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Brad Coleman' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Brad Coleman'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/brad-coleman/3233527-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Hélène Garrison's Ratings" class='name' href='/helene-garrison/3233528-t' target='_blank' title="View Professor Hélène Garrison's Ratings">
+Hélène Garrison
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/art-history" title="View Laguna College of Art and Design&#39;s Art History Professors">Art History</a>
+</div>
+<div class='teacher_actions' data-name='Hélène Garrison' data-sid='137489' data-status='0' data-tid='3233528' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233528' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Hélène Garrison' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Hélène Garrison'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233528' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Hélène Garrison' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Hélène Garrison'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/helene-garrison/3233528-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Perin Mahler's Ratings" class='name' href='/perin-mahler/3233529-t' target='_blank' title="View Professor Perin Mahler's Ratings">
+Perin Mahler
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Perin Mahler' data-sid='137489' data-status='0' data-tid='3233529' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233529' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Perin Mahler' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Perin Mahler'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233529' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Perin Mahler' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Perin Mahler'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/perin-mahler/3233529-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Scott Settle's Ratings" class='name' href='/scott-settle/3233530-t' target='_blank' title="View Professor Scott Settle's Ratings">
+Scott Settle
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/not-specified" title="View Laguna College of Art and Design&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Scott Settle' data-sid='137489' data-status='0' data-tid='3233530' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233530' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Scott Settle' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Scott Settle'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233530' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Scott Settle' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Scott Settle'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/scott-settle/3233530-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Mia Tavonatti's Ratings" class='name' href='/mia-tavonatti/3233531-t' target='_blank' title="View Professor Mia Tavonatti's Ratings">
+Mia Tavonatti
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/not-specified" title="View Laguna College of Art and Design&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Mia Tavonatti' data-sid='137489' data-status='0' data-tid='3233531' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233531' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Mia Tavonatti' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Mia Tavonatti'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233531' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Mia Tavonatti' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Mia Tavonatti'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mia-tavonatti/3233531-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Everett Blanton's Ratings" class='name' href='/everett-blanton/3233532-t' target='_blank' title="View Professor Everett Blanton's Ratings">
+Everett Blanton
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/graphic-arts" title="View Laguna College of Art and Design&#39;s Graphic Arts Professors">Graphic Arts</a>
+</div>
+<div class='teacher_actions' data-name='Everett Blanton' data-sid='137489' data-status='0' data-tid='3233532' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233532' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Everett Blanton' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Everett Blanton'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233532' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Everett Blanton' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Everett Blanton'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/everett-blanton/3233532-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Jason Dowd's Ratings" class='name' href='/jason-dowd/3233533-t' target='_blank' title="View Professor Jason Dowd's Ratings">
+Jason Dowd
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/illustration" title="View Laguna College of Art and Design&#39;s Illustration Professors">Illustration</a>
+</div>
+<div class='teacher_actions' data-name='Jason Dowd' data-sid='137489' data-status='0' data-tid='3233533' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233533' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Jason Dowd' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Jason Dowd'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233533' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Jason Dowd' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Jason Dowd'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jason-dowd/3233533-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Clayton Garrison's Ratings" class='name' href='/clayton-garrison/3233534-t' target='_blank' title="View Professor Clayton Garrison's Ratings">
+Clayton Garrison
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/art-history" title="View Laguna College of Art and Design&#39;s Art History Professors">Art History</a>
+</div>
+<div class='teacher_actions' data-name='Clayton Garrison' data-sid='137489' data-status='0' data-tid='3233534' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233534' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Clayton Garrison' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Clayton Garrison'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233534' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Clayton Garrison' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Clayton Garrison'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/clayton-garrison/3233534-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Joseph Gerges' Ratings" class='name' href='/joseph-gerges/3233535-t' target='_blank' title="View Professor Joseph Gerges' Ratings">
+Joseph Gerges
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Joseph Gerges' data-sid='137489' data-status='0' data-tid='3233535' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233535' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Joseph Gerges' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Joseph Gerges'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233535' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Joseph Gerges' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Joseph Gerges'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/joseph-gerges/3233535-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Kyle Kane's Ratings" class='name' href='/kyle-kane/3233536-t' target='_blank' title="View Professor Kyle Kane's Ratings">
+Kyle Kane
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Kyle Kane' data-sid='137489' data-status='0' data-tid='3233536' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233536' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Kyle Kane' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Kyle Kane'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233536' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Kyle Kane' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Kyle Kane'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kyle-kane/3233536-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Nathan Rohlander's Ratings" class='name' href='/nathan-rohlander/3233537-t' target='_blank' title="View Professor Nathan Rohlander's Ratings">
+Nathan Rohlander
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Nathan Rohlander' data-sid='137489' data-status='0' data-tid='3233537' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233537' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Nathan Rohlander' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Nathan Rohlander'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233537' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Nathan Rohlander' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Nathan Rohlander'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/nathan-rohlander/3233537-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Wes Sullivan's Ratings" class='name' href='/wes-sullivan/3233539-t' target='_blank' title="View Professor Wes Sullivan's Ratings">
+Wes Sullivan
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/film" title="View Laguna College of Art and Design&#39;s Film Professors">Film</a>
+</div>
+<div class='teacher_actions' data-name='Wes Sullivan' data-sid='137489' data-status='0' data-tid='3233539' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233539' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Wes Sullivan' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Wes Sullivan'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233539' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Wes Sullivan' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Wes Sullivan'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/wes-sullivan/3233539-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Chwala's Ratings" class='name' href='/chwala/3233540-t' target='_blank' title="View Professor Chwala's Ratings">
+Chwala
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Chwala' data-sid='137489' data-status='0' data-tid='3233540' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233540' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Chwala' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Chwala'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233540' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Chwala' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Chwala'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/chwala/3233540-t'></a>
+</div>
+
+<div class='placements' style='border: 1px solid transparent;'></div>
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Kenny Harris' Ratings" class='name' href='/kenny-harris/3233541-t' target='_blank' title="View Professor Kenny Harris' Ratings">
+Kenny Harris
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Kenny Harris' data-sid='137489' data-status='0' data-tid='3233541' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233541' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Kenny Harris' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Kenny Harris'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233541' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Kenny Harris' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Kenny Harris'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kenny-harris/3233541-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Rebecca Kimmel's Ratings" class='name' href='/rebecca-kimmel/3233542-t' target='_blank' title="View Professor Rebecca Kimmel's Ratings">
+Rebecca Kimmel
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Rebecca Kimmel' data-sid='137489' data-status='0' data-tid='3233542' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233542' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Rebecca Kimmel' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Rebecca Kimmel'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233542' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Rebecca Kimmel' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Rebecca Kimmel'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/rebecca-kimmel/3233542-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Norman Leonard's Ratings" class='name' href='/norman-leonard/3233543-t' target='_blank' title="View Professor Norman Leonard's Ratings">
+Norman Leonard
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/english" title="View Laguna College of Art and Design&#39;s English Professors">English</a>
+</div>
+<div class='teacher_actions' data-name='Norman Leonard' data-sid='137489' data-status='0' data-tid='3233543' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233543' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Norman Leonard' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Norman Leonard'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233543' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Norman Leonard' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Norman Leonard'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/norman-leonard/3233543-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Maria Piscopo's Ratings" class='name' href='/maria-piscopo/3233544-t' target='_blank' title="View Professor Maria Piscopo's Ratings">
+Maria Piscopo
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/not-specified" title="View Laguna College of Art and Design&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Maria Piscopo' data-sid='137489' data-status='0' data-tid='3233544' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233544' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Maria Piscopo' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Maria Piscopo'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233544' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Maria Piscopo' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Maria Piscopo'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/maria-piscopo/3233544-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Annik Ramsey's Ratings" class='name' href='/annik-ramsey/3233545-t' target='_blank' title="View Professor Annik Ramsey's Ratings">
+Annik Ramsey
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/science" title="View Laguna College of Art and Design&#39;s Science Professors">Science</a>
+</div>
+<div class='teacher_actions' data-name='Annik Ramsey' data-sid='137489' data-status='0' data-tid='3233545' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233545' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Annik Ramsey' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Annik Ramsey'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233545' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Annik Ramsey' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Annik Ramsey'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/annik-ramsey/3233545-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Betty Shelton's Ratings" class='name' href='/betty-shelton/3233546-t' target='_blank' title="View Professor Betty Shelton's Ratings">
+Betty Shelton
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Betty Shelton' data-sid='137489' data-status='0' data-tid='3233546' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233546' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Betty Shelton' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Betty Shelton'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233546' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Betty Shelton' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Betty Shelton'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/betty-shelton/3233546-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Thomas Stubbs' Ratings" class='name' href='/thomas-stubbs/3233547-t' target='_blank' title="View Professor Thomas Stubbs' Ratings">
+Thomas Stubbs
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Thomas Stubbs' data-sid='137489' data-status='0' data-tid='3233547' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233547' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Thomas Stubbs' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Thomas Stubbs'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233547' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Thomas Stubbs' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Thomas Stubbs'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/thomas-stubbs/3233547-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor David Vargo's Ratings" class='name' href='/david-vargo/3233548-t' target='_blank' title="View Professor David Vargo's Ratings">
+David Vargo
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/illustration" title="View Laguna College of Art and Design&#39;s Illustration Professors">Illustration</a>
+</div>
+<div class='teacher_actions' data-name='David Vargo' data-sid='137489' data-status='0' data-tid='3233548' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233548' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='David Vargo' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor David Vargo'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233548' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='David Vargo' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor David Vargo'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/david-vargo/3233548-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Sandy Appleoff's Ratings" class='name' href='/sandy-appleoff/3233549-t' target='_blank' title="View Professor Sandy Appleoff's Ratings">
+Sandy Appleoff
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/illustration" title="View Laguna College of Art and Design&#39;s Illustration Professors">Illustration</a>
+</div>
+<div class='teacher_actions' data-name='Sandy Appleoff' data-sid='137489' data-status='0' data-tid='3233549' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233549' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Sandy Appleoff' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Sandy Appleoff'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233549' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Sandy Appleoff' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Sandy Appleoff'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/sandy-appleoff/3233549-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Xun Chi's Ratings" class='name' href='/xun-chi/3233550-t' target='_blank' title="View Professor Xun Chi's Ratings">
+Xun Chi
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/not-specified" title="View Laguna College of Art and Design&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Xun Chi' data-sid='137489' data-status='0' data-tid='3233550' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233550' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Xun Chi' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Xun Chi'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233550' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Xun Chi' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Xun Chi'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/xun-chi/3233550-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Remy Cross' Ratings" class='name' href='/remy-cross/3233551-t' target='_blank' title="View Professor Remy Cross' Ratings">
+Remy Cross
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/social-science" title="View Laguna College of Art and Design&#39;s Social Science Professors">Social Science</a>
+</div>
+<div class='teacher_actions' data-name='Remy Cross' data-sid='137489' data-status='0' data-tid='3233551' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233551' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Remy Cross' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Remy Cross'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233551' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Remy Cross' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Remy Cross'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/remy-cross/3233551-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Angela Cunningham's Ratings" class='name' href='/angela-cunningham/3233552-t' target='_blank' title="View Professor Angela Cunningham's Ratings">
+Angela Cunningham
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Angela Cunningham' data-sid='137489' data-status='0' data-tid='3233552' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233552' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Angela Cunningham' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Angela Cunningham'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233552' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Angela Cunningham' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Angela Cunningham'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/angela-cunningham/3233552-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Luc Desmarchelier's Ratings" class='name' href='/luc-desmarchelier/3233553-t' target='_blank' title="View Professor Luc Desmarchelier's Ratings">
+Luc Desmarchelier
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/illustration" title="View Laguna College of Art and Design&#39;s Illustration Professors">Illustration</a>
+</div>
+<div class='teacher_actions' data-name='Luc Desmarchelier' data-sid='137489' data-status='0' data-tid='3233553' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233553' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Luc Desmarchelier' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Luc Desmarchelier'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233553' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Luc Desmarchelier' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Luc Desmarchelier'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/luc-desmarchelier/3233553-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Brent Griffith's Ratings" class='name' href='/brent-griffith/3233554-t' target='_blank' title="View Professor Brent Griffith's Ratings">
+Brent Griffith
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/not-specified" title="View Laguna College of Art and Design&#39;s Not Specified Professors">Not Specified</a>
+</div>
+<div class='teacher_actions' data-name='Brent Griffith' data-sid='137489' data-status='0' data-tid='3233554' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233554' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Brent Griffith' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Brent Griffith'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233554' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Brent Griffith' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Brent Griffith'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/brent-griffith/3233554-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Jeff Guarina's Ratings" class='name' href='/jeff-guarina/3233555-t' target='_blank' title="View Professor Jeff Guarina's Ratings">
+Jeff Guarina
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/english" title="View Laguna College of Art and Design&#39;s English Professors">English</a>
+</div>
+<div class='teacher_actions' data-name='Jeff Guarina' data-sid='137489' data-status='0' data-tid='3233555' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233555' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Jeff Guarina' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Jeff Guarina'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233555' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Jeff Guarina' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Jeff Guarina'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jeff-guarina/3233555-t'></a>
+</div>
+
+<div class='placements' style='border: 1px solid transparent;'></div>
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Mike Harnish's Ratings" class='name' href='/mike-harnish/3233556-t' target='_blank' title="View Professor Mike Harnish's Ratings">
+Mike Harnish
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Mike Harnish' data-sid='137489' data-status='0' data-tid='3233556' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233556' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Mike Harnish' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Mike Harnish'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233556' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Mike Harnish' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Mike Harnish'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mike-harnish/3233556-t'></a>
+</div>
+
+<div class='ad_container MID'>
+  <div id="School_MID_Leaderboard" class="sponsor">
+
+    <!-- Sortable -->
+    <div id="mrec_desktop" class="ad-tag" data-ad-name="mrec_desktop" data-ad-size="300x250" ></div>
+    <script type="text/javascript">
+      (deployads = window.deployads || []).push({});
+    </script>
+    
+
+    <!-- School4 -->
+    <div id='div-gpt-ad-1426542666162-3'>
+    <script type='text/javascript'>
+    _googlePush( function() { 
+      var slot = googletag.defineSlot('/1058149/School4', [[1, 1], [728, 90], [336, 280]], 'div-gpt-ad-1426542666162-3').addService(googletag.pubads());
+      googletag.display('div-gpt-ad-1426542666162-3'); 
+      googletag.pubads().refresh([slot]);   
+      
+    }, 'div-gpt-ad-1426542666162-3');
+    </script>
+    </div>
+  </div>
+
+</div>
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Todd Novak's Ratings" class='name' href='/todd-novak/3233557-t' target='_blank' title="View Professor Todd Novak's Ratings">
+Todd Novak
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/graphic-arts" title="View Laguna College of Art and Design&#39;s Graphic Arts Professors">Graphic Arts</a>
+</div>
+<div class='teacher_actions' data-name='Todd Novak' data-sid='137489' data-status='0' data-tid='3233557' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233557' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Todd Novak' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Todd Novak'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233557' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Todd Novak' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Todd Novak'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/todd-novak/3233557-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Nathan Olsen's Ratings" class='name' href='/nathan-olsen/3233558-t' target='_blank' title="View Professor Nathan Olsen's Ratings">
+Nathan Olsen
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/graphic-arts" title="View Laguna College of Art and Design&#39;s Graphic Arts Professors">Graphic Arts</a>
+</div>
+<div class='teacher_actions' data-name='Nathan Olsen' data-sid='137489' data-status='0' data-tid='3233558' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233558' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Nathan Olsen' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Nathan Olsen'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233558' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Nathan Olsen' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Nathan Olsen'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/nathan-olsen/3233558-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Evan Peelle's Ratings" class='name' href='/evan-peelle/3233559-t' target='_blank' title="View Professor Evan Peelle's Ratings">
+Evan Peelle
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Evan Peelle' data-sid='137489' data-status='0' data-tid='3233559' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233559' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Evan Peelle' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Evan Peelle'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233559' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Evan Peelle' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Evan Peelle'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/evan-peelle/3233559-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Sergio Rebia's Ratings" class='name' href='/sergio-rebia/3233560-t' target='_blank' title="View Professor Sergio Rebia's Ratings">
+Sergio Rebia
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Sergio Rebia' data-sid='137489' data-status='0' data-tid='3233560' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233560' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Sergio Rebia' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Sergio Rebia'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233560' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Sergio Rebia' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Sergio Rebia'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/sergio-rebia/3233560-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Rick Reese's Ratings" class='name' href='/rick-reese/3233561-t' target='_blank' title="View Professor Rick Reese's Ratings">
+Rick Reese
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/illustration" title="View Laguna College of Art and Design&#39;s Illustration Professors">Illustration</a>
+</div>
+<div class='teacher_actions' data-name='Rick Reese' data-sid='137489' data-status='0' data-tid='3233561' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233561' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Rick Reese' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Rick Reese'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233561' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Rick Reese' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Rick Reese'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/rick-reese/3233561-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Sergio Sanchez's Ratings" class='name' href='/sergio-sanchez/3233562-t' target='_blank' title="View Professor Sergio Sanchez's Ratings">
+Sergio Sanchez
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Sergio Sanchez' data-sid='137489' data-status='0' data-tid='3233562' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233562' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Sergio Sanchez' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Sergio Sanchez'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233562' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Sergio Sanchez' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Sergio Sanchez'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/sergio-sanchez/3233562-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Juliea Shriver's Ratings" class='name' href='/juliea-shriver/3233563-t' target='_blank' title="View Professor Juliea Shriver's Ratings">
+Juliea Shriver
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/art-history" title="View Laguna College of Art and Design&#39;s Art History Professors">Art History</a>
+</div>
+<div class='teacher_actions' data-name='Juliea Shriver' data-sid='137489' data-status='0' data-tid='3233563' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233563' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Juliea Shriver' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Juliea Shriver'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233563' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Juliea Shriver' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Juliea Shriver'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/juliea-shriver/3233563-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Rick Sims' Ratings" class='name' href='/rick-sims/3233564-t' target='_blank' title="View Professor Rick Sims' Ratings">
+Rick Sims
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/english" title="View Laguna College of Art and Design&#39;s English Professors">English</a>
+</div>
+<div class='teacher_actions' data-name='Rick Sims' data-sid='137489' data-status='0' data-tid='3233564' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233564' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Rick Sims' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Rick Sims'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233564' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Rick Sims' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Rick Sims'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/rick-sims/3233564-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Scott Angus' Ratings" class='name' href='/scott-angus/3233565-t' target='_blank' title="View Professor Scott Angus' Ratings">
+Scott Angus
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/art-history" title="View Laguna College of Art and Design&#39;s Art History Professors">Art History</a>
+</div>
+<div class='teacher_actions' data-name='Scott Angus' data-sid='137489' data-status='0' data-tid='3233565' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233565' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Scott Angus' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Scott Angus'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233565' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Scott Angus' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Scott Angus'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/scott-angus/3233565-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Jeffrey Gaurino's Ratings" class='name' href='/jeffrey-gaurino/3233567-t' target='_blank' title="View Professor Jeffrey Gaurino's Ratings">
+Jeffrey Gaurino
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/english" title="View Laguna College of Art and Design&#39;s English Professors">English</a>
+</div>
+<div class='teacher_actions' data-name='Jeffrey Gaurino' data-sid='137489' data-status='0' data-tid='3233567' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233567' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Jeffrey Gaurino' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Jeffrey Gaurino'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233567' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Jeffrey Gaurino' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Jeffrey Gaurino'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jeffrey-gaurino/3233567-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Angela Plunkett's Ratings" class='name' href='/angela-plunkett/3233568-t' target='_blank' title="View Professor Angela Plunkett's Ratings">
+Angela Plunkett
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Angela Plunkett' data-sid='137489' data-status='0' data-tid='3233568' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233568' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Angela Plunkett' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Angela Plunkett'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=3233568' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Angela Plunkett' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Angela Plunkett'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/angela-plunkett/3233568-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Mike Stice's Ratings" class='name' href='/mike-stice/2600258-t' target='_blank' title="View Professor Mike Stice's Ratings">
+Mike Stice
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/english" title="View Laguna College of Art and Design&#39;s English Professors">English</a>
+</div>
+<div class='teacher_actions' data-name='Mike Stice' data-sid='137489' data-status='0' data-tid='2600258' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>1 rating</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+Stice is one of the coolest college English teachers you could ever have. He's a surfer, but he's the smartest surfer...
+</div>
+<div class='options'>
+<a alt="View Professor Mike Stice's Ratings" class='btn view_more' href='/mike-stice/2600258-t' title="View Professor Mike Stice's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mike-stice/2600258-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Hope Railey's Ratings" class='name' href='/hope-railey/2600259-t' target='_blank' title="View Professor Hope Railey's Ratings">
+Hope Railey
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Hope Railey' data-sid='137489' data-status='0' data-tid='2600259' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600259' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Hope Railey' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Hope Railey'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600259' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Hope Railey' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Hope Railey'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/hope-railey/2600259-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Michael Savas' Ratings" class='name' href='/michael-savas/2600260-t' target='_blank' title="View Professor Michael Savas' Ratings">
+Michael Savas
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/illustration" title="View Laguna College of Art and Design&#39;s Illustration Professors">Illustration</a>
+</div>
+<div class='teacher_actions' data-name='Michael Savas' data-sid='137489' data-status='0' data-tid='2600260' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600260' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Michael Savas' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Michael Savas'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600260' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Michael Savas' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Michael Savas'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/michael-savas/2600260-t'></a>
+</div>
+
+<div class='placements' style='border: 1px solid transparent;'></div>
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor George Zebot's Ratings" class='name' href='/george-zebot/2600261-t' target='_blank' title="View Professor George Zebot's Ratings">
+George Zebot
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/illustration" title="View Laguna College of Art and Design&#39;s Illustration Professors">Illustration</a>
+</div>
+<div class='teacher_actions' data-name='George Zebot' data-sid='137489' data-status='0' data-tid='2600261' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600261' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='George Zebot' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor George Zebot'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600261' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='George Zebot' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor George Zebot'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/george-zebot/2600261-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Michael Jacques' Ratings" class='name' href='/michael-jacques/2600262-t' target='_blank' title="View Professor Michael Jacques' Ratings">
+Michael Jacques
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Michael Jacques' data-sid='137489' data-status='0' data-tid='2600262' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600262' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Michael Jacques' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Michael Jacques'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600262' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Michael Jacques' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Michael Jacques'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/michael-jacques/2600262-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Debra Malschick's Ratings" class='name' href='/debra-malschick/2600263-t' target='_blank' title="View Professor Debra Malschick's Ratings">
+Debra Malschick
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/design" title="View Laguna College of Art and Design&#39;s Design Professors">Design</a>
+</div>
+<div class='teacher_actions' data-name='Debra Malschick' data-sid='137489' data-status='0' data-tid='2600263' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600263' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Debra Malschick' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Debra Malschick'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600263' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Debra Malschick' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Debra Malschick'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/debra-malschick/2600263-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Lance Richlin's Ratings" class='name' href='/lance-richlin/2600264-t' target='_blank' title="View Professor Lance Richlin's Ratings">
+Lance Richlin
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Lance Richlin' data-sid='137489' data-status='0' data-tid='2600264' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600264' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Lance Richlin' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Lance Richlin'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600264' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Lance Richlin' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Lance Richlin'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/lance-richlin/2600264-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Ron Brown's Ratings" class='name' href='/ron-brown/2600265-t' target='_blank' title="View Professor Ron Brown's Ratings">
+Ron Brown
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Ron Brown' data-sid='137489' data-status='0' data-tid='2600265' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600265' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Ron Brown' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Ron Brown'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600265' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Ron Brown' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Ron Brown'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/ron-brown/2600265-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Grant Hier's Ratings" class='name' href='/grant-hier/2600266-t' target='_blank' title="View Professor Grant Hier's Ratings">
+Grant Hier
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/english" title="View Laguna College of Art and Design&#39;s English Professors">English</a>
+</div>
+<div class='teacher_actions' data-name='Grant Hier' data-sid='137489' data-status='0' data-tid='2600266' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600266' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Grant Hier' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Grant Hier'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600266' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Grant Hier' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Grant Hier'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/grant-hier/2600266-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Marianne O'Barr's Ratings" class='name' href='/marianne-o-barr/2600267-t' target='_blank' title="View Professor Marianne O'Barr's Ratings">
+Marianne O'Barr
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name="Marianne O'Barr" data-sid='137489' data-status='0' data-tid='2600267' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600267' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher="Marianne O'Barr" data-toggle='modal' href='javascript:void(0);' rel='nofollow' title="Submit Rating for Professor Marianne O'Barr">
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600267' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher="Marianne O'Barr" data-toggle='modal' href='javascript:void(0);' rel='nofollow' title="Submit Rating for Professor Marianne O'Barr">
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/marianne-o-barr/2600267-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Mark Michelon's Ratings" class='name' href='/mark-michelon/2600269-t' target='_blank' title="View Professor Mark Michelon's Ratings">
+Mark Michelon
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Mark Michelon' data-sid='137489' data-status='0' data-tid='2600269' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600269' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Mark Michelon' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Mark Michelon'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600269' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Mark Michelon' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Mark Michelon'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mark-michelon/2600269-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Jonathan Burke's Ratings" class='name' href='/jonathan-burke/2600271-t' target='_blank' title="View Professor Jonathan Burke's Ratings">
+Jonathan Burke
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Jonathan Burke' data-sid='137489' data-status='0' data-tid='2600271' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600271' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Jonathan Burke' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Jonathan Burke'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600271' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Jonathan Burke' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Jonathan Burke'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jonathan-burke/2600271-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Catherine Eure's Ratings" class='name' href='/catherine-eure/2600272-t' target='_blank' title="View Professor Catherine Eure's Ratings">
+Catherine Eure
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/graphic-arts" title="View Laguna College of Art and Design&#39;s Graphic Arts Professors">Graphic Arts</a>
+</div>
+<div class='teacher_actions' data-name='Catherine Eure' data-sid='137489' data-status='0' data-tid='2600272' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600272' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Catherine Eure' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Catherine Eure'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600272' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Catherine Eure' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Catherine Eure'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/catherine-eure/2600272-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Michael McManus' Ratings" class='name' href='/michael-mcmanus/2600273-t' target='_blank' title="View Professor Michael McManus' Ratings">
+Michael McManus
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/history" title="View Laguna College of Art and Design&#39;s History Professors">History</a>
+</div>
+<div class='teacher_actions' data-name='Michael McManus' data-sid='137489' data-status='0' data-tid='2600273' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600273' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Michael McManus' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Michael McManus'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600273' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Michael McManus' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Michael McManus'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/michael-mcmanus/2600273-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Joe Weatherly's Ratings" class='name' href='/joe-weatherly/2600274-t' target='_blank' title="View Professor Joe Weatherly's Ratings">
+Joe Weatherly
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Joe Weatherly' data-sid='137489' data-status='0' data-tid='2600274' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600274' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Joe Weatherly' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Joe Weatherly'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600274' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Joe Weatherly' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Joe Weatherly'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/joe-weatherly/2600274-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Nicole Hartshorn's Ratings" class='name' href='/nicole-hartshorn/2600275-t' target='_blank' title="View Professor Nicole Hartshorn's Ratings">
+Nicole Hartshorn
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/art-history" title="View Laguna College of Art and Design&#39;s Art History Professors">Art History</a>
+</div>
+<div class='teacher_actions' data-name='Nicole Hartshorn' data-sid='137489' data-status='0' data-tid='2600275' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600275' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Nicole Hartshorn' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Nicole Hartshorn'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600275' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Nicole Hartshorn' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Nicole Hartshorn'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/nicole-hartshorn/2600275-t'></a>
+</div>
+
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Dan Jensen's Ratings" class='name' href='/dan-jensen/2600276-t' target='_blank' title="View Professor Dan Jensen's Ratings">
+Dan Jensen
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/graphic-arts" title="View Laguna College of Art and Design&#39;s Graphic Arts Professors">Graphic Arts</a>
+</div>
+<div class='teacher_actions' data-name='Dan Jensen' data-sid='137489' data-status='0' data-tid='2600276' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600276' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Dan Jensen' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Dan Jensen'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600276' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Dan Jensen' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Dan Jensen'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/dan-jensen/2600276-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Taylor Montague's Ratings" class='name' href='/taylor-montague/2600277-t' target='_blank' title="View Professor Taylor Montague's Ratings">
+Taylor Montague
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Taylor Montague' data-sid='137489' data-status='0' data-tid='2600277' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='5.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 110.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>1 rating</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+Recent Rating
+<div class='comment_extract'>
+He's kind of hot.. xD plus, he's super deep and stuff. I love him, he's so nice and very clear. He's not afraid to...
+</div>
+<div class='options'>
+<a alt="View Professor Taylor Montague's Ratings" class='btn view_more' href='/taylor-montague/2600277-t' title="View Professor Taylor Montague's Ratings">
+View More
+<i class='fa fa-angle-right'></i>
+</a>
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/taylor-montague/2600277-t'></a>
+</div>
+
+<div class='placements' style='border: 1px solid transparent;'></div>
+<div class='clickable_fix row secondary teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Veronica Obermeyer's Ratings" class='name' href='/veronica-obermeyer/2600278-t' target='_blank' title="View Professor Veronica Obermeyer's Ratings">
+Veronica Obermeyer
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Veronica Obermeyer' data-sid='137489' data-status='0' data-tid='2600278' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600278' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Veronica Obermeyer' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Veronica Obermeyer'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600278' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Veronica Obermeyer' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Veronica Obermeyer'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/veronica-obermeyer/2600278-t'></a>
+</div>
+
+<div class='clickable_fix row teacher'>
+<div class='col-xs-3 info'>
+<h3 class='teacher_name'>
+<a alt="View Professor Marshall Vandruff's Ratings" class='name' href='/marshall-vandruff/2600279-t' target='_blank' title="View Professor Marshall Vandruff's Ratings">
+Marshall Vandruff
+</a>
+</h3>
+<div class='department'>
+Department
+<a href="/laguna-college-of-art-and-design/137489-s/fine-arts" title="View Laguna College of Art and Design&#39;s Fine Arts Professors">Fine Arts</a>
+</div>
+<div class='teacher_actions' data-name='Marshall Vandruff' data-sid='137489' data-status='0' data-tid='2600279' style='display:none;'></div>
+
+</div>
+<div class='col-xs-2 col-lg-3 score'>
+<div class='rateit star-rating rateit-exclude' title='0.0 of 5'>
+<div class='rateit-range' style='width: 110px; height: 18px;'>
+<div class='rateit-preset rateit-selected' style='height: 18px; width: 0.000px;'></div>
+</div>
+</div>
+
+<div class='rating_count'>0 ratings</div>
+
+</div>
+<div class='col-xs-7 col-lg-6 comments'>
+<a class='new_rating_trigger fake_comment' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600279' data-sender-name='School page Fake Comment Box' data-target='#modal_rating' data-teacher='Marshall Vandruff' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Marshall Vandruff'>
+Start a Review...
+</a>
+<a class='new_rating_trigger btn rate_now' data-backdrop='static' data-keyboard data-remote='/ratings/new?tid=2600279' data-sender-name='School page Rate Now Button' data-target='#modal_rating' data-teacher='Marshall Vandruff' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Submit Rating for Professor Marshall Vandruff'>
+Rate Now
+</a>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/marshall-vandruff/2600279-t'></a>
+</div>
+
+</div>
+<div class='ad_container BTF2'>
+      
+      
+  
+
+
+
+
+
+</div>
+
+</div>
+</div>
+<div class='col-xs-12 col-lg-3 secondary_column'>
+
+<div class='ad_container ATF_rectangle sponsor'>
+  <div id="School_ATF_Rectangle">
+
+    
+    
+    <!-- Sortable -->
+    <div class="ad-tag" data-ad-name="halfpage_Desktop_mrec" data-ad-size="300x250"></div>
+    <script type="text/javascript">
+      (deployads = window.deployads || []).push({});
+    </script>
+    
+
+    <!-- School2 -->
+    <div id='div-gpt-ad-1426542666162-1'>
+    <script type='text/javascript'>
+    _googlePush(function(){ googletag.display('div-gpt-ad-1426542666162-1'); })
+    </script>
+    </div>
+  </div>
+
+</div>
+<div class='row block_container school_rating_histogram_card'>
+<div class='col-xs-12'>
+<h2 class='school_name' title='Learn more about Laguna College of Art and Design'>
+<span>
+Laguna College of Art and Design Rating Histogram
+</span>
+</h2>
+<div class='score_line_container'>
+<div class='score_label'>5-star</div>
+<div class='score_percentage'>100%</div>
+<div class='score_line'>
+<div class='aux' style='width: 100.0%;'></div>
+</div>
+</div>
+
+<div class='score_line_container'>
+<div class='score_label'>4-star</div>
+<div class='score_percentage'>0%</div>
+<div class='score_line'>
+<div class='aux' style='width: 0.0%;'></div>
+</div>
+</div>
+
+<div class='score_line_container'>
+<div class='score_label'>3-star</div>
+<div class='score_percentage'>0%</div>
+<div class='score_line'>
+<div class='aux' style='width: 0.0%;'></div>
+</div>
+</div>
+
+<div class='score_line_container'>
+<div class='score_label'>2-star</div>
+<div class='score_percentage'>0%</div>
+<div class='score_line'>
+<div class='aux' style='width: 0.0%;'></div>
+</div>
+</div>
+
+<div class='score_line_container'>
+<div class='score_label'>1-star</div>
+<div class='score_percentage'>0%</div>
+<div class='score_line'>
+<div class='aux' style='width: 0.0%;'></div>
+</div>
+</div>
+
+<div class='score'>
+<div class='rateit star-rating rateit-exclude' title='4.9 of 5'>
+<div class='rateit-range' style='width: 90px; height: 15px;'>
+<div class='rateit-preset rateit-selected' style='height: 15px; width: 89.076px;'></div>
+</div>
+</div>
+
+<span class='rating-summary'>
+Based on
+21
+Ratings
+</span>
+</div>
+</div>
+</div>
+
+<div class='sticky_container_right'>
+<div class='sticky_column1'>
+<div class='ad_container ATF_rectangle_2'>
+<div class='sponsor'>
+    <div style='min-height:250px; width:300px;'>
+      <!-- Sortable -->
+      <div id="mrec_desktop_2" class="ad-tag" data-ad-name="mrec_desktop_2" data-ad-size="300x250" ></div>
+      <script type="text/javascript">
+        (deployads = window.deployads || []).push({});
+      </script>
+
+
+      <!-- /1058149/School6 -->
+      <div id='div-gpt-ad-1434463970400-0'>
+      <script type='text/javascript'>
+      _googlePush(function() { 
+        var slot = googletag.defineSlot('/1058149/School6', [300, 250], 'div-gpt-ad-1434463970400-0').addService(googletag.pubads());
+        googletag.display('div-gpt-ad-1434463970400-0'); 
+        googletag.pubads().refresh([slot]);
+      }, 900);
+      </script>
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  
+    <div id="all_footer_wrapper" style="overflow:hidden;">
+      
+<section class='container-fluid hidden-xs padding' id='states'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12 col-sm-12 col-sm-offset-0 footer_states_container'>
+<h3>Locate Schools by State:</h3>
+<div class='states'>
+<div class='state'>
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class='state'>
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class='state'>
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class='state'>
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class='state'>
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class='state'>
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class='state'>
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class='state'>
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class='state'>
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class='state'>
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class='state'>
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class='state'>
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class='state'>
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class='state'>
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class='state'>
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class='state'>
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class='state'>
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class='state'>
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class='state'>
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class='state'>
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class='state'>
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class='state'>
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class='state'>
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class='state'>
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class='state'>
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class='state'>
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class='state'>
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class='state'>
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class='state'>
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class='state'>
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class='state'>
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class='state'>
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class='state'>
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class='state'>
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class='state'>
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class='state'>
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class='state'>
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class='state'>
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class='state'>
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class='state'>
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class='state'>
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class='state'>
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class='state'>
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class='state'>
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class='state'>
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class='state'>
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class='container-fluid' id='footer_directory'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-6 hidden-xs'>
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;W&quot;" href="/schools/directory/w" title="Schools beginning with &quot;W&quot;">w</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class='col-xs-6 hidden-xs'>
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;W&quot;" href="/teachers/directory/w" title="Teachers beginning with &quot;W&quot;">w</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class='row footer_countries_list'>
+<div class='col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0'>
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer'>
+<div class='container'>
+<div class='row footer_links'>
+<div class='col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0'>
+<h3 class='hidden-sm hidden-md hidden-lg'>Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop='static' data-keyboard data-remote='/contact/new' data-target='#modal' data-toggle='modal' href='javascript:void(0);' rel='nofollow' title='Contact RateMyTeachers'>
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='row copyright'>
+Copyright 2001-2017 RateMyTeachers.com. All Rights Reserved.
+</div>
+</div>
+</section>
+<div aria-hidden='true' class='modal fade' id='modal' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div aria-hidden='true' class='modal fade' id='modal_rating' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div id='loading-indicator' style='display: none;'>
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="//cdn0.ratemyteachers.com/assets/ajax-loader-90763890601dd0890ac263157c93e77d.gif" />
+</div>
+</div>
+<div class='amp_ad_unit amp_ad_unit_template' style='display: none;'>
+<a class='amp_clickurl amp_no_text' href='javascript:void(0);' rel='nofollow' target='_blank'>
+<span class='amp_title'></span>
+<span class='amp_description'></span>
+<span class='amp_displayurl'></span>
+<img class='amp_impressionurl' height='1px' width='1px'>
+<span class='arrow'>
+<span class='aux'></span>
+</span>
+</a>
+</div>
+
+
+    </div>
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery.ui || document.write(unescape('%3Cscript src="//cdn0.ratemyteachers.com/assets/jquery-ui-9dfe2877f062c4408595a5b1df205f6a.js">%3C/script>'))
+//]]>
+</script>
+
+
+
+  <script src="//cdn3.ratemyteachers.com/assets/application-637d0e5603d5f2032793a6cc94ddf034.js"></script>
+  <script src="//cdn0.ratemyteachers.com/assets/users-9e77f9d63c301e629ed223f4ed65cad9.js"></script>
+
+
+  
+    <script type="text/javascript">
+      setTimeout(function() {
+        // Facebook like
+        // (function(d, s, id) {
+        //   var js, fjs = d.getElementsByTagName(s)[0];
+        //   if (d.getElementById(id)) return;
+        //   js = d.createElement(s); js.id = id;
+        //   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=232453153516852&version=v2.0";
+        //   fjs.parentNode.insertBefore(js, fjs);
+        // }(document, 'script', 'facebook-jssdk'));
+
+        // Google Plus
+        // (function() {
+        //   var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        //   po.src = 'https://apis.google.com/js/platform.js';
+        //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        // })();
+
+        // Twitter Follow
+        // !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      
+      }, 200);
+    </script>
+
+  <script>
+  $('#teachers_by_alphabet').change(function(e){
+    document.location.href = $('#teachers_by_alphabet').val()
+  });
+</script>
+
+
+<script>
+  var schoolPagePath = '/laguna-college-of-art-and-design/137489-s';
+  var resultCount = 63;
+  var minStickyResultCount = 3;
+
+  if (!isMobile && !isMedium && resultCount > 0) {
+    var stickyColumnRight = $(".sticky_container_right .sticky_column");
+    var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+    var footerHeight = $('#all_footer_wrapper').outerHeight() + 50;
+    var stickyOptions = function(getWidthFrom) {
+      return {topSpacing:0, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+    }
+    stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+    // Make center column options sticky when min results quantity
+    if (resultCount > minStickyResultCount - 1) {
+      stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+    }
+  }
+</script>
+
+
+  <!-- 1x1 -->
+  <div id='div-gpt-ad-1426701753500-0' style='width:1px; height:1px;'>
+  <script type='text/javascript'>
+    _googlePush(function() { 
+      var slot = googletag.defineSlot('/1058149/1x1', [1, 1], 'div-gpt-ad-1426701753500-0').addService(googletag.pubads());
+      googletag.display('div-gpt-ad-1426701753500-0'); 
+      googletag.pubads().refresh([slot]);
+    }, 800);
+  </script>
+  </div>
+
+
+
+<script type="text/javascript">
+_googlePush( function() {sbi_morpheus.enableReactiveSizes(); sbi_morpheus.callOperator();});
+</script>
+
+
+
+
+<script type="text/javascript">
+  if (window.__ssrt_ab_is_them) {
+    $(function(){
+      var placements = $('.placements');
+      var placementsVisibleAds = [];
+      var placementsLength = placements.length;
+      if (placementsLength == 0) return;  // disable for schools with too short
+
+      var debouncedScrollHandler = debounce(function(){
+        // console.log('inifinity ad');
+        for(var i = 0; i < placementsLength; i++) {
+          if ( !isElementVisibleInViewport(placements[i]) ) {
+            placementsVisibleAds[i] = false;
+            continue;
+          }
+
+          if ( !placementsVisibleAds[i] ) {
+            // console.log( "placement " + i + " is visible - refreshing ad" );
+            $(placements[i]).append($('#School_ATF_Leaderboard'));
+            googletag.pubads().refresh([school1]);
+            placementsVisibleAds[i] = true;
+          } else {
+            // console.log( "placement " + i + " is already visible" );
+          }
+        }
+      }, 50);
+      $(document).scroll(debouncedScrollHandler);
+    });
+  }
+</script>
+
+
+        <script type="text/javascript">
+          // AMP_ADS Bottom
+          (function() {
+            var bottomUrl = 'http://ratemyteachers_contextual.ampfeed.com/xmlamp/feed?ip=52.86.176.3&partner=ratemyteachers_contextual&qt=%5B%22online+colleges+in+California%22%5D&results=4&rfr=http%3A%2F%2Fwww.ratemyteachers.com%2Flaguna-college-of-art-and-design%2F137489-s&sub1=Desktop&sub2=School&ua=ia_archiver&v=4';
+            ampAdRegister('amp_ads_bottom', bottomUrl, "amp_ad_school_unit_template");
+          })();
+        </script>
+
+    <div class='amp_ad_unit amp_ad_school_unit_template' style='display: none;'>
+<a class='amp_clickurl amp_no_text' href='javascript:void(0);' rel='nofollow' target='_blank'>
+<span class='amp_title'></span>
+<span class='amp_displayurl'></span>
+<span class='amp_description'></span>
+<img class='amp_impressionurl' style='height: 1px; width: 1px;'>
+<span class='arrow'>
+<span class='aux'></span>
+</span>
+</a>
+</div>
+
+
+
+
+<script src="//a.teads.tv/page/63619/tag" async="true"></script>
+
+    <script type="text/javascript">
+      function initializeMaps() {
+        var length = mapFunctionArray.length;
+        for (var i = 0; i < length; i++) {
+          mapFunctionArray[i]();
+        }
+      }
+
+      $(document).ready(function() {
+        // Don't load google maps when no pending maps
+        if (typeof(mapFunctionArray) === 'undefined')
+          return;
+
+        var googleMapsId = "AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g";
+
+        var script_path = "http://maps.googleapis.com/maps/api/js?key=" + googleMapsId + "&sensor=false&callback=initializeMaps";
+        $.getScript(script_path);
+
+      });
+    </script>
+
+  
+    
+  
+  
+
+
+
+  
+    <script type="text/javascript">
+      (function() {
+        var url = 'https:\/\/s.yimg.com\/uv\/dm\/scripts\/syndication.js';
+        var scriptTags = document.getElementsByTagName('script');
+        var exists = false;
+        for (var i = 0; i < scriptTags.length; i++) {
+          if (scriptTags[i].src === url) {
+            exists = true;
+            break;
+          }
+        }
+        if (!exists) {
+          document.write('<script type="text\/javascript" src="' + url + '"><\/script>');
+        }
+      })();
+    </script>
+    
+    <script type='text/javascript'>
+      (function() {
+        var configYPA = function(searchTerms){
+          var location = '';
+          var country = 'United States';
+          //var keywords = "";
+          //var keywords = searchTerms + ' ';
+          var keywords = '';
+          if ($('#state').val() !== '') {
+            location = $("#state option:selected").text();
+            location = location.split('-')[0];
+            keywords = "online schools in {:location}";
+          } else {
+            location = country;
+            keywords = "online colleges";
+          }
+          var query = keywords.replace("{:location}", location);
+          var cssUrl = "http://www.ratemyteachers.com/assets/ypa_autocomplete_desktop-b8643103551a98483ebab316f9f09e3c.css";
+          var adOptions = function(adRange) {
+            if (typeof(adRange) === 'undefined')
+              adRange = "1-4";
+            return {
+              DeskTop:{
+                AdRange:adRange,
+                //Lat:true, 
+                Favicon:false,
+                //LocalAds:false,
+                SiteLink:false,
+                MerchantRating:false, 
+                ImageInAds:false
+              },
+              Mobile:{
+                AdRange:adRange,
+                //Lat:true, 
+                Favicon:false,
+                //LocalAds:false,
+                SiteLink:false,
+                MerchantRating:false, 
+                ImageInAds:false
+              }
+            };
+          };
+          var templateOptions = function() {
+            return {
+              DeskTop: {
+                AdUnit:{
+                  urlAboveDescription:false,
+                  cssLink:cssUrl
+                }
+              },
+              Mobile: {
+                AdUnit:{
+                  urlAboveDescription:false,
+                  cssLink:cssUrl
+                }
+              }
+            };
+          };
+          
+
+            var sponsoredSearch = {
+              adultFilter:false //'true' means allow, 'false' means don't
+            };
+          window.ypaAds.insertMultiAd({
+            ypaPubParams:{ query:query },
+            ypaAdConfig   : '0000002e5',
+            ypaAdTypeTag  : '253753',
+            ypaAdTagOptions : {
+              SponsoredSearch : sponsoredSearch
+            },
+            ypaAdSlotInfo : [
+              {
+                ypaAdSlotId : 'ratemyteachers',
+                ypaAdDivId  : 'ypaAdWrapper_ratemyteachers_autocomplete',
+                ypaAdWidth  : '450',
+                ypaAdHeight : '111',
+                ypaSlotOptions: {
+                  AdOptions: adOptions("1-2"),
+                  TemplateOptions: templateOptions()
+                }
+              }
+            ]
+          });
+        };
+        
+        // Override Autocomplete close method
+        var autocompleteData = $('.search_form input[name=q]').data('ui-autocomplete');
+        autocompleteData.close = function( event ) {
+          if (this.ypaForceCancelClose) {
+            delete this.ypaForceCancelClose;
+            
+            // Enable close on mouse down out
+            this.ypaCloseOnClickOut = true;
+            return;
+          }
+          this.ypaCloseOnClickOut = false;
+          
+          // Original Autocomplete code
+          this.cancelSearch = true;
+          this._close( event );
+        };
+        
+        // Save last clicked object
+        autocompleteData.ypaLastClickElement = null;
+        $(document).onFirst("mousedown", function(e) {
+          autocompleteData.ypaLastClickElement = $(e.target);
+        }).onFirst("mouseup", function(e) {
+          autocompleteData.ypaLastClickElement = null;
+        });
+        
+        
+        // Identify iframe click
+        $('.search_form input[name=q]').onFirst("blur", function(e) {
+          // Cancel autocomplete close when iframe.
+          // NOTE: It doesn't register any events when the iframe is click due
+          // cross domain denied access so last clicked element is null.
+          if (autocompleteData.ypaLastClickElement === null)
+            autocompleteData.ypaForceCancelClose = true;
+        });
+        
+        
+        // Close menu on mouse out
+        var isElementInAutocomplete = function(target) {
+          var menuElement = autocompleteData.menu.element[0];
+          return target === autocompleteData.element[0] ||
+            target === menuElement ||
+            $.contains( menuElement, target );
+        };
+        $(document).on("mousedown", function(e) {
+          if (!autocompleteData.ypaCloseOnClickOut || isElementInAutocomplete(e.target))
+            return;
+          autocompleteData.close();
+        });
+
+        // Autocomplete trigger
+        $('.search_form input[name=q]').on("autocompleteopen", function(e) {
+          var input = $(e.target);;
+          configYPA(input.val());
+        });
+      })();
+    </script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  <!-- [:desktop] 1a79903@rails20 - 2017-02-17 17:53:25 -0500-->
+    
+  
+
+
+
+
+
+<script>
+  $(function(){
+    console.info("[PERF] DomContentLoaded: " + RMT.Analytics.elapseTime() );
+  });
+
+  $(window).load(function(){
+    console.info("[PERF] Load: " + RMT.Analytics.elapseTime() );
+  });
+</script>
+
+</body>
+</html>

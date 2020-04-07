@@ -1,0 +1,1971 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+ 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ 				<meta name="description" content="Check out ratings, reviews, and comments about Becky Stambaugh from David Brearley High School in Kenilworth, NJ. Find out if Becky Stambaugh is a good teacher!">
+		<meta name="keywords" content="Teachers, Teacher, Rate My Teacher, Ratings, Reviews, High School, Middle School, Elementary School, Private School, Easiness, Helpfulness, Clarity, Department, School, Grade.">
+ 				<title>Becky Stambaugh's Ratings - Kenilworth, NJ, David Brearley High School | RateMyTeachers.com</title>
+		<link rel="alternate" type="application/rss+xml" href="/becky-stambaugh/245685-t.rss">
+                <!--[if LT IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!--[if lte IE 8]>
+			<link href="/css/core/style_ie.css" rel="stylesheet" type="text/css" />
+		<![endif]-->
+        <link rel="stylesheet" type="text/css" href="/css/core/style.css">
+        <link rel="stylesheet" type="text/css" href="/css/core/common.css">
+		<link rel="stylesheet" type="text/css" href="/css/core/notifier.css">
+		<link rel="stylesheet" type="text/css" href="/css/mooRatings.css" />
+        <link rel="stylesheet" type="text/css" href="/css/fancybox/jquery.fancybox.css">
+                <link rel="stylesheet" type="text/css" href="/css/core/register.css">
+		<script type="text/javascript" src="/js/fancybox/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="/js/core/sort.js"></script>
+        <script type="text/javascript" src="/js/fancybox/jquery.fancybox.js"></script>
+		<!-- added by jdecorion 07/05/2012 character counter -->
+		<script type="text/javascript" src="/js/jquery.maxlength.js"></script>
+		<!--			/* end jon */-->
+
+        <script type="text/javascript">
+			jQuery.noConflict();
+			(function($){
+			
+                $(document).ready(function() {
+
+                        /*added by jdecorion 07/05/2012open's a  new window for terms and privacy*/
+                          $('a[rel="external"]').click( function() {
+                                window.open( $(this).attr('href') );
+                                return false;
+                        });
+                        $(".counter").css({"color": "red"});
+                        /*for comments max length counter*/
+                         $('textarea.limited').maxlength({
+                                'feedback' : '.charsLeft'
+                          });
+                        /*end*/
+                    
+                    var comments_maxLength = 500;
+
+                    $('#comment_counter').html(comments_maxLength);
+
+                    $('#commentspopup').keyup(function (e) {
+                        var currentlen = $('#commentspopup').val().length;
+                        if(currentlen <= comments_maxLength) {
+                            $('#comment_counter').html(comments_maxLength - currentlen);
+                             if(currentlen < 50) {
+                                 $(".counter").css({"color": "red"});
+                             }
+                             else 
+                                 {
+                                       $(".counter").css({"color": "green"});
+                                 }
+                        } else {
+                            $(this).val($(this).val().substring(0, comments_maxLength));
+                        }
+                    });  
+
+                    $('.fancybox').fancybox();
+                    $('.fancylogin').fancybox({
+                        closeBtn : false,
+                        closeClick  : false,
+                        width : 380,
+                        height : 110,
+                        helpers   : {
+                                    overlay : {closeClick: false}
+                                    }
+                    });
+
+                                                                                                                                          
+
+                    /*deleted by jonathan 07/26/2012
+                    $('input[name=submit_ratingPopup]').click(function() {
+                            $.fancybox.close();
+                            location.reload();
+                    });
+                    */
+
+                    $('input[name=login]').click(function(){
+                        window.location="https://www.facebook.com/dialog/oauth?client_id=228246920612336&redirect_uri=http%3A%2F%2Fwww.ratemyteachers.com%2Flogin%2Fbecky-stambaugh%2F245685-t&state=3c075e5e6d2de4d099b5a2c1df965212&scope=email%2Cuser_about_me%2Cuser_birthday%2Cuser_hometown%2Cuser_location%2Cpublish_stream%2Coffline_access";
+                    });
+                    /*Added by jonathan 07/12/2012 */					
+                    $('#popupRate').click(function(){
+                        
+                                $(".fancybox").fancybox({
+                                        fitToView : false,  
+                                        closeBtn : false,
+                                        closeClick  : false,
+                                helpers   : {overlay : {closeClick: false}}
+                                });
+                                
+                                $('.fancylogin').fancybox({
+                                    closeBtn : false,
+                                    closeClick  : false,
+                                    width : 380,
+                                    height : 110,
+                                    helpers   : { overlay : {closeClick: false} }
+                                });
+
+                                $('#popupRate').attr('class','fltrgt ratePersonButton fancylogin');
+                                $('#popupRate').attr('href','#fblogin');																															
+                                $("#fblogin").trigger('click');
+                                $('div').removeClass('fancybox-close') ;
+                                        
+
+                    });
+
+
+                     //Addded by jonathan 07/25/2012                    
+                $('input[name=submit_rating]').click(function(event) {
+                    //alert("Thanks for visiting!" + this.value);
+                    var descriptionT ='';
+                    if(this.value == 'formHeader')
+                     {
+                          //alert('header');
+                          descriptionT =  $("#formHeader :input[name=description]").val().trim();                                                        
+                     }
+                     else
+                     {
+                         //alert('not header');
+                         var formId = 'form' + this.value;    
+                        //alert('formId:'+ formId);
+                        //$("#one :input[name='txt']")
+                         descriptionT 	=  $("#" + formId + " :input[name=description]").val().trim(); 
+                        //alert(descriptionT);                     
+                     }
+                     
+                    var str = descriptionT.split(' ');                   
+                    var len = str.length;
+                    //alert('len:' + len + ' descriptionT:' + descriptionT)
+                    if(len > 1)
+                    {									
+                           alert('Please enter a one word description!');
+                           event.preventDefault(); 
+                    }
+                    else
+                    {   
+                        
+                        if(descriptionT != '')
+                            {
+                                
+                            /*
+                            var regex = new RegExp("^[a-zA-Z0-9]+$");
+                            var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+                            if (!regex.test(key)) {
+                                event.preventDefault();
+                                alert('Numbers and special characters are not allowed!');
+                                return false;
+                             }
+                           else {
+                           console.log("Submitting");
+                           }
+                           */
+                           if (!descriptionT.match(/^[a-zA-Z]+$/)) {
+                               
+                                alert('Numbers and special characters are not allowed!');
+                                event.preventDefault();
+                            } else {
+                              console.log("Submitting");
+                            }
+                           
+                       }
+                       else 
+                           {
+                               alert('Please enter a one word description!');
+                               event.preventDefault(); 
+                           }
+                           
+                    }
+                     
+                     
+                  
+                });
+       
+                //end jon
+
+            });
+			})(jQuery);
+		</script>
+		<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'>
+</script>
+<script type='text/javascript'>
+GS_googleAddAdSenseService("ca-pub-8322864954623881");
+GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+GA_googleAddSlot("ca-pub-8322864954623881", "ATF_Leaderboard");
+GA_googleAddSlot("ca-pub-8322864954623881", "ATF_MediumRectangle");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_Leaderboard");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomCenter");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomLeft");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomRight");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_TopRight");
+GA_googleAddSlot("ca-pub-8322864954623881", "STF_WideSkyscraper_TopRight");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_Leaderboard_NoAdsense");
+GA_googleAddSlot("ca-pub-8322864954623881", "BTF_MediumRectangle_BottomRight_NoAdsense");
+</script>
+<script type='text/javascript'>
+GA_googleFetchAds();
+</script>
+
+
+            <link rel="stylesheet" type="text/css" href="/css/core/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/core/notifier.css">
+    <link rel="stylesheet" type="text/css" href="/css/squeezebox/squeezebox.css">
+    <link rel="stylesheet" type="text/css" href="/css/moodialog/MooDialog.css">
+<!--[if LT IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lte IE 8]>
+        <link href="/css/core/style_ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+    <script type="text/javascript" src="/js/core/mootools-core-1.4-full.js"></script>
+    <script type="text/javascript" src="/js/core/mootools-more-1.4-full.js"></script>
+    <script type="text/javascript" src="/js/core/notifier.js"></script>
+    <script type="text/javascript" src="/js/core/person_filter.js"></script>
+    <script type="text/javascript" src="/js/tabs.js"></script>
+    <script type="text/javascript" src="/js/z-index.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/clear-inputs.js"></script>
+    <script type="text/javascript" src="/js/topcontent.js"></script>
+    <script type="text/javascript" src="/js/like.js"></script>
+    <script type="text/javascript" src="/js/aframe.js"></script>
+    <script type="text/javascript" src="/js/moodialog/Overlay.js"></script>
+    <script type="text/javascript" src="/js/moodialog/MooDialog.js"></script>
+    <script type="text/javascript" src="/js/moodialog/MooDialog.Fx.js"></script>
+    <script type="text/javascript" src="/js/moodialog/MooDialog.Alert.js"></script>
+    <script type="text/javascript" src="/js/moodialog/MooDialog.Confirm.js"></script>
+    <script type="text/javascript" src="/js/moodialog/MooDialog.Request.js"></script>
+	</head>
+	<body id="fbrate">
+
+		<div id="fb-root"><a id="like" onClick="return false;"></a></div>
+		<div id="wrapper">
+			<script type="text/javascript">
+    window.addEvent('domready',function() {
+        /*** Begin Search Expand/Collapse */
+        var status = {
+            'true': 'open',
+            'false': 'close'
+        };
+        var myVerticalSlide = new Fx.Slide('vertical_slide').hide();
+        
+        if ($('search_link') != null) {
+            $('search_link').addEvent('click', function(event) {
+                if (status[myVerticalSlide.open] == "open") {
+                    $('vertical_slide').removeClass('search');
+                } else {
+                    $('vertical_slide').addClass('search');
+                }
+                event.stop();
+                myVerticalSlide.toggle();
+            });
+        }
+        
+        var rate_link = $$('.rate_link');
+        rate_link.each(rate_link_add_click_event);
+        
+        function rate_link_add_click_event (el) {
+            el.addEvent('click', function(event) {
+                if (status[myVerticalSlide.open] == "open") {
+                    $('vertical_slide').removeClass('search');
+                } else {
+                    $('vertical_slide').addClass('search');
+                }
+                event.stop();
+                myVerticalSlide.toggle();
+            });
+        }
+        
+
+        if ($('school_link') != null) {
+            $('school_link').addEvent('click', function(event) {
+                if (status[myVerticalSlide.open] == "open") {
+                    $('vertical_slide').removeClass('search');
+                } else {
+                    $('vertical_slide').addClass('search');
+                }
+                event.stop();
+                myVerticalSlide.toggle();
+            });
+        }
+
+        $$('input[name=search_org]').addEvent('blur', function(event){
+			//alert('jona2');
+            event.stop();
+            myVerticalSlide.slideOut();
+        });
+
+		/*Added by jonathan 07/20/2012
+		$$('input[name=search_org]').addEvent('click', function(event){
+			//alert('jona3');
+            event.stop();
+            myVerticalSlide.slideOut();
+        });
+		*/
+       
+		$$('input[name=search_teacher]').addEvent('click', function(event){
+			//alert('jona3');
+            event.stop();
+            myVerticalSlide.slideOut();
+        });
+		/*end*/
+        myVerticalSlide.addEvent('complete', function() {
+            $('vertical_status').set('text', status[myVerticalSlide.open]);
+        });
+        /*** End Search Expand/Collapse */
+
+        /*** Begin Textbox Watermark */
+        var values = new Array();
+        var inputs = new Array();
+
+        function addWaterMark(el){
+            try {
+                values.push(el.value);
+                el.onfocus = function ()	{
+                    if (el.value == values[inputs.indexOf(el)]) {
+                        el.value = '';
+                        el.className = el.className.replace("watermarkOn", "");
+                    }
+                }
+                el.onblur = function () {
+                    if(el.value === ''){
+                        el.value = values[inputs.indexOf(el)];
+                        el.className += " watermarkOn";
+                    }
+                }
+            } catch(e) {dbug.log('addWaterMark: ', e)}
+        };
+
+        function addValue(el){
+            try {
+                if (el.name == "search_org") el.value = "Search for School"
+                if (el.name == "search_teacher") el.value = "Search for Teacher"
+                if (el.id == "search_input_expand") el.value = "Search Here"
+            } catch(e) {dbug.log('addWaterMark: ', e)}
+        };
+
+        inputs = $$('input[name^=search],input[name=search_input_expand],input[name^=newsletter],input[class^=rating_fields_input]');
+        inputs.each(addValue);
+        inputs.each(addWaterMark);
+        /*** End Textbox Watermark */
+    });
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<header>
+    <div id="pagelet">
+        <div id="pagelet_left" class="fltlft">
+            <a href="/" class="fltlft">RateMyTeachers.com</a><span class="fltlft">&nbsp;-</span>
+            <div class="pagelet_select_country fltlft">
+                <ul id="sort2">
+                    <li><a class="option selected" href="#" title="United States">United States</a></li>
+                                            <li><a class="option" href="http://ca.ratemyteachers.com" title="Canada">Canada</a></li>
+                                            <li><a class="option" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a></li>
+                                            <li><a class="option" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a></li>
+                                            <li><a class="option" href="http://au.ratemyteachers.com" title="Australia">Australia</a></li>
+                                            <li><a class="option" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a></li>
+                                    </ul>
+            </div>
+        </div>
+                <ul>
+            <li><a href="/schools.rss">RSS</a></li>
+                            <li><a href="/register/becky-stambaugh/245685-t">Sign up</a></li>
+                        <li><a href="#" class="rate_link">Rate</a></li>
+                <li><a href="/login/becky-stambaugh/245685-t">Log in</a></li>
+			<li>
+            	<div class="fb-like" data-href="http://www.facebook.com/pages/Rate-My-Teachers/172604876112259" data-send="false" data-layout="button_count" data-width="80" data-show-faces="true" style="margin-left:10px;"></div>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <!--end pagelet-->
+
+    <div id="header">
+        <h1 class="fltlft"><a href="/"><img src="/images/RateMyTeacher_Logo.png" alt="Rate My Teachers" title="Rate My Teachers" /></a></h1>
+        <div id="search">
+            <div class="search-input">
+                <form action="http://www.ratemyteachers.com/search/school" method="get" id="school_search">
+                    <input id="search_org" name="search_org" type="text" class="school watermarkOn" />
+                    <input name="submit_search" type="image" src="/images/search-btn1.png" class="SearchSubmit" alt="Search School on Rate My Teachers" title="Search School on Rate My Teachers" />
+                </form>
+            </div>
+            <div class="search-input">
+                <form action="http://www.ratemyteachers.com/search/people" method="get" id="teacher_search">
+                    <input id="search_teacher" name="search_teacher" type="text" class="watermarkOn" />
+                    <input name="submit_search" type="image" src="/images/search-btn1.png" class="SearchSubmit" alt="Search Teacher on Rate My Teachers" title="Search Teacher on Rate My Teachers" />
+                </form>
+            </div>
+            <div>
+                <input name="submit_search" type="image" src="/images/search-btn.png" alt="Search School &amp; Teacher on Rate My Teachers" title="Search School &amp; Teacher on Rate My Teachers" />
+            </div>
+        </div>
+    <script type="text/javascript">
+            window.addEvent('domready',function() {
+
+                $$('input[name=submit_search]').addEvent('click', function(event){
+                    event.stop(); // Stops the submission of the form.
+                    var keyword1 = $('search_org').get("value");
+                    var keyword2 = $('search_teacher').get("value");
+                    if (keyword1 != null && keyword1 != "Search for School") {
+                        if (has_common_words(keyword1)){ var box = new MooDialog.Alert('Please refine your search term'); }
+                        else { $('school_search').submit(); }
+                    } else if (keyword2 != null && keyword2 != "Search for Teacher") {
+                        $('teacher_search').submit();
+                    }
+                });
+
+                $('search_org').addEvent('keydown', function(event) {
+					//alert('jona');
+                    if(event.key == "enter") {
+                        event.stop();
+                        var keyword = this.get('value');
+                        if (has_common_words(keyword)){ var box = new MooDialog.Alert('Please refine your search term'); }
+                        else { $('school_search').submit(); }
+                    }
+                });
+
+
+
+                $('search_teacher').addEvent('keydown', function(event) {
+                    if(event.key == "enter") {
+                        event.stop();
+                        var keyword = this.get('value');
+                        $('teacher_search').submit();
+                    }
+                });
+                function has_common_words(keyword){
+                    var c_words = ['college', 'high', 'elementary', 'school'];
+                    var searchIndex = c_words.indexOf(keyword.toLowerCase());
+                    return searchIndex != -1;
+                }
+            });
+    </script>
+    <div class="clear"></div>
+    </div>
+    <!--end header-->
+
+</header>
+			<div id="content_container">
+
+				<div id="navi">
+					<ul>
+						<li><a href="/becky-stambaugh/245685-rate">Rate Becky Stambaugh</a></li>
+						<li><a href="/david-brearley-high-school/12792-s">Go Back to David Brearley High School</a></li>
+                        <!-- commented by njbasan, Teacher Page, #9 
+						<li><a href="#" id="search_link">Search </a></li>
+						<li><a id="rate_link" href="#">Rate a different teacher</a></li>
+                        -->
+					</ul>
+				</div>
+				<!--end navi-->
+
+				<section itemscope itemtype="http://schema.org/Person" id="content">
+
+					<div class="ads">
+						<div class="ATF_Leaderboard">
+							<!-- ATF_Leaderboard -->
+							<script type='text/javascript'>
+								GA_googleFillSlot("ATF_Leaderboard");
+							</script>
+						</div>
+		                <div class="clear"></div>
+	              	</div>
+	                <!--end ads-->
+
+		                <div id="vertical_slide" style="display:none;">
+    <form action="#"  method="get" id="search_expand">
+        <fieldset>
+            <div class="search-input-blk">
+                <input id="search_input_expand" name="search_org" type="text" class="school watermarkOn" />
+                <input type="button" name="search-org-submit" class="SearchSubmit fltrgt" alt="Rate My Teachers Search" title="Rate My Teachers Search" />
+            </div>
+            <div>
+                <!--<input name="search_org" type="text" class="school" value="" />-->
+                <input id="search-button" name="search-org-submit" class="school-submit" type="submit" value="" alt="Rate My Teachers Search" title="Rate My Teachers Search" src="/images/search-btn.png" />
+            </div>
+        </fieldset>
+    </form>
+    <span id="vertical_status" style="display:none;">close</span>
+    <p>&nbsp;</p>
+</div>
+<script type="text/javascript" src="/js/core/check_results.js"></script>
+<script type="text/javascript">
+    window.addEvent('domready',function() {
+        $$('input[name=search-org-submit]').addEvent('click', function(event){
+            event.stop(); // Stops the submission of the form.
+            var keyword = $('search_input_expand').get("value");
+            if (keyword != null && keyword != "Search Here") {
+                if (has_common_words(keyword)){ new MooDialog.Alert('Please refine your search term'); }
+                else { $('search_expand').submit(); }
+            }
+        });
+
+        $('search_input_expand').addEvent('keydown', function(event) {
+            if(event.key == "enter") {
+                event.stop();
+                var keyword = this.get('value');
+                if (has_common_words(keyword)){ new MooDialog.Alert('Please refine your search term'); }
+                else { 
+                    
+                    var data = "search_org=" + keyword + "&is_ajax=true";
+                    var submit_url = {
+                            "school" : 'http://www.ratemyteachers.com/search/school',
+                            "teacher" : 'http://www.ratemyteachers.com/search/people'
+                        };
+                    var options = { 
+                        'url'           : 'http://www.ratemyteachers.com/search/get_results',
+                        'method'        : 'get',
+                        'data'          : data,
+                        'submit_url'    : submit_url,
+                        'keyword'       : keyword,
+                        'append_to'     : document.body
+                    }
+                    check_results = new Check_Results(options);
+                    check_results.submit();
+                }
+            }
+        });
+        function has_common_words(keyword){
+            var c_words = ['college', 'high', 'elementary', 'school'];
+            var searchIndex = c_words.indexOf(keyword.toLowerCase());
+            return searchIndex != -1;
+        }
+    });
+</script>		                <!--end search-->
+
+		                <div class="clear"></div>
+
+		              	<div id="heading" class="border-bottom">
+							
+							<ul class="breadcrumbs fltlft">
+	<li><a href="/location">United States</a> &raquo;</li>
+
+	        <li><a href="/location/nj">New Jersey</a> &raquo;</li>
+	
+	        <li><a href="/location/nj/kenilworth">Kenilworth</a> &raquo;</li>
+	
+	        <li><a href="/david-brearley-high-school/12792-s">David Brearley High School</a> &raquo;</li>
+        <li><a id="breadcrumb_dept" href="#">English</a> &raquo;</li>
+        <li class="dark"><a href="/becky-stambaugh/245685-t">Rate Becky Stambaugh</a> &raquo;</li>
+	</ul>
+
+<script type="text/javascript">
+    if ($("breadcrumb_dept") != null) {
+        $("breadcrumb_dept").addEvent("click", function(event){
+                // stop the event from propagating any further
+                event.stop();
+                event.stopPropagation();
+
+                // initialize the person filter
+                PersonFilter.init({
+                        "id": "12792",
+                        "url": "/david-brearley-high-school/12792-s",
+                        "letter": "",
+                        "dept": "English",
+                        "order_by": "LastName",
+                        "order_dir": "ASC",
+                        "order_mappings": {"Name":"LastName","Department":"Department"}});
+
+                // apply the filter
+                PersonFilter.filter();
+        });
+    }
+</script>
+							
+		                <div class="clear"></div>
+		              	</div>
+		                <!--end heading-->
+
+		              	<div id="school_result_blk">
+
+							<div class="ad1">
+								<div class="banner_300">
+									<!-- ATF_MediumRectangle -->
+									<script type='text/javascript'>
+										GA_googleFillSlot("ATF_MediumRectangle");
+									</script>
+								</div>
+							</div>
+		                	<!--end ad-->
+
+							<div class="teacher_register">
+								<h2><span itemprop="name">Becky Stambaugh</span></h2>
+								<span itemprop="worksFor">
+																	<span itemscope itemtype="http://schema.org/School">
+																	<meta itemprop="name" content="David Brearley High School">
+																	<meta itemprop="jobTitle" content="Teacher">
+																	</span>
+								</span>
+								<div class="clear"></div>
+								<!--<img src="/images/stars-icon2.png" alt="Number of Reviews for " />&nbsp;<a href="#">&nbsp;Reviews</a> arvin 07/17/2012-->
+								<div class="teacher_register_rate">	
+									 										<div id="rate">		
+											<div id="rating_fieldsHeader" class="hide">                                                                         
+												<form action="http://www.ratemyteachers.com/rate_school" method="post" id="formHeader" >
+													<input type="hidden" name="rating_id" value="" />
+													<input type="hidden" name="formid" value="0" />
+													<input type="hidden" name="person_id" value="245685" />
+													<input type="hidden" name="person_review_url" value="/becky-stambaugh/245685-t" />
+													<!--<input type="hidden" id="rating_value" name="rating_value" />-->
+													<input type="hidden" name="url" value="becky-stambaugh/245685-t" />
+															
+													<input type="hidden" id="rating_valueHeader" name="rating_value" value="3" />
+													<input type="text" name="description" class="rating_fields_input watermarkOn" value="Describe Teacher" />
+													<input type="submit" name="submit_rating" class="rating_fields_submit" value="formHeader"/>
+												</form>
+											</div>
+											<div id="rate_blk">
+												<div id="mydiv" class ="mytestNoBorder">            					
+                                                                                                <form name="simpHeader" > 
+                                                                                                    <label id="simpTipHeader"></label>
+                                                                                                    <input type="radio" name="rating" value="Hated"> 
+                                                                                                    <input type="radio" name="rating" value="Disliked"> 
+                                                                                                    <input type="radio" name="rating" value="Okay" checked> 
+                                                                                                    <input type="radio" name="rating" value="Liked">
+                                                                                                    <input type="radio" name="rating" value="Loved">
+                                                                                                </form>										
+												</div>
+											</div>
+										</div>
+									                                    <a href="#">&nbsp&nbsp</a>
+                                </div>								
+								<fieldset>
+									<label>Overall Quality</label>
+									<!--<span><img src="/images/stars-icon2.png" alt="&nbsp; Overall Rating" /></span>-->
+									
+																																																																	<span><img src="/images/static_stars/5-star.png" alt=" Overall Rating" title=" Overall Rating" /></span>
+																	</fieldset>
+								<meta itemprop="interactionCount" content="UserComments:7">
+																	<meta itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+									<fieldset>
+										<label>Easiness:&nbsp;</label>										
+										
+										<!--<span><img src="/images/stars-icon2.png" alt="" /></span>-->
+										
+																				
+																						<span><img src="/images/static_stars/4-star.png" alt="Easiness" title="Easiness" /></span>
+																				<meta itemprop="name" content="Overall Easiness">
+										<meta itemprop="reviewCount" content="7">
+									</fieldset>
+																	<meta itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+									<fieldset>
+										<label>Helpfulness:&nbsp;</label>										
+										
+										<!--<span><img src="/images/stars-icon2.png" alt="" /></span>-->
+										
+																				
+																						<span><img src="/images/static_stars/5-star.png" alt="Helpfulness" title="Helpfulness" /></span>
+																				<meta itemprop="name" content="Overall Helpfulness">
+										<meta itemprop="reviewCount" content="7">
+									</fieldset>
+																	<meta itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+									<fieldset>
+										<label>Clarity:&nbsp;</label>										
+										
+										<!--<span><img src="/images/stars-icon2.png" alt="" /></span>-->
+										
+																				
+																						<span><img src="/images/static_stars/5-star.png" alt="Clarity" title="Clarity" /></span>
+																				<meta itemprop="name" content="Overall Clarity">
+										<meta itemprop="reviewCount" content="7">
+									</fieldset>
+															</div>
+		                    <!--end teacher register-->
+		                    <div class="google_map">
+							<!--
+		                    	<img src="/images/google-map.jpg" alt="Google Map on Rate My Teachers" title="Google Map on Rate My Teachers" />
+							-->
+							<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+ 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false'></script>		<script type="text/javascript" charset="utf-8">
+//<![CDATA[
+/*************************************************
+ * Created with GoogleMapAPI3.0beta
+ * Author: Brad Wedell <brad AT mycnl DOT com>
+ * Link http://code.google.com/p/phpgooglemapapiv3/
+ * Copyright 2010 Brad Wedell
+ * Original Author: Monte Ohrt <monte AT ohrt DOT com>
+ * Original Copyright 2005-2006 New Digital Group
+ * Originial Link http://www.phpinsider.com/php/code/GoogleMapAPI/
+ *************************************************/
+
+                var to_htmlsmap  = [];
+                var from_htmlsmap  = [];
+            var mapmap = null;
+function onLoadmap() {
+var mapObjmap = document.getElementById("map");
+if (mapObjmap != 'undefined' && mapObjmap != null) {
+
+				var mapOptionsmap = {
+					zoom: 16,
+					mapTypeId: google.maps.MapTypeId.ROADMAP,
+					mapTypeControl: true,
+					mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DEFAULT}
+				};
+			
+				mapmap = new google.maps.Map(mapObjmap,mapOptionsmap);
+			
+				  
+			  }
+}
+function isArray(a) {return isObject(a) && a.constructor == Array;}
+function isObject(a) {return (a && typeof a == 'object') || isFunction(a);}
+function isFunction(a) {return typeof a == 'function';}
+function isEmpty(obj) { for(var i in obj) { return false; } return true; }
+//]]>
+</script>
+	</head>
+	<body>
+		 <script language="javascript" type="text/javascript" charset="utf-8">debugger;window.onload=onLoadmap;</script>		 <script type="text/javascript" charset="utf-8">
+//<![CDATA[
+document.write('<div id="map" style="width: 298px; height: 248px; position:relative;"><\/div>');
+//]]>
+</script>
+<noscript><b>Javascript must be enabled in order to use Google Maps.</b></noscript>
+		<div id="sidebar_map" class="sidebar_map"></div>
+	</body>
+</html>		                    </div>
+
+		                	<div class="clear"></div>
+
+		                    <div class="action_blk">
+                                                                                                                                    <a href="#fblogin" class="fltlft margin1 fancylogin"><img src="/images/report-abuse-btn.png" alt="Report Abuse Becky Stambaugh" title="Report Abuse Becky Stambaugh" /></a>
+                                                
+                                                                                                                        <form action="http://www.ratemyteachers.com/teacher_liked" method="post" name="teacher_liked" id="teacher_liked">
+                                                <input type="hidden" name="url" value="becky-stambaugh/245685-t" />
+                                                <input type="hidden" name="teacher_id" value="245685" />
+                                                <input type="hidden" name="liked" value="1" />
+                                                                                                <a href="#fblogin" class="fltlft fancylogin"><img src="/images/like-btn.png" alt="I agree with Becky Stambaugh" title="I agree with Becky Stambaugh" /></a>
+                                                                                        </form>
+                                        <form action="http://www.ratemyteachers.com/teacher_liked" method="post" name="teacher_unliked" id="teacher_unliked">
+                                                <input type="hidden" name="url" value="becky-stambaugh/245685-t" />
+                                                <input type="hidden" name="teacher_id" value="245685" />
+                                                <input type="hidden" name="liked" value="0" />
+                                                                                                <a href="#fblogin" class="fltlft fancylogin"><img src="/images/dislike-btn.png" alt="I disagree with Becky Stambaugh" title="I disagree with Becky Stambaugh" /></a>
+                                                                                        </form>
+<!--		                        <a href="#" class="fltlft"><img src="/images/like-btn.png" alt="Like " title="Like " /></a>
+		                        <a href="#" class="fltlft margin1"><img src="/images/dislike-btn.png" alt="Dislike " title="Dislike " /></a>-->
+
+							
+								<!--added by jonathan 06/28/2012 popup rating dont allow user's to rate teacher if he already rated it-->
+																  											<a href="#inline-sample" class="fltrgt ratePersonButton fancybox" id ="popupRate" title="Rate Becky Stambaugh">Rate Becky Stambaugh</a>
+                                  								   								<!-- end jon -->
+
+                                		                  	</div>
+		                  	<!--end action block-->
+		                	<div class="clear"></div>
+		           	  	</div>
+		                <!--end school result block-->
+
+		                <div class="ads">
+							<div class="ATF_Leaderboard">
+								<!-- ATF_Leaderboard -->
+								
+								<script type='text/javascript'>
+									GA_googleFillSlot("ATF_Leaderboard");
+								</script>
+							</div>
+		                	<div class="clear"></div>
+		              	</div>
+		                <!--end ads-->
+                                <!-- Added by jonathan decorion 07/14/2012-->
+                                
+                                <!--end jon -->
+				<div class="clear"></div>
+		                <div id="teacher_rating">
+						
+						
+		                			                	<ul>
+								                                                                                                                                                									<li class="bg-gray">										<ul itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+											<meta itemprop="name" content="Becky Stambaugh">
+											<meta itemprop="author" content="RateMyTeachers.com">
+                                            <li class="rating_time">09/02/06</li>
+											<li class="rating" itemprop="datePublished" class="first">
+												<div id="rate">
+                                                                                                        <!--
+													<img src="/images/static_stars/2-star.png" alt="Stars Rating" title="Stars Rating" />
+                                                                                                        -->
+                                                                                                        
+                                                                                                        										
+                                                                                                                                                                                                                                <span><img src="/images/static_stars/5-star.png" alt="Clarity" title="Clarity" /></span>
+                                                                                                                                                                                                                
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+												</div>
+											</li>
+																						<li class="comment"><p><meta itemprop="description">she rocks my socks!!!</p></li>											
+                                            											<li class="graph">
+																							<div class="ratingQualityLabel">Easiness</div>
+												<meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+												<meta itemprop="worstRating" content="1">
+												<meta itemprop="bestRating" content="5">
+												<meta itemprop="ratingValue" content="3">
+                                                                                                	<img src="/images/graphs/Good3.png" alt="Graph for Easiness Rating " title="Graph for Easiness Rating " />
+                                                    <span class="graphLabel">3&nbspstars</span>
+                                                    <br />
+																												
+																							<div class="ratingQualityLabel">Helpfulness</div>
+												<meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+												<meta itemprop="worstRating" content="1">
+												<meta itemprop="bestRating" content="5">
+												<meta itemprop="ratingValue" content="5">
+                                                                                                	<img src="/images/graphs/Verygood5.png" alt="Graph for Helpfulness Rating " title="Graph for Helpfulness Rating " />
+                                                    <span class="graphLabel">5&nbspstars</span>
+                                                    <br />
+                                                																
+																							<div class="ratingQualityLabel">Clarity</div>
+												<meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+												<meta itemprop="worstRating" content="1">
+												<meta itemprop="bestRating" content="5">
+												<meta itemprop="ratingValue" content="5">
+                                                                                                	<img src="/images/graphs/Verygood5.png" alt="Graph for Clarity Rating " title="Graph for Clarity Rating " />
+                                                    <span class="graphLabel">5&nbspstars</span>
+                                                    <br />
+                                                																
+																						</li>
+											<li class="comment"></li>
+										</ul>
+										<div class="clear"></div>
+										<div class="action_blk">
+																							<a href="/becky-stambaugh/11175209-f" title ="Flag Becky Stambaugh's rating" class="fltlft margin1"><img src="/images/flag-rating-btn.png" alt ="Flag Becky Stambaugh's rating" title ="Flag Becky Stambaugh's rating" /></a>
+																								                                                                                                
+                                                                                                        <!--<div class="fltrgt">-->
+                                                                                                            <a href="/becky-stambaugh/11175209-r" title ="Visit Becky Stambaugh's rating on 09/02/06"  class="fltlft margin1"><img src="/images/visit-rating-btn.png" alt ="Visit Becky Stambaugh" title ="Visit Becky Stambaugh" /></a>
+                                                                                                        <!--</div>-->
+                                                                                                       
+													<form action="http://www.ratemyteachers.com/rate_liked" method="post" name="rate_liked" id="rate_liked">
+														<input type="hidden" name="url" value="becky-stambaugh/245685-t" />
+														<input type="hidden" name="rating_id" value="11175209" />
+														<input type="hidden" name="liked" value="1" />
+                                                                                                                                                                                                                                    <a href="#fblogin" class="fltlft fancylogin"><img src="/images/like-btn.png" alt="I agree with Becky Stambaugh's rating dated 09/02/06" title="I agree with Becky Stambaugh's rating dated 09/02/06" /></a>
+                                                                                                                													</form>
+													<form action="http://www.ratemyteachers.com/rate_liked" method="post" name="rate_unliked" id="rate_unliked">
+														<input type="hidden" name="url" value="becky-stambaugh/245685-t" />
+														<input type="hidden" name="rating_id" value="11175209" />
+														<input type="hidden" name="liked" value="0" />
+														                                                                                                                <a href="#fblogin" class="fltlft fancylogin"><img src="/images/dislike-btn.png" alt="I disagree with Becky Stambaugh's rating dated 09/02/06" title="I disagree with Becky Stambaugh's rating dated 09/02/06" /></a>
+                                                                                                                													</form>
+											
+										</div>
+									</li>
+								                                                                                                                                                									<li>										<ul itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+											<meta itemprop="name" content="Becky Stambaugh">
+											<meta itemprop="author" content="RateMyTeachers.com">
+                                            <li class="rating_time">09/01/05</li>
+											<li class="rating" itemprop="datePublished" class="first">
+												<div id="rate">
+                                                                                                        <!--
+													<img src="/images/static_stars/2-star.png" alt="Stars Rating" title="Stars Rating" />
+                                                                                                        -->
+                                                                                                        
+                                                                                                        										
+                                                                                                                                                                                                                                <span><img src="/images/static_stars/5-star.png" alt="Clarity" title="Clarity" /></span>
+                                                                                                                                                                                                                
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+												</div>
+											</li>
+																						<li class="comment"><p><meta itemprop="description">she is awesome.......prolly my favorite person in the world</p></li>											
+                                            											<li class="graph">
+																							<div class="ratingQualityLabel">Easiness</div>
+												<meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+												<meta itemprop="worstRating" content="1">
+												<meta itemprop="bestRating" content="5">
+												<meta itemprop="ratingValue" content="5">
+                                                                                                	<img src="/images/graphs/Verygood5.png" alt="Graph for Easiness Rating " title="Graph for Easiness Rating " />
+                                                    <span class="graphLabel">5&nbspstars</span>
+                                                    <br />
+                                                																
+																							<div class="ratingQualityLabel">Helpfulness</div>
+												<meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+												<meta itemprop="worstRating" content="1">
+												<meta itemprop="bestRating" content="5">
+												<meta itemprop="ratingValue" content="5">
+                                                                                                	<img src="/images/graphs/Verygood5.png" alt="Graph for Helpfulness Rating " title="Graph for Helpfulness Rating " />
+                                                    <span class="graphLabel">5&nbspstars</span>
+                                                    <br />
+                                                																
+																							<div class="ratingQualityLabel">Clarity</div>
+												<meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+												<meta itemprop="worstRating" content="1">
+												<meta itemprop="bestRating" content="5">
+												<meta itemprop="ratingValue" content="5">
+                                                                                                	<img src="/images/graphs/Verygood5.png" alt="Graph for Clarity Rating " title="Graph for Clarity Rating " />
+                                                    <span class="graphLabel">5&nbspstars</span>
+                                                    <br />
+                                                																
+																						</li>
+											<li class="comment"></li>
+										</ul>
+										<div class="clear"></div>
+										<div class="action_blk">
+																							<a href="/becky-stambaugh/9512308-f" title ="Flag Becky Stambaugh's rating" class="fltlft margin1"><img src="/images/flag-rating-btn.png" alt ="Flag Becky Stambaugh's rating" title ="Flag Becky Stambaugh's rating" /></a>
+																								                                                                                                
+                                                                                                        <!--<div class="fltrgt">-->
+                                                                                                            <a href="/becky-stambaugh/9512308-r" title ="Visit Becky Stambaugh's rating on 09/01/05"  class="fltlft margin1"><img src="/images/visit-rating-btn.png" alt ="Visit Becky Stambaugh" title ="Visit Becky Stambaugh" /></a>
+                                                                                                        <!--</div>-->
+                                                                                                       
+													<form action="http://www.ratemyteachers.com/rate_liked" method="post" name="rate_liked" id="rate_liked">
+														<input type="hidden" name="url" value="becky-stambaugh/245685-t" />
+														<input type="hidden" name="rating_id" value="9512308" />
+														<input type="hidden" name="liked" value="1" />
+                                                                                                                                                                                                                                    <a href="#fblogin" class="fltlft fancylogin"><img src="/images/like-btn.png" alt="I agree with Becky Stambaugh's rating dated 09/01/05" title="I agree with Becky Stambaugh's rating dated 09/01/05" /></a>
+                                                                                                                													</form>
+													<form action="http://www.ratemyteachers.com/rate_liked" method="post" name="rate_unliked" id="rate_unliked">
+														<input type="hidden" name="url" value="becky-stambaugh/245685-t" />
+														<input type="hidden" name="rating_id" value="9512308" />
+														<input type="hidden" name="liked" value="0" />
+														                                                                                                                <a href="#fblogin" class="fltlft fancylogin"><img src="/images/dislike-btn.png" alt="I disagree with Becky Stambaugh's rating dated 09/01/05" title="I disagree with Becky Stambaugh's rating dated 09/01/05" /></a>
+                                                                                                                													</form>
+											
+										</div>
+									</li>
+								                                                                                                                                                									<li class="bg-gray">										<ul itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+											<meta itemprop="name" content="Becky Stambaugh">
+											<meta itemprop="author" content="RateMyTeachers.com">
+                                            <li class="rating_time">08/12/05</li>
+											<li class="rating" itemprop="datePublished" class="first">
+												<div id="rate">
+                                                                                                        <!--
+													<img src="/images/static_stars/2-star.png" alt="Stars Rating" title="Stars Rating" />
+                                                                                                        -->
+                                                                                                        
+                                                                                                        										
+                                                                                                                                                                                                                                <span><img src="/images/static_stars/5-star.png" alt="Clarity" title="Clarity" /></span>
+                                                                                                                                                                                                                
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+												</div>
+											</li>
+																						<li class="comment"><p><meta itemprop="description">i had some trouble adjusting to her honors class in 7th grade but after that she was an awesome teacher</p></li>											
+                                            											<li class="graph">
+																							<div class="ratingQualityLabel">Easiness</div>
+												<meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+												<meta itemprop="worstRating" content="1">
+												<meta itemprop="bestRating" content="5">
+												<meta itemprop="ratingValue" content="2">
+                                                                                                	<img src="/images/graphs/Helpfulness2.png" alt="Graph for Easiness Rating " title="Graph for Easiness Rating " />
+                                                    <span class="graphLabel">2&nbspstars</span>
+                                                    <br />
+																												
+																							<div class="ratingQualityLabel">Helpfulness</div>
+												<meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+												<meta itemprop="worstRating" content="1">
+												<meta itemprop="bestRating" content="5">
+												<meta itemprop="ratingValue" content="5">
+                                                                                                	<img src="/images/graphs/Verygood5.png" alt="Graph for Helpfulness Rating " title="Graph for Helpfulness Rating " />
+                                                    <span class="graphLabel">5&nbspstars</span>
+                                                    <br />
+                                                																
+																							<div class="ratingQualityLabel">Clarity</div>
+												<meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+												<meta itemprop="worstRating" content="1">
+												<meta itemprop="bestRating" content="5">
+												<meta itemprop="ratingValue" content="4">
+                                                                                                	<img src="/images/graphs/Verygood4.png" alt="Graph for Clarity Rating " title="Graph for Clarity Rating " />
+                                                    <span class="graphLabel">4&nbspstars</span>
+                                                    <br />
+																												
+																						</li>
+											<li class="comment"></li>
+										</ul>
+										<div class="clear"></div>
+										<div class="action_blk">
+																							<a href="/becky-stambaugh/9410415-f" title ="Flag Becky Stambaugh's rating" class="fltlft margin1"><img src="/images/flag-rating-btn.png" alt ="Flag Becky Stambaugh's rating" title ="Flag Becky Stambaugh's rating" /></a>
+																								                                                                                                
+                                                                                                        <!--<div class="fltrgt">-->
+                                                                                                            <a href="/becky-stambaugh/9410415-r" title ="Visit Becky Stambaugh's rating on 08/12/05"  class="fltlft margin1"><img src="/images/visit-rating-btn.png" alt ="Visit Becky Stambaugh" title ="Visit Becky Stambaugh" /></a>
+                                                                                                        <!--</div>-->
+                                                                                                       
+													<form action="http://www.ratemyteachers.com/rate_liked" method="post" name="rate_liked" id="rate_liked">
+														<input type="hidden" name="url" value="becky-stambaugh/245685-t" />
+														<input type="hidden" name="rating_id" value="9410415" />
+														<input type="hidden" name="liked" value="1" />
+                                                                                                                                                                                                                                    <a href="#fblogin" class="fltlft fancylogin"><img src="/images/like-btn.png" alt="I agree with Becky Stambaugh's rating dated 08/12/05" title="I agree with Becky Stambaugh's rating dated 08/12/05" /></a>
+                                                                                                                													</form>
+													<form action="http://www.ratemyteachers.com/rate_liked" method="post" name="rate_unliked" id="rate_unliked">
+														<input type="hidden" name="url" value="becky-stambaugh/245685-t" />
+														<input type="hidden" name="rating_id" value="9410415" />
+														<input type="hidden" name="liked" value="0" />
+														                                                                                                                <a href="#fblogin" class="fltlft fancylogin"><img src="/images/dislike-btn.png" alt="I disagree with Becky Stambaugh's rating dated 08/12/05" title="I disagree with Becky Stambaugh's rating dated 08/12/05" /></a>
+                                                                                                                													</form>
+											
+										</div>
+									</li>
+								                                                                                                                                                									<li>										<ul itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+											<meta itemprop="name" content="Becky Stambaugh">
+											<meta itemprop="author" content="RateMyTeachers.com">
+                                            <li class="rating_time">06/15/05</li>
+											<li class="rating" itemprop="datePublished" class="first">
+												<div id="rate">
+                                                                                                        <!--
+													<img src="/images/static_stars/2-star.png" alt="Stars Rating" title="Stars Rating" />
+                                                                                                        -->
+                                                                                                        
+                                                                                                        										
+                                                                                                                                                                                                                                <span><img src="/images/static_stars/5-star.png" alt="Clarity" title="Clarity" /></span>
+                                                                                                                                                                                                                
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+												</div>
+											</li>
+																						<li class="comment"><p><meta itemprop="description">she is just cool in general</p></li>											
+                                            											<li class="graph">
+																							<div class="ratingQualityLabel">Easiness</div>
+												<meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+												<meta itemprop="worstRating" content="1">
+												<meta itemprop="bestRating" content="5">
+												<meta itemprop="ratingValue" content="5">
+                                                                                                	<img src="/images/graphs/Verygood5.png" alt="Graph for Easiness Rating " title="Graph for Easiness Rating " />
+                                                    <span class="graphLabel">5&nbspstars</span>
+                                                    <br />
+                                                																
+																							<div class="ratingQualityLabel">Helpfulness</div>
+												<meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+												<meta itemprop="worstRating" content="1">
+												<meta itemprop="bestRating" content="5">
+												<meta itemprop="ratingValue" content="5">
+                                                                                                	<img src="/images/graphs/Verygood5.png" alt="Graph for Helpfulness Rating " title="Graph for Helpfulness Rating " />
+                                                    <span class="graphLabel">5&nbspstars</span>
+                                                    <br />
+                                                																
+																							<div class="ratingQualityLabel">Clarity</div>
+												<meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+												<meta itemprop="worstRating" content="1">
+												<meta itemprop="bestRating" content="5">
+												<meta itemprop="ratingValue" content="5">
+                                                                                                	<img src="/images/graphs/Verygood5.png" alt="Graph for Clarity Rating " title="Graph for Clarity Rating " />
+                                                    <span class="graphLabel">5&nbspstars</span>
+                                                    <br />
+                                                																
+																						</li>
+											<li class="comment"></li>
+										</ul>
+										<div class="clear"></div>
+										<div class="action_blk">
+																							<a href="/becky-stambaugh/9209306-f" title ="Flag Becky Stambaugh's rating" class="fltlft margin1"><img src="/images/flag-rating-btn.png" alt ="Flag Becky Stambaugh's rating" title ="Flag Becky Stambaugh's rating" /></a>
+																								                                                                                                
+                                                                                                        <!--<div class="fltrgt">-->
+                                                                                                            <a href="/becky-stambaugh/9209306-r" title ="Visit Becky Stambaugh's rating on 06/15/05"  class="fltlft margin1"><img src="/images/visit-rating-btn.png" alt ="Visit Becky Stambaugh" title ="Visit Becky Stambaugh" /></a>
+                                                                                                        <!--</div>-->
+                                                                                                       
+													<form action="http://www.ratemyteachers.com/rate_liked" method="post" name="rate_liked" id="rate_liked">
+														<input type="hidden" name="url" value="becky-stambaugh/245685-t" />
+														<input type="hidden" name="rating_id" value="9209306" />
+														<input type="hidden" name="liked" value="1" />
+                                                                                                                                                                                                                                    <a href="#fblogin" class="fltlft fancylogin"><img src="/images/like-btn.png" alt="I agree with Becky Stambaugh's rating dated 06/15/05" title="I agree with Becky Stambaugh's rating dated 06/15/05" /></a>
+                                                                                                                													</form>
+													<form action="http://www.ratemyteachers.com/rate_liked" method="post" name="rate_unliked" id="rate_unliked">
+														<input type="hidden" name="url" value="becky-stambaugh/245685-t" />
+														<input type="hidden" name="rating_id" value="9209306" />
+														<input type="hidden" name="liked" value="0" />
+														                                                                                                                <a href="#fblogin" class="fltlft fancylogin"><img src="/images/dislike-btn.png" alt="I disagree with Becky Stambaugh's rating dated 06/15/05" title="I disagree with Becky Stambaugh's rating dated 06/15/05" /></a>
+                                                                                                                													</form>
+											
+										</div>
+									</li>
+								                                                                                                                                                									<li class="bg-gray">										<ul itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+											<meta itemprop="name" content="Becky Stambaugh">
+											<meta itemprop="author" content="RateMyTeachers.com">
+                                            <li class="rating_time">02/16/04</li>
+											<li class="rating" itemprop="datePublished" class="first">
+												<div id="rate">
+                                                                                                        <!--
+													<img src="/images/static_stars/2-star.png" alt="Stars Rating" title="Stars Rating" />
+                                                                                                        -->
+                                                                                                        
+                                                                                                        										
+                                                                                                                                                                                                                                <span><img src="/images/static_stars/5-star.png" alt="Clarity" title="Clarity" /></span>
+                                                                                                                                                                                                                
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+												</div>
+											</li>
+																						<li class="comment"><p><meta itemprop="description">her honors class is good... maybe it's only b/c we have 9 people! she's a really nice teach. easy to get along with. she cares & doesn't treat us like lil kids</p></li>											
+                                            											<li class="graph">
+																							<div class="ratingQualityLabel">Easiness</div>
+												<meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+												<meta itemprop="worstRating" content="1">
+												<meta itemprop="bestRating" content="5">
+												<meta itemprop="ratingValue" content="4">
+                                                                                                	<img src="/images/graphs/Verygood4.png" alt="Graph for Easiness Rating " title="Graph for Easiness Rating " />
+                                                    <span class="graphLabel">4&nbspstars</span>
+                                                    <br />
+																												
+																							<div class="ratingQualityLabel">Helpfulness</div>
+												<meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+												<meta itemprop="worstRating" content="1">
+												<meta itemprop="bestRating" content="5">
+												<meta itemprop="ratingValue" content="5">
+                                                                                                	<img src="/images/graphs/Verygood5.png" alt="Graph for Helpfulness Rating " title="Graph for Helpfulness Rating " />
+                                                    <span class="graphLabel">5&nbspstars</span>
+                                                    <br />
+                                                																
+																							<div class="ratingQualityLabel">Clarity</div>
+												<meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+												<meta itemprop="worstRating" content="1">
+												<meta itemprop="bestRating" content="5">
+												<meta itemprop="ratingValue" content="5">
+                                                                                                	<img src="/images/graphs/Verygood5.png" alt="Graph for Clarity Rating " title="Graph for Clarity Rating " />
+                                                    <span class="graphLabel">5&nbspstars</span>
+                                                    <br />
+                                                																
+																						</li>
+											<li class="comment"></li>
+										</ul>
+										<div class="clear"></div>
+										<div class="action_blk">
+																							<a href="/becky-stambaugh/5030225-f" title ="Flag Becky Stambaugh's rating" class="fltlft margin1"><img src="/images/flag-rating-btn.png" alt ="Flag Becky Stambaugh's rating" title ="Flag Becky Stambaugh's rating" /></a>
+																								                                                                                                
+                                                                                                        <!--<div class="fltrgt">-->
+                                                                                                            <a href="/becky-stambaugh/5030225-r" title ="Visit Becky Stambaugh's rating on 02/16/04"  class="fltlft margin1"><img src="/images/visit-rating-btn.png" alt ="Visit Becky Stambaugh" title ="Visit Becky Stambaugh" /></a>
+                                                                                                        <!--</div>-->
+                                                                                                       
+													<form action="http://www.ratemyteachers.com/rate_liked" method="post" name="rate_liked" id="rate_liked">
+														<input type="hidden" name="url" value="becky-stambaugh/245685-t" />
+														<input type="hidden" name="rating_id" value="5030225" />
+														<input type="hidden" name="liked" value="1" />
+                                                                                                                                                                                                                                    <a href="#fblogin" class="fltlft fancylogin"><img src="/images/like-btn.png" alt="I agree with Becky Stambaugh's rating dated 02/16/04" title="I agree with Becky Stambaugh's rating dated 02/16/04" /></a>
+                                                                                                                													</form>
+													<form action="http://www.ratemyteachers.com/rate_liked" method="post" name="rate_unliked" id="rate_unliked">
+														<input type="hidden" name="url" value="becky-stambaugh/245685-t" />
+														<input type="hidden" name="rating_id" value="5030225" />
+														<input type="hidden" name="liked" value="0" />
+														                                                                                                                <a href="#fblogin" class="fltlft fancylogin"><img src="/images/dislike-btn.png" alt="I disagree with Becky Stambaugh's rating dated 02/16/04" title="I disagree with Becky Stambaugh's rating dated 02/16/04" /></a>
+                                                                                                                													</form>
+											
+										</div>
+									</li>
+																
+							</ul>
+		                </div>
+		                <!--end teacher rating-->
+
+						<p align="center" class="ads">
+						<div class="sub_banner_728">
+							<!-- BTF_Leaderboard -->
+							<script type='text/javascript'>
+								GA_googleFillSlot("BTF_Leaderboard");
+							</script>
+						</div>
+						</p>
+						<!--
+		                <div class="paging">
+		                	<ul>
+		                    	<li><span>Showing 1 to 40 |</span></li>
+		                        <li>Page:</li>
+		                        <li><a href="#" class="active">1</a></li>
+		                        <li><a href="#">2</a></li>
+		                        <li><a href="#">3</a></li>
+		                    </ul>
+		                </div>
+						-->
+						
+		                <!--end paging-->
+		               
+                                <!-- Added by jonathan decorion 08/08/2012-->
+                                  <div class="page_result">
+                                                                                <p>1 to 50 of 7 Results</p>
+                                        <ul class="pagination">
+                                            <li><a href="/becky-stambaugh/245685-t/1"></a></li><li>1</li><li><a href="/becky-stambaugh/245685-t/2">2</a></li><li><a href="/becky-stambaugh/245685-t/2">&gt;</a></li>
+                                        </ul>
+                                                                          </div>
+                                <!-- end jon-->
+				<div class="clear"></div>
+                                				<!--end top block-->
+
+				</section>
+	            <!--end section-->
+
+			</div>
+			<!-- end container-->
+
+			<footer>
+	<div id="footer">
+		<ul class="dictionary">
+			<li>School Dictionary:</li>
+			<li><a href="/school/A">A</a></li>
+			<li><a href="/school/B">B</a></li>
+			<li><a href="/school/C">C</a></li>
+			<li><a href="/school/D">D</a></li>
+			<li><a href="/school/E">E</a></li>
+			<li><a href="/school/F">F</a></li>
+			<li><a href="/school/G">G</a></li>
+			<li><a href="/school/H">H</a></li>
+			<li><a href="/school/I">I</a></li>
+			<li><a href="/school/J">J</a></li>
+			<li><a href="/school/K">K</a></li>
+			<li><a href="/school/L">L</a></li>
+			<li><a href="/school/M">M</a></li>
+			<li><a href="/school/N">N</a></li>
+			<li><a href="/school/O">O</a></li>
+			<li><a href="/school/P">P</a></li>
+			<li><a href="/school/Q">Q</a></li>
+			<li><a href="/school/R">R</a></li>
+			<li><a href="/school/S">S</a></li>
+			<li><a href="/school/T">T</a></li>
+			<li><a href="/school/U">U</a></li>
+			<li><a href="/school/V">V</a></li>
+			<li><a href="/school/W">W</a></li>
+			<li><a href="/school/X">X</a></li>
+			<li><a href="/school/Y">Y</a></li>
+			<li><a href="/school/Z">Z</a></li>
+			<li>|</li>
+			<li>Teacher Dictionary:</li>
+			<li><a href="/teacher/A">A</a></li>
+			<li><a href="/teacher/B">B</a></li>
+			<li><a href="/teacher/C">C</a></li>
+			<li><a href="/teacher/D">D</a></li>
+			<li><a href="/teacher/E">E</a></li>
+			<li><a href="/teacher/F">F</a></li>
+			<li><a href="/teacher/G">G</a></li>
+			<li><a href="/teacher/H">H</a></li>
+			<li><a href="/teacher/I">I</a></li>
+			<li><a href="/teacher/J">J</a></li>
+			<li><a href="/teacher/K">K</a></li>
+			<li><a href="/teacher/L">L</a></li>
+			<li><a href="/teacher/M">M</a></li>
+			<li><a href="/teacher/N">N</a></li>
+			<li><a href="/teacher/O">O</a></li>
+			<li><a href="/teacher/P">P</a></li>
+			<li><a href="/teacher/Q">Q</a></li>
+			<li><a href="/teacher/R">R</a></li>
+			<li><a href="/teacher/S">S</a></li>
+			<li><a href="/teacher/T">T</a></li>
+			<li><a href="/teacher/U">U</a></li>
+			<li><a href="/teacher/V">V</a></li>
+			<li><a href="/teacher/W">W</a></li>
+			<li><a href="/teacher/X">X</a></li>
+			<li><a href="/teacher/Y">Y</a></li>
+			<li><a href="/teacher/Z">Z</a></li>
+		</ul>
+		<div id="foot">
+			<ul>
+									<li><a href="/school">Schools</a><span>|</span></li>
+					<li><a href="/teacher">Teachers</a><span>|</span></li>
+									<li><a href="http://www.facebook.com/pages/Rate-My-Teachers/172604876112259" target="_blank">Forum</a><span>|</span></li>
+					<li><a href="/faq">FAQ</a><span>|</span></li>
+					<li><a href="/contact">Contact</a><span>|</span></li>
+					<li><a href="/info/Terms">Terms of Use</a><span>|</span></li>
+					<li><a href="/info/Privacy">Privacy Policy</a><span>|</span></li>
+					<li><a href="/info/RateRules">Site Guidelines</a><span>|</span></li>
+					<li><a href="/info/Copyright">Copyright Compliance</a><span>|</span></li>
+					<li><a href="/location">Site Map</a><span>|</span></li>
+					<li><a href="/refer_a_friend">Refer a Friend</a></li>
+			</ul>
+			<p>© 2012 RateMyTeachers.com All Rights Reserved. This site is dedicated to Nancy Lynn Davis 1945-2006 & Brian Timothy Davis 1981-2003</p>
+		</div>
+	</div>
+</footer>
+<div style="display:none">
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-4216499-1");
+		pageTracker._initData();
+					pageTracker._setCustomVar(5,"Institution Type","High School");
+				pageTracker._trackPageview();
+	</script> 
+
+	<script type="text/javascript">
+		_qoptions={
+			qacct:"p-6d6fzw6m9kY1M"
+		};
+	</script>
+
+	<!-- Start Quantcast tag -->
+	<script type="text/javascript">
+		_qoptions={
+		qacct:"p-6d6fzw6m9kY1M"
+		};
+	</script>
+	<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+	<noscript>
+		<img src="http://pixel.quantserve.com/pixel/p-6d6fzw6m9kY1M.gif" style="display: none;" border="0" height="1" width="1" alt=""/>
+	</noscript>
+	<!-- End Quantcast tag -->
+</div>			<div class="clear"></div>
+		</div>
+		<!--end wrapper-->
+
+                    <div id="inline-sample" style="display: none">
+                        <h1>Rate Becky Stambaugh</h1>
+
+                        <div class="cerabox-rating">
+                            <ul>
+                                <li>
+                                    <ul>
+                                        <li>
+                                            <h2>Easiness</h2>
+                                            <span>(very easy)</span>
+
+                                            <div class="easiness-rate">
+                                                <div id="rating_field_easiness" class="hide">
+                                                </div>
+                                                <div id="rate_blk_easiness">
+                                                    <div id="mydiv_easiness" class ="mytestNoBorder">
+                                                        <form name="form_easiness" >
+                                                            <label id="tip_easiness"></label>
+                                                            <input type="radio" name="rating_easiness" value="1" >
+                                                            <input type="radio" name="rating_easiness" value="2">
+                                                            <input type="radio" name="rating_easiness" value="3">
+                                                            <input type="radio" name="rating_easiness" value="4">
+                                                            <input type="radio" name="rating_easiness" value="5">
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <span>(Hard)</span>
+                                        </li>
+                                        <li>
+                                            <h2>Exam Difficulty</h2>
+                                            <span>(very easy)</span>
+                                            <!--<a href="#"><img src="images/stars-icon3.png" alt="" /></a>-->
+                                            <div id="exam-difficulty-rate">
+                                                <div id="rating_field_exam_difficulty" class="hide">
+                                                                                                    <!-- /person_review_controller/postrating -->
+                                                                                            </div>
+                                                <div id="rate_blk_exam_difficulty">
+                                                    <div id="mydiv_difficulty" class ="mytestNoBorder">
+                                                        <form name="form_exam_difficulty" >
+                                                            <label id="tip_exam_difficulty"></label>
+                                                            <input type="radio" name="rating_exam_difficulty" value="1" >
+                                                            <input type="radio" name="rating_exam_difficulty" value="2">
+                                                            <input type="radio" name="rating_exam_difficulty" value="3">
+                                                            <input type="radio" name="rating_exam_difficulty" value="4">
+                                                            <input type="radio" name="rating_exam_difficulty" value="5">
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <span>(Impossible)</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="bg-gray">
+                                    <ul>
+                                        <li>
+                                            <h2>Helpfulness</h2>
+                                            <span>(Useless)</span>
+                                            <div class="helpfulness-rate">
+                                                <div id="rating_field_helpfulness" class="hide">
+                                                                                                    <!-- /person_review_controller/postrating -->
+                                                                                            </div>
+                                                <div id="rate_blk_helpfulness">
+                                                    <div id="mydiv_helpfulness" class ="mytestNoBorder">
+                                                        <form name="form_helpfulness" >
+                                                            <label id="tip_helpfulness"></label>
+                                                            <input type="radio" name="rating_helpfulness" value="1" >
+                                                            <input type="radio" name="rating_helpfulness" value="2">
+                                                            <input type="radio" name="rating_helpfulness" value="3">
+                                                            <input type="radio" name="rating_helpfulness" value="4">
+                                                            <input type="radio" name="rating_helpfulness" value="5">
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <span>(Always Available)</span>
+                                        </li>
+                                        <li>
+                                            <h2>Clarity</h2>
+                                            <span>(could not understand)</span>
+                                            <div class="clarity-rate">
+                                                <div id="rating_field_clarity" class="hide">
+                                                                                                    <!-- /person_review_controller/postrating -->
+                                                                                            </div>
+                                                <div id="rate_blk_clarity">
+                                                    <div id="mydiv_clarity" class ="mytestNoBorder">
+                                                        <form name="form_clarity" >
+                                                            <label id="tip_clarity"></label>
+                                                            <input type="radio" name="rating_clarity" value="1" >
+                                                            <input type="radio" name="rating_clarity" value="2">
+                                                            <input type="radio" name="rating_clarity" value="3">
+                                                            <input type="radio" name="rating_clarity" value="4">
+                                                            <input type="radio" name="rating_clarity" value="5">
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <span>(Crystal Clear)</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>
+                                            <h2>Knowledgeable</h2>
+                                            <span>(zero knowledge)</span>
+                                            <div class="knowledgeable-rate">
+                                                <div id="rating_field_knowledgeable" class="hide">
+                                                                                                    <!-- /person_review_controller/postrating -->
+                                                                                            </div>
+                                                <div id="rate_blk_knowledgeable">
+                                                    <div id="mydiv_knowledgeable" class ="mytestNoBorder">
+                                                        <form name="form_knowledgeable" >
+                                                            <label id="tip_knowledgeable"></label>
+                                                            <input type="radio" name="rating_knowledgeable" value="1" >
+                                                            <input type="radio" name="rating_knowledgeable" value="2">
+                                                            <input type="radio" name="rating_knowledgeable" value="3">
+                                                            <input type="radio" name="rating_knowledgeable" value="4">
+                                                            <input type="radio" name="rating_knowledgeable" value="5">
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <span>(knows more than the book)</span>
+                                        </li>
+                                        <li>
+                                            <h2>Strict</h2>
+                                            <span>(extremely hard on students)</span>
+                                            <div class="textbook-use-rate">
+                                                <div id="rating_field_textbook_use" class="hide">
+                                                                                                    <!-- /person_review_controller/postrating -->
+                                                                                            </div>
+                                                <div id="rate_blk_textbook_use">
+                                                    <div id="mydiv_textbook_use" class ="mytestNoBorder">
+                                                        <form name="form_strict" >
+                                                             <label id="tip_strict"></label>
+                                                            <input type="radio" name="rating_strict" value="1" >
+                                                            <input type="radio" name="rating_strict" value="2">
+                                                            <input type="radio" name="rating_strict" value="3">
+                                                            <input type="radio" name="rating_strict" value="4">
+                                                            <input type="radio" name="rating_strict" value="5">
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <span>(too easy on students)</span>
+                                        </li>
+                                        <li style ="display: none;">
+                                            <div>
+                                                <h2>Textbook Use</h2>
+                                                <span>(never touched it)</span>
+                                                <div class="strict-rate">
+                                                    <div id="rating_field_strict" class="hide">
+                                                                                                        <!-- /person_review_controller/postrating -->
+                                                                                                </div>
+                                                    <div id="rate_blk_strict">
+                                                        <div id="mydiv_strict" class ="mytestNoBorder">
+                                                            <form name="form_textbook_use" >
+
+                                                                <label id="tip_textbook_use"></label>
+
+                                                                <input type="radio" name="rating_textbook_use" value="1">
+                                                                <input type="radio" name="rating_textbook_use" value="2">
+                                                                <input type="radio" name="rating_textbook_use" value="3">
+                                                                <input type="radio" name="rating_textbook_use" value="4">
+                                                                <input type="radio" name="rating_textbook_use" value="5">
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span>(used our textbook every day)</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                              
+                            </ul>
+                        </div>
+
+                        <div class="form">
+                        	<fieldset class="fltlft margin3">
+                                <label>Hot or Not (optional)</label>
+                                <input type="radio" name="HotOrNot" value ="1" /> <span>Hot</span>
+                                <input type="radio" name="HotOrNot" value ="2"  /> <span>Not Hot</span>
+                            </fieldset>
+                            <fieldset class="fltlft margin3">
+                                <label>Attendance (optional)</label>
+                                <input type="radio" name="Attendance" value ="1"/> <span>Mandatory</span>
+                                <input type="radio" name="Attendance" value ="2"  /> <span>Not Mandatory</span>
+                            </fieldset>
+                            <fieldset style ="visibility:hidden;">
+                                <label>Textbook Used: (optional, use ISBN#)</label>
+                                <input type="text" name="ISBN" class="inputbox" />
+                            </fieldset> 
+                            <div class="break"><p>&nbsp;</p></div>
+
+                            <fieldset>
+                                <label>COMMENTS</label>
+                                                            <!--<p>Characters left: <span class="charsLeft">10</span></p>-->
+                                <textarea maxlength="500" id ="commentspopup" name ="commentspopup" ></textarea>
+                                
+                                 <label><span>(Enter minimum 50 characters)</span></label><br>
+                                 <label class="counter"><span>[</span><span id="comment_counter"></span><span>/500 characters remaining]</span></label>
+                               
+                                <!--<label><span>Max Character :</span> <span id="comment_counter"></label>-->
+                            </fieldset>
+                            <fieldset>&nbsp;</fieldset>
+                            <div class="fixRecaptcha" style ="display: none;">
+                                    <script type="text/javascript" src="http://api.recaptcha.net/challenge?k=6LcxdgcAAAAAAM04UQcAylN9OeRX4Qrv4fEC3s8b"></script>
+
+	<noscript>
+  		<iframe src="http://api.recaptcha.net/noscript?k=6LcxdgcAAAAAAM04UQcAylN9OeRX4Qrv4fEC3s8b" height="300" width="500" frameborder="0"></iframe><br/>
+  		<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+  		<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+	</noscript>                            </div>
+                            <fieldset>
+                                <span>By clicking the 'Submit' button, I acknowledge that I have read and agreed to the Rate My Professors Site Guidelines,
+                                                                    <a href="http://www.ratemyteachers.com/info/Terms" rel="external">Terms of Use</a>, and <a href="http://www.ratemyteachers.com/info/Privacy" rel="external">Privacy Policy</a>.
+                                </span>
+                                <span>&nbsp;</span>
+                            </fieldset>
+                            <fieldset>
+                                <input type="image" name="submit_ratingPopup" onclick="return false;" src="/images/submit-btn.jpg" alt="Submit Rating" title="Submit Rating" />
+                            </fieldset>
+
+                        </div>
+                    </div>
+        <!--end cerabox popup -->
+
+        <div id="fblogin" class="fancylogin" style="display: none">
+            <div class="popup_heading"><h2>Facebook Login</h2></div>
+            <div class="popup_content">
+                    <p>RateMyTeachers.com recently teamed-up with Facebook to provide the world with more meaningful anonymous ratings. Your personal information and ratings will never be disclosed to your friends on Facebook.</p>
+            </div>
+            <div class="popup_action">
+                    <span>Your ratings will remain strictly anonymous.</span>            
+                <!-- <a href="https://www.facebook.com/dialog/oauth?client_id=228246920612336&redirect_uri=http%3A%2F%2Fwww.ratemyteachers.com%2Flogin%2Fbecky-stambaugh%2F245685-t&state=3c075e5e6d2de4d099b5a2c1df965212&scope=email%2Cuser_about_me%2Cuser_birthday%2Cuser_hometown%2Cuser_location%2Cpublish_stream%2Coffline_access"><img src="/images/popup/continue-btn.jpg" alt="" /></a>-->
+                <input type="image" name="login" onclick="return false;" src="/images/popup/continue-btn.jpg" alt="Facebook login on Rate My Teachers" title="Facebook login on Rate My Teachers" />
+            </div>
+        </div>
+        
+        <div id="abuse_report_warning" style="display:none">
+            <h1>Abuse Report</h1>
+            <div class="cerabox-rating">
+                <p>You have already reported abuse for Becky Stambaugh.</p>
+            </div>
+        </div>
+        <div id="abuse_report_sent" style="display:none" class="fancybox">
+            <h1>Abuse Report</h1>
+            <div class="cerabox-rating">
+                <p>Abuse report sent.</p>
+            </div>
+        </div>
+        <div id="like_warning" style="display:none">
+            <h1>Like</h1>
+            <div class="cerabox-rating">
+                <p>You have already liked this. You can only send once.</p>
+            </div>
+        </div>
+        
+		
+		<script type="text/javascript">
+			$("like").addEvent("click", function(event) { openLike(); });
+
+			function openLike(likeableType,likeableID,likeableName,likeableSchool,likeableURL)
+				{
+					(new Fx.Scroll($(document.body))).toTop();
+						Notifier.create({persistent: true, closeable: true});
+						Notifier.open("You are sharing " + likeableName + ". Why not tell your friends on Facebook?");
+
+					FBLike.init({
+						key: "9ae5a0fb3b54eb4dd228670a99f134df",
+						type: likeableType,
+						id: likeableID,
+						schoolName: "David Brearley High School",
+						teacherName: likeableName,
+						likeURL: likeableURL
+					});
+				}
+
+		</script>
+		<script src="http://connect.facebook.net/en_US/all.js"></script>
+                <script type="text/javascript">
+                    FB.init({
+                        appId      : '228246920612336',
+                        status     : true, // check login status
+                        cookie     : true, // enable cookies to allow the server to access the session
+                        xfbml      : true  // parse XFBML
+                    });
+                    
+                    function shareToFB(pname,plink,pmessage,pdescription,pform){
+                                                    window.location = 'http://www.ratemyteachers.com/login/becky-stambaugh/245685-t';
+                                           }
+                   
+                   function abuse_report(pform)
+                   {
+                       //alert('Abuse report sent.');
+                       //$('#abuse_report_sent').trigger('click');
+                       document.getElementById(pform).submit();
+                   }
+                </script>
+		<script src="/js/moostarratingNoHover123.js"></script>
+		<script src="/js/moostarrating.js"></script>
+        <script type="text/javascript">
+			
+            window.addEvent('domready',function() {
+                    MooStarRatingImages.defaultImageFolder = "/images";
+                    
+                    var simpleRating = new MooStarRating({
+                                form: "simpHeader",
+                                tip : "[VALUE]",
+                                tipTarget: $('simpTipHeader')
+                                });
+                                
+                        // Event callback 
+                        simpleRating.addEvent('click', function (value) { 
+                                var r = document.getElementById('rating_fieldsHeader');
+                                    r.set("class","appear");
+                                    $$("#rating_valueHeader").set("value",setvalue(value));
+                        }); 
+                    
+         
+                    //count = 5;
+                       /* 
+                        var basicRating1 = new MooStarRating({
+                                form: "simple1",
+                                tip : "[VALUE]",
+                                tipTarget: $('simpleTip1')
+                                });
+
+                        // Event callback 
+                        basicRating1.addEvent('click', function (value) { 
+                                var r = document.getElementById('rating_fields1');
+                                    r.set("class","appear");
+                                    $$("#rating_value1").set("value",setvalue(value));
+                            
+                        });
+                        
+                        var basicRatings = new Array(count);
+                        var rating_fields = new Array(count);
+                        
+						for(j=2;j<=count;j++)
+                            {
+                                rating_fields[j] = "rating_fields"+j;
+                            };
+			
+                        
+                        Array.each(basicRatings, function(obj, index) {
+                            obj.addEvent('click', function (value) {
+                                // we hide first the other textboxes
+                                Array.each(rating_fields, function(obj, r_index) {
+                                        $$('#rating_fields1').set("class","hide");
+                                        $$('#'+rating_fields[r_index]).set("class","hide");
+                                });
+                                // show the currently selected rating control
+                                $$('#'+rating_fields[index]).set("class","appear");
+                                $$("#rating_value"+index).set("value",setvalue(value));
+								
+                            });
+                        });
+                        */
+                       
+                        function setvalue(value)
+                            {
+                                switch(value)
+                                    {
+                                        case 'Hated':
+                                            return 1;
+                                            break;
+                                        case 'Disliked':
+                                            return 2;
+                                            break;
+                                        case 'Okay':
+                                            return 3;
+                                            break;
+                                        case 'Liked':
+                                            return 4;
+                                            break;
+                                        case 'Loved':
+                                            return 5;
+                                            break;    
+                                        default:
+                                            return value;
+                                                
+                                    }
+                            };
+
+						/* deleted by jonathan 07/25/2012
+						var is_one_word = null;
+						$$('input[name=description]').addEvent('blur', function() {
+							var tx_val = this.value;
+							var str = tx_val.split(' ');
+							var len = str.length;
+							is_one_word = len == 1;				
+						});
+						
+						$$('input[name=submit_rating]').addEvent('click', function(event){
+							
+							if (is_one_word && is_one_word != null) {
+								console.log("Submitting");
+							} else {
+								event.stop(); // Stops the submission of the form.
+								alert('You are only allowed to input one word!');
+							}
+						});
+						*/
+						//added by jonathan 07/25/2012
+					
+						
+						
+				   
+                /** Ajax Request calling rate_teacher() function from the controllers/person_rating_controller.php
+                 *  added by njbasan
+                 */
+				 /*
+                $$('input[name=submit_rating]').addEvent('click', function(event){
+                    event.stop(); // Stops the submission of the form.
+                    alert('you click me');
+					return;
+                    var post_url 			= 'http://us.richard.ratemyteachers.com/rate_teacher';
+                    var http_method 		= 'post';
+
+                    var rating_form 		= $('form1');
+                    var rating_value 		= rating_form.getElements('input[name=rating_value]').get('value');
+                    var rating_description 	= rating_form.getElements('input[name=description]').get('value');
+                    var person_id 			= rating_form.getElements('input[name=person_id]').get('value');
+                    var rating_id 			= rating_form.getElements('input[name=rating_id]').get('value');
+                                                var rating_url          = rating_form.getElements('input[name=url]').get('value');
+
+                    var post_string 		 = "rating_value=" + rating_value;
+                    post_string				+= "&description=" + rating_description;
+                    post_string 			+= "&person_id=" + person_id;
+                    post_string				+= "&rating_id=" + rating_id;
+                    post_string                     += "&url=" + rating_url;
+
+                    var ajax_options = { method		: http_method,
+                                         url		: post_url,
+                                         data		: post_string,
+                                         onComplete	: function(resp) {
+                                             //var obj = JSON.decode(resp);
+                                             console.log('Response: ' + resp);
+                                         }
+                                       };
+                    var req = new Request(ajax_options).send(); //make the ajax call
+                });
+				*/
+		//added by jdecorion 06/13/2012 12:10 a.m
+		 $$('input[name=submit_ratingPopup]').addEvent('click', function(event){
+                   event.stop(); // Stops the submission of the form.
+					
+                    var post_url 			= 'http://www.ratemyteachers.com/addRatingIntroExtended';
+					//var post_url 			= 'http://us.richard.ratemyteachers.com/addRatingIntroExtended';
+                    var http_method 		= 'post';
+					
+                    //var rating_form 		= $('form1');
+                   
+                    var rating_form 		= $('formHeader');
+
+
+                    if(rating_form.getElements('input[name=rating_value]').get('value') != null)                        
+                            var rating_value 		= rating_form.getElements('input[name=rating_value]').get('value');                                                    
+                    else                                                  
+                            var rating_value ="1";	                   
+                    //var rating_value = 3;
+                    //alert('2');
+                    var rating_description 	= rating_form.getElements('input[name=description]').get('value');
+                    //alert('3');
+                    var person_id 			= rating_form.getElements('input[name=person_id]').get('value');
+                    //alert('4');
+                    var rating_id 			= rating_form.getElements('input[name=rating_id]').get('value');
+
+                    var rating_url          = rating_form.getElements('input[name=url]').get('value');
+		   
+                    //alert('1');
+		    var examdifficulty = $$('input[name=rating_exam_difficulty]:checked').get('value');
+                    //alert('2:' + examdifficulty);
+                    var textbookuse = $$('input[name=rating_textbook_use]:checked').get('value');
+                    //alert('3');
+                    var textbookisbn = $$('input[name=ISBN]').get('value');
+                    //alert('4');
+                    var hotnot = $$('input[name=HotOrNot]:checked').get('value');
+                    var attendance = $$('input[name=Attendance]:checked').get('value');
+                    var comments = $('commentspopup').get('value');
+
+                    //insert/update in ratings table
+                    var rating_easiness =	$$('input[name=rating_easiness]:checked').get('value');
+                    var rating_helpfulness =	$$('input[name=rating_helpfulness]:checked').get('value');
+                    var rating_clarity =	$$('input[name=rating_clarity]:checked').get('value');
+                    var rating_knowledgeable =	$$('input[name=rating_knowledgeable]:checked').get('value');
+                    var rating_strict =	$$('input[name=rating_strict]:checked').get('value');
+                    /*
+                    var recaptcha_challenge_field = $('recaptcha_challenge_field').get('value');
+                    var recaptcha_response_field =	$('recaptcha_response_field').get('value');
+                    */
+                   
+                    //alert('challenge:' + recaptcha_challenge_field + ' ' + 'response:' + recaptcha_response_field);
+                    
+                    //var comments = $$('commentspopup').get('value');
+                    //
+
+                    //$$('commentspopup')value;//"jonathandecorion";//$$('commentspopup').get('value');//$$('input[name=commentspopup]').get('value');
+                    //var textarea = $$('commentspopup')value;
+
+                    //alert('comments:' + comments);
+                    //alert('examdifficulty:' + examdifficulty);
+                    var errorMsg ='';
+                    if(isNaN(rating_easiness))                        
+                        errorMsg = '- The Easiness field is required.\n';                                        
+                    if (isNaN(examdifficulty)) 
+                        errorMsg = errorMsg + '- The Exam Difficulty field is required.\n';
+                    if (isNaN(rating_helpfulness)) 
+                        errorMsg = errorMsg + '- The Helpfulness field is required.\n';
+                    if (isNaN(rating_clarity)) 
+                        errorMsg = errorMsg + '- The Clarity field is required.\n';
+                    if (isNaN(rating_knowledgeable)) 
+                        errorMsg = errorMsg + '- The Knowledgeable field is required.\n'; 
+                    if (isNaN(rating_strict)) 
+                        errorMsg = errorMsg + '- The Strict field is required.\n'; 
+                    if (comments.length < 1 || comments == null) 
+                        errorMsg = errorMsg + '- The Rating Comment field is required.\n';
+                    if(comments.length < 50)                        
+                        errorMsg = errorMsg + '- The Rating Comment field must be at least 50 characters in length.\n';    
+                    /*
+                    if (recaptcha_response_field.length < 1 || recaptcha_response_field == null) 
+                        errorMsg = errorMsg + '- The ReCaptcha field is required.\n';
+                    */     
+                    if(errorMsg.length > 0)
+                    {
+                        alert(errorMsg);
+                        return;                  
+                    }
+                    
+                    var schoolname = 'David Brearley High School';					
+                    var schoolurl = '/david-brearley-high-school/12792-s';                    
+                    var teachername = 'Becky Stambaugh';
+					
+                    var post_string 		 = "rating_value=" + rating_value;
+                    post_string             += "&description=" + rating_description;
+                    post_string             += "&person_id=" + person_id;
+                    post_string             += "&rating_id=" + rating_id;
+                    post_string             += "&url=" + rating_url;
+					
+                    post_string             += "&examdifficulty=" + examdifficulty;
+                    post_string             += "&textbookuse=" + textbookuse;
+                    post_string             += "&textbookisbn=" + textbookisbn;
+                    post_string             += "&hotnot=" + hotnot;
+                    post_string             += "&attendance=" + attendance;
+                    post_string             += "&comments=" + comments;
+                    /*post_string             += "&recaptcha_challenge_field=" + recaptcha_challenge_field;
+                    post_string             += "&recaptcha_response_field=" + recaptcha_response_field;*/
+
+                    post_string             += "&rating_easiness=" + rating_easiness;
+                    post_string             += "&rating_helpfulness=" + rating_helpfulness;
+                    post_string             += "&rating_clarity=" + rating_clarity;
+                    post_string             += "&rating_knowledgeable=" + rating_knowledgeable;
+                    post_string             += "&rating_strict=" + rating_strict;
+
+                    post_string             += "&schoolname=" + schoolname;
+                    post_string             += "&schoolurl=" + schoolurl;
+                    post_string             += "&teachername=" + teachername;
+					//alert(schoolurl);
+					//return;
+                    //alert(post_string); //jon
+					
+		    
+                    //return; 
+                    var jsonStatus;
+                    var ajax_options = { method		: http_method,
+                                         url		: post_url,
+                                         data		: post_string,
+                                         onComplete	: function(resp) {
+                                            var obj = JSON.decode(resp);
+                                            //alert('obj:' + obj + ' resp:' + resp["success"]);
+                                            
+                                            console.log('Response: ' + resp);
+					 //alert('obj:' + obj.success);
+                                         jsonStatus = obj.success;
+                                         //alert('jsonStatus111:'+ jsonStatus);
+                                         //alert('jsonStatus:'+ jsonStatus);
+                                                if(jsonStatus == 1)
+                                                {
+                                                    alert("Thank you for rating Becky Stambaugh");
+                                                    //$$.fancybox.close();
+                                                    window.location.reload(false);
+                                                }
+                                                /*
+                                                else 
+                                                {
+                                                    alert('The Recaptcha you entered was incorrect.');
+                                                    return;
+                                                }
+                                                */
+                                         
+                                         
+                                         
+                                         }
+                                       };
+                    var req = new Request(ajax_options).send();
+                    
+					//alert('result:' + req);
+                });
+            });
+			
+        </script>
+<!--  <script type="text/javascript" src="/js/cerabox/cerabox.min.js"></script>-->
+        <script type="text/javascript">
+			window.addEvent('domready', function(){
+
+				//$$('.action_blk a.ceraBox').cerabox();
+
+				rating_values = ['Hated it', 'Disliked it', 'It was okay', 'Liked it',  'Loved it'];
+				MooStarRatingImages.defaultImageFolder = "/images";
+
+				var easiness_rating = new MooStarRating({
+					form: "form_easiness",
+					radios: "rating_easiness",
+				});
+				easiness_rating.enable();
+				easiness_rating.addEvent('click', function (value) {
+					console.log(value);
+				});
+
+				var exam_difficulty_rating = new MooStarRating({
+					form: "form_exam_difficulty",
+					radios: "rating_exam_difficulty",
+				});
+
+				var helpfulness_rating = new MooStarRating({
+					form: "form_helpfulness",
+					radios: "rating_helpfulness",
+				});
+
+				var clarity_rating = new MooStarRating({
+					form: "form_clarity",
+					radios: "rating_clarity",
+				});
+
+				var knowledgeable_rating = new MooStarRating({
+					form: "form_knowledgeable",
+					radios: "rating_knowledgeable",
+				});
+
+				var strict_rating = new MooStarRating({
+					form: "form_strict",
+					radios: "rating_strict",
+				});
+
+				var textbook_use_rating = new MooStarRating({
+					form: "form_textbook_use",
+					radios: "rating_textbook_use",
+				});
+			});
+	</script>
+	</body>
+</html>

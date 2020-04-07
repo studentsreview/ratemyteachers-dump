@@ -1,0 +1,1569 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Farragut High School - Knoxville, Tennessee | RateMyTeachers.com</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-4.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":285,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-412.min.js"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e){function n(t,e,n){n||(n={});for(var r=o[t],a=r&&r.length||0,s=n[i]||(n[i]={}),u=0;a>u;u++)r[u].apply(s,e);return s}function r(t,e){var n=o[t]||(o[t]=[]);n.push(e)}var o={},i="nr@context";e.exports={on:r,emit:n}},{}],2:[function(t){function e(t,e,n,i,s){try{u?u-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(d){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t(5),a=window.onerror,s=!1,u=0;t("loader").features.push("err"),window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(c){"stack"in c&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(4),s=!0)}i.on("fn-start",function(){s&&(u+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&u>0&&(u-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:4,3:3,4:6,5:1,6:14,handle:"D5DuLP",loader:"G9z0Bl"}],3:[function(t){function e(t){r.inPlace(t,["addEventListener","removeEventListener"],"-",n)}function n(t){return t[1]}var r=t(1),o=(t(3),t(2));if(e(window),"getPrototypeOf"in Object){for(var i=document;i&&!i.hasOwnProperty("addEventListener");)i=Object.getPrototypeOf(i);i&&e(i);for(var a=XMLHttpRequest.prototype;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&e(a)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&e(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=r(e,"fn-"):"function"==typeof e.handleEvent&&r.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:15,2:1,3:14}],4:[function(t){var e=(t(3),t(1)),n=t(2);e.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=e(t[0],"fn-")})},{1:15,2:1,3:14}],5:[function(t){function e(t){var e=t[0];"string"==typeof e&&(e=new Function(e)),t[0]=n(e,"fn-")}var n=(t(3),t(1)),r=t(2);n.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",e)},{1:15,2:1,3:14}],6:[function(t){function e(){o.inPlace(this,s,"fn-")}function n(t,e){o.inPlace(e,["onreadystatechange"],"fn-")}function r(t,e){return e}var o=t(1),i=t(2),a=window.XMLHttpRequest,s=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];window.XMLHttpRequest=function(t){var n=new a(t);try{i.emit("new-xhr",[],n),o.inPlace(n,["addEventListener","removeEventListener"],"-",function(t,e){return e}),n.addEventListener("readystatechange",e,!1)}catch(r){try{i.emit("internal-error",r)}catch(s){}}return n},window.XMLHttpRequest.prototype=a.prototype,o.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",r),i.on("send-xhr-start",n),i.on("open-xhr-start",n)},{1:15,2:1}],7:[function(t){function e(){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;u>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,c="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,d=e(c);if(d&&(r.rxSize=d),this.sameOrigin){var f=t.getResponseHeader("X-NewRelic-App-Data");f&&(n.cat=f.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}t("loader").features.push("xhr");var o=t("handle"),i=t(1),a=t(5),s=["load","error","abort","timeout"],u=s.length,c=t(2);t(3),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var c=e(o);c&&(r.txSize=c)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var d=0;u>d;d++)n.addEventListener(s[d],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+c(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+c(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&e()},{1:8,2:11,3:3,4:6,5:1,handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e){var n=r[t];return n?n.apply(this,e):(o[t]||(o[t]=[]),void o[t].push(e))}var r={},o={};e.exports=n,n.queues=o,n.handlers=r},{}],11:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&u&&u.body){p.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=u.createElement("script");e.src=p.proto+t.agent,u.body.appendChild(e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,u=s.document,c="addEventListener",d="attachEvent",f=(""+location).split("?")[0],p=e.exports={offset:i(),origin:f,features:[]};u[c]?(u[c]("DOMContentLoaded",o,!1),s[c]("load",n,!1)):(u[d]("onreadystatechange",r),s[d]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],14:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],15:[function(t,e){function n(t,e,r,s){function nrWrapper(){try{var n,a=u(arguments),c=this,d=r&&r(a,c)||{}}catch(f){i([f,"",[a,c,s],d])}o(e+"start",[a,c,s],d);try{return n=t.apply(c,a)}catch(p){throw o(e+"err",[a,c,p],d),p}finally{o(e+"end",[a,c,n],d)}}return a(t)?t:(e||(e=""),nrWrapper[n.flag]=!0,nrWrapper)}function r(t,e,r,o){r||(r="");var i,s,u,c="-"===r.charAt(0);for(u=0;u<e.length;u++)s=e[u],i=t[s],a(i)||(t[s]=n(i,c?s+r:r,o,s,t))}function o(t,e,n){try{s.emit(t,e,n)}catch(r){i([r,t,e,n])}}function i(t){try{s.emit("internal-error",t)}catch(e){}}function a(t){return!(t&&"function"==typeof t&&t.apply&&!t[n.flag])}var s=t(1),u=t(2);e.exports=n,n.inPlace=r,n.flag="nr@wrapper"},{1:1,2:14}]},{},["G9z0Bl",2,7]);</script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw" />
+  
+  <meta name="keywords" content="Rate a teacher from school,read college professor ratings,rate a professor from university,university,rate my teacher,rate,teacher,college,school,high school,schools,elementary school,preschool,middle school,professor ratings,teacher ratings,ratemyteachers.com" />
+
+  <meta name="description" content="Rate Farragut High School in Knoxville, Tennessee on RateMyTeachers.com" />
+
+  <meta name="robots" content="noodp,noydir" />
+  <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+  <link href="/assets/application-b355256ac1865d40abeb5f9af6c2dd64.css" media="all" rel="stylesheet" />
+  
+  <meta property="og:type" content="rmt:school" />
+<meta property="og:url" content="http://www.ratemyteachers.com/farragut-high-school/18299-s" />
+<meta property="og:site_name" content="Farragut High School on RateMyTeachers.com" />
+<meta property="og:description" content="Rate Farragut High School in Knoxville, Tennessee on RateMyTeachers.com" />
+
+  <script type="text/javascript">
+    var currentState = 'TN';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics: true,
+    debugMode: false
+  }
+
+
+ function getWindowWidth() {
+   var myWidth = 0, myHeight = 0;
+     if( typeof( window.innerWidth ) == 'number' ) {
+         myWidth = window.innerWidth; myHeight = window.innerHeight;
+     } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+         myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+     } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+         myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+     }
+     return myWidth;
+ }  
+
+  var isMobile = getWindowWidth() < 768;
+</script>
+  <script>
+    var gaId = 'UA-4216499-1';
+    
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', gaId, 'auto');
+    //ga('require', 'ecommerce', 'ecommerce.js');
+    
+  </script>
+
+<script src="/assets/rmt.analytics-c20c2f13cbbc266b2abd300e87d5f5b0.js"></script>
+<script>
+  var pageType = "";
+  RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+</script>
+
+
+  <!-- DFP -->
+  <script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') + 
+    '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+
+  // we collapse all the empty divs
+  googletag.cmd.push(function() {
+    googletag.pubads().collapseEmptyDivs();
+  })
+
+  </script>
+
+  <!-- Google Custom Ads -->
+  <script type="text/javascript" charset="utf-8">
+    (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+    arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+    O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+    e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+  </script>
+  
+
+  <script type="text/javascript" src="//wfpscripts.webspectator.com/bootstrap/ws-8828A2DD.js"></script>
+ 
+      <script type='text/javascript'>
+      googletag.cmd.push(function() {
+        googletag.defineSlot(
+          isMobile ? '/1058149/School_ATF_Leaderboard_mob' : '/1058149/School_ATF_Leaderboard', 
+          [[320, 50], [468, 60], [728, 90]],
+          'School_ATF_Leaderboard'
+        ).defineSizeMapping(googletag.sizeMapping()
+          .addSize([0, 0], [320, 50])
+          .addSize([500, 0], [468,60])  
+          // .addSize([768, 0], [468,60])
+          .addSize([1199, 0], [728,90])
+        .build()).addService(googletag.pubads());
+        googletag.enableServices();
+      });
+    </script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script type='text/javascript'>
+      googletag.cmd.push(function() {
+        googletag.defineSlot(
+          isMobile ? '/1058149/TopBuzz_BTF_LargeRectangle_mob' : '/1058149/TopBuzz_ATF_WideSkyscrapper', 
+          [[300, 250], 
+           [300, 600]], 
+          'div-gpt-top_buzz'
+        ).defineSizeMapping(googletag.sizeMapping()
+          .addSize([0, 0], [300, 250])
+          // .addSize([500, 0], [468,60])  
+          .addSize([768, 0], [300,600])
+          // .addSize([1199, 0], [728,90])
+        .build()).addService(googletag.pubads());
+        googletag.enableServices();
+      });
+    </script>
+ 
+  <link href='http://www.ratemyteachers.com/farragut-high-school/18299-s/6.rss' rel='alternate' type='application/rss+xml'>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="pjfwqaoYtlJmWd/WFL/Y/mmhOrVYlcUCllt0aFuySnQ=" name="csrf-token" />
+</head>
+<!--
+
+██████╗ ███╗   ███╗████████╗
+██╔══██╗████╗ ████║╚══██╔══╝
+██████╔╝██╔████╔██║   ██║   
+██╔══██╗██║╚██╔╝██║   ██║   
+██║  ██║██║ ╚═╝ ██║   ██║   
+╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝
+
+If you see this we should talk!  We are pretty awesome!
+-->
+<body class="inner_page school_page schools_v2
+">
+  <div id="fb-root"></div>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="branding">
+            <a href="/" title="Go to RateMyTeachers Home"><img alt="Rate my teachers" src="/assets/template/Rate-My-Teachers-fb6af17ce6229b2e7ac5731cd5a4aeee.png" /></a>
+            <!-- <a href="#" class="btn btn-moderate hidden-xs">BECOME A MODERATOR</a> -->
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <section id='search-bar'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<ul class='nav nav-tabs nav-orange' id='search' role='tablist'>
+<li class='active'>
+<a data-search='true' data-toggle='tab' href='#teacher' role='tab'>Find My Teacher</a>
+</li>
+<li class=''>
+<a data-search='true' data-toggle='tab' href='#school' role='tab'>Find My School</a>
+</li>
+</ul>
+<div class='tab-content'>
+<div class='tab-pane active' id='teacher'>
+<form action='/search_page' class='tab-form search-form' method='get'>
+<input name='search' type='hidden' value='teachers'>
+<div class='row'>
+<div class='col-xs-10 col-md-10'>
+<div class='search_inputs'>
+<input class='search_input' name='q' placeholder='Search for a teacher' type='text'>
+<div class='location'>
+<select class="state" id="state" name="state"><option value="">Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+</div>
+<div class='col-xs-2 col-md-2'>
+<button class='btn-search fa fa-search fa-3x pull-left' title='Search RateMyTeachers' type='submit'></button>
+</div>
+</div>
+</form>
+</div>
+<div class='tab-pane ' id='school'>
+<form action='/search_page' class='tab-form search-form' method='get'>
+<input name='search' type='hidden' value='schools'>
+<div class='row'>
+<div class='col-xs-10 col-md-10'>
+<div class='search_inputs'>
+<input class='search_input' name='q' placeholder='Search for a school' type='text'>
+<div class='location'>
+<select class="state" id="state" name="state"><option value="">Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+</div>
+<div class='col-xs-2 col-md-2'>
+<button class='btn-search fa fa-search fa-3x pull-left' title='Search RateMyTeachers' type='submit'></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+    <section class="breadcrumbs container-fluid">
+      <div class="row">
+        <div class="container">
+          <div class="col-sm-12">
+            <ul class='list-inline collapsible_nav collapsible_nav_collapsed'>
+<li class='toggle'>
+<a href='javascript:void(0);'>
+<i class='fa fa-bars'></i>
+</a>
+</li>
+<li class='collapse'>
+<a href='/'>US</a>
+</li>
+<li class='always_show'>
+<a href='/tennessee'>Tennessee</a>
+</li>
+<li class='collapse'>
+<a href='/tennessee/knoxville'>Knoxville</a>
+</li>
+<li class='always_show'>
+<a href='/farragut-high-school/18299-s'>Farragut High School</a>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="alert alert-danger" id="flash-error" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-warning" id="flash-alert" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-success" id="flash-success" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-info"  id="flash-notice" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+  
+
+  <div id="content">
+    <div class='container'>
+<div class='row'>
+<div class='col-xs-12 col-sm-8'>
+<section class='school_info'>
+<div class='callout'>
+This School profile is 39% complete.  Help us
+<a href='javascript:void(0);'>add more information</a>
+</div>
+<div class='info row'>
+<div class='col-md-12 info_box'>
+<div class='col-md-12'>
+<h1 class='title school_name'>Farragut High School</h1>
+<span class='counts'>
+Based on
+223 Teachers
+and
+1578 Ratings
+</span>
+</div>
+<div class='row'>
+<div class='a_container mobile-ad fixed-ad'>
+
+
+  <div id='School_ATF_Leaderboard'></div>
+  <script type='text/javascript'>
+    //if( isMobile ) {      
+      // console.log('showing School_ATF_Leaderboard')
+      googletag.cmd.push(function() { googletag.display('School_ATF_Leaderboard'); });  
+    //}
+  </script>
+
+</div>
+</div>
+<div class='secondary_info'>
+<div class='col-md-6'>
+<div class='stats phone'>
+<div class='col-md-3 title'>Telephone:</div>
+<div class='col-md-9 value'>
+865-966-9775
+</div>
+</div>
+<div class='stats address'>
+<div class='col-md-3 title strong'>Address:</div>
+<div class='col-md-9 value'>
+11237 Kingston Pike
+</div>
+</div>
+</div>
+<!-- - if school_info.population -->
+<!-- .col-xs-6.visible-xs.stats -->
+<!-- .title Population: -->
+<!-- = number_with_delimiter school_info.population -->
+<div class='col-md-6 rating'>
+<div class='wrapper'>
+<div class='average all'>
+5.0
+<small>Overall Rating</small>
+</div>
+<div class='average'>
+3.6
+<small>Easiness</small>
+</div>
+<div class='average'>
+4.0
+<small>Helpfulness</small>
+</div>
+<div class='average'>
+3.9
+<small>Clarity</small>
+</div>
+<div class='average'>
+0.9
+<small>Knowledge</small>
+</div>
+<div class='average'>
+0.1
+<small>Textbook Use</small>
+</div>
+<div class='average'>
+0.1
+<small>Exam Difficulty</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class='school_teachers content'>
+<div class='header padding'>
+We found
+223 Teachers
+<!-- and -->
+<!-- %span.colorized= pluralize ratings_count, 'Rating' -->
+at Farragut High School located in Knoxville, Tennessee.
+  <div id="CSA_School_web"></div>
+    <script type="text/javascript" charset="utf-8"> 
+    var keywords = "online schools in Tennessee";
+    var adTest   = "off";
+
+    var pageOptions = { 
+      'pubId':          'pub-8322864954623881',
+      'query':          keywords,
+      'channel':        '9622783284',
+      'hl':             'en',
+      'plusOnes':       false,
+      'sellerRatings':  false,
+      'adtest':         adTest
+    };
+
+    var adblock1 = {};
+    var adblock2;
+    
+    if (isMobile) {
+      adblock1 = { 
+        'container':             'CSA_School_web',
+        'maxTop':                3,
+        'width':                 '100%',
+        'lines':                 2,
+
+        'fontFamily':             'trebuchet ms',
+        'fontSizeTitle':          13,
+        'fontSizeDescription':    12,
+        'fontSizeDomainLink':     12,
+        'colorTitleLink':         '#428BCA',
+        'colorDomainLink':        '#DD653D',
+        'longerHeadlines':        true,
+
+        'noTitleUnderline':      true,
+        'detailedAttribution':   false,
+        'clickToCall':           true
+      };
+      pageOptions['channel'] = '2099516481';
+
+
+      adblock2 = { 
+        'container':             'CSA_School_web2',
+        'width':                 '90%',
+        'number':                2,
+        'lines':                 2,
+        'fontFamily':            'trebuchet ms',
+        'fontSizeAnnotation':     12,
+        'fontSizeAttribution':    12,
+        'fontSizeDescription':    12,
+        'fontSizeDomainLink':     12,
+        'fontSizeTitle':          13,        
+        'colorTitleLink':         '#428BCA',
+        'colorDomainLink':        '#DD653D',
+        'noTitleUnderline':      true,
+        'detailedAttribution':   false,
+        'clickToCall':           true
+      };      
+
+    } else {
+      adblock1 = { 
+        'container':             'CSA_School_web',
+        'number': 3,
+        'fontFamily':             'trebuchet ms',
+        'width': '100%',
+        'lines': 2,
+        'fontSizeTitle': 16,
+        'colorTitleLink': '#2279B3',
+        'colorText': '#143245',
+        'colorDomainLink': '#000000',
+        'colorBackground': '#FFFFFF',
+        'colorAdBorder': '#FFFFFF',
+        'colorBorder': '#FFFFFF',
+        'longerHeadlines': true
+      }; 
+
+      adblock2 = { 
+        'container':             'CSA_School_web2',
+        'number': 2,
+        'fontFamily':             'trebuchet ms',
+        'width': '100%',
+        'lines': 2,
+        'fontSizeTitle': 16,
+        'colorTitleLink': '#2279B3',
+        'colorText': '#143245',
+        'colorDomainLink': '#000000',
+        'colorBackground': '#FFFFFF',
+        'colorAdBorder': '#FFFFFF',
+        'colorBorder': '#FFFFFF',
+        'longerHeadlines': true
+      };         
+    }
+
+
+
+    _googCsa('ads', pageOptions, adblock1, adblock2);
+  </script>
+
+</div>
+<!-- - else -->
+<!-- .item -->
+<!-- .a_container.mobile-ad.fixed-ad -->
+<!-- = render 'schools/atf_ad' -->
+<div class='search padding'>
+<div class='row'>
+<div class='col-xs-12 col-md-6 left'>
+<form action='/farragut-high-school/18299-s' class='simple_form inline_form'>
+<input name='q' placeholder='Search by Teacher' type='text'>
+<input class='btn btn-default' name='commit' type='submit' value='Search'>
+</form>
+</div>
+<div class='col-xs-12 col-md-6 right'>
+<select id="school_departments" name="school_departments"><option value="">Select a Department</option><option value=""></option><option value="/farragut-high-school/18299-s/not-specified">Not Specified</option>
+<option value="/farragut-high-school/18299-s/accounting">Accounting</option>
+<option value="/farragut-high-school/18299-s/administration">Administration</option>
+<option value="/farragut-high-school/18299-s/anthropology">Anthropology</option>
+<option value="/farragut-high-school/18299-s/architecture">Architecture</option>
+<option value="/farragut-high-school/18299-s/asl">ASL</option>
+<option value="/farragut-high-school/18299-s/auto-tech">Auto Tech</option>
+<option value="/farragut-high-school/18299-s/band">Band</option>
+<option value="/farragut-high-school/18299-s/biology">Biology</option>
+<option value="/farragut-high-school/18299-s/business">Business</option>
+<option value="/farragut-high-school/18299-s/chemistry">Chemistry</option>
+<option value="/farragut-high-school/18299-s/co-op">Co-op</option>
+<option value="/farragut-high-school/18299-s/communications">Communications</option>
+<option value="/farragut-high-school/18299-s/computer-science">Computer Science</option>
+<option value="/farragut-high-school/18299-s/counselor">Counselor</option>
+<option value="/farragut-high-school/18299-s/drafting">Drafting</option>
+<option value="/farragut-high-school/18299-s/drivers-education">Drivers Education</option>
+<option value="/farragut-high-school/18299-s/economics">Economics</option>
+<option value="/farragut-high-school/18299-s/education">Education</option>
+<option value="/farragut-high-school/18299-s/english">English</option>
+<option value="/farragut-high-school/18299-s/esl">ESL</option>
+<option value="/farragut-high-school/18299-s/family-consumer-sciences">Family &amp; Consumer Sciences</option>
+<option value="/farragut-high-school/18299-s/film">Film</option>
+<option value="/farragut-high-school/18299-s/fine-arts">Fine Arts</option>
+<option value="/farragut-high-school/18299-s/french">French</option>
+<option value="/farragut-high-school/18299-s/geography">Geography</option>
+<option value="/farragut-high-school/18299-s/grade-1">Grade 1</option>
+<option value="/farragut-high-school/18299-s/grade-2">Grade 2</option>
+<option value="/farragut-high-school/18299-s/grade-3">Grade 3</option>
+<option value="/farragut-high-school/18299-s/grade-4">Grade 4</option>
+<option value="/farragut-high-school/18299-s/grade-5">Grade 5</option>
+<option value="/farragut-high-school/18299-s/grade-6">Grade 6</option>
+<option value="/farragut-high-school/18299-s/grade-k">Grade K</option>
+<option value="/farragut-high-school/18299-s/grammaire-composition">Grammaire/Composition</option>
+<option value="/farragut-high-school/18299-s/headmaster">Headmaster</option>
+<option value="/farragut-high-school/18299-s/health">Health</option>
+<option value="/farragut-high-school/18299-s/history">History</option>
+<option value="/farragut-high-school/18299-s/home-economics">Home Economics</option>
+<option value="/farragut-high-school/18299-s/ib-program">IB Program</option>
+<option value="/farragut-high-school/18299-s/independent-study">Independent Study</option>
+<option value="/farragut-high-school/18299-s/industrial-education">Industrial Education</option>
+<option value="/farragut-high-school/18299-s/journalism">Journalism</option>
+<option value="/farragut-high-school/18299-s/languages">Languages</option>
+<option value="/farragut-high-school/18299-s/law">Law</option>
+<option value="/farragut-high-school/18299-s/librarian">Librarian</option>
+<option value="/farragut-high-school/18299-s/math">Math</option>
+<option value="/farragut-high-school/18299-s/media">Media</option>
+<option value="/farragut-high-school/18299-s/multiple-subjects">Multiple Subjects</option>
+<option value="/farragut-high-school/18299-s/music">Music</option>
+<option value="/farragut-high-school/18299-s/nursing">Nursing</option>
+<option value="/farragut-high-school/18299-s/performing-arts">Performing Arts</option>
+<option value="/farragut-high-school/18299-s/philosophy">Philosophy</option>
+<option value="/farragut-high-school/18299-s/photography">Photography</option>
+<option value="/farragut-high-school/18299-s/physical-education">Physical Education</option>
+<option value="/farragut-high-school/18299-s/physics">Physics</option>
+<option value="/farragut-high-school/18299-s/principal">Principal</option>
+<option value="/farragut-high-school/18299-s/psychology">Psychology</option>
+<option value="/farragut-high-school/18299-s/reading">Reading</option>
+<option value="/farragut-high-school/18299-s/religion">Religion</option>
+<option value="/farragut-high-school/18299-s/resource">Resource</option>
+<option value="/farragut-high-school/18299-s/rotc">ROTC</option>
+<option value="/farragut-high-school/18299-s/science">Science</option>
+<option value="/farragut-high-school/18299-s/social-studies">Social Studies</option>
+<option value="/farragut-high-school/18299-s/sociology">Sociology</option>
+<option value="/farragut-high-school/18299-s/speech">Speech</option>
+<option value="/farragut-high-school/18299-s/study-skills">Study Skills</option>
+<option value="/farragut-high-school/18299-s/substitute-teacher">Substitute Teacher</option>
+<option value="/farragut-high-school/18299-s/technology">Technology</option>
+<option value="/farragut-high-school/18299-s/vice-principal">Vice Principal</option>
+<option value="/farragut-high-school/18299-s/visual-arts">Visual Arts</option>
+<option value="/farragut-high-school/18299-s/writing">Writing</option></select>
+</div>
+</div>
+</div>
+<div class='teachers padding'>
+<div class='row item'>
+<div class='col-md-12'>
+<div class='teacher clickable_fix'>
+<div class='row details'>
+<h3 class='col-md-12'>
+<a class="name" href="/jennifer-shearon/612654-t">Jennifer Shearon</a>
+</h3>
+<div class='col-md-8'>
+<div class='department'>
+<span>
+Department:
+</span>
+<a href="/farragut-high-school/18299-s/performing-arts">Performing Arts</a>
+</div>
+<div class='flag'>
+<a class='flag_teacher_trigger' data-backdrop='static' data-keyboard data-sender-name='School page Teachers List' data-target='#modal' data-teacher='Jennifer Shearon' data-toggle='modal' href='/teachers/612654/flag' rel='no-follow'>
+<i class='fa fa-flag'></i>
+Report Inaccuracy
+</a>
+</div>
+<div class='attributes'>
+<div class='col-md-6 attribute'>Easiness: 4.5</div>
+<div class='col-md-6 attribute'>Helpfulness: 4.7</div>
+<div class='col-md-6 attribute'>Clarity: 4.7</div>
+</div>
+</div>
+<div class='col-md-4'>
+<div class='score'>
+Overall Quality
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='4.67'></div>
+<span class='rating-summary'>
+4.7
+out of
+5
+</span>
+</div>
+</div>
+<div class='col-md-12'>
+</div>
+</div>
+<div class='rating_wrapper'>
+<div class='rating'></div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jennifer-shearon/612654-t'></a>
+</div>
+</div>
+</div>
+
+<div class='row item'>
+<div class='col-md-12'>
+<div class='teacher clickable_fix'>
+<div class='row details'>
+<h3 class='col-md-12'>
+<a class="name" href="/shannon-holt/529104-t">Shannon Holt</a>
+</h3>
+<div class='col-md-8'>
+<div class='department'>
+<span>
+Department:
+</span>
+<a href="/farragut-high-school/18299-s/accounting">Accounting</a>
+</div>
+<div class='flag'>
+<a class='flag_teacher_trigger' data-backdrop='static' data-keyboard data-sender-name='School page Teachers List' data-target='#modal' data-teacher='Shannon Holt' data-toggle='modal' href='/teachers/529104/flag' rel='no-follow'>
+<i class='fa fa-flag'></i>
+Report Inaccuracy
+</a>
+</div>
+<div class='attributes'>
+<div class='col-md-6 attribute'>Easiness: 4.1</div>
+<div class='col-md-6 attribute'>Helpfulness: 4.7</div>
+<div class='col-md-6 attribute'>Clarity: 4.7</div>
+</div>
+</div>
+<div class='col-md-4'>
+<div class='score'>
+Overall Quality
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='4.67'></div>
+<span class='rating-summary'>
+4.7
+out of
+5
+</span>
+</div>
+</div>
+<div class='col-md-12'>
+</div>
+</div>
+<div class='rating_wrapper'>
+<div class='rating'></div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/shannon-holt/529104-t'></a>
+</div>
+</div>
+</div>
+
+<div class='row item'>
+<div class='col-md-12'>
+<div class='teacher clickable_fix'>
+<div class='row details'>
+<h3 class='col-md-12'>
+<a class="name" href="/susie-coppeans/540374-t">Susie Coppeans</a>
+</h3>
+<div class='col-md-8'>
+<div class='department'>
+<span>
+Department:
+</span>
+<a href="/farragut-high-school/18299-s/english">English</a>
+</div>
+<div class='flag'>
+<a class='flag_teacher_trigger' data-backdrop='static' data-keyboard data-sender-name='School page Teachers List' data-target='#modal' data-teacher='Susie Coppeans' data-toggle='modal' href='/teachers/540374/flag' rel='no-follow'>
+<i class='fa fa-flag'></i>
+Report Inaccuracy
+</a>
+</div>
+<div class='attributes'>
+<div class='col-md-6 attribute'>Easiness: 3.2</div>
+<div class='col-md-6 attribute'>Helpfulness: 4.8</div>
+<div class='col-md-6 attribute'>Clarity: 4.6</div>
+</div>
+</div>
+<div class='col-md-4'>
+<div class='score'>
+Overall Quality
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='4.66'></div>
+<span class='rating-summary'>
+4.7
+out of
+5
+</span>
+</div>
+</div>
+<div class='col-md-12'>
+</div>
+</div>
+<div class='rating_wrapper'>
+<div class='rating'></div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/susie-coppeans/540374-t'></a>
+</div>
+</div>
+</div>
+
+<div class='row item'>
+<div class='col-md-12'>
+<div class='teacher clickable_fix'>
+<div class='row details'>
+<h3 class='col-md-12'>
+<a class="name" href="/carrie-buffat/319939-t">Carrie Buffat</a>
+</h3>
+<div class='col-md-8'>
+<div class='department'>
+<span>
+Department:
+</span>
+<a href="/farragut-high-school/18299-s/english">English</a>
+</div>
+<div class='flag'>
+<a class='flag_teacher_trigger' data-backdrop='static' data-keyboard data-sender-name='School page Teachers List' data-target='#modal' data-teacher='Carrie Buffat' data-toggle='modal' href='/teachers/319939/flag' rel='no-follow'>
+<i class='fa fa-flag'></i>
+Report Inaccuracy
+</a>
+</div>
+<div class='attributes'>
+<div class='col-md-6 attribute'>Easiness: 4.1</div>
+<div class='col-md-6 attribute'>Helpfulness: 4.6</div>
+<div class='col-md-6 attribute'>Clarity: 4.7</div>
+</div>
+</div>
+<div class='col-md-4'>
+<div class='score'>
+Overall Quality
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='4.64'></div>
+<span class='rating-summary'>
+4.6
+out of
+5
+</span>
+</div>
+</div>
+<div class='col-md-12'>
+</div>
+</div>
+<div class='rating_wrapper'>
+<div class='rating'></div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/carrie-buffat/319939-t'></a>
+</div>
+</div>
+</div>
+
+<div class='row item'>
+<div class='col-md-12'>
+<div class='teacher clickable_fix'>
+<div class='row details'>
+<h3 class='col-md-12'>
+<a class="name" href="/mr-camp/482076-t">Mr. Camp</a>
+</h3>
+<div class='col-md-8'>
+<div class='department'>
+<span>
+Department:
+</span>
+<a href="/farragut-high-school/18299-s/chemistry">Chemistry</a>
+</div>
+<div class='flag'>
+<a class='flag_teacher_trigger' data-backdrop='static' data-keyboard data-sender-name='School page Teachers List' data-target='#modal' data-teacher='Mr. Camp' data-toggle='modal' href='/teachers/482076/flag' rel='no-follow'>
+<i class='fa fa-flag'></i>
+Report Inaccuracy
+</a>
+</div>
+<div class='attributes'>
+<div class='col-md-6 attribute'>Easiness: 3.6</div>
+<div class='col-md-6 attribute'>Helpfulness: 4.8</div>
+<div class='col-md-6 attribute'>Clarity: 4.4</div>
+</div>
+</div>
+<div class='col-md-4'>
+<div class='score'>
+Overall Quality
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='4.6'></div>
+<span class='rating-summary'>
+4.6
+out of
+5
+</span>
+</div>
+</div>
+<div class='col-md-12'>
+</div>
+</div>
+<div class='rating_wrapper'>
+<div class='rating'></div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mr-camp/482076-t'></a>
+</div>
+</div>
+</div>
+
+<div class='row item'>
+<div class='col-md-12'>
+<div class='teacher clickable_fix'>
+<div class='row details'>
+<h3 class='col-md-12'>
+<a class="name" href="/jason-daniel/443276-t">Jason Daniel</a>
+</h3>
+<div class='col-md-8'>
+<div class='department'>
+<span>
+Department:
+</span>
+<a href="/farragut-high-school/18299-s/english">English</a>
+</div>
+<div class='flag'>
+<a class='flag_teacher_trigger' data-backdrop='static' data-keyboard data-sender-name='School page Teachers List' data-target='#modal' data-teacher='Jason Daniel' data-toggle='modal' href='/teachers/443276/flag' rel='no-follow'>
+<i class='fa fa-flag'></i>
+Report Inaccuracy
+</a>
+</div>
+<div class='attributes'>
+<div class='col-md-6 attribute'>Easiness: 2.2</div>
+<div class='col-md-6 attribute'>Helpfulness: 4.7</div>
+<div class='col-md-6 attribute'>Clarity: 4.5</div>
+</div>
+</div>
+<div class='col-md-4'>
+<div class='score'>
+Overall Quality
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='4.59'></div>
+<span class='rating-summary'>
+4.6
+out of
+5
+</span>
+</div>
+</div>
+<div class='col-md-12'>
+</div>
+</div>
+<div class='rating_wrapper'>
+<div class='rating'></div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jason-daniel/443276-t'></a>
+</div>
+</div>
+</div>
+
+<div class='row item'>
+<div class='col-md-12'>
+<div class='teacher clickable_fix'>
+<div class='row details'>
+<h3 class='col-md-12'>
+<a class="name" href="/chris-james/528513-t">Chris James</a>
+</h3>
+<div class='col-md-8'>
+<div class='department'>
+<span>
+Department:
+</span>
+<a href="/farragut-high-school/18299-s/languages">Languages</a>
+</div>
+<div class='flag'>
+<a class='flag_teacher_trigger' data-backdrop='static' data-keyboard data-sender-name='School page Teachers List' data-target='#modal' data-teacher='Chris James' data-toggle='modal' href='/teachers/528513/flag' rel='no-follow'>
+<i class='fa fa-flag'></i>
+Report Inaccuracy
+</a>
+</div>
+<div class='attributes'>
+<div class='col-md-6 attribute'>Easiness: 3.9</div>
+<div class='col-md-6 attribute'>Helpfulness: 4.7</div>
+<div class='col-md-6 attribute'>Clarity: 4.5</div>
+</div>
+</div>
+<div class='col-md-4'>
+<div class='score'>
+Overall Quality
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='4.59'></div>
+<span class='rating-summary'>
+4.6
+out of
+5
+</span>
+</div>
+</div>
+<div class='col-md-12'>
+</div>
+</div>
+<div class='rating_wrapper'>
+<div class='rating'></div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/chris-james/528513-t'></a>
+</div>
+</div>
+</div>
+
+<div class='row item'>
+<div class='col-md-12'>
+<div class='teacher clickable_fix'>
+<div class='row details'>
+<h3 class='col-md-12'>
+<a class="name" href="/mr-paris/689030-t">Mr. Paris</a>
+</h3>
+<div class='col-md-8'>
+<div class='department'>
+<span>
+Department:
+</span>
+<a href="/farragut-high-school/18299-s/history">History</a>
+</div>
+<div class='flag'>
+<a class='flag_teacher_trigger' data-backdrop='static' data-keyboard data-sender-name='School page Teachers List' data-target='#modal' data-teacher='Mr. Paris' data-toggle='modal' href='/teachers/689030/flag' rel='no-follow'>
+<i class='fa fa-flag'></i>
+Report Inaccuracy
+</a>
+</div>
+<div class='attributes'>
+<div class='col-md-6 attribute'>Easiness: 4.2</div>
+<div class='col-md-6 attribute'>Helpfulness: 4.5</div>
+<div class='col-md-6 attribute'>Clarity: 4.6</div>
+</div>
+</div>
+<div class='col-md-4'>
+<div class='score'>
+Overall Quality
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='4.58'></div>
+<span class='rating-summary'>
+4.6
+out of
+5
+</span>
+</div>
+</div>
+<div class='col-md-12'>
+</div>
+</div>
+<div class='rating_wrapper'>
+<div class='rating'></div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mr-paris/689030-t'></a>
+</div>
+</div>
+</div>
+
+<div class='row item'>
+<div class='col-md-12'>
+<div class='teacher clickable_fix'>
+<div class='row details'>
+<h3 class='col-md-12'>
+<a class="name" href="/valarie-cagle/442024-t">Valarie Cagle</a>
+</h3>
+<div class='col-md-8'>
+<div class='department'>
+<span>
+Department:
+</span>
+<a href="/farragut-high-school/18299-s/english">English</a>
+</div>
+<div class='flag'>
+<a class='flag_teacher_trigger' data-backdrop='static' data-keyboard data-sender-name='School page Teachers List' data-target='#modal' data-teacher='Valarie Cagle' data-toggle='modal' href='/teachers/442024/flag' rel='no-follow'>
+<i class='fa fa-flag'></i>
+Report Inaccuracy
+</a>
+</div>
+<div class='attributes'>
+<div class='col-md-6 attribute'>Easiness: 3.3</div>
+<div class='col-md-6 attribute'>Helpfulness: 4.9</div>
+<div class='col-md-6 attribute'>Clarity: 4.7</div>
+<div class='col-md-6 attribute'>Knowledge: 4.5</div>
+</div>
+</div>
+<div class='col-md-4'>
+<div class='score'>
+Overall Quality
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='4.51'></div>
+<span class='rating-summary'>
+4.5
+out of
+5
+</span>
+</div>
+</div>
+<div class='col-md-12'>
+</div>
+</div>
+<div class='rating_wrapper'>
+<div class='rating'></div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/valarie-cagle/442024-t'></a>
+</div>
+</div>
+</div>
+
+<div class='row item'>
+<div class='col-md-12'>
+<div class='teacher clickable_fix'>
+<div class='row details'>
+<h3 class='col-md-12'>
+<a class="name" href="/trent-mayo/1070251-t">Trent Mayo</a>
+</h3>
+<div class='col-md-8'>
+<div class='department'>
+<span>
+Department:
+</span>
+<a href="/farragut-high-school/18299-s/math">Math</a>
+</div>
+<div class='flag'>
+<a class='flag_teacher_trigger' data-backdrop='static' data-keyboard data-sender-name='School page Teachers List' data-target='#modal' data-teacher='Trent Mayo' data-toggle='modal' href='/teachers/1070251/flag' rel='no-follow'>
+<i class='fa fa-flag'></i>
+Report Inaccuracy
+</a>
+</div>
+<div class='attributes'>
+<div class='col-md-6 attribute'>Easiness: 4.0</div>
+<div class='col-md-6 attribute'>Helpfulness: 5.0</div>
+<div class='col-md-6 attribute'>Clarity: 4.0</div>
+</div>
+</div>
+<div class='col-md-4'>
+<div class='score'>
+Overall Quality
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-value='4.5'></div>
+<span class='rating-summary'>
+4.5
+out of
+5
+</span>
+</div>
+</div>
+<div class='col-md-12'>
+</div>
+</div>
+<div class='rating_wrapper'>
+<div class='rating'></div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/trent-mayo/1070251-t'></a>
+</div>
+</div>
+</div>
+
+<!-- #CSA_School_web2 -->
+  <ul class="pagination">
+    <li class="first">
+  <a href="/farragut-high-school/18299-s">
+    <span class="hidden-sm hidden-md hidden-lg">&laquo;</span>
+    <span class="hidden-xs">&laquo; First</span>
+  </a>
+</li>
+
+    <li class="prev">
+  <a href="/farragut-high-school/18299-s/5" rel="prev">
+    <span class="hidden-sm hidden-md hidden-lg">&lsaquo;</span>
+    <span class="hidden-xs">&lsaquo; Prev</span>
+  </a>
+</li>
+
+        <li class="page gap disabled"><a href="#" onclick="return false;">&hellip;</a></li>
+        <li class="page">
+  <a href="/farragut-high-school/18299-s/2">2</a>
+</li>
+
+        <li class="page">
+  <a href="/farragut-high-school/18299-s/3">3</a>
+</li>
+
+        <li class="page">
+  <a href="/farragut-high-school/18299-s/4">4</a>
+</li>
+
+        <li class="page">
+  <a href="/farragut-high-school/18299-s/5" rel="prev">5</a>
+</li>
+
+        <li class="page active">
+  <a href="/farragut-high-school/18299-s/6">6</a>
+</li>
+
+        <li class="page">
+  <a href="/farragut-high-school/18299-s/7" rel="next">7</a>
+</li>
+
+        <li class="page">
+  <a href="/farragut-high-school/18299-s/8">8</a>
+</li>
+
+        <li class="page">
+  <a href="/farragut-high-school/18299-s/9">9</a>
+</li>
+
+        <li class="page">
+  <a href="/farragut-high-school/18299-s/10">10</a>
+</li>
+
+        <li class="page gap disabled"><a href="#" onclick="return false;">&hellip;</a></li>
+    <li class="next_page">
+  <a href="/farragut-high-school/18299-s/7" rel="next">
+    <span class="hidden-sm hidden-md hidden-lg">&rsaquo;</span>
+    <span class="hidden-xs">Next &rsaquo;</span>
+  </a>
+</li>
+
+    <li class="last next">
+  <a href="/farragut-high-school/18299-s/23">
+    <span class="hidden-sm hidden-md hidden-lg">&raquo;</span>
+    <span class="hidden-xs">Last &raquo;</span>
+  </a>
+</li>
+
+  </ul>
+
+    
+  <!-- School_BTF_Leaderboard -->
+  <ins class="adsbygoogle btf" id="School_BTF_Leaderboard"
+       style="display:inline-block;width:728px;height:90px"
+       data-ad-client="ca-pub-8322864954623881"
+       data-ad-slot="6342756089"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
+</div>
+</section>
+</div>
+<aside class='col-xs-12 col-sm-4'>
+<!-- = render 'shared/social_media' -->
+
+
+  <!-- TopBuzz_ATF_WideSkyscrapper -->
+  <div id='div-gpt-top_buzz'>
+  <script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-top_buzz'); });
+  </script>
+  </div>
+
+
+
+</aside>
+</div>
+</div>
+
+
+  </div>
+  
+
+  <div id="all_footer_wrapper" style="overflow:hidden;">
+    <section class='container-fluid hidden-xs padding' id='states'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<h3>Locate your school or college by state:</h3>
+<div class='state'>
+<a href="/alaska">Alaska</a>
+</div>
+<div class='state'>
+<a href="/alabama">Alabama</a>
+</div>
+<div class='state'>
+<a href="/arkansas">Arkansas</a>
+</div>
+<div class='state'>
+<a href="/arizona">Arizona</a>
+</div>
+<div class='state'>
+<a href="/california">California</a>
+</div>
+<div class='state'>
+<a href="/colorado">Colorado</a>
+</div>
+<div class='state'>
+<a href="/connecticut">Connecticut</a>
+</div>
+<div class='state'>
+<a href="/dc">DC</a>
+</div>
+<div class='state'>
+<a href="/delaware">Delaware</a>
+</div>
+<div class='state'>
+<a href="/florida">Florida</a>
+</div>
+<div class='state'>
+<a href="/georgia">Georgia</a>
+</div>
+<div class='state'>
+<a href="/hawaii">Hawaii</a>
+</div>
+<div class='state'>
+<a href="/iowa">Iowa</a>
+</div>
+<div class='state'>
+<a href="/idaho">Idaho</a>
+</div>
+<div class='state'>
+<a href="/illinois">Illinois</a>
+</div>
+<div class='state'>
+<a href="/indiana">Indiana</a>
+</div>
+<div class='state'>
+<a href="/kansas">Kansas</a>
+</div>
+<div class='state'>
+<a href="/kentucky">Kentucky</a>
+</div>
+<div class='state'>
+<a href="/louisiana">Louisiana</a>
+</div>
+<div class='state'>
+<a href="/massachusetts">Massachusetts</a>
+</div>
+<div class='state'>
+<a href="/maryland">Maryland</a>
+</div>
+<div class='state'>
+<a href="/maine">Maine</a>
+</div>
+<div class='state'>
+<a href="/michigan">Michigan</a>
+</div>
+<div class='state'>
+<a href="/minnesota">Minnesota</a>
+</div>
+<div class='state'>
+<a href="/missouri">Missouri</a>
+</div>
+<div class='state'>
+<a href="/mississippi">Mississippi</a>
+</div>
+<div class='state'>
+<a href="/montana">Montana</a>
+</div>
+<div class='state'>
+<a href="/north-carolina">North Carolina</a>
+</div>
+<div class='state'>
+<a href="/north-dakota">North Dakota</a>
+</div>
+<div class='state'>
+<a href="/nebraska">Nebraska</a>
+</div>
+<div class='state'>
+<a href="/new-hampshire">New Hampshire</a>
+</div>
+<div class='state'>
+<a href="/new-jersey">New Jersey</a>
+</div>
+<div class='state'>
+<a href="/new-mexico">New Mexico</a>
+</div>
+<div class='state'>
+<a href="/nevada">Nevada</a>
+</div>
+<div class='state'>
+<a href="/new-york">New York</a>
+</div>
+<div class='state'>
+<a href="/ohio">Ohio</a>
+</div>
+<div class='state'>
+<a href="/oklahoma">Oklahoma</a>
+</div>
+<div class='state'>
+<a href="/oregon">Oregon</a>
+</div>
+<div class='state'>
+<a href="/pennsylvania">Pennsylvania</a>
+</div>
+<div class='state'>
+<a href="/puerto-rico">Puerto Rico</a>
+</div>
+<div class='state'>
+<a href="/rhode-island">Rhode Island</a>
+</div>
+<div class='state'>
+<a href="/south-carolina">South Carolina</a>
+</div>
+<div class='state'>
+<a href="/south-dakota">South Dakota</a>
+</div>
+<div class='state'>
+<a href="/tennessee">Tennessee</a>
+</div>
+<div class='state'>
+<a href="/texas">Texas</a>
+</div>
+<div class='state'>
+<a href="/utah">Utah</a>
+</div>
+<div class='state'>
+<a href="/virginia">Virginia</a>
+</div>
+<div class='state'>
+<a href="/vermont">Vermont</a>
+</div>
+<div class='state'>
+<a href="/washington">Washington</a>
+</div>
+<div class='state'>
+<a href="/wisconsin">Wisconsin</a>
+</div>
+<div class='state'>
+<a href="/west-virginia">West Virginia</a>
+</div>
+<div class='state'>
+<a href="/wyoming">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer_directory'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-6 hidden-xs'>
+School Directory:
+<a href="/schools/directory/a">a</a>
+<a href="/schools/directory/b">b</a>
+<a href="/schools/directory/c">c</a>
+<a href="/schools/directory/d">d</a>
+<a href="/schools/directory/e">e</a>
+<a href="/schools/directory/f">f</a>
+<a href="/schools/directory/g">g</a>
+<a href="/schools/directory/h">h</a>
+<a href="/schools/directory/i">i</a>
+<a href="/schools/directory/j">j</a>
+<a href="/schools/directory/k">k</a>
+<a href="/schools/directory/l">l</a>
+<a href="/schools/directory/m">m</a>
+<a href="/schools/directory/n">n</a>
+<a href="/schools/directory/o">o</a>
+<a href="/schools/directory/p">p</a>
+<a href="/schools/directory/q">q</a>
+<a href="/schools/directory/r">r</a>
+<a href="/schools/directory/s">s</a>
+<a href="/schools/directory/t">t</a>
+<a href="/schools/directory/u">u</a>
+<a href="/schools/directory/v">v</a>
+<a href="/schools/directory/x">x</a>
+<a href="/schools/directory/y">y</a>
+<a href="/schools/directory/z">z</a>
+<a href="/schools/directory/%23">#</a>
+</div>
+<div class='col-xs-6 hidden-xs'>
+Teacher Directory:
+<a href="/teachers/directory/a">a</a>
+<a href="/teachers/directory/b">b</a>
+<a href="/teachers/directory/c">c</a>
+<a href="/teachers/directory/d">d</a>
+<a href="/teachers/directory/e">e</a>
+<a href="/teachers/directory/f">f</a>
+<a href="/teachers/directory/g">g</a>
+<a href="/teachers/directory/h">h</a>
+<a href="/teachers/directory/i">i</a>
+<a href="/teachers/directory/j">j</a>
+<a href="/teachers/directory/k">k</a>
+<a href="/teachers/directory/l">l</a>
+<a href="/teachers/directory/m">m</a>
+<a href="/teachers/directory/n">n</a>
+<a href="/teachers/directory/o">o</a>
+<a href="/teachers/directory/p">p</a>
+<a href="/teachers/directory/q">q</a>
+<a href="/teachers/directory/r">r</a>
+<a href="/teachers/directory/s">s</a>
+<a href="/teachers/directory/t">t</a>
+<a href="/teachers/directory/u">u</a>
+<a href="/teachers/directory/v">v</a>
+<a href="/teachers/directory/x">x</a>
+<a href="/teachers/directory/y">y</a>
+<a href="/teachers/directory/z">z</a>
+</div>
+</div>
+<div class='row footer_countries_list'>
+<div class='col-xs-12'>
+RateMyTeachers International:
+<a class="country" href="http://www.ratemyteachers.com">United States</a>
+<a class="country" href="http://ca.ratemyteachers.com">Canada</a>
+<a class="country" href="http://uk.ratemyteachers.com">United Kingdom</a>
+<a class="country" href="http://au.ratemyteachers.com">Australia</a>
+<a class="country" href="http://nz.ratemyteachers.com">New Zealand</a>
+<a class="country" href="http://ie.ratemyteachers.com">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer'>
+<div class='container'>
+<div class='row footer_links'>
+<div class='col-xs-12'>
+<h3 class='hidden-sm hidden-md hidden-lg'>Quick Links</h3>
+<ul>
+<!-- <li><a href="#">Forum</a></li> -->
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a data-backdrop='static' data-keyboard data-target='#modal' data-toggle='modal' href='/contact/new'>
+Contact
+</a>
+</li>
+<li>
+<a href="/terms">Terms of Use</a>
+</li>
+<li>
+<a href="/privacy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='row copyright'>
+© 2014 RateMyTeachers
+All Rights Reserved
+</div>
+</div>
+</section>
+<div aria-hidden='true' class='modal fade' id='modal' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div aria-hidden='true' class='modal fade' id='modal_rating' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div id='loading-indicator' style='display: none;'>
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-0d6fcd22489c0b0dce2062cd046445e9.gif" />
+</div>
+</div>
+
+  </div>
+
+
+  <!-- loading JS at the end to speed up page loading -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery || document.write(unescape('%3Cscript src="/assets/jquery-e503f0db54e0c847b032bdcf41c9977c.js">%3C/script>'))
+//]]>
+</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery.ui || document.write(unescape('%3Cscript src="/assets/jquery-ui-6c6ff08ba187c1fd2c9515ab2344051a.js">%3C/script>'))
+//]]>
+</script>
+  <script src="/assets/application-6d257267a834d69457655fe4d25e8e67.js"></script>
+  <script>
+  var schoolPagePath = '/farragut-high-school/18299-s';
+</script>
+
+
+  
+
+</body>
+</html>

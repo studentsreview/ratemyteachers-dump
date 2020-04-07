@@ -1,0 +1,2651 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>George Ellery Hale Charter Academy - Woodland Hills, California | RateMyTeachers.com</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-4.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"f46052bf0f","applicationID":"3606589","transactionName":"c1lfF0sNXlRRFhxGAlhZXg9KTUFQWxM=","queueTime":0,"applicationTime":3542,"agentToken":null,"agent":"js-agent.newrelic.com/nr-476.min.js","ttGuid":"ada4d1e486005f4f"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEAU1VbGwAGVFdXDwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),u=c.length,f=i(a,o,r),d=0;u>d;d++)c[d].apply(f,n);return f}function a(t,e){u[t]=s(t).concat(e)}function s(t){return u[t]||[]}function c(){return n(e)}var u={};return{on:a,emit:e,create:c,listeners:s,_events:u}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(u){try{r("ierr",[u,(new Date).getTime(),!0])}catch(f){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(4),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(u){"stack"in u&&(t(5),t(3),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:5,4:18,5:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:18,2:19,ee:"QJf3ax",gos:"7eSDFh"}],5:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:19,2:18,ee:"QJf3ax"}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:19,2:18,ee:"QJf3ax"}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t("ee").create(),a=t(1),s=t(2),c=s(i),u=s(a),f=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new f(t);try{i.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",[r])}catch(o){}}return e},window.XMLHttpRequest.prototype=f.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:19,ee:"QJf3ax"}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,u="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=e(u);if(f&&(r.rxSize=f),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,u=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var u=e(o);u&&(r.txSize=u)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",[e])}catch(r){}}};for(var f=0;c>f;f++)n.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:9,3:7,4:4,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){p.proto="https"===d.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=p.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,c=s.document,u="addEventListener",f="attachEvent",d=(""+location).split("?")[0],p=e.exports={offset:i(),origin:d,features:{}};c[u]?(c[u]("DOMContentLoaded",o,!1),s[u]("load",n,!1)):(c[f]("onreadystatechange",r),s[f]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],18:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],19:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,u;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){f([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return u=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,u],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,u(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,u="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,u?s+o:o,i,s,t))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){f([o,e,n,r])}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){f([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function f(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:18,ee:"QJf3ax"}]},{},["G9z0Bl",3,8]);</script>  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="google-site-verification" content="E797MgrWewAoj3f3d2qOtnwdjPZIXrkC0asUIbhlehw" />
+  
+  <meta name="keywords" content="Rate a teacher from school,read college professor ratings,rate a professor from university,university,rate my teacher,rate,teacher,college,school,high school,schools,elementary school,preschool,middle school,professor ratings,teacher ratings,ratemyteachers.com" />
+
+  <meta name="description" content="Rate George Ellery Hale Charter Academy in Woodland Hills, California on RateMyTeachers.com" />
+
+
+  <meta name="robots" content="noodp,noydir" />
+  <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+  <link href="/assets/application-1581443678ba2354ad81bff1767e8cfc.css" media="all" rel="stylesheet" />
+  
+  <meta property="og:type" content="rmt:school" />
+<meta property="og:url" content="http://www.ratemyteachers.com/george-ellery-hale-charter-academy/42308-s" />
+<meta property="og:site_name" content="George Ellery Hale Charter Academy on RateMyTeachers.com" />
+<meta property="og:description" content="Rate George Ellery Hale Charter Academy in Woodland Hills, California on RateMyTeachers.com" />
+
+  <script type="text/javascript">
+    var currentState = 'VA';
+
+  var siteConfig = {
+    homepage_reload_tab: false,
+    enableAnalytics:      true,
+    debugMode:            false
+  }
+
+
+ function getWindowWidth() {
+   var myWidth = 0, myHeight = 0;
+     if( typeof( window.innerWidth ) == 'number' ) {
+         myWidth = window.innerWidth; myHeight = window.innerHeight;
+     } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+         myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+     } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+         myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+     }
+     return myWidth;
+ }  
+
+  var isTabletVariant = false;
+  var isMobileVariant = false;
+  var isMobile = (getWindowWidth() < 768) || (screen ? screen.width < 768 : false) || isMobileVariant;
+</script>
+  <script>
+    var gaId = 'UA-4216499-1';
+    
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', gaId, 'auto');
+    ga('require', 'displayfeatures');
+    //ga('require', 'ecommerce', 'ecommerce.js');
+    
+  </script>
+
+<script src="/assets/rmt.analytics-defd401f8cfb44d689532ba3eda18a86.js"></script>
+
+<script>
+  var pageType = "";
+  RMT.Analytics.trackPageview({dimensions: [{key: 'dimension1', value: pageType}]});
+  var searchTerm = "";
+</script>
+
+
+  <!-- DFP -->
+
+  <!-- Google Custom Ads -->
+  <script type="text/javascript" charset="utf-8">
+    (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+    arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+    O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+    e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+  </script>
+
+
+  <!-- AdSense -->
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+  
+  <!-- WebSpectator -->
+  <script async type="text/javascript" src="//wfpscripts.webspectator.com/bootstrap/ws-8828A2DD.js"></script>
+
+  <script type="text/javascript">window._pt_lt = new Date().getTime();</script>
+ 
+   
+  <link href='http://www.ratemyteachers.com/george-ellery-hale-charter-academy/42308-s.rss' rel='alternate' type='application/rss+xml'>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="afRbuSaqTe4PdWK3bWhCG3ePIuMyTRrx2zzhZTqEA7c=" name="csrf-token" />
+</head>
+<!--
+
+██████╗ ███╗   ███╗████████╗
+██╔══██╗████╗ ████║╚══██╔══╝
+██████╔╝██╔████╔██║   ██║   
+██╔══██╗██║╚██╔╝██║   ██║   
+██║  ██║██║ ╚═╝ ██║   ██║   
+╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝
+
+If you see this we should talk!  We are pretty awesome!
+-->
+<body class="inner_page school_page schools_v7_1
+">
+  <div id="fb-root"></div>
+      <div class='rate_my_teachers_international'>
+<div class='container'>
+<div class='row'>
+<a alt="United States" class="country active" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country " href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country " href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country " href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country " href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country " href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+<header>
+<div class='container'>
+<div class='row'>
+<form action='/search_page' class='tab-form search_form' method='get'>
+<a alt='Go to RateMyTeachers Home' href='/' id='rate_my_teachers_logo' title='Go to RateMyTeachers Home'></a>
+<input name='search' type='hidden' value='teachers'>
+<div class='search_inputs'>
+<div class='bg'>
+<div class='padding'>
+<input class='search_input' name='q' placeholder='Search: Professors, Teachers, High Schools, or Colleges' type='text'>
+</div>
+<div class='location'>
+<select class="state" id="state" name="state"><option value="">Select a State</option><option value="ak">Alaska - AK</option>
+<option value="al">Alabama - AL</option>
+<option value="ar">Arkansas - AR</option>
+<option value="az">Arizona - AZ</option>
+<option value="ca">California - CA</option>
+<option value="co">Colorado - CO</option>
+<option value="ct">Connecticut - CT</option>
+<option value="dc">Dc - DC</option>
+<option value="de">Delaware - DE</option>
+<option value="fl">Florida - FL</option>
+<option value="ga">Georgia - GA</option>
+<option value="hi">Hawaii - HI</option>
+<option value="ia">Iowa - IA</option>
+<option value="id">Idaho - ID</option>
+<option value="il">Illinois - IL</option>
+<option value="in">Indiana - IN</option>
+<option value="ks">Kansas - KS</option>
+<option value="ky">Kentucky - KY</option>
+<option value="la">Louisiana - LA</option>
+<option value="ma">Massachusetts - MA</option>
+<option value="md">Maryland - MD</option>
+<option value="me">Maine - ME</option>
+<option value="mi">Michigan - MI</option>
+<option value="mn">Minnesota - MN</option>
+<option value="mo">Missouri - MO</option>
+<option value="ms">Mississippi - MS</option>
+<option value="mt">Montana - MT</option>
+<option value="nc">North Carolina - NC</option>
+<option value="nd">North Dakota - ND</option>
+<option value="ne">Nebraska - NE</option>
+<option value="nh">New Hampshire - NH</option>
+<option value="nj">New Jersey - NJ</option>
+<option value="nm">New Mexico - NM</option>
+<option value="nv">Nevada - NV</option>
+<option value="ny">New York - NY</option>
+<option value="oh">Ohio - OH</option>
+<option value="ok">Oklahoma - OK</option>
+<option value="or">Oregon - OR</option>
+<option value="pa">Pennsylvania - PA</option>
+<option value="pr">Puerto Rico - PR</option>
+<option value="ri">Rhode Island - RI</option>
+<option value="sc">South Carolina - SC</option>
+<option value="sd">South Dakota - SD</option>
+<option value="tn">Tennessee - TN</option>
+<option value="tx">Texas - TX</option>
+<option value="ut">Utah - UT</option>
+<option value="va">Virginia - VA</option>
+<option value="vt">Vermont - VT</option>
+<option value="wa">Washington - WA</option>
+<option value="wi">Wisconsin - WI</option>
+<option value="wv">West Virginia - WV</option>
+<option value="wy">Wyoming - WY</option></select>
+</div>
+</div>
+<div class='search_button'>
+<button class='btn-search fa fa-search fa-3x' title='Search RateMyTeachers' type='submit'></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</header>
+
+
+
+    <section class="breadcrumbs container-fluid">
+      <div class="row">
+        <div class="container">
+          <div class="col-sm-12">
+            <ul class='list-inline collapsible_nav collapsible_nav_collapsed'>
+<li class='toggle'>
+<a href='javascript:void(0);'>
+<i class='fa fa-bars'></i>
+</a>
+</li>
+<li class='collapse'>
+<a href='/' title='Go to RateMyTeachers Home'>United States</a>
+</li>
+<li class='always_show'>
+<a alt='Go to Schools in California' href='/california' title='Go to Schools in California'>California</a>
+</li>
+<li class='collapse'>
+<a alt='Go to Schools in Woodland Hills' href='/california/woodland-hills' title='Go to Schools in Woodland Hills'>Woodland Hills</a>
+</li>
+<li class='always_show extra_option'>
+<span class='last'>George Ellery Hale Charter Academy</span>
+</li>
+<li class='always_show'>
+<a class='new_teacher_trigger' data-backdrop='static' data-keyboard data-school='George Ellery Hale Charter Academy' data-sender-name='School page breadcrumb' data-target='#modal' data-toggle='modal' href='/teachers/new?sid=42308' title='Add My Teacher'>Add My Teacher</a>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+    <div class="container text-ad-unit">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="alert alert-info"  id="giving_cycle_ad">
+          <span>
+            <span style="color: red;font-weight: bold;">80,000,000+</span>
+            girls in developing countries are missing school while on their period:
+            <a target="_blank" href="http://lp.sheva.com/givingcyclenewsletter/?utm_source=ratemyteachers&utm_medium=referral&utm_campaign=giving_ratemyteachers">
+              The Giving Cycle...
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="alert alert-danger" id="flash-error" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-warning" id="flash-alert" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-success" id="flash-success" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      <div class="alert alert-info"  id="flash-notice" style="display: none">
+        <button type="button" class="close" data-dismiss="close">×</button>
+        <span></span>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+  
+
+  <div id="content">
+    <span itemprop='aggregateRating' itemscope itemtype='http://data-vocabulary.org/Review-aggregate'>
+<meta content='George Ellery Hale Charter Academy' itemprop='itemreviewed'>
+<span itemprop='rating' itemscope itemtype='http://data-vocabulary.org/Rating'>
+<meta content='3.3752' itemprop='average'>
+<meta content='5' itemprop='best'>
+<meta content='0' itemprop='worst'>
+</span>
+<meta itemprop='votes'>
+</span>
+
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+  <div id="School_ATF_Large_Leaderboard">
+    <!-- School_ATF_Large_Leaderboard -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:970px;height:90px"
+         data-ad-client="ca-pub-8322864954623881"
+         data-ad-slot="7130714482"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+</div>
+</div>
+<div class='row'>
+<div class='col-md-4 sticky_container_left'>
+<div class='sticky_column'>
+<section class='school_info' itemscope itemtype='http://schema.org/School'>
+<div class='callout'>
+This School profile is 13% complete. Help us
+<a href='javascript:void(0);'>add more information</a>
+</div>
+<div class='info row'>
+<div class='col-md-12'>
+<div class='info_box'>
+<div class='main_info'>
+<h1 class='title school_name' itemprop='name'>
+George Ellery Hale Charter Academy
+
+</h1>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='18' data-rateit-starwidth='22' data-rateit-value='3.3752'></div>
+</div>
+<!-- /.location= school.state_and_city_full -->
+<div class='staff'>
+Based on
+93
+Teachers
+and
+356
+Ratings
+</div>
+<div class='row'>
+<div class='col-xs-12 attributes'>
+<div class='attribute'>
+<div class='easy val3 value'>
+<span>3</span>
+</div>
+<div class='text'>Easiness</div>
+</div>
+<div class='attribute'>
+<div class='helpful val3 value'>
+<span>3</span>
+</div>
+<div class='text'>Helpfulness</div>
+</div>
+<div class='attribute'>
+<div class='clarity val3 value'>
+<span>3</span>
+</div>
+<div class='text'>Clarity</div>
+</div>
+<div class='attribute'>
+<div class='knowledgeable val4 value'>
+<span>4</span>
+</div>
+<div class='text'>Knowledge</div>
+</div>
+<div class='attribute'>
+<div class='textbook_use val3 value'>
+<span>3</span>
+</div>
+<div class='text'>Textbook Use</div>
+</div>
+<div class='attribute'>
+<div class='exam_difficulty val3 value'>
+<span>3</span>
+</div>
+<div class='text'>Exam Difficulty</div>
+</div>
+</div>
+</div>
+</div>
+<div class='secondary_info'>
+<div class='col-md-12 stats phone'>
+<div class='title'>Telephone:</div>
+<span itemprop='telephone'>818-313-7400</span>
+</div>
+<div class='col-md-12 stats url'>
+<div class='title'>George Ellery Hale Charter Academy Website:</div>
+<a href='http://www.lausd.k12.ca.us/hale_ms' target='_blank'>http://www.lausd.k12.ca.us/hale_ms</a>
+</div>
+<div class='col-md-12 map'>
+  <iframe
+    width="100%"
+    height="200"
+    frameborder="0" style="border:0;"
+    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDQOhmnZnwlz7TM334xnTn4JByjjxEgq1g&amp;q=23830+Califa+Street%2C+Woodland+Hills%2C+California%2C+91367%2C+United+States">
+  </iframe>
+
+</div>
+<div class='col-md-12 stats'>
+<div class='title strong'>Address:</div>
+<span itemprop='address'>23830 Califa Street, Woodland Hills, California 91367</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class='apply_school_administrator_wrapper secondary'>
+<a class='new_admin_request_trigger' data-school='George Ellery Hale Charter Academy' data-sender='School page' data-target='#modal' data-toggle='modal' href='/admin/new?sid=42308' title="Become George Ellery Hale Charter Academy's Admin">
+Become George Ellery Hale Charter Academy's Admin
+</a>
+</div>
+
+</div>
+</div>
+<div class='col-md-4 middle'>
+<section class='school_teachers content'>
+<!-- - else -->
+<!-- .item -->
+<div class='sticky_container_center'>
+<div class='sticky_column' style='z-index:999; background-color:#fff;'>
+<div class='search padding hidden-xs'>
+<form action='/george-ellery-hale-charter-academy/42308-s' class='simple_form inline_form'>
+<div class='row'>
+<div class='col-xs-12 col-md-7 left'>
+<input name='q' placeholder='Search by Teacher' type='text'>
+<input class='btn btn-default' name='commit' type='submit' value='Search'>
+</div>
+<div class='col-xs-12 col-md-5 right'>
+<select id="school_departments" name="school_departments"><option value="">Select a Department</option><option value=""></option><option value="/george-ellery-hale-charter-academy/42308-s/not-specified">Not Specified</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/accounting">Accounting</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/administration">Administration</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/anthropology">Anthropology</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/architecture">Architecture</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/asl">ASL</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/auto-tech">Auto Tech</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/band">Band</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/biology">Biology</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/business">Business</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/chemistry">Chemistry</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/co-op">Co-op</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/communications">Communications</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/computer-science">Computer Science</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/counselor">Counselor</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/drafting">Drafting</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/drivers-education">Drivers Education</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/economics">Economics</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/education">Education</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/english">English</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/esl">ESL</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/family-consumer-sciences">Family &amp; Consumer Sciences</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/film">Film</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/fine-arts">Fine Arts</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/french">French</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/geography">Geography</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/grade-1">Grade 1</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/grade-2">Grade 2</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/grade-3">Grade 3</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/grade-4">Grade 4</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/grade-5">Grade 5</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/grade-6">Grade 6</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/grade-k">Grade K</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/grammaire-composition">Grammaire/Composition</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/headmaster">Headmaster</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/health">Health</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/history">History</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/home-economics">Home Economics</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/ib-program">IB Program</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/independent-study">Independent Study</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/industrial-education">Industrial Education</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/journalism">Journalism</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/languages">Languages</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/law">Law</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/librarian">Librarian</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/math">Math</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/media">Media</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/multiple-subjects">Multiple Subjects</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/music">Music</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/nursing">Nursing</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/performing-arts">Performing Arts</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/philosophy">Philosophy</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/photography">Photography</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/physical-education">Physical Education</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/physics">Physics</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/principal">Principal</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/psychology">Psychology</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/reading">Reading</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/religion">Religion</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/resource">Resource</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/rotc">ROTC</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/science">Science</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/social-studies">Social Studies</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/sociology">Sociology</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/speech">Speech</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/study-skills">Study Skills</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/substitute-teacher">Substitute Teacher</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/technology">Technology</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/vice-principal">Vice Principal</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/visual-arts">Visual Arts</option>
+<option value="/george-ellery-hale-charter-academy/42308-s/writing">Writing</option></select>
+</div>
+</div>
+</form>
+</div>
+<ul class='teachers_by_alphabet'>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with A' href='/george-ellery-hale-charter-academy/42308-s/a' title='Teachers at George Ellery Hale Charter Academy whose names begin with A'>a</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with B' href='/george-ellery-hale-charter-academy/42308-s/b' title='Teachers at George Ellery Hale Charter Academy whose names begin with B'>b</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with C' href='/george-ellery-hale-charter-academy/42308-s/c' title='Teachers at George Ellery Hale Charter Academy whose names begin with C'>c</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with D' href='/george-ellery-hale-charter-academy/42308-s/d' title='Teachers at George Ellery Hale Charter Academy whose names begin with D'>d</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with E' href='/george-ellery-hale-charter-academy/42308-s/e' title='Teachers at George Ellery Hale Charter Academy whose names begin with E'>e</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with F' href='/george-ellery-hale-charter-academy/42308-s/f' title='Teachers at George Ellery Hale Charter Academy whose names begin with F'>f</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with G' href='/george-ellery-hale-charter-academy/42308-s/g' title='Teachers at George Ellery Hale Charter Academy whose names begin with G'>g</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with H' href='/george-ellery-hale-charter-academy/42308-s/h' title='Teachers at George Ellery Hale Charter Academy whose names begin with H'>h</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with I' href='/george-ellery-hale-charter-academy/42308-s/i' title='Teachers at George Ellery Hale Charter Academy whose names begin with I'>i</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with J' href='/george-ellery-hale-charter-academy/42308-s/j' title='Teachers at George Ellery Hale Charter Academy whose names begin with J'>j</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with K' href='/george-ellery-hale-charter-academy/42308-s/k' title='Teachers at George Ellery Hale Charter Academy whose names begin with K'>k</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with L' href='/george-ellery-hale-charter-academy/42308-s/l' title='Teachers at George Ellery Hale Charter Academy whose names begin with L'>l</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with M' href='/george-ellery-hale-charter-academy/42308-s/m' title='Teachers at George Ellery Hale Charter Academy whose names begin with M'>m</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with N' href='/george-ellery-hale-charter-academy/42308-s/n' title='Teachers at George Ellery Hale Charter Academy whose names begin with N'>n</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with O' href='/george-ellery-hale-charter-academy/42308-s/o' title='Teachers at George Ellery Hale Charter Academy whose names begin with O'>o</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with P' href='/george-ellery-hale-charter-academy/42308-s/p' title='Teachers at George Ellery Hale Charter Academy whose names begin with P'>p</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with Q' href='/george-ellery-hale-charter-academy/42308-s/q' title='Teachers at George Ellery Hale Charter Academy whose names begin with Q'>q</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with R' href='/george-ellery-hale-charter-academy/42308-s/r' title='Teachers at George Ellery Hale Charter Academy whose names begin with R'>r</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with S' href='/george-ellery-hale-charter-academy/42308-s/s' title='Teachers at George Ellery Hale Charter Academy whose names begin with S'>s</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with T' href='/george-ellery-hale-charter-academy/42308-s/t' title='Teachers at George Ellery Hale Charter Academy whose names begin with T'>t</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with U' href='/george-ellery-hale-charter-academy/42308-s/u' title='Teachers at George Ellery Hale Charter Academy whose names begin with U'>u</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with V' href='/george-ellery-hale-charter-academy/42308-s/v' title='Teachers at George Ellery Hale Charter Academy whose names begin with V'>v</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with X' href='/george-ellery-hale-charter-academy/42308-s/x' title='Teachers at George Ellery Hale Charter Academy whose names begin with X'>x</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with Y' href='/george-ellery-hale-charter-academy/42308-s/y' title='Teachers at George Ellery Hale Charter Academy whose names begin with Y'>y</a>
+</li>
+<li>
+<a alt='Teachers at George Ellery Hale Charter Academy whose names begin with Z' href='/george-ellery-hale-charter-academy/42308-s/z' title='Teachers at George Ellery Hale Charter Academy whose names begin with Z'>z</a>
+</li>
+</ul>
+
+</div>
+</div>
+<div class='header padding'>
+Showing
+93 Teachers
+<!-- and -->
+<!-- %span.colorized= pluralize ratings_count, 'Rating' -->
+from George Ellery Hale Charter Academy
+</div>
+<div class='teachers padding'>
+
+
+
+  <div id="School_ATF_Leaderboard">
+    <!-- School_ATF_Leaderboard_web -->
+    <ins class="adsbygoogle"
+      style="display:inline-block;width:336px;height:280px"
+      data-ad-client="ca-pub-8322864954623881"
+      data-ad-slot="1367689285"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Dan Taguchi&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/dan-taguchi/2487151-t" title="View Dan Taguchi&#39;s Ratings">Dan Taguchi</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/band" title="View George Ellery Hale Charter Academy&#39;s Band Teachers">Band</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"An amazing teacher"</span>
+<a alt="View Dan Taguchi&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/dan-taguchi/2487151-t" title="View Dan Taguchi&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/dan-taguchi/2487151-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Randi Seligson&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/randi-seligson/3153032-t" title="View Randi Seligson&#39;s Ratings">Randi Seligson</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/multiple-subjects" title="View George Ellery Hale Charter Academy&#39;s Multiple Subjects Teachers">Multiple Subjects</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"SHE IS THE BEST TEACER EVER!!!! SHE IS SO NICE! SHE CAN BECOME UR BEST FRIEND WHEN IT COMES TO..."</span>
+<a alt="View Randi Seligson&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/randi-seligson/3153032-t" title="View Randi Seligson&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/randi-seligson/3153032-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Beavis Butt Head&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/beavis-butt-head/2476841-t" title="View Beavis Butt Head&#39;s Ratings">Beavis Butt Head</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/independent-study" title="View George Ellery Hale Charter Academy&#39;s Independent Study Teachers">Independent Study</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"like this guy is really cool or something.  he laughs all the time.  he is really cool and i wish..."</span>
+<a alt="View Beavis Butt Head&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/beavis-butt-head/2476841-t" title="View Beavis Butt Head&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/beavis-butt-head/2476841-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Wallace&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/wallace/2487152-t" title="View Wallace&#39;s Ratings">Wallace</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/physical-education" title="View George Ellery Hale Charter Academy&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<!-- .no_comments -->
+<!-- Be the first to Rate #{teacher_title} #{teacher_name}! -->
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/wallace/2487152-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Kimball&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/kimball/1644793-t" title="View Kimball&#39;s Ratings">Kimball</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='5.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/health" title="View George Ellery Hale Charter Academy&#39;s Health Teachers">Health</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"The best"</span>
+<a alt="View Kimball&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/kimball/1644793-t" title="View Kimball&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kimball/1644793-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Hank Amigo&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/hank-amigo/2016729-t" title="View Hank Amigo&#39;s Ratings">Hank Amigo</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.41'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/english" title="View George Ellery Hale Charter Academy&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"This guy is an idiot. He picks on kids for no reason like a schoolyard bully. He lets kids in his..."</span>
+<a alt="View Hank Amigo&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/hank-amigo/2016729-t" title="View Hank Amigo&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/hank-amigo/2016729-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Kelly&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/kelly/1123241-t" title="View Kelly&#39;s Ratings">Kelly</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.33'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/health" title="View George Ellery Hale Charter Academy&#39;s Health Teachers">Health</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mr. Kelly is soo fun! he actually makes health worth listening to. he lets you finish homework in..."</span>
+<a alt="View Kelly&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/kelly/1123241-t" title="View Kelly&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kelly/1123241-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Fletcher&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/fletcher/2493936-t" title="View Fletcher&#39;s Ratings">Fletcher</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.33'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/multiple-subjects" title="View George Ellery Hale Charter Academy&#39;s Multiple Subjects Teachers">Multiple Subjects</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She is very nice and funny. Her purpose is to teach and that is what she does very well! Strict..."</span>
+<a alt="View Fletcher&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/fletcher/2493936-t" title="View Fletcher&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/fletcher/2493936-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Randi Seligson&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/randi-seligson/1217139-t" title="View Randi Seligson&#39;s Ratings">Randi Seligson</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.33'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/multiple-subjects" title="View George Ellery Hale Charter Academy&#39;s Multiple Subjects Teachers">Multiple Subjects</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She is awesome and you will love her!!! She is everything you could hope for a teacher and she..."</span>
+<a alt="View Randi Seligson&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/randi-seligson/1217139-t" title="View Randi Seligson&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/randi-seligson/1217139-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Patti La Cour&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/patti-la-cour/1874832-t" title="View Patti La Cour&#39;s Ratings">Patti La Cour</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.33'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/not-specified" title="View George Ellery Hale Charter Academy&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"mrs.lacour is the BEST teacher ever. her grading scale is a.b-f but its ok because its hard to..."</span>
+<a alt="View Patti La Cour&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/patti-la-cour/1874832-t" title="View Patti La Cour&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/patti-la-cour/1874832-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Joel Domine&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/joel-domine/2299925-t" title="View Joel Domine&#39;s Ratings">Joel Domine</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.33'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/math" title="View George Ellery Hale Charter Academy&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mr. Domine is a great Algebra teacher. He&#39;s funny and easy going. Most of his tests are off of..."</span>
+<a alt="View Joel Domine&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/joel-domine/2299925-t" title="View Joel Domine&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/joel-domine/2299925-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Mistretta&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/mistretta/1123249-t" title="View Mistretta&#39;s Ratings">Mistretta</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/history" title="View George Ellery Hale Charter Academy&#39;s History Teachers">History</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Very hard class. While you do learn, you also have to actually try to get good grades. Half of..."</span>
+<a alt="View Mistretta&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/mistretta/1123249-t" title="View Mistretta&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mistretta/1123249-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Chris Nowatarski&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/chris-nowatarski/1544307-t" title="View Chris Nowatarski&#39;s Ratings">Chris Nowatarski</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/history" title="View George Ellery Hale Charter Academy&#39;s History Teachers">History</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He makes everything really hard on students. Apparently I was the first student in years to get..."</span>
+<a alt="View Chris Nowatarski&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/chris-nowatarski/1544307-t" title="View Chris Nowatarski&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/chris-nowatarski/1544307-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Kang&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/kang/2018465-t" title="View Kang&#39;s Ratings">Kang</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/science" title="View George Ellery Hale Charter Academy&#39;s Science Teachers">Science</a>
+</div>
+<!-- .no_comments -->
+<!-- Be the first to Rate #{teacher_title} #{teacher_name}! -->
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kang/2018465-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Anderson Michelle&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/anderson-michelle/2135557-t" title="View Anderson Michelle&#39;s Ratings">Anderson Michelle</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='4.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/math" title="View George Ellery Hale Charter Academy&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"i dont love her but i like her shes kinda strict about everything but shes is still really nice..."</span>
+<a alt="View Anderson Michelle&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/anderson-michelle/2135557-t" title="View Anderson Michelle&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/anderson-michelle/2135557-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Wexler&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/wexler/2202032-t" title="View Wexler&#39;s Ratings">Wexler</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.95'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/grade-6" title="View George Ellery Hale Charter Academy&#39;s Grade 6 Teachers">Grade 6</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She&#39;s too old to be teaching. She yells at the class constantly like we&#39;re in college bout in..."</span>
+<a alt="View Wexler&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/wexler/2202032-t" title="View Wexler&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/wexler/2202032-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Mitchell&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/mitchell/1529020-t" title="View Mitchell&#39;s Ratings">Mitchell</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.75'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/computer-science" title="View George Ellery Hale Charter Academy&#39;s Computer Science Teachers">Computer Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mrs. Mitchell is mean."</span>
+<a alt="View Mitchell&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/mitchell/1529020-t" title="View Mitchell&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/mitchell/1529020-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Protho&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/protho/1295401-t" title="View Protho&#39;s Ratings">Protho</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/history" title="View George Ellery Hale Charter Academy&#39;s History Teachers">History</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"i like him but he can be mean sometimes but when hes nice i guess i like him"</span>
+<a alt="View Protho&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/protho/1295401-t" title="View Protho&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/protho/1295401-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Yassaman&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/yassaman/2168712-t" title="View Yassaman&#39;s Ratings">Yassaman</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.5'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/math" title="View George Ellery Hale Charter Academy&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"he&#39;s so nice and fun,he always gives you a 2nd chance:)&gt;"</span>
+<a alt="View Yassaman&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/yassaman/2168712-t" title="View Yassaman&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/yassaman/2168712-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Bohlander&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/bohlander/2005866-t" title="View Bohlander&#39;s Ratings">Bohlander</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.41'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/english" title="View George Ellery Hale Charter Academy&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"I wonder why they choose the guy too fat to see his own feet as a pe teacher. He&#39;s an ahole and..."</span>
+<a alt="View Bohlander&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/bohlander/2005866-t" title="View Bohlander&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/bohlander/2005866-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Sarah Johnson&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/sarah-johnson/2299926-t" title="View Sarah Johnson&#39;s Ratings">Sarah Johnson</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.33'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/english" title="View George Ellery Hale Charter Academy&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"very nice, funny lady. talks a lot, we barely did much work. hahah. she was really nice though..."</span>
+<a alt="View Sarah Johnson&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/sarah-johnson/2299926-t" title="View Sarah Johnson&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/sarah-johnson/2299926-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Erin Coleman&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/erin-coleman/1416436-t" title="View Erin Coleman&#39;s Ratings">Erin Coleman</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.33'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/physical-education" title="View George Ellery Hale Charter Academy&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"this teacher is such an asshole to me she hates me and gives me an f because she doesn&#39;t like me..."</span>
+<a alt="View Erin Coleman&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/erin-coleman/1416436-t" title="View Erin Coleman&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/erin-coleman/1416436-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Matthew Harbourt&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/matthew-harbourt/2028889-t" title="View Matthew Harbourt&#39;s Ratings">Matthew Harbourt</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.33'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/not-specified" title="View George Ellery Hale Charter Academy&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"very helpful and he lets u chew gum!!!"</span>
+<a alt="View Matthew Harbourt&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/matthew-harbourt/2028889-t" title="View Matthew Harbourt&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/matthew-harbourt/2028889-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Jaber Ansari&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/jaber-ansari/2008139-t" title="View Jaber Ansari&#39;s Ratings">Jaber Ansari</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.33'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/math" title="View George Ellery Hale Charter Academy&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"hmmmmmmmm...... where do i start? i LOVE Dr.J she the most easiest, nicest,..."</span>
+<a alt="View Jaber Ansari&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/jaber-ansari/2008139-t" title="View Jaber Ansari&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jaber-ansari/2008139-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Frank Tremanti&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/frank-tremanti/1633473-t" title="View Frank Tremanti&#39;s Ratings">Frank Tremanti</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.33'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/band" title="View George Ellery Hale Charter Academy&#39;s Band Teachers">Band</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mr T was a great teacher, too bad he retired. I had him in middle school ()last year) for..."</span>
+<a alt="View Frank Tremanti&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/frank-tremanti/1633473-t" title="View Frank Tremanti&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/frank-tremanti/1633473-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Neil Politz&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/neil-politz/1611029-t" title="View Neil Politz&#39;s Ratings">Neil Politz</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.33'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/physical-education" title="View George Ellery Hale Charter Academy&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He&#39;s funny. And he&#39;s the right kind of strict."</span>
+<a alt="View Neil Politz&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/neil-politz/1611029-t" title="View Neil Politz&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/neil-politz/1611029-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Matt Jonhson&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/matt-jonhson/2308255-t" title="View Matt Jonhson&#39;s Ratings">Matt Jonhson</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.33'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/english" title="View George Ellery Hale Charter Academy&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He is a nice teacher in my classroom"</span>
+<a alt="View Matt Jonhson&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/matt-jonhson/2308255-t" title="View Matt Jonhson&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/matt-jonhson/2308255-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Kylie Baba&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/kylie-baba/691330-t" title="View Kylie Baba&#39;s Ratings">Kylie Baba</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.33'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/not-specified" title="View George Ellery Hale Charter Academy&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<!-- .no_comments -->
+<!-- Be the first to Rate #{teacher_title} #{teacher_name}! -->
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kylie-baba/691330-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Chetan Singh&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/chetan-singh/1630706-t" title="View Chetan Singh&#39;s Ratings">Chetan Singh</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/math" title="View George Ellery Hale Charter Academy&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"MR. SINGH IS AWESOME!!!!!!!!!!!!! best teacher at hale in my opinion. he makes learning fun and..."</span>
+<a alt="View Chetan Singh&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/chetan-singh/1630706-t" title="View Chetan Singh&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/chetan-singh/1630706-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Thomas Kositcheck&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/thomas-kositcheck/2135559-t" title="View Thomas Kositcheck&#39;s Ratings">Thomas Kositcheck</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/english" title="View George Ellery Hale Charter Academy&#39;s English Teachers">English</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"he is a good chior teacher but he goes over and over about us getting doe,rae,mee right and its..."</span>
+<a alt="View Thomas Kositcheck&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/thomas-kositcheck/2135559-t" title="View Thomas Kositcheck&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/thomas-kositcheck/2135559-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Anderson&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/anderson/2487150-t" title="View Anderson&#39;s Ratings">Anderson</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/grade-6" title="View George Ellery Hale Charter Academy&#39;s Grade 6 Teachers">Grade 6</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Very fun class for math and science"</span>
+<a alt="View Anderson&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/anderson/2487150-t" title="View Anderson&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/anderson/2487150-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Symons&#39; Ratings" class="name" href="http://www.ratemyteachers.com/symons/2206057-t" title="View Symons&#39; Ratings">Symons</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/science" title="View George Ellery Hale Charter Academy&#39;s Science Teachers">Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"awesome teacher!!! so funny and educational.. never opened the science book"</span>
+<a alt="View Symons&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/symons/2206057-t" title="View Symons&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/symons/2206057-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Valerie Costigan&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/valerie-costigan/867383-t" title="View Valerie Costigan&#39;s Ratings">Valerie Costigan</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='3.0'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/multiple-subjects" title="View George Ellery Hale Charter Academy&#39;s Multiple Subjects Teachers">Multiple Subjects</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"she is the best teacher I ever had she is very nice and helpful. "</span>
+<a alt="View Valerie Costigan&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/valerie-costigan/867383-t" title="View Valerie Costigan&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/valerie-costigan/867383-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Peter Mc Cabe&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/peter-mc-cabe/1705104-t" title="View Peter Mc Cabe&#39;s Ratings">Peter Mc Cabe</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/english" title="View George Ellery Hale Charter Academy&#39;s English Teachers">English</a>
+</div>
+<!-- .no_comments -->
+<!-- Be the first to Rate #{teacher_title} #{teacher_name}! -->
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/peter-mc-cabe/1705104-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Hough Edwards&#39; Ratings" class="name" href="http://www.ratemyteachers.com/hough-edwards/1648757-t" title="View Hough Edwards&#39; Ratings">Hough Edwards</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/social-studies" title="View George Ellery Hale Charter Academy&#39;s Social Studies Teachers">Social Studies</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"He was a great teacher I had him last year 6th period he was hilarious and he teaches you a lot"</span>
+<a alt="View Hough Edwards&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/hough-edwards/1648757-t" title="View Hough Edwards&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/hough-edwards/1648757-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Debby Meyerstein&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/debby-meyerstein/1633478-t" title="View Debby Meyerstein&#39;s Ratings">Debby Meyerstein</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/biology" title="View George Ellery Hale Charter Academy&#39;s Biology Teachers">Biology</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"i had her for 6th grade math and science. i didnt really learn much from her! but she didnt yell!..."</span>
+<a alt="View Debby Meyerstein&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/debby-meyerstein/1633478-t" title="View Debby Meyerstein&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/debby-meyerstein/1633478-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Robert Payne&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/robert-payne/1747906-t" title="View Robert Payne&#39;s Ratings">Robert Payne</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/math" title="View George Ellery Hale Charter Academy&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mr. Payne was the best math teacher I had in middle school."</span>
+<a alt="View Robert Payne&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/robert-payne/1747906-t" title="View Robert Payne&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/robert-payne/1747906-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Porter&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/porter/1582123-t" title="View Porter&#39;s Ratings">Porter</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/physical-education" title="View George Ellery Hale Charter Academy&#39;s Physical Education Teachers">Physical Education</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Mr. Porter is a good teacher who cares about his students. My kid didn&#39;t do well and Mr. Porter..."</span>
+<a alt="View Porter&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/porter/1582123-t" title="View Porter&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/porter/1582123-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Susan Walgren&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/susan-walgren/1897031-t" title="View Susan Walgren&#39;s Ratings">Susan Walgren</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/math" title="View George Ellery Hale Charter Academy&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Ms. Walgren is awesome! ima miss her class! shes so friggin cool!"</span>
+<a alt="View Susan Walgren&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/susan-walgren/1897031-t" title="View Susan Walgren&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/susan-walgren/1897031-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Jennifer Hinerman&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/jennifer-hinerman/1942541-t" title="View Jennifer Hinerman&#39;s Ratings">Jennifer Hinerman</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/science" title="View George Ellery Hale Charter Academy&#39;s Science Teachers">Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Good teacher"</span>
+<a alt="View Jennifer Hinerman&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/jennifer-hinerman/1942541-t" title="View Jennifer Hinerman&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jennifer-hinerman/1942541-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Jessica Song&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/jessica-song/2028621-t" title="View Jessica Song&#39;s Ratings">Jessica Song</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/history" title="View George Ellery Hale Charter Academy&#39;s History Teachers">History</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Hardddd work. But i learned a lot. she was pretty funny."</span>
+<a alt="View Jessica Song&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/jessica-song/2028621-t" title="View Jessica Song&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jessica-song/2028621-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Lundbergh&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/lundbergh/2371092-t" title="View Lundbergh&#39;s Ratings">Lundbergh</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/not-specified" title="View George Ellery Hale Charter Academy&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"She is very nice, sometimes a little boring. but nice. she teaches well :)"</span>
+<a alt="View Lundbergh&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/lundbergh/2371092-t" title="View Lundbergh&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/lundbergh/2371092-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Marvasti&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/marvasti/675337-t" title="View Marvasti&#39;s Ratings">Marvasti</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/multiple-subjects" title="View George Ellery Hale Charter Academy&#39;s Multiple Subjects Teachers">Multiple Subjects</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"i LOVE mrs marvast!shes the best teacher evermost of the times she gives us fun projects"</span>
+<a alt="View Marvasti&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/marvasti/675337-t" title="View Marvasti&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/marvasti/675337-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Ginger Arisohn&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/ginger-arisohn/578403-t" title="View Ginger Arisohn&#39;s Ratings">Ginger Arisohn</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/history" title="View George Ellery Hale Charter Academy&#39;s History Teachers">History</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"very nice and laid back. its really fun doing the civil war re-enactment, too."</span>
+<a alt="View Ginger Arisohn&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/ginger-arisohn/578403-t" title="View Ginger Arisohn&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/ginger-arisohn/578403-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View J. Frank&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/j-frank/516588-t" title="View J. Frank&#39;s Ratings">J. Frank</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/science" title="View George Ellery Hale Charter Academy&#39;s Science Teachers">Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Best teacher in world."</span>
+<a alt="View J. Frank&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/j-frank/516588-t" title="View J. Frank&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/j-frank/516588-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Jacobson&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/jacobson/463908-t" title="View Jacobson&#39;s Ratings">Jacobson</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/math" title="View George Ellery Hale Charter Academy&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Dope teacher wooop wooop"</span>
+<a alt="View Jacobson&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/jacobson/463908-t" title="View Jacobson&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/jacobson/463908-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Richard Herrera&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/richard-herrera/1416442-t" title="View Richard Herrera&#39;s Ratings">Richard Herrera</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/not-specified" title="View George Ellery Hale Charter Academy&#39;s Not Specified Teachers">Not Specified</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"really cool teacher. i got the honors of having him the year he retired"</span>
+<a alt="View Richard Herrera&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/richard-herrera/1416442-t" title="View Richard Herrera&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/richard-herrera/1416442-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Nowotarski&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/nowotarski/2392847-t" title="View Nowotarski&#39;s Ratings">Nowotarski</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.67'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/history" title="View George Ellery Hale Charter Academy&#39;s History Teachers">History</a>
+</div>
+<!-- .no_comments -->
+<!-- Be the first to Rate #{teacher_title} #{teacher_name}! -->
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/nowotarski/2392847-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Micheal Gross&#39; Ratings" class="name" href="http://www.ratemyteachers.com/micheal-gross/2005863-t" title="View Micheal Gross&#39; Ratings">Micheal Gross</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.61'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/science" title="View George Ellery Hale Charter Academy&#39;s Science Teachers">Science</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"Unprofessionalism at its finest."</span>
+<a alt="View Micheal Gross&#39; Ratings" class="view_more" href="http://www.ratemyteachers.com/micheal-gross/2005863-t" title="View Micheal Gross&#39; Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/micheal-gross/2005863-t'></a>
+</div>
+</div>
+</div>
+
+<!-- - latest_rating ||= teacher.ratings.published.last -->
+<div class='row item clickable_fix'>
+<div class='col-md-12'>
+<div class='teacher'>
+<div class='row details'>
+<h3 class='col-xs-12'>
+<a alt="View Kelly Dawn&#39;s Ratings" class="name" href="http://www.ratemyteachers.com/kelly-dawn/1976019-t" title="View Kelly Dawn&#39;s Ratings">Kelly Dawn</a>
+</h3>
+<div class='col-xs-12'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='2.33'></div>
+<br>
+<div class='info'>
+<span style='color: #333333'>Department:</span>
+<a href="/george-ellery-hale-charter-academy/42308-s/math" title="View George Ellery Hale Charter Academy&#39;s Math Teachers">Math</a>
+</div>
+<div class='comments'>
+<span>Recent Rating:</span>
+<span class='comment_extract'>"i didn&#39;t like her very much because i felt that she was always being very unfair, even though i..."</span>
+<a alt="View Kelly Dawn&#39;s Ratings" class="view_more" href="http://www.ratemyteachers.com/kelly-dawn/1976019-t" title="View Kelly Dawn&#39;s Ratings">view more&nbsp;»</a>
+</div>
+<!-- .flag -->
+<!-- %a.flag_teacher_trigger{:href => flag_teacher_path(teacher), :rel => "no-follow", :data => {:toggle => 'modal', :target => '#modal', :backdrop => 'static', :keyboard => true, :teacher => teacher_name, 'sender-name' => position_name }, :title => "Flag #{school.teacher_title.titleize} Name"} -->
+<!-- %i.fa.fa-flag -->
+<!-- Flag #{school.teacher_title.titleize} Name -->
+</div>
+</div>
+<a class='clickable_fix_trigger hidden-sm hidden-md hidden-lg' href='/kelly-dawn/1976019-t'></a>
+</div>
+</div>
+</div>
+
+</div>
+<div class='padding'>
+  <!-- School_BTF_Leaderboard -->
+  <div id="School_BTF_Leaderboard">
+    <ins class="adsbygoogle"
+      style="display:inline-block;width:336px;height:280px"
+      data-ad-client="ca-pub-8322864954623881"
+      data-ad-slot="2844422481"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+
+</div>
+<div class='pagination_container'>  <ul class="pagination">
+    
+    
+        <li class="page active">
+  <a href="/george-ellery-hale-charter-academy/42308-s">1</a>
+</li>
+
+        <li class="page">
+  <a href="/george-ellery-hale-charter-academy/42308-s/2" rel="next">2</a>
+</li>
+
+    <li class="next_page">
+  <a href="/george-ellery-hale-charter-academy/42308-s/2" rel="next">
+    <span class="hidden-sm hidden-md hidden-lg">&rsaquo;</span>
+    <span class="hidden-xs">Next &rsaquo;</span>
+  </a>
+</li>
+
+    <li class="last next">
+  <a href="/george-ellery-hale-charter-academy/42308-s/2">
+    <span class="hidden-sm hidden-md hidden-lg">&raquo;</span>
+    <span class="hidden-xs">Last &raquo;</span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</section>
+</div>
+<aside class='col-xs-12 col-sm-4 sticky_container_right'>
+<div class='sticky_column'>
+
+<div class='sheva_ad'>
+<a href='http://lp.sheva.com/givingcyclenewsletter/?utm_source=ratemyteachers&amp;utm_medium=referral&amp;utm_campaign=giving_ratemyteachers' target='_blank' title='Go to Sheva website'><img alt="Go to Sheva website" src="/assets/template/sheva_banner-5bff26ecfd8ee12efd18945bccc61c3c.jpg" /></a>
+</div>
+
+<div class='add_teacher_wrapper'>
+<a class='new_teacher_trigger' data-backdrop='static' data-keyboard data-school='George Ellery Hale Charter Academy' data-sender-name='School aside' data-target='#modal' data-toggle='modal' href='/teachers/new?sid=42308' title='Add My Teacher to George Ellery Hale Charter Academy'>
+<span>
+<span>
+Add My Teacher
+</span>
+</span>
+</a>
+</div>
+
+<section class='aside_content'>
+<div class='col-xs-12 schools'>
+<div class='school clickable_fix'>
+<div class='name'>
+<a alt="View Canyon Kids School &amp; Camp's Teachers" href='/canyon-kids-school-camp/212821-s' title="View Canyon Kids School &amp; Camp's Teachers">
+Canyon Kids School &amp; Camp
+</a>
+</div>
+<div class='col-xs-12 details'>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='0.0'></div>
+Elementary
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>0 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Woodland Hills, California</span>
+</div>
+</div>
+<a alt="View Canyon Kids School &amp; Camp's Teachers" class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='/canyon-kids-school-camp/212821-s' title="View Canyon Kids School &amp; Camp's Teachers"></a>
+</div>
+
+<div class='school clickable_fix'>
+<div class='name'>
+<a alt="View Academy Just For Kids's Teachers" href='/academy-just-for-kids/212797-s' title="View Academy Just For Kids's Teachers">
+Academy Just For Kids
+</a>
+</div>
+<div class='col-xs-12 details'>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='0.0'></div>
+Elementary
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>0 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Woodland Hills, California</span>
+</div>
+</div>
+<a alt="View Academy Just For Kids's Teachers" class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='/academy-just-for-kids/212797-s' title="View Academy Just For Kids's Teachers"></a>
+</div>
+
+<div class='school clickable_fix'>
+<div class='name'>
+<a alt="View Halsey Schools Inc's Teachers" href='/halsey-schools-inc/212789-s' title="View Halsey Schools Inc's Teachers">
+Halsey Schools Inc
+</a>
+</div>
+<div class='col-xs-12 details'>
+<div class='score'>
+<div class='rateit star-rating' data-rateit-ispreset='true' data-rateit-readonly='true' data-rateit-starheight='12' data-rateit-starwidth='15' data-rateit-value='0.0'></div>
+Elementary
+</div>
+<div class='property staff'>
+<span>Staff:</span>
+<span class='value'>0 Teachers</span>
+</div>
+<div class='property location'>
+<span>Location:</span>
+<span class='value'>Woodland Hills, California</span>
+</div>
+</div>
+<a alt="View Halsey Schools Inc's Teachers" class='hidden-sm hidden-md hidden-lg clickable_fix_trigger' href='/halsey-schools-inc/212789-s' title="View Halsey Schools Inc's Teachers"></a>
+</div>
+
+</div>
+</section>
+<div class='back_button_wrapper secondary'>
+<a href='/california/woodland-hills' title='View all schools in Woodland Hills, California'>Woodland Hills, California</a>
+</div>
+
+</div>
+</aside>
+</div>
+</div>
+<div class='hidden' id='v'>school-web-6.3</div>
+
+
+  </div>
+
+  
+    <div id="all_footer_wrapper" style="overflow:hidden;">
+      <section class='container-fluid hidden-xs padding' id='states'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<h3>Find High Schools and Colleges by State</h3>
+<div class='states'>
+<div class='state'>
+<a alt="Find Alaska&#39;s High Schools and Colleges" href="/alaska" title="Find Alaska&#39;s High Schools and Colleges">Alaska</a>
+</div>
+<div class='state'>
+<a alt="Find Alabama&#39;s High Schools and Colleges" href="/alabama" title="Find Alabama&#39;s High Schools and Colleges">Alabama</a>
+</div>
+<div class='state'>
+<a alt="Find Arkansas&#39; High Schools and Colleges" href="/arkansas" title="Find Arkansas&#39; High Schools and Colleges">Arkansas</a>
+</div>
+<div class='state'>
+<a alt="Find Arizona&#39;s High Schools and Colleges" href="/arizona" title="Find Arizona&#39;s High Schools and Colleges">Arizona</a>
+</div>
+<div class='state'>
+<a alt="Find California&#39;s High Schools and Colleges" href="/california" title="Find California&#39;s High Schools and Colleges">California</a>
+</div>
+<div class='state'>
+<a alt="Find Colorado&#39;s High Schools and Colleges" href="/colorado" title="Find Colorado&#39;s High Schools and Colleges">Colorado</a>
+</div>
+<div class='state'>
+<a alt="Find Connecticut&#39;s High Schools and Colleges" href="/connecticut" title="Find Connecticut&#39;s High Schools and Colleges">Connecticut</a>
+</div>
+<div class='state'>
+<a alt="Find DC&#39;s High Schools and Colleges" href="/dc" title="Find DC&#39;s High Schools and Colleges">DC</a>
+</div>
+<div class='state'>
+<a alt="Find Delaware&#39;s High Schools and Colleges" href="/delaware" title="Find Delaware&#39;s High Schools and Colleges">Delaware</a>
+</div>
+<div class='state'>
+<a alt="Find Florida&#39;s High Schools and Colleges" href="/florida" title="Find Florida&#39;s High Schools and Colleges">Florida</a>
+</div>
+<div class='state'>
+<a alt="Find Georgia&#39;s High Schools and Colleges" href="/georgia" title="Find Georgia&#39;s High Schools and Colleges">Georgia</a>
+</div>
+<div class='state'>
+<a alt="Find Hawaii&#39;s High Schools and Colleges" href="/hawaii" title="Find Hawaii&#39;s High Schools and Colleges">Hawaii</a>
+</div>
+<div class='state'>
+<a alt="Find Iowa&#39;s High Schools and Colleges" href="/iowa" title="Find Iowa&#39;s High Schools and Colleges">Iowa</a>
+</div>
+<div class='state'>
+<a alt="Find Idaho&#39;s High Schools and Colleges" href="/idaho" title="Find Idaho&#39;s High Schools and Colleges">Idaho</a>
+</div>
+<div class='state'>
+<a alt="Find Illinois&#39; High Schools and Colleges" href="/illinois" title="Find Illinois&#39; High Schools and Colleges">Illinois</a>
+</div>
+<div class='state'>
+<a alt="Find Indiana&#39;s High Schools and Colleges" href="/indiana" title="Find Indiana&#39;s High Schools and Colleges">Indiana</a>
+</div>
+<div class='state'>
+<a alt="Find Kansas&#39; High Schools and Colleges" href="/kansas" title="Find Kansas&#39; High Schools and Colleges">Kansas</a>
+</div>
+<div class='state'>
+<a alt="Find Kentucky&#39;s High Schools and Colleges" href="/kentucky" title="Find Kentucky&#39;s High Schools and Colleges">Kentucky</a>
+</div>
+<div class='state'>
+<a alt="Find Louisiana&#39;s High Schools and Colleges" href="/louisiana" title="Find Louisiana&#39;s High Schools and Colleges">Louisiana</a>
+</div>
+<div class='state'>
+<a alt="Find Massachusetts&#39; High Schools and Colleges" href="/massachusetts" title="Find Massachusetts&#39; High Schools and Colleges">Massachusetts</a>
+</div>
+<div class='state'>
+<a alt="Find Maryland&#39;s High Schools and Colleges" href="/maryland" title="Find Maryland&#39;s High Schools and Colleges">Maryland</a>
+</div>
+<div class='state'>
+<a alt="Find Maine&#39;s High Schools and Colleges" href="/maine" title="Find Maine&#39;s High Schools and Colleges">Maine</a>
+</div>
+<div class='state'>
+<a alt="Find Michigan&#39;s High Schools and Colleges" href="/michigan" title="Find Michigan&#39;s High Schools and Colleges">Michigan</a>
+</div>
+<div class='state'>
+<a alt="Find Minnesota&#39;s High Schools and Colleges" href="/minnesota" title="Find Minnesota&#39;s High Schools and Colleges">Minnesota</a>
+</div>
+<div class='state'>
+<a alt="Find Missouri&#39;s High Schools and Colleges" href="/missouri" title="Find Missouri&#39;s High Schools and Colleges">Missouri</a>
+</div>
+<div class='state'>
+<a alt="Find Mississippi&#39;s High Schools and Colleges" href="/mississippi" title="Find Mississippi&#39;s High Schools and Colleges">Mississippi</a>
+</div>
+<div class='state'>
+<a alt="Find Montana&#39;s High Schools and Colleges" href="/montana" title="Find Montana&#39;s High Schools and Colleges">Montana</a>
+</div>
+<div class='state'>
+<a alt="Find North Carolina&#39;s High Schools and Colleges" href="/north-carolina" title="Find North Carolina&#39;s High Schools and Colleges">North Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find North Dakota&#39;s High Schools and Colleges" href="/north-dakota" title="Find North Dakota&#39;s High Schools and Colleges">North Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Nebraska&#39;s High Schools and Colleges" href="/nebraska" title="Find Nebraska&#39;s High Schools and Colleges">Nebraska</a>
+</div>
+<div class='state'>
+<a alt="Find New Hampshire&#39;s High Schools and Colleges" href="/new-hampshire" title="Find New Hampshire&#39;s High Schools and Colleges">New Hampshire</a>
+</div>
+<div class='state'>
+<a alt="Find New Jersey&#39;s High Schools and Colleges" href="/new-jersey" title="Find New Jersey&#39;s High Schools and Colleges">New Jersey</a>
+</div>
+<div class='state'>
+<a alt="Find New Mexico&#39;s High Schools and Colleges" href="/new-mexico" title="Find New Mexico&#39;s High Schools and Colleges">New Mexico</a>
+</div>
+<div class='state'>
+<a alt="Find Nevada&#39;s High Schools and Colleges" href="/nevada" title="Find Nevada&#39;s High Schools and Colleges">Nevada</a>
+</div>
+<div class='state'>
+<a alt="Find New York&#39;s High Schools and Colleges" href="/new-york" title="Find New York&#39;s High Schools and Colleges">New York</a>
+</div>
+<div class='state'>
+<a alt="Find Ohio&#39;s High Schools and Colleges" href="/ohio" title="Find Ohio&#39;s High Schools and Colleges">Ohio</a>
+</div>
+<div class='state'>
+<a alt="Find Oklahoma&#39;s High Schools and Colleges" href="/oklahoma" title="Find Oklahoma&#39;s High Schools and Colleges">Oklahoma</a>
+</div>
+<div class='state'>
+<a alt="Find Oregon&#39;s High Schools and Colleges" href="/oregon" title="Find Oregon&#39;s High Schools and Colleges">Oregon</a>
+</div>
+<div class='state'>
+<a alt="Find Pennsylvania&#39;s High Schools and Colleges" href="/pennsylvania" title="Find Pennsylvania&#39;s High Schools and Colleges">Pennsylvania</a>
+</div>
+<div class='state'>
+<a alt="Find Puerto Rico&#39;s High Schools and Colleges" href="/puerto-rico" title="Find Puerto Rico&#39;s High Schools and Colleges">Puerto Rico</a>
+</div>
+<div class='state'>
+<a alt="Find Rhode Island&#39;s High Schools and Colleges" href="/rhode-island" title="Find Rhode Island&#39;s High Schools and Colleges">Rhode Island</a>
+</div>
+<div class='state'>
+<a alt="Find South Carolina&#39;s High Schools and Colleges" href="/south-carolina" title="Find South Carolina&#39;s High Schools and Colleges">South Carolina</a>
+</div>
+<div class='state'>
+<a alt="Find South Dakota&#39;s High Schools and Colleges" href="/south-dakota" title="Find South Dakota&#39;s High Schools and Colleges">South Dakota</a>
+</div>
+<div class='state'>
+<a alt="Find Tennessee&#39;s High Schools and Colleges" href="/tennessee" title="Find Tennessee&#39;s High Schools and Colleges">Tennessee</a>
+</div>
+<div class='state'>
+<a alt="Find Texas&#39; High Schools and Colleges" href="/texas" title="Find Texas&#39; High Schools and Colleges">Texas</a>
+</div>
+<div class='state'>
+<a alt="Find Utah&#39;s High Schools and Colleges" href="/utah" title="Find Utah&#39;s High Schools and Colleges">Utah</a>
+</div>
+<div class='state'>
+<a alt="Find Virginia&#39;s High Schools and Colleges" href="/virginia" title="Find Virginia&#39;s High Schools and Colleges">Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Vermont&#39;s High Schools and Colleges" href="/vermont" title="Find Vermont&#39;s High Schools and Colleges">Vermont</a>
+</div>
+<div class='state'>
+<a alt="Find Washington&#39;s High Schools and Colleges" href="/washington" title="Find Washington&#39;s High Schools and Colleges">Washington</a>
+</div>
+<div class='state'>
+<a alt="Find Wisconsin&#39;s High Schools and Colleges" href="/wisconsin" title="Find Wisconsin&#39;s High Schools and Colleges">Wisconsin</a>
+</div>
+<div class='state'>
+<a alt="Find West Virginia&#39;s High Schools and Colleges" href="/west-virginia" title="Find West Virginia&#39;s High Schools and Colleges">West Virginia</a>
+</div>
+<div class='state'>
+<a alt="Find Wyoming&#39;s High Schools and Colleges" href="/wyoming" title="Find Wyoming&#39;s High Schools and Colleges">Wyoming</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer_directory'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-6 hidden-xs'>
+High School and College Directory:
+<a alt="Schools beginning with &quot;A&quot;" href="/schools/directory/a" title="Schools beginning with &quot;A&quot;">a</a>
+<a alt="Schools beginning with &quot;B&quot;" href="/schools/directory/b" title="Schools beginning with &quot;B&quot;">b</a>
+<a alt="Schools beginning with &quot;C&quot;" href="/schools/directory/c" title="Schools beginning with &quot;C&quot;">c</a>
+<a alt="Schools beginning with &quot;D&quot;" href="/schools/directory/d" title="Schools beginning with &quot;D&quot;">d</a>
+<a alt="Schools beginning with &quot;E&quot;" href="/schools/directory/e" title="Schools beginning with &quot;E&quot;">e</a>
+<a alt="Schools beginning with &quot;F&quot;" href="/schools/directory/f" title="Schools beginning with &quot;F&quot;">f</a>
+<a alt="Schools beginning with &quot;G&quot;" href="/schools/directory/g" title="Schools beginning with &quot;G&quot;">g</a>
+<a alt="Schools beginning with &quot;H&quot;" href="/schools/directory/h" title="Schools beginning with &quot;H&quot;">h</a>
+<a alt="Schools beginning with &quot;I&quot;" href="/schools/directory/i" title="Schools beginning with &quot;I&quot;">i</a>
+<a alt="Schools beginning with &quot;J&quot;" href="/schools/directory/j" title="Schools beginning with &quot;J&quot;">j</a>
+<a alt="Schools beginning with &quot;K&quot;" href="/schools/directory/k" title="Schools beginning with &quot;K&quot;">k</a>
+<a alt="Schools beginning with &quot;L&quot;" href="/schools/directory/l" title="Schools beginning with &quot;L&quot;">l</a>
+<a alt="Schools beginning with &quot;M&quot;" href="/schools/directory/m" title="Schools beginning with &quot;M&quot;">m</a>
+<a alt="Schools beginning with &quot;N&quot;" href="/schools/directory/n" title="Schools beginning with &quot;N&quot;">n</a>
+<a alt="Schools beginning with &quot;O&quot;" href="/schools/directory/o" title="Schools beginning with &quot;O&quot;">o</a>
+<a alt="Schools beginning with &quot;P&quot;" href="/schools/directory/p" title="Schools beginning with &quot;P&quot;">p</a>
+<a alt="Schools beginning with &quot;Q&quot;" href="/schools/directory/q" title="Schools beginning with &quot;Q&quot;">q</a>
+<a alt="Schools beginning with &quot;R&quot;" href="/schools/directory/r" title="Schools beginning with &quot;R&quot;">r</a>
+<a alt="Schools beginning with &quot;S&quot;" href="/schools/directory/s" title="Schools beginning with &quot;S&quot;">s</a>
+<a alt="Schools beginning with &quot;T&quot;" href="/schools/directory/t" title="Schools beginning with &quot;T&quot;">t</a>
+<a alt="Schools beginning with &quot;U&quot;" href="/schools/directory/u" title="Schools beginning with &quot;U&quot;">u</a>
+<a alt="Schools beginning with &quot;V&quot;" href="/schools/directory/v" title="Schools beginning with &quot;V&quot;">v</a>
+<a alt="Schools beginning with &quot;X&quot;" href="/schools/directory/x" title="Schools beginning with &quot;X&quot;">x</a>
+<a alt="Schools beginning with &quot;Y&quot;" href="/schools/directory/y" title="Schools beginning with &quot;Y&quot;">y</a>
+<a alt="Schools beginning with &quot;Z&quot;" href="/schools/directory/z" title="Schools beginning with &quot;Z&quot;">z</a>
+<a alt="Schools beginning with numbers" href="/schools/directory/%23" title="Schools beginning with numbers">#</a>
+</div>
+<div class='col-xs-6 hidden-xs'>
+Teacher and Professor Directory:
+<a alt="Teachers beginning with &quot;A&quot;" href="/teachers/directory/a" title="Teachers beginning with &quot;A&quot;">a</a>
+<a alt="Teachers beginning with &quot;B&quot;" href="/teachers/directory/b" title="Teachers beginning with &quot;B&quot;">b</a>
+<a alt="Teachers beginning with &quot;C&quot;" href="/teachers/directory/c" title="Teachers beginning with &quot;C&quot;">c</a>
+<a alt="Teachers beginning with &quot;D&quot;" href="/teachers/directory/d" title="Teachers beginning with &quot;D&quot;">d</a>
+<a alt="Teachers beginning with &quot;E&quot;" href="/teachers/directory/e" title="Teachers beginning with &quot;E&quot;">e</a>
+<a alt="Teachers beginning with &quot;F&quot;" href="/teachers/directory/f" title="Teachers beginning with &quot;F&quot;">f</a>
+<a alt="Teachers beginning with &quot;G&quot;" href="/teachers/directory/g" title="Teachers beginning with &quot;G&quot;">g</a>
+<a alt="Teachers beginning with &quot;H&quot;" href="/teachers/directory/h" title="Teachers beginning with &quot;H&quot;">h</a>
+<a alt="Teachers beginning with &quot;I&quot;" href="/teachers/directory/i" title="Teachers beginning with &quot;I&quot;">i</a>
+<a alt="Teachers beginning with &quot;J&quot;" href="/teachers/directory/j" title="Teachers beginning with &quot;J&quot;">j</a>
+<a alt="Teachers beginning with &quot;K&quot;" href="/teachers/directory/k" title="Teachers beginning with &quot;K&quot;">k</a>
+<a alt="Teachers beginning with &quot;L&quot;" href="/teachers/directory/l" title="Teachers beginning with &quot;L&quot;">l</a>
+<a alt="Teachers beginning with &quot;M&quot;" href="/teachers/directory/m" title="Teachers beginning with &quot;M&quot;">m</a>
+<a alt="Teachers beginning with &quot;N&quot;" href="/teachers/directory/n" title="Teachers beginning with &quot;N&quot;">n</a>
+<a alt="Teachers beginning with &quot;O&quot;" href="/teachers/directory/o" title="Teachers beginning with &quot;O&quot;">o</a>
+<a alt="Teachers beginning with &quot;P&quot;" href="/teachers/directory/p" title="Teachers beginning with &quot;P&quot;">p</a>
+<a alt="Teachers beginning with &quot;Q&quot;" href="/teachers/directory/q" title="Teachers beginning with &quot;Q&quot;">q</a>
+<a alt="Teachers beginning with &quot;R&quot;" href="/teachers/directory/r" title="Teachers beginning with &quot;R&quot;">r</a>
+<a alt="Teachers beginning with &quot;S&quot;" href="/teachers/directory/s" title="Teachers beginning with &quot;S&quot;">s</a>
+<a alt="Teachers beginning with &quot;T&quot;" href="/teachers/directory/t" title="Teachers beginning with &quot;T&quot;">t</a>
+<a alt="Teachers beginning with &quot;U&quot;" href="/teachers/directory/u" title="Teachers beginning with &quot;U&quot;">u</a>
+<a alt="Teachers beginning with &quot;V&quot;" href="/teachers/directory/v" title="Teachers beginning with &quot;V&quot;">v</a>
+<a alt="Teachers beginning with &quot;X&quot;" href="/teachers/directory/x" title="Teachers beginning with &quot;X&quot;">x</a>
+<a alt="Teachers beginning with &quot;Y&quot;" href="/teachers/directory/y" title="Teachers beginning with &quot;Y&quot;">y</a>
+<a alt="Teachers beginning with &quot;Z&quot;" href="/teachers/directory/z" title="Teachers beginning with &quot;Z&quot;">z</a>
+</div>
+</div>
+<div class='row footer_countries_list'>
+<div class='col-xs-12'>
+RateMyTeachers International:
+<a alt="United States" class="country" href="http://www.ratemyteachers.com" title="United States">United States</a>
+<a alt="Canada" class="country" href="http://ca.ratemyteachers.com" title="Canada">Canada</a>
+<a alt="United Kingdom" class="country" href="http://uk.ratemyteachers.com" title="United Kingdom">United Kingdom</a>
+<a alt="Australia" class="country" href="http://au.ratemyteachers.com" title="Australia">Australia</a>
+<a alt="New Zealand" class="country" href="http://nz.ratemyteachers.com" title="New Zealand">New Zealand</a>
+<a alt="Ireland" class="country" href="http://ie.ratemyteachers.com" title="Ireland">Ireland</a>
+</div>
+</div>
+</div>
+</section>
+<section class='container-fluid' id='footer'>
+<div class='container'>
+<div class='row footer_links'>
+<div class='col-xs-12'>
+<h3 class='hidden-sm hidden-md hidden-lg'>Quick Links</h3>
+<ul>
+<li>
+<a alt="RateMyTeachers Frequently Asked Questions" href="/faq" title="RateMyTeachers Frequently Asked Questions">FAQ</a>
+</li>
+<li>
+<a data-backdrop='static' data-keyboard data-target='#modal' data-toggle='modal' href='/contact/new' title='Contact RateMyTeachers'>
+Contact
+</a>
+</li>
+<li>
+<a href="/terms" title="RateMyTeachers Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a alt="RateMyTeachers Privacy Policy" href="/privacy" title="RateMyTeachers Privacy Policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/site-guidelines" title="RateMyTeachers Site Guidelines">Site Guidelines</a>
+</li>
+<li>
+<a href="/copyright" title="RateMyTeachers Copyright Compliance">Copyright Compliance</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='row copyright'>
+© 2014 RateMyTeachers
+All Rights Reserved
+</div>
+</div>
+</section>
+<div aria-hidden='true' class='modal fade' id='modal' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div aria-hidden='true' class='modal fade' id='modal_rating' role='dialog' style='width: auto;' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'></div>
+</div>
+</div>
+<div id='loading-indicator' style='display: none;'>
+<div>
+Please wait...
+<br>
+<img alt="Ajax loader" src="/assets/ajax-loader-e483da860d5177651d2a88eda6a66b00.gif" />
+</div>
+</div>
+
+    </div>
+
+  <!-- loading JS at the end to speed up page loading -->
+    <script type="text/javascript">
+  window._pt_sp_2 = [];
+  _pt_sp_2.push('setAccount,42a92f26');
+  var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+
+  (function()
+  { var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true; atag.src = _protocol + 'js.ptengine.com/pta.js'; var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true; stag.src = _protocol + 'js.ptengine.com/pts.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s); }
+
+  )();
+  </script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery || document.write(unescape('%3Cscript src="/assets/jquery-92f6843043abf957b96f7fad2afbc022.js">%3C/script>'))
+//]]>
+</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery.ui || document.write(unescape('%3Cscript src="/assets/jquery-ui-e3d1c2f8bca4b46c2d38af5aa36cbc30.js">%3C/script>'))
+//]]>
+</script>
+  <script src="/assets/application-24584bf75994ef613eb3ccdfa2070ffb.js"></script>
+  <script>
+  var resultCount = 50;
+  var minStickyResultCount = 20;
+  var schoolPagePath = '/george-ellery-hale-charter-academy/42308-s';
+  var stickyColumnLeft = $(".sticky_container_left .sticky_column");
+  var stickyColumnRight = $(".sticky_container_right .sticky_column");
+  var stickyColumnCenter = $(".sticky_container_center .sticky_column");
+  var footerHeight = $('#all_footer_wrapper').outerHeight();
+  var stickyOptions = function(getWidthFrom, topSpacing) {
+    if (typeof(topSpacing) === 'undefined') {
+      topSpacing = 10;
+    }
+    return {topSpacing: topSpacing, getWidthFrom: getWidthFrom, responsiveWidth: true, bottomSpacing: footerHeight};
+  }
+  stickyColumnLeft.sticky(stickyOptions('.sticky_container_left'));
+  stickyColumnRight.sticky(stickyOptions('.sticky_container_right'));
+
+  // Make center column options sticky when min results quantity
+  if (resultCount > minStickyResultCount - 1) {
+    stickyColumnCenter.sticky(stickyOptions('.sticky_container_center', 0));
+  }
+
+  // Beating Chrome bug
+  var fixEventStep1 = function() {
+    setTimeout(function() {
+      var secondaryInfo = $('.secondary_info');
+      secondaryInfo.css('min-height', secondaryInfo.height() + 'px');
+    }, 1);
+  };
+  var fixEventStep2 = function() {
+    $('.secondary_info').css('min-height', '');
+  };
+  stickyColumnLeft.on('sticky-start', fixEventStep1);
+  stickyColumnLeft.on('sticky-end', fixEventStep2);
+</script>
+
+
+  
+
+
+
+  <!-- [:desktop] 14c51a5@rails2 - 2014-12-24 21:49:18 +0000-->
+</body>
+</html>
